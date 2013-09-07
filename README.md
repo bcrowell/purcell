@@ -2,6 +2,7 @@ Purcell, Electricity and Magnetism
 ============
 
 This classic textbook was written during the Sputnik era as part of a collaboration
+at UC Berkeley
 funded by the National Science Foundation. The copyright page of the original 1965 edition
 includes a notice stating that it is available for use by authors and publishers on
 a royalty-free basis after 1970. The book has gone through two more editions since then,
