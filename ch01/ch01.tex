@@ -203,3 +203,244 @@ charged particles simply as carriers of charge, with dimensions so small
 that
 
 %%% ... partial sentence
+
+\section{Flux}
+
+The relation between the electric field and its sources can be
+expressed in a remarkable simple way, one that we shall find very
+useful. For this we need to define a quantity called \emph{flux}.
+
+Consider some electric field in space and in this space some
+arbitrary closed surface, like a balloon of any shape. Figure 1.13
+shows such a surface, the field being suggested by a few field lines.
+Now divide the whole surface into little patches which are so small
+that over any on patch the surface is practically flat and the vector
+field does not change appreciably from one part of a patch to
+another. In other words, don't let the balloon be too crinkly, and
+don't let its surface pass right through a singularity \footnote{By a
+singularity of the field we would ordinarily mean not only a point
+source where the field approaches infinity, but any place where the
+field changes magnitude or direction discontinuously, such as an
+infinitesimally thin layer of concentrated charge.
+Actually this latter, milder, kind of singularity would cause no
+difficulty here unless out balloon's surface were to coincide with
+the surface of discontinuity over some finite area.} of the field
+such as a point charge. The area of a patch defines a unique
+direction ---the outward-pointing normal to its surface. (Since the
+surface is closed you can tell its inside from its outside; there is
+no ambiguity.) Let this magnitude and direction be represented by a
+vector. Then for every patch into which the surface has been divided,
+such as patch number $j$, we have a vector $\vc{a}_j$, giving its area
+and orientation. The steps we have just taken are pictured in Fig.
+1.13b and c. Note the vector $\vc{a}_j$ does not depend at all on
+the shape of the patch; it doesn't matter how we have divided up the
+surface, as long as the patches are small enough.
+
+Let $\vc{E}_j$ be the electric field vector at the location of patch
+number $j$. The scalar product $\vc{E}_j \cdot a_j$ is a number.
+We call this number the \emph{flux} through that bit of surface.
+To understand the origin of the same name, imagine a vector function
+which represents the velocity of motion in a fluid ---say in a river,
+where the velocity varies from one place to another but is constant
+in time at any one position. Denote this vector field by $v$,
+measured, say, in feet per second. Then if $a$ is the oriented area,
+in square feed, of a frame lowered into the water, $\vc{v} \cdot \vc{a}$
+is the \emph{rate of flow} of water through the fame in cubic feet
+per second (Fig. 1.14). We must emphasize that our definition of
+flux is applicable to any vector function, whatever physical variable
+it may represent.
+
+Now let us add up all the flux through all the patches to get the
+flux through the entire surface, a scalar quantity which we shall
+denote by $\Phi$:
+\begin{equation} 
+  \Phi= \sum\limits_{\text{All}~j}\vc{E}_j \cdot \vc{a}_j 
+\end{equation}
+Letting the paths become smaller and more numerous without limit, we
+pass from the sum in Eq. 16 to a surface integral:
+\begin{equation}
+  \Phi= \int\nolimits_{\substack{\text{Entire}\\\text{surface}}}\vc{E} \cdot d\vc{a}
+\end{equation}
+A surface integral of any vector function $\vc{F}$, over a surface
+$S$, means just this: Divide $S$ into small patches, each represented
+by a vector outward, of magnitude equal to the patch area; at every
+patch, take the scalar product of the patch area vector and the local
+$\vc{F}$; sum all these products, and the limit of this sum, as the
+patches shrink, is the surface integral, Do not be alarmed by the
+prospect of having to perform such a calculation for an awkwardly
+shaped surface like the one in Fig. 1.13. The surprising property
+we are about to demonstrate makes that unnecessary!
+
+\section{Gauss's law}
+
+Take the simplest case imaginable; suppose the field is that of a
+single isolated positive point charge $q$ and the surface is a sphere
+of radius $r$ centered on the point charge (Fig. 1.15. What is the
+flux $\Phi$ through this surface? The answer is easy because the
+magnitude of $\vc{E}$ at every point on the surface is $q/r^2$ and its
+direction is the same as that of the outward normal at that point.
+So we have:
+\begin{equation} 
+  \Phi =  {\vc{E}}\times \text{total area} = \frac{q}{r^2} \times 4\pi r^2 =  4\pi q 
+\end{equation}
+The flux is independent of the size of the sphere.
+
+% p. 24
+
+Now imagine a second surface, or balloon, enclosing the first, but
+\emph{not} spherical, as in Fig 1.16. We claim that the total flux
+through this surface is the same as that through the sphere.
+To see this, look at a cone, radiating from $q$, which cuts a small
+patch $\vc{a}$ out of the sphere and continues on to the outer surface
+where it cuts out a patch $\vc{A}$ at a distance $R$ from the point
+charge. The area of the patch $\vc{A}$ is larger than that of the patch
+$\vc{a}$ by two factors: first, by the ration of the distance squared
+$(R/r)^2$; and second, owing to its inclination, by the factor
+$(1/\cos\theta)$. The angle $\theta$ is the angle between the outward
+normal and the radial direction (see Fig. 1.16). The electric field
+in that neighborhood is reduced from its magnitude on the sphere by
+the factor $(r/R)^2$ and is still radially directed.
+Letting $\vc{E}_{(r)}$ be the field at the sphere,
+we have:
+
+\begin{gather*}
+\text{Flux through outer patch} =  \vc{E}_{(R)} \cdot \vc{A} =   E_ {(R)}  A\cos\theta \\
+\text{Flux through inner patch} =  \vc{E}_ {(r)} \cdot \vc{a} =   E_ {(r)}  a \\
+E_r A\cos\theta =  \left[E_r \left(\frac{r}{(R)} \right)^2  \right]
+                   \left[a\left(\frac{R}{r} \right)^2  \frac{1}{\cos\theta}\right]
+                   \cos\theta =  E_r a
+\end{gather*}
+
+\noindent This proves the flux through the two patches is the same.
+
+Now every patch on the outer surface can in this way be put into
+correspondence with part of the spherical surface, so the total flux
+must be the same through the two surfaces. That is, the flux through
+the new surface must be just $4 \pi q$. But this was a surface of
+\emph{arbitrary} shape and size. \footnote{To be sure, we had the
+second surface enclosing the sphere, but it didn't have to, really.
+Besides, the sphere can betaken as small as we please.} We conclude:
+the flux of the electric field through \emph{any} surface enclosing a
+point charge $q$ is $4 \pi q$. As a corollary we can say that the
+goal flux through a closed surface is \emph{outside} the surface. We
+leave the proof of this to the reader, along with Fig. 1.17 as a
+hint of one possible line of argument.
+
+There is a way of looking at all this which makes the result seem
+obvious. Imagine at $q$ a source which emits particles ---such as
+bullets or photons ---in all directions at a steady rate. Clearly the
+flux of particles through a window of unit area will fall off with
+the inverse square of the window's distance from $q$. Hence we can
+draw an analogy between the electric field strength $E$ and the
+intensity of particle flow in bullets per unit area per unit time. It
+is pretty obvious that the flux of bullets through any surface
+completely surrounding $q$ is independent of the size and shape of
+that surface, for it is just the total number emitted per unit time.
+Correspondingly, the flux of $E$ through the closed surface must be
+independent of size 
+% p. 25
+and shape. The common feature
+responsible for this is the inverse-square behavior of the intensity.
+
+The situation is now ripe for superposition! Any electric field is
+the sum of the fields of its individual sources. This property was
+expressed in our statement, Eq. 13, of Coulomb's law. Clearly flux
+is an additive quantity in the same sense, for if we have a number of
+sources $q_1$, $q_2$, \ldots $q_N$, the fields of which, if each were
+present alone, would be $\vc{E}_1$, $\vc{E}_2$, \ldots $\vc{E}_N$, the
+flux $\Phi$ through some surface $S$ in the actual field can be written
+
+\begin{equation}
+  \Phi =  \int\nolimits_{S}{} E \cdot d
+  \vc{a} =  \int\nolimits_{{S}}{}[\vc{E}_1 +
+  \vc{E}_2 + \ldots + \vc{E}_N] \cdot d \vc{a} 
+\end{equation}
+
+We have just learned that $\int\nolimits_{S}{} \vc{E} \cdot d\vc{a}$
+equals $4 \pi q_n$ if the charge $q_n$ is inside $S$ and
+equals zero otherwise. So every charge $q$ inside the surface
+contributes exactly $4 \pi q$ to the surface integral of Eq. 20 and
+all charges outside contribute nothing. We have arrived at Gauss's
+law:
+
+\begin{framed}
+The flux of the electric field \vc{E} through any closed surface,
+that is, the integral $\int {\vc{E}} \cdot d \vc{a}$ over
+the surface, equals $4\pi$ times the goal charge enclosed by the
+surface:
+
+\begin{equation} 
+  \int {\vc{E}} \cdot d \vc{a} =  4\pi \sum_i q_i =  4\pi \int \rho dv 
+\end{equation}
+\end{framed}
+
+We call the statement in the box a \emph{law} because it is
+equivalent to Coulomb's law and could serve equally well as the basic
+law of electrostatic interactions, after charge and field have been
+defined. Gauss's law and Coulomb's law are not two independent
+physical laws, but the same law expressed in different ways.
+\footnote{There is one difference, inconsequential here, but relevant
+to our later study of the fields of moving charges. Gauss's law is
+obeyed by a wider class of fields than those represented by the
+electrostatic fired. In particular, a field that is inverse-square in
+$r$ but not spherically symmetrical can satisfy Gauss's law.
+
+In other words, Gauss's law alone does not imply the symmetry of the
+field of a point source which is implicit in Coulomb's law.}
+
+Looking back over our proof, we see that it hinged on the
+inverse-square nature of the interaction and of course on additivity
+of interactions, or superposition. Thus the theorem is applicable to
+any inverse-square field in physics, for instance to the
+gravitational field, as discussed in Vol. I, Chap. $9$.
+
+It is easy to see that Gauss's law would \emph{not} hold if the law
+of force were, say, inverse-cube. For in that case the flux of
+electric field 
+% p. 26
+from a point charge $q$ through a sphere
+through a sphere of radius $R$ centered on the charge would be
+
+\begin{equation} 
+\Phi =  \vc{\int E} \cdot d \vc{a} = \frac{q}{R^3} \cdot 4 \pi R^2 =  \frac{4 \pi q}{R}
+\end{equation}
+
+By making the sphere large enough we could make the flux through it
+as small as we pleased, while the total charge inside remained
+constant.
+
+This remarkable theorem enlarges our graph in two ways. First, it
+reveals a connection between the field and its sources that is
+converse to Coulomb's law. Coulomb's law tells us how to derive the
+electric field if the charges are given; with Gauss's law we can
+determine how much charge is in any region if the field is known.
+
+Second, the mathematical relation here demonstrated is a powerful
+analytic tool; it can make complicated problems easy, as we shall see.
+
+\section{Field of a spherical charge distribution}
+
+We can use Gauss's law to find the electric field of a spherically
+symmetrical distribution of charge, that is, a distribution in which
+the charge density $\rho$ depends only on the radius from a central
+point. Figure 1.18 depicts a cross section through some such
+distribution. In this one the charge density is high at the center,
+decreases and then rises again with increasing distance from the
+center, and is ero beyond $r_0$. What is the electric field at some
+point such as $P_1$ arising from each elementary volume in the charge
+distribution. Lets try a different approach which exploits both the
+symmetry of the system and Gauss's law.
+
+Because of the spherical symmetry, the electric field at any point
+must be radially directed ---no other direction is unique.
+
+Likewise, the field magnitude $E$ must be the same at all points on a
+spherical surface $S_1$ of radius $r_1$, for all such points are
+equivalent. Call this field magnitude $E_1$. The flux through this
+surface $S_1$ is therefore simply $4 \pi r_1^2E_1$, and by Gauss's
+law this must be equal to $4\pi$ times the charge enclosed by the
+surface. That is, $4 \pi r_1^2E_1 =  4\pi$ (charge inside $S_1$ or
+
+\begin{equation} 
+  E_1 =  \frac{\text{charge inside $S_1$}}{r_1^2}
+\end{equation}
