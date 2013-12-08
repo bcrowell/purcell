@@ -97,7 +97,7 @@ system. We could let light pass into or out of the system without affecting the
 principle, since photons carry no charge. For instance, a thin-walled box in
 vacuum, exposed to gamma rays, might become the scene of a ``pair-creation''
 event in which a high-energy photon ends its existence with the creation of a
-negative electron and a positive electron (Fig. 1.1). Two electrically charged
+negative electron and a positive electron (Fig.~1.1). Two electrically charged
 particles have been newly created but the net change in total charge, in and on
 the box, is zero. An event that \emph{would} violate the law we have just
 stated would be the creation of a positively charged particle \emph{without}
@@ -200,9 +200,235 @@ forces between different parts of the electron would be repulsive.
 
 In our study of electricity and magnetism we shall treat the
 charged particles simply as carriers of charge, with dimensions so small
-that
+that their extension and structure is for most purposes quite
+insignificant. In the case of the proton for example, we know from
+high-energy scattering experiments that the electric charge does not
+extend appreciably beyond a radius of $10^{-13}$ cm. we recall that
+Rutherford's analysis of the scattering of alpha particles showed
+that even heavy nuclei have their electric charge distributed over a
+region smaller than $10^{-11}$ cm. For the physicist of the
+nineteenth century a ``point charge'' remained an abstract notion, of
+which a charge pith ball was a pretty poor realization. Today we are
+on familiar terms with the atomic particles. The graininess of
+electricity is so conspicuous on our modern description of nature
+that we find a point charge less of an artificial idealization than a
+smoothly varying distributions, we may think of them as averages over
+very large numbers of elementary charges, in the same way that we can
+define the macroscopic density of a liquid, its lumpiness on a
+molecular scale not withstanding. On objects much bigger than
+Millikan's oil drops the quantization of charge is not very
+noticeable!
 
-%%% ... partial sentence
+\section{Coulomb's Law}
+
+ As you probably already know, the interaction
+between electric charges at rest is described by Coulomb's law: Two
+stationary electric charges repel or attract one another with a force
+proportional to the product of the magnitude of the charges and
+inversely proportional to the square of the distance between them. We
+can state this compactly in vector form: 
+
+\begin{equation}
+  \vc{F}_2=k\frac{q_1q_2\hat{\vc{r}}_{21}}{r_{21}^2}
+\end{equation}
+\noindent Here
+$q_1$ and $q_2$ are numbers (scalars) giving the magnitude and sign
+of the respective charges, $r_{21}$ is the unit vector in the direction
+\footnote{The convention we adopt here may not seem the natural
+choice but it is more consistent with the usage in some other parts
+of physics and we shall try to follow it throughout this book.} from
+charge 1 to charge 2, and $\vc{F}_2$ is the force acting on charge 2. Thus
+Eq. 1 expresses, among other things, the fact that like charges repel
+and unlike attract, and that the force is Newtonian; that is
+$\vc{F}_2=-\vc{F}_1$. The unit vector $r_{21}$ shows that the force is parallel
+to the line joining the charges. It could not be otherwise unless
+space itself has some built-in directional property, for with two
+point charges alone in empty and isotropic space, no other direction
+could be singled out.
+
+If the "point charge'' itself had some internal structure, with an
+axis defining a direction, then it would have to be described by more
+than the mere scalar quantity q. We suppose, in writing Eq. 1, that
+both charges are we localized, occupying regions small compared to
+$r_{21}$; if not, $r_{21}$ could not be defines so as to make Eq. 1
+generally valid. The restriction to stationary charges is make for
+the present, to exclude the question of magnetic forces arising from
+moving charges, which we shall study in a later chapter. The constant
+$k$ has been included in Eq. 1 to take care of the units. Usually we
+shall choose to measure $r_{21}$ in centimeters;  $\vc{F}$ in dynes; and
+charge in CGS \emph{electrostatic units}, or esu. In that case, $k$
+is exactly one. Two charges each of one esu repel each other with a
+force of one dyne when they are one centimeter apart; we may regard
+Eq. 1, with $k$=1, as providing the definition of the unit of charge
+in the CGS electrostatic system of units. Sometimes we shall use the
+\emph{coulomb} as the unit of charge. This unit is usually
+encountered in the company of meter-kilogram-second units. Its
+magnitude is such that with charge expressed in coulombs, and
+distance in meters, Eq. 1 gives the force in newtons, providing $k$
+is given the value $8.9875\times 10^{9}$. The reason for introducing
+the coulomb is its simple relation to the common electrical units
+(ampere, volt, ohm, and watt), which we use in engineering, in the
+laboratory, and in our everyday life. A charge of one coulomb amounts
+to $2.988\times 10^{9}$ esu.\footnote {The number 2.998 which
+appears above and will appear later in other electrical unit
+conversions may remind you of the speed of light. In fact that is
+where it comes from, by a route we need not now explore. Often you
+will find in books and tables simply the factor 3 instead. Strictly,
+every factor 3 in an electrical unit conversion ought to be
+$2.99792\ldots$, or whatever is the established significant-figure part of
+the speed of light in metric units.}
+
+The only way we have of detection and measuring electric charges is
+by observing the interaction of charges bodies. One might wonder,
+then, how much of the apparent content of Coulomb's law is really
+only definition. As is stands, the significant physical content is
+the statement of inverse-square dependence, and the implication that
+electric charge is \emph{additive} in its effect. To bring out the
+latter point, we have to consider \emph{more} than two charges. After
+all, if we had only two charges in he world to experiment with, $q_1$
+and $q_2$, we could never measure them separately. We could verify
+only that f is proportional to $1/r_{{21}}^2$. Suppose we have
+\emph{three} bodies carrying charges $q_1$, $q_2$, and $q_3$. We can
+measure the force on $q_1$ when $q_2$ is 10 cm away from $q_1$ and
+$q_3$ is very far away, as in Fig.~1.2a. Then we can take $q_2$
+
+Away, bring $q_3$ into $q_2$'s former position and again measure the
+force on $q_1$. Finally, we bring $q_2$ and $q_3$ very close together
+and locate the combination 10 cm from $q_1$. We find by measurement
+that the force on $q_1$ is equal to the sum of the forces previously
+measured. This is a significant result that could \emph{not} have
+been predicted by logical arguments from symmetry like the one we
+used above to show that the force between two points charges
+\emph{had} to be along the line joining them. \emph{The force with
+which two charges interact is not changes by the presence of a third
+charge.} No matter how many charges we have in our system, Coulomb's
+law (Eq. 1) can be used to calculate the interaction of every pair.
+This is the basis of a principle of \emph{superposition}, which we
+shall invoke again and again in our study of electromagnetism.
+Superposition means combining two sets of sources into one system by
+adding the second system "on top of'' the first without altering the
+configuration of either one. Our principle assures us that the force
+on a charge places at any point in the combined system will be the
+vector sum of the forces that each set of sources, acting alone,
+causes to act on a charge at that point. This principle must not be
+taken lightly for granted. There may well be a domain of phenomena,
+involving very small distances or very intense forces, where
+superposition \emph{no longer holds}.  Indeed, we know of quantum
+phenomena in the electromagnetic field which do represent a failure
+of superposition, seen from the viewpoint of the classical theory.
+Thus the physics of electrical interactions comes into full view only
+when we have \emph{more} than two charges. We can go beyond the
+explicit statement of Eq. 1 and assert that with the three charges in
+Fig 1.2 occupying any positions whatever, the force on any one of
+them, such as $q_3$, is correctly given by this equation: 
+
+\begin{equation}
+\vc{F}_3= \frac{q_3q_1\hat{\vc{r}}_{31}}{r_{31}^2}+\frac{q_3q_2\hat{\vc{r}}_{32}}{r_{32}^2}
+\end{equation}
+
+\noindent Equation 2 applies for
+instance to the situation shown in Fig.~1.3. As for the
+inverse-square law, its experimental verification, over a certain
+range of distances, leaves little to be desired. In 1785 Coulomb
+measured with a torsion balance the force between small charged
+spheres. Many years before Coulomb, Priestly had suggested, by
+analogy with the gravitational field, that the absence of electrical
+influence inside a hollow charged sphere was proof of an
+inverse-square force. Henry Cavendish, the British experimental
+genius whose work was largely unknown to his contemporaries, carried
+out in 1722 a test of the inverse-square law accurate to about 2
+percent. Cavendish charges a spherical shell, which could then be
+separated into two halves to expose an inner globe. The absence of
+charge on the inner globe was proof of the inverse-square law.
+\footnote {As we shall discuss in Chap. 3, the field is zero inside
+any conducting shell, spherical or not. Cavendish, reasoning like
+Priestley by analogy with gravitation, seems not to have been aware
+of this more general consequence of the inverse-law square
+law.} Modern repetitions of Cavendish's test \footnote{S.J.~Plimpton
+and W.E.~Lawton, Phys.~Rev.~50, 1066 (1936).} have, in effect, checked
+the inverse-square law, over distances of the order of inches or
+feet, to an accuracy of a few parts in $10^{9}$.      Sometimes this
+experimental result is described as a test of the ``exponent'' in the
+inverse-square law. However, the real question is not whether -2 or
+some other number like -1.99998 is the correct exponent, but rather
+at what range of distances, if any, the inverse-square law breaks
+down. There are two domains in either of which, for all we can prove
+today by direct experiment, a breakdown might occur. The first is the
+domain of very small distances, distances less than $10^{-14}$ cm
+where, as we have already said, we have no assurance that
+electromagnetic theory will work at all. But also at very
+\emph{large} distances, from the geographical, say, to the
+astronomical, we have no experimental test of Coulomb's law as such.
+Now we have no particular reason to \emph{expect} a breakdown at
+large distances very much greater than those used in the latter-day
+Cavendish experiments. The reason is that cutoff, at large distances,
+of the inverse-square force would imply a small but finite rest mass
+for the light quantum, or photon, and consequently a slight variation
+with wavelength in the speed of electromagnetic waves in vacuum. It
+is known form direct observation\footnote{The best evidence so far
+is a recent observation of the practically simultaneous (within a few
+minutes, at most) arrival at the earth of radio emissions and light
+emissions from the eruptions of a ``flare star'' 20 light-years away
+from us [B.~Lovell, F.L.~Whipple, and L.H.~Solomon, \emph{Nature}
+202, 377 (1964)].}  that short radio waves travel through vacuum with
+the same speed as visible light, to an experimental accuracy at least
+as good as one part in $10^{6}$. From this it is possible to argue
+theoretically that Coulomb's law ought to be good up to distances of
+several kilometers at least. Probably even stronger indirect
+arguments of this sort could be made.      To summarize, we have
+every reason for confidence in Coulomb's law over the enormous range
+from $10^{-13}$ cm to many kilometers, if not farther, and we take it
+as the foundation of our description of electromagnetism.
+
+\section{Energy of a System of Charges}
+
+In principle, Coulomb's law is all there is to electrostatics given
+the charges and their locations we can fins all the electrical
+forces. Or given that the charges are free to move under the
+influence of other kinds of forces as well, we can find the
+equilibrium arrangement in which the charge distribution will remain
+stationary. In the same sense, Newton's laws of motion are all there
+is to mechanics. But in both mechanics and electromagnetism we gain
+power and insight by introducing other concepts, most notably that of
+energy. Energy is a useful concept here because electric forces are
+\emph{conservative}. Consider first the work which must be done
+\emph{on} the system to bring some charged bodies into a particular
+arrangement. Let us start as indicated at the top of Fig.~1.4,
+carrying charges $q_1$ and $q_2$. Whatever energy may have been
+needed to create these two concentrations of charge originally we
+shall leave entirely out of account. Bring the particles slowly
+together until the distance between them is $r_{12}$. How much work
+does it take? It makes no difference whether we bring $q_1$ toward
+$q_2$ or the other way around. In either case the work done is the
+integral of the product: force times
+displacement-in-direction-of-force. The force that has to be applied
+to move one charge toward the other is equal and opposite to the
+coulomb force.
+
+\begin{equation}
+  W = \int \text{force}\times\text{distance} 
+    = \int_{r=\infty}^{r_{12}} \frac{q_1q_2(-\der r)}{r^2} = \frac{q_1q_2}{r_{12}}
+\end{equation}
+
+Because $r$ is changing from  to $r_{12}$, the increment of
+displacement is $-\der r$. we know the work done on the system must be
+positive for charges of like sign; they have to be pushed together.
+With $q_1$ and $q_2$ in esu, and $r_{12}$ in centimeters, E. 3 gives
+the work in ergs. From our study of \emph{conservative} forces in
+Vol. 1 (see especially page 145, Vol.~1), we know that this work is
+the same whatever the path of approach. Let's review the argument as
+it applies to the two charges $q_1$ and $q_2$ in Fig.~1.5. There we
+have kept $q_1$ fixed and we show $q_2$ moved to the same final
+position along two different paths. Every spherical shell such as the
+one indicated between $r$ and $r plus \der r$ must be crossed by both
+paths. The increment of work involved, $-\vc{F}\cdot\der\vc{s}$ in this bit of path,
+is the same for the two paths. The reason is that $\vc{F}$ has the same
+magnitude at both places and is directed radially from $q_1$, while
+$\der s = \der r/\cos\theta$; hence $\vc{F}\cdot\der\vc{s} = F\: \der r$. Each increment of work
+alone one path is matched by a corresponding increment on the other,
+so the sums must be equal. Our conclusion
+
+% pp. 12-21 not done yet
 
 \section{Flux}\index{flux}
 
@@ -217,7 +443,7 @@ Now divide the whole surface into little patches which are so small
 that over any on patch the surface is practically flat and the vector
 field does not change appreciably from one part of a patch to
 another. In other words, don't let the balloon be too crinkly, and
-don't let its surface pass right through a singularity \footnote{By a
+don't let its surface pass right through a singularity\footnote{By a
 singularity of the field we would ordinarily mean not only a point
 source where the field approaches infinity, but any place where the
 field changes magnitude or direction discontinuously, such as an
@@ -246,7 +472,7 @@ in time at any one position. Denote this vector field by $v$,
 measured, say, in feet per second. Then if $a$ is the oriented area,
 in square feed, of a frame lowered into the water, $\vc{v} \cdot \vc{a}$
 is the \emph{rate of flow} of water through the fame in cubic feet
-per second (Fig. 1.14). We must emphasize that our definition of
+per second (Fig.~1.14). We must emphasize that our definition of
 flux is applicable to any vector function, whatever physical variable
 it may represent.
 
@@ -268,14 +494,14 @@ patch, take the scalar product of the patch area vector and the local
 $\vc{F}$; sum all these products, and the limit of this sum, as the
 patches shrink, is the surface integral, Do not be alarmed by the
 prospect of having to perform such a calculation for an awkwardly
-shaped surface like the one in Fig. 1.13. The surprising property
+shaped surface like the one in Fig.~1.13. The surprising property
 we are about to demonstrate makes that unnecessary!
 
 \section{Gauss's law}\index{Gauss's law}
 
 Take the simplest case imaginable; suppose the field is that of a
 single isolated positive point charge $q$ and the surface is a sphere
-of radius $r$ centered on the point charge (Fig. 1.15. What is the
+of radius $r$ centered on the point charge (Fig.~1.15. What is the
 flux $\Phi$ through this surface? The answer is easy because the
 magnitude of $\vc{E}$ at every point on the surface is $q/r^2$ and its
 direction is the same as that of the outward normal at that point.
@@ -297,7 +523,7 @@ charge. The area of the patch $\vc{A}$ is larger than that of the patch
 $\vc{a}$ by two factors: first, by the ration of the distance squared
 $(R/r)^2$; and second, owing to its inclination, by the factor
 $(1/\cos\theta)$. The angle $\theta$ is the angle between the outward
-normal and the radial direction (see Fig. 1.16). The electric field
+normal and the radial direction (see Fig.~1.16). The electric field
 in that neighborhood is reduced from its magnitude on the sphere by
 the factor $(r/R)^2$ and is still radially directed.
 Letting $\vc{E}_{(r)}$ be the field at the sphere,
@@ -317,13 +543,13 @@ Now every patch on the outer surface can in this way be put into
 correspondence with part of the spherical surface, so the total flux
 must be the same through the two surfaces. That is, the flux through
 the new surface must be just $4 \pi q$. But this was a surface of
-\emph{arbitrary} shape and size. \footnote{To be sure, we had the
+\emph{arbitrary} shape and size.\footnote{To be sure, we had the
 second surface enclosing the sphere, but it didn't have to, really.
 Besides, the sphere can betaken as small as we please.} We conclude:
 the flux of the electric field through \emph{any} surface enclosing a
 point charge $q$ is $4 \pi q$. As a corollary we can say that the
 goal flux through a closed surface is \emph{outside} the surface. We
-leave the proof of this to the reader, along with Fig. 1.17 as a
+leave the proof of this to the reader, along with Fig.~1.17 as a
 hint of one possible line of argument.
 
 There is a way of looking at all this which makes the result seem
