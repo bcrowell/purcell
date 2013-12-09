@@ -17,3 +17,5 @@ I request that users of this book not be jerks. In particular, the commercial ed
 has a solutions manual covering the ``exercises,'' i.e., the subset of the problems that don't have
 solutions in the back of the book. It would be an antisocial act to distribute solutions
 to these indiscriminately.
+
+The book's web page is here: http://www.lightandmatter.com/purcell/
