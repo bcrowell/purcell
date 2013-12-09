@@ -11,5 +11,6 @@
 % The following is set up so vectors are in upright bold.
 \newcommand{\vc}[1]{\ensuremath{\mathbf{#1}}}
 \newcommand{\der}{d} % match Purcell's style of italicizing the differential, but keep the option of changing later
+\newcommand{\zu}[1]{\textup{#1}}
 
 \renewcommand{\theequation}{\arabic{equation}}

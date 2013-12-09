@@ -431,35 +431,36 @@ so the sums must be equal. Our conclusion
 holds even for paths that loop in and out, like the dotted path in
 Fig. 1.5. (Why?)
 
-Returning now to the two charges as we left them in Fig. l.4b, let
-us bring in from some remote place a third charge q3 and move it to a
-point P3 whose distance from charge 1 is r31 cm and from charge 2,
-r32 cm. The work required to effect this will be
-
-(equation not yet converted)
-
+Returning now to the two charges as we left them in Fig. 1.4b, let
+us bring in from some remote place a third charge $q_3$ and move it to a
+point $P_3$ whose distance from charge 1 is $r_{31}$ cm and from charge 2,
+$r_{32}$ cm. The work required to effect this will be
+\begin{equation}
+  W_3 = -\int_\infty^{P_3} \vc{F}_3\cdot\der\vc{s}
+\end{equation}
 Thanks to the additivity of electrical interactions, which we have
 already emphasized,
-
-(equation not yet converted)
-
-That is, the work to bring q3 to P3 is the sum of the work needed when
-ql is present alone and that needed when qg is present alone.
-
-(equation not yet converted)
-
+\begin{equation}
+  -\int \vc{F}_3\cdot\der\vc{s} = - \int (\vc{F}_{31}+\vc{F}_{32})\cdot\der\vc{s}
+  = -\int \vc{F}_{31}\cdot\der\vc{s} -\int \vc{F}_{32}\cdot\der\vc{s}
+\end{equation}
+% Purcell's use of vector dr in third expression is a mistake.
+That is, the work to bring $q_3$ to $P_3$ is the sum of the work needed when
+$q_1$ is present alone and that needed when $q_2$ is present alone.
+\begin{equation}
+  W_3 = \frac{q_1q_3}{r_{31}}+\frac{q_2q_3}{r_{32}}
+\end{equation}
 The total work done in assembling this arrangement of three charges,
 which we shall call U, is therefore
-
-(equation not yet converted)
-
-We note that q1, ([2, and q3 appear symmetrically in the expression
-above, in spite of the fact that q3 was brought up last. We would have
-reached the same result if q3 had been brought in first. (Try it.)
-Thus U is independent of the order in which the charges were assem-
-bled. Since it is independent also of the route by which each charge
-
-was brought in, U must be a unique property of the final arrangement
+\begin{equation}
+  U = \frac{q_1q_2}{r_{21}}+\frac{q_1q_3}{r_{31}}+\frac{q_2q_3}{r_{32}}
+\end{equation}
+We note that $q_1$, $q_2$, and $q_3$ appear symmetrically in the expression
+above, in spite of the fact that $q_3$ was brought up last. We would have
+reached the same result if $q_3$ had been brought in first. (Try it.)
+Thus $U$ is independent of the order in which the charges were assembled.
+Since it is independent also of the route by which each charge
+was brought in, $U$ must be a unique property of the final arrangement
 of charges. We may call it the electrical potential energy of this par-
 ticular system. There is a certain arbitrariness, as always, in the defi-
 nition of a potential energy. In this case we have chosen the zero
@@ -470,29 +471,29 @@ is no meaningful way of assigning a certain fraction of it to one of the
 charges.
 
 It is obvious how this very simple result can be generalized to
-apply to any number of charges. If we have N diff"erent charges, in
+apply to any number of charges. If we have $N$ different charges, in
 any arrangement in space, the potential energy of the system is cal-
 culated by summing over all pairs, just as in Eq. 7. The zero of
-
 % p. 13
 potential energy, as in that case, corresponds to all charges far apart.
 
 As an example, let us calculate the potential energy of an arrange-
-ment of eight negative charges on the corners of a cube of side b,
+ment of eight negative charges on the corners of a cube of side $b$,
 with a positive charge in the center of the cube, as in Fig. 1.6a. Sup-
-pose each negative charge is an electron with charge --e, while the
-
-central particle carries a double positive charge, 2e. Summing over
+pose each negative charge is an electron with charge $-e$, while the
+central particle carries a double positive charge, $2e$. Summing over
 all pairs, we have:
-
-(equation not yet converted)
-
-Figure 1.6: shows where each term in this sum comes from. The
+\begin{equation}
+  U = \frac{8(-2e^2)}{(\sqrt{3}/2)b}+\frac{12e^2}{b}+\frac{12e^2}{\sqrt{2}b}
+    +\frac{4e^2}{\sqrt{3}b}
+    = \frac{4.32e^2}{b}
+\end{equation}
+Figure 1.6b shows where each term in this sum comes from. The
 energy is positive, indicating that work had to be done on the system
 to assemble it. That work could, of course, be recovered if we let the
 charges move apart, exerting forces on some external body or bodies.
 Or if the electrons were simply to ffy apart from this configuration,
-the total kinetic energy of all the particles would become equal to U.
+the total kinetic energy of all the particles would become equal to $U$.
 This would be true whether they came apart simultaneously and
 symmetrically, or were released one at a time in any order. Here
 we see the power of this simple notion of the total potential energy
@@ -503,36 +504,35 @@ geometrical symmetry would simplify that task; even so it would be
 more complicated than the simple calculation above.
 
 One way of writing the instruction for the sum over pairs is this:
+\begin{equation}
+  U = \frac{1}{2} \sum_{j=1}^N \sum_{k\ne j} \frac{q_jq_k}{r_{jk}}
+\end{equation}
+The double-sum notation, $\sum_{j=1}^N \sum_{k\ne j}$, says: Take $j=1$ and sum over
+$k = 2,\ 3,\ 4,\ldots,N$; then take $j=2$ and sum over
+$k = 1,\ 3,\ 4,\ldots,N$;
+and so on, through $j = N$. Clearly this includes every pair twice, and
+to correct for that we put in front the factor $\frac{1}{2}$.
 
-(equation not yet converted)
-
-The double-sum notation, 2 Z , says: Take 7': 1 and sum over
-i=1 15
-
-k = 2,3,4,...,N; thentakejz 2and sumoverk =1,3,4,...,N;
-and so on, through 7' = N. Clearly this includes every pair twice, and
-to correct for that we put in front the factor g.
-
-1.6 Electrical Energy in a Crystal Lattice
+\section{Electrical energy in a crystal lattice}
 
 These ideas have an important application in the physics of crys-
 tals. We know that an ionic crystal like sodium chloride can be
 described, to a very good approximation, as an arrangement of
-positive ions (Na+) and negative ions (Cl") alternating in a regular
+positive ions ($\zu{Na}^+$) and negative ions ($\zu{Cl}^-$) alternating in a regular
 three-dimensional array or lattice. In sodium chloride the arrange-
 % p. 14
-ment is that shown in Fig. 1.70. Of course the ions are not point
+ment is that shown in Fig. 1.7a. Of course the ions are not point
 charges, but they are nearly spherical distributions of charge and
 therefore (as we shall presently prove) the electrical forces they exert
 on one another are the same as if each ion were replaced by an equiv-
 alent point charge at its center. We show this electrically equivalent
-system in Fig. 1.719. The electrostatic potential energy of the lattice
+system in Fig. 1.7b. The electrostatic potential energy of the lattice
 of charges plays an important role in the explanation of the stability
 and cohesion of the ionic crystal. Let us see if we can estimate its
 magnitude.
 
 We seem to be faced at once with a sum that is enormous, if not
-doubly infinite, for any macroscopic crystal contains 1020 atoms at
+doubly infinite, for any macroscopic crystal contains $10^{20}$ atoms at
 least. Will the sum converge? Now what we hope to find is the
 potential energy per unit volume or mass of crystal. We confidently
 expect this to be independent of the size of the crystal, on the general
@@ -558,20 +558,19 @@ tive ion, and so on. Hence we may take one ion as a center, it matters
 not which kind, sum over its interactions with all the others, and
 simply multiply by the total number of ions of both kinds. This
 reduces the double sum in Eq. 9, to a single sum and a factor N; we
-must still apply the factor ; to compensate for including each pair
+must still apply the factor $\frac{1}{2}$ to compensate for including each pair
 twice. That is, the energy of a sodium chloride lattice composed of
-a total of N ions is
-
-(equation not yet converted)
-
+a total of $N$ ions is
+\begin{equation}
+  U = \frac{1}{2} N \sum_{k=2}^N \frac{q_1q_k}{r_{1k}}
+\end{equation}
 % p. 15
-Taking the positive ion at the center as in Fig. 1.719, our sum runs
-
+Taking the positive ion at the center as in Fig. 1.7b, our sum runs
 over all its neighbors near and far. The leading terms start out as
 follows:
-
-(equation not yet converted)
-
+\begin{equation}
+  U = \frac{1}{2} N \left[-\frac{6e^2}{a}+\frac{12e^2}{\sqrt{2}a}-\frac{8e^2}{\sqrt{3}a}+\ldots\right]
+\end{equation}
 The first term comes from the six nearest chlorine ions, at distance
 a, the second from the twelve sodium ions on the cube edges, and so
 on. It is clear, incidentally, that this series does not converge abso-
@@ -586,10 +585,10 @@ would have been small. This is a crude way to describe what is
 actually a somewhat more delicate computational problem. The
 numerical evaluation of such a series is performed nowadays with an
 electronic computer. The answer in this example happens to be:
-
-(equation not yet converted)
-
-Here N, the number of ions, is twice the number of NaCl molecules.
+\begin{equation}
+  U = \frac{-0.8738Ne^2}{a}
+\end{equation}
+Here $N$, the number of ions, is twice the number of NaCl molecules.
 
 The negative sign reffects the dominance of the nearest neighbors,
 and shows that work would have to be done to take the crystal apart
@@ -606,7 +605,7 @@ energy can still be given meaning, and can be computed very much
 in the way we have learned here.
 
 % p. 16
-1.7 The Electric Field .
+\section{The electric field}
 
 Suppose we have some arrangement of charges, q1, q2, . . . , qN,
 fixed in space, and we are interested not in the forces they exert on
@@ -615,7 +614,7 @@ might be brought into their vicinity. We know how to calculate the
 resultant force on this charge, given its position which we may specify
 by the coordinates x, y, z. The force on the charge qo is:
 
-(equation not yet converted)
+\begin{equation}(equation not yet converted)\end{equation}
 
 where r0, is the vector from the jth charge in the system to the point
 (x,y,z). The force is proportional to qo, so if we divide out qo we
@@ -627,7 +626,7 @@ ql, . . . , qN we call sources of the field. We may take as the definition
 
 of the electric field E of a charge distribution, at the point (x.y,.:)
 
-(equation not yet converted)
+\begin{equation}(equation not yet converted)\end{equation}
 
 Fig. 1.8 illustrates the vector addition of the field of a point charge
 of +2 esu to the field of a point charge of --1 esu, at a particular
