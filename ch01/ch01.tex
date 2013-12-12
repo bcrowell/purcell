@@ -607,45 +607,44 @@ in the way we have learned here.
 % p. 16
 \section{The electric field}
 
-Suppose we have some arrangement of charges, q1, q2, . . . , qN,
+Suppose we have some arrangement of charges, $q_1$, $q_2$, \ldots , $q_N$,
 fixed in space, and we are interested not in the forces they exert on
 one another but only in their effect on some other charge qo which
 might be brought into their vicinity. We know how to calculate the
 resultant force on this charge, given its position which we may specify
-by the coordinates x, y, z. The force on the charge qo is:
-
-\begin{equation}(equation not yet converted)\end{equation}
-
-where r0, is the vector from the jth charge in the system to the point
-(x,y,z). The force is proportional to qo, so if we divide out qo we
+by the coordinates $x$, $y$, $z$. The force on the charge $q_0$ is:
+\begin{equation}
+  \vc{F} = \sum_{j=1}^N \frac{q_0q_j\hat\vc{r}}_{0j}}{r_{0j}^2}
+\end{equation}
+where $\vc{r}_{0j}$ is the vector from the $j$th charge in the system to the point
+$(x,y,z)$. The force is proportional to $q_0$, so if we divide out $q_0$ we
 obtain a vector quantity which depends only on the structure of our
-original system of charges, q1, . . . , qN and on the position of the point
-(x,y,z). We call this vector function of x, y, z the electric field arising
-from the ql, . . . , qN, and use the symbol E for it. The charges
-ql, . . . , qN we call sources of the field. We may take as the definition
-
-of the electric field E of a charge distribution, at the point (x.y,.:)
-
-\begin{equation}(equation not yet converted)\end{equation}
-
+original system of charges, $q_1$, \ldots , $q_N$ and on the position of the point
+(x,y,z). We call this vector function of $x$, $y$, $z$ the electric field arising
+from the $q_1$, \ldots , $q_N$, and use the symbol $\vc{E}$ for it. The charges
+$q_1$, \ldots , $q_N$ we call sources of the field. We may take as the definition
+of the electric field $\vc{E}$ of a charge distribution, at the point $(x,y,z)$
+\begin{equation}
+  \vc{E}(x,y,z) = \sum_{j=1}^N \frac{q_j\hat\vc{r}}_{0j}}{r_{0j}^2}
+\end{equation}
 Fig. 1.8 illustrates the vector addition of the field of a point charge
-of +2 esu to the field of a point charge of --1 esu, at a particular
+of $+2$ esu to the field of a point charge of $-1$ esu, at a particular
 point in space. In the CGS system of units, electric field strength is
 expressed in dynes per unit charge, that is, dynes/esu.
 
 So far we have nothing really new. The electric field is merely
 another way of describing the system of charges; it does so by giving
 the force per unit charge, in magnitude and direction, that an ex-
-ploring charge qo would experience at any point. We have to be a
+ploring charge $q_0$ would experience at any point. We have to be a
 little careful with that interpretation. Unless the source charges are
-really immovable, the introduction of some finite charge qo may
+really immovable, the introduction of some finite charge $q_0$ may
 cause the source charges to shift their positions, so that the field itself,
 as defined by Eq. 14, is difierent. That is why we assumed fixed
 charges to begin our discussion. People sometimes define the field
-by requiring qo to be an "infinitesimal" test charge, letting E be the
-limit of F/qo as q0--> 0. Any ffavor of rigor this may impart is illu-
+by requiring $q_0$ to be an "infinitesimal" test charge, letting E be the
+limit of $F/q_0$ as $q_0\rightarrow0$. Any flavor of rigor this may impart is illu-
 sory. Remember that in the real world we have never observed a
-charge smaller than e! Actually, if we take Eq. 14 as our definition
+charge smaller than $e$! Actually, if we take Eq. 14 as our definition
 of E, without reference to a test charge, no problem arises and the
 sources need not be fixed. If the introduction of a new charge
 % p. 17
@@ -669,7 +668,7 @@ nature of the other charges in the system. If that were true, the field
 description wouldn't work.
 
 The electric field attaches to every point in a system a local prop-
-erty, in this sense: If we know E in some small neighborhood, we
+erty, in this sense: If we know \vc{E} in some small neighborhood, we
 know, without further inquiry, what will happen to any charges in
 that neighborhood. We don't need to know what produced the field.
 If we know the electric field at all points in space, we have a com-
@@ -683,32 +682,31 @@ fields in this book.
 
 It is hard to draw in two dimensions a picture of a vector function
 in three-dimensional space. We can indicate the magnitude and
-direction of E at various points by drawing little arrows near those
-points, making the arrows longer where E is larger.1' Using this
-scheme, we show in Fig. 1.9a the field of an isolated point charge of
-+3 units and in Fig. 1.91) the field of a point charge of -- 1 unit.
-These pictures admittedly add nothing whatever to our understand-
-ing of the field of an isolated charge; anyone can imagine a simple
-radial inverse-square field without the help of a picture. We show
-
-Such a representation is rather clumsy at best. It is hard to indicate the point in
+direction of $\vc{E}$ at various points by drawing little arrows near those
+points, making the arrows longer where $E$ is larger.\footnote{Such
+a representation is rather clumsy at best. It is hard to indicate the point in
 space to which a particular vector Value applies, and the range of magnitudes of E is
 usually so large that it is impracticable to make the lengths of the arrows proportional
 to E.
-
+} Using this
+scheme, we show in Fig. 1.9a the field of an isolated point charge of
+$+3$ units and in Fig. 1.9b the field of a point charge of $-1$ unit.
+These pictures admittedly add nothing whatever to our understand-
+ing of the field of an isolated charge; anyone can imagine a simple
+radial inverse-square field without the help of a picture. We show
 % p. 18
 them in order to combine the two fields in Fig. 1.10, which indicates
 in the same manner the field of two such charges separated by a
-distance a. All that Fig. 1.10 can show is the field in a plane con-
+distance $a$. All that Fig. 1.10 can show is the field in a plane con-
 taining the charges. To get a full three-dimensional representation
 one must imagine the figure rotated around the symmetry axis. In
-Fig. 1.10 there is one point in space where-E is zero. How far from
+Fig. 1.10 there is one point in space where $\vc{E}$ is zero. How far from
 the nearer charge must this lie? Notice also that toward the edge of
 the picture the field points more or less radically outward all around.
 One can see that at a very large distance from the charges the field
 will look very much like the field from a positive point charge. This
 is to be expected because the separation of the charges cannot make
-very much difference for points far away, and a point charge of +2
+very much difference for points far away, and a point charge of $+2$
 units is just what we would have left if we superimposed our two
 sources at one spot.
 
@@ -730,23 +728,22 @@ of paper and ink to a two-dimensional section through a three-
 dimensional bundle of curves.
 
 % p. 20
-1.8 Charge Distributions
+\section{Charge distributions}
 
 This is as good a place as any to generalize from point charges to
 continuous charge distributions. A volume distribution of charge is
-described by a scalar charge-density function p, which is a function
-of position, with the dimensions charge/volume. That is, p times a
+described by a scalar charge-density function $\rho$, which is a function
+of position, with the dimensions charge/volume. That is, $\rho$ times a
 volume element gives the amount of charge contained in that volume
 element. The same symbol is often used for mass per unit volume,
 but in this book we shall always give charge per unit volume first
-
 % p. 21
-call on the symbol p. If we write p as a function of the coordinates
-x, y, 3, then p(x,y,z) dx dy dz is the charge contained in the little box,
-of volume dx dy dz, located at the point (x,y,z).
+call on the symbol $\rho$. If we write $\rho$ as a function of the coordinates
+$x$, $y$, $z$, then $\rho(x,y,z)\der x \der y \der z$ is the charge contained in the little box,
+of volume $\der x \der y \der z$, located at the point $(x,y,z)$.
 
 On an atomic scale, of course, the charge density varies enor-
-mously from point to point; even so/it proves to be a useful concept
+mously from point to point; even so it proves to be a useful concept
 in that domain. However we shall use it mainly when we are dealing
 with large-scale systems, so large that a volume element do =
 dx dy dz can be quite small relative to the size of our system although
@@ -757,24 +754,23 @@ the ordinary mass-density of a substance.
 If the source of the electric field is to be a continuous charge dis-
 tribution rather than point charges, we have only to replace the sum
 in Eq. 13 with the appropriate integral. The integral gives the elec-
-tric field at (x,y,z), which is produced by charges at other points
-(x',y',z' .
-
-'" p(x',y',z')i' dx' dy' dz'
-
-E(x,y,z) =3' 12 (15)
-
-This is a volume integral. Holding (x,y,z) fixed we let the variables
-of integration x', y', and z' range over all space containing charge,
+tric field at $(x,y,z)$, which is produced by charges at other points
+$(x',y',z').
+\begin{equation}
+  \vc{E}(x,y,z) = \int \frac{\rho(x',y',z')\hat{\vc{r}}\der x' \der y' \der z'}{r^2}
+\end{equation}
+This is a volume integral. Holding $(x,y,z)$ fixed we let the variables
+of integration $x'$, $y'$, and $z'$ range over all space containing charge,
 thus summing up the contributions of all the bits of charge. The
-unit vector f' points from (x', y', z') to (x,y,z)--unless we want to put
+unit vector $\hat\vc{r}}$ points from $(x', y', z')$ to $(x,y,z)$ --- 
+unless we want to put
 a minus sign before the integral in which case we may reverse the
-direction of 1'-. It is always hard to keep signs straight. Let's re-
+direction of $\hat\vc{r}}$. It is always hard to keep signs straight. Let's re-
 member that the electric field points away from a positive source
 (Fig. 1.12).
 
 In the neighborhood of a true point charge the electric field grows
-infinite like 1/r2 as we approach the point. It makes no sense to talk
+infinite like $1/r^2$ as we approach the point. It makes no sense to talk
 about the field at the point charge. As our ultimate physical sources
 of field are not, we believe, infinite concentrations of charge in zero
 volume but instead finite structures, we simply ignore the mathe-
@@ -784,9 +780,8 @@ worth noting, nevertheless, that a continuous charge distribution
 contains no threat of a singularity, and allows the field to be defined
 at points inside the distribution itself. That is because the volume
 integral in Eq. 15 is prevented from blowing up in the neighborhood
-of r = O by the fact that the volume element itself goes as r2 dr. That
-is to say, so long as p remains finite, the field will remain finite every-
-
+of $r = O$ by the fact that the volume element itself goes as $r^2 \der r$. That
+is to say, so long as $\rho$ remains finite, the field will remain finite every-
 where, even in the interior or on the boundary of a charge
 distribution.
 
