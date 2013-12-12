@@ -14,3 +14,11 @@
 \newcommand{\zu}[1]{\textup{#1}}
 
 \renewcommand{\theequation}{\arabic{equation}}
+
+% some convenience commands:
+\renewcommand{\div}{\operatorname{div}} % the built-in is a division sign
+\newcommand{\curl}{\operatorname{curl}}
+\newcommand{\grad}{\boldsymbol{\nabla}} % Purcell uses bold nabla for gradient operator, but not, e.g., in Laplacian
+\newcommand{\xhat}{\hat{\vc{x}}}
+\newcommand{\yhat}{\hat{\vc{y}}}
+\newcommand{\zhat}{\hat{\vc{z}}}
