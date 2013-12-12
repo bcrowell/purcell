@@ -256,73 +256,58 @@ recover the electric field we started with:
          =K(\xhat y+\yhat x)
 \end{equation}
 
-\iffalse
-
 \section{Potential of a charge distribution}
 
 We already know the potential that goes with a single point charge,
 because we calculated the work required to bring one charge into the
 neighborhood of another in Eq. 3. The potential at any point, in the
-field of an isolated point charge q, is just q/r, where r is the distance
-from the point in question to the source q, and where we have
+field of an isolated point charge $q$, is just $q/r$, where $r$ is the distance
+from the point in question to the source $q$, and where we have
 assigned zero potential to points infinitely far from the source.
 
 Superposition must work for potentials as well as fields. If we
 have several sources, the potential function is simply the sum of the
 potential functions that we would have for each of the sources present
-alone---providing we make a consistent assignment of the zero of
+alone---\emph{providing} we make a consistent assignment of the zero of
 potential in each case. If all the sources are contained in some finite
 region, it is always possible, and usually the simplest choice, to put
-zero potential at infinite distance. .If we adopt this rule, the potential
+zero potential at infinite distance. If we adopt this rule, the potential
 of any charge distribution can be specified by the integral:
-
-I, /,z/ dxrd / d I
-.,,(,W) 2L1] £<x_L>_r_2/_z
-sources
-
 \begin{equation}
-(equation not yet converted)
+  \pot(x,y,z) = \int_{\text{All sources}} \frac{\rho(x',y',z')\:\der x'\:\der y'\:\der z'}{r}
 \end{equation}
-(17)
-
-where r is the distance from the volume element dx' dy' dz' to the
-point (x,y,z), at which the potential is being evaluated (Fig. 2.5).
-That is, r = [(x - x')? + (y - y')? + (z - z')2]1/2. Notice the
+where $r$ is the distance from the volume element $\der x'\:\der y'\:\der z'$ to the
+point $(x,y,z)$, at which the potential is being evaluated (Fig. 2.5).
+That is, $r = [(x - x')^2 + (y - y')^2 + (z - z')^2]^{1/2}$. Notice the
 difference between this and the integral giving the electric field of a
-
 % p. 42
-charge distribution, Eq. 1.15. Here we have r in the denominator,
-not r2, and the integral is a scalar not a vector. From the scalar po-
-
-tential function <p(x,y,z) we can always find the electric field by taking
-the negative gradient of q:, according to Eq. 15.
+charge distribution, Eq. 1.15. Here we have $r$ in the denominator,
+not $r^2$, and the integral is a scalar not a vector. From the scalar po-
+tential function $\pot(x,y,z)$ we can always find the electric field by taking
+the negative gradient of $\pot$, according to Eq. 15.
 
 \subsection{Potential of two point charges}
 
  Consider a very simple example,
 the potential of the two point charges shown in Fig. 2.6. A positive
-charge of 12 esu is located 3 cm away from a negative charge, - 6 esu.
+charge of 12 esu is located 3 cm away from a negative charge, $- 6$ esu.
 The potential at any point in space is the sum of the potentials due to
 each charge alone. The potentials for some selected points in space
 are given in the diagram. No vector addition is involved here, only
 the algebraic addition of scalar quantities. For instance, at the point
 on the far right which is 6 cm from the positive charge and 5 cm from
-
-+612 + l56- = +0.8.
+the negative charge, the potential has the value $\frac{+12}{6}+\frac{-6}{5}=+0.8$.
 The unit here comes out esu/cm, which is the same as ergs/esu, or
-statvolts. The potential approaches zero at infinite distance. It
+\emph{statvolts}. The potential approaches zero at infinite distance. It
 would take 0.8 erg of work to bring a unit positive charge in from
-infinity to a point where go = 0.8 statvolt. Note two of the points
-shown on the diagram have q) = O. The net work done in bringing
+infinity to a point where $\pot = 0.8$ statvolt. Note two of the points
+shown on the diagram have $\pot = O$. The net work done in bringing
 in any charge to one of these points would be zero. You can see that
 there must be an infinite number of such points, forming a surface in
 space surrounding the negative charge. In fact the locus of points
-with any particular value of q> is a surface, called an equipotential
-
-surface, which would show on our two-dimensional diagram as a
+with any particular value of $\pot$ is a surface, called an \emph{equipotential
+surface}, which would show on our two-dimensional diagram as a
 curve.
-
-the negative charge, the potential has the value
 
 \subsection{Potential of a long charged wire}
 
@@ -337,42 +322,38 @@ find that the integral diverges---we get an infinite result. We might
 have expected trouble, because in this case "infinity," that is, all of
 space very far from the region in which we wish to define a potential
 function, contains not only points remote from the wire but most of
-the wire itself! No such difficulty arose in finding the electric field of
+the wire itself! No such difficulty arose in finding the electric \emph{field} of
 the infinitely long wire, because the contributions of elements of the
 line charge to the field decrease so rapidly with distance. Evidently
 we had better locate the zero of potential somewhere close to home,
-
 % p. 43
 in a system which has charges distributed out to infinity. Then it is
-simply a matter of calculating the difference in potential (p21, between
-
-the general point (x,y,z) and the selected reference point, using the
+simply a matter of calculating the difference in potential $\pot_{21}$, between
+the general point $(x,y,z)$ and the selected reference point, using the
 fundamental relation, Eq. 7.
 
 To see how this goes in the case of the infinitely long charged wire,
-let us arbitrarily. locate the reference point $P_1$ at a distance r1 from
-
+let us arbitrarily. locate the reference point $P_1$ at a distance $r_1$ from
 the wire. Then to carry a charge from $P_1$ to any other point $P_2$ at
-distance r2 requires the work per unit charge
-
-(p21 : - P$P_2$E'dS : -fr2<E)dT= -2Al.IlT2-f-ZAIIIT1 
-1 7'1 1'
+distance $r_2$ requires the work per unit charge
+\begin{equation}
+  \pot_{21} = -\int_{P_1}^{P_2} \vc{E}\cdot\der\vc{s}
+            = -\int_{r_1}^{r_2} \left(\frac{2\lambda}{r}\right)
+            = -2\lambda\ln r_2 + 2\lambda \ln r_1
+\end{equation}
 This shows that the electrical potential for the charged wire can be
-
 taken as
-
 \begin{equation}
-(equation not yet converted)
+  \pot = -2\lambda\ln r + \text{const}
 \end{equation}
-(p = -2>\ ln r + const (19)
-
-The constant, 2}\ ln 11 in this case, has no effect when we take --- grad (p
+The constant, $2\lambda\ln r_1$ in this case, has no effect when we take $-\grad\pot$
 to get back to the field $\vc{E}$. In this case,
-
 \begin{equation}
-(equation not yet converted)
+  -\grad\pot = -\rhat\frac{\der\pot}{\der r} = \frac{2\lambda\rhat}{r}
 \end{equation}
-(20)
+
+
+\iffalse
 
 \section{Uniformly charged disk}
 
