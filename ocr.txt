@@ -32,7 +32,7 @@ dred years ago.
 
 Of course, the theory was solidly based on experiment, and be-
 cause of that was fairly secure within its original range of application
---to coils, capacitors, oscillating currents, eventually radio waves
+---to coils, capacitors, oscillating currents, eventually radio waves
 and light waves. But even so great a success does not guarantee
 validity in another domain, for instance, the inside of a molecule.
 
@@ -64,7 +64,7 @@ by which the existence of electric charge was demonstrated or all the
 evidence for the electrical constitution of matter. On the other hand,
 we do want to look carefully at the experimental foundations of the
 basic laws on which all else depends. In this chapter we shall study
-the physics of stationary electric charges--electrostatics.
+the physics of stationary electric charges---electrostatics.
 
 Certainly one fundamental property of electric charge is its exist-
 ence in the two varieties that were long ago named positive and
@@ -110,7 +110,7 @@ iental facts.
 
 The total charge in an isolated system never changes. By isolated
 re mean that no matter is allowed to cross the boundary of the sys-
-am. We could let light pass into or out of the system without alTect--
+am. We could let light pass into or out of the system without alTect---
 ig the principle, since photons carry no charge. For instance, a
 min-walled box in a vacuum, exposed to gamma rays, might become
 me scene of a "pair-creation" event in which a high-energy photon
@@ -128,7 +128,7 @@ trict law of charge conservation. As well as can be determined from
 xperiment, their charges are equal. An interesting experimental test
 ; provided by the structure called positronium, a structure composed
 ~f an electron and a positron, and nothing else. This curious "atom"
-an live long enough--a tenth of a microsecond or so--to be studied
+an live long enough---a tenth of a microsecond or so---to be studied
 1 detail. It behaves as if it were quite neutral, electrically. Actually,
 nost physicists would be astonished, not to say incredulous, if any
 lifference were found in the magnitudes of these charges, for we
@@ -175,7 +175,7 @@ ments, have shown that in nature electric charge comes in units of
 one magnitude only. That magnitude we denote by e, the electronic
 charge. We have already noted that the positron has precisely this
 amount of charge. What seems more remarkable is the exact
-equality in the charges carried by all other charged particles--the
+equality in the charges carried by all other charged particles---the
 equality, for instance, in the magnitude of the positive charge on the
 proton and the negative charge on the electron.
 
@@ -276,7 +276,7 @@ Here ql and q2 are numbers (scalars) giving the magnitude and sign
 of the respective charges, f-21 is the unit vector in the directionf from
 charge 1 to charge 2, and F2 is the force acting on charge 2. Thus
 Eq. 1 expresses, among other things, the fact that like charges repel
-and unlike attract, and that the force is Newtonian; that is, F 2 = --F1.
+and unlike attract, and that the force is Newtonian; that is, F 2 = -F1.
 
 The unit vector fgl shows that the force is parallel to the line join-
 ing the charges. It could not be otherwise unless space itself has
@@ -395,7 +395,7 @@ accuracy of a few parts in 109.
 
 Sometimes this experimental result is described as a test of the
 "exponent" in the inverse-square law. However, the real question
-is not whether -2 or some other number like -- 1.99998 is the correct
+is not whether -2 or some other number like - 1.99998 is the correct
 exponent, but rather at what range of distances, if any, the inverse-
 square law breaks down. There are two domains in either of which,
 for all we can prove today by direct experiment, a breakdown might
@@ -470,7 +470,7 @@ W = f force >< distance = J; r_1:O Tq1q2(2_dr) = qlqz (3)
 1' T12
 
 Because r is changing from co to r12, the increment of displacement is
---dr. We know the work done on the system must be positive for
+-dr. We know the work done on the system must be positive for
 charges of like sign; they have to be pushed together. With ql and q2
 in esu, and r12 in centimeters, Eq. 3 gives the work in ergs.
 
@@ -481,7 +481,7 @@ charges q1 and q2 in Fig. 1.5. There we have kept ql fixed and we
 show qg moved to the same final position along two different paths.
 Every spherical shell such as the one indicated between r and r + dr
 must be crossed by both paths. The increment of work involved,
---F - ds in this bit of path, is the same for the two paths. The reason
+-F - ds in this bit of path, is the same for the two paths. The reason
 is that F has the same magnitude at both places and is directed
 radially from ql, while ds = dr/cos 0; hence F-ds = F dr. Each
 increment of work along one path is matched by a corresponding
@@ -500,12 +500,12 @@ us bring in from some remote place a third charge q3 and move it to a
 point P3 whose distance from charge 1 is r31 cm and from charge 2,
 r32 cm. The work required to efiect this will be
 
-W3 = --f°:3F3 ' dS 
+W3 = -f°:3F3 ' dS 
 
 Thanks to the additivity of electrical interactions, which we have
 already emphasized,
 
---fF3-ds= --f(F31+F32)-ds= _fF31-dr_fF32-dr (5)
+-fF3-ds= -f(F31+F32)-ds= _fF31-dr_fF32-dr (5)
 
 That is, the work to bring q3 to P3 is the sum of the work needed when
 ql is present alone and that needed when qg is present alone.
@@ -546,7 +546,7 @@ potential energy, as in that case, corresponds to all charges far apart.
 As an example, let us calculate the potential energy of an arrange-
 ment of eight negative charges on the corners of a cube of side b,
 with a positive charge in the center of the cube, as in Fig. 1.6a. Sup-
-pose each negative charge is an electron with charge --e, while the
+pose each negative charge is an electron with charge -e, while the
 
 central particle carries a double positive charge, 2e. Summing over
 all pairs, we have:
@@ -658,7 +658,7 @@ follows:
 
 U=%N[__£e£+ l2e2 862  (11)
 
-a \/§a--\/3a
+a \/§a-\/3a
 
 The first term comes from the six nearest chlorine ions, at distance
 a, the second from the twelve sodium ions on the cube edges, and so
@@ -675,7 +675,7 @@ actually a somewhat more delicate computational problem. The
 numerical evaluation of such a series is performed nowadays with an
 electronic computer. The answer in this example happens to be:
 
-U = --0.8738Ne2
+U = -0.8738Ne2
 (1
 
 (12)
@@ -688,8 +688,8 @@ into ions. In other words, the electric energy helps to explain the
 cohesion of the crystal. If this were the whole story, however, the
 crystal would collapse, for the potential energy of the charge dis-
 tribution is obviously louiered by an overall reduction in the spac-
-ing a. We meet here again the familiar dilemma of classica1--that
-is, nonquantum--physics. No system can be in stable equilibrium,
+ing a. We meet here again the familiar dilemma of classica1---that
+is, nonquantum---physics. No system can be in stable equilibrium,
 according to classical laws, under the action of electric forces alone.
 Does this make our analysis useless? Not at all. Remarkably, and
 happily, in the quantum physics of crystals the electric potential
@@ -726,7 +726,7 @@ E(x,y,z) : Z qffjgil
 1:1 '0'
 
 Fig. 1.8 illustrates the vector addition of the field of a point charge
-of +2 esu to the field of a point charge of --1 esu, at a particular
+of +2 esu to the field of a point charge of -1 esu, at a particular
 point in space. In the CGS system of units, electric field strength is
 expressed in dynes per unit charge, that is, dynes/esu.
 
@@ -740,7 +740,7 @@ cause the source charges to shift their positions, so that the field itself,
 as defined by Eq. 14, is difierent. That is why we assumed fixed
 charges to begin our discussion. People sometimes define the field
 by requiring qo to be an "infinitesimal" test charge, letting E be the
-limit of F/qo as q0--> 0. Any ffavor of rigor this may impart is illu-
+limit of F/qo as q0\rightarrow 0. Any ffavor of rigor this may impart is illu-
 sory. Remember that in the real world we have never observed a
 charge smaller than e! Actually, if we take Eq. 14 as our definition
 of E, without reference to a test charge, no problem arises and the
@@ -786,7 +786,7 @@ in three-dimensional space. We can indicate the magnitude and
 direction of E at various points by drawing little arrows near those
 points, making the arrows longer where E is larger.1' Using this
 scheme, we show in Fig. 1._9a the field of an isolated point charge of
-+3 units and in Fig. 1.91) the field of a point charge of -- 1 unit.
++3 units and in Fig. 1.91) the field of a point charge of - 1 unit.
 These pictures admittedly add nothing whatever to our understand-
 ing of the field of an isolated charge; anyone can imagine a simple
 radial inverse-square field without the help of a picture. We show
@@ -873,7 +873,7 @@ E(x,y,z) =3' 12 (15)
 This is a volume integral. Holding (x,y,z) fixed we let the variables
 of integration x', y', and z' range over all space containing charge,
 thus summing up the contributions of all the bits of charge. The
-unit vector f' points from (x', y', z') to (x,y,z)--unless we want to put
+unit vector f' points from (x', y', z') to (x,y,z)-unless we want to put
 a minus sign before the integral in which case we may reverse the
 direction of 1'-. It is always hard to keep signs straight. Let's re-
 member that the electric field points away from a positive source
@@ -912,7 +912,7 @@ does not change appreciably from one part of a patch to another. In
 other words, don't let the balloon be too crinkly, and don't let its
 surface pass right through a singularity"? of the field such as a point
 charge. The area of a patch has a certain magnitude in square centi-
-meters, and a patch defines a unique direction--the outward-
+meters, and a patch defines a unique direction---the outward-
 pointing normal to its surface. (Since the surface is closed you can
 tell its inside from its outside; there is no ambiguity.) Let this
 magnitude and direction be represented by a vector. Then for every
@@ -927,7 +927,7 @@ Let E; be the electric field vector at the location of patch number 7'.
 The scalar product E,- - a,- is a number. We call this number the flux
 through that bit of surface. To understand the origin of the name,
 imagine a vector function which represents the velocity of motion in
-a ffuid----say in a river, where the velocity varies from one place to
+a ffuid---say in a river, where the velocity varies from one place to
 another but is constant in time at any one position. Denote this
 vector field by v, measured, say, in feet per second. Then if a is the
 oriented area, in square feet, of a frame lowered into the water,
@@ -1017,8 +1017,8 @@ say that the total flux through a closed surface is zero if the charge
 lies outside the surface. We leave the proof of this to the reader,
 along with Fig. 1.17 as a hint of one possible line of argument.
 There is a way of looking at all this which makes the result seem
-obvious. Imagine at q a source which emits particles--such as
-bullets or photons--in all directions at a steady rate. Clearly the
+obvious. Imagine at q a source which emits particles---such as
+bullets or photons---in all directions at a steady rate. Clearly the
 flux of particles through a window of unit area will fall off with the
 inverse square of the window's distance from q. Hence we can draw
 an analogy between the electric field strength E and the intensity of
@@ -1164,7 +1164,7 @@ speaking, a tricky volume integration is effected without the aid of
 the integral calculus as we know it. The proof is a good bit longer
 than our whole preceding discussion of Gauss's law, and more
 intricately reasoned. You see, with all his mathematical resource-
-fulness and originality, Newton lacked Gauss's theorem--a relation
+fulness and originality, Newton lacked Gauss's theorem---a relation
 
 which, once it has been shown to us, seems so obvious as to be almost
 trivial.
@@ -1194,7 +1194,7 @@ contribution of the charge dq to the y component of the electric field
 at P is 2 i
 
 d Ad
-dE,, =B--Zcos0 = R:
+dE,, =B-Zcos0 = R:
 
 cos 0 (24)
 
@@ -1261,7 +1261,7 @@ the same strength at all distances. These are simple consequences
 of the fact that the field of a point charge varies as the inverse square
 of the distance. If that doesn't yet seem compellingly obvious, look
 at it this way: Roughly speaking, the part of the line charge that is
-mainly responsible for the field at P, in Fig. 1.21, is the near part--
+mainly responsible for the field at P, in Fig. 1.21, is the near part---
 the charge within a distance of order of magnitude r. If we lump all
 this together and forget the rest, we have a concentrated charge of
 magnitude q : Ar, which ought to produce a field proportional to
@@ -1295,7 +1295,7 @@ in exactly the same way, what would be your own mass, in such units?
 
 1.2 What is the net electrical force on a unit positive charge placed at the
 
-center of a square of side 12 which has charges q, 2q, --4q, and 2q placed in
+center of a square of side 12 which has charges q, 2q, -4q, and 2q placed in
 order at the four comers?
 
 1.3 Two similar helium-filled balloons, tied to a 5-gm weight, ffoat in
@@ -1304,7 +1304,7 @@ Find the magnitude of Q in esu. Ans. 1660 esu.
 
 Prob. 1.3
 
-1.4 Charges (--e) are placed at the vertices of an equilateral triangle of
+1.4 Charges (-e) are placed at the vertices of an equilateral triangle of
 side r, and charge Q > 0 is placed at the center of gravity of the triangle. What
 must be the value of Q if the force on any of the negative charges is to be zero?
 
@@ -1333,7 +1333,7 @@ Prob. 1.6
 that the potential energy of the system is exactly zero. How many such
 arrangements are there with the three particles on the same straight line?
 
-1.8 Calculate the potential energy, per ion, for an infinite one--dimensional
+1.8 Calculate the potential energy, per ion, for an infinite one---dimensional
 ionic crystal, that is, a row of equally spaced charges of magnitude e and alter-
 nating sign. (Hint: The power-series expansion of ln (1 + x) may be of use.)
 
@@ -1390,7 +1390,7 @@ centimeter?
 1.15 The neutral hydrogen atom in its normal state behaves in some respects
 like an electric charge distribution which consists of a point charge of mag-
 nitude +e surrounded by a distribution of negative charge whose density is
-given by --p(r) = Ce'2'/av. Here a0 is the "Bohr radius," 0.53 x lO'8 cm,
+given by -p(r) = Ce'2'/av. Here a0 is the "Bohr radius," 0.53 x lO'8 cm,
 and C is a constant with the value required to make the total amount of nega-
 tive charge exactly e. What is the net electric charge inside a sphere of
 radius ao? What is the electric field strength at this distance from the nucleus?
@@ -1426,7 +1426,7 @@ trivial matter of definition, and to explore some of its implications, imagine a
 world that differs from ours in this one respect. In that world the unit charge
 is defined by the force between like charges. Two equal positive charges, 1 cm
 apart, repel each other with a force of l dyne; ditto for negative charges. The
-inverse--square law is obeyed, and superposition holds. But a unit positive
+inverse---square law is obeyed, and superposition holds. But a unit positive
 charge and a unit negative charge attract one another with a force of k dynes,
 where k > 1. Show that one might expect to find, in that world, a situation
 in which three concentrated charges all attracted one another. Is that possible
@@ -1444,7 +1444,7 @@ from anything that could occur in ours.
 tribution, namely that the field outside is the same as if the charge were all
 at the center and that the field inside a hollow distribution is zero. has its
 counterpart in the case of a distribution of circular cylindrical symmetry,
-infinitely extended in the axial direction--for instance, a long charged pipe.
+infinitely extended in the axial direction---for instance, a long charged pipe.
 State and prove that theorem.
 
 1.22 Consider a spherical charge distribution which has the constant
@@ -1575,14 +1575,14 @@ from this reference point to a general point (x,y) it is easiest to use
 a path like the dotted path in Fig. 2.2c:
 
 (x, ) (x, (x )
-q>(x,y> = -- (0,; E-ds = -- fW°'E.dx -- fW;fEydy <9)
+q>(x,y> = - (0,; E-ds = - fW°'E.dx - fW;fEydy <9)
 
 The first integral is zero, as we noted earlier, because in this field Ex
 is zero along the x axis. The second integration is carried out at con-
 stant x, and since E1, = Kx, the integral becomes
 
--- Kx L' dy (10)
-which has the value --Kxy. For this field then, the potential is
+- Kx L' dy (10)
+which has the value -Kxy. For this field then, the potential is
 (p = -Kxy (11)
 
 Any constant could be added to this. That would only mean that the
@@ -1633,8 +1633,8 @@ T We remind the reader that a partial derivative with respect to x, of a functio
 x. y. :. written simply Pf/Bx. means the rate of change of the function with respect to x
 with the other variables y and : held constant. More precisely,
 
-8f 2 mm f(x + Ax,y,z) --f(x.y.z)
-Ex Ax-->0 Ax
+8f 2 mm f(x + Ax,y,z) -f(x.y.z)
+Ex Ax\rightarrow0 Ax
 
 As an example. iff = x2yz3,
 
@@ -1680,19 +1680,19 @@ of the potential (1) to the field E. Consider the Value of (p at two nearby
 points, (x,y,z) and (x + dx, y + dy, z + dz). The change in (p, going
 from the first point to the second, is
 
-dcp=----dx+----dy+2(Bdz (13)
+dcp=---dx+---dy+2(Bdz (13)
 On the other hand, from the definition of (p, the change can also be
 
 expressed as
 
-dq): --E-ds $1 (14)
+dq): -E-ds $1 (14)
 
 % p. 41
 The infinitesimal vector displacement ds is just 1': dx + ydy + 2 dz.
-Thus if we identify E with --V(p, Eqs. 13 and 14 become identical. So
+Thus if we identify E with -V(p, Eqs. 13 and 14 become identical. So
 the electric field is the negative of the gradient of the potential:
 
-E = --V(p (15)
+E = -V(p (15)
 
 The minus sign came in because the electric field points from a region
 of positive potential toward a region of negative potential, whereas
@@ -1700,10 +1700,10 @@ the vector Vcp is defined so that it points in the direction of increas-
 ing Lp.
 
 To show how this works, we go back to the example of the field in
-Fig. 2.2. From the potential given by Eq. 11, (p = --Kxy, we can
+Fig. 2.2. From the potential given by Eq. 11, (p = -Kxy, we can
 recover the electric field we started with:
 
-E=--w--mw=--@§+y%%--mw=m@+w>no
+E=-w-mw=-@§+y%%-mw=m@+w>no
 
 2.5 Potential of a Charge Distribution
 
@@ -1717,7 +1717,7 @@ assigned zero potential to points infinitely far from the source.
 Superposition must work for potentials as well as fields. If we
 have several sources, the potential function is simply the sum of the
 potential functions that we would have for each of the sources present
-alone--providing we make a consistent assignment of the zero of
+alone---providing we make a consistent assignment of the zero of
 potential in each case. If all the sources are contained in some finite
 region, it is always possible, and usually the simplest choice, to put
 zero potential at infinite distance. .If we adopt this rule, the potential
@@ -1731,7 +1731,7 @@ sources
 
 where r is the distance from the volume element dx' dy' dz' to the
 point (x,y,z), at which the potential is being evaluated (Fig. 2.5).
-That is, r = [(x -- x')? + (y -- y')? + (z -- z')2]1/2. Notice the
+That is, r = [(x - x')? + (y - y')? + (z - z')2]1/2. Notice the
 difference between this and the integral giving the electric field of a
 
 % p. 42
@@ -1743,14 +1743,14 @@ the negative gradient of q:, according to Eq. 15.
 
 Potential of Two Point Charges. Consider a very simple example,
 the potential of the two point charges shown in Fig. 2.6. A positive
-charge of 12 esu is located 3 cm away from a negative charge, -- 6 esu.
+charge of 12 esu is located 3 cm away from a negative charge, - 6 esu.
 The potential at any point in space is the sum of the potentials due to
 each charge alone. The potentials for some selected points in space
 are given in the diagram. No vector addition is involved here, only
 the algebraic addition of scalar quantities. For instance, at the point
 on the far right which is 6 cm from the positive charge and 5 cm from
 
-+612 + l56-- = +0.8.
++612 + l56- = +0.8.
 The unit here comes out esu/cm, which is the same as ergs/esu, or
 statvolts. The potential approaches zero at infinite distance. It
 would take 0.8 erg of work to bring a unit positive charge in from
@@ -1773,7 +1773,7 @@ with charges distributed out to infinite distance is found in the long
 charged wire whose field E we studied in Sec. 1.12. If we attempt to
 assign zero potential to remote points in that system, and carry out
 the integration over the charge distribution indicated in Eq. 15, we
-find that the integral diverges--we get an infinite result. We might
+find that the integral diverges---we get an infinite result. We might
 have expected trouble, because in this case "infinity," that is, all of
 space very far from the region in which we wish to define a potential
 function, contains not only points remote from the wire but most of
@@ -1795,15 +1795,15 @@ let us arbitrarily. locate the reference point P1 at a distance r1 from
 the wire. Then to carry a charge from P1 to any other point P2 at
 distance r2 requires the work per unit charge
 
-(p21 : -- PP2E'dS : --fr2<E)dT= --2Al.IlT2-f-ZAIIIT1 
+(p21 : - PP2E'dS : -fr2<E)dT= -2Al.IlT2-f-ZAIIIT1 
 1 7'1 1'
 This shows that the electrical potential for the charged wire can be
 
 taken as
 
-(p = --2>\ ln r + const (19)
+(p = -2>\ ln r + const (19)
 
-The constant, 2}\ ln 11 in this case, has no effect when we take -- grad (p
+The constant, 2}\ ln 11 in this case, has no effect when we take --- grad (p
 to get back to the field E. In this case,
 
 (20)
@@ -1848,7 +1848,7 @@ The integral happened to be an elementary one; on substituting
 u = y? + 52 it takes the formfu'1/2 du. Putting in the limits, we
 
 obtain:
-<p(0,y,0) = 2710 [\/y2 + a2 -- y] for y > 0 (22)
+<p(0,y,0) = 2710 [\/y2 + a2 - y] for y > 0 (22)
 
 A minor point deserves a comment: The result we have written
 down in Eq. 22 holds for all points on the positive y axis. It is obvious
@@ -1873,7 +1873,7 @@ at the center of the disk.
 The behavior of <p(0,y,0) for very large y is interesting. For g > a
 we can approximate Eq. 22 as follows:
 
-\/y2+a2--y:y[ 1+"--2--1]
+\/y2+a2-y:y[ 1+"-2-1]
 
 y2
 _ _0_"'..._ ~a_2
@@ -1906,7 +1906,7 @@ To calculate the potential at P2, we consider the segment of a ring
 centered on P2. As you can see in Fig. 2.9, the charge on this segment
 is dq = a - 2r0 dr. Its contribution to the potential at P2 is
 dq/r = 200 dr. From the geometry of the right triangle in Fig. 2.9,
-r = 2a cos 0, so that dr = --2a sin 0 dB. This lets us use 0 as the
+r = 2a cos 0, so that dr = -2a sin 0 dB. This lets us use 0 as the
 
 T They were mentioned in Vol. I in connection with the exact treatment of the simple
 pendulum (Vol. 1, Chap. 7, Advanced Topic I, p. 227_).
@@ -1917,10 +1917,10 @@ whole disk. Thus:
 
 go :f%=L':22a0(_2asinod0)
 
-zff)"/24aa0 sin 0 d0 = 4:30 [sin 6 -- 0 cos 0]" = 40a (26)
+zff)"/24aa0 sin 0 d0 = 4:30 [sin 6 - 0 cos 0]" = 40a (26)
 0
 
-(You can do f 0 sin 0 d0 by parts--or look it up.)
+(You can do f 0 sin 0 d0 by parts-or look it up.)
 
 Comparing this with 2710a, the potential at the center of the disk,
 we see that, as we should expect, the potential, falls off from the center
@@ -1935,7 +1935,7 @@ The electric field on the symmetry axis can be computed directly
 from the potential function:
 
 d
-E, = _ $8 = _ --2'n'o[\/g2 + a2 -- y] (27)
+E, = _ $8 = _ -2'n'o[\/g2 + a2 - y] (27)
 y dy
 giving
 _ ll
@@ -1945,7 +1945,7 @@ tribution, for points on the axis.)
 
 As y approaches zero from the positive side, E,, approaches 2770.
 On the negative y side of the disk, which we shall call the back, E
-points in the other direction and its y component E1, is --2-no. This
+points in the other direction and its y component E1, is -2-no. This
 is the same as the field of an infinite sheet of charge of density 0,
 derived in Sec. 1.10. It ought to be, for at points close to the center
 of the disk, the presence or absence of charge out beyond the rim
@@ -1966,7 +1966,7 @@ denote the y component of the field immediately in front of this patch
 of surface charge and Er the y component of the field behind it. The
 outward flux from the box is
 
-<1) = AE,,+ -- AEV + (flux through side of box) (29)
+<1) = AE,,+ - AEV + (flux through side of box) (29)
 
 The second term has a minus sign because the vector representing the
 rear surface of the box points in the negative y direction. The flux
@@ -1975,9 +1975,9 @@ through the sides of the box can be made as small as we please by
 ffattening the box? That does not change the charge enclosed, which
 remains 0A. In the limit, then, Gauss's law tells us " '
 
-AE,,+ -- AEy_ : 4770A (30)
+AE,,+ - AEy_ : 4770A (30)
 or
-E,,+ -- E,,-- = 47m (31)
+E,,+ - E,,- = 47m (31)
 
 In Eq. 31 we have a general result that holds for any surface charge
 distribution, uniform or not: If a is the local density of any surface
@@ -1986,7 +1986,7 @@ in the component of electric field perpendicular to the layer. The
 magnitude of the change is 4770. In our problem, a is constant over
 the disk. Also, because the fields on the two sides must be sym-
 metrical, there being no other source of field, we must have
-Ey+ = --Ey_, so that E,,+ = |E,,_| = 2770 all over the disk.
+Ey+ = -Ey_, so that E,,+ = |E,,_| = 2770 all over the disk.
 
 In Fig. 2.11 we show some field lines for this system and also,
 plotted as dashed curves, the intersections on the yz plane of the sur-
@@ -2071,7 +2071,7 @@ angstroms deep. The point is that as long as the layer is thin com-
 pared to the other dimensions of the system we may treat it as a layer
 of zero thickness, characterized only by its local density of charge
 per unit area, for calculating all large-scale effects. On the other
-hand, the actual distribution--in-depth may be important for sub-
+hand, the actual distribution-in-depth may be important for sub-
 surface atomic phenomena, such as the passage of electrons from one
 material to another, through an interface.
 
@@ -2093,7 +2093,7 @@ have computed, 27702 per unit area, would tend to make the balloon
 expand. Conversely, work would have to be done on the system to
 shrink the diameter of such a charge distribution while keeping the
 total charge constant. Suppose we want to shrink the sphere from
-radius ro to radius r0 -- dr, as in Fig. 2.14. Forgetting all other
+radius ro to radius r0 - dr, as in Fig. 2.14. Forgetting all other
 forces, and reckoning the work we have to do against the electrical
 forces alone, we have to apply an inward force of 277472 dynes to every
 square centimeter of surface. This force acts through a distance dr,
@@ -2115,7 +2115,7 @@ dW = zroz
 
 Notice that the only result of shrinking the sphere, so far as the
 electric field is concerned, is to create the field strength 47m in the
-shell of space between ro -- dr and r0, where the field had previously
+shell of space between ro - dr and r0, where the field had previously
 been zero. In all other parts of space the field remains exactly as
 before. This section of field has been created, one may say, at the
 cost of the work dW. By comparing numbers we see that the cost
@@ -2187,7 +2187,7 @@ tween the values of (p at two points in space is the work per unit
 charge required to transport charge from one place to the other.
 
 To emphasize the distinction between (1) and U, let us write Eq. 36
-in terms of (1) rather than E. Since E = --Vq> we have
+in terms of (1) rather than E. Since E = -Vq> we have
 
 1
 U=§ Au |V<p|2dv (39)
@@ -2279,7 +2279,7 @@ still be sure that
 What we are after is this: In the limit as N becomes enormous we
 want to identify something which is characteristic of a particular
 
-small region--and ultimately, of the neighborhood of a point. Now
+small region---and ultimately, of the neighborhood of a point. Now
 the surface integral
 
 Sir - da, (47)
@@ -2330,7 +2330,7 @@ write Eq. 46 in this way:
 N l: SF-da,-J
 LF-da =:1fS'F.da,:21V,~  
 
-In the limit N --> 00, V,-, -->,0, the term in brackets becomes the diver-
+In the limit N \rightarrow 00, V,-, \rightarrow,0, the term in brackets becomes the diver-
 gence of F and the sum goes into a volume integral:
 
 fsir-da=fVdivFdu (51)
@@ -2351,7 +2351,7 @@ for E: '
 
 LE-da=fVdivEdu (53)
 
-Both Eq. 52 and Eq. 53 hold for any volume we care to choose--of
+Both Eq. 52 and Eq. 53 hold for any volume we care to choose---of
 
 any shape, size, or location. Comparing them, we see that this can
 only be true if at every point,
@@ -2412,7 +2412,7 @@ The net flux out of the box through these two faces, each of which has
 the area Ax Ay, is therefore
 
 Ax an Ay an an]
-AJA F3 , ,3 -- Az
+AJA F3 , ,3 - Az
 'yl(x")+2ax 2ay+ az
 
  
@@ -2449,7 +2449,7 @@ the limit.]
 TThis is nothing but the beginning of a Taylor expansion of the scalar function F2,
 in the neighborhood of (x,y,:). That is, F,(x + a, y + I). z + c) : Fz(x,y.:) +
 
-(:1 8 +bi+c a)Fz+  +<--l--)(ai+bi+ci)"F,+  The de-
+(:1 8 +bi+c a)Fz+  +<-l-)(ai+bi+ci)"F,+  The de-
 ' n! Etx By 8.:
 
 Ex By oz
@@ -2477,13 +2477,13 @@ are differentiable, the limit does exist and is given by
 
 BF, + BFI, + 8F;
 
-dlV F : --
+dlV F : -
 ax ay Eiz
 
 (59)
 
-If div F has a positive value at some point, we find--thinking of F
-as a velocity field--a net "outffow" in that neighborhood. For in-
+If div F has a positive value at some point, we find---thinking of F
+as a velocity field---a net "outffow" in that neighborhood. For in-
 stance, if all three partial derivatives in Eq. 59 are positive at a
 point P, we might have a vector field in that neighborhood something
 like that suggested in Fig. 2.19. But the field could look quite dif-
@@ -2528,7 +2528,7 @@ vrpx Zwpaz for r < a (61)
 E2 is zero, of course.
 Outside the cylinder of charge, div E has the value given by
 6E, 6E,, [ 1 2x2
-: 2 2 -- ------j
+: 2 2 - ---j
 8x + Ely Wpa x2 + g2 (x2 + y2)2
 1 2.1/2 ] _
 + x2 + g2 _ (x2 + y2)2 ' 0 (62)
@@ -2538,7 +2538,7 @@ BE, (E
 Bx By
 
 We expected both results. Outside the cylinder where there is no
-charge, the net flux emerging from any vo1ume--large or sma1l--is
+charge, the net flux emerging from any vo1ume---large or sma1l---is
 zero, so the limit of the ratio flux/volume is certainly zero. Inside the
 cylinder we get the result required by the fundamental relation Eq. 54.
 
@@ -2548,7 +2548,7 @@ We have now met two scalar functions related to the electric field,
 the potential function (p and the divergence, div E. In Cartesian co-
 ordinates the relationships are expressed as:
 
-E: --gradqo= _(,2%';3+yg--:+2a;:) (64)
+E: -gradqo= _(,2%';3+yg-:+2a;:) (64)
 
 8E, + aE,, + 8E2
 
@@ -2556,11 +2556,11 @@ dlV E : j
 Bx Ely az
 
 % p. 60
-Equation 64 shows that the x component of E is E, = --a<p/ax.
+Equation 64 shows that the x component of E is E, = -a<p/ax.
 Substituting this and the corresponding expressions for E,, and E,
 into Eq. 65, we get a relation between div E and (p:
 
-divE= --div gradqp=--(i"_+ ff+ 82¢') (66)
+divE= -div gradqp=-(i"_+ ff+ 82¢') (66)
 
 The operation on (p which is indicated by Eq. 66 except for the minus
 sign we could call "div grad," or "taking the divergence of the
@@ -2636,7 +2636,7 @@ spread over the surface. That proves the assertion for this case.
 
 Tln fact. it can be shown that Eq. 70 is the mathematical equivalent of Eq. 17. This
 means. if you apply the Laplacian operator to the integral in Eq. 17, you will come
-out with --47rp. We shall not stop to show how this is done; you'll have to take our
+out with -47rp. We shall not stop to show how this is done; you'll have to take our
 word for it or figure out how to do it.
 
 % p. 62
@@ -2687,7 +2687,7 @@ try to imagine how things would be if the electric force were not a
 pure inverse-square force but instead a force with a finite range, for
 instance, a force varying like
 
-e--}\T
+e-}\T
 
 (72)
 
@@ -2754,7 +2754,7 @@ r=fCF-ds (73)
 In the integrand ds is the element of path, an infinitesimal vector
 locally tangent to C (Fig. 2.23a). There are two senses in which C
 could be traversed; we have to pick one to make the direction of ds
-unambiguous. Incidentally the curve C need not lie in a plane--it
+unambiguous. Incidentally the curve C need not lie in a plane---it
 can be as crooked as you like.
 
 Now bridge C with a new path B, thus making two loops, C1 and
@@ -2797,8 +2797,8 @@ size. The limit of the ratio of circulation to patch area will be written
 this way:
 
 . r. . I F ' 015
-l1rn --' or l1m C'
-a;-->0 (L; a.-->0 0.1',
+l1rn -' or l1m C'
+a;\rightarrow0 (L; a.\rightarrow0 0.1',
 
  
 
@@ -2817,8 +2817,8 @@ direction, of the vector curl F. To state this in an equation,
 
 F. F-ds
 
-(curl F) 'fl = lim _' =1im'3*:--
-!la-->0 (11 (11
+(curl F) 'fl = lim _' =1im'3*:-
+!la\rightarrow0 (11 (11
 
 (76)
 
@@ -2845,7 +2845,7 @@ question.
 
 % p. 66
 We have only asserted that the object defined in this way is a vector
---we haven't proved it. To deserve the name, the components as
+---we haven't proved it. To deserve the name, the components as
 defined must behave in all respects like Vector components. Suppose
 we have found certain values for the x, y, and z components, accord-
 ing to Eq. 76. If we then choose f1 in some fourth direction, the result
@@ -2873,7 +2873,7 @@ spanning C, of the product "patch area times normal component of
 vector curl F:
 
 N  N A
-211,: 2 a,(curl F) -n, --> fs da - curl F (78)
+211,: 2 a,(curl F) -n, \rightarrow fs da - curl F (78)
 i=1 1
 
 i=l
@@ -2934,7 +2934,7 @@ A (xy)+ 2 {ix + y By top offrame
 These are the average values referred to, to first order in the Tay1or's
 expansion. It is their difference, times the length of the path segment
 Ax, which determines their net contribution to the circulation. This
-contribution is -- Ax Ay (8A,/By). The minus sign comes in because
+contribution is - Ax Ay (8A,/By). The minus sign comes in because
 we are integrating toward the left at the top, so that if A, is more
 positive at the top, it results in a negative contribution to the circula-
 tion. The contribution from the sides is Ay Ax (BA,/Bx) and here
@@ -2947,8 +2947,8 @@ result is a positive contribution to the circulation.
 Thus, neglecting any higher powers of Ax and Ag, the line integral
 around the whole rectangle is
 
-LA-ds = (--Ax)(aa'/;')Ay + (Ay)(a§:")Ax
-= Ax Ay (ag:" -- 3;') (82)
+LA-ds = (-Ax)(aa'/;')Ay + (Ay)(a§:")Ax
+= Ax Ay (ag:" - 3;') (82)
 
 Now Ax Ag is the magnitude of the area of the enclosed rectangle
 which we have represented by a vector in the z direction. Evidently
@@ -2983,7 +2983,7 @@ By az
 
 Although we have considered only rectangles, our result is actually
 independent of the shape of the little patch and its frame, for reasons
-much the same as in the case of the integrals involved in the diver--
+much the same as in the case of the integrals involved in the diver-
 gence theorem. For instance, it is clear that we can freely join dif-
 ferent rectangles to form other figures, because the line integrals
 along the merging sections of boundary cancel one another exactly
@@ -3004,7 +3004,7 @@ By Bz
 
 Bz Bx
 
-curlF=x +z-------
+curlF=x +z---
 
 Bx By ) (87)
 
@@ -3014,7 +3014,7 @@ itself: Make up a determinant like this:
 :2 9 2
 
 B B B
----- -- -- 88
+--- - - 88
 Bx By Bz ( )
 F, F,, F,
 
@@ -3025,7 +3025,7 @@ tive of the rate of change of F, in the z direction, and so on.
 
 The symbol V x, read as "del-cross," where V is interpreted as the
 "vector"
-2 §--x + 9% + 2 % (89)
+2 §-x + 9% + 2 % (89)
 is often used in place of the name curl. If we write V x F and follow
 the rules for forming the components of a vector cross-product, we
 get automatically the vector, curl F. So curl F and V x F mean the
@@ -3047,8 +3047,8 @@ Something ffoating on the surface rotates as it moves along (see
 Probs. 2.16 and 2.26). In the physics of ffuid ffow, hydrodynamics
 and aerodynamics, this concept is of central importance.
 
-To make a "curl-meter" for an electric fie1d--at least in imagina-
-tion----we could fasten positive charges to a hub by insulating spokes,
+To make a "curl-meter" for an electric fie1d---at least in imagina-
+tion---we could fasten positive charges to a hub by insulating spokes,
 as in Fig. 2.30. Exploring an electric field with this device, we would
 find, wherever curl E is not zero, a tendency for the wheel to turn
 around the shaft. With a spring to restrain rotation, the amount of
@@ -3068,7 +3068,7 @@ ber that the line integral of E between any two points such as P1 and
 P2 in Fig. 2.31 is independent of the path. As we bring the two points
 P1 and P2 close together, the line integral over the shorter path in the
 
-figure obviously vanishes--unless the final location is at a singularity
+figure obviously vanishes---unless the final location is at a singularity
 such as a point charge, a case we can rule out. So the line integral
 
 must be zero over the closed loop in Fig. 2.31d. But now, if the cir-
@@ -3094,12 +3094,12 @@ which we should add E2 : O to complete the description of a field
 in three-dimensional space. Calculating curl E we find:
 
 BE BE
-IE 9; = Z -- jy =
+IE 9; = Z - jy =
 (cur ) By az 0
 6E, BEZ _
-(curl E), _ az -- ax _ 0 (91)
+(curl E), _ az - ax _ 0 (91)
 23E 29E
-IE 2 : 1' -- 'T : ---- =
+IE 2 : 1' - 'T : --- =
 (cur ) ax By K K 0
 
 This tells us that E is the gradient of some scalar potential. Inciden-
@@ -3112,7 +3112,7 @@ tally, this particular field E happens to have zero divergence, also:
 
 It therefore represents an electrostatic field in a charge-free region.
 On the other hand, the equally simple vector function defined by
-F, = Ky; F,, = --Kx; F; = 0, does not have zero curl. Instead,
+F, = Ky; F,, = -Kx; F; = 0, does not have zero curl. Instead,
 
 (curl F): = ---2K (93)
 
@@ -3121,7 +3121,7 @@ roughly the form of this field you will see at once that it has
 circulation.
 
 You can develop some feeling for these aspects of Vector functions
-by studying the two--dimensional fields pictured in Fig. 2.32. In four
+by studying the two---dimensional fields pictured in Fig. 2.32. In four
 of these fields the divergence of the vector function is zero through-
 out the region shown. Try to identify the four. Divergence implies
 a net flux into, or out of, a neighborhood. It is easy to spot in certain
@@ -3163,8 +3163,8 @@ surface volume curve surface
 IN CARTESIAN COORDINATI
 
 _ _aFx OF 617,, _A6A _%
-d1vF-- ax  az curlA -- X(6yz az)
-=  «»c:;:«--::z>
+d1vF- ax  az curlA - X(6yz az)
+=  «»c:;:«-::z>
 A %_6A,)
 +z<6x By
 = VXA
@@ -3175,7 +3175,7 @@ Problems
 2.1 The vector function which follows represents a possible electrostatic
 field:
 
-E, = 6xy E, = 3x2 -- 3y2 E, = 0
+E, = 6xy E, = 3x2 - 3y2 E, = 0
 
 Calculate the line integral of E from the point (0,0,0) to the point (x1,y1,0)
 along the path which runs straight from (0,0,0) to (x1,0,0) and thence to
@@ -3197,11 +3197,11 @@ positive, the inner sphere will always be higher in potential than the outer
 sphere. Thus if the spheres are connected by a wire, the charge q will ffow
 entirely to the outer sphere no matter how large Q is.
 
-2.4 A thin rod extends along the z axis from z = --a to z = a. The rod
+2.4 A thin rod extends along the z axis from z = -a to z = a. The rod
 carries a charge uniformly distributed along its length, of A esu per cm of length.
 Calculate the potential for all points on the x axis, for x > 0.
 
-2.5 On each of the three infinite planes at = --a, x = 0, and x = a there is
+2.5 On each of the three infinite planes at = -a, x = 0, and x = a there is
 a uniform surface charge of the same density, 0. Find the electric field and
 the potential for all space, taking (p = 0 at x = 0.
 
@@ -3254,12 +3254,12 @@ by finding a scalar function of which it is the gradient.) Evaluate the diver-
 gence of this field.
 
 2.12 Does the function f(x,y) = x2 + y? satisfy the two-dimensional
-Laplace's equation? Does the function g(x,y) = x2 -- g/2? Sketch the latter
+Laplace's equation? Does the function g(x,y) = x2 - g/2? Sketch the latter
 function, calculate the gradient at the points (x = 0, y = l); (x = 1, y = 0);
 (x = 0, y = -1); and (x = -1, y = O), and indicate by little arrows how
 these gradient vectors point.
 
-2.13 Draw "field lines" for the vector function A = --y7'r + xy in the
+2.13 Draw "field lines" for the vector function A = -y7'r + xy in the
 xy plane. Calculate the curl of A and sketch a vector indicating its direction.
 Calculate the line integral
 
@@ -3273,11 +3273,11 @@ curve.
 fields. If the curl turns out to be zero, try to discover a scalar function q) of
 which the vector field is the gradient:
 
-((1) F,:x+y;F,,= --x+y;Fz= --2z.
+((1) F,:x+y;F,,= -x+y;Fz= -2z.
 
 (1)) G, = 2y; G, = 2x + 3z; G, = 3y.
 
-(c) H, = x2 -- zz; H, = 2; H, = 2xz.
+(c) H, = x2 - zz; H, = 2; H, = 2xz.
 
 2.15 If A is any vector field with continuous derivatives, div (curl A) : 0
 or, using the "del" notation, V - (V x A) = 0. We shall need this theorem
@@ -3394,8 +3394,8 @@ the carriers of charge, electrons or ions; in the case of the mechanical
 properties, the mobility of the atoms or molecules that make up the
 structure of the material. To carry the analogy a bit further, we
 know of substances whose ffuidity is intermediate between that of a
-solid and that of a liquid--substances such as tar or ice cream. In-
-deed some substances--glass is a good example--change gradually
+solid and that of a liquid---substances such as tar or ice cream. In-
+deed some substances---glass is a good example---change gradually
 and continuously from a mobile liquid to a very permanent and rigid
 solid with a few hundred degrees' lowering of the temperature. In
 electrical conductivity, too, we find examples over the whole wide
@@ -3491,7 +3491,7 @@ Outside the conductor, the electric field is not zero. The surface of
 the conductor must be an equipotential surface of this field.
 
 Imagine that we could change a material from insulator to con-
-ductor at will. (It's not impossible--glass becomes conducting when
+ductor at will. (It's not impossible---glass becomes conducting when
 heated; any gas can be ionized by x rays.) In Fig. 3.1a is shown an
 uncharged nonconductor in the electric field produced by two fixed
 layers of charge. The electric field is the same inside the body as
@@ -3531,7 +3531,7 @@ ought to be defined, and how it could be measured, are questions we need not fac
 With this in mind, let us see what can be said about a system of
 conductors, variously charged, in otherwise empty space. In Fig. 3.2
 we see some objects. Think of them, if you like, as solid pieces of
-metal. They are prevented from moving by invisible insulators--
+metal. They are prevented from moving by invisible insulators---
 perhaps by Stephen Gray's silk threads. The total charge of each
 object, by which we mean the net excess of positive over negative
 charge, is fixed because there is no way for charge to leak on or off.
@@ -3547,7 +3547,7 @@ the kind of system in which the test charge needs to be kept small, a
 point raised in Sec. 1.7.)
 
 Because the surface of a conductor in Fig. 3.2 is necessarily a sur-
-face of constant potential, the electric field, which is --grad (p, must
+face of constant potential, the electric field, which is -grad (p, must
 be perpendicular to the surface at every point on the surface. Pro-
 ceeding from the interior of the conductor outward, we find at the sur-
 face an abrupt change in the electric field; E is not zero outside the
@@ -3565,7 +3565,7 @@ of surface (Fig. 3.3) like the one we used in analyzing the charged
  
 
 Conductor
-,...,.5. -_....--
+,...,.5. -_....-
 
 field strength at the surface of a conductor to the
 section through surface of conduc tor and box.
@@ -3638,10 +3638,10 @@ general nature of the mathematical problem such a system presents.
 We can state the problem in terms of the potential function q),
 for if (p can be found we can at once get E from it. Everywhere out-
 side the conductors (p has to satisfy the partial dilferential equation
-we met in Chap. 2, Laplace's equation: V2<p --_-- 0. Written out in
+we met in Chap. 2, Laplace's equation: V2<p -_- 0. Written out in
 Cartesian coordinates, Laplace's equation reads,
 
---+--,+--=o <4)
+-+-,+-=o <4)
 
 The problem is to find a function that satisfies Eq. 4 and also meets
 the specified conditions on the conducting surfaces. These condi-
@@ -3691,10 +3691,10 @@ Assume there is another function tl»(x,y,z) which is also a solution
 meeting the same boundary conditions. Now Laplace's equation is
 linear. That is, if go and 44 satisfy Eq. 4, then so does (p + '41 or any
 linear combination such as clqa + cgzlx, where c1 and C2 are constants.
-In particular, the difference between our two solutions, qn -- ml/, must
+In particular, the difference between our two solutions, qn - ml/, must
 satisfy Eq. 4. Call this function W:
 
-W<x.y.z> = «p<x,y,z> -- 4«<x,y.z> <5)
+W<x.y.z> = «p<x,y,z> - 4«<x,y.z> <5)
 
 Of course, W does not satisfy the boundary conditions. In fact, at
 the surface of every conductor, W is zero, because gb and (p take on
@@ -3702,7 +3702,7 @@ the same value, (pk, at the surface of a conductor k. Thus Wis a solu-
 tion of another electrostatic problem, one with the same conductors
 but with all conductors held at zero potential. We can now assert
 that if this is so, Wmust be zero at all points in space. For if it is not,
-it must have either a maximum or a minimum somewhere--
+it must have either a maximum or a minimum somewhere---
 remember that W is zero at infinity as well as on all the conducting
 boundaries. If W has an extremum at some point P, consider a
 sphere centered on that point. As we saw in Chap. 2, the average
@@ -3741,7 +3741,7 @@ on the boundary. One solution is obviously (p = (pg throughout
 % p. 91
 the volume. But there can be only one solution, according to our
 uniqueness theorem, so this is it. "cp = constant" implies E = 0,
-because E = --grad (P.
+because E = -grad (P.
 
 The absence of electric field inside a conducting enclosure is useful
 as well as theoretically interesting. It is the basis for electrical
@@ -3775,13 +3775,13 @@ q32: + R"_&dr: Q1 +_Q_2+_Qi__Q_E
 
 R1 R1 1'2 R1 R1 R2 R1
 
-=g--:+g--: , (6)
+=g-:+g-: , (6)
 
 (P2 is also the potential at all points inside the inner sphere. We could
 have found (p2 = (Q1/R1) + (Q2/R2) by simple superposition:
 Q1/R1 is the potential inside the larger sphere if it alone is present,
 Q2/R2 the potential inside the inner sphere if it alone is present. If
-the spheres carried equal and opposite charges, Q1 = -- Q2, only the
+the spheres carried equal and opposite charges, Q1 = - Q2, only the
 space between them would have a nonvanishing electric field.
 
 % p. 92
@@ -3807,7 +3807,7 @@ But how do we really solve the problem? The answer is, by a trick,
 but a trick that is both instructive and frequently useful. We find an
 easily soluble problem whose solution, or a piece of it, can be made
 to fit the problem at hand. Here the easy problem is that of two equal
-and opposite point charges, Q and -- Q. On the plane which bisects
+and opposite point charges, Q and - Q. On the plane which bisects
 the line joining the two charges, the plane indicated in cross section
 by the line AA in Fig. 3.80, the electric field is everywhere perpen-
 dicular to the plane. If we make the distance of Q from the plane
@@ -3821,8 +3821,8 @@ our uniqueness theorem in the last section. The potential of the con-
 ductor is fixed, but we have in the system a point charge, at which
 the potential approaches infinity. We can regard the point charge
 as the limiting case of a small spherical conductor on which the total
-charge Q is fixed. For this "mixed" boundary condition--potentials
-given on some surfaces, total charge on others--a uniqueness
+charge Q is fixed. For this "mixed" boundary condition---potentials
+given on some surfaces, total charge on others---a uniqueness
 theorem also holds. If our "borrowed" solution fits as well as this,
 it must be the solution.
 
@@ -3842,11 +3842,11 @@ density 0.
 charge problem, Fig. 3.80, and using Coulomb's law. Consider a
 point on the surface, a distance r from the origin. The square of its
 distance from Q is r2 + h2, and the z component of the field of Q,
-at this point, is --Q cos 0/(r2 + h2). The "image charge," --Q,
+at this point, is -Q cos 0/(r2 + h2). The "image charge," -Q,
 below the plane contributes an equal z component. Thus the electric
 field here is given by:
 
-_ --2Q _ --2Q _ h _ --2Qh
+_ -2Q _ -2Q _ h _ -2Qh
 E"Trr»?°°S"'fi72'  '7'
 
 This tells us the surface charge density a:
@@ -3855,13 +3855,13 @@ E2 = A" (8)
 
 ° = Z? 27702 + h2)3/2
 
-The total surface charge ought to amount to --Q. Just as a check,
+The total surface charge ought to amount to -Q. Just as a check,
 we could integrate over the surface and see if it is:
 
 Total surface charge = I000 0 - 2m dr
 
 °° hd
-=--QL  _) (9)
+=-QL  _) (9)
 
 % p. 94
 The method of solution used here has traditionally been called
@@ -3870,7 +3870,7 @@ located a distance h below the plane of the conductor, toward which
 the field lines appear to plunge, as the "image" of the point charge Q,
 something like the virtual image behind a mirror. The electric force
 which acts on the charge Q, owing to the attraction of the surface
-charge, is equal to the force that a charge --Q in the image position
+charge, is equal to the force that a charge -Q in the image position
 would cause. Note that the actual origin of this force is the surface
 charge.
 
@@ -3886,7 +3886,7 @@ we were to take any two of these surfaces, construct metal shells of
 exactly that shape and similarly placed with respect to one another,
 as in Fig. 3.1019, we would have already in hand the exact solution
 for the electrostatic field of two such charged conductors! It would
-be the corresponding piece of the two--charge field. Unfortunately,
+be the corresponding piece of the two-charge field. Unfortunately,
 no one is likely to come around with electrodes of precisely that
 shape, looking for a method of solution, although as an approximate
 solution for spheres it might attract some customers.
@@ -3916,14 +3916,14 @@ delight in their construction and their elegance.
 Two similar ffat conducting plates are arranged parallel to one
 another, separated by a distance s, as in Fig. 3.l1a. Let the area of
 each plate be A and suppose that there is a charge Q on one plate
-and --Q on the other. (p1 and (P2 are the values of the potential at
+and -Q on the other. (p1 and (P2 are the values of the potential at
 each of the plates. Figure 3.1 lb shows in cross section the field lines
 in this system. Away from the edge, the field is very nearly uniform
 in the region between the plates. Treating it as uniform, its magni-
-tude must be ((121 -- <p2)/s. The corresponding density of the sur-
+tude must be ((121 - <p2)/s. The corresponding density of the sur-
 face charge on the inner surface of one of the plates is
 
-_ £_ 'P1 -- (P2
+_ £_ 'P1 - (P2
 _ 471' _ 47rs (10)
 
 0
@@ -3961,14 +3961,14 @@ ested in the relation between the charge Q on one of the plates and
 
 % p. 97
 the potential dilference between them. For the particular system
-to which Eq. 11 applies, the quotient Q/ (cpl -- (P2) is A/4ws. Even
+to which Eq. 11 applies, the quotient Q/ (cpl - (P2) is A/4ws. Even
 if this is only approximate, it is clear that the exact formula will de-
 pend only on the size and geometrical arrangement of the plates.
 That is, for a fixed pair of conductors, the ratio of charge to potential
 difference will be a constant. We call this constant the capacitance
 of the capacitor and denote it usually by C.
 
-Q = CW1 -- <P2) (12)
+Q = CW1 - <P2) (12)
 
 Thus the capacity of the parallel-plate capacitor, with edge fields
 neglected, is given by
@@ -3994,7 +3994,7 @@ itance, the centimeter, remember that 1 volt = 1/300 statvolt, and
 1 coulomb = 3 x 109 esu. Thus
 
 1 coulomb _ 3 x 109 esu
-lvolt -- (1/300) statvolt
+lvolt - (1/300) statvolt
 
 1 farad
 
@@ -4022,7 +4022,7 @@ centimeter. The word condenser, by the way, is an older term for
 capacitor.
 
 Any pair of conductors, regardless of shape or arrangement, can
-be considered a capacitor. It just happens that the parallel--plate
+be considered a capacitor. It just happens that the parallel---plate
 capacitor is a common arrangement and one for which an approxi-
 mate calculation of the capacitance is very easy. Figure 3.13 shows
 two conductors, one inside the other. We can call this arrangement,
@@ -4040,14 +4040,14 @@ In this system we can distinguish three charges: Q1, the total
 charge on the inner conductor; Q2"), the amount of charge on the
 inner surface of the outer conductor; Q2") the charge on the outer
 surface of the outer conductor. Observe first that Q2") must equal
---Q1. We know this because a surface such as S, in Fig. 3.13 en-
+-Q1. We know this because a surface such as S, in Fig. 3.13 en-
 closes both these charges and no others and the flux through this
 surface is zero. The flux is zero because on the surface S, lying, as
 it does, in the interior of a conductor, the electric field is zero.
 
 Evidently the value of Q1 will uniquely determine the electric field
 within the region between the two conductors, and thus will deter-
-mine the difference between their potentials, <p1 -- (P2. For that
+mine the difference between their potentials, <p1 - (P2. For that
 reason, if we are considering the two bodies as "plates" of a capaci-
 tor, it is only Q1, or its counterpart Q2"), that is involved in deter-
 mining the capacitance. The capacitance is:
@@ -4059,8 +4059,8 @@ plete enclosure of one conductor by the other makes the capacitance
 
 % p. 99
 independent of everything outside. If we were faced instead with
-two unsymmetrical capacitor plates not so enclosed--something like
-Fig. 3.14, say,--we might be puzzled by the question: What is the
+two unsymmetrical capacitor plates not so enclosed---something like
+Fig. 3.14, say,---we might be puzzled by the question: What is the
 charge which plays the role of Q1, in terms of which the capacitance
 should be defined? The answer is that it is the amount of charge
 that would have to be transferred from conductor 1 to conductor 2
@@ -4085,7 +4085,7 @@ out the system. It follows that the charges Q1, Q2, and Q3 on the
 individual conductors are likewise uniquely determined.
 
 We need not keep account of the charge on the inner surface of
-the surrounding shell, since it will always be --(Q1 + Q2 + Q3).
+the surrounding shell, since it will always be -(Q1 + Q2 + Q3).
 If you prefer, you can let "infinity" take over the role of this shell,
 imagining the shell to expand outward without limit. We have kept
 it in the picture because it makes the process of charge transfer easier
@@ -4117,7 +4117,7 @@ this case, and the various charges:
 
 II
 Sine _ 0 ] Q1 = C12<P2; Q2 = C22<P2§ Q3 = C32<P2 (16)
-'P1 -- 'P3 --
+'P1 - 'P3 -
 Finally, when (121 and (P2 are held at zero, the field and the charges
 are proportional to (P32
 
@@ -4175,10 +4175,10 @@ principle can be applied.
 
 Consider a capacitor of capacitance C, with a potential difference
 (p12 between the plates. The charge Q is equal to C<p12. There is a
-charge Q on one plate and --Q on the other. Suppose we increase
+charge Q on one plate and -Q on the other. Suppose we increase
 the charge from Q to Q + dQ by transporting a positive charge dQ
 from the negative to the positive plate, working against the potential
-difference (p12. The work that has to be done is dW = (P12 dQ --_--
+difference (p12. The work that has to be done is dW = (P12 dQ -_-
 Q dQ/ C. Therefore to charge the capacitor starting from the un-
 charged state to some final charge Q, requires the work
 
@@ -4224,7 +4224,7 @@ like this to make the method useful, quite apart from its intrinsic
 mathematical interest. For instance, the exact solution for the po-
 tential around two long parallel strips is easily obtained by the
 method of conformal mapping. The field lines and equipotentials
-are shown in a cross--section plane in Fig. 3.16. This provides us
+are shown in a cross-section plane in Fig. 3.16. This provides us
 with the edge field for any parallel-plate capacitor in which the edge
 is long compared to the gap. The field shown in Fig. 3.llb was
 copied from such a solution. You will be able to apply this method
@@ -4272,7 +4272,7 @@ the total energy associated with an electrostatic field can be ex-
 pressed by
 
 _1
-U_8--fffE2dv (24)
+U_8-fffE2dv (24)
 
 If you worked Prob. 2.19, you found that in that very simple case
 the charge on a conducting boundary of constant potential (there
@@ -4294,7 +4294,7 @@ boundary conditions but don't satisfy Laplace's equation, such as
 z,b(x,y,z), by the fact that the stored energy is less for q> than for il.
 Expressing the energy in terms of q:, as we did in Eq. 2.38,
 
-U = _1--f|vqa|2 do (25)
+U = _1-f|vqa|2 do (25)
 
 877
 
@@ -4385,7 +4385,7 @@ tions that can be constructed from these elements?
 Asked to predict the amount of work that would have to be done to move this
 charge out to infinite distance from the plane, one student says that it is the
 same as the work required to separate to infinite distance two charges Q and
-----Q which are initially 2h cm apart, hence W : Q2/2h. Another student
+---Q which are initially 2h cm apart, hence W : Q2/2h. Another student
 calculates the force that acts on the charge as it is being moved and integrates
 F dx, but gets a dilferent answer. What did the second student get, and who
 is right?
@@ -4399,7 +4399,7 @@ and a surface charge 02 on the other side of the same plate?
 Prob. 3.8
 
 % p. 107
-3.9 Locate two charges +q each and two charges --q each on the corners
+3.9 Locate two charges +q each and two charges -q each on the corners
 of a square, with like charges diagonally opposite one another. Show that
 there are two equipotential surfaces that are planes. In this way obtain, and
 sketch qualitatively, the field of a single point charge located symmetrically
@@ -4420,7 +4420,7 @@ How much energy was lost, and what happened to it?
 3.12 What is the capacitance C of a capacitor that consists of two concen-
 tric spherical shells, the inner of radius r1, the outer of radius 1'2? Check your
 result by relating to the case of a ffat parallel-plate capacitor the limiting case
-in which r2 -- r1 < r1.
+in which r2 - r1 < r1.
 
 3.13 Let (1)12 be the potential difference between the plates of the spherical
 capacitor of the preceding problem. Find an expression for the electric field,
@@ -4461,7 +4461,7 @@ with the plane y = s. The distance s between the plates is much smaller than
 the lateral dimensions of the plates. A point charge Q is located between the
 plates at y = b (see figure). What is the magnitude of the total surface charge
 on the inner surface of each plate? The total surface charge on the inner sur-
-face of both plates must of course be --Q (why?), and we can guess that a
+face of both plates must of course be -Q (why?), and we can guess that a
 larger fraction of it will be found on the nearer -plate. If the charge were very
 close to the left plate, 12 < s, the presence of the plate on the right couldn't
 make much diff"erence. However, we want to know exactly how the charge
@@ -4580,7 +4580,7 @@ weighting each velocity by the number in the group, and dividing by
 the total number. That is,
 
 _ 1
-= -- 4
+= - 4
 11 Ne gnkllk ( )
 
 We use the bar over the top of u to mean the average over a distri-
@@ -4589,10 +4589,10 @@ of the electrons to the current density can be written simply in terms
 of the average electron velocity. Remembering that for the electron
 
 % p. 112
-q --_- --e, and using subscript e to show that all quantities refer to
+q -_- -e, and using subscript e to show that all quantities refer to
 this one type of charge carrier, we can write
 
-J9 = ----eNefie (5)
+J9 = ---eNefie (5)
 
 This may seem rather obvious, but we have gone through it step
 by step to make clear that the current through the frame depends
@@ -4623,7 +4623,7 @@ S. The surface integral of J over all of S gives the rate at which
 charge is leaving the volume enclosed. It will be positive if positive
 charge carriers are moving outward or negative charge carriers are
 moving inward, and so on. Were this to go on indefinitely, the vol-
-ume would sooner or later run out of charge--unless some new
+ume would sooner or later run out of charge---unless some new
 charge were created. But charge creation is just what can't happen.
 Therefore, for a truly time-independent current distribution, the
 surface integral of J over any closed surface must be zero. This is
@@ -4644,7 +4644,7 @@ leaving the enclosed volume, while fv p do is the total charge inside
 
 the volume at any instant, we have
 
-ISJ-da=--%fVpdv (8)
+ISJ-da=-%fVpdv (8)
 
 Letting the volume in question shrink down around any point
 (x,y,z), the relation expressed in Eq. 8 becomeszf
@@ -4669,7 +4669,7 @@ the space between the cathode and anode the electric current con-
 sists of these moving electrons. The circuit is completed by the ffow
 of electrons in external wires, possibly by the movement of ions in
 a battery, and so on, with which we are not here concerned. In this
-diode, the local density of charge in any region, p, is simply --ne
+diode, the local density of charge in any region, p, is simply -ne
 where n is the local density of electrons, in electrons/cm3. The local
 current density J is of course pv where v is the velocity of electrons
 in that region. In the plane-parallel diode we may assume J has no
@@ -4699,7 +4699,7 @@ near a trafiic slowdown, low where traffic is moving at high speed.
 The current in a diode may be limited by an interesting effect: the
 inffuence of the negative charge density (the "space charge") on the
 electric field, hence on the acceleration and velocity of the electrons,
-hence--completing the circle--on the charge density itself. Prob-
+hence---completing the circle---on the charge density itself. Prob-
 lem 4.25 explores the behavior of the "space-charge-lirnited" diode
 and indicates how you can derive the curious voltage-current relation
 which governs it. The relation is important in electronics not only
@@ -4731,7 +4731,7 @@ _X
 % p. 115
 The current I ffowing through a wire is proportional to V, the differ-
 ence in potential between its ends. We have used q; heretofore as
-the symbol for electric potential, and ((1)1 -- (pg) or 9012 for the dif-
+the symbol for electric potential, and ((1)1 - (pg) or 9012 for the dif-
 ference of potential. In this section we shall use the symbol V, which
 is more common in the elementary physics of electric circuits, and
 comes, of course, from "volts" or "voltage." (We had avoided V
@@ -4758,8 +4758,8 @@ in centimeters, and this is the unit which is commonly given in tables.
 
 The electrical engineer is interested in Eqs. 10 and 11 chieffy for
 calculating the resistance of parts of electrical circuits, and the
-voltage-current relations in those circuits. The physicist--except
-when he is designing electrical apparatus--sees these equations as
+voltage-current relations in those circuits. The physicist---except
+when he is designing electrical apparatus---sees these equations as
 reffecting a most remarkable and general property of matter, which
 it is his task to understand. The fundamental fact which the equa-
 tions, taken together, reffect, is this: In solid homogeneous materials
@@ -4856,14 +4856,14 @@ We need charge carriers, so let us imagine a medium consisting of
 positive and negative charge carriers in equal number, say N of each
 kind per cubic centimeter. The positive carriers are ions of mass M+
 each, carrying charge e, while the negative carriers are negative ions
-of mass M_ each, with charge --e. The current density J will be
+of mass M_ each, with charge -e. The current density J will be
 determined by the average velocities of these carriers.
 
 A uniform electric field E, constant in time, is applied to this sys-
 tem, exerting a force on every charge carrier. This is the first oc-
 casion, in this volume, on which we have considered the force on a
 moving charge in an electric field. We shall treat the question care-
-fully in Chap. 6. The fact is--and it was already used in Vol. I--that
+fully in Chap. 6. The fact is---and it was already used in Vol. I---that
 the force is the same as if the charge carrier were at rest. That is,
 each carrier of charge q, regardless of its motion, experiences the
 constant force qE.
@@ -4878,7 +4878,7 @@ not be moving freely; there must be something which opposes the
 motion that the electric field causes.
 
 We do not have to look far to find a source of frictional hindrance
---it arises from the collisions the charge carriers experience as they
+---it arises from the collisions the charge carriers experience as they
 move among one another and among any other particles that may
 inhabit the medium.
 
@@ -4905,14 +4905,14 @@ line at constant speed until, presently, it chances to come close to an
 atom, close enough for short-range forces to come into play. In this
 collision, the total kinetic energy and the total momentum of the two
 bodies will be conserved, but the speed and direction of the ion's
-ffight will be altered--perhaps only a little, perhaps drastically--to
+ffight will be altered---perhaps only a little, perhaps drastically---to
 a new velocity u'. Later a new collision occurs, changing the velocity
 to u", and so it goes. It can also happen that another ion some dis-
 tance away, interacting with our ion by the long-range Coulomb
 force, deffects the ion's path. Long-range encounters, which can be
 important between ions and ions, mostly change the velocity in
 smaller random increments, but the eventual efi°ect is the same.
-The eventual effect----and this is the key to our problem--is to wipe
+The eventual effect---and this is the key to our problem---is to wipe
 out any relation (either in magnitude or direction) between the
 velocity u of the ion at t = 0 and its velocity after some interval has
 elapsed. That is to say, after some time t = r the ion's velocity vec-
@@ -5009,7 +5009,7 @@ carry negative charge their contribution to the current density J adds
 to that of the positives. The equivalent of Eq. 3.24, with the two sorts
 of ions included, is now
 
-_ eEa)_ (--eEa)_ 2(L ?_-)
+_ eEa)_ (-eEa)_ 2(L ?_-)
 J_Ne(M+ Ne M_ _Ne M++M_ E (16)
 
 Our theory predicts that the system will obey Ohm's law, for
@@ -5025,7 +5025,7 @@ We made a number of rather special assumptions about this sys-
 tem, but looking back, we can see that they were not essential so far
 as the linear relation between E and J is concerned. Any system
 containing a constant density of free charge carriers, in which the
-motion of the carriers is frequently "re--randomized" by collisions or
+motion of the carriers is frequently "re-randomized" by collisions or
 
 TYou may think the average time between collisions would have to be equal to the
 sum of the average time since the last collision and the average time to the next. That
@@ -5033,7 +5033,7 @@ would be true if collisions occurred at absolutely regular intervals, but they d
 are independent random events, and for such the above statement, paradoxical as it may
 seem at first. is true. Think about it. The question does not aff"ect our main conclusion,
 but if you unravel it you will have grown in statistical wisdom. (Hint: If one collision
-doesn't aff'ect the probability of having another--that's what independent means--it
+doesn't aff'ect the probability of having another---that's what independent means---it
 
 can't matter whether you start the clock at some arbitrary time, or at the time of a
 collision.)
@@ -5070,7 +5070,7 @@ the motion of the positives altogether. In Fig. 4.5a we see a wholly
 random distribution of particles and of electron speeds. To make
 the diagram, the location and sign of a particle were determined by a
 random-number table. The electron velocity vectors were likewise
-drawn from a random distribution, one corresponding to the "Max--
+drawn from a random distribution, one corresponding to the "Max-
 wellian" distribution of molecular velocities in a gas. In Fig. 4.519
 We have used the same positions, but now the velocities have all a
 small added increment to the right. That is, Fig. 4.519 is a view of
@@ -5210,7 +5210,7 @@ This seems a surprisingly long time for an electron to move through
 the crystal lattice without suffering serious deffection. The thermal
 speed of an electron at room temperature, according to kinetic
 theory, ought to be about 107 cm/sec, so that in 3 X l0'14 see an
-electron would travel 30 angstr0ms--more than ten lattice spaces.
+electron would travel 30 angstr0ms-more than ten lattice spaces.
 
 Why is the lattice of ions so transparent to the electrons? Remem-
 ber that, insofar as one can speak of size, the ions nearly touch one
@@ -5224,7 +5224,7 @@ covered. Indeed, the behavior of electrons in metals confronted
 physics, before quantum mechanics, with a set of stubborn para-
 doxes. We shall return to these questions later when you are
 equipped with some background in quantum physics. For our
-present task, we can do as generations of physicists had to do--take
+present task, we can do as generations of physicists had to do---take
 the remarkable electrical conductivity of metals for granted.
 
 We can, however, keep some of the essentials of our picture of
@@ -5341,7 +5341,7 @@ between charged cylinders is proportional to 1/r, so we set E = k/r
 and determine the constant k by requiring that
 
 '2 '2d1'_ T2
-V0=fr1Edr=kJ;1T_kInr-- (21)
+V0=fr1Edr=kJ;1T_kInr- (21)
 
 1
 
@@ -5363,7 +5363,7 @@ ance is
 
 1 (23)
 
-R=--= In-- (24)
+R=-= In- (24)
 
 What if the copper sleeves had been extremely thin layers of metal,
 with a resistance to longitudinal ffow not small compared to the
@@ -5386,7 +5386,7 @@ Tlt is perfectly possible to have 4 amp ffowing into one terminal of a two-termi
 object with 3 amp ffowing out at the other terminal. But then the object is accumulating
 positive charge at the rate of 1 coulomb/sec. Its potential must be changing very rap-
 
-idly--and that can't go on for long. Hence this cannot be a steady, or time-independent,
+idly---and that can't go on for long. Hence this cannot be a steady, or time-independent,
 current.
 
 % p. 130
@@ -5431,7 +5431,7 @@ resistor. We say that the physical network of objects in Fig. 4.9a is
 represented by the diagram of Fig. 4.919 and for the terminals A1A2
 
 'i'We use the term resistor for the actual object designed especially for that function.
-Thus a "200-ohm, lO--watt, wire-wound resistor" is a device consisting of a coil of wire
+Thus a "200-ohm, lO-watt, wire-wound resistor" is a device consisting of a coil of wire
 on some insulating base, with terminals, intended to be used in such a way that the aver-
 age power dissipated in it is not more than 10 watts.
 
@@ -5440,7 +5440,7 @@ the equivalent circuit is Fig. 4.9c. The equivalent circuit for the ter-
 minals at BIB2 is given in Fig. 4.9d. If you put this assembly in a
 box with only that pair of terminals accessible, it will be indistin-
 guishable from a resistor of 57.6 ohms resistance. There is one very
-important ru1e--only direct-current measurements are allowed! All
+important ru1e---only direct-current measurements are allowed! All
 that we have said depends on the current and electric fields being
 constant in time; if they are not, the behavior of a circuit element
 may not depend on its resistance alone. The concept of equivalent
@@ -5465,7 +5465,7 @@ ment that you should be able to give, the equivalent resistance R is
 found as follows:
 
 1 1 1 B1B;
----:j ---- R24
+---:j --- R24
 R R1 +32 °r , R1+R2
 
 (26)
@@ -5501,7 +5501,7 @@ problem depends only on the topology of the network, that is, on
 those features of the diagram of connections that are independent
 of any distortion of the lines of the diagram.
 
-A dc network of resistances is a linear system----the voltages and
+A dc network of resistances is a linear system---the voltages and
 currents are governed by a set of linear equations, the statements of
 the conditions (i), (ii), and (iii). Therefore the superposition of
 different possible states of the network is also a possible state. F ig-
@@ -5548,7 +5548,7 @@ Suppose a steady current I, in amperes, ffows through a resistor
 of R ohms. In every second, I coulombs of charge are transferred
 through a potential difference of V volts, where V = IR. Hence the
 work done in 1 sec is IZR, in joules. (1 coulomb X 1 volt : 1 joule =
-107 ergs.) The watt, or volt--ampere, is the corresponding unit of
+107 ergs.) The watt, or volt-ampere, is the corresponding unit of
 power P (rate of doing work). (1 watt = 1 joule/sec.)
 
 P = 123 (27)
@@ -5570,7 +5570,7 @@ a large scale. With everything running steadily, we find current in
 the external resistance ffowing in the direction of the electric field E,
 and energy being dissipated there (appearing as heat) at the rate
 I V0, or PR. Inside the column of the machine, too, there is a down-
-ward--directed electric field. Here charge carriers can be moved
+ward-directed electric field. Here charge carriers can be moved
 against the field if they are stuck to a nonconducting belt. They are
 stuck so tightly that they can't slide backward along the belt in the
 generally downward electric field. (They can still be removed from
@@ -5579,7 +5579,7 @@ the belt by a much stronger field localized at the brush in the termi-
 % p. 135
 nal. We need not consider here the means for putting charge on and
 off the belt near the pulleys.) The energy needed to pull the belt is
-supplied from elsewhere--usually by an electric motor connected to
+supplied from elsewhere---usually by an electric motor connected to
 a power line, but it could be a gasoline engine, or even a man turning
 a crank. This Van de Graaff generator is in effect a battery with an
 electromotive force, under these conditions, of V0 volts.
@@ -5603,7 +5603,7 @@ a copper disk separated by moistened pasteboard. Volta's "pile," as
 it was called, was the first practical source of steady electric current.
 There are many kinds of voltaic cells, including the ubiquitous "dry
 cell." The automobile battery consists, if it is a "l2-Volt" battery, of
-six lead--sulfuric acid cells in series. We shall describe another
+six lead-sulfuric acid cells in series. We shall describe another
 variety of cell, the Weston standard cell, the chemistry of which
 happens to be rather simple. In addition, the Weston cell is uniquely
 
@@ -5676,7 +5676,7 @@ by 8. The electric field is the negative gradient of the potential. As
 in any other electrostatic field, the line integral of E around the com-
 
 plete path is zero. (By the way, the level at which the potential of
-the electrolyte has been drawn is rather arbitrary--one cannot
+the electrolyte has been drawn is rather arbitrary---one cannot
 directly measure it.)
 
 Figure 4.19 shows the potential distribution when current is ffow-
@@ -5763,7 +5763,7 @@ Writing this in the form
 
 dQ _ dt
 
-? -- ' R (30)
+? - ' R (30)
 
 we can integrate both sides, obtaining
 _ ;t
@@ -5781,7 +5781,7 @@ Q : CV06_t/RC
 
 The behavior of the current I is found directly from this:
 
-1 = _ 'ET? = %e--t/RC (34)
+1 = _ 'ET? = %e-t/RC (34)
 
 At the closing of the switch the current rises at once to the value
 V0/R and then "decays" exponentially to zero. The time that charac-
@@ -5806,8 +5806,8 @@ reasonable objects to find around any laboratory, we would have
 RC = 5 X 105 X 0.05 X 10*' or 0.25 sec.
 
 Quite generally, in any electrical system made up of charged con-
-ductors and resistive current paths, one time scale--perhaps not the
-only one--for processes in the system is set by some resistance-
+ductors and resistive current paths, one time scale---perhaps not the
+only one---for processes in the system is set by some resistance-
 capacitance product. This has a bearing on our earlier observation
 about the dimensions of resistivity. Imagine a capacitor with plates
 of area A and separation s. Its capacitance C is A/(4773). Now
@@ -5997,7 +5997,7 @@ Solving this network consists in finding the currents in all the branches. These
 five unknown currents have been arbitrarily assigned directions by the arrows
 in the figure. If a current actually ffows in the direction opposite to the arrow
 in some branch, in a specific case, it will turn out to be a negative quantity.
-For each of the four junctions, or nodes, an equation like 10 -- I1 -- I3 = 0
+For each of the four junctions, or nodes, an equation like 10 - I1 - I3 = 0
 holds. Write these out and show that only three are independent. Obtain
 two more equations by applying condition (iii), Sec. 4.8, to two loops. (Note
 that three loops can be seen, but you will find that only two such loop equations
@@ -6089,7 +6089,7 @@ some manifestation of this, he tried before his class the experiment
 of passing a galvanic current through a wire which ran above and at
 right angles to a compass needle. It had no effect. After the lecture,
 something impelled him to try the experiment with a wire running
-parallel to the compass needle. The needle swung wide--and when
+parallel to the compass needle. The needle swung wide---and when
 the galvanic current was reversed it swung the other way!
 
 The scientific world was more than ready for this revelation. A
@@ -6120,7 +6120,7 @@ that embraces all physical laws and not solely those of electromag-
 netism. We expect any complete physical theory to be relativistically
 invariant. It ought to tell the same story in all inertial frames of
 reference. As it happened, physics already had one relativistically
-invariant theory--Maxwell's electromagnetic theory--long before
+invariant theory---Maxwell's electromagnetic theory---long before
 the significance of relativistic invariance was recognized. Whether
 the ideas of special relativity could have evolved in the absence of a
 complete theory of the electromagnetic field is a question for the
@@ -6165,7 +6165,7 @@ moving are called magnetic.
 Oersted's compass needle (Fig. 5.2a) doesn't look much like a
 direct-current circuit. We now know, however, as Ampere was the
 first to suspect, that magnetized iron is full of perpetually moving
-charges--electric currents on an atomic scale. A slender coil of wire
+charges---electric currents on an atomic scale. A slender coil of wire
 with a battery to drive current through it (Fig. 5.2b) behaves just
 like the compass needle under the inffuence of a nearby current.
 
@@ -6177,7 +6177,7 @@ pending on the relative direction of the current in that wire (Fig. 5.3).
 You are already familiar with this from the laboratory, and you know
 that this interaction of currents and other moving charges can be
 described by introducing a magnetic field. (The electric field,
-remember, was simply a way of describing the "action-at-a--distance"
+remember, was simply a way of describing the "action-at-a-distance"
 between stationary charges that is expressed in Coulomb's law.)
 We say that an electric current has associated with it a magnetic field
 which pervades the surrounding space. Some other current, or any
@@ -6193,7 +6193,7 @@ where B is the magnetic field.
 
 % p. 151
 We shall take Eq. 1 as the definition of B. The magnetic field
-strength is a vector which determines the Velocity--proportional part
+strength is a vector which determines the Velocity-proportional part
 of the force on a moving charge. In other words, the command,
 "Measure the direction and magnitude of the vector B at such and
 such a place," calls for the following operations: Take aparticle of
@@ -6205,7 +6205,7 @@ fit all these results; that is the magnetic field at the place in question.
 Clearly this doesn't explain anything. Why does Eq. 1 work?
 Why can we always find a B that is consistent with this simple rela-
 tion, for all possible velocities? We want to understand why there
-is a Velocity--proportional force. It is really most remarkable that
+is a Velocity-proportional force. It is really most remarkable that
 this force is strictly proportional to v, and that the effect of the electric
 
 field does not depend on v at all! In the following pages we'll see
@@ -6264,7 +6264,7 @@ We define the amount of charge inside S as 1/477 times this integral:
 
 It would be embarrassing if the value of Q so determined depended
 on the size and shape of the surface S. For a stationary charge it
-doesn't--that is Gauss's law. But how do we know that Gauss's law
+doesn't---that is Gauss's law. But how do we know that Gauss's law
 holds when charges are moving? Fortunately it does. We can take
 that as an experimental fact. This fundamental property of the
 electric field of moving charges permits us to define quantity of
@@ -6321,7 +6321,7 @@ crepancy that could be attributed to even a slight dilference in total
 nuclear charge.
 
 Mass is not invariant in the same way. We know that the mass of
-a particle is changed by its motion, by the factor l/(1 -- U2/c2)1/2.
+a particle is changed by its motion, by the factor l/(1 - U2/c2)1/2.
 To emphasize the difference, we show in Fig. 5.7 an imaginary ex-
 periment. In the box on the right the two massive charged particles,
 which are fastened to the end of a pivoted rod, have been set revolv-
@@ -6348,7 +6348,7 @@ term. See if you can show why.
 % p. 155
 This invariance of charge lends a special significance to the fact of
 charge quantization. We emphasized in Chap. 1 the importance-
-and the mystery--of the fact that every elementary charged particle
+and the mystery---of the fact that every elementary charged particle
 has a charge equal in magnitude to that of every other such particle.
 We now observe that this precise equality holds not only for two
 particles at rest with respect to one another, but for any state of rela-
@@ -6414,7 +6414,7 @@ inertial frame F'? For a certain class of fields, we can answer this
 question by applying Gauss's law to some simple systems.
 
 In the frame F (Fig. 5.9a) there are two stationary sheets of charge
-of uniform density +0 and --a esu/cm2, respectively. They are
+of uniform density +0 and -a esu/cm2, respectively. They are
 squares 19 cm on a side lying parallel to the xy plane, and their separa-
 tion is supposed to be so small compared to their extent that the field
 between them can be treated as uniform. The magnitude of this
@@ -6422,9 +6422,9 @@ field, as measured by an observer in F, is of course just 47m. Now
 consider an inertial frame F' which moves toward the left, with
 respect to F, with velocity v. To an observer in F', the charged
 "squares" are no longer square. Their x' dimension is contracted
-from 19 to bx/l -- [32, where ,8 stands for 12/0, as usual. But total
+from 19 to bx/l - [32, where ,8 stands for 12/0, as usual. But total
 charge is invariant, that is, independent of reference frame, so the
-charge density measured in F', is greater than a in the ratio 1/ \/l -- B2.
+charge density measured in F', is greater than a in the ratio 1/ \/l - B2.
 Figure 5.9 shows the system in cross section, (19) as seen in F and (c)
 as seen in F'. What can we say about the electric field in F', if all
 we know about the electric field of moving charges is contained in
@@ -6452,13 +6452,13 @@ shown in cross section in Fig. 5.9f. The charge content is determined
 by a', and the field is zero outside the sandwich. Gauss's law tells us
 that the magnitude of E,', which is the only field component inside,
 
-must be 4770', or 47m/\/1 -- B2.
+must be 4770', or 47m/\/1 - B2.
 E
 
 ---'j=E
 \  72'
 
-(For the factor 1/ \/l -- B2 we shall often use the symbol y, intro-
+(For the factor 1/ \/l - B2 we shall often use the symbol y, intro-
 duced in Vol. 1, Chap. 11, Eq. 13. It saves a lot of writing. Remem-
 ber, y 2 1, always.)
 
@@ -6546,13 +6546,13 @@ _ Q _ Qx
 E' ' ,2 cos 0 ' (x2 + z2)3/2
 Q Q (8)
 . z
-E, = r--2 sm 0 = (x2 + z2)3/2
+E, = r-2 sm 0 = (x2 + z2)3/2
 
 Let the frame F' move in the negative x direction, with speed 12. The
 relations between the coordinates of an event, or space-time point,
 in the two frames are
 
-x=y(x'--,Bct') y=g' z=z' t=y(r_Ec"i) (9)
+x=y(x'-,Bct') y=g' z=z' t=y(r_Ec"i) (9)
 
 This is the Lorentz transformation given in Eq. 15 of Chap. 11, Vol.1.
 We have minus signs in our equations above because our frame F' is
@@ -6596,9 +6596,9 @@ the square of the magnitude of the field, E'2.
 
 , , 2Q"'(x'2 + 3'2) Q2(x'2 + 2")
 E2:E5€'2+Eé2:.Y I I : I I I
-[(Yx)2+z2]3 Y4[x2+z2--B2z2]3
+[(Yx)2+z2]3 Y4[x2+z2-B2z2]3
 2 2
-(1 -- .32)
+(1 - .32)
 = Q 323,2 3 (11)
 
 (Here, for once, it was neater with ,8 worked back into the expres-
@@ -6609,7 +6609,7 @@ radius vector and the velocity of the charge Q, which is moving in
 the positive x' direction in the frame F'. Then since z' = 1' sin 0', the
 magnitude of the field can be written as:
 
-I 1-- 2
+I 1- 2
 E  (12)
 
 There is nothing special about the origin of coordinates, nor about
@@ -6699,8 +6699,8 @@ the point marked P, at time t = 2, which means 2 X 10'10 sec. In
 2 x 10-10 see a light signal travels 6 cm. Since this point lies more
 than 6 cm distant from the origin, it could not have received the news
 that the electron had startedto move at t = 0! Unless there is a
-gross violation of relativity--and we are taking the postulates of
-relativity as basis for this whole discussion--the field at the point P
+gross violation of relativity---and we are taking the postulates of
+relativity as basis for this whole discussion---the field at the point P
 at time t = 2, and indeed at all points outside the sphere of radius
 
 6 cm centered on the origin, must be the field of a charge at rest at the
@@ -6722,7 +6722,7 @@ somehow change, as we consider regions farther and farther from
 the charge, at the given instant t = 2, from the field shown in the
 second diagram of Fig. 5.15 to the field of a charge at the origin. We
 can't deduce more than this without knowing how fast the news does
-travel. Suppose--just suppose--it travels as fast as it can without
+travel. Suppose---just suppose---it travels as fast as it can without
 confficting with the relativity postulates. Then if the period of accel-
 eration is neglected, we should expect the field within the entire
 6-cm-radius sphere, at t = 2, to be the field of a uniformly moving
@@ -6836,7 +6836,7 @@ field in the transition region, with the field there running mainly per-
 pendicular to the radius vector from the origin. Remembering that
 this field configuration expands with speed c as time goes on, we see
 that we have something very much like an outgoing wave of trans-
-verse electric field--transverse to the direction of propagation, that is.
+verse electric field---transverse to the direction of propagation, that is.
 
 We were led to this by following through consistently the conse-
 quences of the relativity postulates and the observed fact that electric
@@ -6901,7 +6901,7 @@ I
 
 Here we have used the obvious abbreviations, B' = u'/c and
 
-y=um--az
+y=um-az
 
 % p. 169
 In the frame F, on the other hand, the speed of the particle is
@@ -6971,7 +6971,7 @@ Pr' = moi/B' = m0\/Y'2 - 1 (26)
 
 Thus
 dp,' _ mcy' _ Lo 27
-dv" y'2--1'/3* "
+dv" y'2-1'/3* "
 Then dyl = TL = 'B/ and putting this into Eq. 25 we get
 dpé (dp;/dv') mo
 dm = v dp;<1 + BB') (28)
@@ -6981,7 +6981,7 @@ d .z' d z'
 
 and this holds no matter how large 1)' is since the factor (1 + /3,8')
 appeared in both equations. Actually, we shall be interested only in
-situations where v' is very small--that is, where the particle is very
+situations where v' is very small---that is, where the particle is very
 nearly at rest in the F' frame. In that case the term BB' can be ne-
 glected and if we then compare Eqs. 23 and 24, we find, for the trans-
 verse momentum change:
@@ -7120,10 +7120,10 @@ would find their density along the line different. The situation is like
 
 that in the capacitor of Fig. 5.19. In the lab frame the positive charge
 distribution would be contracted in the x direction by the factor
-(1 -- 1202/ c2)1/ 2, which would make it more dense than in a frame in
+(1 --- 1202/ c2)1/ 2, which would make it more dense than in a frame in
 which the positive charges were at rest. Since we have specified that
 the density in the lab frame shall be A, the density in the rest frame of
-the positive charges must be less, namely >\(l -- v02/c2)1/2. The
+the positive charges must be less, namely >\(l - v02/c2)1/2. The
 same holds for the linear density of negative charges in their rest
 frame. This will be useful presently.
 
@@ -7157,15 +7157,15 @@ It is obvious that these are not going to be equal. In fact, since our
 tends to catch up with the positive charges and run away even faster
 from the negatives. Figure 5.21 will help to identify the velocities we
 have to consider. We are not going to make any approximations, so
-we must use the relativistic velocity--addition formula to find the
+we must use the relativistic velocity-addition formula to find the
 speeds 0; and v', of the positives and negatives in the "particle"
 frame. These speeds are
 
-J _ D0 -- D I _ D0 + D 
-M -1 -- vov/02 0- _ 1+ vov/02 ( )
+J _ D0 - D I _ D0 + D 
+M -1 - vov/02 0- _ 1+ vov/02 ( )
 
 Here the ,8 and y symbols will be handy. Let B0 = 130/0, 70 =
-(1 -- Bo2)""2'; B; = v'+/c, 7; = (1 -- B'+2)""2', and so on. In
+(1 - Bo2)""2'; B; = v'+/c, 7; = (1 - B'+2)""2', and so on. In
 this notation Eq. 35 is written
 
 Br :80 ' B ,8! _ :80 + :8 
@@ -7173,11 +7173,11 @@ Br :80 ' B ,8! _ :80 + :8
 'T173 "1+#oB
 
 The two charge distributions will sufier different amounts of
-Lorentz contraction--that is the crux of the matter. We can find the
+Lorentz contraction---that is the crux of the matter. We can find the
 linear density of the positive charges by starting with the density in
 the positives' own rest frame and applying the factor for contraction
 to the "particle" frame. We worked out earlier the density of posi-
-tives in their own rest frame; it was Ml -- 1202/c2)1/2, or A/yo in our
+tives in their own rest frame; it was Ml - 1202/c2)1/2, or A/yo in our
 new notation. The factor by which the distribution is linearly con-
 tracted, as seen from the particle frame is 1/7;, so that the reciprocal
 of this, y'+, is the factor by which the linear charge density is increased,
@@ -7192,7 +7192,7 @@ Similarly, the density of negative charge in the particle frame is:
 
 >«_ = y:  (38)
 
-We want to find the net density of line charge, A; -- >\'_, eliminating
+We want to find the net density of line charge, A; - >\'_, eliminating
 y; and y'_ from these equations by the use of Eq. 36. It looks as
 
  
@@ -7201,28 +7201,28 @@ y; and y'_ from these equations by the use of Eq. 36. It looks as
 though we might be getting into thick algebra, but the substitution
 leads promptly to a delightful simplification, as follows:
 
-M ~ >«_ = %(v'+ -- w.) (39)
+M ~ >«_ = %(v'+ - w.) (39)
 From Eq. 36,
 Y; _ Y; 2 ___1i _ .i1_i
-_ B -- /3 2 _ 30 + B 2
+_ B - /3 2 _ 30 + B 2
 1 (10-303) \/1 l1+/203)
-_ 1 -- /303 _ 1 + 30.3
-' \/1 -- B02 -- B2 + 30232 M1 -- B02 -- /22 + 30252
-= 43°'; = --2.8oBvov <40)
+_ 1 - /303 _ 1 + 30.3
+' \/1 - B02 - B2 + 30232 M1 - B02 - /22 + 30252
+= 43°'; = -2.8oBvov <40)
 
-\/(1-- Bo2)(1-- 32)
+\/(1- Bo2)(1- 32)
 
 Hence the net line charge density is:
 
-A; _ >v_ 2 --2}\,B0By = _ 2>':;"'° (41)
+A; _ >v_ 2 -2}\,B0By = _ 2>':;"'° (41)
 
 This linear electric charge in the particle frame gives the same elec-
 tric field as any line charge of the same density. We need only apply
 Gauss's law to a cylinder enclosing the line to obtain the familiar
 result that there is a radial electric field of magnitude
 
-2(>\; -- >\_) _ _ 4}\yvvo
-r -- M2
+2(>\; - >\_) _ _ 4}\yvvo
+r - M2
 
 E; = (42)
 
@@ -7253,9 +7253,9 @@ F
 % p. 177
 Now the quantity 2?\v0, which we could factor out of Eq. 44 if we
 wanted to, is just the electric current in our "wire," in esu per second.
-That is, A00 is the rate of transport of positive charge to the right--
+That is, A00 is the rate of transport of positive charge to the right---
 the amount of positive charge that the procession carries past a given
-point per second--and the transport of negative charge to the left
+point per second---and the transport of negative charge to the left
 contributes an equal amount to the current. Denoting this current
 by I, the magnitude of the force on the moving charge is given by
 
@@ -7292,7 +7292,7 @@ Fig. 5.2212. In this frame conductor 1 has an excess of positive charge
 in every unit length; hence it 'repels the positive charges in conduc-
 tor 2. Similarly, the negatives in conductor 1 are repelled by the
 excess negative charge in conductor 2. To find the forces on the re-
-maining charge carriers--the positives in 1 and the negatives in 2-
+maining charge carriers---the positives in 1 and the negatives in 2-
 we transfer to the frame in which they are at rest, Fig. 5.220. Here
 conductor 2 appears with an excess of positive charge, so the posi-
 tives in 1 must feel a repulsion. Similarly for the negatives in 2.
@@ -7322,7 +7322,7 @@ Fig. 5.23a. The wires being neutral, there is no electric force from
 the opposite wire on the positive ions which are stationary in the lab
 frame. Transferring to a frame in which one set of electrons is at
 rest, Fig. 5.2319, we find that in the other wire the electron distribution
-is Lorentz--contracted more than the positive--ion distribution. A
+is Lorentz-contracted more than the positive-ion distribution. A
 similar situation is found in Fig. 5.230. So this model, too, predicts
 a repulsion between parallel currents ffowing in opposite directions.
 It illustrates, in a qualitative way, the earlier statement that the forces
@@ -7366,15 +7366,15 @@ is moving upward with speed 0.6a.
 of electric field lines from a moving charge, we might use the angle oz between
 two conical surfaces which include between them half the total electric flux.
 That is, half the flux through a sphere shall be contained in the equatorial zone
-between 0' = 7r/2 + 01/2 and 0' = 77/2 -- oi/2. Consider only the extreme
-relativistic case, with y > 1. Then only angles 0' such that 0' = 77/2 -- c, with
+between 0' = 7r/2 + 01/2 and 0' = 77/2 - oi/2. Consider only the extreme
+relativistic case, with y > 1. Then only angles 0' such that 0' = 77/2 - c, with
 is: < 1 need be considered. Show first that Eq. 12 can be approximated, in
 this case, as
 
 E' = LL
 (,/)2 (1 + Y2€2)3/2
 
-New let 5 range from --a/2 to +a/2 and integrate to obtain the flux through
+New let 5 range from -a/2 to +a/2 and integrate to obtain the flux through
 the narrow equatorial belt. Ans. or = 2/( \/§y).
 
 5.3 A 30-Bev proton passes l0'7 cm away from a hydrogen atom. Estimate
@@ -7658,7 +7658,7 @@ magnetic interaction of 10 dynes/cm, namely 36 x 1021 dynes/cm,
 or roughly 4 x 1013 tons /cm! Magnetic phenomena would be rel-
 atively inconspicuous, to put it mildly, if Nature did not provide two
 kinds of charge capable of canceling off" the electrostatic interaction
---but of course a world with only one kind of charge would be uni-
+---but of course a world with only one kind of charge would be uni-
 maginably different anyway. In the atomic domain, where the full
 Coulomb force between elementary particles comes into play, mag-
 netic effects do indeed take second place compared to electric inter-
@@ -7707,7 +7707,7 @@ dF = dq(v/c) x B. Then with v = dl/dt and dq = Idt, this turns
 at once into
 
 I dt dl I dl
-dF : -- -- B = : B 7
+dF : - - B = : B 7
 c dt X c X ( )
 So far we have chosen to measure I in esu/sec. The practical unit
 of current, the ampere, is 3 X 109 esu/sec.)' If the current in a
@@ -7787,7 +7787,7 @@ Is the field more, or less, real than the particles whose interaction,
 as seen from our present point of view, it was invented to describe?
 That is a deep question which we would do well to set aside for a long
 time. People to whom the electric and magnetic fields were vividly
-real--Faraday and Maxwell, to name two--were led thereby to new
+real---Faraday and Maxwell, to name two---were led thereby to new
 insights and great discoveries. Let's view the magnetic field as con-
 cretely as they did and learn some of its properties.
 
@@ -7842,7 +7842,7 @@ once around the wire must give the same value. Consider, for in-
 % p. 192
 ; on n.u'o . u. ' . 0. . 9. n 3 -
 I '_ " ' ' ' I"_. .0 no u' '0. I '-
-O' ' --. .0 I u' ' '-. 'o ' '-. .0 0
+O' ' -. .0 I u' ' '-. 'o ' '-. .0 0
 
 - - -
 ' ' I ' . '. -.0 - . .'I. ' .- 0'
@@ -7886,7 +7886,7 @@ which currents the path encircles, and in which sense.
 
 However, we are interested in other things than long straight wires.
 We want to understand the magnetic field of any sort of current dis-
-tribution--for example, that of a current ffowing in a closed loop. It
+tribution---for example, that of a current ffowing in a closed loop. It
 turns out that these more general fields obey exactly the same law,
 Eq. 10. The line integral of B around a bent wire is equal to that
 around a long straight wire carrying the same current. This goes
@@ -7927,7 +7927,7 @@ We see that a statement equivalent to Eq. 13 is this:
 M
 C
 
-curlB_--_ (15)
+curlB_-_ (15)
 
 This is the simplest and most general statement of the relation be-
 tween the magnetic field and the moving charges which are its source.
@@ -7948,7 +7948,7 @@ tion of currents, so that a companion to Eq. 12 is the condition
 
 Equations 15 and 16 together very nearly determine B uniquely
 if J is given. If we had two different fields B1(x,y,z) and B2(x,y,:)
-both satisfying Eqs. 15 and 16, their difference B1 -- B2 would be a
+both satisfying Eqs. 15 and 16, their difference B1 --- B2 would be a
 field with zero divergence and zero curl everywhere. Such a field is
 simply a constant vector B0, the same at all points in space. So except
 for the possible addition of a constant field pervading all space, the
@@ -7982,7 +7982,7 @@ The integration is extended over the whole charge distribution, and
 r12 is the magnitude of the distance from (x2,y2,z2) to (x1,y1,z1). The
 electric field E is obtained as the negative of the gradient of (p:
 
-E = --grad<p (19)
+E = -grad<p (19)
 
 The same trick won't work here, because of the essentially different
 character of B. The curl of B is not necessarily zero, so B can't, in
@@ -8020,11 +8020,11 @@ curl (curl A) = 4L' (21)
 
 Equation 21, being a vector equation, is really three equations.
 We shall work out one of them, say the x-component equation. The
-x component of curl B is BB,/ By -- BB,/Bz. The z and y components
+x component of curl B is BB,/ By - BB,/Bz. The z and y components
 of B are, respectively,
 
 BA BA BA BA
-B, = 1' -- " B = 3 -- 2 22
+B, = 1' - " B = 3 - 2 22
 Bx By 1' Bz Bx ( )
 Thus the x component part of Eq. 21 reads
 _B_(BA,, _ BA,) _  _ BA,) : 477], (23)
@@ -8036,7 +8036,7 @@ ranging a little, we can write Eq. 23 in this way:
 
 _ a2A,_ BZA, a (aA,)+ a (aA,)_ 4771, (24)
 
-By? Bzz + B--x By B--x Bz c
+By? Bzz + B-x By B-x Bz c
 To make the thing more symmetrical, 1et's add and subtract the same
 term, BZA,/Bx2, on the left:
 
@@ -8064,14 +8064,14 @@ which also have zero divergence. Then that part of Eq. 25 drops
 away and we are left simply with
 
 a2A, a2A, a2A, _ 4771,
-ax? + ayz + fizz _-- c
+ax? + ayz + fizz _- c
 
 (27)
 
 J, is a known scalar function of x, y, z. Let us compare Eq. 27 with
 Poisson's equation, Eq. 2.70, which read:
 
---+----,+--=--4m> <28)
+-+---,+-=-4m> <28)
 
 The two equations are identical in form. We already know how to
 find a solution to Eq. 28. The volume integral in Eq. 18 is the pre-
@@ -8095,14 +8095,14 @@ us out of the page, ffowing along the positive z axis. We know what
 the magnetic field of the straight wire looks like. The field lines are
 circles, as sketched already in Fig. 6.5. A few are shown in Fig. 6.11.
 
-TTO see why we are free to do this, suppose we had an A such that curl A _--. B, but
+TTO see why we are free to do this, suppose we had an A such that curl A _-. B, but
 div A = f(x,y,z) aé 0. Treating f like the charge density p in an electrostatic field, we
 obviously can find a field F, the analog of the electrostatic E, such that div F = f.
-But we know that the curl of such a field will be zero. Hence we could add --F to A,
+But we know that the curl of such a field will be zero. Hence we could add -F to A,
 making a new field with the correct curl and zero divergence.
 
 % p. 198
-The magnitude of B is 21 /or. Using a unit vector (in in the "circum--
+The magnitude of B is 21 /or. Using a unit vector (in in the "circum-
 ferential" direction we can write the vector B as
 
 _ 21¢
@@ -8112,10 +8112,10 @@ B
 
 (31)
 
-Noting that the unit vector (in is -- sin (pf: +' cos tpy, we can write this
+Noting that the unit vector (in is - sin (pf: +' cos tpy, we can write this
 in terms of x and y as follows:
 
-B=2I(--sin<px+cos<py) :2_I(--yx+xy) (32)
+B=2I(-sin<px+cos<py) :2_I(-yx+xy) (32)
 
 0, /x2 + y2 C x2 + yz
 
@@ -8131,7 +8131,7 @@ aA,, _ 6A,, _ -219
 (V X A), : _ e :B,
 ay 8;' c(x2 + y?) ( )
 aA, aAz 21
-(v x A). = 53 -- ax =  <=B.,> (34)
+(v x A). = 53 - ax =  <=B.,> (34)
 (V x A)z 2 5;! _ 3;' = 0 (:32)
 
 Of course, this is not the only function that could serve as the vector
@@ -8139,7 +8139,7 @@ potential for this particular B. To the A of Eq. 33 could be added any
 vector function with zero curl. This all holds for the space outside
 the wire. Inside the wire, B is different, so A must be different also.
 It is not hard to find the appropriate Vector potential function for
-the interior of a solid round wire--see Prob. 6.13.
+the interior of a solid round wire---see Prob. 6.13.
 
 Incidentally, the A for our particular example above could not
 have been obtained by Eq. 30. The integral would diverge owing to
@@ -8148,7 +8148,7 @@ we encountered in Chap. 2 in setting up a scalar potential for the
 electric field of a charged wire. Indeed the two problems are very
 closely related, as we should expect from their identical geometry
 and the similarity of Eqs. 30 and 18. We found (Eq. 2.19) that a suit-
-able scalar potential for the line charge problem is --}x In (x2 + y?) +
+able scalar potential for the line charge problem is -}x In (x2 + y?) +
 arbitrary constant. This assigns zero potential to some arbitrary
 point which is neither on the wire nor at infinite distance away. Both
 that scalar potential and the vector potential of Eq. 33 are singular
@@ -8232,21 +8232,21 @@ dA = I dl/cr, we treat V as a vector, reversing the order of the cross-
 product and changing the sign. Here dl is a constant, so that V
 operates only on 1/r, otherwise we couldn't get away with this! We
 
-recall that V( l /r) = --f/r2 (as in going from the Coulomb potential
+recall that V( l /r) = -f/r2 (as in going from the Coulomb potential
 to the Coulomb field). Thus:
 
 dB=VxLu= _Ld1xv<l)
 Cr C T
-=_ldtx(--L2)=j'd':" (39)
+=_ldtx(-L2)=j'd':" (39)
 C 7' CT
 
-Historically, Eq. 38 is known as the Biot--Savart Law. The mean-
+Historically, Eq. 38 is known as the Biot-Savart Law. The mean-
 ing of Eq. 38 is that if B is computed by integrating over the complete
 circuit, taking the contribution from each element to be given by this
 formula, the resulting B will be correct. As we remarked in the foot-
 note at the end of Sec. 6.2, the contribution of part of a circuit is not
 physically identifiable. In fact, Eq. 38 is not the only formula that
-could be used to get a correct result for B--to it could be added any
+could be used to get a correct result for B-to it could be added any
 function which would give zero when integrated around a closed
 path.
 
@@ -8290,7 +8290,7 @@ field on the axis at any point z, is
 
 Bz = 27rb2I _ 2771721
 
-073 --    on axis) 
+073 -    on axis) 
 
 At the center of the ring, 2: = 0, the magnitude of the field is
 
@@ -8397,7 +8397,7 @@ a flat. unbounded current sheet. You may think of this as a sheet
 of copper of uniform thickness in which a current ffows with constant
 density and direction everywhere within the metal. In order to refer
 to directions, let us locate the sheet in the xz plane, and let the current
-flow in the x direction. As the sheet is supposed to be of infinite ex--
+flow in the x direction. As the sheet is supposed to be of infinite ex-
 tent with no edges, it is hard to draw a picture of it! We show a
 broken-out fragment of the sheet in Fig. 6.21, in order to have some-
 thing to draw; you must imagine the rest of it extending over the
@@ -8429,12 +8429,12 @@ a field component parallel to the short legs of the rectangle, these
 legs themselves can be kept much shorter than the long sides, since
 we assume the sheet is thin, in any case, compared to the scale of any
 field variation.) The current enclosed by the rectangle is just log.
-Hence we have the relation l(Bz+ -- B2") = 4'rro9l/c, or
+Hence we have the relation l(Bz+ - B2") = 4'rro9l/c, or
 
 _47r¢3
 _ c
 
-Bf -- B,'
+Bf - B,'
 
 (46)
 
@@ -8480,13 +8480,13 @@ Therefore the force on this portion of the current distribution is
 
 Force on 1 cm? of sheet = %(Bz+ + B3'): (47)
 
-In View of Eq. 46, we can substitute (B; -- B2') /4rr for $7/c, so that
+In View of Eq. 46, we can substitute (B; - B2') /4rr for $7/c, so that
 the force per square centimeter can be expressed in this way:
 
-<35" + 32' )(Bz+ -- B2')
+<35" + 32' )(Bz+ - B2')
 2 477
 
-§',;[<B.+>2 -- (Bz_)2l (48)
+§',;[<B.+>2 - (Bz_)2l (48)
 
 Force per cm?
 
@@ -8507,7 +8507,7 @@ changes from B1 to B2, from one side of the surface to the other, we
 % p. 210
 may conclude not only that there is a sheet of current ffowing in the
 surface, but that the surface must be under a perpendicular stress of
-(B12 -- B22)/8vrr, measured in dynes/cm2. This is one of the con-
+(B12 - B22)/8vrr, measured in dynes/cm2. This is one of the con-
 trolling principles in magnetohydrodynamics, the study of electrically
 conducting ffuids, a subject of interest both to electrical engineers
 and to astrophysicists.
@@ -8560,7 +8560,7 @@ charged sheets are moving with spee«
 observer in F.
 
 06 = L'; 2
-l -- D01)/C2
+l - D01)/C2
 
 130-13
 
@@ -8568,23 +8568,23 @@ l -- D01)/C2
 There is a different Lorentz contraction of the charge density, in this
 frame, exactly as in our earlier example of the moving line charge,
 in Sec. 5.9. Repeating the argument we used then, the density in
-the rest frame of the charges themselves is o(1 -- v02/c2)1/2, or o/yo,
+the rest frame of the charges themselves is o(1 - v02/c2)1/2, or o/yo,
 and therefore the density in the frame F' is
 
 (52)
 
-As usual, ya stands for (1 -- 052/c2)'1/2. By means of Eq. 51 we
+As usual, ya stands for (1 - 052/c2)'1/2. By means of Eq. 51 we
 
 can eliminate ya, expressing it in terms of /30 and ,8, or yo and y.
 When we do this, the result is:
 
-0' = 01/(1 -- Bo/3) (53)
+0' = 01/(1 - Bo/3) (53)
 
 % p. 212
 The surface current density in the frame F' is therefore
 
-3' =  = om ~ /2oB>c@15l = 0Y(Uo -- v) (54)
-1 -- 30.3
+3' =  = om ~ /2oB>c@15l = 0Y(Uo - v) (54)
+1 - 30.3
 We now know how the sources appear in frame F', so we know what
 the fields in that frame must be. In saying this, we are again invoking
 the postulate of relativity. The laws of physics must be the same in
@@ -8593,14 +8593,14 @@ all inertial frames, and that includes the formulas connecting electric
 field with surface charge density, and magnetic field with surface
 current density. It follows then that:
 
-E1,' = 4770' = 1/ [47m ---- (47:00  (55)
+E1,' = 4770' = 1/ [47m --- (47:00  (55)
  
 
 If we look back at the values of E,, and B', in Eqs. 49 and 50, we see
 that our result can be written as follows:
 
 E11, = l'(Ey - BB2)
-B2, = Y(B2 -- BE11)
+B2, = Y(B2 - BE11)
 
 If the sandwich of current sheets had been oriented parallel to the
 xy plane, instead of the xz plane, we would have obtained relations
@@ -8648,14 +8648,14 @@ We give below the full list of transformations. All primed
 quantities are measured in the frame F', which is moving in the posi-
 tive x direction with speed v as seen from F. Unprimed quantities
 are the numbers which are the results of measurement in F. As usual,
-,8 stands for 0/0 and y for (1 -- ,82)'1/2.
+,8 stands for 0/0 and y for (1 - ,82)'1/2.
 
-E; = E, E,' = y(E,, -- /33,) E,' = y(E, + /313,)
+E; = E, E,' = y(E,, - /33,) E,' = y(E, + /313,)
 (58)
 
  
 
-3:' = Bx Bu' = Y(By + .3152) B2' = Y(Bz -- /3Eu)
+3:' = Bx Bu' = Y(By + .3152) B2' = Y(Bz - /3Eu)
 
 The equations in the box confront us with an astonishing fact, their
 symmetry with respect to E and B. If the printer had mistakenly
@@ -8706,11 +8706,11 @@ B,' = 0 B1,' = ByEz B3'
 This implies a certain relation between the electric and the magnetic
 field everywhere in the "primed" frame, namely:
 
-B,' : 0 By' : BE,' Bz' : --BE,,' (60)
+B,' : 0 By' : BE,' Bz' : -BE,,' (60)
 
 Remembering that in this instance the velocity of the unprimed frame
-is a vector in the --x' direction, as seen in the primed frame, we can
-express the relation above as a vector cross--product, and thus obtain
+is a vector in the -x' direction, as seen in the primed frame, we can
+express the relation above as a vector cross-product, and thus obtain
 a more general rule:
 
     
@@ -8862,7 +8862,7 @@ grating. Rowland made many ingenious and accurate electrical
 measurements, but none that taxed his experimental virtuosity as
 severely as the detection and measurement of the magnetic field of
 a rotating charged disk. The field to be detected was something like
-lO'5 of the earth's field in magnitude--a formidable experiment,
+lO'5 of the earth's field in magnitude---a formidable experiment,
 even with today's instruments! In Fig. 6.27, you will see a sketch
 of Rowland's apparatus and a reproduction of the first page of the
 paper in which he described his experiment. Ten years before Hertz'
@@ -8902,9 +8902,9 @@ exactly balances the downward force (e/c)t'>B. In the steady state
 again, and there existsin the interior of the metal this transverse
 electric field E,, as observed in coordinates fixed in the metal lattice
 (Fig. 6.28c). This field causes a downward force on the positive
-ions. That is how the force, (-- e/c)v x B, on the electrons is passed
+ions. That is how the force, (- e/c)v x B, on the electrons is passed
 on to the solid bar. The bar, of course, pushes on whatever is holding
-it--or, if nothing is holding it, accelerates downward.
+it---or, if nothing is holding it, accelerates downward.
 
 The existence of the transverse field E, can be demonstrated elec-
 trically in a very direct way (Fig. 6.29). Wires are connected to
@@ -8988,10 +8988,10 @@ of magnetic field strength.
 
 6.3 Consider the magnetic field of a circular current loop, at points on the
 axis of the loop, given by Eq. 412 Calculate explicitly the line integral of the
-field along the axis from -- co to co, to check the general formula
+field along the axis from - co to co, to check the general formula
 
 ._4_~nI
-ff3ds--c
+ff3ds-c
 
 Why may we ignore the "return" part of the path which would be necessary
 to complete a closed loop?
@@ -9018,7 +9018,7 @@ of the conductors the current density will be practically constant over the cros
 section of the conductor. Calculate and plot on a graph the magnitude of the
 magnetic field B, in gauss, as a function of radius in centimeters from the axis
 to a point outside the outer conductor. (The presence of the aluminum itself .
-and the oil, does not afiect the magnetic field--see the remark in Sec. 6.1.)
+and the oil, does not afiect the magnetic field---see the remark in Sec. 6.1.)
 
 6.7 A solenoid is made by winding a single layer of No. 14 copper wire on
 a cylindrical form 6 cm in diameter. There are 5 turns per centimeter and the
@@ -9049,13 +9049,13 @@ the earth's field at this speed, would such a current be ffowing in it?
 6.10 For speeds small compared to c, the field transformations can be
 written in a very simple form
 
-E'=E+%xB B'=B--%xE
+E'=E+%xB B'=B-%xE
 
 % p. 223
 where v is the velocity with which the "primed" coordinate system is moving
 as seen from the "unprimed" frame. Let v = iBc to correspond to the par-
 ticular situation underlying Eqs. 58, and show that the above equations give
-results consistent with Eqs. 58 in the approximation (1 -- 32)"? 2. 1. Let
+results consistent with Eqs. 58 in the approximation (1 - 32)"? 2. 1. Let
 the primed frame be that of a jet aircraft ffying in the direction of magnetic
 north in a region where the earth's magnetic field has a magnitude of 0.4 gauss
 and makes an angle of 30° with the vertical, pointing downward as in the
@@ -9066,7 +9066,7 @@ magnetic field? What is its magnitude in statvolts/cm?
 6.11 Prove that E - B is an invariant with respect to Lorentz transforma-
 tions, using Eqs. 58. That is, prove that if E - B has a certain value in one
 inertial frame it has the same value in all inertial frames. Prove similarly that
-E2 -- B2 is an invariant with respect to Lorentz transformations.
+E2 - B2 is an invariant with respect to Lorentz transformations.
 
 6.12 See if you can devise a vector potential that will correspond to a uni-
 form field in the z direction: B, = 0, B,, = O, Bz : B0.
@@ -9118,7 +9118,7 @@ speed 0, and show that you get the same result as in (a). Make a diagram to
 show the directions of the fields and forces.
 
 (0) In the light of this, what can you say about the force between two side-
-by-side moving electrons, in the limit 1) --> c?
+by-side moving electrons, in the limit 1) \rightarrow c?
 
 % p. 226
 Chapter 7 Electromagnetic Induction
@@ -9213,7 +9213,7 @@ was to replace his galvanometer, which he realized was not a good
 detector for a brief pulse of current, by a simple small coil in which
 he put an unmagnetized steel needle (Fig. 7.lb). He found that the
 needle was left magnetized by the pulse of current induced when the
-primary current was switched on--and it could be magnetized in the
+primary current was switched on---and it could be magnetized in the
 
 opposite sense by the current pulse induced when the primary circuit
 was broken.
@@ -9286,7 +9286,7 @@ end of the rod, leaving the other end positively charged. This goes
 on until these separated charges themselves cause an electric field E
 such that, everywhere in the interior of the rod,
 
-qE = --f (2)
+qE = -f (2)
 
 Then the motion of charge relative to the rod ceases. This charge
 distribution causes an electric field outside the rod, as well as inside.
@@ -9304,7 +9304,7 @@ Ignoring the rod for the moment, we see in this frame F', indicated in
 Fig. 7.2c, a magnetic field B' (not much different from B if v is small)
 together with a uniform electric field, as given by Eq. 6.62,
 
-E'=--i)(B'=1XB' 
+E'=-i)(B'=1XB' 
 
 c c
 When we add the rod to this system, all we are doing is putting a
@@ -9327,8 +9327,8 @@ Fig. 7.3 is that of the surface charge distribution alone, while the
 electric field we see in Fig. 7.4 is the field of the surface charge
 distribution plus the uniform electric field that exists in that frame
 of reference. An observer in F says: "Inside the rod there has devel-
-oped an electric field E = -- (v/c) x B, exerting a force qE -_--
---q(v/c) x B which just balances the force q(v/c) x B that would
+oped an electric field E = - (v/c) x B, exerting a force qE -_-
+-q(v/c) x B which just balances the force q(v/c) x B that would
 otherwise cause any charge q to move along the rod." An observer
 in F' says: "Inside the rod there is no electric field, and although there
 is a uniform magnetic field here, no force arises from it because no
@@ -9340,8 +9340,8 @@ charges are moving." Each account is correct.
 
 What if we made a rectangular loop of wire, as shown in Fig. 7.5,
 and moved it at constant speed through the uniform field B? To
-predict what will happen, we need only ask ourselves----adopting the
-frame F'--what would happen if we put such a loop into a uniform
+predict what will happen, we need only ask ourselves---adopting the
+frame F'-what would happen if we put such a loop into a uniform
 electric field. Obviously two opposite 'sides of the rectangle would
 acquire some charge, but that would be all. Suppose, however, that
 the field B in the frame F, though constant in time, is not uniform in
@@ -9369,7 +9369,7 @@ parallel to the direction of motion, f is perpendicular to the path
 element ds, so these give nothing. Taking account of the contribu-
 tions from the other two sides, each of length w, we have:
 
-ff-ds = "7"(B1 -- B2>w (4)
+ff-ds = "7"(B1 - B2>w (4)
 
 If we imagine a charge q to move all around the loop, in a time
 short enough so that the position of the loop has not changed ap-
@@ -9393,7 +9393,7 @@ according to Ohm's law: I = 8/R. In the particular case we are con-
 sidering, f is the force that acts on a charge moving in a magnetic
 field, and 8 has the magnitude:
 
-8 = $031 -- B2) (6)
+8 = $031 - B2) (6)
 
 The electromotive force given by Eq. 6 is related in a very simple way
 to the rate of change of magnetic flux through the loop. By the mag-
@@ -9434,7 +9434,7 @@ joining our S1 and S2, as in Fig. 7.7c. On S2 the outward normal is
 opposite to the vector da2 we used in calculating the flux through C.
 Thus
 
-0=fSB-da=fB-dal +J'B-(--da2)
+0=fSB-da=fB-dal +J'B-(-da2)
 or (10)
 S1B'da1 = S2B'da2
 
@@ -9462,7 +9462,7 @@ in Fig. 7.9, flux is gained at the right, in amount B2wv dt, while an
 amount of flux Blwv dt is lost at the left. Hence dd), the change in
 flux through the loop in time dt, is
 
-d<I>= --(B1--B2)wvdt (ll)
+d<I>= -(B1-B2)wvdt (ll)
 
 % p. 235
 Comparing Eq. 11 with Eq. 6, we see that, in this case at least, the
@@ -9470,7 +9470,7 @@ electromotive force can be expressed as:
 
 1 dd)
 
-8 _ -- g? (12)
+8 _ - g? (12)
 
 We can show that this holds quite generally, for a loop of any shape
 moving in any manner. The loop C in Fig. 7.10 occupies the position
@@ -9507,10 +9507,10 @@ have:
 %'=fCB-(vxds) (16)
 
 According to the rule for the scalar triple product (Vol. I, p. 38,
-Eq. 52) we have the identity: a- (b x c) = -- (b x a) - c. Using
+Eq. 52) we have the identity: a- (b x c) = - (b x a) - c. Using
 this to rearrange the integrand in Eq. 16, we have:
 
-%=--fC(vxB)-ds (17)
+%=-fC(vxB)-ds (17)
 
  
 
@@ -9527,7 +9527,7 @@ Comparing Eq. 17 with Eq. 18 we get the simple relation already
 given in Eq. 12, but valid now for arbitrary shape and motion of the
 loop. (We did not even have to assume that v is the same for all
 parts of the loop!) In summary, the line integral around a moving
-loop of f/q, the force per unit charge, is just -- 1/c times the rate of
+loop of f/q, the force per unit charge, is just --- 1/c times the rate of
 change of flux through the loop.
 
 The sense of the line integral and the direction in which flux is
@@ -9592,7 +9592,7 @@ where S is the area of the loop. For the induced electromotive force
 we then have: i
 l dll) _ _ SBoo
 
-s;=------
+s;=---
 
 cdt_
 
@@ -9609,7 +9609,7 @@ tion 30 revolutions per second, the loop area 100 cm2. Then
 maximum magnitude, of the oscillating electromotive force is
 
 8 _ SBw _ (188 sec'1)(100 cm2)(500 gauss)
-max -- c _ (3 X 1010 cm sec'1)
+max - c _ (3 X 1010 cm sec'1)
 
 = 3.1 X 10-4 gauss-cm, or statvolt (21)
 
@@ -9635,7 +9635,7 @@ nates x', y', z', be the frame attached to the loop, which we now regard
 
 % p. 239
 as stationary (Fig. 7.14). The coil and battery, stationary in frame F,
-are moving in the -- y' direction with velocity v' = --v. Let Bi and
+are moving in the - y' direction with velocity v' = -v. Let Bi and
 B5 be the magnetic fields measured at the two ends of the loop by
 observers in F' at some instant t'. At these positions there will be
 an electric field in F'. Equation 6.62 tells us that
@@ -9663,7 +9663,7 @@ the work done on it, per unit charge. 8' is related to the rate of
 % p. 240
 change of flux through the loop. To see this, note that while the loop
 itself is stationary, the magnetic field pattern is now moving with the
-velocity --v of the source. Hence for the flux lost or gained at either
+velocity -v of the source. Hence for the flux lost or gained at either
 end of the loop, in a time interval dt', we get a result similar to Eq. 11,
 and we conclude that
 
@@ -9682,13 +9682,13 @@ electric field. That wire loop over there is moving with velocity v
 through the magnetic field, so the charges in it are acted on by a force
 (v/ c) x B dynes per unit charge. The line integral of this force-per-
 unit-charge, taken around the whole loop is the electromotive force 8
-and it is equal to -- ( l/c) (d<I>/dt). The flux <1) is fB - da over a sur-
+and it is equal to - ( l/c) (d<I>/dt). The flux <1) is fB - da over a sur-
 face S which, at some instant of time t by my clock, spans the loop."
 
 An observer in F' says, "This loop is stationary and only an electric
 field could cause the charges in it to move. But there is in fact an
 electric field E'. It seems to be caused by that magnetlike object
-which happens at this moment to be whizzing by with a velocity --v,
+which happens at this moment to be whizzing by with a velocity -v,
 producing at the same time a rather strong magnetic field B'. The
 electric field is such that fE' -_ds' around this stationary loop is not
 zero but instead is equal to 4''; 1/0 time_s_,l the rate of change of flux
@@ -9796,7 +9796,7 @@ integral will approach simply B - a. Now by definition (Eq. 2.76)
 the limit approached by ICE - ds as the patch shrinks is a - curl E.
 Thus we have, in the limit,
 
-a-curlE:--%%(B-a)=a-(----:--%) (28)
+a-curlE:-%%(B-a)=a-(---:-%) (28)
 
 Since this holds for any infinitesimal a, it must be thatf
 
@@ -9808,11 +9808,11 @@ Recognizing that B may depend on position as well as time we shall
 write BB/at in place of dB/dt. We have then these two entirely
 equivalent statements of the law of induction:
 
-fCE-ds= ----%%fSB-da
+fCE-ds= ---%%fSB-da
 
 or (30)
 
-curlE= ----1-Q
+curlE= ---1-Q
 
 cat
 
@@ -9837,19 +9837,19 @@ ___ _ ( lO~8)id<ll: (gauzzgcmz)
 
 (31)
 
-The differential expression, curl E = -- (1/c) BB/at, brings out
+The differential expression, curl E = - (1/c) BB/at, brings out
 rather plainly the point we tried to make earlier about the local nature
 
 Tlf that isn't obvious, note that choosing a in the x direction will establish that
 
-(curl E), = -- --l dB'
+(curl E), = - -l dB'
 c
 
 , and so on.
 
 % p. 244
 of the field relations. The variation in time of B in a neighborhood
-completely determines curl E there--nothing else matters. That
+completely determines curl E there-nothing else matters. That
 does not completely determine E itself, of course. Without affecting
 this relation any electrostatic field, with curl E = 0, could be
 superposed.
@@ -9873,7 +9873,7 @@ B is in gauss and t in seconds. The flux through the loop C is
 
 = 15,700 sin 377t (gauss-cm?) (33)
 Using Eq. 31 to calculate the electromotive force in volts,
-8 = -- (10'8)% = -- (10'8) (377) (15,700) cos 377t
+8 = - (10'8)% = - (10'8) (377) (15,700) cos 377t
 = ---0.059 cos 377t (volts) (34)
 
 The maximum attained by 8 is 59 millivolts. The minus sign will
@@ -9944,7 +9944,7 @@ The constant here is the same as the one in Eq. 36. Let's absorb the
 c in the denominator into a single constant, denoted by M21, and write
 Eq. 37 in this way:
 
-821 = --M21% (38)
+821 = -M21% (38)
 
 We call the constant M21 the coefficient of mutual inductance. Its
 value is determined by the geometry of our arrangement of loops.
@@ -9960,7 +9960,7 @@ is M21 in this case? At the center of C1, with I1 ffowing, the field B1
 is given by
 
 _ 27711
--- CR1
+- CR1
 
 B1 (39)
 
@@ -10016,7 +10016,7 @@ that in the next, making the total electromotive force in that circuit
 N2 times that of a single turn. Thus for multiple turns in each coil
 the mutual inductance will be given by
 
-2772 X l0--9N1N2R22
+2772 X l0-9N1N2R22
 
 M :
 21 R1
@@ -10060,7 +10060,7 @@ sion for M21; Eq. 47 asserts that. for these two dissimilar circuits, if
  then M,, = 
 
 R1 R1
-also--and not what we would get by switching l's and 2's everywhere!
+also---and not what we would get by switching l's and 2's everywhere!
 
 To prove the theorem, Eq. 47, we have to show that the flux (1)12
 through some circuit C1 as a result of a current I in a circuit C2 is
@@ -10147,11 +10147,11 @@ cdt
 % p. 251
 where (1311 is the flux through circuit 1 of the field B1 due to the cur-
 rent I 1 in circuit 1. The minus sign expresses the fact that the electro-
-motive force is always directed so as to oppose the change in current--
+motive force is always directed so as to oppose the change in current---
 Lenz's law, again. Since <I>11 will be proportional to I1 we can write
 
-811 = --L1 % (54)
-The constant L1 is called the self--inductance of the circuit.
+811 = -L1 % (54)
+The constant L1 is called the self-inductance of the circuit.
 
 As an example of a circuit for which L1 can be calculated, consider
 the rectangular toroidal coil of Prob. 6.19, shown here again in
@@ -10239,7 +10239,7 @@ change. Also, there is the constant electromotive force 80 of the
 
 battery. If we define the positive current direction as the one in
 which the battery tends to drive current around the circuit, then the
-net electromotive force at any instant is 80 -- L dI/dt. This drives
+net electromotive force at any instant is 80 - L dI/dt. This drives
 the current I through the resistor R. That is,
 
 so - L% = R1 (60)
@@ -10331,13 +10331,13 @@ the closing of the switch at time t1 must be:
 U = °°R12 dt = °°RI02e~<2R/L><t-m dt (67)
 
 % p. 255
-With the substitution x = 2B(t -- t1)/L this is easily evaluated:
+With the substitution x = 2B(t - t1)/L this is easily evaluated:
 
 U = R102 f0°°e-I dx = iuoz (68)
 
 The source of this energy was the inductor with its magnetic field.
 Indeed, exactly that amount of work had been done by the battery
-to build up the current in the first place--over and above the energy
+to build up the current in the first place---over and above the energy
 dissipated in the resistor between t = 0 and t = t1, which was also
 provided by the battery. To see that this is a general relation, note
 that if we have an increasing current in an inductor, work must be
@@ -10394,7 +10394,7 @@ WfB2dv:87  Cr ) 27rrhdr: C2 ln(;) (73)
 Comparing this result with Eq. 71, we see that, indeed,
 
 1
-8--WfB2 do = %LI2 (74)
+8---WfB2 do = %LI2 (74)
 
 The more general statement, the counterpart of our statement for
 the electric field in Eq. 1.36, is that the energy U to be associated with
@@ -10506,7 +10506,7 @@ cat
 
 % p. 259
 This is a local relation connecting the electric and magnetic fields in
-empty space--charges are not directly involved. If symmetry with
+empty space-charges are not directly involved. If symmetry with
 respect to E and B is to prevail, we must expect that a changing elec-
 tric field can give rise to a magnetic field. There ought to be an in-
 duction phenomenon described by an equation like Eq. 30, but with
@@ -10518,7 +10518,7 @@ curl B = :7} (83)
 This provides the missing term that is called for in Eq. 82. To
 try it out, write
 
-cui1B=4T"J+%--%% (84)
+cui1B=4T"J+%-%% (84)
 and take the divergence of both sides:
 div (curl B) = div (EJ) + div (LE) (85)
 c c at
@@ -10531,7 +10531,7 @@ respect to space coordinates and time. Thus
 '""(:7) - cw""VE) 'T73? (86)
 
 by Eq. 76. The right-hand side of Eq. 85 now becomes
--- div J + ---- (87)
+- div J + --- (87)
 
 which is zero by virtue of the continuity condition, Eq. 77.
 
@@ -10542,7 +10542,7 @@ the configuration in Fig. 7.29, diminishes in intensity. In this case,
 1 BE
 
 BE/at points opposite to E. The vector function F E is represented
-by the black arrows in Fig. 7.30. With curl B = 4T7TJ + %--aa%, the
+by the black arrows in Fig. 7.30. With curl B = 4T7TJ + %-aa%, the
 
 integral of curl B over S' now has the same value as it does over S.
 On 8' the second term contributes everything; on S the first term, the
@@ -10558,7 +10558,7 @@ c
 
 of the conduction current distribution. Maxwell called it the dis-
 placement current, and the name has stuck although it no longer
-seems very appropriate. To be precise, we can define a "displace--
+seems very appropriate. To be precise, we can define a "displace-
 ment current density" J,,,, to be distinguished from the conduction
 current density J, by writing Eq. 84 this way:
 
@@ -10598,7 +10598,7 @@ field, except that it is slowly dying away. We expect therefore that
 its curl is practically zero which would imply that curl J must be
 
 % p. 262
-practically zero. More precisely, we have curl E = -- L311 and
+practically zero. More precisely, we have curl E = - L311 and
 
 cat
 
@@ -10607,9 +10607,9 @@ with the displacement current Jd = Li, we get, by interchang-
 47r at
 ing the order of differentiation,
 
-curl J,,, = 4L7Tcur1  = 4--£T--5a;(curl E) = --  (89)
+curl J,,, = 4L7Tcur1  = 4-£T-5a;(curl E) = -  (89)
 This will be negligible for sulficiently slow changes in field. We
-may call a slowly changing field quasi--static. Now if Jd is a vector
+may call a slowly changing field quasi-static. Now if Jd is a vector
 field without any curl, it can be made up, in the same way that the
 electrostatic field can be made of the fields of point charges, by super-
 posing radial currents ffowing outward from point sources or in
@@ -10639,7 +10639,7 @@ been worked out by Maxwell.
 James Clerk Maxwell, after immersing himself in the accounts of
 Faraday's electrical researches, set out to formulate mathematically
 a theory of electricity and magnetism. Maxwell could not exploit
-re1ativity--that came fifty years later. The electrical constitution
+re1ativity---that came fifty years later. The electrical constitution
 of matter was a mystery, the relation between light and electromag-
 netism unsuspected. Many of the arguments that we have used to
 make our next step seem obvious were unthinkable then. Neverthe-
@@ -10651,7 +10651,7 @@ a "displacement current" he is often including some charge-in-
 motion, too. We'll clarify that point in Chap. 9 when we study elec-
 tric fields in matter. Indeed, Maxwell thought of space itself as a
 medium, the "aether," so that even in the absence of solid matter the
-displacement current was occurring in something. But never mind--
+displacement current was occurring in something. But never mind---
 his mathematical equations were perfectly clear and unambiguous,
 and his introduction of the displacement current was a theoretical
 discovery of the first rank. '
@@ -10712,7 +10712,7 @@ the following manner:
 Ez=E0% <o:y:a>
 (at time t = 0) (92)
 
-2 -- _ _
+2 - _ _
 Ee=EO( "Q 9) (a2y22a>
 As indicated in Fig. 7.33a, this describes a "gable"-shaped distribu-
 tion of field strength, maximum in the center at y = a and falling off
@@ -10738,7 +10738,7 @@ configuration to travel in the y direction with speed 0, while pre-
 serving its shape. We can do that by writing out orders as follows:
 
 Region 1:
-E2 = E0 (y -- ct)
+E2 = E0 (y - ct)
 Cl _ _
 _ Ct (ct 2 y 2 at + a) (94)
 B' : B0 (y a )
@@ -10761,15 +10761,15 @@ div E = 0 and div B = 0. (Obviously 6E,/Bz = O and the other
 components of E are themselves zero.) But curl E is not zero.
 Instead, its value is:
 
-In Region I: V x E _--_ ii = f;
+In Region I: V x E _-_ ii = f;
 
 (96)
-In Region II: V x E = $2 = --
+In Region II: V x E = $2 = -
 
 % p. 267
 In the same way we calculate V x B:
 
-In Regionlz VxB= --i aaB' = --%i
+In Regionlz VxB= -i aaB' = -%i
 9
 (97)
 In Region 11; VxB= -2 33" =l3£2
@@ -10800,7 +10800,7 @@ described. which does represent a traveling wave, does satisfy all the
 field equations, if the electric field, in statvolts/cm, is everywhere
 equal to the magnetic field strength, at the same time and place. It is
 essential that E and B be perpendicular to one another and to the
-direction of travel--otherwise the field equation could not have been
+direction of travel---otherwise the field equation could not have been
 satisfied.
 
 Our traveling "gable" may strike you as a rather special kind of
@@ -10834,9 +10834,9 @@ simple and satisfying way when we change coordinate systems. In
 Chap. 6 we derived formulas for the Lorentz transformation of the
 electric and magnetic fields (Eq. 6.58). Let's use the results of
 Prob. 6.11, which were based on those equations, according to which
-the two scalar quantities, E2 -- B2 and E - B remain invariant in a
+the two scalar quantities, E2 - B2 and E - B remain invariant in a
 transformation to another inertial frame. In this case, since E = B
-at any point, the invariant quantity E2 -- B2 has the value zero. Also.
+at any point, the invariant quantity E2 - B2 has the value zero. Also.
 because E is perpendicular to B, the other invariant E - B is zero. It
 follows that in any other frame the transformed fields E' and B' must
 be equal to each other in magnitude and perpendicular in direction.
@@ -10927,7 +10927,7 @@ rent direction and the positive electromotive force direction in each coil are
 defined by the arrows in the figure. The equations relating currents and elec-
 tromotive forces are
 
-81 = --L1ff'-- i Mdlz
+81 = -L1ff'- i Mdlz
 
 _ d12+ 2!;
 dt? dt
@@ -10967,7 +10967,7 @@ of conduction current, as indicated in Fig. 7.31. That might be a long job. If
 we can assume symmetry about this axis, it is very much easier to find the
 field B at a point by using the integral law
 
-JCB-ds=%L<--aait:+41rJ)-da
+JCB-ds=%L<-aait:+41rJ)-da
 
 applied to a circular path through the point. We need only know the total
 current enclosed by this path. Use this to find the field at P, which is midway
@@ -10975,7 +10975,7 @@ between the capacitor plates and a distance r from the axis of symmetry.
 (Compare this with the calculation of the induced electric field E, in the ex-
 
 4 I 12 21
-Ans.2wrB=%b--2, B=cT:.
+Ans.2wrB=%b-2, B=cT:.
 
 ample of Fig. 7.16.)
 
@@ -10987,9 +10987,9 @@ Prob. 7.14
 7.15 Show that the following electromagnetic field satisfies Maxwell's
 equations:
 
-E¢=E,,=0; Ez=COS(y--Ct)
+E¢=E,,=0; Ez=COS(y-Ct)
 
-B,:cos(y--ct); B,,=Bz=O
+B,:cos(y-ct); B,,=Bz=O
 
 % p. 274
 Chapter 8 Alternating-current Circuits
@@ -11012,14 +11012,14 @@ way, the relations connecting charge Q, current I, and voltage across
 the capacitor V are:
 
 d d
-I=----Q-- Q=CV V=L7:+R1 (1)
+I=---Q- Q=CV V=L7:+R1 (1)
 
 We want to eliminate two of the three variables Q, I, and V. From
 
  
 
-the first two equations we obtain I = -- C dV/dt, and the third equa-
-tion becomes V = --LC(d2V/dt2) -- RC(dV/dt), or
+the first two equations we obtain I = - C dV/dt, and the third equa-
+tion becomes V = -LC(d2V/dt2) - RC(dV/dt), or
 
 d2V R dV 1 _
 
@@ -11033,8 +11033,8 @@ V = Ae'"' cos wt (3)
 where A, or, and w are constants. The first and second derivatives of
 this function are:
 
-'fT't] = Ae'"'[ --a cos wt -- no sin wt] (4)
-dzv : Ae'"'[(a2 -- <02) COS out + Zaw sin wt] (5)
+'fT't] = Ae'"'[ -a cos wt - no sin wt] (4)
+dzv : Ae'"'[(a2 - <02) COS out + Zaw sin wt] (5)
 
 dt2
 
@@ -11042,7 +11042,7 @@ dt2
 Substituting back into Eq. 2, we cancel out the common factor Ae"a'
 and are left with
 
-(oz? -- 0:2) cos wt + Zaw sin wt -- %(oz COS wt + to sin wt)
+(oz? - 0:2) cos wt + Zaw sin wt - %(oz COS wt + to sin wt)
 
 1 _
 +Ecoswt_0 (6)
@@ -11050,9 +11050,9 @@ and are left with
 This will be satisfied for all t if, and only if, the coefficients of sin wt
 and cos out are both zero. That is, we must require:
 
-2aw--T=O (7)
+2aw-T=O (7)
 and
-a2--o.>2-¢x%--+%=0 (8)
+a2-o.>2-¢x%-+%=0 (8)
 
 The first of these equations gives a condition on a:
 
@@ -11061,7 +11061,7 @@ __R_
 
 while the second equation requires that:
 
-w2:%6~--¢x%--+a2=--L%--% (10)
+w2:%6~-¢x%-+a2=-L%-% (10)
 Since our constant on is a real number, to? cannot be negative.
 Therefore we succeed in obtaining a solution of the form assumed in
 Eq. 3 only if R2/4L2 § 1/LC. In fact it is the case of "light
@@ -11226,11 +11226,11 @@ that this is possible, consider a current described by
 I = 10 cos (wt + (p) (19)
 
 To determine the constants I0 and <p, we put this into Eq. 18:
---LI0w sin (wt + q:) -- RIO cos (wt + go) = 80 cos wt (20)
+-LI0w sin (wt + q:) - RIO cos (wt + go) = 80 cos wt (20)
 The functions cos wt and sin wt can be separated out:
 
---LI0w(sin wt cos (p + cos wt sin (p)
-+RI0(cos wt cos (p -- sin wt sin (p) = 80 cos wt (21)
+-LI0w(sin wt cos (p + cos wt sin (p)
++RI0(cos wt cos (p - sin wt sin (p) = 80 cos wt (21)
 
  
 
@@ -11240,17 +11240,17 @@ The functions cos wt and sin wt can be separated out:
 
 Setting the coefficients of cos wt and sin wt separately equal to zero,
 
---LI0w cos (p -- RIO sin cp = 0 (22)
+-LI0w cos (p - RIO sin cp = 0 (22)
 which gives
-tan go 2 -- EH14 (23)
---LI0w sin (p + R10 cosgb _ 50 = 0 (24)
+tan go 2 - EH14 (23)
+-LI0w sin (p + R10 cosgb _ 50 = 0 (24)
 which gives
 1 _ }:530____
-0- RCOS(p-- coLSin<;0
+0- RCOS(p- coLSin<;0
 _ 80 _ 80 cos (1) 2
--- R(cos<p+ sinqotan qJ) _ R ( 5)
+- R(cos<p+ sinqotan qJ) _ R ( 5)
 or since
-cos -- _L-- (from E 23) (26)
+cos - _L- (from E 23) (26)
 'P " \/1W,7,2'L7 q'
 10 = 8° (27)
 
@@ -11266,11 +11266,11 @@ inductive reactance.
 If we replace the inductor L by a capacitor C, as in Fig. 8.6, we
 have a circuit governed by the equation
 
--- % + HI = 80 cos wt (28)
+- % + HI = 80 cos wt (28)
 
 We consider the steady-state solution
 I = 10 cos (wt + (p) (29)
-Since I _--_ --dQ/dt, we have
+Since I _-_ -dQ/dt, we have
 Q=_f1dt=_I_°sin(wt+<p) (30)
 00
 Note that in going from I to Q by integration, there is no question
@@ -11308,7 +11308,7 @@ is apparent in the graph of Fig. 8.7.
 Mathematically speaking, the function
 
 _ 80 _ OJL
-I _ \/----1  cos (wt -- tan 1 Y) (34)
+I _ \/---1  cos (wt - tan 1 Y) (34)
 
 is a particular integral of the differential equation, Eq. 18. To this
 could be added a complementary function, that is, any solution of
@@ -11345,13 +11345,13 @@ Suppose an alternating current I = I0 cos (wt + q)) is somehow
 caused to ffow through such a combination (shown in Fig. 8.8). The
 voltage across the inductor, VL, will be:
 
-VL = L:ii--£ = --IowL sin (wt + (p) (37)
+VL = L:ii-£ = -IowL sin (wt + (p) (37)
 
 The Voltage Vg across the capacitor, with sign consistent with the sign
 Of VL, lS
 
 1 I .
-V0 : -- % = --C--JTdt = +)Cs1n (wt + 90) (38)
+V0 : - % = -C-JTdt = +)Cs1n (wt + 90) (38)
 
 The voltage across the combination is then
 
@@ -11360,7 +11360,7 @@ For a given an, the combination is evidently equivalent to a single ele-
 ment, either an inductor or a capacitor, depending on whether the
 
 1 .
-quantity (ooL -- TC) is positive or negative. Suppose, for example,
+quantity (ooL - TC) is positive or negative. Suppose, for example,
 
 that wL >  Then the combination is equivalent to an inductor
 OJ
@@ -11369,7 +11369,7 @@ L' such that
 
 , 1
 
-wL _ wL -- E (40)
+wL _ wL - E (40)
 Equivalence means only that the relation between current and
 voltage, for steady oscillation at the particular frequency w, is the
 same. This allows us to replace L and C by L' in any circuit driven
@@ -11378,7 +11378,7 @@ at this frequency.
 This can be applied to the simple RLC circuit in Fig. 8.9. We need
 only recall Eqs. 23 and 27, the solution for the RL circuit driven by
 
-the electromotive force 80 cos wt, and replace wL by wL -- l/coC:
+the electromotive force 80 cos wt, and replace wL by wL - l/coC:
 
 _ 50
 tan (p = RLW _ '~1'TL (42)
@@ -11389,7 +11389,7 @@ frequency co is such that
 
 1
 
---:= 4
+-:= 4
 wL wc 0 (3)
 
 % p. 283
@@ -11422,29 +11422,29 @@ w = we, which is most prominent and sharp for the lowest resistance
 value. This is the same value of R for which, running as a damped
 oscillator without any driving emf, the circuit behaved as shown in
 the top graph of Fig. 8.31).
-The Qofthe circuit definedb E 14 L ' --___('°6 X 10%)
+The Qofthe circuit definedb E 14 L ' -___('°6 X 10%)
 , y q. as «>0 /R,'l' IS 20 .
 or 5, in this case. Generally speaking, the higher the Q of a circuit,
 the narrower and higher the peak of its response as a function of
 driving frequency co. To be more precise, consider frequencies in
 the neighborhood of mo, writing a: = mg + Aw. Then to first order
-in Aw/coo, the expression wL -- 1/o.>C which occurs in the denomi-
+in Aw/coo, the expression wL - 1/o.>C which occurs in the denomi-
 
 nator in Eq. 41 can be approximated this way:
 
 1 < Aw) I
-L _ -- = L 1 -- _ L; 45
+L _ - = L 1 - _ L; 45
 "' "'° 'L w0C(l + Aw/mo) ( )
 
-woL [1 + A1 -- --L--] : woL (2 fo--:°) (46)
+woL [1 + A1 - -L-] : woL (2 fo-:°) (46)
 
 Exactly at resonance, the quantity inside the square root sign in
 Eq. 41 is just R2. As on is shifted away from resonance the quantity
-under the square root will have doubled when |wL -- l/wC| = R,
+under the square root will have doubled when |wL - l/wC| = R,
 or when, approximately,
 
 2Aw R l
-= = -- 47
+= = - 47
 000 LOOL Q ( )
 
 This means that the current amplitude will have fallen to 1/ \/7 times
@@ -11516,7 +11516,7 @@ voltage and current in that branch.
 The first idea exploits that remarkable mathematical identity
 e" = cos 0 + 2' sin 0 (50)
 
-with i2 = -- 1. To carry it out we adopt the following rule for the
+with i2 = - 1. To carry it out we adopt the following rule for the
 representation:
 
   
@@ -11534,9 +11534,9 @@ by the real part of the product (3: + iy)ei~'.
  
     
 
-Figure 8.13 is a reminder of this two--way correspondence. Since
+Figure 8.13 is a reminder of this two-way correspondence. Since
 a complex number z = x + iy can be graphically represented on the
-two--dimensional plane, it is easy to visualize the phase constant as
+two-dimensional plane, it is easy to visualize the phase constant as
 the angle tan'1 y/x, and the amplitude Io as the modulus 
 
 What makes all this useful is the following fact: The representation
@@ -11547,7 +11547,7 @@ Fig. 8.12. At any instant of time t the sum of the currents is:
 11 + 12 = 101 C08 (cot + (pi) + 102 cos (wt + (P2)
 
 = (101 cos (p1 + 102 cos (P2) cos wt
--- (I01 Sl1'l (P1 + 102 SlI'l (P2) SlI'l wt 
+- (I01 Sl1'l (P1 + 102 SlI'l (P2) SlI'l wt 
 
 % p. 287
 On the other hand, the sum of the complex numbers that, according
@@ -11595,7 +11595,7 @@ voltage across the element can be expressed as a relation between the
 complex numbers that represent the voltage and the current. Look
 at the inductor-resistor combination in Fig. 8.4. The voltage oscilla-
 tion is represented by 80 and the current by Ioetw, where 10 =
-80/ x/B2 + ML? and tan go = --wL/R. The phase dilference (p and
+80/ x/B2 + ML? and tan go = -wL/R. The phase dilference (p and
 the ratio of current amplitude to voltage amplitude are properties
 
 of the circuit at this frequency. We define a complex number Y as
@@ -11608,7 +11608,7 @@ Then the relation
 
 wL
 
-Y = with (,5 = tan'1<-- --R--) (54)
+Y = with (,5 = tan'1<- -R-) (54)
 
 1 = YV (55)
 
@@ -11638,7 +11638,7 @@ be real and equal simply to R, so that Eq. 56 would resemble Ohm's
 law for a direct-current circuit: V = R1.
 
 The admittance of a resistanceless inductor is the imaginary
-quantity Y = --i/wL. This can be seen by letting R go to zero in
+quantity Y = -i/wL. This can be seen by letting R go to zero in
 Eq. 54. The factor ---i shows that the current oscillation lags the
 voltage oscillation by 77/2 in phase. On the complex number dia-
 gram, if the voltage is represented by V (Fig. 8.1419), the current
@@ -11661,7 +11661,7 @@ L  1'¢..>L
 '\U.Qr wL
 C .
 ' C ;'
-_H-- W wC
+_H- W wC
 I = YV V = Z1
 
 We can build up any circuit from these elements. When elements
@@ -11689,11 +11689,11 @@ _L - _;'
 Y_R+1wC COL (53)
 
 The voltage is simply 80, so the complex current is
-1: YV= s0[--+i(wc_i)] (59)
+1: YV= s0[-+i(wc_i)] (59)
 
 The amplitude of the current oscillation is the modulus of the com-
-plex number I, which is 80[(l/R)? + (wC -- 1/wL)2]1/2, and the
-phase angle is tan'1 (RwC -- R/wL).
+plex number I, which is 80[(l/R)? + (wC - 1/wL)2]1/2, and the
+phase angle is tan'1 (RwC - R/wL).
 
 We can only deal in this way with linear circuit elements, elements
 in which the current is proportional to the voltage. In other words,
@@ -11772,7 +11772,7 @@ To calculate its value, let's look at the product V1, with V = 80 cos out
 and 1 : 10 cos (wt + (P):
 
 VI = 8010 cos cot cos (cot + (p)
-: 80I0(cos 2 cot cos (p -- cos cot sin wt sin (p) (64)
+: 80I0(cos 2 cot cos (p - cos cot sin wt sin (p) (64)
 
 % p. 292
 oped in Sec. 8.4, we'll analyze
@@ -11801,7 +11801,7 @@ One way to work through the
 1
 (377) (5 X 10'7)
 LS
-360 -- 10,1001') ohms
+360 - 10,1001') ohms
 
 0 + 10,1001')
 + (10,100)?
@@ -11830,7 +11830,7 @@ the voltage V2 across the re:
 (ix) V1 = 11: (5.3
 
 = (45.2 _ 28.41') ~
-(x) V2 = 120 -- V1 = (7A
+(x) V2 = 120 - V1 = (7A
 
 The current 12 in R will be ll
 power in R will be
@@ -11850,7 +11850,7 @@ a rough guide.
 Problems
 8.1 How large an inductanc
 a 120-volt, 60-watt light bulb, if
-is connected across a 240--volt
+is connected across a 240-volt
 reactance required. You 'may
 inductance of the light bulb.)
 8.2 A 2000-ohm resistor a:
@@ -11996,7 +11996,7 @@ Gas, 0°C, 1 atm
 Gas, 110°C, 1 atm
 Liquid, 20°C
 Liquid, 20°C
-Liquid, --34°C
+Liquid, -34°C
 Liquid, 20°C
 
 31 Crystal, 20° C
@@ -12023,7 +12023,7 @@ Solid, 20°C
 4.0
 4.34
 4.27
-2.25--2.3
+2.25-2.3
 4.1
 6.0-8.0
 2.1-2.5
@@ -12044,7 +12044,7 @@ terior of a dielectric is a ff
 it from a vacuum is a dielec
 If we develop only a m:
 electric field, we shall find i
-sounding questions--or rat}
+sounding questions---or rat}
 a way that they can be mea:
 is the strength of the electri(
 when there are certain charg
@@ -12142,21 +12142,21 @@ like A, 1' is much smaller than
 This suggests that we shoulc
 powers of 1'/r. Writing
 
-[r2 + 1'? -- 2n' cos t9]'1/2 =
+[r2 + 1'? - 2n' cos t9]'1/2 =
 
 and using the expansion (1
 after collecting together term:
 
-[r2 + 1'? -- Zrr' cos 0]"1/2
+[r2 + 1'? - Zrr' cos 0]"1/2
 
-=l[1+--'/--cos0 + 
+=l[1+-'/-cos0 + 
 r r r
 
 Now r is a constant in the int
 write the prescription for the
 
 (p4 = %fp dv' + %f1' cost
-*1' 4--Kr
+*1' 4-Kr
 K0 K1
 
 + _
@@ -12170,7 +12170,7 @@ n be written as a power series
 (8)
 
 to get the electric field at all
-ectric field as --grad qa. We
+ectric field as -grad qa. We
 , out the essential point: The
 nces from the source will be
 whose coefficient is not zero.
@@ -12238,7 +12238,7 @@ moments to consider.
 The dipole contribution to
 r from the origin, was given l
 1' cos 0, which is just the proji
-as i-- r'. Thus we can write 1
+as i- r'. Thus we can write 1
 arbitrary axis as
 (PA 2 T12 f '
 which will serve to give the p.
@@ -12268,12 +12268,12 @@ that plane, then
 The components of the elect
 
 53¢
-E,--_--
+E,-_-
 
 Bx (x5
 
 a
-Ez_----;zi= [
+Ez_---;zi= [
 
 Proceeding out in any diff
 tric field strength falling off"
@@ -12324,7 +12324,7 @@ is r x F where F is the force
 (Vol. 1, Chap. 6). Taking the
 hat r = s/2, we have
 
---r) x 1: (15)
+-r) x 1: (15)
 
 ure, and its magnitude is:
 
@@ -12379,7 +12379,7 @@ sketch, reassuringly supports it.
 vdrogen atom, which consists of
 imagine the negatively charged
 /e nucleus like a planet around
-nodel of Niels Bohr--you will
+nodel of Niels Bohr-you will
 one instant of time, an electric
 t vector p points parallel to the
 its magnitude is e times the
@@ -12476,7 +12476,7 @@ of the applied field E gives t
 
 eb
 
-E=---- I
+E=--- I
 a3
 
 % p. 310
@@ -12821,7 +12821,7 @@ COS 0
 
 1-2
 
-is just --dr, so that the inte-
+is just -dr, so that the inte-
 I he result of the integration is
 
 _ L) (29)
@@ -12845,7 +12845,7 @@ matics. Consider a small sc
 taining dipole moment in an
 tion or substitute for this by
 same size and shape and stic
-charge --Pda on the bottoi
+charge -Pda on the bottoi
 dipole moment as that bit c
 will make an identical contril
 (The field inside our substit
@@ -12910,7 +12910,7 @@ Certainly not, because the slab
 , with fields of millions of volts
 an here, another direction there.
 egral of the field, reckoned over
-: just (pg -- <pA, which as we have
+: just (pg - <pA, which as we have
 is equal to 4-rrat, or 4-rrPt. This
 L of atomic charges, no matter
 )y the conservative property of
@@ -13073,7 +13073,7 @@ pulling on their positive parts
 hus drawing positive charge
 LC capacitor, then, the electric
 
-) -- 47rP (34)
+) - 47rP (34)
 
 znce between the plates has
 
@@ -13082,7 +13082,7 @@ znce between the plates has
 same. If the plates were to
 vould drain oil", the dielectric
 ized condition. Because the
-xy the factor (E0 -- 47rP)/E0,
+xy the factor (E0 - 47rP)/E0,
 r with the same charge, the
 ased by the reciprocal of that
 
@@ -13113,7 +13113,7 @@ effects," including the small
 of the plates near the edge (
 general statement can be ma
 shape or arrangement which
-isotropic dielectric----for inst
+isotropic dielectric---for inst
 charges whatever, Q1, Q2, etc
 scopic field Emed everywhere
 the field Em, that would ex
@@ -13158,7 +13158,7 @@ ould be divided, like the slab
 P, and each of these replaced
 [I1 cross section) at top and
 of a surface charge distribu-
-r _--_ P cos 0. The factor cos 0
+r _-_ P cos 0. The factor cos 0
 figure, because a column of
 re a patch of surface of area
 1 through this shell of equiva-
@@ -13169,7 +13169,7 @@ of charge has been indicated
 , this figure may suggest that
 mg arisen from the slight up-
 )rmly with positive charge of
-sgative charge of density --p.
+sgative charge of density -p.
 tive charge poking out at the
 e bottom, varying in amount
 dary. In the interior, where
@@ -13195,7 +13195,7 @@ same as if its entire charge
 superposition of two spherc
 tively, with their centers se
 produce an external field the
--- Q, s cm apart. That is ju
+- Q, s cm apart. That is ju
 A microscopic descriptio
 the same conclusion. In F
 responsible for the polariza
@@ -13380,9 +13380,9 @@ and the charges that make I
 
 TThat is what makes this systei
 finite length in a uniform electric fi
-of a uniformly polarized cylinder--
-diameter--is not uniform inside th
-E = E0 + E' cannot be uniform--l
+of a uniformly polarized cylinder-
+diameter-is not uniform inside th
+E = E0 + E' cannot be uniform-l
 all. In fact it is only dielectrics 01
 case, which acquire uniform polariz
 
@@ -13463,7 +13463,7 @@ The appearance of Eq. 5
 as a vector field whose sou
 the same sense that the tot
 That would be wrong. T
-mined--except for the ad:
+mined-except for the ad:
 distribution p because, su
 is another universal condit
 that curl D = 0. Thus the
@@ -13487,7 +13487,7 @@ lition being described com-
 the dipole moment per unit
 ;uch matter to the electric
 charge distribution pbound,
-1e density pbound = --diV P.
+1e density pbound = -diV P.
 polarized substance, where
 reduces to a surface charge
 ree charge distribution that
@@ -13644,18 +13644,18 @@ is just the flux of Eq through
 charge q. That flux must be_
 
 alent faces. We conclude 1
---47rqz/3 so that
+-47rqz/3 so that
 
 l
 
-<Eqz>box = --b
+<Eqz>box = -b
 
 The minus sign expresses tl
 positive charge results in a p
 box. A similar formula W0]
 the y direction. Therefore a
 any direction will result it
---4vrqr/3b3. Hence for our
+-4vrqr/3b3. Hence for our
 tribution p(x,y,z), the averag
 
 <Ese1r>t
@@ -13713,7 +13713,7 @@ dipoles. Measurements on a
 1 the atoms occupy random positions in
 "this comes from measurements of the
 
-..I.....:... ,._..l _ ...... _. 1...... n--I_ nnox
+..I.....:... ,._..l _ ...... _. 1...... n-I_ nnox
 
 % p. 337
 The term ---47rNa/ 3 in the
@@ -13763,7 +13763,7 @@ ment ds. The dipole moment
 tlent to charge +q moving dis-
 [CI one end moves, or both.)
 :n done on the molecule. The
-tource of the field--in Fig. 9.34
+tource of the field-in Fig. 9.34
 otential diiference between the
 Jne on the molecule, then
 
@@ -13783,7 +13783,7 @@ has increased by just that much
 r stored in the dielectric can be
 V molecules per unit volume,
 [en E - dP is the increase in in-
-3. But sinceP = (e -- 1)E/47r,
+3. But sinceP = (e - 1)E/47r,
 
 . = 8LW(e _ 1)d(E2) (76)
 
@@ -14292,15 +14292,15 @@ B; : 18,000 gauss, dB;/dz = 1700 gauss/cm
 
 Substance Formula F0
 Diamagnetic
-Water H20 -- 2
-Copper Cu --
-Lead Pb -- 3
+Water H20 - 2
+Copper Cu -
+Lead Pb - 3
 Sodium chloride NaCl -1
-Quartz SiO2 -- l
+Quartz SiO2 - l
 Sulfur S --- l
-Diamond C --]
-Graphite C -- 1]
-Liquid nitrogen N2 --]
+Diamond C -]
+Graphite C - 1]
+Liquid nitrogen N2 -]
 Paramagnetic
 Sodium Na +5
 Aluminum Al + I
@@ -14311,7 +14311,7 @@ Ferromagnetic
 Iron Fe + 400,0(
 Magnetite Fe3O4 + l20,0(
 
-'{'Directi0n of force: downward +, upward --. Al
+'{'Directi0n of force: downward +, upward -. Al
 ments made at temperature of 20°C except as noted.
 
 % p. 354
@@ -14478,7 +14478,7 @@ The trouble is, that is not
 reason has not made use of t
 appears totally asymmetrical
 charges at all. No one has e
-kind of magnetic charge--ai
+kind of magnetic charge-ai
 such an object existed it co'
 would give rise to a magnet
 the object and decreasing as
@@ -14669,7 +14669,7 @@ re!) setting y = 0.
 
 3_ mx _ 3mxz
 Z (x2 + yz + z2)3/2 ' ,5
---my _ 3myz
+-my _ 3myz
 
 :x2 + y2 + z2)3/2 _ r5
 
@@ -14753,7 +14753,7 @@ volume is zero. Consider the 1
 (Fig. 10.10). The outward ffl
 net outward flux from the end
 
-m'2[--Bz(2
+m'2[-Bz(2
 
 which to the first order in the
 Setting the total flux equal to
@@ -14817,7 +14817,7 @@ tic dipole moment m given by
 a in square centimeters, and c
 lent ways to express the units
 As you can see from Eq. 18,
-ne--cm ergs
+ne-cm ergs
 
 gauss _ gauss
 
@@ -14861,7 +14861,7 @@ we shall not inquire into the .
 ticular orbit. We ask only, i
 magnetic effects are to be ex
 tron, visualized as a particle c
---e, moving with speed 0 on a I
+-e, moving with speed 0 on a I
 is a positive nuclear charge,
 but the nucleus, because of its
 that its magnetic effects can b
@@ -14992,7 +14992,7 @@ direction to accelerate the body,
 
 the change in v and the change
 
-'--dB (28)
+'-dB (28)
 {c
 
 of the cord, the factor (qr/2Mc)
@@ -15000,9 +15000,9 @@ change in v in the whole process
 /alue B1. Then:
 
 r_ B1 _ qrB1
-lc L dB -- 2Mc (29)
+lc L dB - 2Mc (29)
 
-1t--the final Velocity is the same
+1t-the final Velocity is the same
 or quickly.
 
 ;e in the final state means an in-
@@ -15050,7 +15050,7 @@ Hence the tension in the co:
 This points to a surprising
 valid for any kind of tetheri
 cord could be replaced by l
-outcome--the radius would
+outcome-the radius would
 Or to go at once to a system V
 by the Coulomb attraction o:
 be the effective force that act
@@ -15169,7 +15169,7 @@ provide the most accurate way to dete
 sm is a universal phenomenon,
 is about the same in molecules
 .e can be a much larger structure
-ndreds or thousands of atoms--
+ndreds or thousands of atoms-
 ctive mean-square orbit radius.
 ny given electron is pretty well
 ome interesting exceptions and
@@ -15224,7 +15224,7 @@ wires. Each of these forces h
 moment arm is"the distance (a
 of the torque on the loop is
 
-N=2lI:--B-%sin0
+N=2lI:-B-%sin0
 
 The torque acts in a direction
 sented by a vector N in the
@@ -15383,7 +15383,7 @@ ization, as shown in Fig. l0.16a.
 es. One such tile, which has a
 a1 dipole moment amounting to
 t per unit volume (Fig. 10.1619) .
-- at all distant points--distant
+- at all distant points-distant
 
 % p. 381
 compared to the size of the tilt
@@ -15488,7 +15488,7 @@ the microscopic field, by closely spaced
 parallel surfaces, S1, S2, . . . .
 
 % p. 383
--q--ruu
+-q-ruu
 
 is equivalent to:
 
@@ -15512,7 +15512,7 @@ as two sheets of surface charge with
 
 [More generally, for nonuniform polarization, polarized
 
-matter is equivalent to a charge distribution p = -- div P.]
+matter is equivalent to a charge distribution p = - div P.]
 
  
 
@@ -15691,7 +15691,7 @@ Nature has actually provided 1
 If the external field were 0
 picture to describe the field o1
 magnetic field of the permane
-tive magnetic charge--a surfac
+tive magnetic charge-a surfac
 on the right-hand end of the m:
 charge, "south" poles, on the
 potential function <;omag, such '
@@ -15729,7 +15729,7 @@ band of current around its rirr
 unts to
 : 101°)(l50)
 
-L1 units this is 450 amperes--
+L1 units this is 450 amperes-
 short-circuiting an automobile
 space, including points inside
 
@@ -15760,7 +15760,7 @@ luding the intrinsic magnetic
 lese are the molecular current
 )urce of the magnetization we
 rrents are ordinary conduction
-1s--currents that can be started
+1s-currents that can be started
 :ured with an ammeter.
 
 the macroscopic average of the
@@ -15782,7 +15782,7 @@ simply adds on to the field ca
 we have
 
 4
-curl B = --7T--(Jb0,
+curl B = -7T-(Jb0,
 e
 Let us express Jbmmd in terms
 
@@ -15795,7 +15795,7 @@ curl B =
 
 which can be rearranged as
 
-curl (B -- A
+curl (B - A
 
 If we now define a vector func
 by the relation
@@ -16268,7 +16268,7 @@ L solenoid like that described, but by
 red susceptibilities of the substances
 :t under the conditions as described.
 is defined, and what factors the force
-r a couple of the entries--that is, com-
+r a couple of the entries-that is, com-
 a table. such as the one in Handbook
 I Chemical Rubber Co.). While you
 :eptibility in this handbook, notice the
@@ -16450,7 +16450,7 @@ enough away so that they contribute
 are examining. Now suppose that t
 somehow, so that we could measure
 that this force, per unit area of the
-sheet--is given by
+sheet-is given by
 
 F=(OA+
 
@@ -16490,7 +16490,7 @@ rated at the origin, the field at Pwould
 a distance r away from the origin of
 tion is the same as if all the charge
 were concentrated at the origin.'
-erse--square nature of Coulomb's law
+erse-square nature of Coulomb's law
 11d it be true for an inverse-cube law?
 harge distribution of total charge Q
 . of the origin. Suppose the force law
@@ -16506,7 +16506,7 @@ orld. Assume that likes repel exactly
 t is, equal unit charges of type A repel
 11, While a unit A charge and a unit B
 % dyne. Show that this permits, quite
-s--that is, bodies which, though con-
+s-that is, bodies which, though con-
 a whole no force, and cause no force,
 )uld you detect the difference between
 1 of electric field be generalized to be
@@ -16616,7 +16616,7 @@ Ans. (pg = 401) In (1 +
 
 mber defined as lim  in Eq. 2.76
 
-a.-->0 (1,;
+a.\rightarrow0 (1,;
 
 P The question can be posed in con-
 nd 2 in succession as the directions
@@ -16669,14 +16669,14 @@ ordinates
 
 Solid angle 9
 
-Area=(--i
+Area=(-i
 
 VV=1'-(g
 
 Flux out =
 
 Area = N2
-VV= $(--
+VV= $(-
 
 Flux out =
 
@@ -16808,7 +16808,7 @@ direction and magnitude of the force
 3.20 (a) Find the capacitance of
 cylinders, of radii a and b, and length .
 rections may be neglected. Check yo
-tween the cylinders, 12 -- a, is very smz
+tween the cylinders, 12 - a, is very smz
 reduces to one that could have been
 parallel-plate capacitor.
 
@@ -16915,7 +16915,7 @@ Laplace 's equation
 tions in the focusing of charged-part
 What is the equation for an equipo
 Describe how you could produce
-limited region, of course--by using
+limited region, of course-by using
 
 3.25 The figure shows in cross 1
 two ffat plates, 1 and 2, each of are
@@ -16957,7 +16957,7 @@ ing programs. Then complete the
 3.28 Let <p(x,y,z) be any functi
 around a point (xo,yo,zo). Write a
 at each of the six points (x0 + 8,
-(30, yo -- 3,30), (750, yo, Z0 + 3), ($0
+(30, yo - 3,30), (750, yo, Z0 + 3), ($0
 the point (x0,yo,zo) at a distance 6.
 the average of these six values is eqi
 order in 8.
@@ -17029,7 +17029,7 @@ lI'6
 
 ;he
 tial in the immediate neighborhood of
-ectric field becomes infinite--could not
+ectric field becomes infinite-could not
 
 nd, we recognize that the elastic systems,
 elves to minimize the elastic energy. In
@@ -17087,7 +17087,7 @@ although V242 = 0 almost everywhei
 Why not? Calculate the integral ft
 capacity. Will the true capacity be
 Do you expect your estimate to l
-(b -- a) < b? If a better approxin
+(b - a) < b? If a better approxin
 improved trial function that would :
 
 Chapter 4
@@ -17265,7 +17265,7 @@ ill help you to spot the necessary sym-
 Rev. 9, 164, (1917). The experiments were
 re University of California.
 
-The Tolman--Stewart experiment
+The Tolman-Stewart experiment
 
 A network problem involving sym-
 
@@ -17302,7 +17302,7 @@ terminals A and B. Our interest in
 solution, which takes an odd twist,
 physics where we have an iteration (
 of lenses, in optics). The point is 1
-yet know--call it R--will not be ch
+yet know-call it R-will not be ch
 the front end of the chain to make
 section, we see that this new input re:
 combination of R2 and R. We get it
@@ -17387,7 +17387,7 @@ are several kinds of charge carriers
 Chapter 5
 
 5.11 What if charge did vary wit
-to the factor (1 -- v2/c2)'1/2? Est
+to the factor (1 - v2/c2)'1/2? Est
 ference in net charge that might be e
 a helium atom. Assume the proton
 negligible to 1 Mev or so in going
@@ -17401,7 +17401,7 @@ be the order of magnitude of the re
 are at rest and only the negative cl
 the force on the moving test chargc
 
-5.13 In a "colliding--beam" part
+5.13 In a "colliding-beam" part
 each having an energy of 2 Bev pass
 The encounter is so close that eacl
 ffight by an angle of 10'? radians.
@@ -17435,7 +17435,7 @@ I' = ')/(I + Cfih
 This shows that our earlier result is
 too, that if a line has zero total cu]
 has that in all frames, whatever th
-doing--a pleasantly simple fact thz
+doing-a pleasantly simple fact thz
 
 % p. 426
 iagnetic field to be expected just above
@@ -17685,7 +17685,7 @@ Question for discussion
 A question to clarify the meaning of
 the flux through a circuit
 
-Application of the mutual--induct--
+Application of the mutual-induct-
 ance reciprocity theorem
 
 Mutual inductance of concentric
@@ -17727,7 +17727,7 @@ ance M.
 7.22 The inner conductor of the c
 sists of a solid metal rod of radius a.
 of radius 12. At one end a metal disk
-to predict the self--inductance L of a 5
+to predict the self-inductance L of a 5
 current ffowing in the inner conduc
 cross section of the rod. For a gix
 strength B as a function of radius, bot
@@ -17919,7 +17919,7 @@ How a tensor behaves under rotation
 9.22 The problem is to construe
 a proof of the symmetry of the polar
 work in two dimensions only, but tha
-of the argument--a third dimension
+of the argument-a third dimension
 some polarizable object, possessing
 xy coordinates. A field E induces a
 
@@ -18014,7 +18014,7 @@ linal component pl cos 01 and a trans-
 he fields of these, at the location of pg,
 aw that the result can be written
 
-g) -- 3 cos 01 cos 0g]
+g) - 3 cos 01 cos 0g]
 
 Force between two dipoles
 
@@ -18034,16 +18034,16 @@ but we are interested in the energy pe
 ing arrangements in respect to aver
 highest energy? Which has the lower
 
-(0)'--TTTTTTT
+(0)'-TTTTTTT
 (17)---Tilllll
 (C) 
 
 
 9.27 Find the dilference in ener
-arranged like this:  --> --> --> -->
+arranged like this:  \rightarrow \rightarrow \rightarrow \rightarrow
 right of a certain point 19 all dipoles 2
 
---->-->-->--
+-\rightarrow\rightarrow\rightarrow-
 
 This energy dilference is the energy
 
@@ -18052,12 +18052,12 @@ the two domains. [Mathematical no
 Compare, approximately, the ener
 fairly far apart, like this:
 
---->-->--->b<--<--<--<--
+-\rightarrow\rightarrow-\rightarrowb<-<-<-<-
 
 with the energy of an array in whicl
 together as they can without "anni
 
----)-->-->-->---->-->-->
+---)\rightarrow\rightarrow\rightarrow-\rightarrow\rightarrow\rightarrow
 
 In View of this energy diff"erence, \
 would tend to repel one another or
@@ -18066,16 +18066,16 @@ that is, with less expenditure of ene
 considered? Compare the following
 design an even cheaper boundary.
 
-((1) (Abrupt):  --> -----> -->
+((1) (Abrupt):  \rightarrow ---\rightarrow \rightarrow
 (17) 
 
-(C) ----->---->-->\
+(C) ---\rightarrow-\rightarrow\rightarrow
 
 % p. 440
-Iq. 72 is called the Clausius-Mosotti Experimental test of the Claust'us--
+Iq. 72 is called the Clausius-Mosotti Experimental test of the Claust'us-
 ms of the dielectric constant c. Show M0301" f°"""l"
 
---é) = 477a. Tabulated below are data
+-é) = 477a. Tabulated below are data
 
 ers, and Sanders, Physica, 1, 627 (1934),
 of pure nitrogen at various pressures
@@ -18086,7 +18086,7 @@ of pure nitrogen at various pressures
 0.06604 0.2361 0.5780
 1.03109 1.11413 1.29633
 
-1sius--Mosotti formula?
+1sius-Mosotti formula?
 
 :1 by Eq. 72, in the event 4vrNa/ 3 Z 1, Question for discussion: The
 ad, consider a "crystal" that consists of "4"N"'/3 C"""t'°Phe"
@@ -18236,7 +18236,7 @@ the xz plane. It is held on this path
 not concern us; see part (a) of the
 sociated with this motion is a vector i
 L :  1 (Draw on diagr
-B = --iB as in part (b) of the figu:
+B = -iB as in part (b) of the figu:
 xz plane, this will cause a new force
 direction __j___j to act
 We assume this force is so weak that
@@ -18259,7 +18259,7 @@ present case the motion of the par-
 vn from high up on the z axis, would
 D
 adius of the orbit of a charged particle
-ield B is turned on--_only the orbital
+ield B is turned on-_only the orbital
 if Av < vo, which is the same as say-
 . smaller than the force F0 which binds
 One interesting case in which this
@@ -18351,10 +18351,10 @@ ts called the rationalized MKS system.
 .S unit of force is the newton, defined
 gram mass to accelerate at a rate of
 quivalent to exactly 105 dynes. The
-ewton--meter, or ioule, is equivalent to
+ewton-meter, or ioule, is equivalent to
 
 ystem include our familiar "practical"
-1 ohm--along with some new ones.
+1 ohm-along with some new ones.
 .e to assimilate the long-used practical
 ed as follows. Write Coulomb's law
 
@@ -18368,7 +18368,7 @@ n coulombs and in in meters. Know-
 [1 and the dyne, between the coulomb
 er and the centimeter, you can easily
 lue 0.8988 x 1010. (Two 1-coulomb
-e a force--around a million tons!) It
+e a force---around a million tons!) It
 
 47750) instead of k, where the constant
 : k = 0.8988 )< 1010. Coulomb's law
@@ -18435,7 +18435,7 @@ Eaussian CGS version, in which c ap-
 e that Eqs. 11 imply a wave velocity
 That is:
 
-.=---- (12)
+.= (12)
 
 unit of charge, esu, was established by
 s MKS system the coulomb is defined,
