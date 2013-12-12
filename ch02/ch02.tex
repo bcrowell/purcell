@@ -56,10 +56,12 @@ test charge is moved, is the factor $q$. Now any electrostatic field is
 simply the superposition of the fields of certain charges, as expressed
 in Eqs. 1.14 and 1.15. In any such field, therefore, the line integral
 of $\vc{E}$, the total $\vc{E}$ due to all the sources, must be path-independent:
+\begin{framed}
 \begin{equation}
   \int_{P_1}^{P_2} \vc{E}\cdot\der\vc{s} \text{has the same value for all paths connecting
        $P_1$ and $P_2$, in an electrostatic field}
 \end{equation}
+\end{framed}
 
 As an illustration, consider the line integral from $A$ to $C$ in Fig. 2.2c,
 over the path via the point $(2,0)$, the field $\vc{E}$ being the same as before.
@@ -72,84 +74,80 @@ evaluate it for a path like $ABC$. Actually, we shall not often need to
 compute the value of a line integral. The main purpose of the ex-
 ample is to make sure you understand what the line integral means.
 
-\iffalse
-
 \section{Potential difference and the potential function}
 Because the line integral in the electrostatic field is path-
-independent, we can use it to define a scalar quantity (p21, as follows:
-
-W
-
-Then (p21 is the work per unit charge done in moving a positive
-charge from P1 to P2 in the field E. Thus (p21 is a single-valued scalar
-function of the two positions P1 and P2. We call it the electric
-potential difference between the two points.
+independent, we can use it to define a scalar quantity $\pot_{21}$, as follows:
+\begin{framed}
+\begin{equation}
+  \pot_{21} = -\int_{P_1}^{P_2} \vc{E}\cdot\der\vc{s}
+\end{equation}
+\end{framed}
+Then $\pot_{21}$ is the \emph{work per unit charge} done in moving a positive
+charge from $P_1$ to $P_2$ in the field $\vc{E}$. Thus $\pot_{21}$ is a single-valued scalar
+function of the two positions $P_1$ and $P_2$. We call it the electric
+\emph{potential difference} between the two points.
 
 In our CGS system of units, potential difference is measured in
-ergs/esu. This unit has a name of its own, the statvolt (the "stat"
-
+ergs/esu. This unit has a name of its own, the \emph{statvolt} (the ``stat''
 % p. 38
-comes from "electrostatic"). The volt is the unit of potential dif-
-ference in the MKS system'? It is equivalent to 1/299.79, approxi-
-mately 1/ 300, of a statvolt. One joule (107 ergs) of work is required
+comes from ``electrostatic''). The volt is the unit of potential dif-
+ference in the MKS system.\footnote{Like the coulomb, ampere, and
+ohm, the volt was in common use as a ``practical''
+electrical unit long before the complete MKS system of electrical units was contrived.}
+It is equivalent to 1/299.79, approxi-
+mately 1/ 300, of a statvolt. One joule ($10^7$ ergs) of work is required
 to move a charge of one coulomb through a potential difference of
 one volt.
 
-Suppose we hold P1 fixed at some reference position. Then (1)21
-becomes a function of P2 only, that is, a function of the spatial co-
-ordinates x, y, z. We can write it simply q>(x,y,z), without the sub-
+Suppose we hold $P_1$ fixed at some reference position. Then $\pot_{21}$
+becomes a function of $P_2$ only, that is, a function of the spatial co-
+ordinates $x$, $y$, $z$. We can write it simply $\pot(x,y,z)$, without the sub-
 scripts, if we remember that its definition still involves agreement
-on a reference point P1. We say that q> is the potential associated with
-the vector field E. It is a scalar function of position, or a scalar field
+on a reference point $P_1$. We say that $\pot$ is the potential associated with
+the vector field $\vc{E}$. It is a scalar function of position, or a scalar field
 (they mean the same thing). Its value at a point is simply a number
 (in units of work per unit charge) and has no direction associated
-with it. Once the vector field $\vc{E}$ is given, the potential function (p
+with it. Once the vector field $\vc{E}$ is given, the potential function $\pot$
 is determined, except for an arbitrary additive constant allowed by
-the arbitrariness in our choice of P1.
+the arbitrariness in our choice of $P_1$.
 
 As an example, let us find the potential associated with the electric
-field described in Fig. 2.2. It is convenient to locate P1 at the origin,
-the point labeled A in Fig. 2.2. To evaluate
-
-[E-ds (8)
-
-from this reference point to a general point (x,y) it is easiest to use
+field described in Fig. 2.2. It is convenient to locate $P_1$ at the origin,
+the point labeled $A$ in Fig. 2.2. To evaluate
+\begin{equation}
+  \int\vc{E}\cdot\der\vc{s}
+\end{equation}
+from this reference point to a general point $(x,y)$ it is easiest to use
 a path like the dotted path in Fig. 2.2c:
-
-(x, ) (x, (x )
-q>(x,y> = - (0,; E-ds = - fW°'E.dx - fW;fEydy <9)
-
-The first integral is zero, as we noted earlier, because in this field Ex
-is zero along the x axis. The second integration is carried out at con-
-stant x, and since E1, = Kx, the integral becomes
-
 \begin{equation}
-(equation not yet converted)
+  \pot(x,y) = -\int_{(0,0)}^{(x,y)}\vc{E}\cdot\der\vc{s}
+            = -\int_{(0,0)}^{(x,0)} E_x \: \der x - \int_{(x,0)}^{(x,y)} E_y \: \der y
 \end{equation}
-- Kx L' dy (10)
-which has the value -Kxy. For this field then, the potential is
+The first integral is zero, as we noted earlier, because in this field $E_x$
+is zero along the $x$ axis. The second integration is carried out at con-
+stant $x$, and since $E_y = Kx$, the integral becomes
 \begin{equation}
-(equation not yet converted)
+  -Kx\int_0^y \der y
 \end{equation}
-(p = -Kxy (11)
-
+which has the value $-Kxy$. For this field then, the potential is
+\begin{equation}
+  \pot = -Kxy
+\end{equation}
 Any constant could be added to this. That would only mean that the
-
 reference point to which zero potential is assigned had been located
 somewhere else.
 
-TLike the coulomb, ampere, and ohm, the volt was in common use as a "practical"
-electrical unit long before the complete MKS system of electrical units was contrived.
-
 % p. 39
-We must be careful not to confuse the potential <p associated with
-a given field $\vc{E}$ with the potential energy of a system of charges. The
+We must be careful not to confuse the potential $\pot$ associated with
+a given field $\vc{E}$ with the \emph{potential energy} of a system of charges. The
 potential energy of a system of charges is the total work required to
-assemble it. In Eq. 1.8, for example, we expressed U, the potential
-energy of the charge system in Fig. 1.6. The electric potential
-<p(x,y,z) associated with the field in Fig. 1.6 would be the work per
+assemble it. In Eq. 1.8, for example, we expressed $U$, the potential
+energy of the charge system in Fig. 1.6. The electric \emph{potential}
+$\pot(x,y,z)$ associated with the field in Fig. 1.6 would be the work per
 unit charge required to bring a unit positive test charge in from infin-
-ity to the point (x,y,z) in the field of that structure of eight charges.
+ity to the point $(x,y,z)$ in the field of that structure of eight charges.
+
+\iffalse
 
 \section{Gradient of a scalar function}
 
@@ -217,7 +215,7 @@ point 0. On a sphere of radius r0 centered about 0, f = f(r0) is
 constant. On a slightly larger sphere of radius ro + dr it is also con-
 stant, with the Value f :- f(r0 + dr). If we want to make the change
 from f(r0) to f(r0 + dr), the shortest step we can make is to go
-radially (as from A to B) rather than from A to C, in Fig. 2.4. The
+radially (as from $A$ to B) rather than from $A$ to C, in Fig. 2.4. The
 "slope" off is thus greatest in the radial direction, so Vf at any point
 is a radially pointing vector. In fact Vf = 1*' (df/dr) in this case,
 i- denoting, for any point, a unit vector in the radial direction.
@@ -226,7 +224,7 @@ i- denoting, for any point, a unit vector in the radial direction.
 
 It is now easy to see that the relation of the scalar function f to the
 vector function Vf is the same, except for a minus sign, as the relation
-of the potential (1) to the field E. Consider the Value of (p at two nearby
+of the potential (1) to the field $\vc{E}$. Consider the Value of (p at two nearby
 
 points, (x,y,z) and (x + dx, y + dy, z + dz). The change in (p, going
 from the first point to the second, is
@@ -360,12 +358,12 @@ the general point (x,y,z) and the selected reference point, using the
 fundamental relation, Eq. 7.
 
 To see how this goes in the case of the infinitely long charged wire,
-let us arbitrarily. locate the reference point P1 at a distance r1 from
+let us arbitrarily. locate the reference point $P_1$ at a distance r1 from
 
-the wire. Then to carry a charge from P1 to any other point P2 at
+the wire. Then to carry a charge from $P_1$ to any other point $P_2$ at
 distance r2 requires the work per unit charge
 
-(p21 : - PP2E'dS : -fr2<E)dT= -2Al.IlT2-f-ZAIIIT1 
+(p21 : - P$P_2$E'dS : -fr2<E)dT= -2Al.IlT2-f-ZAIIIT1 
 1 7'1 1'
 This shows that the electrical potential for the charged wire can be
 
@@ -377,7 +375,7 @@ taken as
 (p = -2>\ ln r + const (19)
 
 The constant, 2}\ ln 11 in this case, has no effect when we take --- grad (p
-to get back to the field E. In this case,
+to get back to the field $\vc{E}$. In this case,
 
 \begin{equation}
 (equation not yet converted)
@@ -402,9 +400,9 @@ a sheet of plastic, upon which charge has been "sprayed" so that every
 square centimeter of the disk has received, and holds fixed, the same
 amount of charge.
 
-As a start, let's find the potential at some point P1 on the axis of
+As a start, let's find the potential at some point $P_1$ on the axis of
 symmetry, which we have made the y axis. All charge elements in a
-thin ring-shaped segment of the disk lie at the same distance from P1.
+thin ring-shaped segment of the disk lie at the same distance from $P_1$.
 If 3 denotes the radius of such an annular segment and dc is its width, ,
 its area is 2773 ds. The amount of charge it contains, dq, is therefore 
 
@@ -412,9 +410,9 @@ its area is 2773 ds. The amount of charge it contains, dq, is therefore
 
 % p. 44
 dq = a-27rs ds. All parts of this ring are the same distance away
-from P1, namely r = My? + 82, so the contribution of the ring to the
+from $P_1$, namely r = My? + 82, so the contribution of the ring to the
 
-potential at P1 is dq/r, or 27703 ds/\/y? + 32. To get the potential
+potential at $P_1$ is dq/r, or 27703 ds/\/y? + 32. To get the potential
 due to the whole disk, we have to integrate over all such rings:
 
 \begin{equation}
@@ -491,11 +489,11 @@ functions are well-known and tabulated,T but there is no point in
 pursuing here mathematical details peculiar to a special problem.
 One further calculation, which is easy enough, may be instructive.
 We can find the potential at a point on the very edge of the disk, such
-as P2 in Fig. 2.9. '
+as $P_2$ in Fig. 2.9. '
 
-To calculate the potential at P2, we consider the segment of a ring
-centered on P2. As you can see in Fig. 2.9, the charge on this segment
-is dq = a - 2r0 dr. Its contribution to the potential at P2 is
+To calculate the potential at $P_2$, we consider the segment of a ring
+centered on $P_2$. As you can see in Fig. 2.9, the charge on this segment
+is dq = a - 2r0 dr. Its contribution to the potential at $P_2$ is
 dq/r = 200 dr. From the geometry of the right triangle in Fig. 2.9,
 r = 2a cos 0, so that dr = -2a sin 0 dB. This lets us use 0 as the
 
@@ -808,7 +806,7 @@ tween the values of (p at two points in space is the work per unit
 charge required to transport charge from one place to the other.
 
 To emphasize the distinction between (1) and U, let us write Eq. 36
-in terms of (1) rather than E. Since E = -Vq> we have
+in terms of (1) rather than $\vc{E}$. Since E = -Vq> we have
 
 \begin{equation}
 (equation not yet converted)
@@ -1001,7 +999,7 @@ It holds for any vector field for which the limit involved in Eq. 49
 exists.
 
 % p. 56
-Let us see what this implies for the electric field E. We have
+Let us see what this implies for the electric field $\vc{E}$. We have
 Gauss's law which assures us that
 
 \begin{equation}
@@ -1478,7 +1476,7 @@ unambiguous. Incidentally the curve C need not lie in a plane---it
 can be as crooked as you like.
 
 Now bridge C with a new path B, thus making two loops, C1 and
-C2, each of which includes B as part of itself (Fig. 2.2319). Take the
+C2, each of which includes $B$ as part of itself (Fig. 2.2319). Take the
 line integral around each of these, in the same directional sense. It
 is easy to see that the sum of the two circulations, F1 and F2, will be
 the same as the original circulation around C: The reason is that the
@@ -1829,9 +1827,9 @@ field E? The conclusion we can draw is a simple one: the curl-meter
 will always read zero! That follows from a fact we have already
 learned; namely, in the electrostatic field the line integral of E
 around any closed path is zero. Just to recall why this is so, remem-
-ber that the line integral of $\vc{E}$ between any two points such as P1 and
-P2 in Fig. 2.31 is independent of the path. As we bring the two points
-P1 and P2 close together, the line integral over the shorter path in the
+ber that the line integral of $\vc{E}$ between any two points such as $P_1$ and
+$P_2$ in Fig. 2.31 is independent of the path. As we bring the two points
+$P_1$ and $P_2$ close together, the line integral over the shorter path in the
 
 figure obviously vanishes---unless the final location is at a singularity
 such as a point charge, a case we can rule out. So the line integral

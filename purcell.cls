@@ -22,3 +22,4 @@
 \newcommand{\xhat}{\hat{\vc{x}}}
 \newcommand{\yhat}{\hat{\vc{y}}}
 \newcommand{\zhat}{\hat{\vc{z}}}
+\newcommand{\pot}{\varphi} % the style of phi with only a tail, not head, used for the potential
