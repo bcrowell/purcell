@@ -901,7 +901,7 @@ distribution.
 
 The relation between the electric field and its sources can be ex-
 pressed in a remarkably simple way, one that we shall find very
-useful. For this we need to define a quantity called ffux.
+useful. For this we need to define a quantity called flux.
 
 Consider some electric field in space and in this space some arbi-
 trary closed surface, like a balloon of any shape. Figure 1.13 shows
@@ -932,7 +932,7 @@ another but is constant in time at any one position. Denote this
 vector field by v, measured, say, in feet per second. Then if a is the
 oriented area, in square feet, of a frame lowered into the water,
 v - a is the rate of flow of water through the frame in cubic feet per
-second (Fig. 1.14). We must emphasize that our definition of ffux is
+second (Fig. 1.14). We must emphasize that our definition of flux is
 applicable to any vector function, whatever physical variable it may
 represent.
 
@@ -943,7 +943,7 @@ ally this latter, milder, kind of singularity would cause no difficulty here unl
 bal1oon's surface were to coincide with the surface of discontinuity over some finite area.
 
 % p. 23
-Now let us add up the ffux through all the patches to get the ffux
+Now let us add up the flux through all the patches to get the flux
 
 through the entire surface, a scalar quantity which we shall denote
 by <1):
@@ -971,20 +971,20 @@ strate makes that unnecessary!
 
 Take the simplest case imaginable; suppose the field is that of a
 single isolated positive point charge q and the surface is a sphere of
-radius r centered on the point charge (Fig. 1.15). What is the ffux
+radius r centered on the point charge (Fig. 1.15). What is the flux
 <1) through this surface? The answer is easy because the magnitude
 of E at every point on the surface is q/r2 and its direction is the same
 as that of the outward normal at that point. So we have: ,
 
 <1) = E x total area = T'; X 47"? = 4'irq (18)
 
-The ffux is independent of the size of the sphere.
+The flux is independent of the size of the sphere.
 
 % p. 24
  
 
 Now imagine a second surface, or balloon, enclosing the first, but
-not spherical, as in Fig. 1.16. We claim that the total ffux through
+not spherical, as in Fig. 1.16. We claim that the total flux through
 this surface is the same as that through the sphere. To see this, look
 at a cone, radiating from q, which cuts a small patch a out of the
 sphere and continues on to the outer surface where it cuts out a patch
@@ -1004,29 +1004,29 @@ E(R)A C05 0 2 l:E(¢)(%) 2:":a<£)2 1 J COS 0 : E(¢)(1
 
 r cost?
 
-This proves the ffux through the two patches is the same.
+This proves the flux through the two patches is the same.
 Now every patch on the outer surface can in this way be put into
 correspondence with part of the spherical surface, so the total flux
 
 must be the same through the two surfaces. That is, the flux through _
 
 the new surface must be just 47rq. But this was a surface of arbitrary
-shape and sized' We conclude: the ffux of the electric field through
+shape and sized' We conclude: the flux of the electric field through
 any surface enclosing a point charge q is 47rq. As a corollary we can
-say that the total ffux through a closed surface is zero if the charge
+say that the total flux through a closed surface is zero if the charge
 lies outside the surface. We leave the proof of this to the reader,
 along with Fig. 1.17 as a hint of one possible line of argument.
 There is a way of looking at all this which makes the result seem
 obvious. Imagine at q a source which emits particles--such as
 bullets or photons--in all directions at a steady rate. Clearly the
-ffux of particles through a window of unit area will fall off with the
+flux of particles through a window of unit area will fall off with the
 inverse square of the window's distance from q. Hence we can draw
 an analogy between the electric field strength E and the intensity of
 particle flow in bullets per unit area per unit time. It is pretty
-obvious that the ffux of bullets through any surface completely sur-
+obvious that the flux of bullets through any surface completely sur-
 rounding q is independent of the size and shape of that surface, for
 it is just the total number emitted per unit time. Correspondingly,
-the ffux of E through the closed surface must be independent of size
+the flux of E through the closed surface must be independent of size
 
 TTo be sure. we had the second surface enclosing the sphere, but it didn't have to.
 really. Besides, the sphere can be taken as small as we please.
@@ -1037,11 +1037,11 @@ square behavior of the intensity.
 
 The situation is now ripe for superposition! Any electric field is
 the sum of the fields of its individual sources. This property was
-expressed in our statement, Eq. 13, of Coulomb's law. Clearly ffux
+expressed in our statement, Eq. 13, of Coulomb's law. Clearly flux
 is an additive quantity in the same sense, for if we have a number of
 sources q1, q2, . . . , qN, the fields of which, if each were present alone,
 
-would be E1, E2, . . . ,EN, the ffux (I) through some surface S in the
+would be E1, E2, . . . ,EN, the flux (I) through some surface S in the
 actual field can be written
 
 c1>:fSE-da=fS[E,+E2+...+EN]-da (20)
@@ -1052,7 +1052,7 @@ surface contributes exactly 47rq to the surface integral of Eq. 20 and
 all charges outside contribute nothing. We have arrived at Gauss's
 
 law:
-The ffux of the electric field E through any closed
+The flux of the electric field E through any closed
 surface, that is, the integral f E - da over the surface,
 equals 477 times the total charge enclosed by the (21)
 
@@ -1075,7 +1075,7 @@ inverse-square field in physics, for instance to the gravitational field,
 as discussed in Vol. 1, Chap. 9.
 
 It is easy to see that Gauss's law would not hold if the law of force
-were, say, inverse-cube. For in that case the ffux of electric field
+were, say, inverse-cube. For in that case the flux of electric field
 
 "rThere is one difference, inconsequential here, but relevant to our later study of the
 fields of moving charges. Gauss's law is obeyed by a wider class of fields than those
@@ -1088,7 +1088,7 @@ from a point charge q through a sphere of radius R centered on the
 charge would be
 
 <1>=fE-da=%-41132:? (22)
-By making the sphere large enough we could make the ffux through
+By making the sphere large enough we could make the flux through
 it as small as we pleased, while the total charge inside remained
 constant.
 
@@ -1120,7 +1120,7 @@ Because of the spherical symmetry, the electric field at any point
 must be radially directed---no other direction is unique. Likewise,
 the field magnitude E must be the same at all points on a spherical
 surface S1 of radius r1, for all such points are equivalent. Call this
-field magnitude E1. The ffux through this surface S1 is therefore
+field magnitude E1. The flux through this surface S1 is therefore
 simply 47rr12E1, and by Gauss's law this must be equal to 4'/-r times the
 charge enclosed by the surface. That is, 47rr12E1 = 477 (charge in-
 side S1) or
@@ -1214,9 +1214,9 @@ charge, inward if negative.
 
 Gauss's law leads directly to the same result. Surround a segment
 of the line charge with a closed circular cylinder of length L and
-radius r, as in Fig. 1.22, and consider the ffux through this surface.
+radius r, as in Fig. 1.22, and consider the flux through this surface.
 As we have already noted, symmetry guarantees that the field is
-radial, so the ffux through the ends of the "tin can" is zero. The ffux
+radial, so the flux through the ends of the "tin can" is zero. The flux
 through the cylindrical surface is simply the area, 27rrL, times ET, the
 field at the surface. On the other hand, the charge enclosed by the
 surface is just AL, so Gauss's lawdgives us 27rrLE, = 47r>\L or
@@ -1241,9 +1241,9 @@ the field must have the same magnitude and the opposite direction at
 two points P and P' equidistant from the sheet on opposite sides.
 With these facts established, Gauss's law gives us at once the field
 intensity, as follows: Draw a cylinder, as in Fig. 1.23, with P on one
-side and P' on the other, of cross section area A. The outward ffux
+side and P' on the other, of cross section area A. The outward flux
 is found only at the ends, so that if Ep denotes the magnitude of the
-field at P, and Ep the magnitude at P', the outward ffux is
+field at P, and Ep the magnitude at P', the outward flux is
 
 AEP + AEp« = 2AEp. The charge enclosed is aA. Hence 2AEp =
 47roA, or
@@ -1404,7 +1404,7 @@ is the magnitude and direction of the electric field at the center of the circle
 What is the value of E - da over one face of the cube?
 
 (19) The charge q is moved to one corner of the cube. What is now the
-value of the ffux of E through each of the faces of the cube?
+value of the flux of E through each of the faces of the cube?
 
 % p. 33
 1.18 Two infinite plane sheets of surface charge, of density a = 6 esu/cm?
@@ -1964,12 +1964,12 @@ area A, enclosed by a thin ffat box, as indicated in Fig. 2.10. Let E,,+
 denote the y component of the field immediately in front of this patch
 
 of surface charge and Er the y component of the field behind it. The
-outward ffux from the box is
+outward flux from the box is
 
-<1) = AE,,+ -- AEV + (ffux through side of box) (29)
+<1) = AE,,+ -- AEV + (flux through side of box) (29)
 
 The second term has a minus sign because the vector representing the
-rear surface of the box points in the negative y direction. The ffux
+rear surface of the box points in the negative y direction. The flux
 through the sides of the box can be made as small as we please by
 
 ffattening the box? That does not change the charge enclosed, which
@@ -2241,7 +2241,7 @@ however.
 
 Consider a finite volume V of some shape, the surface of which we
 shall denote by S. We are already familiar with the notion of the total
-ffux <1) emerging from S. It is the value of the surface integral of F
+flux <1) emerging from S. It is the value of the surface integral of F
 extended over the whole of S:
 
 <I>=fSF~da (44)
@@ -2264,8 +2264,8 @@ will equal the original integral over the whole surface expressed in
 Eq. 44. The reason is that any given patch on D contributes with
 one sign to the first integral and the same amount with opposite sign
 to the second, the "outward" direction in one case being the "inward"
-direction in the other. In other words, any ffux out of V1, through
-this surface D, is ffux into V2. The rest of the surface involved is
+direction in the other. In other words, any flux out of V1, through
+this surface D, is flux into V2. The rest of the surface involved is
 identical to that of the original entire volume.
 
 We can keep on subdividing until our internal partitions have
@@ -2313,7 +2313,7 @@ method of subdivision. For the present we shall take that for
 granted.
 
 The meaning of div F can be expressed in this way: div F is the
-ffux out of V,, per unit of volume, in the limit of infinitesimal Vi. It
+flux out of V,, per unit of volume, in the limit of infinitesimal Vi. It
 is a scalar quantity, obviously. It may vary from place to place, its
 value at any particular location (x,y,z) being the limit of the ratio in
 Eq. 49 as V, gets chopped smaller and smaller while always enclosing
@@ -2380,7 +2380,7 @@ later.
 
 Consider two opposite faces of the box, the top and bottom for
 instance, which would be represented by the vectors iAx Ag and
--2 Ax Ay. The ffux through these faces involves only the 3 com-
+-2 Ax Ay. The flux through these faces involves only the 3 com-
 ponent of F, and the net contribution depends on the difference be-
 tween Fz at the top and F, at the bottom, or more precisely, on the
 difference between the average of F, over the top face and the average
@@ -2408,7 +2408,7 @@ F2 7 5: T A
 
 (56)
 
-The net ffux out of the box through these two faces, each of which has
+The net flux out of the box through these two faces, each of which has
 the area Ax Ay, is therefore
 
 Ax an Ay an an]
@@ -2424,10 +2424,10 @@ AJA F3 , ,3 -- Az
 (Flux into box at bottom)
 
 which reduces to Ax Ay Az (BF,/az). Obviously, similar statements
-must apply to the other pairs of sides. That is, the net ffux out ofthe
+must apply to the other pairs of sides. That is, the net flux out ofthe
 box through the sides parallel to the yz plane is Ay Az Ax (8F,/ax).
 Notice that the product Ax Ay Az occurs here too. Thus the total
-ffux out of the little box is:
+flux out of the little box is:
 
 (58)
 
@@ -2435,12 +2435,12 @@ ffux out of the little box is:
 
 Ex Ty az
 
-The volume of the box is Ax Ay Az so the ratio of ffux to volume is
+The volume of the box is Ax Ay Az so the ratio of flux to volume is
 8/F, + L', + BF,
 Ex ay 8:
 sions of the box at all, it remains as the limit when we let the box
 shrink. [Had we retained terms proportional to (Ax)2, (Ax Ag), etc.,
-in the calculation of the ffux, they would of course vanish on going to
+in the calculation of the flux, they would of course vanish on going to
 
 the limit.]
 
@@ -2465,8 +2465,8 @@ see that it will be the same for any volume that we can make by stick-
 ing together little rectangular boxes of any size and shape. Consider
 the two boxes in Fig. 2.17. The sum of the flux 431 out of box 1 and
 Q92 out of box 2 is not changed by removing the adjoining walls to
-make one box, for whatever ffux went through that plane was nega-
-tive ffux for one and positive for the other. So we could have a
+make one box, for whatever flux went through that plane was nega-
+tive flux for one and positive for the other. So we could have a
 bizarre shape like Fig. 2.l7c without affecting the result. We leave it
 to the reader to generalize further. Tilted surfaces can be taken care
 of if you will first prove that the vector sum of the four surfaces of the
@@ -2538,8 +2538,8 @@ BE, (E
 Bx By
 
 We expected both results. Outside the cylinder where there is no
-charge, the net ffux emerging from any vo1ume--large or sma1l--is
-zero, so the limit of the ratio ffux/volume is certainly zero. Inside the
+charge, the net flux emerging from any vo1ume--large or sma1l--is
+zero, so the limit of the ratio flux/volume is certainly zero. Inside the
 cylinder we get the result required by the fundamental relation Eq. 54.
 
 2.12 The Laplacian
@@ -2695,7 +2695,7 @@ e--}\T
 
 Then Gauss's law in the integral form expressed in Eq. 52 would
 surely fail, for by taking a very large surface enclosing some sources,
-we would find a vanishingly small field on this surface. The ffux
+we would find a vanishingly small field on this surface. The flux
 would go to zero as the surface expanded, rather than remain con-
 stant. However, we could still define a field at every point in space.
 We could calculate the divergence of that field, and Eq. 53, which
@@ -2703,9 +2703,9 @@ describes a mathematical property of any vector field, would still be
 true. Is there a contradiction here? No, because Eq. 54 would also
 fail. The divergence of the field would no longer be the same as the
 source density. We can understand this by noting that a small
-volume empty of sources could still have a net ffux through it owing
+volume empty of sources could still have a net flux through it owing
 to the effect of a source outside the volume, if the field has finite range.
-As suggested in Fig. 2.22, more ffux would enter the side near the
+As suggested in Fig. 2.22, more flux would enter the side near the
 source than would leave the volume.
 
 Thus we may say that Eqs. 52 and 54 express the same physical
@@ -3124,7 +3124,7 @@ You can develop some feeling for these aspects of Vector functions
 by studying the two--dimensional fields pictured in Fig. 2.32. In four
 of these fields the divergence of the vector function is zero through-
 out the region shown. Try to identify the four. Divergence implies
-a net ffux into, or out of, a neighborhood. It is easy to spot in certain
+a net flux into, or out of, a neighborhood. It is easy to spot in certain
 patterns. In others you may be able to see at once that the diver-
 gence is zero. In three of the fields the curl of the vector function is
 zero throughout that portion of the field which is shown. Try to
@@ -3571,7 +3571,7 @@ field strength at the surface of a conductor to the
 section through surface of conduc tor and box.
 
 % p. 85
-disk in Sec. 2.6. Here, there is no ffux through the "bottom" of the
+disk in Sec. 2.6. Here, there is no flux through the "bottom" of the
 box, which lies inside the conductor, and we conclude that E,, = 4770,
 where E,, is the component of electric field normal to the surface. As
 we have already seen, there is no other component in this case, the
@@ -4041,8 +4041,8 @@ charge on the inner conductor; Q2"), the amount of charge on the
 inner surface of the outer conductor; Q2") the charge on the outer
 surface of the outer conductor. Observe first that Q2") must equal
 --Q1. We know this because a surface such as S, in Fig. 3.13 en-
-closes both these charges and no others and the ffux through this
-surface is zero. The ffux is zero because on the surface S, lying, as
+closes both these charges and no others and the flux through this
+surface is zero. The flux is zero because on the surface S, lying, as
 it does, in the interior of a conductor, the electric field is zero.
 
 Evidently the value of Q1 will uniquely determine the electric field
@@ -4612,7 +4612,7 @@ surface integral
 
 1=fSJ-da (6)
 
-I is the "ffux" associated with the vector J, and in this case the name
+I is the "flux" associated with the vector J, and in this case the name
 is apt.
 
 We speak of a steady or stationary current system when the cur-
@@ -6775,7 +6775,7 @@ rest of the surface generated by ABCD is parallel to the field by the
 very mode of its construction. The field over the inner cap is the
 field of a point charge at rest; the field over the outer cap is the field
 of a point charge with constant speed 0, as given by Eq. 12. Let us
-calculate the ffux through the inner cap, shown in Fig. 5.18. The
+calculate the flux through the inner cap, shown in Fig. 5.18. The
 integral of E over this cap is:
 
 _f()0°rl22wr2sin0d0 = 27rq Laosinfidff (13)
@@ -6787,7 +6787,7 @@ L ,2 (1_'32sin2q,)3/2 7" Smtpdl'
 0 1- .
 :2wqL¢#S1n¢d@ (14)
 
-The condition that the ffux in at the left equal the ffux out at the
+The condition that the flux in at the left equal the flux out at the
 right is therefore:
 
 90 . 'Po 1-32 .
@@ -6812,14 +6812,14 @@ An equivalent, and simpler, way of expressing the same relation is:
 tan (P0 = ytan 00 (17)
 
 Incidentally, this relation between 00 and cpo, based on the inclusion
-of equal amounts of ffux, is the same as the relation between the
+of equal amounts of flux, is the same as the relation between the
 angles that a rigid rod makes with the direction of relative motion,
 in its rest frame and in the moving frame. This allows us to picture
 the transformation to the field of a moving charge in a very simple
-way: Let each "line" represent a certain amount of ffux, and imagine
+way: Let each "line" represent a certain amount of flux, and imagine
 the lines in the rest frame of the charge as fixed rods sticking out in
 all directions. In the moving frame, each rod represents the same
-amount of ffux, and the rods now appear at steeper angles, so that
+amount of flux, and the rods now appear at steeper angles, so that
 the cluster of rods looks like Fig. 5.13.
 
 It is only the width of the transition region in Fig. 5.17 that de-
@@ -7364,7 +7364,7 @@ is moving upward with speed 0.6a.
 
 5.2 As a rough measure of the relativistic "ffattening" of the configuration
 of electric field lines from a moving charge, we might use the angle oz between
-two conical surfaces which include between them half the total electric ffux.
+two conical surfaces which include between them half the total electric flux.
 That is, half the flux through a sphere shall be contained in the equatorial zone
 between 0' = 7r/2 + 01/2 and 0' = 77/2 -- oi/2. Consider only the extreme
 relativistic case, with y > 1. Then only angles 0' such that 0' = 77/2 -- c, with
@@ -7374,7 +7374,7 @@ this case, as
 E' = LL
 (,/)2 (1 + Y2€2)3/2
 
-New let 5 range from --a/2 to +a/2 and integrate to obtain the ffux through
+New let 5 range from --a/2 to +a/2 and integrate to obtain the flux through
 the narrow equatorial belt. Ans. or = 2/( \/§y).
 
 5.3 A 30-Bev proton passes l0'7 cm away from a hydrogen atom. Estimate
@@ -7909,7 +7909,7 @@ divJ = 0 (12)
  
 
 Take any closed curve C in a region where currents are ffowing.
-The total current enclosed by C is the ffux of J through the surface
+The total current enclosed by C is the flux of J through the surface
 
 spanning C, that is, the surface integral ISJ - da over this surface S
 
@@ -7937,8 +7937,8 @@ We need to complete it with another condition. We had better think
 about the divergence of B. Going back to the magnetic field of a
 single straight wire, we observe that the divergence of that field is
 zero. You can't draw a little box anywhere, even one enclosing the
-wire, which will have a net outward or inward ffux. It is enough to
-note that the boxes V1 and V2 in Fig. 6.10 have no net ffux and can
+wire, which will have a net outward or inward flux. It is enough to
+note that the boxes V1 and V2 in Fig. 6.10 have no net flux and can
 shrink to zero without developing any. For this field then, div B = 0,
 and hence also for all superpositions of such fields. Again we pos-
 tulate that the principle can be extended to the field of any distribu-
@@ -9396,9 +9396,9 @@ field, and 8 has the magnitude:
 8 = $031 -- B2) (6)
 
 The electromotive force given by Eq. 6 is related in a very simple way
-to the rate of change of magnetic ffux through the loop. By the mag-
-netic ffux through a loop we mean the surface integral of B over a
-surface which has the loop for its boundary. The ffux <1) through the
+to the rate of change of magnetic flux through the loop. By the mag-
+netic flux through a loop we mean the surface integral of B over a
+surface which has the loop for its boundary. The flux <1) through the
 
 closed curve or loop C in Fig. 7.7a is given by the surface integral
 of B over S1:
@@ -9407,9 +9407,9 @@ of B over S1:
 
 We could draw infinitely many surfaces bounded by C. Figure 7.7b
 shows another one, S2. Why don't we have to specify which surface
-to use in computing the ffux? It doesn't make any difierence because
+to use in computing the flux? It doesn't make any difierence because
 fB - da will have the same value for all such surfaces. Let's take a
-minute to settle this point once and for all. The ffux through S2 will
+minute to settle this point once and for all. The flux through S2 will
 
 be IS B - dag. Notice that we let the vector dag stick out from the
 2
@@ -9418,7 +9418,7 @@ be IS B - dag. Notice that we let the vector dag stick out from the
  
 
 upper side of S2, to be consistent with our choice of side of S1. This
-will give a positive number if the net ffux through C is upward.
+will give a positive number if the net flux through C is upward.
 
 q)(S,_,) : S2B'da2 
 
@@ -9431,7 +9431,7 @@ fSB-da=fVdivBdv=0 (9)
 Apply this to the closed surface, rather like a kettle drum, formed by
 joining our S1 and S2, as in Fig. 7.7c. On S2 the outward normal is
 
-opposite to the vector da2 we used in calculating the ffux through C.
+opposite to the vector da2 we used in calculating the flux through C.
 Thus
 
 0=fSB-da=fB-dal +J'B-(--da2)
@@ -9439,28 +9439,28 @@ or (10)
 S1B'da1 = S2B'da2
 
 This shows that it doesn't matter which surface we use to compute
-the ffux through C.
+the flux through C.
 
 This is all pretty obvious if you realize that div B = 0 implies a
-kind of spatial conservation of ffux. As much ffux enters any volume
+kind of spatial conservation of flux. As much flux enters any volume
 as leaves it. (We are considering the situation in the whole space at
-one instant of time.) It is often helpful to visualize "tubes" of ffux.
-A ffux tube (Fig. 7.8) is a surface at every point on which the mag-
+one instant of time.) It is often helpful to visualize "tubes" of flux.
+A flux tube (Fig. 7.8) is a surface at every point on which the mag-
 netic field line lies in the plane of the surface. It is a surface through
-which no ffux passes, and we can think of it as containing a certain
-amount of ffux, as a telephone cable contains wires. Through any
-closed curve drawn tightly around a ffux tube, the same ffux passes.
+which no flux passes, and we can think of it as containing a certain
+amount of flux, as a telephone cable contains wires. Through any
+closed curve drawn tightly around a flux tube, the same flux passes.
 This could be said about the electric field E only for regions where
 there is no electric charge, since div E = 477p. The magnetic field
 always has zero divergence everywhere.
 
 Returning now to the moving rectangular loop, let us find the rate
-of change of ffux through the loop. In time dt the loop moves a dis-
-tance 1; dt. This changes in two ways the total ffux through the loop,
+of change of flux through the loop. In time dt the loop moves a dis-
+tance 1; dt. This changes in two ways the total flux through the loop,
 which is fB - da over a surface spanning the loop. As you can see
-in Fig. 7.9, ffux is gained at the right, in amount B2wv dt, while an
-amount of ffux Blwv dt is lost at the left. Hence dd), the change in
-ffux through the loop in time dt, is
+in Fig. 7.9, flux is gained at the right, in amount B2wv dt, while an
+amount of flux Blwv dt is lost at the left. Hence dd), the change in
+flux through the loop in time dt, is
 
 d<I>= --(B1--B2)wvdt (ll)
 
@@ -9478,7 +9478,7 @@ C1 at time t, and it is moving so that it occupies the position C2 at
 time t + dt. A particular element of the loop ds has been transported
 with velocity v to its new position. S indicates a surface that spans
 
-the loop at time t. The ffux through the loop at this instant of time is
+the loop at time t. The flux through the loop at this instant of time is
 
 <I>(t) =fSB-da (13)
 
@@ -9488,12 +9488,12 @@ in this frame. At time t + dt a surface which spans the loop is the
 original surface S, left fixed in space, augmented by the "rim" dS.
 
 (Remember, we are allowed to use any surface spanning the loop to
-compute the ffux through it.) Thus:
+compute the flux through it.) Thus:
 
 €I>(t+ dt) =f
 
 S+dSB-da = <I>(t) +LSB-da (14)
-Hence the change in ffux, in time dt, is just the flux through the "rim"
+Hence the change in flux, in time dt, is just the flux through the "rim"
 :15, ds B - da. On the rim, an element of surface area da can be ex-
 
 pressed as (v dt) x ds, so the integral over the surface dS can be
@@ -9528,11 +9528,11 @@ given in Eq. 12, but valid now for arbitrary shape and motion of the
 loop. (We did not even have to assume that v is the same for all
 parts of the loop!) In summary, the line integral around a moving
 loop of f/q, the force per unit charge, is just -- 1/c times the rate of
-change of ffux through the loop.
+change of flux through the loop.
 
-The sense of the line integral and the direction in which ffux is
+The sense of the line integral and the direction in which flux is
 called positive are to be related by a right-hand-thread rule. For
-instance, in Fig. 7.6, the ffux is upward through the loop and is
+instance, in Fig. 7.6, the flux is upward through the loop and is
 decreasing. Taking the minus sign in Eq. 12 into account, our rule
 would predict an electromotive force which would tend to drive a
 positive charge around that loop in a counterclockwise direction, as
@@ -9541,18 +9541,18 @@ seen looking down on the loop (Fig. 7.11).
 There is a better way to look at this question of sign and direction.
 Notice that if a current should ffow in the direction of the induced
 electromotive force, in the situation shown in Fig. 7.11, this current
-itself would create some ffux through the loop in a direction to
-counteract the assumed ffux change. That is an essential physical
+itself would create some flux through the loop in a direction to
+counteract the assumed flux change. That is an essential physical
 fact, and not the consequence of an arbitrary convention about signs
 and directions. It is a manifestation of the tendency of systems to
 resist change. In this context it is traditionally called Lenz's law.
 
 Another example of Lenz's law is illustrated in Fig. 7.12. The
-conducting ring is falling in the magnetic field of the coil. The ffux
+conducting ring is falling in the magnetic field of the coil. The flux
 through the ring is downward and is increasing in magnitude. To
-counteract this change, some new ffux upward is needed. It would
+counteract this change, some new flux upward is needed. It would
 take a current ffowing around the ring in the direction of the arrows
-to produce such ffux. Lenz's law assures us that the induced emf will
+to produce such flux. Lenz's law assures us that the induced emf will
 be in the right direction to cause such a current.
 
 If the electromotive force causes current to ffow in the loop which
@@ -9584,7 +9584,7 @@ its position at any instant is specified by the angle 0, then 0 = wt + 01,
 % p. 238
 where the constant oz is simply the position of the loop at t = 0. The
 component of B perpendicular to the plane of the loop is B sin 0.
-Therefore the ffux through the loop at time t is
+Therefore the flux through the loop at time t is
 
 CD(t) = SB sin (oat + OL) (19)
 
@@ -9661,9 +9661,9 @@ this path. If a charged particle moves once around the path, 8' is
 the work done on it, per unit charge. 8' is related to the rate of
 
 % p. 240
-change of ffux through the loop. To see this, note that while the loop
+change of flux through the loop. To see this, note that while the loop
 itself is stationary, the magnetic field pattern is now moving with the
-velocity --v of the source. Hence for the ffux lost or gained at either
+velocity --v of the source. Hence for the flux lost or gained at either
 end of the loop, in a time interval dt', we get a result similar to Eq. 11,
 and we conclude that
 
@@ -9682,7 +9682,7 @@ electric field. That wire loop over there is moving with velocity v
 through the magnetic field, so the charges in it are acted on by a force
 (v/ c) x B dynes per unit charge. The line integral of this force-per-
 unit-charge, taken around the whole loop is the electromotive force 8
-and it is equal to -- ( l/c) (d<I>/dt). The ffux <1) is fB - da over a sur-
+and it is equal to -- ( l/c) (d<I>/dt). The flux <1) is fB - da over a sur-
 face S which, at some instant of time t by my clock, spans the loop."
 
 An observer in F' says, "This loop is stationary and only an electric
@@ -9691,8 +9691,8 @@ electric field E'. It seems to be caused by that magnetlike object
 which happens at this moment to be whizzing by with a velocity --v,
 producing at the same time a rather strong magnetic field B'. The
 electric field is such that fE' -_ds' around this stationary loop is not
-zero but instead is equal to 4''; 1/0 time_s_,l the rate of change of ffux
-through the loop, d<I>'/dt'. The ffux <1)' is JB' - da' over a surface
+zero but instead is equal to 4''; 1/0 time_s_,l the rate of change of flux
+through the loop, d<I>'/dt'. The flux <1)' is JB' - da' over a surface
 spanning the loop, the values of B' to be measured all over this sur-
 face at some one instant t', by my clock."
 
@@ -9730,7 +9730,7 @@ equivalence of Experiments I and II, an equivalence which is an ex-
 ample of Lorentz invariance or, for the low speeds of our tables,
 Galilean invariance. We know that in both experiments the deffec-
 
-tion of the galvanometer can be related to the rate of change of ffux
+tion of the galvanometer can be related to the rate of change of flux
 of B through the loop.
 
 Experiment 111. Both tables remain at rest, but we vary the current
@@ -9760,7 +9760,7 @@ We find by experiment that III is equivalent to I and II. The
 galvanometer defiects, by the same amount as before. Faraday's
 experiments were the first to demonstrate this fundamental fact.
 The electromotive force we observe depends only on the rate of
-change of the ffux of B, and not on anything else. We can state as a
+change of the flux of B, and not on anything else. We can state as a
 universal relation Faraday's Law of Induction:
 
 If C is some closed curve, stationary in coordinates
@@ -9825,7 +9825,7 @@ volts. In practical calculations we often prefer to express electro-
 motive force in volts, while retaining gauss for the unit of magnetic
 field strength. Recalling that l statvolt is equivalent to 300 volts,
 
-we see that the relation between 8 and the rate of change of ffux
+we see that the relation between 8 and the rate of change of flux
 must be:
 
 e: E-d=_(1o-8)i B-da
@@ -9868,7 +9868,7 @@ the interior of this circle, at any instant of time.
 B = 50 sin 377: (32)
 
 % p. 245
-B is in gauss and t in seconds. The ffux through the loop C is
+B is in gauss and t in seconds. The flux through the loop C is
 (I) = arr2B = 77 x 102 x 50 sin 377t
 
 = 15,700 sin 377t (gauss-cm?) (33)
@@ -9910,7 +9910,7 @@ one another (Fig. 7.19). By some means, such as a battery and
 a Variable resistance, a controllable current 11 is caused to ffow in
 circuit C1. Let B1(:x,y,z) be the magnetic field that would exist if
 the current in C1 remained constant at the value I1, and let 4321 de-
-note the ffux of B1 through the circuit C2. Thus,
+note the flux of B1 through the circuit C2. Thus,
 
 Q21 = S2B'da2 
 
@@ -9926,7 +9926,7 @@ the field B1 at any point in the vicinity of C2 and the current I1 in C1
 at the same instant of time are related as they would be for steady
 currents. (To see why such a restriction is necessary, imagine that C1
 and C2 are 10 meters apart and we cause the current in C1 to double in
-value in 10 nanoseconds!) The ffux 4321 will change in proportion
+value in 10 nanoseconds!) The flux 4321 will change in proportion
 
 as 11 changes. There will be an electromotive force induced in
 circuit C2, of magnitude
@@ -9968,7 +9968,7 @@ with 11 in esu/sec, B1 in gauss. (Review the paragraph at the begin-
 ning of Sec. 6.5, leading to Eq. 6.42, if you don't remember how to
 find the field at the center of a current ring.) We assume R2 < R1
 so that we can neglect the variation of B1 over the interior of the small
-ring. Then the ffux through the small ring is
+ring. Then the flux through the small ring is
 
 2 1 2 21R 2
 (D21 = (11322) 071;: = %_ (40)
@@ -10062,9 +10062,9 @@ sion for M21; Eq. 47 asserts that. for these two dissimilar circuits, if
 R1 R1
 also--and not what we would get by switching l's and 2's everywhere!
 
-To prove the theorem, Eq. 47, we have to show that the ffux (1)12
+To prove the theorem, Eq. 47, we have to show that the flux (1)12
 through some circuit C1 as a result of a current I in a circuit C2 is
-equal to the ffux CD21 that threads circuit 2 when an equal current I
+equal to the flux CD21 that threads circuit 2 when an equal current I
 flows in circuit C1. To show this, we use the vector potential.
 
 According to Stokes' theorem:
@@ -10096,13 +10096,13 @@ element of the loop C1; and r21 is the magnitude of the distance from
 that element to the point (x2,y2,z2).
 Figure 7.21 shows the two loops C1 and C2, with current I ffowing
 
-in C1. Let (x2,y2,z2) be a point on the loop C2. Then the ffux
+in C1. Let (x2,y2,z2) be a point on the loop C2. Then the flux
 through C2 due to current I in C1 is:
 
 I I ds
 (I321 :L2A21 ' ds2 :1;/12 dS2 ' A21 = FJQJZIIS2 ' 01?: (51)
 
-Similarly, the ffux through C1 due to current I ffowing in C2 would
+Similarly, the flux through C1 due to current I ffowing in C2 would
 be given by
 
 1 d
@@ -10132,11 +10132,11 @@ reciprocity law when you study the transmission of electromagnetic
 waves.
 
 7.8 Self-inductance
-When the current I1 is changing, there is a change in the ffux
+When the current I1 is changing, there is a change in the flux
 through circuit C1 itself, consequently an electromotive force is in-
 
 duced. Call this 811. The induction law holds, whatever the source
-of the ffux:
+of the flux:
 
 an 2 _ L d'1>u
 
@@ -10145,7 +10145,7 @@ cdt
 (53)
 
 % p. 251
-where (1311 is the ffux through circuit 1 of the field B1 due to the cur-
+where (1311 is the flux through circuit 1 of the field B1 due to the cur-
 rent I 1 in circuit 1. The minus sign expresses the fact that the electro-
 motive force is always directed so as to oppose the change in current--
 Lenz's law, again. Since <I>11 will be proportional to I1 we can write
@@ -10158,12 +10158,12 @@ the rectangular toroidal coil of Prob. 6.19, shown here again in
 Fig. 7.22. You found (if you worked that problem) that a current I,
 in esu/sec, ffowing in the coil of N turns produces a field the strength
 of which, at a radius r from the axis of the coil, is given by B = 2N1/er.
-The total ffux through one turn of the coil is the integral of this field
+The total flux through one turn of the coil is the integral of this field
 over the cross section of the coil:
 
 <1>(one turn) 2 h b2NI dr = 2NIh ln  (55)
 a or c a
-The ffux threading the circuit of N turns is N times as great:
+The flux threading the circuit of N turns is N times as great:
 «D = 2N2"' ln (2) (56)
 c a
 Hence the induced electromotive force 8 is
@@ -10192,7 +10192,7 @@ simple circular loop of wire, we encounter a puzzling difficulty. It
 % p. 252
 seems a good idea to simplify the problem by assuming that the wire
 has zero diameter. But we soon discover that if finite current ffows
-in a filament of zero diameter, the ffux threading a loop made of such
+in a filament of zero diameter, the flux threading a loop made of such
 a filament is infinite! The reason is that the field B, in the neighbor-
 hood of a filamentary current, varies as 1/r where r is the distance
 from the filament, and the integral of B'x area diverges as f(dr/r)
@@ -10201,7 +10201,7 @@ of the wire be finite, not zero, which is more realistic anyway. This
 may make the calculation a bit more complicated, in a given case,
 but that won't worry us. The real difficulty is that different parts of
 the wire now appear as difierent circuits, linked by different amounts
-of ffux. We are no longer sure what we mean by the ffux through the
+of flux. We are no longer sure what we mean by the flux through the
 circuit. In fact, because the electromotive force is diff"erent in the
 different filamentary loops into which the circuit can be divided. some
 redistribution of current density must occur when rapidly changing
@@ -10211,7 +10211,7 @@ strictly a constant as Eq. 54 would imply.
 
 We avoided this embarrassment in the toroidal coil example by
 ignoring the field in the immediate vicinity of the individual turns of
-the winding. Most of the ffux does not pass through the wires them-
+the winding. Most of the flux does not pass through the wires them-
 selves and whenever that is the case the effect we have just been
 worrying about will be unimportant.
 
@@ -10857,7 +10857,7 @@ in which the loop might be moving.
 
 7.3 A ring-shaped coil of N turns and area A is located in the field of a
 magnet. It is connected to an external circuit by a twisted pair of leads. The
-resistance of the circuit, including the coil itself, is R. Suppose the ffux through
+resistance of the circuit, including the coil itself, is R. Suppose the flux through
 the coil is somehow changed from its initial steady value <I>.- to a final steady
 value (1),. Show that the total charge Q which passes through the circuit, as a
 result, is independent of the rate of change of fiux. A coil like this, called a
@@ -13640,8 +13640,8 @@ of the layer (Fig. 9.33c).
 tJl3VeI' Eqz 1
 
 Gauss's law comes to our ai(
-is just the ffux of Eq through
-charge q. That ffux must be_
+is just the flux of Eq through
+charge q. That flux must be_
 
 alent faces. We conclude 1
 --47rqz/3 so that
@@ -14500,7 +14500,7 @@ at the end. And unlike the f
 moving in a magnetic field, thc
 be parallel to the field instea
 From a region of space con
-would be a net ffux of B. T
+would be a net flux of B. T
 jects can thus be summariz
 div B = 47711, we find simply
 
@@ -14751,12 +14751,12 @@ div B = 0 at all points, the n
 volume is zero. Consider the 1
 
 (Fig. 10.10). The outward ffl
-net outward ffux from the end
+net outward flux from the end
 
 m'2[--Bz(2
 
 which to the first order in the
-Setting the total ffux equal to
+Setting the total flux equal to
 which gives us the relation,
 
 B,-:
@@ -14974,7 +14974,7 @@ at any given time. While this
 
 will be an induced electric fiel
 Fig. 10.1219. To find the mag
-rate of change of ffux through
+rate of change of flux through
 
 This determines the line integr
 that matters (we only assum
@@ -16680,11 +16680,11 @@ VV= $(--
 
 Flux out =
 
-Net ffux out
+Net flux out
 
 Volume = S
 
-lim ffux = -
+lim flux = -
 Ar_.o volume
 
 2.27 This problem will introdu
@@ -17706,7 +17706,7 @@ resistance strictly zero?
 
 7.19 Discuss the implications of t
 large and small concentric rings in Fig
-ring, obviously CD21, the ffux through tl
+ring, obviously CD21, the flux through tl
 simply because the field at the center
 the inner ring, why should (D12, the ffl
 increases, holding R2 constant? It ml
@@ -17737,14 +17737,14 @@ he magnetic field. Now use the general
 
 L. Notice that this way of calculating
 from the fact that different current fila-
-iilferent amounts of ffux. However, the
+iilferent amounts of flux. However, the
 ; currents. Why?
 
 )wn in the figure. Suppose we want to
 op. Two surfaces bounded by the loop
 ctively. What is the essential difference
 be correct surface to use in performing
-: ffux? Describe the corresponding sur-
+: flux? Describe the corresponding sur-
 
 this is all consistent with our previous
 7 turns the electromotive force is just N
@@ -18271,12 +18271,12 @@ ric field will accelerate the particle in
 do = (qr/2Mc) dB will apply, just as
 and the cyclotron condition lead to a
 1) the magnetic moment of the orbit
-mount of ffux <1) of the external field B
+mount of flux <1) of the external field B
 1ins constant as B changes. (In de-
 1 that it should change by only a small
 of one revolution. Then the path of
 nearly closed each revolution, so that
-tal moment and the ffux enclosed by
+tal moment and the flux enclosed by
 
 Prob. 10.22
 

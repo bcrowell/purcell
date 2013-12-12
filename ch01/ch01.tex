@@ -1026,3 +1026,131 @@ surface. That is, $4 \pi r_1^2E_1 =  4\pi$ (charge inside $S_1$ or
 \begin{equation} 
   E_1 =  \frac{\text{charge inside $S_1$}}{r_1^2}
 \end{equation}
+% p. 27
+Comparing this with the field of a point charge, we see that the
+field at all points on $S_1$ is the same as if all the charge within $S_1$ were
+concentrated at the center. The same statement applies to a sphere
+drawn inside the charge distribution. The field at any point on $S_2$
+is the same as if all charge within $S_2$ were at the center, and all charge
+outside $S_2$ absent. Evidently the field inside a "hollow" spherical
+charge distribution is zero (Fig. 1.20).
+
+The same argument applied to the gravitational field would tell us
+that the earth, assuming it is spherically symmetrical in its mass dis-
+tribution, attracts outside bodies as if its mass were concentrated at
+the center. That is a rather familiar statement. In Vol. I the fact
+was proved by using the gravitational potential and an integration.
+Anyone who is inclined to think the principle expresses an obvious
+property of the center of mass must be reminded that the theorem
+is not even true, in general, for other shapes. A perfect cube of uni-
+form density does not attract external bodies as if its mass were
+concentrated at its geometrical center.
+
+Newton didn't consider the theorem obvious. He needed it as the
+keystone of his demonstration that the moon in its orbit around the
+earth and a falling body on the earth are responding to similar forces.
+The delay of nearly twenty years in the publication of Newton's
+theory of gravitation was apparently due, in part at least, to the
+trouble he had in proving this theorem to his satisfaction. The proof
+he eventually devised and published in the Principia in 1686 (Book 1,
+Sec. XII, Theorem XXXI) is a marvel of ingenuity in which, roughly
+speaking, a tricky volume integration is effected without the aid of
+the integral calculus as we know it. The proof is a good bit longer
+than our whole preceding discussion of Gauss's law, and more
+intricately reasoned. You see, with all his mathematical resource-
+fulness and originality, Newton lacked Gauss's theorem --- a relation
+which, once it has been shown to us, seems so obvious as to be almost
+trivial.
+
+\section{Field of a line charge}
+
+A long straight charged wire, if we neglect its thickness, can be
+characterized by the amount of charge it carries per unit length. Let
+$\lambda$, measured in esu per centimeter, denote this linear charge density.
+What is the electric field of such a line charge, assumed infinitely
+long and with constant linear charge density $\lambda$? We'll do the problem
+in two ways; first by an integration starting from Coulomb's law.
+% p. 28
+To evaluate the field at the point $P$, shown in Fig. 1.21, we must
+add up the contributions from all segments of the line charge, one of
+which is indicated as a segment of length $\der x$. The charge $\der q$ on this
+element is given by $\der q = \lambda \der x$. Having oriented our $x$ axis along the
+line charge, we may as well let the $y$ axis pass through $P$, which is
+$r$ cm from the nearest point on the line. It is a good idea to take ad-
+vantage of symmetry at the outset. Obviously the electric field at
+$P$ must point in the y direction, so that $E_x$ and $E_z$ are both zero. The
+contribution of the charge $\der q$ to the $y$ component of the electric field
+at $P$ is
+\begin{equation}
+  \der E_y = \frac{\der q}{R^2}\cos\theta = \frac{\lambda\der x}{R^2}\cos\theta
+\end{equation}
+where $\theta$ is the angle the vector field of $\der q$ makes with the $y$ direction.
+The total $y$ component is then
+\begin{equation}
+  E_y = \int \der E_y = \int_{-\infty}^\infty \frac{\lambda\cos\theta}{R^2}\der x
+\end{equation}
+It is convenient to use $\theta$ as the variable of integration. Since
+$R = r/\cos \theta$ and $\der x = R \der\theta/\cos \theta$, the integral becomes:
+\begin{equation}
+  E_y = \int_{-\pi/2}^{\pi/2} \frac{\lambda\cos\theta\der\theta}{r}
+      = \frac{\lambda}{r} \int_{-\pi/2}^{\pi/2} \cos\theta\der\theta
+      = \frac{2\lambda}{r}
+\end{equation}
+We see that the field of an infinitely long unitormly dense line charge
+is proportional to the reciprocal of the distance from the line. Its
+direction is of course radially outward if the line carries a positive
+charge, inward if negative.
+
+Gauss's law leads directly to the same result. Surround a segment
+of the line charge with a closed circular cylinder of length $L$ and
+radius $r$, as in Fig. 1.22, and consider the flux through this surface.
+As we have already noted, symmetry guarantees that the field is
+radial, so the flux through the ends of the "tin can" is zero. The flux
+through the cylindrical surface is simply the area, $2\pi r L$, times $E_r$, the
+field at the surface. On the other hand, the charge enclosed by the
+surface is just $\lambda L$, so Gauss's law gives us $2\pi r E_r=4\pi\lambda L$ or
+\begin{equation}
+  E_r  \frac{2\lambda}{r}
+\end{equation}
+in agreement with Eq. 26.
+
+% p. 29
+\section{Field of an infinite flat sheet of charge}
+
+Electric charge distributed smoothly in a thin sheet is called a
+surface charge distribution. Consider a flat sheet infinite in extent,
+with the constant surface charge density $\sigma$. The electric field on
+either side of the sheet, whatever its magnitude may turn out to be,
+must surely point perpendicular to the plane of the sheet; there is no
+other unique direction in the system. Also because of symmetry,
+the field must have the same magnitude and the opposite direction at
+two points $P$ and $P'$ equidistant from the sheet on opposite sides.
+With these facts established, Gauss's law gives us at once the field
+intensity, as follows: Draw a cylinder, as in Fig. 1.23, with $P$ on one
+side and $P'$ on the other, of cross section area $A$. The outward flux
+is found only at the ends, so that if $E_P$ denotes the magnitude of the
+field at $P$, and $E_{P'}$ the magnitude at $P'$, the outward flux is
+$AE_P+AE_{P'}=2AE_P$. The charge enclosed is $\sigma A$. Hence
+$2AE_P=4\pi\sigma A$, or
+\begin{equation}
+  E_P = 2\pi\sigma
+\end{equation}
+We see that the field strength is independent of $r$, the distance from
+the sheet. Equation 28 could have been derived more laboriously
+by calculating the vector sum of the contributions to the field at $P$
+from all the little elements of charge in the sheet.
+
+The field of an infinitely long line charge, we found, varies inversely
+as the distance from the line, while the field of an infinite sheet has
+the same strength at all distances. These are simple consequences
+of the fact that the field of a point charge varies as the inverse square
+of the distance. If that doesn't yet seem compellingly obvious, look
+at it this way: Roughly speaking, the part of the line charge that is
+mainly responsible for the field at $P$, in Fig. 1.21, is the near part---
+the charge within a distance of order of magnitude r. If we lump all
+this together and forget the rest, we have a concentrated charge of
+magnitude $q\approx\lambda r$, which ought to produce a field proportional to
+$q/r^2$, or $\lambda/r$. In the case of the sheet, the amount of charge that is
+``effective,'' in this sense, increases proportionally to $r^2$ as we go out
+from the sheet, which just offsets the $1/r^2$ decrease in the field from
+any given element of charge.
