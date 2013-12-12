@@ -216,55 +216,49 @@ radially (as from $A$ to $B$) rather than from $A$ to $C$, in Fig. 2.4. The
 is a radially pointing vector. In fact $\grad f = \hat{\vc{r}} (\der f/\der r)$ in this case,
 $\rhat$ denoting, for any point, a unit vector in the radial direction.
 
-\iffalse
-
 \section{Derivation of the field from the potential}
 
 It is now easy to see that the relation of the scalar function f to the
 vector function $\grad f$ is the same, except for a minus sign, as the relation
-of the potential (1) to the field $\vc{E}$. Consider the Value of (p at two nearby
-
-points, (x,y,z) and (x + dx, y + dy, z + dz). The change in (p, going
+of the potential $\pot$ to the field $\vc{E}$. Consider the value of $\pot$ at two nearby
+points, $(x,y,z)$ and $(x + \der x, y + \der y, z + \der z)$. The change in $\pot$, going
 from the first point to the second, is
-
 \begin{equation}
-(equation not yet converted)
+  \der \pot = \frac{\partial\pot}{\partial x} \der x 
+            + \frac{\partial\pot}{\partial y} \der y
+            + \frac{\partial\pot}{\partial z} \der z + 
 \end{equation}
-dcp=---dx+---dy+2(Bdz (13)
-On the other hand, from the definition of (p, the change can also be
-
+On the other hand, from the definition of $\pot$, the change can also be
 expressed as
-
 \begin{equation}
-(equation not yet converted)
+  \der\pot = -\vc{E}\cdot\der\vc{s}
 \end{equation}
-dq): -E-ds $1 (14)
-
 % p. 41
-The infinitesimal vector displacement ds is just 1': dx + ydy + 2 dz.
-Thus if we identify $\vc{E}$ with -V(p, Eqs. 13 and 14 become identical. So
+The infinitesimal vector displacement $\der\vc{s}$ is just $\xhat\der x+\yhat\der y+\zhat\der z$.
+Thus if we identify $\vc{E}$ with $-\grad\pot$, Eqs. 13 and 14 become identical. So
 the electric field is the negative of the gradient of the potential:
-
+\begin{framed}
 \begin{equation}
-(equation not yet converted)
+  \vc{E}=-\grad\pot
 \end{equation}
-E = -V(p (15)
-
-The minus sign came in because the electric field points from a region
+\end{framed}
+\noindent The minus sign came in because the electric field points from a region
 of positive potential toward a region of negative potential, whereas
-the vector Vcp is defined so that it points in the direction of increas-
-ing Lp.
+the vector $\grad\pot$ is defined so that it points in the direction of increas-
+ing $\pot$.
 
 To show how this works, we go back to the example of the field in
-Fig. 2.2. From the potential given by Eq. 11, (p = -Kxy, we can
+Fig. 2.2. From the potential given by Eq. 11, $\pot = -Kxy$, we can
 recover the electric field we started with:
-
 \begin{equation}
-(equation not yet converted)
+  \vc{E} = -\grad(-Kxy)
+         =-\left(\xhat\frac{\partial}{\partial x}+\yhat\frac{\partial}{\partial y}+\right)(-Kxy)
+         =K(\xhat y+\yhat x)
 \end{equation}
-E=-w-mw=-@§+y%%-mw=m@+w>no
 
-\section{Potential of a Charge Distribution}
+\iffalse
+
+\section{Potential of a charge distribution}
 
 We already know the potential that goes with a single point charge,
 because we calculated the work required to bring one charge into the
@@ -303,7 +297,7 @@ not r2, and the integral is a scalar not a vector. From the scalar po-
 tential function <p(x,y,z) we can always find the electric field by taking
 the negative gradient of q:, according to Eq. 15.
 
-\subsection{Potential of Two Point Charges}
+\subsection{Potential of two point charges}
 
  Consider a very simple example,
 the potential of the two point charges shown in Fig. 2.6. A positive
@@ -330,7 +324,7 @@ curve.
 
 the negative charge, the potential has the value
 
-\subsection{Potential of a Long Charged Wire}
+\subsection{Potential of a long charged wire}
 
 There is one restriction on the
 use of Eq. 17: It may not work unless all sources are confined to some
@@ -630,7 +624,7 @@ field magnitude $\vc{E}$ Vary with r. We ask now, what is the force acting
 on an element of the surface charge, such as a dA, owing to the re-
 pulsion it experiences from all the other elements of charge on the
 sphere. We know the electric field strength just outside the sphere:
-E01,, = Q/r02 = 4770, whereas Em : 0. Which Value should we use
+E01,, = Q/r02 = 4770, whereas Em : 0. Which value should we use
 to calculate the force on the charge? in. ' 7-3.
 
 The correct answer is §(Em,t + Em). One way to see this is to
