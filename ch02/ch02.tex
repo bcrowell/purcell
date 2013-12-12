@@ -1,0 +1,1719 @@
+\chapter{The electric potential}
+
+\section{Line integral of the electric field}
+Suppose that E is the field of some stationary distribution of elec-
+tric charges. Let P1 and P2 denote two positions anywhere in the
+
+field. The line integral of E between the two given points is LTZE - ds,
+
+taken along some path that runs from P1 to P2, as in Fig. 2.1. This
+means: Divide the path into short segments, each segment being
+represented by a vector connecting its ends; take the scalar product
+of the path-segment vector with the field E at that place; add these
+products up for the whole path. The integral as usual is to be re-
+
+garded as the limit of this sum as the segments are made shorter and
+more numerous without limit.
+
+Let's work out a concrete example. Suppose we have an electric
+field E such that E, = Ky and E,, = Kx, where K is a constant. This
+happens to be a possible form for an electrostatic field. (We shall
+learn presently how that can be quickly recognized.) Figure 2.2a
+shows some field lines. What is the value of the line integral of E,
+
+between point A and point C, over the particular path ABC in the
+diagram? The vector which represents a path element is
+
+ds:frdx+}'Idy (1)
+and since the vector E is here
+E=K(iy+§'x) (2)
+the scalar product E - ds for any element of the path is
+E-ds=K(ydx+xdy) (3)
+
+Along the portion of the path from A to B, y = 2x and dy = 2 dx.
+Therefore:
+
+B
+LEE-ds = KL(ydx+ xdy) = KL1(2xdx+ Zxdx)
+1
+: 4Kff) xdx : 2K (4)
+Along the path fromB to C, y = 2 and dy = 0.
+C C 2
+LE-ds=KL3(ydx+xdy)=Kff2dx=2K (5)
+
+The line integral over the path ABC is, therefore, 2K + 2K, or 4K.
+
+% p. 37
+The electric field of a point charge is directed radially and its mag-
+nitude depends only on the radius r. If P1 and P2 are any two points
+in the field of a point charge, it is pretty obvious that the line integral
+of E is the same for all paths connecting these points. That follows
+directly from the argument we used in Sec. 1.5, illustrated by Fig. 1.5,
+for the work done when a charge is moved in a central field of force.
+In fact, the only difference between the line integral of the force F on
+a test charge q and the line integral of E, the field through which the
+test charge is moved, is the factor q. Now any electrostatic field is
+simply the superposition of the fields of certain charges, as expressed
+in Eqs. 1.14 and 1.15. In any such field, therefore, the line integral
+of E, the total E due to all the sources, must be path-independent:
+
+LJPZE - ds has the same value for all paths connecting P1
+
+(6)
+
+     
+
+and P2, in an electrostatic field
+
+As an illustration, consider the line integral from A to C in Fig. 2.2c,
+over the path via the point (2,0), the field E being the same as before.
+Along the first portion, the x axis between the origin and x = 2, the
+field is perpendicular to the path, so E - ds is zero. On the second leg,
+E, = Kx = 2K, and the length of that path is 2 units. We get for the
+line integral, then, 4K; the same as before. In fact, once we recognize
+that the line integral must be path-independent, it seems foolish to
+evaluate it for a path like ABC. Actually, we shall not often need to
+compute the value of a line integral. The main purpose of the ex-
+ample is to make sure you understand what the line integral means.
+
+\section{Potential difference and the potential function}
+Because the line integral in the electrostatic field is path-
+independent, we can use it to define a scalar quantity (p21, as follows:
+
+W
+
+Then (p21 is the work per unit charge done in moving a positive
+charge from P1 to P2 in the field E. Thus (p21 is a single-valued scalar
+function of the two positions P1 and P2. We call it the electric
+potential difference between the two points.
+
+In our CGS system of units, potential difference is measured in
+ergs/esu. This unit has a name of its own, the statvolt (the "stat"
+
+% p. 38
+comes from "electrostatic"). The volt is the unit of potential dif-
+ference in the MKS system'? It is equivalent to 1/299.79, approxi-
+mately 1/ 300, of a statvolt. One joule (107 ergs) of work is required
+to move a charge of one coulomb through a potential difference of
+one volt.
+
+Suppose we hold P1 fixed at some reference position. Then (1)21
+becomes a function of P2 only, that is, a function of the spatial co-
+ordinates x, y, z. We can write it simply q>(x,y,z), without the sub-
+scripts, if we remember that its definition still involves agreement
+on a reference point P1. We say that q> is the potential associated with
+the vector field E. It is a scalar function of position, or a scalar field
+(they mean the same thing). Its value at a point is simply a number
+(in units of work per unit charge) and has no direction associated
+with it. Once the vector field E is given, the potential function (p
+is determined, except for an arbitrary additive constant allowed by
+the arbitrariness in our choice of P1.
+
+As an example, let us find the potential associated with the electric
+field described in Fig. 2.2. It is convenient to locate P1 at the origin,
+the point labeled A in Fig. 2.2. To evaluate
+
+[E-ds (8)
+
+from this reference point to a general point (x,y) it is easiest to use
+a path like the dotted path in Fig. 2.2c:
+
+(x, ) (x, (x )
+q>(x,y> = - (0,; E-ds = - fW°'E.dx - fW;fEydy <9)
+
+The first integral is zero, as we noted earlier, because in this field Ex
+is zero along the x axis. The second integration is carried out at con-
+stant x, and since E1, = Kx, the integral becomes
+
+- Kx L' dy (10)
+which has the value -Kxy. For this field then, the potential is
+(p = -Kxy (11)
+
+Any constant could be added to this. That would only mean that the
+
+reference point to which zero potential is assigned had been located
+somewhere else.
+
+TLike the coulomb, ampere, and ohm, the volt was in common use as a "practical"
+electrical unit long before the complete MKS system of electrical units was contrived.
+
+% p. 39
+We must be careful not to confuse the potential <p associated with
+a given field E with the potential energy of a system of charges. The
+potential energy of a system of charges is the total work required to
+assemble it. In Eq. 1.8, for example, we expressed U, the potential
+energy of the charge system in Fig. 1.6. The electric potential
+<p(x,y,z) associated with the field in Fig. 1.6 would be the work per
+unit charge required to bring a unit positive test charge in from infin-
+ity to the point (x,y,z) in the field of that structure of eight charges.
+
+\section{Gradient of a scalar function}
+
+Given the electric field, we can find the electric potential function.
+But we can also proceed in the other direction; from the potential we
+can derive the field. It would appear from Eq. 7 that the field is in
+some sense the derivative of the potential function. To make this idea
+precise we introduce the gradient of a scalar function of position.
+Let f(x,y,z) be some continuous, differentiable function of the co-
+ordinates. With its partial derivatives af/ax, Bf/By, and Bf/Bz we
+can construct at every point in space a vector, the vector whose x, y, z
+components are equal to the respective partial derivatives.T This
+vector we call the gradient off, written grad f, or Vf.
+
+(12)
+
+ 
+
+Vf is a vector that tells how the function f varies in the neighborhood
+of a point. Its x component is the partial derivative off with respect
+to x, a measure of the rate of change off as we move in the x direction.
+The direction of the vector Vf at any point is the direction in which
+one must move from that point to find the most rapid increase in the
+function f. Suppose we were dealing with a function of two variables
+only. x and y, so that the function could be represented by a surface
+in three dimensions. Standing on that surface at some point, we see
+
+T We remind the reader that a partial derivative with respect to x, of a function of
+x. y. :. written simply Pf/Bx. means the rate of change of the function with respect to x
+with the other variables y and : held constant. More precisely,
+
+8f 2 mm f(x + Ax,y,z) -f(x.y.z)
+Ex Ax\rightarrow0 Ax
+
+As an example. iff = x2yz3,
+
+if = 2x1 :3 -E = x2z3 if = 3x2yz2
+Bx By az
+
+% p. 40
+the surface rising in some direction, sloping downward in the opposite
+direction. There is a direction in which a short step will take us
+higher than a step of the same length in any other direction. The
+gradient of the function is a vector in that direction of steepest ascent
+and its magnitude is the slope, measured in that direction.
+
+Figure 2.3 may help you to visualize this. Suppose some particular
+function of two coordinates x and y is represented by the surface
+f(x,y) sketched in Fig. 2.3a. At the location (x1,y1) the surface rises
+most steeply in a direction that makes an angle of about 80° with the
+positive x direction. The gradient of f(x,y), Vf, is a vector function
+of x and y. Its character is suggested in Fig. 2.319 by a number of
+vectors at various points in the two-dimensional space, including the
+point (x1,y1). The vector function Vf defined in Eq. 12 is simply an
+extension of this idea to three-dimensional space. [Be careful not to
+confuse Fig. 2.3a with real three-dimensional xyz space; the third
+coordinate there is the Value of the function f(x,y).]
+
+As one example of a function in three-dimensional space, suppose
+f is a function of r only where r is the distance from some fixed
+point 0. On a sphere of radius r0 centered about 0, f = f(r0) is
+constant. On a slightly larger sphere of radius ro + dr it is also con-
+stant, with the Value f :- f(r0 + dr). If we want to make the change
+from f(r0) to f(r0 + dr), the shortest step we can make is to go
+radially (as from A to B) rather than from A to C, in Fig. 2.4. The
+"slope" off is thus greatest in the radial direction, so Vf at any point
+is a radially pointing vector. In fact Vf = 1*' (df/dr) in this case,
+i- denoting, for any point, a unit vector in the radial direction.
+
+\section{Derivation of the field from the potential}
+
+It is now easy to see that the relation of the scalar function f to the
+vector function Vf is the same, except for a minus sign, as the relation
+of the potential (1) to the field E. Consider the Value of (p at two nearby
+
+points, (x,y,z) and (x + dx, y + dy, z + dz). The change in (p, going
+from the first point to the second, is
+
+dcp=---dx+---dy+2(Bdz (13)
+On the other hand, from the definition of (p, the change can also be
+
+expressed as
+
+dq): -E-ds $1 (14)
+
+% p. 41
+The infinitesimal vector displacement ds is just 1': dx + ydy + 2 dz.
+Thus if we identify E with -V(p, Eqs. 13 and 14 become identical. So
+the electric field is the negative of the gradient of the potential:
+
+E = -V(p (15)
+
+The minus sign came in because the electric field points from a region
+of positive potential toward a region of negative potential, whereas
+the vector Vcp is defined so that it points in the direction of increas-
+ing Lp.
+
+To show how this works, we go back to the example of the field in
+Fig. 2.2. From the potential given by Eq. 11, (p = -Kxy, we can
+recover the electric field we started with:
+
+E=-w-mw=-@§+y%%-mw=m@+w>no
+
+\section{Potential of a Charge Distribution}
+
+We already know the potential that goes with a single point charge,
+because we calculated the work required to bring one charge into the
+neighborhood of another in Eq. 3. The potential at any point, in the
+field of an isolated point charge q, is just q/r, where r is the distance
+from the point in question to the source q, and where we have
+assigned zero potential to points infinitely far from the source.
+
+Superposition must work for potentials as well as fields. If we
+have several sources, the potential function is simply the sum of the
+potential functions that we would have for each of the sources present
+alone---providing we make a consistent assignment of the zero of
+potential in each case. If all the sources are contained in some finite
+region, it is always possible, and usually the simplest choice, to put
+zero potential at infinite distance. .If we adopt this rule, the potential
+of any charge distribution can be specified by the integral:
+
+I, /,z/ dxrd / d I
+.,,(,W) 2L1] £<x_L>_r_2/_z
+sources
+
+(17)
+
+where r is the distance from the volume element dx' dy' dz' to the
+point (x,y,z), at which the potential is being evaluated (Fig. 2.5).
+That is, r = [(x - x')? + (y - y')? + (z - z')2]1/2. Notice the
+difference between this and the integral giving the electric field of a
+
+% p. 42
+charge distribution, Eq. 1.15. Here we have r in the denominator,
+not r2, and the integral is a scalar not a vector. From the scalar po-
+
+tential function <p(x,y,z) we can always find the electric field by taking
+the negative gradient of q:, according to Eq. 15.
+
+\subsection{Potential of Two Point Charges}
+
+ Consider a very simple example,
+the potential of the two point charges shown in Fig. 2.6. A positive
+charge of 12 esu is located 3 cm away from a negative charge, - 6 esu.
+The potential at any point in space is the sum of the potentials due to
+each charge alone. The potentials for some selected points in space
+are given in the diagram. No vector addition is involved here, only
+the algebraic addition of scalar quantities. For instance, at the point
+on the far right which is 6 cm from the positive charge and 5 cm from
+
++612 + l56- = +0.8.
+The unit here comes out esu/cm, which is the same as ergs/esu, or
+statvolts. The potential approaches zero at infinite distance. It
+would take 0.8 erg of work to bring a unit positive charge in from
+infinity to a point where go = 0.8 statvolt. Note two of the points
+shown on the diagram have q) = O. The net work done in bringing
+in any charge to one of these points would be zero. You can see that
+there must be an infinite number of such points, forming a surface in
+space surrounding the negative charge. In fact the locus of points
+with any particular value of q> is a surface, called an equipotential
+
+surface, which would show on our two-dimensional diagram as a
+curve.
+
+the negative charge, the potential has the value
+
+\subsection{Potential of a Long Charged Wire}
+
+There is one restriction on the
+use of Eq. 17: It may not work unless all sources are confined to some
+finite region of space. A simple example of the difficulty that arises
+with charges distributed out to infinite distance is found in the long
+charged wire whose field E we studied in Sec. 1.12. If we attempt to
+assign zero potential to remote points in that system, and carry out
+the integration over the charge distribution indicated in Eq. 15, we
+find that the integral diverges---we get an infinite result. We might
+have expected trouble, because in this case "infinity," that is, all of
+space very far from the region in which we wish to define a potential
+function, contains not only points remote from the wire but most of
+the wire itself! No such difficulty arose in finding the electric field of
+the infinitely long wire, because the contributions of elements of the
+line charge to the field decrease so rapidly with distance. Evidently
+we had better locate the zero of potential somewhere close to home,
+
+% p. 43
+in a system which has charges distributed out to infinity. Then it is
+simply a matter of calculating the difference in potential (p21, between
+
+the general point (x,y,z) and the selected reference point, using the
+fundamental relation, Eq. 7.
+
+To see how this goes in the case of the infinitely long charged wire,
+let us arbitrarily. locate the reference point P1 at a distance r1 from
+
+the wire. Then to carry a charge from P1 to any other point P2 at
+distance r2 requires the work per unit charge
+
+(p21 : - PP2E'dS : -fr2<E)dT= -2Al.IlT2-f-ZAIIIT1 
+1 7'1 1'
+This shows that the electrical potential for the charged wire can be
+
+taken as
+
+(p = -2>\ ln r + const (19)
+
+The constant, 2}\ ln 11 in this case, has no effect when we take --- grad (p
+to get back to the field E. In this case,
+
+(20)
+
+\section{Uniformly charged disk}
+
+Let us study, as a concrete example, the electric potential and field
+around a uniformly charged disk. This is a charge distribution like
+that discussed in Sec. 1.10, except that it has a limited extent. The
+ffat disk of radius a in Fig. 2.7 carries a positive charge spread over its
+surface with the constant density a, in esu/cm2. (This is a single sheet
+of charge of infinitesimal thickness, not two layers of charge, one on
+each side. That is, the total charge in the system is 'rra2o.) We shall
+often meet surface charge distributions in the future, especially on
+metallic conductors. However the object just described is not a con-
+ductor; if it were, as we shall soon see, the charge could not remain
+uniformly distributed but would redistribute itself, crowding more
+toward the rim of the disk. What we have is an insulating disk, like
+a sheet of plastic, upon which charge has been "sprayed" so that every
+square centimeter of the disk has received, and holds fixed, the same
+amount of charge.
+
+As a start, let's find the potential at some point P1 on the axis of
+symmetry, which we have made the y axis. All charge elements in a
+thin ring-shaped segment of the disk lie at the same distance from P1.
+If 3 denotes the radius of such an annular segment and dc is its width, ,
+its area is 2773 ds. The amount of charge it contains, dq, is therefore 
+
+ 
+
+% p. 44
+dq = a-27rs ds. All parts of this ring are the same distance away
+from P1, namely r = My? + 82, so the contribution of the ring to the
+
+potential at P1 is dq/r, or 27703 ds/\/y? + 32. To get the potential
+due to the whole disk, we have to integrate over all such rings:
+
+= 27ra[\W]s (21)
+0
+
+The integral happened to be an elementary one; on substituting
+u = y? + 52 it takes the formfu'1/2 du. Putting in the limits, we
+
+obtain:
+<p(0,y,0) = 2710 [\/y2 + a2 - y] for y > 0 (22)
+
+A minor point deserves a comment: The result we have written
+down in Eq. 22 holds for all points on the positive y axis. It is obvious
+from the physical symmetry of the system (there is no difference be-
+tween one face of the disk and the other) that the potential must have
+the same value for negative and positive y, and this is reffected in
+Eq. 21, where only g2 appears. But in writing Eq. 22 we made a
+choice of sign in taking the square root of y2, with the consequence
+that it holds only for positive y. The correct expression for y < 0 is
+obtained by the other choice of root and is
+
+<p(O,y,0) -: 277-o[ \/g2 + a2 + y] for y < 0 (23)
+
+In view of this, we should not be surprised to find a singularity in
+q>(0,y,0) at y = 0. Indeed, the function has an abrupt change of
+slope there, as we see in Fig. 2.8, where we have plotted as a function
+of y the potential on the axis. The potential at the center of the disk
+is <p(0,0,0) = 2mm. That much work would be required to bring a
+unit positive charge in from infinity, by any route, and leave it sitting
+at the center of the disk.
+
+The behavior of <p(0,y,0) for very large y is interesting. For g > a
+we can approximate Eq. 22 as follows:
+
+\/y2+a2-y:y[ 1+"-2-1]
+
+y2
+_ _0_"'..._ ~a_2
+~u[~2<,2> +2, 
+
+Hence
+
+(p(0,y,0) : "';2" for y > a (25)
+
+% p. 45
+Now amzo is the total charge q on the disk, and Eq. 25 is just the ex-
+pression for the potential due to a point charge of this magnitude.
+As we should expect, at a considerable distance from the disk (rela-
+tive to its diameter), it doesn't matter much how the charge is shaped;
+only the total charge matters, in first approximation. In Fig. 2.8 we
+have drawn, as a dotted curve, the function 7ra2a/ y. You can see that
+the axial potential function approaches its asymptotic form pretty
+quickly.
+
+It is not quite so easy to derive the potential for general points
+away from the axis of symmetry, because the definite integral isn't so
+simple. It proves to be something called an elliptic integral. These
+functions are well-known and tabulated,T but there is no point in
+pursuing here mathematical details peculiar to a special problem.
+One further calculation, which is easy enough, may be instructive.
+We can find the potential at a point on the very edge of the disk, such
+as P2 in Fig. 2.9. '
+
+To calculate the potential at P2, we consider the segment of a ring
+centered on P2. As you can see in Fig. 2.9, the charge on this segment
+is dq = a - 2r0 dr. Its contribution to the potential at P2 is
+dq/r = 200 dr. From the geometry of the right triangle in Fig. 2.9,
+r = 2a cos 0, so that dr = -2a sin 0 dB. This lets us use 0 as the
+
+T They were mentioned in Vol. I in connection with the exact treatment of the simple
+pendulum (Vol. 1, Chap. 7, Advanced Topic I, p. 227_).
+
+% p. 46
+variable of integration. If 0 ranges from 77/2 to 0, we sweep out the
+whole disk. Thus:
+
+go :f%=L':22a0(_2asinod0)
+
+zff)"/24aa0 sin 0 d0 = 4:30 [sin 6 - 0 cos 0]" = 40a (26)
+0
+
+(You can do f 0 sin 0 d0 by parts-or look it up.)
+
+Comparing this with 2710a, the potential at the center of the disk,
+we see that, as we should expect, the potential, falls off from the center
+to the edge of the disk. The electric field, therefore, must have an
+outward component in the plane of the disk. That is why we re-
+marked earlier that the charge, if free to move, would redistribute
+itself toward the rim. To put it another way, our uniformly charged
+disk is not a surface of constant potential, which any conducting
+surface must be unless charge is moving.T
+
+The electric field on the symmetry axis can be computed directly
+from the potential function:
+
+d
+E, = _ $8 = _ -2'n'o[\/g2 + a2 - y] (27)
+y dy
+giving
+_ ll
+
+(To be sure, it is not hard to compute Ey directly from the charge dis-
+tribution, for points on the axis.)
+
+As y approaches zero from the positive side, E,, approaches 2770.
+On the negative y side of the disk, which we shall call the back, E
+points in the other direction and its y component E1, is -2-no. This
+is the same as the field of an infinite sheet of charge of density 0,
+derived in Sec. 1.10. It ought to be, for at points close to the center
+of the disk, the presence or absence of charge out beyond the rim
+can't make much dilference. In other words, any sheet looks infinite
+if viewed from close up. Indeed, E,, has the value 27m not only at the
+center but all over the disk. To show this we can use Gauss's law
+much as we did in Sec. 1.10, but we have to be a little careful because
+the total electric field at a general point on the disk is not perpen-
+
+'rThe fact that conducting surfaces have to be equipotentials will be discussed
+thoroughly in Chap. 3.
+
+% p. 47
+dicular to the plane of the disk. Imagine any patch of the disk, of
+area A, enclosed by a thin ffat box, as indicated in Fig. 2.10. Let E,,+
+denote the y component of the field immediately in front of this patch
+
+of surface charge and Er the y component of the field behind it. The
+outward flux from the box is
+
+<1) = AE,,+ - AEV + (flux through side of box) (29)
+
+The second term has a minus sign because the vector representing the
+rear surface of the box points in the negative y direction. The flux
+through the sides of the box can be made as small as we please by
+
+ffattening the box? That does not change the charge enclosed, which
+remains 0A. In the limit, then, Gauss's law tells us " '
+
+AE,,+ - AEy_ : 4770A (30)
+or
+E,,+ - E,,- = 47m (31)
+
+In Eq. 31 we have a general result that holds for any surface charge
+distribution, uniform or not: If a is the local density of any surface
+charge layer, there is at that place an abrupt change, or discontinuity,
+in the component of electric field perpendicular to the layer. The
+magnitude of the change is 4770. In our problem, a is constant over
+the disk. Also, because the fields on the two sides must be sym-
+metrical, there being no other source of field, we must have
+Ey+ = -Ey_, so that E,,+ = |E,,_| = 2770 all over the disk.
+
+In Fig. 2.11 we show some field lines for this system and also,
+plotted as dashed curves, the intersections on the yz plane of the sur-
+faces of constant potential. Near the center of the disk these are
+lenslike surfaces, while at distances much greater than a they ap-
+
+proach the spherical form of equipotential surfaces around a point
+charge.
+
+Figure 2.11 illustrates a general property of field lines and equipo-
+tential surfaces. A field line through any point and the equipotential
+surface through that point are perpendicular to one another, just as,
+on a contour map of hilly terrain, the slope is steepest at right angles
+to a contour of constant elevation. This must be so, because if the
+field at any point had a component parallel to the equipotential sur-
+face through that point, it would require work to move a test charge
+along a constant potential surface.
+
+'rThat is a safe statement so long as the radial electric field is not infinite. We know
+that the radial field is finite almost everywhere on the disk because there is only a finite
+dilference of potential between the center and the rim. In fact there is a place where
+the radial field grows infinite, namely the exact rim of the disk. We'll keep our box
+edge awav from there anvwav. since that marks also a discontinuitv in Em. and in a.
+
+% p. 48
+% p. 49
+\section{The force on a surface charge}
+
+We can still learn something from the very simple symmetrical
+charge distribution, a uniform surface charge of density a, on the
+surface of a sphere of radius r0 (Fig. 2.l2a). The total charge Q is
+equal to 4m02o. The potential outside the sphere is just Q/r, the
+same as if the charge Q were concentrated at the center, while the
+potential inside the sphere has the constant value Q/ro. The gradient
+of a constant potential is zero, of course; we had already concluded
+that the field inside any such hollow spherical shell of charge must
+vanish. Figure 2.1222 and c shows graphically how potential (p and
+field magnitude E Vary with r. We ask now, what is the force acting
+on an element of the surface charge, such as a dA, owing to the re-
+pulsion it experiences from all the other elements of charge on the
+sphere. We know the electric field strength just outside the sphere:
+E01,, = Q/r02 = 4770, whereas Em : 0. Which Value should we use
+to calculate the force on the charge? in. ' 7-3.
+
+The correct answer is §(Em,t + Em). One way to see this is to
+imagine the surface charge, not as a layer of zero thickness, but as a
+volume charge density in a layer of small but finite thickness Ar,
+within which the volume charge density p is uniform, and so high that
+the charge contained in any square centimeter of this sheet is o. In
+other words, whatever Ar is, we fix p so that p-Ar = 0. Now it is
+pretty obvious, and you can use Gauss's law to prove it if you want to,
+that the electric field strength is zero on the inside surface of this
+layer, and rises linearly through the layer, reaching the value 4770 on
+the outer surface. (The curvature of the surface would make the
+function not quite linear, but since we shall assume always that
+Ar < r0 we have over this small region practically a ffat slab.) The
+average field strength in the slab, and hence the average force on unit
+charge within the slab, is clearly §(Ei,, + Em), and in this particular
+case with E", = 0 it is %E.,ut or 2770. Figures 2.13a-c show how things
+change as we let the slab thickness decrease, keeping the charge per
+unit area constant. Nothing spectacular happens; the field change
+
+merely occurs in a shorter distance, and only the volume charge
+densitv grows infinite.
+
+ 
+
+% p. 50
+Note that even if the charge density is not uniform through the slab,
+as in Fig. 2. 13d, it makes no difference in the net change in E from one
+side to the other. And it is still true that the total force on unit area
+of such a slab is precisely §(Em + Em) times the total charge per unit
+area, even when the change of field is not linear. Problem 1.29 sug-
+gests a check on this in a simple special case, and Prob. 1.30 will get
+you launched on a general proof, if you are interested.
+
+Actual surface charges will of course not be found in a layer of zero
+thickness and infinite volume density, so our intermediate picture is
+more realistic than the limiting case. For instance, a charge on the
+surface of a metal may be distributed through a layer several
+angstroms deep. The point is that as long as the layer is thin com-
+pared to the other dimensions of the system we may treat it as a layer
+of zero thickness, characterized only by its local density of charge
+per unit area, for calculating all large-scale effects. On the other
+hand, the actual distribution-in-depth may be important for sub-
+surface atomic phenomena, such as the passage of electrons from one
+material to another, through an interface.
+
+Returning to the question with which we began this section, we see
+now that the force on an element of surface charge dq is 2770 - dq, and
+since the amount of charge in a patch of area dA is dq = o dA, we
+have for the force on the patch of area dA:
+
+dF = 27702 4A (32)
+
+The force per unit area is then just 27702. This is an outward force
+arising from the repulsion of the charges. Naturally, if the charges
+are not to ffy apart, it must be balanced by some other force, of atomic
+or molecular origin and not included in our equations, which can hold
+the charge carriers on the sphere.
+
+If we were to charge a rubber balloon, the electrical repulsion we
+have computed, 27702 per unit area, would tend to make the balloon
+expand. Conversely, work would have to be done on the system to
+shrink the diameter of such a charge distribution while keeping the
+total charge constant. Suppose we want to shrink the sphere from
+radius ro to radius r0 - dr, as in Fig. 2.14. Forgetting all other
+forces, and reckoning the work we have to do against the electrical
+forces alone, we have to apply an inward force of 277472 dynes to every
+square centimeter of surface. This force acts through a distance dr,
+so the work done on the system by these external forces is
+
+dW = (47rr02)(2'n'o2) dr = 87r2o2r02 dr ' (33)
+
+% p. 51
+We can also express this in terms of the total charge Q, since
+Q : 4771020:
+
+Q2 dr
+
+dW = zroz
+
+(34)
+
+\section{Energy associated with an electric field}
+
+Notice that the only result of shrinking the sphere, so far as the
+electric field is concerned, is to create the field strength 47m in the
+shell of space between ro - dr and r0, where the field had previously
+been zero. In all other parts of space the field remains exactly as
+before. This section of field has been created, one may say, at the
+cost of the work dW. By comparing numbers we see that the cost
+
+in work dW can be expressed in terms of the new volume do occupied
+by field as
+
+dW = _ do (35)
+
+This is an instance of a general theorem which we shall not prove
+now: The potential energy U of a system of charges, which is the total
+work required to assemble the system, can be calculated from the elec-
+tric field itself simply by assigning an amount of energy (E2/877) do to
+every volume element do and integrating over all space where there
+is electric field.
+
+1
+U : 8? EntireE2 do 
+field
+
+E2 is a scalar quantity of course: E2 E E - E.
+
+Thus we could compute the work required for the original assembly
+of our spherical bubble of charge in Fig. 2.14 as follows: E = Q/r2,
+r>ro: E =0,r<ro, so
+
+1 ' _ 1 QOQZ . _ Q2
+U:87fE2dc_87r0rT 47rr2dr_~2TO (37)
+The same result is obtained, by calculating the work required to
+shrink the sphere from infinite radius down to a final radius ro, using
+Eq. 34 as follows:
+
+U:£:°_Q2d' :fr°°gd1_ff (33)
+
+2r2 0 2r2 _ 2r0
+
+ 
+
+% p. 52
+Some people like to think of this energy as "stored" in the field.
+The system being conservative, that amount of energy can of course
+be recovered by allowing the charges to go apart, so it is nice to think
+of the energy as "being somewhere" meanwhile. Our accounting
+comes out right if we think of it as stored in space with a density of
+E2/87-r, in ergs/cm3. There is no harm in this, but in fact we have no
+way of identifying, quite independently of anything else, the energy
+stored in a particular cubic centimeter of space. Only the total
+energy is physically measurable, that is, the work required to bring
+the charge into some configuration, starting from some other con-
+figuration. Just as the concept of electric field serves in place of
+Coulomb's law to explain the behavior of electric charges, so when
+we use Eq. 36 rather than Eq. 1.9 to express the total potential energy
+of an electrostatic system we are merely using an alternate form of
+bookkeeping. Sometimes a change of point of view, even if it is at
+first only a change in bookkeeping, can stimulate new ideas and
+deeper understanding. The notion of the electric field as an inde-
+pendent entity will come into its own when we study the dynamical
+behavior of charged matter and electromagnetic radiation.
+
+We have been talking about potential energy and about electric
+potential. Remember that these are quite different things. The po-
+tential energy U of a stationary system of charges is the work required
+to assemble it out of its parts, energy which we may think of as stored
+in the assembled system. It is a single scalar quantity and a property
+of the system as a whole. The electric potential cp is a function of
+position in space, for a given distribution of electric charges. It is
+expressed in units of ergs per esu, or statvolts. The difference be-
+tween the values of (p at two points in space is the work per unit
+charge required to transport charge from one place to the other.
+
+To emphasize the distinction between (1) and U, let us write Eq. 36
+in terms of (1) rather than E. Since E = -Vq> we have
+
+1
+U=§ Au |V<p|2dv (39)
+space
+
+There is another way to calculate the stored energy. We learned
+early in Chap. 1 that the energy required to assemble several discrete
+point charges, ql, . . . , q,-, . . . , was given by Eq. 1.9:
+
+U =  2 'W (40)
+
+1:1 less; '1'"
+
+% p. 53
+Let's write this as follows:
+1
+U=32m[23ff MD
+
+and look at the thing in brackets. Each term in that sum is the con-
+tribution of one of the charges to the electric potential cp at the loca-
+tion of q,-, so the entire sum, which we can call <p,~, is the potential at
+q,- due to all other charges. In this way we can express U as: '
+
+1
+U=§Z%% on
+J
+
+Now if we have a continuous charge distribution p(x,y,z) instead of
+a set of point charges, we merely replace the sum in Eq. 42 by the
+
+integral:
+U = %fp(p do (43)
+
+Here the qualification that (p is due to all other charges is no longer
+needed, for the charge element analogous to q,-, which is pdv, is
+always infinitesimal. So (p in Eq. 43 is the electric potential for the
+
+whole system, q:(x,y,z). Equation 43 is of course equivalent to
+Eq. 39 and to Eq. 36.
+
+\section{Divergence of a vector function}
+
+The electric field has a definite direction and magnitude at every
+point. It is a vector function of the coordinates, which we have often
+indicated by writing E(x,y,z). What we are about to say can apply
+to any vector function, not just to the electric field; we shall use
+another symbol, F(x,y,z), as a reminder of that. In other words, we
+shall talk mathematics rather than physics for a while and call F
+simply a general vector function. We'll stick to three dimensions,
+however.
+
+Consider a finite volume V of some shape, the surface of which we
+shall denote by S. We are already familiar with the notion of the total
+flux <1) emerging from S. It is the value of the surface integral of F
+extended over the whole of S:
+
+<I>=fSF~da (44)
+
+% p. 54
+In the integrand dais the infinitesimal vector whose magnitude is the
+area of a small element of S and whose direction is the outward-
+pointing normal to that little patch of surface, indicated in Fig. 2150.
+
+Now imagine dividing V into two parts by a surface, or a dia-
+phragm, D that cuts through the "balloon" S, as in Fig. 2.1519.
+Denote the two parts of V by V1 and V2 and, treating them as distinct
+volumes, compute the surface integral over each separately. The
+boundary surface S1 of V1 includes D, and so does 82. It is pretty
+obvious that the sum of the two surface integrals
+
+LIF-da1+fS2F-dag (45)
+
+will equal the original integral over the whole surface expressed in
+Eq. 44. The reason is that any given patch on D contributes with
+one sign to the first integral and the same amount with opposite sign
+to the second, the "outward" direction in one case being the "inward"
+direction in the other. In other words, any flux out of V1, through
+this surface D, is flux into V2. The rest of the surface involved is
+identical to that of the original entire volume.
+
+We can keep on subdividing until our internal partitions have
+divided Vinto a large number of parts, V1, . . . , V,~, . . . , VN, with sur-
+
+faces S1, . . . , S1, . . . , SN. No matter how far this is carried we can
+still be sure that
+
+;N1fSiF-da,:fSF-da=<I> (46)
+
+What we are after is this: In the limit as N becomes enormous we
+want to identify something which is characteristic of a particular
+
+small region---and ultimately, of the neighborhood of a point. Now
+the surface integral
+
+Sir - da, (47)
+
+over one of the small regions, is not such a quantity, for if we divide
+everything again, so that N becomes 2N, this integral divides into two
+terms, each smaller than before since their sum is constant. In other
+words, as we consider smaller and smaller volumes in the same
+locality, the surface integral over one such volume gets steadily
+smaller. But we notice that when we divide, the volume is also
+divided into two parts which sum to the original volume. This sug-
+gests that we look at the ratio of surface integral to volume for an
+element in the subdivided space:
+
+ dai (48)
+
+% p. 55
+It seems plausible that for N large enough, that is, for sufficiently
+fine-grained subdivision, we can halve the volume every time we
+halve the surface integral so that we shall find that with continuing
+subdivision of any particular region this ratio approaches a limit. If
+so, this limit is a property characteristic of the vector function F in
+that neighborhood. We call it the divergence of F, written div F.
+That is, the value of div F at any point is defined as:
+
+div F 2  - da, (49)
+where V, is a volume including the point in question, and S1, over
+which the surface integral is taken, is the surface of V,-. We must in-
+clude the proviso that the limit exists and is independent of our
+method of subdivision. For the present we shall take that for
+granted.
+
+The meaning of div F can be expressed in this way: div F is the
+flux out of V,, per unit of volume, in the limit of infinitesimal Vi. It
+is a scalar quantity, obviously. It may vary from place to place, its
+value at any particular location (x,y,z) being the limit of the ratio in
+Eq. 49 as V, gets chopped smaller and smaller while always enclosing
+
+the point (x,y,z). So div F is simply a scalar function of the
+coordinates.
+
+\section{Gauss's theorem and the differential form of Gauss's law}
+
+If we know this scalar function of position div F, we can work our
+
+way right back to the surface integral over a large volume: We first
+write Eq. 46 in this way:
+
+N l: SF-da,-J
+LF-da =:1fS'F.da,:21V,~  
+
+In the limit N \rightarrow 00, V,-, \rightarrow,0, the term in brackets becomes the diver-
+gence of F and the sum goes into a volume integral:
+
+fsir-da=fVdivFdu (51)
+
+Equation 51 is called Gauss's theorem, or the Divergence Theorem.
+
+It holds for any vector field for which the limit involved in Eq. 49
+exists.
+
+% p. 56
+Let us see what this implies for the electric field E. We have
+Gauss's law which assures us that
+
+fSE-da=4wfVpdo (52)
+
+If the divergence theorem holds for any vector field it certainly holds
+for E: '
+
+LE-da=fVdivEdu (53)
+
+Both Eq. 52 and Eq. 53 hold for any volume we care to choose---of
+
+any shape, size, or location. Comparing them, we see that this can
+only be true if at every point,
+
+div E = 477p (54)
+
+If we adopt the divergencetheorem as part of our regular mathema-
+tical equipment from now on, we can regard Eq. 54 simply as an alter-
+nate statement of Gauss's law. It is Gauss's law in dilferential form,
+
+that is, stated in terms of a local relation between charge density and
+electric field.
+
+\section{The divergence in Cartesian coordinates}
+
+While Eq. 49 is the fundamental definition of divergence, inde-
+pendent of any system of coordinates, it is useful to know how to
+calculate the divergence of a vector function when we are given its
+explicit form. Suppose a vector function F is expressed as a function
+of Cartesian coordinates x, y, and z. That means that we have three
+scalar functions, F,(x,y,z), F,,(x,y,z), and Fz(x,y,z). We'll take the
+region V, in the shape of a little rectangular box, with one corner at
+the point (x,y,z) and sides Ax, Ag, and Az. as in Fig. 2.l6a. Whether
+some other shape will yield the same limit is a question we must face
+later.
+
+Consider two opposite faces of the box, the top and bottom for
+instance, which would be represented by the vectors iAx Ag and
+-2 Ax Ay. The flux through these faces involves only the 3 com-
+ponent of F, and the net contribution depends on the difference be-
+tween Fz at the top and F, at the bottom, or more precisely, on the
+difference between the average of F, over the top face and the average
+of F3 over the bottom face of the box. To the first order in small
+quantities this difference is (BF,/az) Az. Figure 2.1619 will help to ex-
+plain this. The average value of F, on the bottom surface of the box,
+
+% p. 57
+if we consider only first-order variations in F2 over this small rec-
+tangle, is its value at the center of the rectangle. That value is, to
+first orderf in Ax and Ag,
+
+A 8P; A a5;
+Fz(x,y,:) +77' ax + 2" ay
+
+(55)
+
+For the average of F2 over the top face we take the value at the
+center of the top face, which, again, is to first order only in the small
+displacements,
+
+Ax an AyZ)F,, an
+F2 7 5: T A
+(xy)+2 8x+2 E)y+ zaz
+
+(56)
+
+The net flux out of the box through these two faces, each of which has
+the area Ax Ay, is therefore
+
+Ax an Ay an an]
+AJA F3 , ,3 - Az
+'yl(x")+2ax 2ay+ az
+
+ 
+(Flux out of box at top)
+
+£ 6F; Ay_ BE]
+- AxAy [Fz(x,y,z) + 2 ax + 2 By (57)
+
+(Flux into box at bottom)
+
+which reduces to Ax Ay Az (BF,/az). Obviously, similar statements
+must apply to the other pairs of sides. That is, the net flux out ofthe
+box through the sides parallel to the yz plane is Ay Az Ax (8F,/ax).
+Notice that the product Ax Ay Az occurs here too. Thus the total
+flux out of the little box is:
+
+(58)
+
+(I) : Ax AyAz(aF" + aF"+ 81:5)
+
+Ex Ty az
+
+The volume of the box is Ax Ay Az so the ratio of flux to volume is
+8/F, + L', + BF,
+Ex ay 8:
+sions of the box at all, it remains as the limit when we let the box
+shrink. [Had we retained terms proportional to (Ax)2, (Ax Ag), etc.,
+in the calculation of the flux, they would of course vanish on going to
+
+the limit.]
+
+, and as this expression does not contain the dimen-
+
+TThis is nothing but the beginning of a Taylor expansion of the scalar function F2,
+in the neighborhood of (x,y,:). That is, F,(x + a, y + I). z + c) : Fz(x,y.:) +
+
+(:1 8 +bi+c a)Fz+  +<-l-)(ai+bi+ci)"F,+  The de-
+' n! Etx By 8.:
+
+Ex By oz
+rivatives are all to be evaluated at (x,y,:). In our case a : Ax/2, b : Ag/2, c = 0,
+
+rinrl um rlrnn rl-an I-n'nlqnr_nrr1pr fnrrnc in cl-tn aaaaaaa nn
+
+% p. 58
+Now we can begin to see why this limit is going to be independent
+of the shape of the box. Obviously it is independent of the propor-
+tions of the rectangular box, but that isn't saying much. It is easy to
+see that it will be the same for any volume that we can make by stick-
+ing together little rectangular boxes of any size and shape. Consider
+the two boxes in Fig. 2.17. The sum of the flux 431 out of box 1 and
+Q92 out of box 2 is not changed by removing the adjoining walls to
+make one box, for whatever flux went through that plane was nega-
+tive flux for one and positive for the other. So we could have a
+bizarre shape like Fig. 2.l7c without affecting the result. We leave it
+to the reader to generalize further. Tilted surfaces can be taken care
+of if you will first prove that the vector sum of the four surfaces of the
+tetrahedron in Fig. 2.18 is zero.
+
+We conclude that, assuming only that the functions F,, Fy, and F2
+are differentiable, the limit does exist and is given by
+
+BF, + BFI, + 8F;
+
+dlV F : -
+ax ay Eiz
+
+(59)
+
+If div F has a positive value at some point, we find---thinking of F
+as a velocity field---a net "outffow" in that neighborhood. For in-
+stance, if all three partial derivatives in Eq. 59 are positive at a
+point P, we might have a vector field in that neighborhood something
+like that suggested in Fig. 2.19. But the field could look quite dif-
+ferent and still have positive divergence, for any vector function G
+such that div G = 0 could be superimposed. Thus one or two of the
+three partial derivatives could be negative and we might still have
+div F > 0. The divergence is a quantity that expresses only one
+aspect of the spatial variation of a vector field.
+
+Let's apply this to an electric field that is rather easy to visualize.
+An infinitely long circular cylinder of radius a is filled with a distri-
+bution of positive charge of density p. Outside the cylinder the elec-
+tric field is the same as that of a line charge on the axis. It is a radial
+field with magnitude proportional to 1/r. The field inside is found
+by applying Gauss's law to a cylinder of radius r < a. You can do
+this as an easy problem. You will find that the field inside is directly
+
+proportional to r, and of course it is radial also. The exact values
+are:
+
+E : 277pa2
+r
+
+E=27rpr forr<a
+
+for r > a
+(60)
+
+% p. 59
+Figure 2.20 is a section perpendicular to the axis of the cylinder.
+Rectangular coordinates aren't the most natural choice here, but
+we'll use them anyway to get some practice with Eq. 59. With
+r = x/x2 + g2, the field components are expressed as follows:
+
+E, = (i) E = 2"""2" for r > a
+
+r x2 + y2
+= 2
+vrpx Zwpaz for r < a (61)
+ fOI'T>(l
+= 27rpy for r < (1
+E2 is zero, of course.
+Outside the cylinder of charge, div E has the value given by
+6E, 6E,, [ 1 2x2
+: 2 2 - ---j
+8x + Ely Wpa x2 + g2 (x2 + y2)2
+1 2.1/2 ] _
++ x2 + g2 _ (x2 + y2)2 ' 0 (62)
+Inside the cylinder, div E is
+BE, (E
++ V : 27rp(l + 1) : 47-rp (63)
+Bx By
+
+We expected both results. Outside the cylinder where there is no
+charge, the net flux emerging from any vo1ume---large or sma1l---is
+zero, so the limit of the ratio flux/volume is certainly zero. Inside the
+cylinder we get the result required by the fundamental relation Eq. 54.
+
+\section{The Laplacian}
+
+We have now met two scalar functions related to the electric field,
+the potential function (p and the divergence, div E. In Cartesian co-
+ordinates the relationships are expressed as:
+
+E: -gradqo= _(,2%';3+yg-:+2a;:) (64)
+
+8E, + aE,, + 8E2
+
+dlV E : j
+Bx Ely az
+
+% p. 60
+Equation 64 shows that the x component of E is E, = -a<p/ax.
+Substituting this and the corresponding expressions for E,, and E,
+into Eq. 65, we get a relation between div E and (p:
+
+divE= -div gradqp=-(i"_+ ff+ 82¢') (66)
+
+The operation on (p which is indicated by Eq. 66 except for the minus
+sign we could call "div grad," or "taking the divergence of the
+gradient of . . . ." The symbol used to represent this operation is V2,
+called the Laplacian operator, or just the Laplacian. The expression
+
+is the prescription for the Laplacian in Cartesian coordinates.
+
+The notation V2 is explained as follows. The gradient operator is
+often symbolized by V, called "del." Writing it out in Cartesian
+coordinates,
+
+(67)
+
+If we handle this as a vector, then its square would be
+
+V. :L' L2 52
+V ax? + By? + az2 (68)
+
+the same as the Laplacian in Cartesian coordinates. So the Lap-
+lacian is often called "del-squared," and we say "del-squared tp,"
+meaning "div grad cp." Warning: In other coordinate systems,
+spherical polar coordinates for instance, the explicit forms of the
+gradient operator and the Laplacian operator are not so simply re-
+lated. It is well to remember that the fundamental definition of the
+Laplacian operation is "divergence of the gradient of."
+
+We can now express directly a local relation between the charge
+density at some point and the potential function in that immediate
+neighborhood. From Gauss's law in differential form, div E = 47rp,
+
+we have
+<69>
+
+% p. 61
+Equation 69, sometimes called Poisson's equation, relates the charge
+
+density to the second derivatives of the potential. Written out in
+Cartesian coordinates it is
+
+One may regard this as the differential expression of the relationship
+expressed by an integral in Eq. 17, which tells us how to find the po-
+
+tential at a point by summing the contributions of all sources near
+and farrl"
+
+\section{Laplace 's equation}
+
+Wherever p = 0, that is, in all parts of space containing no electric
+charge, the electric potential (p has to satisfy the equation
+
+V2q>: 0 (71)
+
+This is called Laplace's equation. We run into it in many branches
+of physics. Indeed one might say that from a mathematical point of
+view the theory of classical fields is mostly a study of the solutions of
+this equation. The class of functions that satisfy Laplace's equation
+are called harmonic functions. They have some remarkable prop-
+erties, one of which is this: If <p(x,y,z) satisfies Laplace's equation,
+then the average value of q) over the surface of any sphere (not neces-
+sarily a small sphere) is equal to the value of (p at the center of the
+sphere. We can easily prove that this must be true of the electric
+potential (p, in regions containing no charge. Consider a sphere S
+in the field of a point charge q which lies outside the sphere, as in
+Fig. 2.21. Now imagine some test charge of amount q' spread uni-
+formly over this sphere. The work required to bring in q' and dis-
+tribute it in this fashion would be q' times the average over the sphere
+of the potential due to q. But we know this work would be the same
+as if we had the test charge there first, and then brought q in from
+infinity, and we know that in that case the work would be the same as
+if q' were concentrated at the center of its sphere instead of being
+spread over the surface. That proves the assertion for this case.
+
+Tln fact. it can be shown that Eq. 70 is the mathematical equivalent of Eq. 17. This
+means. if you apply the Laplacian operator to the integral in Eq. 17, you will come
+out with -47rp. We shall not stop to show how this is done; you'll have to take our
+word for it or figure out how to do it.
+
+% p. 62
+Since potentials of many sources are simply additive, it must also be
+true for any system of sources lying wholly outside the sphere S.
+
+This property of the potential is closely related to a fact that you
+may find disappointing; you can't construct an electrostatic field that
+will hold a charged particle in stable equilibrium in empty space.
+This particular "impossibility theorem," .like others in physics, is
+useful in saving fruitless speculation and elfort. Let us see why it
+is true. Suppose we have an electric field in which, contrary to the
+theorem, there is a point P at which a positively charged particle
+would be in stable equilibrium. That means that any small displace-
+ment of the particle from P must bring it to a place where an electric
+field acts to push it back toward P. But that means that a little sphere
+around P must have E pointing inward everywhere on its surface.
+That contradicts Gauss's law, for there is no negative source charge
+within the region. (Our charged test particle doesn't count; besides,
+it's positive.) In other words, you can't have an empty region where
+the electric field points all inward or all outward, and that's what you
+would need for stable equilibrium. To express the same fact in terms
+of the electric potential, a stable position for a charged particle must
+be one where the potential q) is either lower than that at all neighbor-
+ing points (if the particle is positively charged) or higher than that
+at all neighboring points (if the particle is negatively charged).
+Clearly neither is possible for a function whose average value over a
+sphere is always equal to its value at the center.
+
+Of course one can have a charged particle in equilibrium in an elec-
+trostatic field, in the sense that the force on it is zero. The point
+where E = 0 in Fig. 1.10 is such a location. The position midway
+between two equal positive charges is an equilibrium position for a
+third charge, either positive or negative. But the equilibrium is not
+stable. (Think what happens when the third charge is slightly dis-
+placed from its equilibrium position.) It is possible, by the way,
+to trap and hold stably an electrically charged particle by electric
+fields that vary in time.
+
+\section{Distinguishing the physics from the mathematics}
+
+In the last few sections we have been concerned with mathematical
+relations and new ways of expressing familiar facts. It may help to
+sort out physics from mathematics, and law from definition, if we
+try to imagine how things would be if the electric force were not a
+
+% p. 63
+pure inverse-square force but instead a force with a finite range, for
+instance, a force varying like
+
+e-}\T
+
+(72)
+
+1-2
+
+Then Gauss's law in the integral form expressed in Eq. 52 would
+surely fail, for by taking a very large surface enclosing some sources,
+we would find a vanishingly small field on this surface. The flux
+would go to zero as the surface expanded, rather than remain con-
+stant. However, we could still define a field at every point in space.
+We could calculate the divergence of that field, and Eq. 53, which
+describes a mathematical property of any vector field, would still be
+true. Is there a contradiction here? No, because Eq. 54 would also
+fail. The divergence of the field would no longer be the same as the
+source density. We can understand this by noting that a small
+volume empty of sources could still have a net flux through it owing
+to the effect of a source outside the volume, if the field has finite range.
+As suggested in Fig. 2.22, more flux would enter the side near the
+source than would leave the volume.
+
+Thus we may say that Eqs. 52 and 54 express the same physical
+law, the inverse-square law that Coulomb established by direct
+measurement of the forces between charged bodies, while Eq. 53 is
+an expression of a mathematical theorem which enables us to trans-
+late our statement of this law from differential to integral form or
+the reverse.
+
+How can we justify these dilferential relations between source and
+field in a world where electric charge is really not a smooth jelly but
+is concentrated on particles whose interior we know very little about?
+Actually, a statement like Eq. 69, Poisson's equation, is meaningful
+on a macroscopic scale only. The charge density p is to be inter-
+preted as an average over some small but finite region containing
+many particles. Thus the function p cannot be continuous in the
+way a mathematician might prefer. When we let our region V,- shrink
+down in the course of demonstrating the differential form of Gauss's
+law, we know as physicists that we musn't let it shrink too far. That
+is awkward perhaps, but the fact is that we make out very well with
+the continuum model in large-scale electrical systems. In the atomic
+world we have the elementary particles. and vacuum. Inside the
+particles, even if Coulomb's law turns out to have some kind of mean-
+ing, much else is going on. The vacuum, so far as electrostatics is
+
+ 
+
+% p. 64
+concerned, is ruled by Lap1ace's equation. Still, we cannot be sure
+that, even in the vacuum, passage to a limit of zero size has physical
+meaning.
+
+\section{The curl of a vector function}
+
+We developed the concept of divergence, a local property of a vec-
+tor field, by starting from the surface integral over a large closed sur-
+face. In the same spirit, let us consider the line integral of some vec-
+tor field F(x,y,z), taken around a closed path, some curve C which
+comes back to join itself. The curve C can be visualized as the
+boundary of some surface S which spans it. A good name for the
+magnitude of such a closed-path line integral is circulation; we shall
+use 1' (capital gamma) as its symbol:
+
+r=fCF-ds (73)
+
+In the integrand ds is the element of path, an infinitesimal vector
+locally tangent to C (Fig. 2.23a). There are two senses in which C
+could be traversed; we have to pick one to make the direction of ds
+unambiguous. Incidentally the curve C need not lie in a plane---it
+can be as crooked as you like.
+
+Now bridge C with a new path B, thus making two loops, C1 and
+C2, each of which includes B as part of itself (Fig. 2.2319). Take the
+line integral around each of these, in the same directional sense. It
+is easy to see that the sum of the two circulations, F1 and F2, will be
+the same as the original circulation around C: The reason is that the
+bridge is traversed in opposite directions in the two integrations,
+leaving just the contributions which made up the original line integral
+around C. Further subdivision into many loops C1, . . . , Ci, . . . , CN
+leaves the sum unchanged:
+
+N N
+LF-ds=2fCiF-ds, or r=2r, (74)
+i=1 i=1
+
+Here, too, we can continue indefinitely to subdivide, by adding
+new bridges, seeking in the limit to arrive at a quantity characteristic
+of the field F in a local neighborhood. When we subdivide the loops,
+we make loops with smaller circulation, but also with smaller area.
+So it is natural to consider the ratio of loop circulation to loop area,
+just as we considered in Sec. 2.9, the ratio of flux to volume. How-
+ever, things are a little different here, because the area a,- of the bit
+of surface that spans a small loop C, is really a vector; a surface has
+
+% p. 65
+an orientation in space. We can't take the ratio of a scalar to a
+vector! In fact, as we make smaller and smaller loops in some
+neighborhood, we can arrange to have a loop oriented in any direc-
+tion we choose. (Remember, we are not committed to any particular
+surface over the whole curve C.) Thus we can pass to the limit in
+essentially dilferent ways and we must expect the result to reffect this.
+
+Let us choose some particular orientation for the patch as it goes
+through the last stages of subdivision. The unit vector 1': will denote
+the normal to the patch, and this vector is to remain constant as the
+patch surrounding a particular point P shrinks down toward zero
+
+size. The limit of the ratio of circulation to patch area will be written
+this way:
+
+. r. . I F ' 015
+l1rn -' or l1m C'
+a;\rightarrow0 (L; a.\rightarrow0 0.1',
+
+ 
+
+(75)
+
+The rule for sign is that the direction of f1 and the sense in which C,
+is traversed in the line integral shall be related by a right-hand-screw
+rule, as in Fig. 2.24. The limit we obtain by this procedure is a scalar
+quantity which is associated with the point P in the vector field F,
+and with the direction 1'). We could pick three independent direc-
+tions, such as 9:, $7, and 2, and get three different numbers. It turns
+out that these three numbers can be considered the components of a
+vector. We call the vector curl F. That is to say, the number we get
+for the limit with 13 in a particular direction is the component, in that
+direction, of the vector curl F. To state this in an equation,
+
+F. F-ds
+
+(curl F) 'fl = lim _' =1im'3*:-
+!la\rightarrow0 (11 (11
+
+(76)
+
+ 
+
+For instance, the x component of curl F is obtained by choosing
+1': = 22, as in Fig. 2.25. As the loop shrinks down around the point P,
+we keep it in a plane perpendicular to the x axis. In general, the
+vector curl F will vary from place to place. If we let the patch shrink
+down around some other point, the ratio of circulation to area may
+have a dillerent value, depending on the nature of the vector func-
+tion F. That is, curl F is itself a Vector function of the coordinates.
+Its direction at each point is normal to the plane through this point
+in which the circulation is a maximum. Its magnitude is the limiting
+
+value of circulation per unit area, in this plane, around the point in
+question.
+
+   
+
+£9
+
+ 
+
+% p. 66
+We have only asserted that the object defined in this way is a vector
+---we haven't proved it. To deserve the name, the components as
+defined must behave in all respects like Vector components. Suppose
+we have found certain values for the x, y, and z components, accord-
+ing to Eq. 76. If we then choose f1 in some fourth direction, the result
+given by Eq. 76 ought to prove consistent with the other three num-
+bers, because three components determine a vector uniquely. If you
+want to look into this point, Problem 2.24 will suggest a way to con-
+vince yourself that Eq. 76 truly defines a component of a vector.
+
+\section{Stokes' theorem}
+
+From the circulation around an infinitesimal patch of surface we
+can now work back to the circulation around the original large
+loop C:
+
+N N I',
+r=fCF-ds=Er,=2a.[7f] (77)
+i=1 i=1 '
+In the last step we merely multiplied and divided by a,-. Now observe
+what happens to the right-hand side as N is made enormous and all
+the a,~'s shrink. The quantity in brackets becomes (curl F) -13,,
+where fr, is the unit vector normal to the ith patch. So we have on
+the right the sum, over all patches that make up the entire surface S
+spanning C, of the product "patch area times normal component of
+(curl F)." This is nothing but the surface integral, over S, of the
+vector curl F:
+
+N  N A
+211,: 2 a,(curl F) -n, \rightarrow fs da - curl F (78)
+i=1 1
+
+i=l
+
+We thus find that:
+for-dszfscuriiv-da (79)
+
+The relation expressed by Eq. 79 is a mathematical theorem called
+Stokes' theorem. Note how it resembles Gauss's theorem, the diver-
+gence theorem, in structure. Stokes' theorem relates the line integral
+of a vector to the surface integral of the curl of the vector. Gauss's
+theorem (Eq. 51) relates the surface integral of a vector to the volume
+integral of the divergence of the vector. Stokes' theorem involves
+a surface and the curve that bounds it. Gauss's theorem involves a
+volume and the surface that encloses it.
+
+% p. 67
+\section{The curl in Cartesian coordinates}
+
+Equation 76 is the fundamental definition of curl F, stated with-
+out reference to any particular coordinate system. In this respect it
+is like our fundamental definition of divergence, Eq. 49. As in that
+case, we should like to know how to calculate curl F when the vector
+function F (x,y,z) is explicity given. To find the rule, we carry out
+the integration called for in Eq. 76, but we do it over a path of very
+simple shape, one that encloses a rectangular patch of surface paral-
+lel to the xy plane (Fig. 2.26). That is, we are taking ii = 2. In
+agreement with our rule about sign, the direction of integration
+around the rim must be clockwise as seen by someone looking up
+in the direction of 1'). In Fig. 2.27 we look down onto the rectangle
+from above.
+
+The line integral of A around such a path depends on the variation
+of A, with y and the variation of A, with x. For if A, had the same
+average value along the top of the frame, in Fig. 2.27, as along the
+bottom of the frame, the contribution of these two pieces of the whole
+line integral would obviously cancel. A similar remark applies to
+the side members. To the first order in the small quantities Ax and
+Ag. the difference between the average of A, over the top segment of
+path at y + Ag and its average over the bottom segment at y is
+
+('M') Ag (80)
+
+The argument is like the one we used with Fig. 2.1619.
+
+Ax BA, ( at midpoint of )
+
+A1' : AI 9 F
+(x y) + 2 ax bottom of frame
+
+(31)
+
+Ax 8A, A 6A, (at midpoint of )
+
+I=Az 9 *
+A (xy)+ 2 {ix + y By top offrame
+
+These are the average values referred to, to first order in the Tay1or's
+expansion. It is their difference, times the length of the path segment
+Ax, which determines their net contribution to the circulation. This
+contribution is - Ax Ay (8A,/By). The minus sign comes in because
+we are integrating toward the left at the top, so that if A, is more
+positive at the top, it results in a negative contribution to the circula-
+tion. The contribution from the sides is Ay Ax (BA,/Bx) and here
+the sign is positive, because if A, is more positive on the right, the
+result is a positive contribution to the circulation.
+
+% p. 68
+ 
+
+Thus, neglecting any higher powers of Ax and Ag, the line integral
+around the whole rectangle is
+
+LA-ds = (-Ax)(aa'/;')Ay + (Ay)(a§:")Ax
+= Ax Ay (ag:" - 3;') (82)
+
+Now Ax Ag is the magnitude of the area of the enclosed rectangle
+which we have represented by a vector in the z direction. Evidently
+the quantity
+
+8A,, 8A,
+ax ~ By (83)
+is the limit of the ratio
+Line integral around patch (84)
+
+Area of patch
+
+as the patch shrinks to zero size. If the rectangular frame had been
+oriented with its normal in the positive y direction, we would have
+found the expression
+
+6A, 8Az
+
+Bz Ex
+
+(85)
+
+for the limit of the corresponding ratio, and if the frame had been
+oriented with its normal in the x direction, like the frame on the right
+in Fig. 2.28, we would have obtained
+
+aA,, aA,,
+
+By az
+
+(86)
+
+Although we have considered only rectangles, our result is actually
+independent of the shape of the little patch and its frame, for reasons
+much the same as in the case of the integrals involved in the diver-
+gence theorem. For instance, it is clear that we can freely join dif-
+ferent rectangles to form other figures, because the line integrals
+along the merging sections of boundary cancel one another exactly
+(Fig. 2.29).
+
+We conclude that for any of these orientations, the limit of the
+ratio of circulation to area is independent of the shape of the patch
+
+% p. 69
+ 
+
+we choose. Thus we obtain as a general formula for the components
+of the vector curl F, when F is given as a function of x, y, and z:
+
+. (BF, BF,,) + 5., (BF, BE) ,. (BF,, BF,
+
+By Bz
+
+Bz Bx
+
+curlF=x +z---
+
+Bx By ) (87)
+
+You may find the following rule easier to remember than the formula
+itself: Make up a determinant like this:
+
+:2 9 2
+
+B B B
+--- - - 88
+Bx By Bz ( )
+F, F,, F,
+
+Expand it according to the rule for determinants, and you will get
+curl F as given by Eq. 87. Notice that the x component of curl F
+depends on the rate of change of F3 in the y direction and the nega-
+tive of the rate of change of F, in the z direction, and so on.
+
+The symbol V x, read as "del-cross," where V is interpreted as the
+"vector"
+2 §-x + 9% + 2 % (89)
+is often used in place of the name curl. If we write V x F and follow
+the rules for forming the components of a vector cross-product, we
+get automatically the vector, curl F. So curl F and V x F mean the
+same thing.
+
+\section{The physical meaning of the curl}
+
+The name "cur " reminds us that a vector field with a nonzero curl
+has circulation, or vorticity. Maxwell used the name rotation, and
+in German a similar name is still used, abbreviated rut. Imagine
+a velocity vector field G, and suppose that curl G is not zero. Then
+
+% p. 70
+the velocities in this field have something of this character: T:¢ or
+l:T superimposed, perhaps, on a general ffow in one direction. For
+instance the velocity field of water ffowing out of a bathtub generally
+acquires a circulation. Its curl is not zero over most of the surface.
+Something ffoating on the surface rotates as it moves along (see
+Probs. 2.16 and 2.26). In the physics of ffuid ffow, hydrodynamics
+and aerodynamics, this concept is of central importance.
+
+To make a "curl-meter" for an electric fie1d---at least in imagina-
+tion---we could fasten positive charges to a hub by insulating spokes,
+as in Fig. 2.30. Exploring an electric field with this device, we would
+find, wherever curl E is not zero, a tendency for the wheel to turn
+around the shaft. With a spring to restrain rotation, the amount of
+twist could be used to indicate the torque, which would be propor-
+tional to the component of the vector curl E in the direction of the
+shaft. If we can find the direction of the shaft for which the torque
+is maximum, and clockwise, that is the direction of the vector curl E.
+(Of course, we cannot trust the curl-meter in a field which varies
+greatly within the dimensions of the wheel itself.)
+
+What can we say, in the light of all this, about the electrostatic
+field E? The conclusion we can draw is a simple one: the curl-meter
+will always read zero! That follows from a fact we have already
+learned; namely, in the electrostatic field the line integral of E
+around any closed path is zero. Just to recall why this is so, remem-
+ber that the line integral of E between any two points such as P1 and
+P2 in Fig. 2.31 is independent of the path. As we bring the two points
+P1 and P2 close together, the line integral over the shorter path in the
+
+figure obviously vanishes---unless the final location is at a singularity
+such as a point charge, a case we can rule out. So the line integral
+
+must be zero over the closed loop in Fig. 2.31d. But now, if the cir-
+culation is zero around any closed path, it follows from Stokes'
+theorem that the surface integral of curl E is zero over a patch of any
+size, shape, or location. But then curl E must be zero everywhere,
+for if it were not zero somewhere we could devise a patch in that
+neighborhood to violate the conclusion. All this leads to the simple
+statement that in the electrostatic field E:
+
+curl E : 0 (everywhere) (90)
+
+Turning it around, one can say that Eq. 90 is a sufiicient condition for
+a field to be conservative, that is, for it to be describable as the gra-
+dient of some potential function.
+
+This test is easy to apply. When the vector function in Fig. 2.2
+was first introduced, it was said to represent a possible electrostatic
+
+% p. 71
+field. The components were specified by E, = Ky and E1, = Kx, to
+which we should add E2 : O to complete the description of a field
+in three-dimensional space. Calculating curl E we find:
+
+BE BE
+IE 9; = Z - jy =
+(cur ) By az 0
+6E, BEZ _
+(curl E), _ az - ax _ 0 (91)
+23E 29E
+IE 2 : 1' - 'T : --- =
+(cur ) ax By K K 0
+
+This tells us that E is the gradient of some scalar potential. Inciden-
+tally, this particular field E happens to have zero divergence, also:
+
+5E, 315,, BEZ _
+6x + 6g + Bz _
+
+0 (92)
+
+It therefore represents an electrostatic field in a charge-free region.
+On the other hand, the equally simple vector function defined by
+F, = Ky; F,, = -Kx; F; = 0, does not have zero curl. Instead,
+
+(curl F): = ---2K (93)
+
+Hence no electrostatic field could have this form. If you will sketch
+roughly the form of this field you will see at once that it has
+circulation.
+
+You can develop some feeling for these aspects of Vector functions
+by studying the two---dimensional fields pictured in Fig. 2.32. In four
+of these fields the divergence of the vector function is zero through-
+out the region shown. Try to identify the four. Divergence implies
+a net flux into, or out of, a neighborhood. It is easy to spot in certain
+patterns. In others you may be able to see at once that the diver-
+gence is zero. In three of the fields the curl of the vector function is
+zero throughout that portion of the field which is shown. Try to
+identify the three by deciding whether a line integral around any
+loop would or would not be zero, in each picture. That is the essence
+of curl. (After you have studied the pictures, think about these ques-
+tions before you compare your reasoning and your conclusions with
+the explanation given in Fig. 2.34 on a later page.)
+
+The curl of a vector field will prove to be a valuable tool later on
+when we deal with electric and magnetic fields whose curl is not zero.
+We have developed it at this point because the ideas involved are so
+close to those involved in the divergence. We may say that we have
+met two kinds of derivatives of a vector field. One kind, the diver-
+
+% p. 72
+% p. 73
+direction, 8F,/ax, and so on. The other kind, the curl, is a sort of
+"sideways derivative," involving the rate of change of F, as we move
+in the y or z direction.
+
+The relations called Gauss's theorem and Stokes' theorem are sum-
+marized in Fig. 2.33. The connection between the scalar potential
+function and the line integral of its gradient can also be looked on
+
+as a member of this family of theorems and is included in the third
+column.
+
+Fig. 2.33 Some vector relations summarized.
+
+ 
+
+IF-da =fdivFdo [A-ds = ]'curIA-da
+surface volume curve surface
+
+IN CARTESIAN COORDINATI
+
+_ _aFx OF 617,, _A6A _%
+d1vF- ax  az curlA - X(6yz az)
+=  «»c:;:«-::z>
+A %_6A,)
++z<6x By
+= VXA
