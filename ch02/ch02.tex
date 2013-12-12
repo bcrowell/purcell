@@ -147,49 +147,45 @@ $\pot(x,y,z)$ associated with the field in Fig. 1.6 would be the work per
 unit charge required to bring a unit positive test charge in from infin-
 ity to the point $(x,y,z)$ in the field of that structure of eight charges.
 
-\iffalse
-
 \section{Gradient of a scalar function}
 
 Given the electric field, we can find the electric potential function.
 But we can also proceed in the other direction; from the potential we
 can derive the field. It would appear from Eq. 7 that the field is in
-some sense the derivative of the potential function. To make this idea
-precise we introduce the gradient of a scalar function of position.
-Let f(x,y,z) be some continuous, differentiable function of the co-
-ordinates. With its partial derivatives af/ax, Bf/By, and Bf/Bz we
-can construct at every point in space a vector, the vector whose x, y, z
-components are equal to the respective partial derivatives.T This
-vector we call the gradient off, written grad f, or Vf.
-
+some sense the \emph{derivative} of the potential function. To make this idea
+precise we introduce the \emph{gradient} of a scalar function of position.
+Let $f(x,y,z)$ be some continuous, differentiable function of the co-
+ordinates. With its partial derivatives $\partial f/\partial x$, 
+$\partial f/\partial y$, and $\partial f/\partial z$,  we
+can construct at every point in space a vector, the vector whose $x$, $y$, $z$
+components are equal to the respective partial derivatives.\footnote{We
+remind the reader that a partial derivative with respect to $x$, of a function of
+$x$, $y$, $z$:, written simply $\partial f/\partial x$,
+means the rate of change of the function with respect to $x$
+with the other variables $y$ and $z$ held constant. More precisely,
+\begin{equation*}
+  \frac{\partial f}{\partial x} = \lim_{\Delta x\rightarrow0} \frac{f(x+\Delta x,y,z)-f(x,y,z)}{\Delta x}
+\end{equation*}
+As an example, if $f = x^2yz^3$,
+\begin{equation*}
+  \partial f/\partial x=2xyz^3 \qquad \partial f/\partial y=x^2z^3 \qquad \partial f/\partial z = 3x^2yz^2
+\end{equation*}
+} This
+vector we call the \emph{gradient} of $f$, written $\operatorname{grad} f$, or $\grad f$.
+\begin{framed}
 \begin{equation}
-(equation not yet converted)
+  \grad f = \xhat \frac{\partial f}{\partial x} + \yhat \frac{\partial f}{\partial y}
+          + \zhat \frac{\partial f}{\partial z}
 \end{equation}
-(12)
-
- 
-
-Vf is a vector that tells how the function f varies in the neighborhood
-of a point. Its x component is the partial derivative off with respect
-to x, a measure of the rate of change off as we move in the x direction.
-The direction of the vector Vf at any point is the direction in which
+\end{framed}
+\noindent $\grad f$ is a vector that tells how the function $f$ varies in the neighborhood
+of a point. Its $x$ component is the partial derivative off with respect
+to $x$, a measure of the rate of change of $f$ as we move in the $x$ direction.
+The direction of the vector $\grad f$ at any point is the direction in which
 one must move from that point to find the most rapid increase in the
-function f. Suppose we were dealing with a function of two variables
-only. x and y, so that the function could be represented by a surface
+function $f$. Suppose we were dealing with a function of two variables
+only, $x$ and $y$, so that the function could be represented by a surface
 in three dimensions. Standing on that surface at some point, we see
-
-T We remind the reader that a partial derivative with respect to x, of a function of
-x. y. :. written simply Pf/Bx. means the rate of change of the function with respect to x
-with the other variables y and : held constant. More precisely,
-
-8f 2 mm f(x + Ax,y,z) -f(x.y.z)
-Ex Ax\rightarrow0 Ax
-
-As an example. iff = x2yz3,
-
-if = 2x1 :3 -E = x2z3 if = 3x2yz2
-Bx By az
-
 % p. 40
 the surface rising in some direction, sloping downward in the opposite
 direction. There is a direction in which a short step will take us
@@ -198,32 +194,34 @@ gradient of the function is a vector in that direction of steepest ascent
 and its magnitude is the slope, measured in that direction.
 
 Figure 2.3 may help you to visualize this. Suppose some particular
-function of two coordinates x and y is represented by the surface
-f(x,y) sketched in Fig. 2.3a. At the location (x1,y1) the surface rises
-most steeply in a direction that makes an angle of about 80° with the
-positive x direction. The gradient of f(x,y), Vf, is a vector function
-of x and y. Its character is suggested in Fig. 2.319 by a number of
+function of two coordinates $x$ and $y$ is represented by the surface
+$f(x,y)$ sketched in Fig. 2.3a. At the location $(x_1,y_1)$ the surface rises
+most steeply in a direction that makes an angle of about $80\degunit$ with the
+positive $x$ direction. The gradient of $f(x,y)$, $\grad f$, is a vector function
+of $x$ and $y$. Its character is suggested in Fig. 2.3b by a number of
 vectors at various points in the two-dimensional space, including the
-point (x1,y1). The vector function Vf defined in Eq. 12 is simply an
+point $(x_1,y_1)$. The vector function $\grad f$ defined in Eq. 12 is simply an
 extension of this idea to three-dimensional space. [Be careful not to
-confuse Fig. 2.3a with real three-dimensional xyz space; the third
-coordinate there is the Value of the function f(x,y).]
+confuse Fig. 2.3a with real three-dimensional $xyz$ space; the third
+coordinate there is the value of the function $f(x,y)$.]
 
 As one example of a function in three-dimensional space, suppose
-f is a function of r only where r is the distance from some fixed
-point 0. On a sphere of radius r0 centered about 0, f = f(r0) is
-constant. On a slightly larger sphere of radius ro + dr it is also con-
-stant, with the Value f :- f(r0 + dr). If we want to make the change
-from f(r0) to f(r0 + dr), the shortest step we can make is to go
-radially (as from $A$ to B) rather than from $A$ to C, in Fig. 2.4. The
-"slope" off is thus greatest in the radial direction, so Vf at any point
-is a radially pointing vector. In fact Vf = 1*' (df/dr) in this case,
-i- denoting, for any point, a unit vector in the radial direction.
+$f$ is a function of $r$ only where $r$ is the distance from some fixed
+point $O$. On a sphere of radius $r_0$ centered about $O$, $f = f(r_0)$ is
+constant. On a slightly larger sphere of radius $r_0 + \der r$ it is also con-
+stant, with the value $f = f(r_0 + \der r)$. If we want to make the change
+from $f(r_0)$ to $f(r_0 + \der r)$, the shortest step we can make is to go
+radially (as from $A$ to $B$) rather than from $A$ to $C$, in Fig. 2.4. The
+``slope'' off is thus greatest in the radial direction, so $\grad f$ at any point
+is a radially pointing vector. In fact $\grad f = \hat{\vc{r}} (\der f/\der r)$ in this case,
+$\rhat$ denoting, for any point, a unit vector in the radial direction.
+
+\iffalse
 
 \section{Derivation of the field from the potential}
 
 It is now easy to see that the relation of the scalar function f to the
-vector function Vf is the same, except for a minus sign, as the relation
+vector function $\grad f$ is the same, except for a minus sign, as the relation
 of the potential (1) to the field $\vc{E}$. Consider the Value of (p at two nearby
 
 points, (x,y,z) and (x + dx, y + dy, z + dz). The change in (p, going
