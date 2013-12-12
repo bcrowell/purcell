@@ -614,7 +614,7 @@ might be brought into their vicinity. We know how to calculate the
 resultant force on this charge, given its position which we may specify
 by the coordinates $x$, $y$, $z$. The force on the charge $q_0$ is:
 \begin{equation}
-  \vc{F} = \sum_{j=1}^N \frac{q_0q_j\hat\vc{r}}_{0j}}{r_{0j}^2}
+  \vc{F} = \sum_{j=1}^N \frac{q_0q_j\hat{\vc{r}}_{0j}}{r_{0j}^2}
 \end{equation}
 where $\vc{r}_{0j}$ is the vector from the $j$th charge in the system to the point
 $(x,y,z)$. The force is proportional to $q_0$, so if we divide out $q_0$ we
@@ -625,7 +625,7 @@ from the $q_1$, \ldots , $q_N$, and use the symbol $\vc{E}$ for it. The charges
 $q_1$, \ldots , $q_N$ we call sources of the field. We may take as the definition
 of the electric field $\vc{E}$ of a charge distribution, at the point $(x,y,z)$
 \begin{equation}
-  \vc{E}(x,y,z) = \sum_{j=1}^N \frac{q_j\hat\vc{r}}_{0j}}{r_{0j}^2}
+  \vc{E}(x,y,z) = \sum_{j=1}^N \frac{q_j\hat{\vc{r}}_{0j}}{r_{0j}^2}
 \end{equation}
 Fig. 1.8 illustrates the vector addition of the field of a point charge
 of $+2$ esu to the field of a point charge of $-1$ esu, at a particular
@@ -755,17 +755,17 @@ If the source of the electric field is to be a continuous charge dis-
 tribution rather than point charges, we have only to replace the sum
 in Eq. 13 with the appropriate integral. The integral gives the elec-
 tric field at $(x,y,z)$, which is produced by charges at other points
-$(x',y',z').
+$(x',y',z')$.
 \begin{equation}
   \vc{E}(x,y,z) = \int \frac{\rho(x',y',z')\hat{\vc{r}}\der x' \der y' \der z'}{r^2}
 \end{equation}
 This is a volume integral. Holding $(x,y,z)$ fixed we let the variables
 of integration $x'$, $y'$, and $z'$ range over all space containing charge,
 thus summing up the contributions of all the bits of charge. The
-unit vector $\hat\vc{r}}$ points from $(x', y', z')$ to $(x,y,z)$ --- 
+unit vector $\hat{\vc{r}}$ points from $(x', y', z')$ to $(x,y,z)$ --- 
 unless we want to put
 a minus sign before the integral in which case we may reverse the
-direction of $\hat\vc{r}}$. It is always hard to keep signs straight. Let's re-
+direction of $\hat{\vc{r}}$. It is always hard to keep signs straight. Let's re-
 member that the electric field points away from a positive source
 (Fig. 1.12).
 
