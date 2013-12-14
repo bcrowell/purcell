@@ -645,64 +645,58 @@ $Q=4\pi r_0^2\sigma$:
   \der W = \frac{Q^2\der r}{2 r_0^2}
 \end{equation}
 
-\iffalse
 
 \section{Energy associated with an electric field}
 
 Notice that the only result of shrinking the sphere, so far as the
-electric field is concerned, is to create the field strength 47m in the
-shell of space between ro - dr and r0, where the field had previously
+electric field is concerned, is to create the field strength $4\pi\sigma$ in the
+shell of space between $r_0-\der r$ and $r_0$, where the field had previously
 been zero. In all other parts of space the field remains exactly as
 before. This section of field has been created, one may say, at the
-cost of the work dW. By comparing numbers we see that the cost
-
-in work dW can be expressed in terms of the new volume do occupied
+cost of the work $\der W$. By comparing numbers we see that the cost
+in work $\der W$ can be expressed in terms of the new volume $\der v$ occupied
 by field as
-
 \begin{equation}
-(equation not yet converted)
+  \der W = \frac{E^2}{8\pi}\der v
 \end{equation}
-dW = _ do (35)
 
 This is an instance of a general theorem which we shall not prove
-now: The potential energy U of a system of charges, which is the total
+now: \emph{The potential energy $U$ of a system of charges, which is the total
 work required to assemble the system, can be calculated from the electric
-field itself simply by assigning an amount of energy (E2/877) do to
-every volume element do and integrating over all space where there
-is electric field.
-
-1
-U : 8? EntireE2 do 
-field
-
-E2 is a scalar quantity of course: E2 E E - E.
+field itself simply by assigning an amount of energy $(E^2/8\pi)\der v$ to
+every volume element $\der v$ and integrating over all space where there
+is electric field.}
+\begin{framed}
+\begin{equation}
+U = \frac{1}{8\pi}\int_{\text{Entire\\field}} E^2\der v
+\end{equation}
+\end{framed}
+\noindent $E^2$ is a scalar quantity of course: $E^2\equiv\vc{E}\cdot\vc{E}$.
 
 Thus we could compute the work required for the original assembly
-of our spherical bubble of charge in Fig. 2.14 as follows: E = Q/r2,
-r>ro: E =0,r<ro, so
-
-1 ' _ 1 QOQZ . _ Q2
+of our spherical bubble of charge in Fig. 2.14 as follows: $E = Q/r2$,
+$r>r_0$; $E =0$, $r<r_0$, so
 \begin{equation}
-(equation not yet converted)
+  U = \frac{1}{8\pi}\int E^2\der v = \frac{1}{8\pi}\int_{r_0}^\infty \frac{Q^2}{r^4}\cdot 4\pi r^2\;\der r
+       = \frac{Q^2}{2r_0}
 \end{equation}
-U:87fE2dc_87r0rT 47rr2dr_~2TO (37)
 The same result is obtained, by calculating the work required to
-shrink the sphere from infinite radius down to a final radius ro, using
+shrink the sphere from infinite radius down to a final radius $r_0$, using
 Eq. 34 as follows:
-
-U:£:°_Q2d' :fr°°gd1_ff (33)
-
-2r2 0 2r2 _ 2r0
-
- 
+\begin{equation}
+  U = \int_{\infty}^{r_0}-\frac{Q^2\der r}{2 r^2} = 
+    = \int_{r_0}^\infty \\frac{Q^2\der r}{2 r^2}
+    = \frac{Q^2}{2r_0}
+\end{equation}
 
 % p. 52
-Some people like to think of this energy as "stored" in the field.
+
+Some people like to think of this energy as ``stored'' in the field.
 The system being conservative, that amount of energy can of course
 be recovered by allowing the charges to go apart, so it is nice to think
-of the energy as "being somewhere" meanwhile. Our accounting
+of the energy as ``being somewhere'' meanwhile. Our accounting
 comes out right if we think of it as stored in space with a density of
-E2/87-r, in ergs/cm3. There is no harm in this, but in fact we have no
+$E^2/8\pi$, in $\zu{ergs}/\cmunit^3$. There is no harm in this, but in fact we have no
 way of identifying, quite independently of anything else, the energy
 stored in a particular cubic centimeter of space. Only the total
 energy is physically measurable, that is, the work required to bring
@@ -719,72 +713,54 @@ behavior of charged matter and electromagnetic radiation.
 
 We have been talking about potential energy and about electric
 potential. Remember that these are quite different things. The potential
-energy U of a stationary system of charges is the work required
+energy $U$ of a stationary system of charges is the work required
 to assemble it out of its parts, energy which we may think of as stored
 in the assembled system. It is a single scalar quantity and a property
-of the system as a whole. The electric potential cp is a function of
+of the system \emph{as a whole}. The electric potential $\pot$ is a function of
 position in space, for a given distribution of electric charges. It is
 expressed in units of ergs per esu, or statvolts. The difference between
-the values of (p at two points in space is the work per unit
+the values of $\pot$ at two points in space is the work per unit
 charge required to transport charge from one place to the other.
 
-To emphasize the distinction between (1) and U, let us write Eq. 36
-in terms of (1) rather than $\vc{E}$. Since E = -V\pot we have
-
+To emphasize the distinction between $\pot$ and $U$, let us write Eq. 36
+in terms of $\pot$ rather than $\vc{E}$. Since $\vc{E} = -\grad\pot$ we have
 \begin{equation}
-(equation not yet converted)
+  U = \frac{1}{8\pi}\int_\text{All\\space} |\grad\pot|^2\;\der v
 \end{equation}
-1
-U=§ Au |V<p|2dv (39)
-space
 
 There is another way to calculate the stored energy. We learned
 early in Chap. 1 that the energy required to assemble several discrete
-point charges, ql, . . . , q,-, . . . , was given by Eq. 1.9:
-
+point charges, $q_1$, \ldots , $q_j$, \ldots , was given by Eq. 1.9:
 \begin{equation}
-(equation not yet converted)
+  U = \frac{1}{2} \sum_{j=1}^N \sum_{k\ne j} \frac{q_jq_k}{r_{jk}}
 \end{equation}
-U =  2 'W (40)
-
-1:1 less; '1'"
-
 % p. 53
 Let's write this as follows:
 \begin{equation}
-(equation not yet converted)
+  U = \frac{1}{2} \sum_{j=1}^N q_j \left[\sum_{k\ne j} \frac{q_k}{r_{jk}}\right]
 \end{equation}
-1
-U=32m[23ff MD
-
 and look at the thing in brackets. Each term in that sum is the contribution
-of one of the charges to the electric potential cp at the location
-of q,-, so the entire sum, which we can call $\pot$,~, is the potential at
-q,- due to all other charges. In this way we can express U as: '
-
+of one of the charges to the electric potential $\pot$ at the location
+of $q_j$, so the entire sum, which we can call $\pot_j$, is the potential at
+$q_j$ due to \emph{all other} charges. In this way we can express $U$ as:
 \begin{equation}
-(equation not yet converted)
+  U = \frac{1}{2}\sum_j q_j\pot_j
 \end{equation}
-1
-U=§Z%% on
-J
-
-Now if we have a continuous charge distribution p(x,y,z) instead of
+Now if we have a continuous charge distribution $\rho(x,y,z)$ instead of
 a set of point charges, we merely replace the sum in Eq. 42 by the
-
 integral:
+\begin{framed}
 \begin{equation}
-(equation not yet converted)
+  U = \frac{1}{2}\int \rho \pot \:\der v  
 \end{equation}
-
-U = %fp(p do (43)
-
-Here the qualification that (p is due to all other charges is no longer
-needed, for the charge element analogous to q,-, which is pdv, is
-always infinitesimal. So (p in Eq. 43 is the electric potential for the
-
-whole system, q:(x,y,z). Equation 43 is of course equivalent to
+\end{framed}
+Here the qualification that $\pot$ is due to \emph{all other} charges is no longer
+needed, for the charge element analogous to $q_j$, which is $\rho\der v$, is
+always infinitesimal. So $\pot$ in Eq. 43 is \emph{the} electric potential for the
+whole system, $\pot(x,y,z)$. Equation 43 is of course equivalent to
 Eq. 39 and to Eq. 36.
+
+\iffalse
 
 \section{Divergence of a vector function}
 
@@ -1162,7 +1138,7 @@ cylinder we get the result required by the fundamental relation Eq. 54.
 \section{The Laplacian}
 
 We have now met two scalar functions related to the electric field,
-the potential function (p and the divergence, $\div\vc{E}$. In Cartesian coordinates
+the potential function $\pot$ and the divergence, $\div\vc{E}$. In Cartesian coordinates
 the relationships are expressed as:
 
 \begin{equation}
@@ -1178,14 +1154,14 @@ Bx Ely az
 % p. 60
 Equation 64 shows that the x component of $\vc{E}$ is E, = -a$\pot$/ax.
 Substituting this and the corresponding expressions for $E_y$ and E,
-into Eq. 65, we get a relation between $\div\vc{E}$ and (p:
+into Eq. 65, we get a relation between $\div\vc{E}$ and $\pot$:
 
 \begin{equation}
 (equation not yet converted)
 \end{equation}
 divE= -div gradqp=-(i"_+ ff+ 82¢') (66)
 
-The operation on (p which is indicated by Eq. 66 except for the minus
+The operation on $\pot$ which is indicated by Eq. 66 except for the minus
 sign we could call "div grad," or "taking the divergence of the
 gradient of . . . ." The symbol used to represent this operation is V2,
 called the Laplacian operator, or just the Laplacian. The expression
@@ -1242,7 +1218,7 @@ and farrl"
 \section{Laplace 's equation}
 
 Wherever p = 0, that is, in all parts of space containing no electric
-charge, the electric potential (p has to satisfy the equation
+charge, the electric potential $\pot$ has to satisfy the equation
 
 \begin{equation}
 (equation not yet converted)
@@ -1256,9 +1232,9 @@ this equation. The class of functions that satisfy Laplace's equation
 are called harmonic functions. They have some remarkable prop-
 erties, one of which is this: If $\pot$(x,y,z) satisfies Laplace's equation,
 then the average value of q) over the surface of any sphere (not necessarily
-a small sphere) is equal to the value of (p at the center of the
+a small sphere) is equal to the value of $\pot$ at the center of the
 sphere. We can easily prove that this must be true of the electric
-potential (p, in regions containing no charge. Consider a sphere S
+potential $\pot$, in regions containing no charge. Consider a sphere S
 in the field of a point charge q which lies outside the sphere, as in
 Fig. 2.21. Now imagine some test charge of amount q' spread uniformly
 over this sphere. The work required to bring in q' and distribute

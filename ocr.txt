@@ -2221,9 +2221,9 @@ a set of point charges, we merely replace the sum in Eq. 42 by the
 integral:
 U = %fp(p do (43)
 
-Here the qualification that (p is due to all other charges is no longer
+Here the qualification that $\pot$ is due to all other charges is no longer
 needed, for the charge element analogous to q,-, which is pdv, is
-always infinitesimal. So (p in Eq. 43 is the electric potential for the
+always infinitesimal. So $\pot$ in Eq. 43 is the electric potential for the
 
 whole system, q:(x,y,z). Equation 43 is of course equivalent to
 Eq. 39 and to Eq. 36.
@@ -2545,7 +2545,7 @@ cylinder we get the result required by the fundamental relation Eq. 54.
 2.12 The Laplacian
 
 We have now met two scalar functions related to the electric field,
-the potential function (p and the divergence, div E. In Cartesian coordinates
+the potential function $\pot$ and the divergence, div E. In Cartesian coordinates
 the relationships are expressed as:
 
 E: -gradqo= _(,2%';3+yg-:+2a;:) (64)
@@ -2558,11 +2558,11 @@ Bx Ely az
 % p. 60
 Equation 64 shows that the x component of E is E, = -a<p/ax.
 Substituting this and the corresponding expressions for E,, and E,
-into Eq. 65, we get a relation between div E and (p:
+into Eq. 65, we get a relation between div E and $\pot$:
 
 divE= -div gradqp=-(i"_+ ff+ 82¢') (66)
 
-The operation on (p which is indicated by Eq. 66 except for the minus
+The operation on $\pot$ which is indicated by Eq. 66 except for the minus
 sign we could call "div grad," or "taking the divergence of the
 gradient of . . . ." The symbol used to represent this operation is V2,
 called the Laplacian operator, or just the Laplacian. The expression
@@ -2610,7 +2610,7 @@ and farrl"
 2.13 Laplace 's Equation
 
 Wherever p = 0, that is, in all parts of space containing no electric
-charge, the electric potential (p has to satisfy the equation
+charge, the electric potential $\pot$ has to satisfy the equation
 
 V2q>: 0 (71)
 
@@ -2621,9 +2621,9 @@ this equation. The class of functions that satisfy Laplace's equation
 are called harmonic functions. They have some remarkable prop-
 erties, one of which is this: If <p(x,y,z) satisfies Laplace's equation,
 then the average value of q) over the surface of any sphere (not necessarily
-a small sphere) is equal to the value of (p at the center of the
+a small sphere) is equal to the value of $\pot$ at the center of the
 sphere. We can easily prove that this must be true of the electric
-potential (p, in regions containing no charge. Consider a sphere S
+potential $\pot$, in regions containing no charge. Consider a sphere S
 in the field of a point charge q which lies outside the sphere, as in
 Fig. 2.21. Now imagine some test charge of amount q' spread uniformly
 over this sphere. The work required to bring in q' and distribute
@@ -3188,7 +3188,7 @@ of the given field.
 2.2 Consider the system of two charges shown in Fig. 2.6. Let z be the
 coordinate along the line on which the two charges lie, with z = 0 at the location
 of the positive charge. Make a plot of the potential q) along this line,
-plotting (p in statvolts against z in centimeters, from z = -5 to z : 15.
+plotting $\pot$ in statvolts against z in centimeters, from z = -5 to z : 15.
 
 2.3 A small sphere of radius r is placed at the center of a larger sphere of
 radius R. The spheres carry charges q and Q respectively, spread uniformly
@@ -3203,7 +3203,7 @@ Calculate the potential for all points on the x axis, for x > 0.
 
 2.5 On each of the three infinite planes at = -a, x = 0, and x = a there is
 a uniform surface charge of the same density, 0. Find the electric field and
-the potential for all space, taking (p = 0 at x = 0.
+the potential for all space, taking $\pot$ = 0 at x = 0.
 
 2.6 For the cylinder of uniform charge density in Fig. 2.20:
 
@@ -3305,7 +3305,7 @@ will be concerned mainly with curl v. Consider the special family of time-
 independent ffow patterns in which the ffow is symmetrical about an axis and
 v is always circumferentially directed. That is, v at any point is a vector perpendicular
 to a plane containing that point and the axis. The axial symmetry
-makes cylindrical polar coordinates z, r, and (p appropriate. Assume as a
+makes cylindrical polar coordinates z, r, and $\pot$ appropriate. Assume as a
 further restriction that v is a function of r only. Then any ffow of this type can
 be described by v = tiw(r), where (3) means a unit vector perpendicular to 1'- and
 to 2. Starting from the fundamental definition of curl v in terms of the line
@@ -3536,7 +3536,7 @@ perhaps by Stephen Gray's silk threads. The total charge of each
 object, by which we mean the net excess of positive over negative
 charge, is fixed because there is no way for charge to leak on or off.
 We denote it by Qk, for the kth conductor. Each object can also be
-characterized by a particular value (pk of the electric potential function
+characterized by a particular value $\pot$k of the electric potential function
 cp. We say that conductor 2 is "at the potential cpg." With a
 system like the one shown, where no physical objects stretch out to
 infinity, it is usually convenient to assign the potential zero to points
@@ -3547,7 +3547,7 @@ the kind of system in which the test charge needs to be kept small, a
 point raised in Sec. 1.7.)
 
 Because the surface of a conductor in Fig. 3.2 is necessarily a surface
-of constant potential, the electric field, which is -grad (p, must
+of constant potential, the electric field, which is -grad $\pot$, must
 be perpendicular to the surface at every point on the surface. Pro-
 ceeding from the interior of the conductor outward, we find at the surface
 an abrupt change in the electric field; E is not zero outside the
@@ -3636,8 +3636,8 @@ general nature of the mathematical problem such a system presents.
 3.3 The General Electrostatic Problem; Uniqueness Theorem
 
 We can state the problem in terms of the potential function q),
-for if (p can be found we can at once get E from it. Everywhere outside
-the conductors (p has to satisfy the partial dilferential equation
+for if $\pot$ can be found we can at once get E from it. Everywhere outside
+the conductors $\pot$ has to satisfy the partial dilferential equation
 we met in Chap. 2, Laplace's equation: V2<p -_- 0. Written out in
 Cartesian coordinates, Laplace's equation reads,
 
@@ -3652,7 +3652,7 @@ or other constant-potential "power supplies") Then our solution
 <p(x,y,z) has to assume the correct value at all points on each of the
 surfaces. These surfaces in their totality bound the region in which
 qa is defined, if we include a large surface "at infinity," where we
-require (p to approach zero. Sometimes the region of interest is
+require $\pot$ to approach zero. Sometimes the region of interest is
 totally enclosed by a conducting surface; then, we can assign this
 conductor a potential and ignore anything outside it. In either case,
 we have a typical boundary-value problem, in which the value the
@@ -3663,7 +3663,7 @@ One might, instead, have specified the total charge on each con-
 ductor, Qk. (We could not specify arbitrarily all charges and po-
 tentials; that would overdetermine the problem.) With the charges
 specified, we have in effect fixed the value of the surface integral of
-grad (p over the surface of each conductor. This gives the mathematical
+grad $\pot$ over the surface of each conductor. This gives the mathematical
 problem a slightly different aspect. Or one can "mix" the
 two kinds of boundary conditions.
 
@@ -3697,7 +3697,7 @@ satisfy Eq. 4. Call this function W:
 W<x.y.z> = «p<x,y,z> - 4«<x,y.z> <5)
 
 Of course, W does not satisfy the boundary conditions. In fact, at
-the surface of every conductor, W is zero, because gb and (p take on
+the surface of every conductor, W is zero, because gb and $\pot$ take on
 the same value, (pk, at the surface of a conductor k. Thus Wis a solution
 of another electrostatic problem, one with the same conductors
 but with all conductors held at zero potential. We can now assert
@@ -4214,7 +4214,7 @@ likely to meet in future study of physics or applied mathematics.
 First, an elegant method of analysis, called conformal mapping,
 is based on the theory of functions of a complex variable. Unfor-
 tunately it applies only to two-dimensional systems. These are systems
-in which (p depends only on x and y, for example, all conducting
+in which $\pot$ depends only on x and y, for example, all conducting
 boundaries being cylinders (in the general sense) with elements
 running parallel to z. Laplace's equation then reduces to
 
@@ -8213,7 +8213,7 @@ of the element dl and the radius vector r from that element to
 the point where the field B is to be found. The contribution to B
 from any short segment of wire dl can be taken to be a vector
 perpendicular to the plane containing dl and r, of magnitude
-I dl sin (p/1'20, where (p is the angle between dl and r. This can be
+I dl sin (p/1'20, where $\pot$ is the angle between dl and r. This can be
 
 written compactly using the cross-product, and is illustrated in
 Fig. 6.14.
@@ -11257,7 +11257,7 @@ cos - _L- (from E 23) (26)
 , /R2 + w2L2
 
 In Fig. 8.5 the oscillations of 8 and I are plotted on the same graph.
-Since (p is a negative angle, the current reaches its maximum a bit
+Since $\pot$ is a negative angle, the current reaches its maximum a bit
 later than the electromotive force. One says, "The current lags the
 voltage in an inductive circuit." The quantity wL which has the
 dimensions of resistance and can be expressed in ohms is called the
