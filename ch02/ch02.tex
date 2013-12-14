@@ -760,78 +760,63 @@ always infinitesimal. So $\pot$ in Eq. 43 is \emph{the} electric potential for t
 whole system, $\pot(x,y,z)$. Equation 43 is of course equivalent to
 Eq. 39 and to Eq. 36.
 
-\iffalse
-
 \section{Divergence of a vector function}
 
 The electric field has a definite direction and magnitude at every
 point. It is a vector function of the coordinates, which we have often
-indicated by writing E(x,y,z). What we are about to say can apply
+indicated by writing $\vc{E}(x,y,z)$. What we are about to say can apply
 to any vector function, not just to the electric field; we shall use
-another symbol, F(x,y,z), as a reminder of that. In other words, we
-shall talk mathematics rather than physics for a while and call F
+another symbol, $\vc{F}(x,y,z)$, as a reminder of that. In other words, we
+shall talk mathematics rather than physics for a while and call $\vc{F}$
 simply a general vector function. We'll stick to three dimensions,
 however.
 
-Consider a finite volume V of some shape, the surface of which we
-shall denote by S. We are already familiar with the notion of the total
-flux <1) emerging from S. It is the value of the surface integral of F
-extended over the whole of S:
-
+Consider a finite volume $V$ of some shape, the surface of which we
+shall denote by $S$. We are already familiar with the notion of the total
+flux $\Phi$ emerging from $S$. It is the value of the surface integral of $\vc{F}$
+extended over the whole of $S$:
 \begin{equation}
-(equation not yet converted)
+  \Phi = \int_S \vc{F}\cdot\der\vc{a}
 \end{equation}
-<I>=fSF~da (44)
-
 % p. 54
-In the integrand dais the infinitesimal vector whose magnitude is the
-area of a small element of S and whose direction is the outward-
-pointing normal to that little patch of surface, indicated in Fig. 2150.
+In the integrand $\der\vc{a}$ is the infinitesimal vector whose magnitude is the
+area of a small element of $S$ and whose direction is the outward-pointing
+normal to that little patch of surface, indicated in Fig. 2.15a.
 
-Now imagine dividing V into two parts by a surface, or a dia-
-phragm, D that cuts through the "balloon" S, as in Fig. 2.1519.
-Denote the two parts of V by V1 and V2 and, treating them as distinct
+Now imagine dividing $V$ into two parts by a surface, or a diaphragm,
+$D$ that cuts through the ``balloon'' $S$, as in Fig. 2.15b.
+Denote the two parts of $V$ by $V_1$ and $V_2$ and, treating them as distinct
 volumes, compute the surface integral over each separately. The
-boundary surface S1 of V1 includes D, and so does 82. It is pretty
+boundary surface $S_1$ of $V_1$ includes $D$, and so does $S_2$. It is pretty
 obvious that the sum of the two surface integrals
-
 \begin{equation}
-(equation not yet converted)
+  \int_{S_1} \vc{F}\cdot\der \vc{a}_1 + \int_{S_2} \vc{F}\cdot\der \vc{a}_2
 \end{equation}
-LIF-da1+fS2F-dag (45)
-
 will equal the original integral over the whole surface expressed in
-Eq. 44. The reason is that any given patch on D contributes with
+Eq. 44. The reason is that any given patch on $D$ contributes with
 one sign to the first integral and the same amount with opposite sign
-to the second, the "outward" direction in one case being the "inward"
-direction in the other. In other words, any flux out of V1, through
-this surface D, is flux into V2. The rest of the surface involved is
+to the second, the ``outward'' direction in one case being the ``inward''
+direction in the other. In other words, any flux \emph{out} of $V_1$, through
+this surface $D$, is flux \emph{into} $V_2$. The rest of the surface involved is
 identical to that of the original entire volume.
 
 We can keep on subdividing until our internal partitions have
-divided Vinto a large number of parts, V1, . . . , V,~, . . . , VN, with sur-
-
-faces S1, . . . , S1, . . . , SN. No matter how far this is carried we can
+divided $V$ into a large number of parts, $V_1$, \ldots, $V_i$, \ldots , $V_N$, with surfaces
+$S_1$, \ldots, $S_i$, \ldots , $S_N$. No matter how far this is carried we can
 still be sure that
-
 \begin{equation}
-(equation not yet converted)
+  \sum_{i=1}^N \int_{S_i} \vc{F}\cdot\der \vc{a}_i = \int_S \vc{F}\cdot\der \vc{a} = \Phi
 \end{equation}
-;N1fSiF-da,:fSF-da=<I> (46)
 
-What we are after is this: In the limit as N becomes enormous we
+What we are after is this: In the limit as $N$ becomes enormous we
 want to identify something which is characteristic of a particular
-
 small region---and ultimately, of the neighborhood of a point. Now
 the surface integral
-
 \begin{equation}
-(equation not yet converted)
+  \int_{S_i} \vc{F}\cdot\der \vc{a}_i
 \end{equation}
-Sir - da, (47)
-
 over one of the small regions, is not such a quantity, for if we divide
-everything again, so that N becomes 2N, this integral divides into two
+everything again, so that $N$ becomes $2N$, this integral divides into two
 terms, each smaller than before since their sum is constant. In other
 words, as we consider smaller and smaller volumes in the same
 locality, the surface integral over one such volume gets steadily
@@ -839,43 +824,41 @@ smaller. But we notice that when we divide, the volume is also
 divided into two parts which sum to the original volume. This suggests
 that we look at the ratio of surface integral to volume for an
 element in the subdivided space:
-
 \begin{equation}
-(equation not yet converted)
+  \frac{\int_{S_i} \vc{F}\cdot\der \vc{a}_i}{V_i}
 \end{equation}
- dai (48)
 
 % p. 55
-It seems plausible that for N large enough, that is, for sufficiently
+
+It seems plausible that for $N$ large enough, that is, for sufficiently
 fine-grained subdivision, we can halve the volume every time we
 halve the surface integral so that we shall find that with continuing
 subdivision of any particular region this ratio approaches a limit. If
-so, this limit is a property characteristic of the vector function F in
-that neighborhood. We call it the divergence of F, written div F.
-That is, the value of div F at any point is defined as:
-
+so, this limit is a property characteristic of the vector function $\vc{F}$ in
+that neighborhood. We call it the divergence of $\vc{F}$, written $\div\vc{F}$.
+That is, the value of $\div\vc{F}$ at any point is defined as:
 \begin{equation}
-(equation not yet converted)
+  \div\vc{F}\equiv \lim_{V_i\rightarrow0} \frac{1}{V_i} \int_{S_i} \vc{F}\cdot\der \vc{a}_i
 \end{equation}
-div F 2  - da, (49)
-where V, is a volume including the point in question, and S1, over
-which the surface integral is taken, is the surface of V,-. We must include
+where $V_i$ is a volume including the point in question, and $S_i$, over
+which the surface integral is taken, is the surface of $V_i$. We must include
 the proviso that the limit exists and is independent of our
 method of subdivision. For the present we shall take that for
 granted.
 
-The meaning of div F can be expressed in this way: div F is the
-flux out of V,, per unit of volume, in the limit of infinitesimal Vi. It
+The meaning of $\div\vc{F}$ can be expressed in this way: $\div\vc{F}$ is the
+flux out of $V_i$, per unit of volume, in the limit of infinitesimal $V_i$. It
 is a scalar quantity, obviously. It may vary from place to place, its
-value at any particular location (x,y,z) being the limit of the ratio in
-Eq. 49 as V, gets chopped smaller and smaller while always enclosing
-
-the point (x,y,z). So div F is simply a scalar function of the
+value at any particular location $(x,y,z)$ being the limit of the ratio in
+Eq. 49 as $V_i$ gets chopped smaller and smaller while always enclosing
+the point $(x,y,z)$. So $\div\vc{F}$ is simply a scalar function of the
 coordinates.
+
+\iffalse
 
 \section{Gauss's theorem and the differential form of Gauss's law}
 
-If we know this scalar function of position div F, we can work our
+If we know this scalar function of position $\div\vc{F}$, we can work our
 
 way right back to the surface integral over a large volume: We first
 write Eq. 46 in this way:
@@ -884,7 +867,7 @@ N l: SF-da,-J
 LF-da =:1fS'F.da,:21V,~  
 
 In the limit N \rightarrow 00, V,-, \rightarrow,0, the term in brackets becomes the divergence
-of F and the sum goes into a volume integral:
+of $\vc{F}$ and the sum goes into a volume integral:
 
 \begin{equation}
 (equation not yet converted)
@@ -936,7 +919,7 @@ electric field.
 While Eq. 49 is the fundamental definition of divergence, independent
 of any system of coordinates, it is useful to know how to
 calculate the divergence of a vector function when we are given its
-explicit form. Suppose a vector function F is expressed as a function
+explicit form. Suppose a vector function $\vc{F}$ is expressed as a function
 of Cartesian coordinates x, y, and z. That means that we have three
 scalar functions, F,(x,y,z), F,,(x,y,z), and Fz(x,y,z). We'll take the
 region V, in the shape of a little rectangular box, with one corner at
@@ -1063,7 +1046,7 @@ ax ay Eiz
 
 (59)
 
-If div F has a positive value at some point, we find---thinking of F
+If $\div\vc{F}$ has a positive value at some point, we find---thinking of F
 as a velocity field---a net "outffow" in that neighborhood. For in-
 stance, if all three partial derivatives in Eq. 59 are positive at a
 point P, we might have a vector field in that neighborhood something
@@ -1071,7 +1054,7 @@ like that suggested in Fig. 2.19. But the field could look quite different
 and still have positive divergence, for any vector function G
 such that div G = 0 could be superimposed. Thus one or two of the
 three partial derivatives could be negative and we might still have
-div F > 0. The divergence is a quantity that expresses only one
+$\div\vc{F}$ > 0. The divergence is a quantity that expresses only one
 aspect of the spatial variation of a vector field.
 
 Let's apply this to an electric field that is rather easy to visualize.
@@ -1393,7 +1376,7 @@ i=1 i=1
 
 Here, too, we can continue indefinitely to subdivide, by adding
 new bridges, seeking in the limit to arrive at a quantity characteristic
-of the field F in a local neighborhood. When we subdivide the loops,
+of the field $\vc{F}$ in a local neighborhood. When we subdivide the loops,
 we make loops with smaller circulation, but also with smaller area.
 So it is natural to consider the ratio of loop circulation to loop area,
 just as we considered in Sec. 2.9, the ratio of flux to volume. How-
@@ -1649,7 +1632,7 @@ ratio of circulation to area is independent of the shape of the patch
  
 
 we choose. Thus we obtain as a general formula for the components
-of the vector $\curl\vc{F}$, when F is given as a function of x, y, and z:
+of the vector $\curl\vc{F}$, when $\vc{F}$ is given as a function of x, y, and z:
 
 \begin{equation}
 (equation not yet converted)
