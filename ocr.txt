@@ -907,7 +907,7 @@ Consider some electric field in space and in this space some arbitrary
 closed surface, like a balloon of any shape. Figure 1.13 shows
 such a surface, the field being suggested by a few field lines. Now
 divide the whole surface into little patches which are so small that
-over any one patch the surface is practically ffat and the vector field
+over any one patch the surface is practically flat and the vector field
 does not change appreciably from one part of a patch to another. In
 other words, don't let the balloon be too crinkly, and don't let its
 surface pass right through a singularity"? of the field such as a point
@@ -1232,7 +1232,7 @@ in agreement with Eq. 26.
 1.13 Field of an Infinite Flat Sheet of Charge
 
 Electric charge distributed smoothly in a thin sheet is called a
-surface charge distribution. Consider a ffat sheet infinite in extent,
+surface charge distribution. Consider a flat sheet infinite in extent,
 with the constant surface charge density 0. The electric field on
 either side of the sheet, whatever its magnitude may turn out to be,
 must surely point perpendicular to the plane of the sheet; there is no
@@ -1813,7 +1813,7 @@ to get back to the field E. In this case,
 Let us study, as a concrete example, the electric potential and field
 around a uniformly charged disk. This is a charge distribution like
 that discussed in Sec. 1.10, except that it has a limited extent. The
-ffat disk of radius a in Fig. 2.7 carries a positive charge spread over its
+flat disk of radius a in Fig. 2.7 carries a positive charge spread over its
 surface with the constant density a, in esu/cm2. (This is a single sheet
 of charge of infinitesimal thickness, not two layers of charge, one on
 each side. That is, the total charge in the system is 'rra2o.) We shall
@@ -1960,7 +1960,7 @@ thoroughly in Chap. 3.
 
 % p. 47
 dicular to the plane of the disk. Imagine any patch of the disk, of
-area A, enclosed by a thin ffat box, as indicated in Fig. 2.10. Let E,,+
+area A, enclosed by a thin flat box, as indicated in Fig. 2.10. Let E,,+
 denote the y component of the field immediately in front of this patch
 
 of surface charge and Er the y component of the field behind it. The
@@ -1972,7 +1972,7 @@ The second term has a minus sign because the vector representing the
 rear surface of the box points in the negative y direction. The flux
 through the sides of the box can be made as small as we please by
 
-ffattening the box? That does not change the charge enclosed, which
+flattening the box? That does not change the charge enclosed, which
 remains 0A. In the limit, then, Gauss's law tells us " '
 
 AE,,+ - AEy_ : 4770A (30)
@@ -2042,7 +2042,7 @@ that the electric field strength is zero on the inside surface of this
 layer, and rises linearly through the layer, reaching the value 4770 on
 the outer surface. (The curvature of the surface would make the
 function not quite linear, but since we shall assume always that
-Ar < r0 we have over this small region practically a ffat slab.) The
+Ar < r0 we have over this small region practically a flat slab.) The
 average field strength in the slab, and hence the average force on unit
 charge within the slab, is clearly §(Ei,, + Em), and in this particular
 case with E", = 0 it is %E.,ut or 2770. Figures 2.13a-c show how things
@@ -3553,7 +3553,7 @@ ceeding from the interior of the conductor outward, we find at the surface
 an abrupt change in the electric field; E is not zero outside the
 surface, and it is zero inside. The discontinuity in E is accounted for
 by the presence of a surface charge, of density a, which we can relate
-directly to E by Gauss's law. We can use a ffat box enclosing a patch
+directly to E by Gauss's law. We can use a flat box enclosing a patch
 of surface (Fig. 3.3) like the one we used in analyzing the charged
 
 «Box»
@@ -3913,7 +3913,7 @@ delight in their construction and their elegance.
 % p. 95
 3.5 Capacitors and Capacitance
 
-Two similar ffat conducting plates are arranged parallel to one
+Two similar flat conducting plates are arranged parallel to one
 another, separated by a distance s, as in Fig. 3.l1a. Let the area of
 each plate be A and suppose that there is a charge Q on one plate
 and -Q on the other. (p1 and (P2 are the values of the potential at
@@ -4283,7 +4283,7 @@ fixed potentials, charge will ffow around on each conductor until the
 energy stored in the field is as small as it can be. This is almost self-
 evident if we note that with every reduction of the total energy in
 the field, energy becomes available to promote the ffow of charge';
-The reason why the surface of water in a bowl is ffat is essentially
+The reason why the surface of water in a bowl is flat is essentially
 the same.
 
 Now consider the potential function <p(x,y,z) in some region enclosed
@@ -4419,7 +4419,7 @@ How much energy was lost, and what happened to it?
 
 3.12 What is the capacitance C of a capacitor that consists of two concentric
 spherical shells, the inner of radius r1, the outer of radius 1'2? Check your
-result by relating to the case of a ffat parallel-plate capacitor the limiting case
+result by relating to the case of a flat parallel-plate capacitor the limiting case
 in which r2 - r1 < r1.
 
 3.13 Let (1)12 be the potential difference between the plates of the spherical
@@ -7362,7 +7362,7 @@ number of excess electrons on the negative plate; the electric field strength
 between the plates. Answer the same questions for a frame of reference which
 is moving upward with speed 0.6a.
 
-5.2 As a rough measure of the relativistic "ffattening" of the configuration
+5.2 As a rough measure of the relativistic "flattening" of the configuration
 of electric field lines from a moving charge, we might use the angle oz between
 two conical surfaces which include between them half the total electric flux.
 That is, half the flux through a sphere shall be contained in the equatorial zone
@@ -8381,7 +8381,7 @@ current. Hence Bzl = (471/c)nIl, or B2 = 4-rrnl/c, in agreement
 with Eq. 45.
 
 TWhy couldn't such a solenoid produce a uniform field in the entire space outside?
-After all, the infinite ffat current sheet we are about to consider has a uniform field
+After all, the infinite flat current sheet we are about to consider has a uniform field
 filling the half space on each side of it. The solenoid, however, can be made as slender
 as we please, and it would be strange indeed if a solenoid of vanishing diameter could
 
@@ -8499,7 +8499,7 @@ ductor. It is as if the high field region were the region of high pres-
 sure. We must remember, though, that it is only the component of
 B parallel to the surface that counts in determining this force.
 
-We have been considering an infinite ffat sheet, but things are very
+We have been considering an infinite flat sheet, but things are very
 much the same in the immediate neighborhood of any curving
 surface. Wherever the component of B parallel to the surface
 changes from B1 to B2, from one side of the surface to the other, we
@@ -9136,7 +9136,7 @@ meaning that I purpose using it in the present paper.
 
 2. Certain effects of the induction of electrical currents have already been
 recognised and described: as those of magnetization; Ampere's experiments
-of bringing a copper disc near to a ffat spiral; his repetition with electromagnets
+of bringing a copper disc near to a flat spiral; his repetition with electromagnets
 of Arago's extraordinary experiments, and perhaps a few others.
 Still it appeared unlikely that these could be all the effects which induction
 by currents could produce; especially as, upon dispensing with iron, almost
@@ -15716,7 +15716,7 @@ the interior of matter.
 Figure 10.2211 shows a sma
 which the magnetization is p:
 are probably more familiar wi
-long bars. However, ffat disk
+long bars. However, flat disk
 be made with certain new mate
 were chosen the same as the (1
 disk in Fig. 9.21. The In.'
@@ -16165,13 +16165,13 @@ moment and angular momentum vecl
 % p. 398
 on, B = 0 and H = 0, increas-
 lously nonlinear way, slowly at
-wly, finally ffattening ofi. What
+wly, finally flattening ofi. What
 it is not B but M. In this graph
 and H < B, the difference be-
 
 is governed by the motion of
 growth of "right-pointing" do-
-nting" domains. In the ffatten-
+nting" domains. In the flatten-
 nents are being pulled by "brute
 : iron here is an ordinary poly-
 action of the microcrystals will
@@ -16288,7 +16288,7 @@ om does this correspond to? (Atomic
 noment m of the magnetized disk dean
 the axis of the disk is approximately
 sks can be treated as a simple dipole.
-A lies ffat on a wooden table top, with
+A lies flat on a wooden table top, with
 )ove A with its moment pointing down,
 Estimate roughly the height at which
 -dipole approximation" just described.
@@ -16440,7 +16440,7 @@ perpendicular to that surface.
 1.28 One learns more by inventir
 metry and superposition than by so]
 
-1.29 Two ffat parallel sheets of
+1.29 Two flat parallel sheets of
 respectively, are separated by a dista
 as we look at the situation edge on.
 sheet A, E2 the field between the shec
@@ -16918,7 +16918,7 @@ Describe how you could produce
 limited region, of course-by using
 
 3.25 The figure shows in cross 1
-two ffat plates, 1 and 2, each of are
+two flat plates, 1 and 2, each of are
 plates from each other and from ti
 and t in the figure, are to be assume
 of the plates, so that it will be a goc

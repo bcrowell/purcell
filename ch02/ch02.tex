@@ -358,8 +358,8 @@ to get back to the field $\vc{E}$. In this case,
 Let us study, as a concrete example, the electric potential and field
 around a uniformly charged disk. This is a charge distribution like
 that discussed in Sec. 1.10, except that it has a limited extent. The
-ffat disk of radius $a$ in Fig. 2.7 carries a positive charge spread over its
-surface with the constant density $\sigma$, in $\esu/\cm^2$. (This is a single sheet
+flat disk of radius $a$ in Fig. 2.7 carries a positive charge spread over its
+surface with the constant density $\sigma$, in $\esu/\cmunit^2$. (This is a single sheet
 of charge of infinitesimal thickness, not two layers of charge, one on
 each side. That is, the total charge in the system is $\pi a^2\sigma$.) We shall
 often meet surface charge distributions in the future, especially on
@@ -405,176 +405,152 @@ obtained by the other choice of root and is
   \pot(0,y,0) = 2\pi\sigma\left[\sqrt{y^2+a^2}+y\right] \qquad \text{for $y<0$}
 \end{equation}
 In view of this, we should not be surprised to find a singularity in
-\pot(0,y,0) at y = 0. Indeed, the function has an abrupt change of
+$\pot(0,y,0)$ at $y = 0$. Indeed, the function has an abrupt change of
 slope there, as we see in Fig. 2.8, where we have plotted as a function
-of y the potential on the axis. The potential at the center of the disk
-is <p(0,0,0) = 2mm. That much work would be required to bring a
+of $y$ the potential on the axis. The potential at the center of the disk
+is $\pot(0,0,0) = 2\pi\sigma a$. That much work would be required to bring a
 unit positive charge in from infinity, by any route, and leave it sitting
 at the center of the disk.
 
-The behavior of <p(0,y,0) for very large y is interesting. For g > a
+The behavior of $\pot(0,y,0)$ for very large $y$ is interesting. For $y \gg a$
 we can approximate Eq. 22 as follows:
-
-\begin{equation}
-(equation not yet converted)
-\end{equation}
-\/y2+a2-y:y[ 1+"-2-1]
-
-y2
-_ _0_"'..._ ~a_2
-~u[~2<,2> +2, 
-
+\begin{align}
+  \sqrt{y^2+a^2} - y &= y \left[\sqrt{1+\frac{a^2}{y^2}}-1\right] \\
+                     &= y \left[1+\frac{1}{2}\left(\frac{a^2}{y^2}\right)\ldots\:-\:1\right]
+                                 \approx \frac{a^2}{2y}
+\end{align}
 Hence
-
 \begin{equation}
-(equation not yet converted)
+  \pot(0,y,0)\approx \frac{\pi a^2\sigma}{y} \qquad \text{for $y \gg a$}
 \end{equation}
-(p(0,y,0) : "';2" for y > a (25)
-
 % p. 45
-Now amzo is the total charge q on the disk, and Eq. 25 is just the expression
+Now $\pi a^2\sigma$ is the total charge $q$ on the disk, and Eq. 25 is just the expression
 for the potential due to a point charge of this magnitude.
 As we should expect, at a considerable distance from the disk (rela-
 tive to its diameter), it doesn't matter much how the charge is shaped;
 only the total charge matters, in first approximation. In Fig. 2.8 we
-have drawn, as a dotted curve, the function 7ra2a/ y. You can see that
+have drawn, as a dotted curve, the function $\pi a^2\sigma/y$. You can see that
 the axial potential function approaches its asymptotic form pretty
 quickly.
 
 It is not quite so easy to derive the potential for general points
 away from the axis of symmetry, because the definite integral isn't so
-simple. It proves to be something called an elliptic integral. These
-functions are well-known and tabulated,T but there is no point in
+simple. It proves to be something called an \emph{elliptic integral}. These
+functions are well-known and 
+tabulated,\footnote{They were mentioned in Vol.~I in connection with the exact treatment of the simple
+pendulum (Vol.~1, Chap.~7, Advanced Topic I, p.~227).} but there is no point in
 pursuing here mathematical details peculiar to a special problem.
 One further calculation, which is easy enough, may be instructive.
 We can find the potential at a point on the very edge of the disk, such
-as $P_2$ in Fig. 2.9. '
+as $P_2$ in Fig. 2.9.
 
 To calculate the potential at $P_2$, we consider the segment of a ring
 centered on $P_2$. As you can see in Fig. 2.9, the charge on this segment
-is dq = a - 2r0 dr. Its contribution to the potential at $P_2$ is
-dq/r = 200 dr. From the geometry of the right triangle in Fig. 2.9,
-r = 2a cos 0, so that dr = -2a sin 0 dB. This lets us use 0 as the
-
-T They were mentioned in Vol. I in connection with the exact treatment of the simple
-pendulum (Vol. 1, Chap. 7, Advanced Topic I, p. 227_).
-
+is $\der q = \sigma\cdot 2r\theta\;\der r$. Its contribution to the potential at $P_2$ is
+$dq/r = 2\sigma\theta \der r$. From the geometry of the right triangle in Fig. 2.9,
+$r = 2a \cos \theta$, so that $\der r = -2a \sin \theta \der\theta$. This lets us use $\theta$ as the
 % p. 46
-variable of integration. If 0 ranges from 77/2 to 0, we sweep out the
+variable of integration. If $\theta$ ranges from $\pi/2$ to 0, we sweep out the
 whole disk. Thus:
+\begin{align}
+  \pot &= \int \frac{\der q}{r} = \int_{\pi/2}^0 2\sigma\theta(-2a\sin\theta\der\theta) \\
+       &= \int_{\pi/2}^0 4\sigma a \theta \sin\theta \der\theta
+        = 4\sigma a\left[\sin\theta-\theta\cos\theta\right]_{\pi/2}^0 = 4\sigma a
+\end{align}
+(You can do $\int \theta \sin \theta \der\theta$ by parts---or look it up.)
 
-go :f%=L':22a0(_2asinod0)
-
-\begin{equation}
-(equation not yet converted)
-\end{equation}
-zff)"/24aa0 sin 0 d0 = 4:30 [sin 6 - 0 cos 0]" = 40a (26)
-0
-
-(You can do f 0 sin 0 d0 by parts-or look it up.)
-
-Comparing this with 2710a, the potential at the center of the disk,
+Comparing this with $2\pi\sigma a$, the potential at the center of the disk,
 we see that, as we should expect, the potential, falls off from the center
 to the edge of the disk. The electric field, therefore, must have an
-outward component in the plane of the disk. That is why we remarked
+\emph{outward} component in the plane of the disk. That is why we remarked
 earlier that the charge, if free to move, would redistribute
 itself toward the rim. To put it another way, our uniformly charged
 disk is not a surface of constant potential, which any conducting
-surface must be unless charge is moving.T
+surface must be unless charge is moving.\footnote{The fact that conducting
+surfaces have to be equipotentials will be discussed
+thoroughly in Chap.~3.}
 
 The electric field on the symmetry axis can be computed directly
 from the potential function:
-
 \begin{equation}
-(equation not yet converted)
+  E_y = -\frac{\partial\pot}{\partial y}
+      = -\frac{\der}{\der y} 2\pi\sigma\left[\sqrt{y^2+a^2}-y\right]
 \end{equation}
-d
-E, = _ $8 = _ -2'n'o[\/g2 + a2 - y] (27)
-y dy
 giving
-_ ll
+\begin{equation}
+  E_y =  2\pi\sigma\left[1-\frac{y}{\sqrt{y^2+a^2}}\right] \qquad y>0
+\end{equation}
+(To be sure, it is not hard to compute $E_y$ directly from the charge 
+distribution, for points on the axis.)
 
-(To be sure, it is not hard to compute Ey directly from the charge dis-
-tribution, for points on the axis.)
-
-As y approaches zero from the positive side, E,, approaches 2770.
-On the negative y side of the disk, which we shall call the back, E
-points in the other direction and its y component E1, is -2-no. This
-is the same as the field of an infinite sheet of charge of density 0,
+As $y$ approaches zero from the positive side, $E_y$ approaches $2\pi\sigma$.
+On the negative $y$ side of the disk, which we shall call the back, $\vc{E}$
+points in the other direction and its $y$ component $E_y$, is $-2\pi\sigma$. This
+is the same as the field of an infinite sheet of charge of density $\sigma$,
 derived in Sec. 1.10. It ought to be, for at points close to the center
 of the disk, the presence or absence of charge out beyond the rim
 can't make much dilference. In other words, any sheet looks infinite
-if viewed from close up. Indeed, E,, has the value 27m not only at the
+if viewed from close up. Indeed, $E_y$ has the value $2\pi\sigma$ not only at the
 center but all over the disk. To show this we can use Gauss's law
 much as we did in Sec. 1.10, but we have to be a little careful because
-the total electric field at a general point on the disk is not perpen-
-
-'rThe fact that conducting surfaces have to be equipotentials will be discussed
-thoroughly in Chap. 3.
-
+the total electric field at a general point on the disk is not perpendicular
 % p. 47
-dicular to the plane of the disk. Imagine any patch of the disk, of
-area A, enclosed by a thin ffat box, as indicated in Fig. 2.10. Let E,,+
-denote the y component of the field immediately in front of this patch
-
-of surface charge and Er the y component of the field behind it. The
+to the plane of the disk. Imagine any patch of the disk, of
+area $A$, enclosed by a thin flat box, as indicated in Fig. 2.10. Let $E_{y^+}$
+denote the $y$ component of the field immediately in front of this patch
+of surface charge and $E_{y^-}$ the $y$ component of the field behind it. The
 outward flux from the box is
-
 \begin{equation}
-(equation not yet converted)
+  \Phi = AE_{y^+}-AE_{y^-} + (\text{flux through side of box})
 \end{equation}
-<1) = AE,,+ - AEV + (flux through side of box) (29)
-
 The second term has a minus sign because the vector representing the
 rear surface of the box points in the negative y direction. The flux
 through the sides of the box can be made as small as we please by
-
-ffattening the box? That does not change the charge enclosed, which
-remains 0A. In the limit, then, Gauss's law tells us " '
-
+flattening the box.\footnote{That is a safe statement
+so long as the radial electric field is not infinite. We know
+that the radial field is finite almost everywhere on the disk because there is only a finite
+dilference of potential between the center and the rim. In fact there \emph{is} a place where
+the radial field grows infinite, namely the exact rim of the disk. We'll keep our box
+edge away from there anyway, since that marks also a discontinuity in $E_{y^+}$, and in $\sigma$.}
+That does not change the charge enclosed, which
+remains $\sigma A$. In the limit, then, Gauss's law tells us
 \begin{equation}
-(equation not yet converted)
+  AE_{y^+}-AE_{y^-} = 4\pi\sigma A
 \end{equation}
-AE,,+ - AEy_ : 4770A (30)
 or
 \begin{equation}
-(equation not yet converted)
+  E_{y^+}-E_{y^-} = 4\pi\sigma A
 \end{equation}
-E,,+ - E,,- = 47m (31)
 
-In Eq. 31 we have a general result that holds for any surface charge
-distribution, uniform or not: If a is the local density of any surface
+In Eq. 31 we have a general result that holds for \emph{any} surface charge
+distribution, uniform or not: If $\sigma$ is the local density of any surface
 charge layer, there is at that place an abrupt change, or discontinuity,
 in the component of electric field perpendicular to the layer. The
-magnitude of the change is 4770. In our problem, a is constant over
-the disk. Also, because the fields on the two sides must be sym-
-metrical, there being no other source of field, we must have
-Ey+ = -Ey_, so that E,,+ = |E,,_| = 2770 all over the disk.
+magnitude of the change is $4\pi\sigma A$. In our problem, $\sigma$ is constant over
+the disk. Also, because the fields on the two sides must be
+symmetrical, there being no other source of field, we must have
+$E_{y^+}=-E_{y^-}$, so that $E_{y^+}= |E_y| = 2\pi\sigma$ all over the disk.
 
 In Fig. 2.11 we show some field lines for this system and also,
-plotted as dashed curves, the intersections on the yz plane of the surfaces
+plotted as dashed curves, the intersections on the $yz$ plane of the surfaces
 of constant potential. Near the center of the disk these are
-lenslike surfaces, while at distances much greater than a they ap-
-
-proach the spherical form of equipotential surfaces around a point
+lenslike surfaces, while at distances much greater than $a$ they 
+approach the spherical form of equipotential surfaces around a point
 charge.
 
-Figure 2.11 illustrates a general property of field lines and equipo-
-tential surfaces. A field line through any point and the equipotential
-surface through that point are perpendicular to one another, just as,
+Figure 2.11 illustrates a general property of field lines and 
+equipotential surfaces. A field line through any point and the equipotential
+surface through that point \emph{are perpendicular to one another}, just as,
 on a contour map of hilly terrain, the slope is steepest at right angles
 to a contour of constant elevation. This must be so, because if the
 field at any point had a component parallel to the equipotential surface
 through that point, it would require work to move a test charge
 along a constant potential surface.
 
-'rThat is a safe statement so long as the radial electric field is not infinite. We know
-that the radial field is finite almost everywhere on the disk because there is only a finite
-dilference of potential between the center and the rim. In fact there is a place where
-the radial field grows infinite, namely the exact rim of the disk. We'll keep our box
-edge awav from there anvwav. since that marks also a discontinuitv in Em. and in a.
-
 % p. 48
+
+% full-page figure
+
 % p. 49
 \iffalse
 
@@ -607,7 +583,7 @@ that the electric field strength is zero on the inside surface of this
 layer, and rises linearly through the layer, reaching the value 4770 on
 the outer surface. (The curvature of the surface would make the
 function not quite linear, but since we shall assume always that
-Ar < r0 we have over this small region practically a ffat slab.) The
+Ar < r0 we have over this small region practically a flat slab.) The
 average field strength in the slab, and hence the average force on unit
 charge within the slab, is clearly §(Ei,, + Em), and in this particular
 case with E", = 0 it is %E.,ut or 2770. Figures 2.13a-c show how things
@@ -797,7 +773,7 @@ U=32m[23ff MD
 
 and look at the thing in brackets. Each term in that sum is the contribution
 of one of the charges to the electric potential cp at the location
-of q,-, so the entire sum, which we can call <p,~, is the potential at
+of q,-, so the entire sum, which we can call $\pot$,~, is the potential at
 q,- due to all other charges. In this way we can express U as: '
 
 \begin{equation}
@@ -1214,8 +1190,8 @@ dlV E : j
 Bx Ely az
 
 % p. 60
-Equation 64 shows that the x component of $\vc{E}$ is E, = -a<p/ax.
-Substituting this and the corresponding expressions for E,, and E,
+Equation 64 shows that the x component of $\vc{E}$ is E, = -a$\pot$/ax.
+Substituting this and the corresponding expressions for $E_y$ and E,
 into Eq. 65, we get a relation between $\div\vc{E}$ and (p:
 
 \begin{equation}
@@ -1292,7 +1268,7 @@ of physics. Indeed one might say that from a mathematical point of
 view the theory of classical fields is mostly a study of the solutions of
 this equation. The class of functions that satisfy Laplace's equation
 are called harmonic functions. They have some remarkable prop-
-erties, one of which is this: If <p(x,y,z) satisfies Laplace's equation,
+erties, one of which is this: If $\pot$(x,y,z) satisfies Laplace's equation,
 then the average value of q) over the surface of any sphere (not necessarily
 a small sphere) is equal to the value of (p at the center of the
 sphere. We can easily prove that this must be true of the electric
