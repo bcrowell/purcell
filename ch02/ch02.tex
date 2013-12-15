@@ -854,63 +854,48 @@ Eq. 49 as $V_i$ gets chopped smaller and smaller while always enclosing
 the point $(x,y,z)$. So $\div\vc{F}$ is simply a scalar function of the
 coordinates.
 
-\iffalse
-
 \section{Gauss's theorem and the differential form of Gauss's law}
 
 If we know this scalar function of position $\div\vc{F}$, we can work our
-
 way right back to the surface integral over a large volume: We first
 write Eq. 46 in this way:
-
-N l: SF-da,-J
-LF-da =:1fS'F.da,:21V,~  
-
-In the limit N \rightarrow 00, V,-, \rightarrow,0, the term in brackets becomes the divergence
-of $\vc{F}$ and the sum goes into a volume integral:
-
 \begin{equation}
-(equation not yet converted)
+  \int_S\vc{F}\cdot\der\vc{a} = \sum_{i=1}^N\int_{S_i} \vc{F}\cdot\der\vc{a}_i
+           = \sum_{i=1}^N V_i \left[\frac{\int_{S_i} \vc{F}\cdot\der\vc{a}_i}{V_i}\right]
 \end{equation}
-
-fsir-da=fVdivFdu (51)
-
+In the limit $N \rightarrow \infty$, $V_i\rightarrow0$, the term in brackets becomes the divergence
+of $\vc{F}$ and the sum goes into a volume integral:
+\begin{framed}
+\begin{equation}
+  \int_S\vc{F}\cdot\der\vc{a} = \int_V \div\vc{F}\:\der v
+\end{equation}
+\end{framed}
 Equation 51 is called Gauss's theorem, or the Divergence Theorem.
-
 It holds for any vector field for which the limit involved in Eq. 49
 exists.
 
 % p. 56
 Let us see what this implies for the electric field $\vc{E}$. We have
 Gauss's law which assures us that
-
 \begin{equation}
-(equation not yet converted)
+  \int_S\vc{E}\cdot\der\vc{a} = 4\pi\int_V\rho\;\der v
 \end{equation}
-fSE-da=4wfVpdo (52)
-
 If the divergence theorem holds for any vector field it certainly holds
-for E: '
-
+for $\vc{E}$:
 \begin{equation}
-(equation not yet converted)
+  \int_S\vc{E}\cdot\der\vc{a} = \int_V \div\vc{E}\:\der v
 \end{equation}
-LE-da=fVdivEdu (53)
-
-Both Eq. 52 and Eq. 53 hold for any volume we care to choose---of
-
+Both Eq. 52 and Eq. 53 hold for \emph{any} volume we care to choose---of
 any shape, size, or location. Comparing them, we see that this can
 only be true if at every point,
-
+\begin{framed}
 \begin{equation}
-(equation not yet converted)
+  \div\vc{E} = 4\pi\rho
 \end{equation}
-$\div\vc{E}$ = 477p (54)
-
-If we adopt the divergencetheorem as part of our regular mathematical
+\end{framed}
+If we adopt the divergence theorem as part of our regular mathematical
 equipment from now on, we can regard Eq. 54 simply as an alternate
-statement of Gauss's law. It is Gauss's law in dilferential form,
-
+statement of Gauss's law. It is Gauss's law in differential form,
 that is, stated in terms of a local relation between charge density and
 electric field.
 
@@ -920,103 +905,85 @@ While Eq. 49 is the fundamental definition of divergence, independent
 of any system of coordinates, it is useful to know how to
 calculate the divergence of a vector function when we are given its
 explicit form. Suppose a vector function $\vc{F}$ is expressed as a function
-of Cartesian coordinates x, y, and z. That means that we have three
-scalar functions, F,(x,y,z), F,,(x,y,z), and Fz(x,y,z). We'll take the
-region V, in the shape of a little rectangular box, with one corner at
-the point (x,y,z) and sides Ax, Ag, and Az. as in Fig. 2.l6a. Whether
+of Cartesian coordinates $x$, $y$, and $z$. That means that we have three
+scalar functions, $F_x(x,y,z)$, $F_y(x,y,z)$, and $F_z(x,y,z)$. We'll take the
+region $V$, in the shape of a little rectangular box, with one corner at
+the point $(x,y,z)$ and sides $\Delta x$, $\Delta y$, and $\Delta z$, as in Fig. 2.16a. Whether
 some other shape will yield the same limit is a question we must face
 later.
 
 Consider two opposite faces of the box, the top and bottom for
-instance, which would be represented by the vectors iAx Ag and
--2 Ax Ay. The flux through these faces involves only the 3 component
-of F, and the net contribution depends on the difference between
-Fz at the top and F, at the bottom, or more precisely, on the
-difference between the average of F, over the top face and the average
-of F3 over the bottom face of the box. To the first order in small
-quantities this difference is (BF,/az) Az. Figure 2.1619 will help to explain
-this. The average value of F, on the bottom surface of the box,
-
+instance, which would be represented by the vectors $\zhat \Delta x\Delta y$ and
+$-\zhat \Delta x\Delta y$. The flux through these faces involves only the $z$ component
+of $\vc{F}$, and the net contribution depends on the difference between
+$F_z$ at the top and $F_z$ at the bottom, or more precisely, on the
+difference between the average of $F_z$ over the top face and the average
+of $F_z$ over the bottom face of the box. To the first order in small
+quantities this difference is $(\partial F_z/\partial z)\Delta z$. Figure 2.16b will help to explain
+this. The average value of $F_z$ on the bottom surface of the box,
 % p. 57
-if we consider only first-order variations in F2 over this small rec-
+if we consider only first-order variations in $F_z$ over this small rec-
 tangle, is its value at the center of the rectangle. That value is, to
-first orderf in Ax and Ag,
-
+first order\footnote{
+This is nothing but the beginning of a Taylor expansion of the scalar function $F_z$,
+in the neighborhood of $(x,y,z)$. That is, $F_z(x + a, y + b, z + c) =
+F_z(x,y,z) +(a\frac{\partial}{\partial x}+b\frac{\partial}{\partial y}+c\frac{\partial}{\partial z})F_z
++\ldots+\left(\frac{1}{n!}\right)
+  (a\frac{\partial}{\partial x}+b\frac{\partial}{\partial y}+c\frac{\partial}{\partial z})^nF_z
++\ldots$. The derivatives are
+all to be evaluated at $(x,y,z)$. In our case $a=\Delta x/2$, $b=\Delta y/2$, $c=0$,
+and we drop the higher-order terms in the 
+expansion.} in $\Delta x$ and $\Delta y$,
 \begin{equation}
-(equation not yet converted)
+  F_z(x,y,z)+\frac{\Delta x}{2}\frac{\partial F_z}{\partial x}
+            +\frac{\Delta y}{2}\frac{\partial F_z}{\partial y}
 \end{equation}
-A 8P; A a5;
-Fz(x,y,:) +77' ax + 2" ay
 
-(55)
-
-For the average of F2 over the top face we take the value at the
+For the average of $F_z$ over the top face we take the value at the
 center of the top face, which, again, is to first order only in the small
 displacements,
-
 \begin{equation}
-(equation not yet converted)
+  F_z(x,y,z)+\frac{\Delta x}{2}\frac{\partial F_z}{\partial x}
+            +\frac{\Delta y}{2}\frac{\partial F_z}{\partial y}
+            +\Delta z\frac{\partial F_z}{\partial z}
 \end{equation}
-Ax an AyZ)F,, an
-F2 7 5: T A
-(xy)+2 8x+2 E)y+ zaz
-
-(56)
-
 The net flux out of the box through these two faces, each of which has
-the area Ax Ay, is therefore
-
-\begin{equation}
-(equation not yet converted)
-\end{equation}
-Ax an Ay an an]
-AJA F3 , ,3 - Az
-'yl(x")+2ax 2ay+ az
-
- 
-(Flux out of box at top)
-
-£ 6F; Ay_ BE]
-- AxAy [Fz(x,y,z) + 2 ax + 2 By (57)
-
-(Flux into box at bottom)
-
-which reduces to Ax Ay Az (BF,/az). Obviously, similar statements
+the area $\Delta x\Delta y$, is therefore
+\begin{multline}
+  \underbrace{
+    \Delta x\Delta y\left[
+        F_z(x,y,z)+\frac{\Delta x}{2}\frac{\partial F_z}{\partial x}
+                  +\frac{\Delta y}{2}\frac{\partial F_z}{\partial y}
+                  +\Delta z\frac{\partial F_z}{\partial z}          
+    \right]
+  }_\text{(Flux out of box at top)}\\
+  -
+  \underbrace{
+    \Delta x\Delta y\left[
+        F_z(x,y,z)+\frac{\Delta x}{2}\frac{\partial F_z}{\partial x}
+                  +\frac{\Delta y}{2}\frac{\partial F_z}{\partial y}
+    \right]
+  }_\text{(Flux into box at bottom)}
+\end{multline}
+which reduces to $\Delta x\Delta y\Delta z(\partial F_z/\partial z)$. Obviously, similar statements
 must apply to the other pairs of sides. That is, the net flux out ofthe
-box through the sides parallel to the yz plane is Ay Az Ax (8F,/ax).
-Notice that the product Ax Ay Az occurs here too. Thus the total
+box through the sides parallel to the $yz$ plane is $\Delta y \Delta z \Delta x (\partial F_x/\partial x)$.
+Notice that the product $\Delta x\Delta y\Delta z$ occurs here too. Thus the total
 flux out of the little box is:
-
 \begin{equation}
-(equation not yet converted)
+  \Phi = \Delta x\Delta y\Delta z\left(\frac{\partial F_x}{\partial x}+
+                        \frac{\partial F_y}{\partial y}+
+                        \frac{\partial F_z}{\partial z}\right)
 \end{equation}
-(58)
-
-(I) : Ax AyAz(aF" + aF"+ 81:5)
-
-Ex Ty az
-
-The volume of the box is Ax Ay Az so the ratio of flux to volume is
-8/F, + L', + BF,
-Ex ay 8:
-sions of the box at all, it remains as the limit when we let the box
-shrink. [Had we retained terms proportional to (Ax)2, (Ax Ag), etc.,
+The volume of the box is $\Delta x\Delta y\Delta z$ so the ratio of flux to volume is
+$\frac{\partial F_x}{\partial x}+
+                        \frac{\partial F_y}{\partial y}+
+                        \frac{\partial F_z}{\partial z}$,
+and as this expression does not contain the dimensions of the box at all, it remains
+as the limit when we let the box shrink. [Had we retained terms proportional to
+$(\Delta x)^2$, $(\Delta x\Delta y)$, etc.,
 in the calculation of the flux, they would of course vanish on going to
-
 the limit.]
-
-, and as this expression does not contain the dimen-
-
-TThis is nothing but the beginning of a Taylor expansion of the scalar function F2,
-in the neighborhood of (x,y,:). That is, F,(x + a, y + I). z + c) : Fz(x,y.:) +
-
-(:1 8 +bi+c a)Fz+  +<-l-)(ai+bi+ci)"F,+  The de-
-' n! Etx By 8.:
-
-Ex By oz
-rivatives are all to be evaluated at (x,y,:). In our case a : Ax/2, b : Ag/2, c = 0,
-
-rinrl um rlrnn rl-an I-n'nlqnr_nrr1pr fnrrnc in cl-tn aaaaaaa nn
 
 % p. 58
 Now we can begin to see why this limit is going to be independent
@@ -1024,99 +991,77 @@ of the shape of the box. Obviously it is independent of the proportions
 of the rectangular box, but that isn't saying much. It is easy to
 see that it will be the same for any volume that we can make by sticking
 together little rectangular boxes of any size and shape. Consider
-the two boxes in Fig. 2.17. The sum of the flux 431 out of box 1 and
-Q92 out of box 2 is not changed by removing the adjoining walls to
+the two boxes in Fig. 2.17. The sum of the flux $\Phi_1$ out of box 1 and
+$\Phi_2$ out of box 2 is not changed by removing the adjoining walls to
 make one box, for whatever flux went through that plane was negative
 flux for one and positive for the other. So we could have a
-bizarre shape like Fig. 2.l7c without affecting the result. We leave it
+bizarre shape like Fig. 2.17c without affecting the result. We leave it
 to the reader to generalize further. Tilted surfaces can be taken care
 of if you will first prove that the vector sum of the four surfaces of the
 tetrahedron in Fig. 2.18 is zero.
 
-We conclude that, assuming only that the functions F,, Fy, and F2
+We conclude that, assuming only that the functions $F_x$, $F_y$, and $F_z$
 are differentiable, the limit does exist and is given by
-
 \begin{equation}
-(equation not yet converted)
+  \div\vc{F} = \frac{\partial F_x}{\partial x}+\frac{\partial F_y}{\partial y}+\frac{\partial F_z}{\partial z}
 \end{equation}
-BF, + BFI, + 8F;
 
-dlV F : -
-ax ay Eiz
-
-(59)
-
-If $\div\vc{F}$ has a positive value at some point, we find---thinking of F
-as a velocity field---a net "outffow" in that neighborhood. For in-
-stance, if all three partial derivatives in Eq. 59 are positive at a
-point P, we might have a vector field in that neighborhood something
+If $\div\vc{F}$ has a positive value at some point, we find---thinking of $\vc{F}$
+as a velocity field---a net ``outflow'' in that neighborhood. For instance,
+if all three partial derivatives in Eq. 59 are positive at a
+point $P$, we might have a vector field in that neighborhood something
 like that suggested in Fig. 2.19. But the field could look quite different
-and still have positive divergence, for any vector function G
-such that div G = 0 could be superimposed. Thus one or two of the
+and still have positive divergence, for any vector function $\vc{G}$
+such that $\div \vc{G} = 0$ could be superimposed. Thus one or two of the
 three partial derivatives could be negative and we might still have
-$\div\vc{F}$ > 0. The divergence is a quantity that expresses only one
+$\div\vc{F} > 0$. The divergence is a quantity that expresses only one
 aspect of the spatial variation of a vector field.
 
 Let's apply this to an electric field that is rather easy to visualize.
 An infinitely long circular cylinder of radius a is filled with a distribution
-of positive charge of density p. Outside the cylinder the electric
+of positive charge of density $\rho$. Outside the cylinder the electric
 field is the same as that of a line charge on the axis. It is a radial
-field with magnitude proportional to 1/r. The field inside is found
-by applying Gauss's law to a cylinder of radius r < a. You can do
+field with magnitude proportional to $1/r$. The field inside is found
+by applying Gauss's law to a cylinder of radius $r< a$. You can do
 this as an easy problem. You will find that the field inside is directly
-
-proportional to r, and of course it is radial also. The exact values
+proportional to $r$, and of course it is radial also. The exact values
 are:
-
-\begin{equation}
-(equation not yet converted)
-\end{equation}
-E : 277pa2
-r
-
-E=27rpr forr<a
-
-for r > a
-(60)
-
+\begin{align}
+  E &= \frac{2\pi\rho a^2}{r} \qquad \text{for $r>a$} \\
+  E &= 2\pi\rho r \qquad \text{for $r<a$} 
+\end{align}
 % p. 59
 Figure 2.20 is a section perpendicular to the axis of the cylinder.
 Rectangular coordinates aren't the most natural choice here, but
 we'll use them anyway to get some practice with Eq. 59. With
-r = x/x2 + g2, the field components are expressed as follows:
+$r=\sqrt{x^2+y^2}$, the field components are expressed as follows:
+\begin{align}
+  E_x &= \left(\frac{x}{r}\right)E = \frac{2\pi\rho a^2 x}{x^2+y^2} \qquad \text{for $r>a$} \\
+      &= 2\pi\rho x \qquad \text{for $r<a$} \\
+  E_y &= \left(\frac{y}{r}\right)E = \frac{2\pi\rho a^2 y}{x^2+y^2} \qquad \text{for $r>a$} \\
+      &= 2\pi\rho y \qquad \text{for $r<a$} \\
+\end{align}
+$E_z$ is zero, of course.
 
-\begin{equation}
-(equation not yet converted)
-\end{equation}
-E, = (i) E = 2"""2" for r > a
-
-r x2 + y2
-= 2
-vrpx Zwpaz for r < a (61)
- fOI'T>(l
-= 27rpy for r < (1
-E2 is zero, of course.
 Outside the cylinder of charge, $\div\vc{E}$ has the value given by
-6E, 6E,, [ 1 2x2
-: 2 2 - ---j
-8x + Ely Wpa x2 + g2 (x2 + y2)2
-1 2.1/2 ] _
 \begin{equation}
-(equation not yet converted)
+  \frac{\partial E_x}{\partial x}+\frac{\partial E_y}{\partial y}
+       = 2\pi\rho a^2\left[
+           \frac{1}{x^2+y^2}-\frac{2x^2}{(x^2+y^2)^2}
+                 +\frac{1}{x^2+y^2}-\frac{2y^2}{(x^2+y^2)^2}
+         \right] = 0
 \end{equation}
-+ x2 + g2 _ (x2 + y2)2 ' 0 (62)
 Inside the cylinder, $\div\vc{E}$ is
-BE, (E
 \begin{equation}
-(equation not yet converted)
+  \frac{\partial E_x}{\partial x}+\frac{\partial E_y}{\partial y}
+        =2\pi\rho(1+1)=4\pi\rho
 \end{equation}
-+ V : 27rp(l + 1) : 47-rp (63)
-Bx By
-
 We expected both results. Outside the cylinder where there is no
 charge, the net flux emerging from any vo1ume---large or sma1l---is
-zero, so the limit of the ratio flux/volume is certainly zero. Inside the
+zero, so the limit of the ratio \emph{flux/volume} is certainly zero. Inside the
 cylinder we get the result required by the fundamental relation Eq. 54.
+
+\iffalse
 
 \section{The Laplacian}
 

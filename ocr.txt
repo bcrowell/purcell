@@ -2371,7 +2371,7 @@ While Eq. 49 is the fundamental definition of divergence, independent
 of any system of coordinates, it is useful to know how to
 calculate the divergence of a vector function when we are given its
 explicit form. Suppose a vector function F is expressed as a function
-of Cartesian coordinates x, y, and z. That means that we have three
+of Cartesian coordinates $x$, $y$, and $z$. That means that we have three
 scalar functions, F,(x,y,z), F,,(x,y,z), and Fz(x,y,z). We'll take the
 region V, in the shape of a little rectangular box, with one corner at
 the point (x,y,z) and sides Ax, Ag, and Az. as in Fig. 2.l6a. Whether
@@ -2847,7 +2847,7 @@ question.
 We have only asserted that the object defined in this way is a vector
 ---we haven't proved it. To deserve the name, the components as
 defined must behave in all respects like Vector components. Suppose
-we have found certain values for the x, y, and z components, according
+we have found certain values for the $x$, $y$, and $z$ components, according
 to Eq. 76. If we then choose f1 in some fourth direction, the result
 given by Eq. 76 ought to prove consistent with the other three num-
 bers, because three components determine a vector uniquely. If you
@@ -2996,7 +2996,7 @@ ratio of circulation to area is independent of the shape of the patch
  
 
 we choose. Thus we obtain as a general formula for the components
-of the vector curl F, when F is given as a function of x, y, and z:
+of the vector curl F, when F is given as a function of $x$, $y$, and $z$:
 
 . (BF, BF,,) + 5., (BF, BE) ,. (BF,, BF,
 
@@ -4637,7 +4637,7 @@ over a small surface enclosing the location in question.
 
 % p. 113
 We can make a more general statement than Eq. 7. Suppose the
-current is not steady, J being a function of t as well as of x, y, and z.
+current is not steady, J being a function of t as well as of $x$, $y$, and $z$.
 
 Then since fs J -da is the instantaneous rate at which charge is
 leaving the enclosed volume, while fv p do is the total charge inside
@@ -8524,7 +8524,7 @@ when we transform from one inertial frame of reference to another.
 Let's imagine two plane sheets of surface charge, parallel to the
 xz plane as in Fig. 6.25. Again, we show fragments of surfaces only,
 in the sketch; the surfaces are really infinite in extent. In the inertial
-frame F, with coordinates x, y, and z, the density of surface charge
+frame F, with coordinates $x$, $y$, and $z$, the density of surface charge
 is a on one sheet and -0 on the other. In this frame the uniform
 electric field E points in the positive y direction, and Gauss's law
 assures us, as usual, that its strength is:
@@ -8793,7 +8793,7 @@ anyone thought of writing down equations like those in the box.
 
 Thus if we want to compute the fields that will be observed everywhere in the primed
 frame at the instant t', we have to use for each point (x',y',:') the time t that goes with
-x'. y'. z'. t', as well as the x, y, and z that go with x', y', z', t'. For instance, it is the
+x'. y'. z'. t', as well as the $x$, $y$, and $z$ that go with x', y', z', t'. For instance, it is the
 values of B; and B!' at that time t, at that point (x,y,z), that go on the right in the last
 
   
@@ -12639,7 +12639,7 @@ on how we happen to lay out
 11 the two usages.
 
 % p. 313
-the x, y, and z axes. We sha
+the $x$, $y$, and $z$ axes. We sha
 the tensor coefficients transf
 for the transformation of the
 to see how it goes with minirr
