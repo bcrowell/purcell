@@ -1,6 +1,6 @@
 \chapter{The electric potential}
 
-\section{Line integral of the electric field}
+\section{Line integral of the electric field}\index{electric field!line integral of}
 Suppose that $\vc{E}$ is the field of some stationary distribution of electric
 charges. Let $P_1$ and $P_2$ denote two positions anywhere in the
 field. The line integral of $\vc{E}$ between the two given points is 
@@ -85,10 +85,11 @@ independent, we can use it to define a scalar quantity $\pot_{21}$, as follows:
 Then $\pot_{21}$ is the \emph{work per unit charge} done in moving a positive
 charge from $P_1$ to $P_2$ in the field $\vc{E}$. Thus $\pot_{21}$ is a single-valued scalar
 function of the two positions $P_1$ and $P_2$. We call it the electric
-\emph{potential difference} between the two points.
+\emph{potential difference}\index{potential|see{electric potential}}\index{electric potential!difference}
+between the two points.
 
 In our CGS system of units, potential difference is measured in
-ergs/esu. This unit has a name of its own, the \emph{statvolt} (the ``stat''
+ergs/esu. This unit has a name of its own, the \intro{statvolt} (the ``stat''
 % p. 38
 comes from ``electrostatic''). The volt is the unit of potential difference
 in the MKS system.\footnote{Like the coulomb, ampere, and
@@ -142,7 +143,7 @@ We must be careful not to confuse the potential $\pot$ associated with
 a given field $\vc{E}$ with the \emph{potential energy} of a system of charges. The
 potential energy of a system of charges is the total work required to
 assemble it. In Eq. 1.8, for example, we expressed $U$, the potential
-energy of the charge system in Fig. 1.6. The electric \emph{potential}
+energy of the charge system in Fig. 1.6. The electric \emph{potential}\index{electric potential!defined}
 $\pot(x,y,z)$ associated with the field in Fig. 1.6 would be the work per
 unit charge required to bring a unit positive test charge in from infinity
 to the point $(x,y,z)$ in the field of that structure of eight charges.
@@ -153,7 +154,7 @@ Given the electric field, we can find the electric potential function.
 But we can also proceed in the other direction; from the potential we
 can derive the field. It would appear from Eq. 7 that the field is in
 some sense the \emph{derivative} of the potential function. To make this idea
-precise we introduce the \emph{gradient} of a scalar function of position.
+precise we introduce the \intro{gradient} of a scalar function of position.
 Let $f(x,y,z)$ be some continuous, differentiable function of the co-
 ordinates. With its partial derivatives $\partial f/\partial x$, 
 $\partial f/\partial y$, and $\partial f/\partial z$,  we
@@ -216,7 +217,7 @@ radially (as from $A$ to $B$) rather than from $A$ to $C$, in Fig. 2.4. The
 is a radially pointing vector. In fact $\grad f = \hat{\vc{r}} (\der f/\der r)$ in this case,
 $\rhat$ denoting, for any point, a unit vector in the radial direction.
 
-\section{Derivation of the field from the potential}
+\section{Derivation of the field from the potential}\index{electric field!derived from potential}
 
 It is now easy to see that the relation of the scalar function f to the
 vector function $\grad f$ is the same, except for a minus sign, as the relation
@@ -256,7 +257,7 @@ recover the electric field we started with:
          =K(\xhat y+\yhat x)
 \end{equation}
 
-\section{Potential of a charge distribution}
+\section{Potential of a charge distribution}\index{electric potential!of a continuous charge distribution}
 
 We already know the potential that goes with a single point charge,
 because we calculated the work required to bring one charge into the
@@ -305,7 +306,7 @@ shown on the diagram have $\pot = O$. The net work done in bringing
 in any charge to one of these points would be zero. You can see that
 there must be an infinite number of such points, forming a surface in
 space surrounding the negative charge. In fact the locus of points
-with any particular value of $\pot$ is a surface, called an \emph{equipotential
+with any particular value of $\pot$ is a surface, called an \intro{equipotential
 surface}, which would show on our two-dimensional diagram as a
 curve.
 
@@ -319,7 +320,7 @@ charged wire whose field $\vc{E}$ we studied in Sec. 1.12. If we attempt to
 assign zero potential to remote points in that system, and carry out
 the integration over the charge distribution indicated in Eq. 15, we
 find that the integral diverges---we get an infinite result. We might
-have expected trouble, because in this case "infinity," that is, all of
+have expected trouble, because in this case ``infinity,'' that is, all of
 space very far from the region in which we wish to define a potential
 function, contains not only points remote from the wire but most of
 the wire itself! No such difficulty arose in finding the electric \emph{field} of
@@ -415,9 +416,11 @@ at the center of the disk.
 The behavior of $\pot(0,y,0)$ for very large $y$ is interesting. For $y \gg a$
 we can approximate Eq. 22 as follows:
 \begin{align}
+\begin{split}
   \sqrt{y^2+a^2} - y &= y \left[\sqrt{1+\frac{a^2}{y^2}}-1\right] \\
                      &= y \left[1+\frac{1}{2}\left(\frac{a^2}{y^2}\right)\ldots\:-\:1\right]
                                  \approx \frac{a^2}{2y}
+\end{split}
 \end{align}
 Hence
 \begin{equation}
@@ -453,9 +456,11 @@ $r = 2a \cos \theta$, so that $\der r = -2a \sin \theta \der\theta$. This lets u
 variable of integration. If $\theta$ ranges from $\pi/2$ to 0, we sweep out the
 whole disk. Thus:
 \begin{align}
+\begin{split}
   \pot &= \int \frac{\der q}{r} = \int_{\pi/2}^0 2\sigma\theta(-2a\sin\theta\der\theta) \\
        &= \int_{\pi/2}^0 4\sigma a \theta \sin\theta \der\theta
         = 4\sigma a\left[\sin\theta-\theta\cos\theta\right]_{\pi/2}^0 = 4\sigma a
+\end{split}
 \end{align}
 (You can do $\int \theta \sin \theta \der\theta$ by parts---or look it up.)
 
@@ -553,7 +558,7 @@ along a constant potential surface.
 
 % p. 49
 
-\section{The force on a surface charge}
+\section{The force on a surface charge}\index{charge!surface|see{surface charge}}\index{surface charge!force on}
 
 We can still learn something from the very simple symmetrical
 charge distribution, a uniform surface charge of density $\sigma$, on the
@@ -646,7 +651,7 @@ $Q=4\pi r_0^2\sigma$:
 \end{equation}
 
 
-\section{Energy associated with an electric field}
+\section{Energy associated with an electric field}\index{electric field!energy of}
 
 Notice that the only result of shrinking the sphere, so far as the
 electric field is concerned, is to create the field strength $4\pi\sigma$ in the
@@ -835,7 +840,7 @@ fine-grained subdivision, we can halve the volume every time we
 halve the surface integral so that we shall find that with continuing
 subdivision of any particular region this ratio approaches a limit. If
 so, this limit is a property characteristic of the vector function $\vc{F}$ in
-that neighborhood. We call it the divergence of $\vc{F}$, written $\div\vc{F}$.
+that neighborhood. We call it the \intro{divergence} of $\vc{F}$, written $\div\vc{F}$.
 That is, the value of $\div\vc{F}$ at any point is defined as:
 \begin{equation}
   \div\vc{F}\equiv \lim_{V_i\rightarrow0} \frac{1}{V_i} \int_{S_i} \vc{F}\cdot\der \vc{a}_i
@@ -854,7 +859,7 @@ Eq. 49 as $V_i$ gets chopped smaller and smaller while always enclosing
 the point $(x,y,z)$. So $\div\vc{F}$ is simply a scalar function of the
 coordinates.
 
-\section{Gauss's theorem and the differential form of Gauss's law}
+\section{Gauss's theorem and the differential form of Gauss's law}\index{Gauss's theorem}\index{Gauss's law!differential form}
 
 If we know this scalar function of position $\div\vc{F}$, we can work our
 way right back to the surface integral over a large volume: We first
@@ -899,7 +904,7 @@ statement of Gauss's law. It is Gauss's law in differential form,
 that is, stated in terms of a local relation between charge density and
 electric field.
 
-\section{The divergence in Cartesian coordinates}
+\section{The divergence in Cartesian coordinates}\index{divergence!in Cartesian coordinates}
 
 While Eq. 49 is the fundamental definition of divergence, independent
 of any system of coordinates, it is useful to know how to
@@ -1027,8 +1032,10 @@ this as an easy problem. You will find that the field inside is directly
 proportional to $r$, and of course it is radial also. The exact values
 are:
 \begin{align}
+\begin{split}
   E &= \frac{2\pi\rho a^2}{r} \qquad \text{for $r>a$} \\
   E &= 2\pi\rho r \qquad \text{for $r<a$} 
+\end{split}
 \end{align}
 % p. 59
 Figure 2.20 is a section perpendicular to the axis of the cylinder.
@@ -1036,10 +1043,12 @@ Rectangular coordinates aren't the most natural choice here, but
 we'll use them anyway to get some practice with Eq. 59. With
 $r=\sqrt{x^2+y^2}$, the field components are expressed as follows:
 \begin{align}
+\begin{split}
   E_x &= \left(\frac{x}{r}\right)E = \frac{2\pi\rho a^2 x}{x^2+y^2} \qquad \text{for $r>a$} \\
       &= 2\pi\rho x \qquad \text{for $r<a$} \\
   E_y &= \left(\frac{y}{r}\right)E = \frac{2\pi\rho a^2 y}{x^2+y^2} \qquad \text{for $r>a$} \\
       &= 2\pi\rho y \qquad \text{for $r<a$} \\
+\end{split}
 \end{align}
 $E_z$ is zero, of course.
 
@@ -1061,153 +1070,141 @@ charge, the net flux emerging from any vo1ume---large or sma1l---is
 zero, so the limit of the ratio \emph{flux/volume} is certainly zero. Inside the
 cylinder we get the result required by the fundamental relation Eq. 54.
 
-\iffalse
-
 \section{The Laplacian}
 
 We have now met two scalar functions related to the electric field,
 the potential function $\pot$ and the divergence, $\div\vc{E}$. In Cartesian coordinates
 the relationships are expressed as:
-
-\begin{equation}
-(equation not yet converted)
-\end{equation}
-E: -gradqo= _(,2%';3+yg-:+2a;:) (64)
-
-8E, + aE,, + 8E2
-
-dlV E : j
-Bx Ely az
-
+\begin{align}
+  \vc{E} &= -\grad\pot = -\left(\xhat\frac{\partial\pot}{\partial x}
+                               +\yhat\frac{\partial\pot}{\partial y}
+                               +\zhat\frac{\partial\pot}{\partial z}\right) \\
+  \div\vc{E} &= \frac{\partial E_x}{\partial x}+\frac{\partial E_y}{\partial y}+\frac{\partial E_z}{\partial z}
+\end{align}
 % p. 60
-Equation 64 shows that the x component of $\vc{E}$ is E, = -a$\pot$/ax.
-Substituting this and the corresponding expressions for $E_y$ and E,
+Equation 64 shows that the $x$ component of $\vc{E}$ is $E_x=-\partial\pot/\partial x$.
+Substituting this and the corresponding expressions for $E_y$ and $E_z$
 into Eq. 65, we get a relation between $\div\vc{E}$ and $\pot$:
-
 \begin{equation}
-(equation not yet converted)
+  \div\vc{E} = -\div\grad\pot = -\left(\frac{\partial^2\pot}{\partial x^2}+
+                                       \frac{\partial^2\pot}{\partial y^2}+
+                                       \frac{\partial^2\pot}{\partial z^2}\right)
 \end{equation}
-divE= -div gradqp=-(i"_+ ff+ 82¢') (66)
-
 The operation on $\pot$ which is indicated by Eq. 66 except for the minus
-sign we could call "div grad," or "taking the divergence of the
-gradient of . . . ." The symbol used to represent this operation is V2,
-called the Laplacian operator, or just the Laplacian. The expression
-
+sign we could call ``div grad,'' or ``taking the divergence of the
+gradient of \ldots .'' The symbol used to represent this operation is $\nabla^2$,
+called \emph{the Laplacian operator}, or just \emph{the Laplacian}.\index{Laplacian} The expression
+\begin{equation}
+  \frac{\partial^2}{\partial x^2}+
+                                       \frac{\partial^2}{\partial y^2}+
+                                       \frac{\partial^2}{\partial z^2}
+\end{equation}
 is the prescription for the Laplacian in Cartesian coordinates.
 
-The notation V2 is explained as follows. The gradient operator is
-often symbolized by V, called "del." Writing it out in Cartesian
+The notation $\nabla^2$ is explained as follows. The gradient operator is
+often symbolized by $\nabla$, called ``del.'' Writing it out in Cartesian
 coordinates,
-
 \begin{equation}
-(equation not yet converted)
+  \nabla = \xhat\frac{\partial}{\partial x}+\yhat\frac{\partial}{\partial y}+\zhat\frac{\partial}{\partial z}
 \end{equation}
-(67)
-
 If we handle this as a vector, then its square would be
-
 \begin{equation}
-(equation not yet converted)
+  \nabla\cdot\nabla = \frac{\partial^2}{\partial x^2}+
+                                       \frac{\partial^2}{\partial y^2}+
+                                       \frac{\partial^2}{\partial z^2}
 \end{equation}
-V. :L' L2 52
-V ax? + By? + az2 (68)
-
-the same as the Laplacian in Cartesian coordinates. So the Lap-
-lacian is often called "del-squared," and we say "del-squared tp,"
-meaning "div grad cp." Warning: In other coordinate systems,
+the same as the Laplacian in Cartesian coordinates. So the Laplacian
+is often called ``del-squared,'' and we say ``del-squared $\pot$,''
+meaning ``$\div \grad \pot$.'' \emph{Warning}: In other coordinate systems,
 spherical polar coordinates for instance, the explicit forms of the
-gradient operator and the Laplacian operator are not so simply re-
-lated. It is well to remember that the fundamental definition of the
-Laplacian operation is "divergence of the gradient of."
+gradient operator and the Laplacian operator are not so simply related.
+It is well to remember that the fundamental definition of the
+Laplacian operation is ``divergence of the gradient of.''
 
-We can now express directly a local relation between the charge
+We can now express directly a \emph{local} relation between the charge
 density at some point and the potential function in that immediate
-neighborhood. From Gauss's law in differential form, $\div\vc{E}$ = 47rp,
-
+neighborhood. From Gauss's law in differential form, $\div\vc{E}=4\pi\rho$,
 we have
 \begin{equation}
-(equation not yet converted)
+  \nabla^2\pot = -4\pi\rho
 \end{equation}
-<69>
-
 % p. 61
-Equation 69, sometimes called Poisson's equation, relates the charge
-
+Equation 69, sometimes called \intro{Poisson's equation}, relates the charge
 density to the second derivatives of the potential. Written out in
 Cartesian coordinates it is
-
+\begin{equation}
+  \frac{\partial^2\pot}{\partial x^2}+
+                                       \frac{\partial^2\pot}{\partial y^2}+
+                                       \frac{\partial^2\pot}{\partial z^2}
+   = -4\pi\rho
+\end{equation}
 One may regard this as the differential expression of the relationship
-expressed by an integral in Eq. 17, which tells us how to find the po-
+expressed by an integral in Eq. 17, which tells us how to find the potential
+at a point by summing the contributions of all sources near
+and far.\footnote{In fact, it can be shown that Eq. 70 is the \emph{mathematical} equivalent of Eq. 17. This
+means. if you apply the Laplacian operator to the integral in Eq. 17, you will come
+out with $-4\pi\rho$. We shall not stop to show how this is done; you'll have to take our
+word for it or figure out how to do it.}
 
-tential at a point by summing the contributions of all sources near
-and farrl"
 
 \section{Laplace 's equation}
 
-Wherever p = 0, that is, in all parts of space containing no electric
+Wherever $\rho = 0$, that is, in all parts of space containing no electric
 charge, the electric potential $\pot$ has to satisfy the equation
-
+\begin{framed}
 \begin{equation}
-(equation not yet converted)
+  \nabla^2\pot=0
 \end{equation}
-V2\pot: 0 (71)
-
-This is called Laplace's equation. We run into it in many branches
+\end{framed}
+This is called \intro{Laplace's equation}. We run into it in many branches
 of physics. Indeed one might say that from a mathematical point of
 view the theory of classical fields is mostly a study of the solutions of
 this equation. The class of functions that satisfy Laplace's equation
 are called harmonic functions. They have some remarkable prop-
-erties, one of which is this: If $\pot$(x,y,z) satisfies Laplace's equation,
-then the average value of q) over the surface of any sphere (not necessarily
+erties, one of which is this: \emph{If $\pot(x,y,z)$ satisfies Laplace's equation,
+then the average value of $\pot$ over the surface of any sphere (not necessarily
 a small sphere) is equal to the value of $\pot$ at the center of the
-sphere. We can easily prove that this must be true of the electric
-potential $\pot$, in regions containing no charge. Consider a sphere S
-in the field of a point charge q which lies outside the sphere, as in
-Fig. 2.21. Now imagine some test charge of amount q' spread uniformly
-over this sphere. The work required to bring in q' and distribute
-it in this fashion would be q' times the average over the sphere
-of the potential due to q. But we know this work would be the same
-as if we had the test charge there first, and then brought q in from
+sphere.} We can easily prove that this must be true of the electric
+potential $\pot$, in regions containing no charge. Consider a sphere $S$
+in the field of a point charge $q$ which lies outside the sphere, as in
+Fig. 2.21. Now imagine some test charge of amount $q'$ spread uniformly
+over this sphere. The work required to bring in $q'$ and distribute
+it in this fashion would be $q'$ times the average over the sphere
+of the potential due to $q$. But we know this work would be the same
+as if we had the test charge there first, and then brought $q$ in from
 infinity, and we know that in that case the work would be the same as
-if q' were concentrated at the center of its sphere instead of being
+if $q'$ were concentrated at the center of its sphere instead of being
 spread over the surface. That proves the assertion for this case.
-
-Tln fact. it can be shown that Eq. 70 is the mathematical equivalent of Eq. 17. This
-means. if you apply the Laplacian operator to the integral in Eq. 17, you will come
-out with -47rp. We shall not stop to show how this is done; you'll have to take our
-word for it or figure out how to do it.
-
 % p. 62
 Since potentials of many sources are simply additive, it must also be
 true for any system of sources lying wholly outside the sphere S.
 
 This property of the potential is closely related to a fact that you
 may find disappointing; you can't construct an electrostatic field that
-will hold a charged particle in stable equilibrium in empty space.
-This particular "impossibility theorem," .like others in physics, is
+will hold a charged particle in \emph{stable} equilibrium in empty space.
+This particular ``impossibility theorem,'' .like others in physics, is
 useful in saving fruitless speculation and elfort. Let us see why it
 is true. Suppose we have an electric field in which, contrary to the
-theorem, there is a point P at which a positively charged particle
-would be in stable equilibrium. That means that any small displacement
-of the particle from P must bring it to a place where an electric
-field acts to push it back toward P. But that means that a little sphere
-around P must have $\vc{E}$ pointing inward everywhere on its surface.
+theorem, there is a point $P$ at which a positively charged particle
+would be in stable equilibrium. That means that \emph{any} small displacement
+of the particle from $P$ must bring it to a place where an electric
+field acts to push it back toward $P$. But that means that a little sphere
+around $P$ must have $\vc{E}$ pointing inward \emph{everywhere} on its surface.
 That contradicts Gauss's law, for there is no negative source charge
 within the region. (Our charged test particle doesn't count; besides,
 it's positive.) In other words, you can't have an empty region where
 the electric field points all inward or all outward, and that's what you
-would need for stable equilibrium. To express the same fact in terms
+would need for \emph{stable} equilibrium. To express the same fact in terms
 of the electric potential, a stable position for a charged particle must
-be one where the potential q) is either lower than that at all neighboring
+be one where the potential $\pot$ is either lower than that at all neighboring
 points (if the particle is positively charged) or higher than that
 at all neighboring points (if the particle is negatively charged).
 Clearly neither is possible for a function whose average value over a
 sphere is always equal to its value at the center.
 
-Of course one can have a charged particle in equilibrium in an electrostatic
+Of course one can have a charged particle in \emph{equilibrium} in an electrostatic
 field, in the sense that the force on it is zero. The point
-where $\vc{E}$ = 0 in Fig. 1.10 is such a location. The position midway
+where $\vc{E} = 0$ in Fig. 1.10 is such a location. The position midway
 between two equal positive charges is an equilibrium position for a
 third charge, either positive or negative. But the equilibrium is not
 stable. (Think what happens when the third charge is slightly displaced
@@ -1221,20 +1218,12 @@ In the last few sections we have been concerned with mathematical
 relations and new ways of expressing familiar facts. It may help to
 sort out physics from mathematics, and law from definition, if we
 try to imagine how things would be if the electric force were not a
-
 % p. 63
 pure inverse-square force but instead a force with a finite range, for
 instance, a force varying like
-
 \begin{equation}
-(equation not yet converted)
+  \frac{e^{-\lambda r}}{r^2}
 \end{equation}
-e-}\T
-
-(72)
-
-1-2
-
 Then Gauss's law in the integral form expressed in Eq. 52 would
 surely fail, for by taking a very large surface enclosing some sources,
 we would find a vanishingly small field on this surface. The flux
@@ -1257,28 +1246,27 @@ an expression of a mathematical theorem which enables us to translate
 our statement of this law from differential to integral form or
 the reverse.
 
-How can we justify these dilferential relations between source and
+How can we justify these differential relations between source and
 field in a world where electric charge is really not a smooth jelly but
 is concentrated on particles whose interior we know very little about?
 Actually, a statement like Eq. 69, Poisson's equation, is meaningful
-on a macroscopic scale only. The charge density p is to be interpreted
+on a macroscopic scale only. The charge density $\rho$ is to be interpreted
 as an average over some small but finite region containing
-many particles. Thus the function p cannot be continuous in the
-way a mathematician might prefer. When we let our region V,- shrink
+many particles. Thus the function $\rho$ cannot be continuous in the
+way a mathematician might prefer. When we let our region $V_i$ shrink
 down in the course of demonstrating the differential form of Gauss's
 law, we know as physicists that we musn't let it shrink too far. That
 is awkward perhaps, but the fact is that we make out very well with
 the continuum model in large-scale electrical systems. In the atomic
-world we have the elementary particles. and vacuum. Inside the
-particles, even if Coulomb's law turns out to have some kind of mean-
-ing, much else is going on. The vacuum, so far as electrostatics is
-
- 
-
+world we have the elementary particles, and vacuum. Inside the
+particles, even if Coulomb's law turns out to have some kind of meaning,
+much else is going on. The vacuum, so far as electrostatics is
 % p. 64
 concerned, is ruled by Lap1ace's equation. Still, we cannot be sure
 that, even in the vacuum, passage to a limit of zero size has physical
 meaning.
+
+\iffalse
 
 \section{The curl of a vector function}
 
@@ -1339,7 +1327,7 @@ essentially dilferent ways and we must expect the result to reffect this.
 Let us choose some particular orientation for the patch as it goes
 through the last stages of subdivision. The unit vector 1': will denote
 the normal to the patch, and this vector is to remain constant as the
-patch surrounding a particular point P shrinks down toward zero
+patch surrounding a particular point $P$ shrinks down toward zero
 
 size. The limit of the ratio of circulation to patch area will be written
 this way:
@@ -1358,7 +1346,7 @@ a;\rightarrow0 (L; a.\rightarrow0 0.1',
 The rule for sign is that the direction of f1 and the sense in which C,
 is traversed in the line integral shall be related by a right-hand-screw
 rule, as in Fig. 2.24. The limit we obtain by this procedure is a scalar
-quantity which is associated with the point P in the vector field F,
+quantity which is associated with the point $P$ in the vector field F,
 and with the direction 1'). We could pick three independent direc-
 tions, such as 9:, $7, and 2, and get three different numbers. It turns
 out that these three numbers can be considered the components of a
@@ -1422,8 +1410,8 @@ what happens to the right-hand side as N is made enormous and all
 the a,~'s shrink. The quantity in brackets becomes ($\curl\vc{F}$) -13,,
 where fr, is the unit vector normal to the ith patch. So we have on
 the right the sum, over all patches that make up the entire surface S
-spanning C, of the product "patch area times normal component of
-($\curl\vc{F}$)." This is nothing but the surface integral, over S, of the
+spanning C, of the product ``patch area times normal component of
+($\curl\vc{F}$).'' This is nothing but the surface integral, over S, of the
 vector $\curl\vc{F}$:
 
 \begin{equation}
@@ -1610,8 +1598,8 @@ $\curl\vc{F}$ as given by Eq. 87. Notice that the x component of $\curl\vc{F}$
 depends on the rate of change of F3 in the y direction and the negative
 of the rate of change of F, in the z direction, and so on.
 
-The symbol V x, read as "del-cross," where V is interpreted as the
-"vector"
+The symbol V x, read as ``del-cross,'' where V is interpreted as the
+``vector''
 \begin{equation}
 (equation not yet converted)
 \end{equation}
@@ -1623,7 +1611,7 @@ same thing.
 
 \section{The physical meaning of the curl}
 
-The name "cur " reminds us that a vector field with a nonzero curl
+The name ``cur '' reminds us that a vector field with a nonzero curl
 has circulation, or vorticity. Maxwell used the name rotation, and
 in German a similar name is still used, abbreviated rut. Imagine
 a velocity vector field G, and suppose that curl G is not zero. Then
@@ -1637,7 +1625,7 @@ Something ffoating on the surface rotates as it moves along (see
 Probs. 2.16 and 2.26). In the physics of ffuid ffow, hydrodynamics
 and aerodynamics, this concept is of central importance.
 
-To make a "curl-meter" for an electric fie1d---at least in imagina-
+To make a ``curl-meter'' for an electric fie1d---at least in imagina-
 tion---we could fasten positive charges to a hub by insulating spokes,
 as in Fig. 2.30. Exploring an electric field with this device, we would
 find, wherever $\curl\vc{E}$ is not zero, a tendency for the wheel to turn
@@ -1745,7 +1733,7 @@ met two kinds of derivatives of a vector field. One kind, the diver-
 % p. 72
 % p. 73
 direction, 8F,/ax, and so on. The other kind, the curl, is a sort of
-"sideways derivative," involving the rate of change of F, as we move
+``sideways derivative,'' involving the rate of change of F, as we move
 in the y or z direction.
 
 The relations called Gauss's theorem and Stokes' theorem are summarized

@@ -15,7 +15,9 @@
 
 \renewcommand{\theequation}{\arabic{equation}}
 
-% some convenience commands:
+\newcommand{\intro}[1]{\emph{#1}\index{#1}}
+
+% some convenience commands for math:
 \renewcommand{\div}{\operatorname{div}} % the built-in is a division sign
 \newcommand{\curl}{\operatorname{curl}}
 \newcommand{\grad}{\boldsymbol{\nabla}} % Purcell uses bold nabla for gradient operator, but not, e.g., in Laplacian
