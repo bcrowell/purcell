@@ -334,7 +334,7 @@ conversions may remind you of the speed of light. In fact that is where it comes
 by a route we need not now explore. Often you will find in books and tables simply the
 factor 3 instead. Strictly, every factor 3 in an electrical unit conversion ought to be
 
-2.99792. . . , or whatever is the established significant-figure part of the speed of light
+2.99792\ldots , or whatever is the established significant-figure part of the speed of light
 in metric units.
 
 % p. 9
@@ -699,7 +699,7 @@ in the way we have learned here.
 % p. 16
 1.7 The Electric Field .
 
-Suppose we have some arrangement of charges, q1, q2, . . . , qN,
+Suppose we have some arrangement of charges, q1, q2, \ldots , qN,
 fixed in space, and we are interested not in the forces they exert on
 one another but only in their effect on some other charge qo which
 might be brought into their vicinity. We know how to calculate the
@@ -714,10 +714,10 @@ F0 = Z  <13)
 where r0, is the vector from the jth charge in the system to the point
 (x,y,z). The force is proportional to qo, so if we divide out qo we
 obtain a vector quantity which depends only on the structure of our
-original system of charges, q1, . . . , qN and on the position of the point
+original system of charges, q1, \ldots , qN and on the position of the point
 (x,y,z). We call this vector function of x, y, z the electric field arising
-from the ql, . . . , qN, and use the symbol E for it. The charges
-ql, . . . , qN we call sources of the field. We may take as the definition
+from the ql, \ldots , qN, and use the symbol E for it. The charges
+ql, \ldots , qN we call sources of the field. We may take as the definition
 
 of the electric field E of a charge distribution, at the point (x.y,.:)
 
@@ -1039,9 +1039,9 @@ The situation is now ripe for superposition! Any electric field is
 the sum of the fields of its individual sources. This property was
 expressed in our statement, Eq. 13, of Coulomb's law. Clearly flux
 is an additive quantity in the same sense, for if we have a number of
-sources q1, q2, . . . , qN, the fields of which, if each were present alone,
+sources q1, q2, \ldots , qN, the fields of which, if each were present alone,
 
-would be E1, E2, . . . ,EN, the flux (I) through some surface S in the
+would be E1, E2, \ldots ,EN, the flux (I) through some surface S in the
 actual field can be written
 
 c1>:fSE-da=fS[E,+E2+...+EN]-da (20)
@@ -2195,7 +2195,7 @@ space
 
 There is another way to calculate the stored energy. We learned
 early in Chap. 1 that the energy required to assemble several discrete
-point charges, ql, . . . , q,-, . . . , was given by Eq. 1.9:
+point charges, ql, \ldots , q,-, \ldots , was given by Eq. 1.9:
 
 U =  2 'W (40)
 
@@ -2269,9 +2269,9 @@ this surface D, is flux into V2. The rest of the surface involved is
 identical to that of the original entire volume.
 
 We can keep on subdividing until our internal partitions have
-divided Vinto a large number of parts, V1, . . . , V,~, . . . , VN, with sur-
+divided Vinto a large number of parts, V1, \ldots , V,~, \ldots , VN, with sur-
 
-faces S1, . . . , S1, . . . , SN. No matter how far this is carried we can
+faces S1, \ldots , S1, \ldots , SN. No matter how far this is carried we can
 still be sure that
 
 ;N1fSiF-da,:fSF-da=<I> (46)
@@ -2564,7 +2564,7 @@ divE= -div gradqp=-(i"_+ ff+ 82¢') (66)
 
 The operation on $\pot$ which is indicated by Eq. 66 except for the minus
 sign we could call "div grad," or "taking the divergence of the
-gradient of . . . ." The symbol used to represent this operation is V2,
+gradient of \ldots ." The symbol used to represent this operation is V2,
 called the Laplacian operator, or just the Laplacian. The expression
 
 is the prescription for the Laplacian in Cartesian coordinates.
@@ -2764,7 +2764,7 @@ is easy to see that the sum of the two circulations, F1 and F2, will be
 the same as the original circulation around C: The reason is that the
 bridge is traversed in opposite directions in the two integrations,
 leaving just the contributions which made up the original line integral
-around C. Further subdivision into many loops C1, . . . , Ci, . . . , CN
+around C. Further subdivision into many loops C1, \ldots , Ci, \ldots , CN
 leaves the sum unchanged:
 
 N N
@@ -4138,7 +4138,7 @@ Q2 = C21<P1 + C22<P2 + C23<P3 (18)
 Q3 = C31<P1 + C§2<P2 + C33<P3
 
 It appears that the electrical behavior of this system is characterized
-by the nine constants C11, C12, . . . , C33. In fact only six constants
+by the nine constants C11, C12, \ldots , C33. In fact only six constants
 are necessary, for it can be proved that in any system
 C12 = C21, C13 = C31, and C23 = C32.  this ShO11ld b6 S0 IS l'10t
 obvious. Problem 3.27 will suggest a proof based on conservation
@@ -5506,11 +5506,11 @@ currents are governed by a set of linear equations, the statements of
 the conditions (i), (ii), and (iii). Therefore the superposition of
 different possible states of the network is also a possible state. F ig-
 ure 4.14 shows a section of a network with certain currents, I1,
-12, . . . , flowing in the wires and certain potentials, V1, V2, . . . , at
-the nodes. If some other set of currents and potentials, say 11, . . . ,
+12, \ldots , flowing in the wires and certain potentials, V1, V2, \ldots , at
+the nodes. If some other set of currents and potentials, say 11, \ldots ,
 
 % p. 133
-V3, . . . , is another possible state of aff'airs in this section of network,
+V3, \ldots , is another possible state of aff'airs in this section of network,
 then so is the set (11 + Ii), ..., (V1 + Vi), .... These currents
 and voltages corresponding to the superposition will also satisfy the
 conditions (i), (ii), and (iii). Certain general theorems about net-
@@ -5991,7 +5991,7 @@ insensitivity to resistance change in R3.
 % p. 144
  
 
-4.15 In the bridge network illustrated the various resistances R1 . . . R5 are
+4.15 In the bridge network illustrated the various resistances R1 \ldots R5 are
 given, and the current 10 which ffows in at the left and out at the right is given.
 Solving this network consists in finding the currents in all the branches. These
 five unknown currents have been arbitrarily assigned directions by the arrows
@@ -7741,7 +7741,7 @@ above 105 gauss require rather special efibrt. On the sun's surface,
 local regions (sunspots) display magnetic fields of hundreds of gauss,
 
 TWe remarked in Chap. 1 that such "3's" come from the speed of light. Now we
-see how that happens. The exact number is of course 2.9979 . . .
+see how that happens. The exact number is of course 2.9979 \ldots
 
 % p. 190
  
@@ -13963,19 +13963,19 @@ moment. Grouping them
 as having a uniform ma
 directed downward. At -
 
-"'""" . . . .'V''''''* ' layer of positive charge a
-' . . . charge over the bottom w
+"'""" \ldots .'V''''''* ' layer of positive charge a
+' \ldots charge over the bottom w
 
-. . . . cules, must be accounted
+\ldots . cules, must be accounted
 
 Now we might just as
-, . . . Fig. 9.37b. According to
+, \ldots Fig. 9.37b. According to
 
-. . . ' we have a negative free eh
+\ldots ' we have a negative free eh
 
 i tive free char e layer bene
-. . . . T have no troulfagle finding a
-' "" . . . ."' """ and there is no free charg
+\ldots . T have no troulfagle finding a
+' "" \ldots ."' """ and there is no free charg
 t  macroscopic field E is an
 pend only on the charge I
 scribe the charge distribut
@@ -14518,7 +14518,7 @@ events. Several recent searci
 monopoles, have detected n«
 if so why not, remains an or
 cover a monopole he will be
-the qualification ". . . except
+the qualification "\ldots except
 magnetic monopole that at
 bubble-chamber picture, or
 would not affect the main C(
@@ -15485,7 +15485,7 @@ sheath, of current.
 (c) We can sample the interior of the
 rod, and thus obtain a spatial average of
 the microscopic field, by closely spaced
-parallel surfaces, S1, S2, . . . .
+parallel surfaces, S1, S2, \ldots .
 
 % p. 383
 -q-ruu

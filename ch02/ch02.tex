@@ -1266,132 +1266,109 @@ concerned, is ruled by Lap1ace's equation. Still, we cannot be sure
 that, even in the vacuum, passage to a limit of zero size has physical
 meaning.
 
-\iffalse
-
 \section{The curl of a vector function}
 
 We developed the concept of divergence, a local property of a vector
 field, by starting from the surface integral over a large closed sur-
 face. In the same spirit, let us consider the line integral of some vector
-field F(x,y,z), taken around a closed path, some curve C which
-comes back to join itself. The curve C can be visualized as the
-boundary of some surface S which spans it. A good name for the
-magnitude of such a closed-path line integral is circulation; we shall
-use 1' (capital gamma) as its symbol:
-
+field $\vc{F}(x,y,z)$, taken around a closed path, some curve $C$ which
+comes back to join itself. The curve $C$ can be visualized as the
+boundary of some surface $S$ which spans it. A good name for the
+magnitude of such a closed-path line integral is \intro{circulation}; we shall
+use $\Gamma$ (capital gamma) as its symbol:
 \begin{equation}
-(equation not yet converted)
+  \Gamma = \int_C \vc{F}\cdot\der\vc{s}
 \end{equation}
-r=fCF-ds (73)
-
-In the integrand ds is the element of path, an infinitesimal vector
-locally tangent to C (Fig. 2.23a). There are two senses in which C
+In the integrand $\der\vc{s}$ is the element of path, an infinitesimal vector
+locally tangent to $C$ (Fig. 2.23a). There are two senses in which $C$
 could be traversed; we have to pick one to make the direction of ds
-unambiguous. Incidentally the curve C need not lie in a plane---it
+unambiguous. Incidentally the curve $C$ need not lie in a plane---it
 can be as crooked as you like.
 
-Now bridge C with a new path B, thus making two loops, C1 and
-C2, each of which includes $B$ as part of itself (Fig. 2.2319). Take the
+Now bridge $C$ with a new path $B$, thus making two loops, $C_1$ and
+$C_2$, each of which includes $B$ as part of itself (Fig. 2.23b). Take the
 line integral around each of these, in the same directional sense. It
-is easy to see that the sum of the two circulations, F1 and F2, will be
-the same as the original circulation around C: The reason is that the
+is easy to see that the sum of the two circulations, $\Gamma_1$ and $\Gamma_2$, will be
+the same as the original circulation around $C$: The reason is that the
 bridge is traversed in opposite directions in the two integrations,
 leaving just the contributions which made up the original line integral
-around C. Further subdivision into many loops C1, . . . , Ci, . . . , CN
+around $C$. Further subdivision into many loops $C_1$, \ldots , $C_i$, \ldots , $C_N$
 leaves the sum unchanged:
-
 \begin{equation}
-(equation not yet converted)
+  \int_C \vc{F}\cdot\der\vc{s} = \sum_{i=1}^N 
+          = \int_{C_i} \vc{F}\cdot\der\vc{s}_i
+   \qquad \text{or} \qquad
+  \Gamma = \sum_{i=1}^N \Gamma_i
 \end{equation}
-N N
-LF-ds=2fCiF-ds, or r=2r, (74)
-i=1 i=1
 
 Here, too, we can continue indefinitely to subdivide, by adding
 new bridges, seeking in the limit to arrive at a quantity characteristic
 of the field $\vc{F}$ in a local neighborhood. When we subdivide the loops,
 we make loops with smaller circulation, but also with smaller area.
-So it is natural to consider the ratio of loop circulation to loop area,
-just as we considered in Sec. 2.9, the ratio of flux to volume. How-
-ever, things are a little different here, because the area a,- of the bit
-of surface that spans a small loop C, is really a vector; a surface has
-
+So it is natural to consider the ratio of \emph{loop circulation} to \emph{loop area},
+just as we considered in Sec. 2.9, the ratio of \emph{flux} to \emph{volume}. However,
+things are a little different here, because the area $\vc{a}_i$ of the bit
+of surface that spans a small loop $C_i$ is really a vector; a surface has
 % p. 65
 an orientation in space. We can't take the ratio of a scalar to a
 vector! In fact, as we make smaller and smaller loops in some
 neighborhood, we can arrange to have a loop oriented in any direction
 we choose. (Remember, we are not committed to any particular
-surface over the whole curve C.) Thus we can pass to the limit in
+surface over the whole curve $C$.) Thus we can pass to the limit in
 essentially dilferent ways and we must expect the result to reffect this.
 
 Let us choose some particular orientation for the patch as it goes
-through the last stages of subdivision. The unit vector 1': will denote
+through the last stages of subdivision. The unit vector $\nhat$ will denote
 the normal to the patch, and this vector is to remain constant as the
 patch surrounding a particular point $P$ shrinks down toward zero
-
-size. The limit of the ratio of circulation to patch area will be written
+size. The limit of the \emph{ratio of circulation to patch area} will be written
 this way:
-
 \begin{equation}
-(equation not yet converted)
+  \lim_{a_i\rightarrow0} \frac{\Gamma_i}{a_i}
+  \qquad \text{or} \qquad
+  \lim_{a_i\rightarrow0} \frac{\int_{C_i} \vc{F}\cdot\der\vc{s}}{a_i}
 \end{equation}
-. r. . I F ' 015
-l1rn -' or l1m C'
-a;\rightarrow0 (L; a.\rightarrow0 0.1',
-
- 
-
-(75)
-
-The rule for sign is that the direction of f1 and the sense in which C,
+The rule for sign is that the direction of $\nhat$ and the sense in which $C_i$
 is traversed in the line integral shall be related by a right-hand-screw
 rule, as in Fig. 2.24. The limit we obtain by this procedure is a scalar
-quantity which is associated with the point $P$ in the vector field F,
-and with the direction 1'). We could pick three independent direc-
-tions, such as 9:, $7, and 2, and get three different numbers. It turns
+quantity which is associated with the point $P$ in the vector field $\vc{F}$,
+and with the direction $\nhat$. We could pick three independent directions,
+such as $\xhat$, $\yhat$, and $\zhat$, and get three different numbers. It turns
 out that these three numbers can be considered the components of a
 vector. We call the vector $\curl\vc{F}$. That is to say, the number we get
-for the limit with 13 in a particular direction is the component, in that
+for the limit with $\nhat$ in a particular direction is the component, in that
 direction, of the vector $\curl\vc{F}$. To state this in an equation,
-
-F. F-ds
-
-($\curl\vc{F}$) 'fl = lim _' =1im'3*:-
-!la\rightarrow0 (11 (11
-
+\begin{framed}
 \begin{equation}
-(equation not yet converted)
+  (\curl\vc{F})\cdot\nhat = \lim_{a_i\rightarrow0} \frac{\Gamma_i}{a_i}
+         = \lim \frac{\int_{C_i} \vc{F}\cdot\der\vc{s}}{a_i}
 \end{equation}
-(76)
+\end{framed}
 
- 
-
-For instance, the x component of $\curl\vc{F}$ is obtained by choosing
-1': = 22, as in Fig. 2.25. As the loop shrinks down around the point P,
-we keep it in a plane perpendicular to the x axis. In general, the
+For instance, the $x$ component of $\curl\vc{F}$ is obtained by choosing
+$\nhat=\xhat$, as in Fig. 2.25. As the loop shrinks down around the point $P$,
+we keep it in a plane perpendicular to the $x$ axis. In general, the
 vector $\curl\vc{F}$ will vary from place to place. If we let the patch shrink
 down around some other point, the ratio of circulation to area may
 have a dillerent value, depending on the nature of the vector function
-F. That is, $\curl\vc{F}$ is itself a Vector function of the coordinates.
+$\vc{F}$. That is, $\curl\vc{F}$ is itself a vector function of the coordinates.
 Its direction at each point is normal to the plane through this point
 in which the circulation is a maximum. Its magnitude is the limiting
-
 value of circulation per unit area, in this plane, around the point in
 question.
-
-  
- 
 
 % p. 66
 We have only asserted that the object defined in this way is a vector
 ---we haven't proved it. To deserve the name, the components as
 defined must behave in all respects like Vector components. Suppose
-we have found certain values for the x, y, and z components, according
-to Eq. 76. If we then choose f1 in some fourth direction, the result
-given by Eq. 76 ought to prove consistent with the other three num-
-bers, because three components determine a vector uniquely. If you
+we have found certain values for the $x$, $y$, and $z$ components, according
+to Eq. 76. If we then choose $\nhat$ in some fourth direction, the result
+given by Eq. 76 ought to prove consistent with the other three numbers,
+because three components determine a vector uniquely. If you
 want to look into this point, Problem 2.24 will suggest a way to convince
 yourself that Eq. 76 truly defines a component of a vector.
+
+\iffalse
 
 \section{Stokes' theorem}
 

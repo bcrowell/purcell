@@ -25,6 +25,7 @@
 \newcommand{\yhat}{\hat{\vc{y}}}
 \newcommand{\zhat}{\hat{\vc{z}}}
 \newcommand{\rhat}{\hat{\vc{r}}}
+\newcommand{\nhat}{\hat{\vc{n}}}
 \newcommand{\pot}{\varphi} % the style of phi with only a tail, not head, used for the potential
 \newcommand{\degunit}{\ensuremath{\mspace{0mu}^\circ}} % the \mspace{0mu} is a zero-width math space; need it so that, e.g., $2\times10^{-3}\degunit$ doesn't get
                                                        % interpreted as a double superscript
