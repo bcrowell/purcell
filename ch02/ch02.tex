@@ -1094,11 +1094,11 @@ The operation on $\pot$ which is indicated by Eq. 66 except for the minus
 sign we could call ``div grad,'' or ``taking the divergence of the
 gradient of \ldots .'' The symbol used to represent this operation is $\nabla^2$,
 called \emph{the Laplacian operator}, or just \emph{the Laplacian}.\index{Laplacian} The expression
-\begin{equation}
+\begin{equation*}
   \frac{\partial^2}{\partial x^2}+
                                        \frac{\partial^2}{\partial y^2}+
                                        \frac{\partial^2}{\partial z^2}
-\end{equation}
+\end{equation*}
 is the prescription for the Laplacian in Cartesian coordinates.
 
 The notation $\nabla^2$ is explained as follows. The gradient operator is
@@ -1368,43 +1368,35 @@ because three components determine a vector uniquely. If you
 want to look into this point, Problem 2.24 will suggest a way to convince
 yourself that Eq. 76 truly defines a component of a vector.
 
-\iffalse
-
 \section{Stokes' theorem}
 
 From the circulation around an infinitesimal patch of surface we
 can now work back to the circulation around the original large
-loop C:
-
+loop $C$:
 \begin{equation}
-(equation not yet converted)
+  \Gamma = \int_C \vc{F}\cdot\der\vc{s}
+      = \sum_{i=1}^N \Gamma_i
+      = \sum_{i=1}^N a_i\left[\frac{\Gamma_i}{a_i}\right]
 \end{equation}
-N N I',
-r=fCF-ds=Er,=2a.[7f] (77)
-i=1 i=1 '
-In the last step we merely multiplied and divided by a,-. Now observe
-what happens to the right-hand side as N is made enormous and all
-the a,~'s shrink. The quantity in brackets becomes ($\curl\vc{F}$) -13,,
-where fr, is the unit vector normal to the ith patch. So we have on
-the right the sum, over all patches that make up the entire surface S
-spanning C, of the product ``patch area times normal component of
-($\curl\vc{F}$).'' This is nothing but the surface integral, over S, of the
+In the last step we merely multiplied and divided by $a_i$. Now observe
+what happens to the right-hand side as $N$ is made enormous and all
+the $a_i$'s shrink. The quantity in brackets becomes $(\curl\vc{F})\cdot\nhat_i$,
+where $\nhat_i$ is the unit vector normal to the $i$th patch. So we have on
+the right the sum, over all patches that make up the entire surface $S$
+spanning $C$, of the product ``patch area times normal component of
+$(\curl\vc{F})$.'' This is nothing but the surface integral, over $S$, of the
 vector $\curl\vc{F}$:
-
 \begin{equation}
-(equation not yet converted)
-\end{equation}
-N  N A
-211,: 2 a,($\curl\vc{F}$) -n, \rightarrow fs da - $\curl\vc{F}$ (78)
-i=1 1
-
-i=l
-
-\begin{equation}
-(equation not yet converted)
+  \sum_{i=1}^N a_i\left[\frac{\Gamma_i}{a_i}\right]
+    = \sum_{i=1}^N a_i(\curl\vc{F})\cdot\nhat_i
+    \rightarrow \int_S \der\vc{a}\cdot\curl\vc{F}
 \end{equation}
 We thus find that:
-for-dszfscuriiv-da (79)
+\begin{framed}
+\begin{equation}
+  \int_C \vc{F}\cdot\der\vc{s} = \int_S \curl\vc{F}\cdot\der\vc{a}
+\end{equation}
+\end{framed}
 
 The relation expressed by Eq. 79 is a mathematical theorem called
 Stokes' theorem. Note how it resembles Gauss's theorem, the divergence
@@ -1416,116 +1408,97 @@ a surface and the curve that bounds it. Gauss's theorem involves a
 volume and the surface that encloses it.
 
 % p. 67
+
 \section{The curl in Cartesian coordinates}
 
 Equation 76 is the fundamental definition of $\curl\vc{F}$, stated without
 reference to any particular coordinate system. In this respect it
 is like our fundamental definition of divergence, Eq. 49. As in that
 case, we should like to know how to calculate $\curl\vc{F}$ when the vector
-function F (x,y,z) is explicity given. To find the rule, we carry out
+function $\vc{F}(x,y,z)$ is explicity given. To find the rule, we carry out
 the integration called for in Eq. 76, but we do it over a path of very
 simple shape, one that encloses a rectangular patch of surface parallel
-to the xy plane (Fig. 2.26). That is, we are taking ii = 2. In
+to the $xy$ plane (Fig. 2.26). That is, we are taking $\nhat=\zhat$. In
 agreement with our rule about sign, the direction of integration
 around the rim must be clockwise as seen by someone looking up
-in the direction of 1'). In Fig. 2.27 we look down onto the rectangle
+in the direction of $\nhat$. In Fig. 2.27 we look down onto the rectangle
 from above.
 
-The line integral of A around such a path depends on the variation
-of A, with y and the variation of A, with x. For if A, had the same
+The line integral of $\vc{A}$ around such a path depends on the variation
+of $A_x$ with $y$ and the variation of $A_y$ with $x$. For if $A_x$ had the same
 average value along the top of the frame, in Fig. 2.27, as along the
 bottom of the frame, the contribution of these two pieces of the whole
 line integral would obviously cancel. A similar remark applies to
-the side members. To the first order in the small quantities Ax and
-Ag. the difference between the average of A, over the top segment of
-path at y + Ag and its average over the bottom segment at y is
-
+the side members. To the first order in the small quantities $A_x$ and
+$A_y$, the difference between the average of $A_x$ over the top segment of
+path at $y + \Delta y$ and its average over the bottom segment at $y$ is
 \begin{equation}
-(equation not yet converted)
+  \left(\frac{\partial A_x}{\partial y}\right)\Delta y
 \end{equation}
-('M') Ag (80)
-
-The argument is like the one we used with Fig. 2.1619.
-
-Ax BA, ( at midpoint of )
-
-\begin{equation}
-(equation not yet converted)
-\end{equation}
-A1' : AI 9 F
-(x y) + 2 ax bottom of frame
-
-(81)
-
-Ax 8A, A 6A, (at midpoint of )
-
-I=Az 9 *
-A (xy)+ 2 {ix + y By top offrame
-
+The argument is like the one we used with Fig. 2.16b
+\begin{align}
+\begin{split}
+  A_x &= A_x(x,y) + \frac{\Delta x}{2} \frac{\partial A_x}{\partial x} 
+         \hspace{30mm} % kludge -- fixme
+             \left(
+                  \begin{array}{cc}
+                    \text{at midpoint of} \\
+                    \text{bottom of frame}
+                  \end{array}
+             \right) \\
+  A_x &= A_x(x,y) + \frac{\Delta x}{2} \frac{\partial A_x}{\partial x}
+                  + \Delta y \frac{\partial A_x}{\partial y}
+         \hspace{13.5mm} % kludge -- fixme
+             \left(
+                  \begin{array}{cc}
+                    \text{at midpoint of} \\
+                    \text{bottom of frame}
+                  \end{array}
+             \right)
+\end{split}
+\end{align}
 These are the average values referred to, to first order in the Tay1or's
 expansion. It is their difference, times the length of the path segment
-Ax, which determines their net contribution to the circulation. This
-contribution is - Ax Ay (8A,/By). The minus sign comes in because
-we are integrating toward the left at the top, so that if A, is more
+$\Delta x$, which determines their net contribution to the circulation. This
+contribution is $- \Delta x \Delta y (\partial A_x/\partial y)$. The minus sign comes in because
+we are integrating toward the left at the top, so that if $A_x$ is more
 positive at the top, it results in a negative contribution to the circula-
-tion. The contribution from the sides is Ay Ax (BA,/Bx) and here
-the sign is positive, because if A, is more positive on the right, the
+tion. The contribution from the sides is $\Delta y \Delta x (\partial A_y/\partial x)$ and here
+the sign is positive, because if $A_y$ is more positive on the right, the
 result is a positive contribution to the circulation.
 
 % p. 68
- 
 
-Thus, neglecting any higher powers of Ax and Ag, the line integral
+Thus, neglecting any higher powers of $\Delta x$ and $\Delta y$, the line integral
 around the whole rectangle is
-
 \begin{equation}
-(equation not yet converted)
+  \int_\Box \vc{A}\cdot\der\vc{s} = (-\Delta x)\left(\frac{\partial A_x}{\partial y}\right)\Delta y
+                (\Delta y)\left(\frac{\partial A_y}{\partial x}\right)\Delta x
+    = \Delta x \Delta y\left(\frac{\partial A_y}{\partial x}-\frac{\partial A_x}{\partial y}\right)
 \end{equation}
-LA-ds = (-Ax)(aa'/;')Ay + (Ay)(a§:")Ax
-= Ax Ay (ag:" - 3;') (82)
 
-Now Ax Ag is the magnitude of the area of the enclosed rectangle
-which we have represented by a vector in the z direction. Evidently
+Now $\Delta x \Delta y$ is the magnitude of the area of the enclosed rectangle
+which we have represented by a vector in the $z$ direction. Evidently
 the quantity
-
 \begin{equation}
-(equation not yet converted)
+  \frac{\partial A_y}{\partial x}-\frac{\partial A_x}{\partial y}
 \end{equation}
-8A,, 8A,
-ax ~ By (83)
 is the limit of the ratio
-Line integral around patch (84)
 \begin{equation}
-(equation not yet converted)
+  \frac{\text{Line integral around patch}}{\text{Area of patch}}
 \end{equation}
-
-Area of patch
-
 as the patch shrinks to zero size. If the rectangular frame had been
-oriented with its normal in the positive y direction, we would have
+oriented with its normal in the positive $y$ direction, we would have
 found the expression
-
 \begin{equation}
-(equation not yet converted)
+  \frac{\partial A_x}{\partial z}-\frac{\partial A_z}{\partial x}
 \end{equation}
-6A, 8Az
-
-Bz Ex
-
-(85)
-
 for the limit of the corresponding ratio, and if the frame had been
-oriented with its normal in the x direction, like the frame on the right
+oriented with its normal in the $x$ direction, like the frame on the right
 in Fig. 2.28, we would have obtained
-
 \begin{equation}
-(equation not yet converted)
+  \frac{\partial A_z}{\partial y}-\frac{\partial A_y}{\partial z}
 \end{equation}
-aA,, aA,,
-
-By az
-
-(86)
 
 Although we have considered only rectangles, our result is actually
 independent of the shape of the little patch and its frame, for reasons
@@ -1537,62 +1510,51 @@ along the merging sections of boundary cancel one another exactly
 
 We conclude that for any of these orientations, the limit of the
 ratio of circulation to area is independent of the shape of the patch
-
 % p. 69
- 
-
 we choose. Thus we obtain as a general formula for the components
-of the vector $\curl\vc{F}$, when $\vc{F}$ is given as a function of x, y, and z:
-
+of the vector $\curl\vc{F}$, when $\vc{F}$ is given as a function of $x$, $y$, and $z$:
 \begin{equation}
-(equation not yet converted)
+\curl\vc{F} = 
+    \xhat\left(\frac{\partial A_z}{\partial y}-\frac{\partial A_y}{\partial z}\right)
+   +\yhat\left(\frac{\partial A_x}{\partial z}-\frac{\partial A_z}{\partial x}\right)
+   +\zhat\left(\frac{\partial A_y}{\partial x}-\frac{\partial A_x}{\partial y}\right)
 \end{equation}
-. (BF, BF,,) + 5., (BF, BE) ,. (BF,, BF,
-
-By Bz
-
-Bz Bx
-
-curlF=x +z---
-
-Bx By ) (87)
-
 You may find the following rule easier to remember than the formula
 itself: Make up a determinant like this:
-
 \begin{equation}
-(equation not yet converted)
+  \left|
+    \begin{array}{ccc}
+      \xhat & \yhat & \zhat \\
+      \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+      F_x & F_y & F_z
+    \end{array}
+  \right|
 \end{equation}
-:2 9 2
-
-B B B
---- - - 88
-Bx By Bz ( )
-F, F,, F,
-
 Expand it according to the rule for determinants, and you will get
 $\curl\vc{F}$ as given by Eq. 87. Notice that the x component of $\curl\vc{F}$
 depends on the rate of change of F3 in the y direction and the negative
 of the rate of change of F, in the z direction, and so on.
 
-The symbol V x, read as ``del-cross,'' where V is interpreted as the
+The symbol $\nabla \times$, read as ``del-cross,'' where $\nabla$ is interpreted as the
 ``vector''
 \begin{equation}
-(equation not yet converted)
+  \xhat\frac{\partial}{\partial x}
+  +\yhat\frac{\partial}{\partial y}
+  +\zhat\frac{\partial}{\partial z}
 \end{equation}
-2 §-x + 9% + 2 % (89)
-is often used in place of the name curl. If we write V x F and follow
+is often used in place of the name \emph{curl}. If we write $\nabla\times\vc{F}$ and follow
 the rules for forming the components of a vector cross-product, we
-get automatically the vector, $\curl\vc{F}$. So $\curl\vc{F}$ and V x F mean the
+get automatically the vector, $\curl\vc{F}$. So $\curl\vc{F}$ and $\nabla\times\vc{F}$ mean the
 same thing.
+
+\iffalse
 
 \section{The physical meaning of the curl}
 
-The name ``cur '' reminds us that a vector field with a nonzero curl
-has circulation, or vorticity. Maxwell used the name rotation, and
-in German a similar name is still used, abbreviated rut. Imagine
-a velocity vector field G, and suppose that curl G is not zero. Then
-
+The name ``curl'' reminds us that a vector field with a nonzero curl
+has circulation, or vorticity. Maxwell used the name \emph{rotation}, and
+in German a similar name is still used, abbreviated $\frak{rot}$. Imagine
+a velocity vector field $\vc{G}$, and suppose that $\curl\vc{G}$ is not zero. Then
 % p. 70
 the velocities in this field have something of this character: T:¢ or
 l:T superimposed, perhaps, on a general ffow in one direction. For
@@ -1719,6 +1681,7 @@ function and the line integral of its gradient can also be looked on
 
 as a member of this family of theorems and is included in the third
 column.
+
 
 Fig. 2.33 Some vector relations summarized.
 
