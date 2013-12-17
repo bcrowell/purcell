@@ -56,12 +56,12 @@ test charge is moved, is the factor $q$. Now any electrostatic field is
 simply the superposition of the fields of certain charges, as expressed
 in Eqs. 1.14 and 1.15. In any such field, therefore, the line integral
 of $\vc{E}$, the total $\vc{E}$ due to all the sources, must be path-independent:
-\begin{framed}
 \begin{equation}
+\boxed{
   \int_{P_1}^{P_2} \vc{E}\cdot\der\vc{s} \text{has the same value for all paths connecting
        $P_1$ and $P_2$, in an electrostatic field}
+}
 \end{equation}
-\end{framed}
 
 As an illustration, consider the line integral from $A$ to $C$ in Fig. 2.2c,
 over the path via the point $(2,0)$, the field $\vc{E}$ being the same as before.
@@ -77,11 +77,11 @@ is to make sure you understand what the line integral means.
 \section{Potential difference and the potential function}
 Because the line integral in the electrostatic field is path-
 independent, we can use it to define a scalar quantity $\pot_{21}$, as follows:
-\begin{framed}
 \begin{equation}
+\boxed{
   \pot_{21} = -\int_{P_1}^{P_2} \vc{E}\cdot\der\vc{s}
+}
 \end{equation}
-\end{framed}
 Then $\pot_{21}$ is the \emph{work per unit charge} done in moving a positive
 charge from $P_1$ to $P_2$ in the field $\vc{E}$. Thus $\pot_{21}$ is a single-valued scalar
 function of the two positions $P_1$ and $P_2$. We call it the electric
@@ -173,12 +173,12 @@ As an example, if $f = x^2yz^3$,
 \end{equation*}
 } This
 vector we call the \emph{gradient} of $f$, written $\operatorname{grad} f$, or $\grad f$.
-\begin{framed}
 \begin{equation}
+\boxed{
   \grad f = \xhat \frac{\partial f}{\partial x} + \yhat \frac{\partial f}{\partial y}
           + \zhat \frac{\partial f}{\partial z}
+}
 \end{equation}
-\end{framed}
 \noindent $\grad f$ is a vector that tells how the function $f$ varies in the neighborhood
 of a point. Its $x$ component is the partial derivative off with respect
 to $x$, a measure of the rate of change of $f$ as we move in the $x$ direction.
@@ -238,11 +238,11 @@ expressed as
 The infinitesimal vector displacement $\der\vc{s}$ is just $\xhat\der x+\yhat\der y+\zhat\der z$.
 Thus if we identify $\vc{E}$ with $-\grad\pot$, Eqs. 13 and 14 become identical. So
 the electric field is the negative of the gradient of the potential:
-\begin{framed}
 \begin{equation}
+\boxed{
   \vc{E}=-\grad\pot
+}
 \end{equation}
-\end{framed}
 \noindent The minus sign came in because the electric field points from a region
 of positive potential toward a region of negative potential, whereas
 the vector $\grad\pot$ is defined so that it points in the direction of increasing
@@ -671,11 +671,11 @@ work required to assemble the system, can be calculated from the electric
 field itself simply by assigning an amount of energy $(E^2/8\pi)\der v$ to
 every volume element $\der v$ and integrating over all space where there
 is electric field.}
-\begin{framed}
 \begin{equation}
-U = \frac{1}{8\pi}\int_{\text{Entire\\field}} E^2\der v
+\boxed{
+  U = \frac{1}{8\pi}\int_{\text{Entire\\field}} E^2\der v
+}
 \end{equation}
-\end{framed}
 \noindent $E^2$ is a scalar quantity of course: $E^2\equiv\vc{E}\cdot\vc{E}$.
 
 Thus we could compute the work required for the original assembly
@@ -754,11 +754,11 @@ $q_j$ due to \emph{all other} charges. In this way we can express $U$ as:
 Now if we have a continuous charge distribution $\rho(x,y,z)$ instead of
 a set of point charges, we merely replace the sum in Eq. 42 by the
 integral:
-\begin{framed}
 \begin{equation}
+\boxed{
   U = \frac{1}{2}\int \rho \pot \:\der v  
+}
 \end{equation}
-\end{framed}
 Here the qualification that $\pot$ is due to \emph{all other} charges is no longer
 needed, for the charge element analogous to $q_j$, which is $\rho\der v$, is
 always infinitesimal. So $\pot$ in Eq. 43 is \emph{the} electric potential for the
@@ -870,11 +870,11 @@ write Eq. 46 in this way:
 \end{equation}
 In the limit $N \rightarrow \infty$, $V_i\rightarrow0$, the term in brackets becomes the divergence
 of $\vc{F}$ and the sum goes into a volume integral:
-\begin{framed}
 \begin{equation}
+\boxed{
   \int_S\vc{F}\cdot\der\vc{a} = \int_V \div\vc{F}\:\der v
+}
 \end{equation}
-\end{framed}
 Equation 51 is called Gauss's theorem, or the Divergence Theorem.
 It holds for any vector field for which the limit involved in Eq. 49
 exists.
@@ -893,11 +893,11 @@ for $\vc{E}$:
 Both Eq. 52 and Eq. 53 hold for \emph{any} volume we care to choose---of
 any shape, size, or location. Comparing them, we see that this can
 only be true if at every point,
-\begin{framed}
 \begin{equation}
+\boxed{
   \div\vc{E} = 4\pi\rho
+}
 \end{equation}
-\end{framed}
 If we adopt the divergence theorem as part of our regular mathematical
 equipment from now on, we can regard Eq. 54 simply as an alternate
 statement of Gauss's law. It is Gauss's law in differential form,
@@ -1151,11 +1151,11 @@ word for it or figure out how to do it.}
 
 Wherever $\rho = 0$, that is, in all parts of space containing no electric
 charge, the electric potential $\pot$ has to satisfy the equation
-\begin{framed}
 \begin{equation}
+\boxed{
   \nabla^2\pot=0
+}
 \end{equation}
-\end{framed}
 This is called \intro{Laplace's equation}. We run into it in many branches
 of physics. Indeed one might say that from a mathematical point of
 view the theory of classical fields is mostly a study of the solutions of
@@ -1338,12 +1338,12 @@ out that these three numbers can be considered the components of a
 vector. We call the vector $\curl\vc{F}$. That is to say, the number we get
 for the limit with $\nhat$ in a particular direction is the component, in that
 direction, of the vector $\curl\vc{F}$. To state this in an equation,
-\begin{framed}
 \begin{equation}
+\boxed{
   (\curl\vc{F})\cdot\nhat = \lim_{a_i\rightarrow0} \frac{\Gamma_i}{a_i}
          = \lim \frac{\int_{C_i} \vc{F}\cdot\der\vc{s}}{a_i}
+}
 \end{equation}
-\end{framed}
 
 For instance, the $x$ component of $\curl\vc{F}$ is obtained by choosing
 $\nhat=\xhat$, as in Fig. 2.25. As the loop shrinks down around the point $P$,
@@ -1392,11 +1392,11 @@ vector $\curl\vc{F}$:
     \rightarrow \int_S \der\vc{a}\cdot\curl\vc{F}
 \end{equation}
 We thus find that:
-\begin{framed}
 \begin{equation}
+\boxed{
   \int_C \vc{F}\cdot\der\vc{s} = \int_S \curl\vc{F}\cdot\der\vc{a}
+}
 \end{equation}
-\end{framed}
 
 The relation expressed by Eq. 79 is a mathematical theorem called
 Stokes' theorem. Note how it resembles Gauss's theorem, the divergence
