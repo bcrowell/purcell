@@ -394,67 +394,63 @@ that is not close to either end. We are considering only static fields
 of course, but for slowly varying electrical fields these remarks still
 hold.
 
-\iffalse
-
 \section{Some simple systems of conductors}
 
 In this section we shall investigate a few particularly simple arrangements
 of conductors. We begin with two concentric metal
-spheres, of radii R1 and R2, carrying total charges Q1 and Q2 respectively
+spheres, of radii $R_1$ and $R_2$, carrying total charges $Q_1$ and $Q_2$ respectively
 (Fig. 3.7). This situation presents no new challenge. It is
 obvious from symmetry that the charge on each sphere must be distributed
 uniformly, so our example really belongs back in Chap. 1!
 Outside the larger sphere the field is that of a point charge of magnitude
-Q1 + Q2, so (pl, the potential of the outer sphere, is
-
-(Q1 + Q2)
-31
-
+$Q_1 + Q_2$, so $\pot_1$, the potential of the outer sphere, is
+\begin{equation*}
+  \frac{Q_1+Q_2}{R}
+\end{equation*}
 The potential of the inner sphere is given by
-
-q32: + R"_&dr: Q1 +_Q_2+_Qi__Q_E
-
-R1 R1 1'2 R1 R1 R2 R1
-
-=g-:+g-: , (6)
-
-(P2 is also the potential at all points inside the inner sphere. We could
-have found (p2 = (Q1/R1) + (Q2/R2) by simple superposition:
-Q1/R1 is the potential inside the larger sphere if it alone is present,
-Q2/R2 the potential inside the inner sphere if it alone is present. If
-the spheres carried equal and opposite charges, Q1 = - Q2, only the
+\begin{align}
+\begin{split}
+  \pot_2 &= \frac{Q_1+Q_2}{R} + \int_{R_1}^{R_2} -\frac{Q_2}{r^2}\der r
+         = \frac{Q_1}{R_1}+\frac{Q_2}{R_1}+\frac{Q_2}{R_2}-\frac{Q_2}{R_1} \\
+       &=\frac{Q_1}{R_1}+\frac{Q_2}{R_2}
+\end{split}
+\end{align}
+$\pot_2$ is also the potential at all points inside the inner sphere. We could
+have found $\pot_2 = (Q_1/R_1) + (Q_2/R_2)$ by simple superposition:
+$Q_1/R_1$ is the potential inside the larger sphere if it alone is present,
+$Q_2/R_2$ the potential inside the inner sphere if it alone is present. If
+the spheres carried equal and opposite charges, $Q_1 = - Q_2$, only the
 space between them would have a nonvanishing electric field.
-
 % p. 92
 About the simplest system in which the mobility of the charges in
 the conductor makes itself evident is the point charge near a conducting
-plane. Suppose the xy plane is the surface of a conductor
+plane. Suppose the $xy$ plane is the surface of a conductor
 extending off to infinity. Let's assign this plane the potential zero.
-Now bring in a positive charge Q and locate it h cm above the plane
-on the z axis, as in Fig. 3.8a. What sort of field and charge distribution
-can we expect? We expect the positive charge Q to attract negative
+Now bring in a positive charge $Q$ and locate it $h$ cm above the plane
+on the $z$ axis, as in Fig. 3.8a. What sort of field and charge distribution
+can we expect? We expect the positive charge $Q$ to attract negative
 charge, but we hardly expect the negative charge to pile up in an
-infinitely dense concentration at the foot of the perpendicular from Q.
+infinitely dense concentration at the foot of the perpendicular from $Q$.
 Why not? Also, we remember that the electric field is always perpendicular
 to the surface of a conductor, at the conductor's surface.
-Very near the point charge Q, on the other hand, the presence of the
+Very near the point charge $Q$, on the other hand, the presence of the
 conducting plane can make little difference; the field lines must start
-out from Q as if they were leaving a point charge radially. So we
+out from $Q$ as if they were leaving a point charge radially. So we
 might expect something qualitatively like Fig. 3.819, with some of the
 details still a bit uncertain. Of course the whole thing is bound to
-be quite symmetrical about the z axis.
+be quite symmetrical about the $z$ axis.
 
 But how do we really solve the problem? The answer is, by a trick,
 but a trick that is both instructive and frequently useful. We find an
 easily soluble problem whose solution, or a piece of it, can be made
 to fit the problem at hand. Here the easy problem is that of two equal
-and opposite point charges, Q and - Q. On the plane which bisects
+and opposite point charges, $Q$ and $- Q$. On the plane which bisects
 the line joining the two charges, the plane indicated in cross section
-by the line AA in Fig. 3.80, the electric field is everywhere perpendicular
-to the plane. If we make the distance of Q from the plane
+by the line $AA$ in Fig. 3.80, the electric field is everywhere perpendicular
+to the plane. If we make the distance of $Q$ from the plane
 agree with the distance it in our original problem, the upper half of
-the field in Fig. 3.80 meets all our requirements: The field is perpendicular
-to the plane of the conductor and in the neighborhood of Q
+the field in Fig. 3.8c meets all our requirements: The field is perpendicular
+to the plane of the conductor and in the neighborhood of $Q$
 it approaches the field of a point charge.
 
 The boundary conditions here are not quite those that figured in
@@ -462,7 +458,7 @@ our uniqueness theorem in the last section. The potential of the conductor
 is fixed, but we have in the system a point charge, at which
 the potential approaches infinity. We can regard the point charge
 as the limiting case of a small spherical conductor on which the total
-charge Q is fixed. For this ``mixed'' boundary condition---potentials
+charge $Q$ is fixed. For this ``mixed'' boundary condition---potentials
 given on some surfaces, total charge on others---a uniqueness
 theorem also holds. If our ``borrowed'' solution fits as well as this,
 it must be the solution.
@@ -470,48 +466,37 @@ it must be the solution.
 Figure 3.9 shows the final solution for the field above the plane,
 with the density of the surface charge suggested. We can calculate
 the field strength and direction at any point by going back to the two-
-
 % p. 93
-    
-
- 
-
-Fig. 3.9 Some fie1dln1es.f charge
-strength at the surface, given by Eq. 7, dc
-density 0.
-
 charge problem, Fig. 3.80, and using Coulomb's law. Consider a
 point on the surface, a distance r from the origin. The square of its
-distance from Q is r2 + h2, and the z component of the field of Q,
-at this point, is -Q cos 0/(r2 + h2). The ``image charge,'' -Q,
-below the plane contributes an equal z component. Thus the electric
+distance from $Q$ is $r^2 + h^2$, and the $z$ component of the field of $Q$,
+at this point, is $-Q \cos \theta/(r^2 + h^2)$. The ``image charge,'' $-Q$,
+below the plane contributes an equal $z$ component. Thus the electric
 field here is given by:
-
-_ -2Q _ -2Q _ h _ -2Qh
-E"Trr»?°°S"'fi72'  '7'
-
-This tells us the surface charge density a:
-
-E2 = A" (8)
-
-° = Z? 27702 + h2)3/2
-
-The total surface charge ought to amount to -Q. Just as a check,
+\begin{equation}
+  E_z = \frac{-2Q}{r^2+h^2}\cos\theta - \frac{-2Q}{r^2+h^2}\cdot\frac{h}{(r^2+h^2)^{1/2}}
+       = \frac{-2Qh}{(r^2+h^2)^{3/2}}
+\end{equation}
+This tells us the surface charge density $\sigma$:
+\begin{equation}
+  \sigma = \frac{E_z}{4\pi}  = \frac{-Qh}{2\pi(r^2+h^2)^{3/2}}
+\end{equation}
+The total surface charge ought to amount to $-Q$. Just as a check,
 we could integrate over the surface and see if it is:
-
-Total surface charge = I000 0 - 2m dr
-
-°° hd
-=-QL  _) (9)
-
+\begin{align}
+\begin{split}
+  \text{Total surface charge} &= \int_0^\infty \sigma\cdot2\pi r\:\der r \\
+           &= -Q \int_0^\infty \frac{hr\:\der r}{(r^2+h^2)^{3/2}} = -Q
+\end{split}
+\end{align}
 % p. 94
 The method of solution used here has traditionally been called
-the method of images. One thinks of the fictitious negative charge
-located a distance h below the plane of the conductor, toward which
-the field lines appear to plunge, as the ``image'' of the point charge Q,
+the \intro{method of images}. One thinks of the fictitious negative charge
+located a distance $h$ below the plane of the conductor, toward which
+the field lines appear to plunge, as the ``image'' of the point charge $Q$,
 something like the virtual image behind a mirror. The electric force
-which acts on the charge Q, owing to the attraction of the surface
-charge, is equal to the force that a charge -Q in the image position
+which acts on the charge $Q$, owing to the attraction of the surface
+charge, is equal to the force that a charge $-Q$ in the image position
 would cause. Note that the actual origin of this force is the surface
 charge.
 
@@ -525,7 +510,7 @@ others are closed surfaces, none of them quite spherical, but surfaces
 we could locate by an elementary calculation if we had to. If now
 we were to take any two of these surfaces, construct metal shells of
 exactly that shape and similarly placed with respect to one another,
-as in Fig. 3.1019, we would have already in hand the exact solution
+as in Fig. 3.10b, we would have already in hand the exact solution
 for the electrostatic field of two such charged conductors! It would
 be the corresponding piece of the two-charge field. Unfortunately,
 no one is likely to come around with electrodes of precisely that
@@ -540,18 +525,18 @@ The situation was well described by Maxwell: ``It appears, therefore,
 that what we should naturally call the inverse problem of determining
 the forms of the conductors when the expression for the potential
 is given is more manageable than the direct problem of determining
-the potential when the form of the conductors is given.''T
-
-TJames Clerk Maxwell, Treatise on Electricity and Magnetism, vol. I, chap. VII.
+the potential when the form of the conductors is given.''\footnote{
+James Clerk Maxwell, Treatise on Electricity and Magnetism, vol. I, chap. VII.
 (3d ed., Oxford University Press, 1891; reprint ed., Dover, New York, 1954). Every
 student of physics ought sometime to look into Maxwell's book. Chapter VII is a good
 place to dip in while we are on the present subject. At the end of Volume I you will find
 some beautiful diagrams of electric fields, and shortly beyond the quotation we have just
-
 given, Maxwe11's reason for presenting these figures. One may suspect that he also took
-delight in their construction and their elegance.
+delight in their construction and their elegance.}
 
 % p. 95
+\iffalse
+
 \section{Capacitors and capacitance}
 
 Two similar flat conducting plates are arranged parallel to one
@@ -677,32 +662,32 @@ perturbation of the electric field in that space. To minimize this we
 may suppose the lead wires to be extremely thin. Or we might
 imagine the leads removed before the potentials are determined.
 
-In this system we can distinguish three charges: Q1, the total
-charge on the inner conductor; Q2"), the amount of charge on the
-inner surface of the outer conductor; Q2") the charge on the outer
-surface of the outer conductor. Observe first that Q2") must equal
--Q1. We know this because a surface such as S, in Fig. 3.13 encloses
+In this system we can distinguish three charges: Q_1, the total
+charge on the inner conductor; Q_2"), the amount of charge on the
+inner surface of the outer conductor; Q_2") the charge on the outer
+surface of the outer conductor. Observe first that Q_2") must equal
+-Q_1. We know this because a surface such as S, in Fig. 3.13 encloses
 both these charges and no others and the flux through this
 surface is zero. The flux is zero because on the surface S, lying, as
 it does, in the interior of a conductor, the electric field is zero.
 
-Evidently the value of Q1 will uniquely determine the electric field
+Evidently the value of Q_1 will uniquely determine the electric field
 within the region between the two conductors, and thus will determine
 the difference between their potentials, $\pot$1 - (P2. For that
 reason, if we are considering the two bodies as ``plates'' of a capaci-
-tor, it is only Q1, or its counterpart Q2"), that is involved in determining
+tor, it is only Q_1, or its counterpart Q_2"), that is involved in determining
 the capacitance. The capacitance is:
 
 c=% (14)
 
-Q2"), on which (P2 itself depends, is here irrelevant. In fact, the complete
+Q_2"), on which (P2 itself depends, is here irrelevant. In fact, the complete
 enclosure of one conductor by the other makes the capacitance
 
 % p. 99
 independent of everything outside. If we were faced instead with
 two unsymmetrical capacitor plates not so enclosed---something like
 Fig. 3.14, say,---we might be puzzled by the question: What is the
-charge which plays the role of Q1, in terms of which the capacitance
+charge which plays the role of Q_1, in terms of which the capacitance
 should be defined? The answer is that it is the amount of charge
 that would have to be transferred from conductor 1 to conductor 2
 (thus keeping the sum of the charges on the two conductors con-
@@ -722,11 +707,11 @@ this shell we may choose to be zero; with respect to this reference the
 potentials of the three conductors, for some particular state of the
 system, are qol, «p2, and (p3. The Uniqueness Theorem guarantees
 that with (p1, (P2, and (P3 given, the electric field is determined throughout
-the system. It follows that the charges Q1, Q2, and Q3 on the
+the system. It follows that the charges Q_1, Q_2, and Q3 on the
 individual conductors are likewise uniquely determined.
 
 We need not keep account of the charge on the inner surface of
-the surrounding shell, since it will always be -(Q1 + Q2 + Q3).
+the surrounding shell, since it will always be -(Q_1 + Q_2 + Q3).
 If you prefer, you can let ``infinity'' take over the role of this shell,
 imagining the shell to expand outward without limit. We have kept
 it in the picture because it makes the process of charge transfer easier
@@ -744,10 +729,10 @@ of (pl. Moreover, if (pl were doubled that would imply a doubling
 
 % p. 100
 of the field strength everywhere, and hence a doubling of each of
-the charges Q1, Q2, and Q3. That is, with (P2 = (133 = 0, each of the
+the charges Q_1, Q_2, and Q3. That is, with (P2 = (133 = 0, each of the
 three charges must be proportional to (pl. Stated mathematically:
 
-(P2S:n::3I= 0 } Q1 = C11<P1§ Q2 = C21<Pi; Q3 = C31<P1 (15)
+
 The three constants, C11, C21, and C31 can depend only on the shape
 and arrangement of the conducting bodies.
 
@@ -757,12 +742,12 @@ must find a linear relation between the only nonzero potential, (P2 in
 this case, and the various charges:
 
 II
-Sine _ 0 ] Q1 = C12<P2; Q2 = C22<P2§ Q3 = C32<P2 (16)
+Sine _ 0 ] Q_1 = C12<P2; Q_2 = C22<P2§ Q3 = C32<P2 (16)
 'P1 - 'P3 -
 Finally, when (121 and (P2 are held at zero, the field and the charges
 are proportional to (P32
 
-(p1S:lt(:2H=I 0 } Q1 = C13<P3; Q2 = C23<P3§ Q3 = C33<P3 (17)
+
 
 Now the superposition of three states like I, II, and III is also a
 possible state. The electric field at any point is the vector sum of
@@ -774,8 +759,8 @@ zero. In short, we have a completely general state. The
 relation connecting charges and potentials is obtained simply by
 adding Eqs. 15 through 17:
 
-Q1 = C11<P1 + C12<P2 + C13<P3
-Q2 = C21<P1 + C22<P2 + C23<P3 (18)
+Q_1 = C11<P1 + C12<P2 + C13<P3
+Q_2 = C21<P1 + C22<P2 + C23<P3 (18)
 Q3 = C31<P1 + C§2<P2 + C33<P3
 
 It appears that the electrical behavior of this system is characterized
@@ -797,9 +782,9 @@ A set of equations like (18) can be solved for the $\pot$'s in terms of
 the Q's. That is, there is an equivalent set of linear relations of the
 form:
 
-'P1 = P11Q1 + P12Q2 + P13Q3
-(P2 = P21Q1 + P22Q2 + P23Q3 (19)
-(P3 = P31Q1 + P32Q2 + P33Q3
+'P1 = P11Q_1 + P12Q_2 + P13Q3
+(P2 = P21Q_1 + P22Q_2 + P23Q3 (19)
+(P3 = P31Q_1 + P32Q_2 + P33Q3
 
 The P's are called the potential coefficients; they could be computed
 from the C's, or vice versa.
