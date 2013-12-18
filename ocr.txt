@@ -5002,7 +5002,7 @@ Whenever charge carriers behave like this, we can expect something
 like Ohm's law.
 
 In Eq. 15 we have written f+ because the mean time between collisions
-may well be diff'erent for positive and negative ions. The negative
+may well be different for positive and negative ions. The negative
 ions acquire velocity in the opposite direction, but since they
 carry negative charge their contribution to the current density J adds
 
@@ -5619,7 +5619,7 @@ pool of mercury in which cadmium metal has been dissolved.
 (Many metals will dissolve in mercury; such a solution is called an
 amalgam.) Above the mercury pool on the left are some crystals of
 mercurous sulfate, Hg2SO4, a compound that is only very slightly
-soluble in water. We find a diff'erence of potential between the external
+soluble in water. We find a difference of potential between the external
 leads, the one on the left being positive with respect to the one
 
 on the right. (The absolute value of the potential is irrelevant; only
@@ -6336,7 +6336,7 @@ can reveal quite plainly a mass difference between an ionized deuterium
 molecule (2 protons, 2 neutrons, 1 electron) and an ionized
 helium atom (also 2 protons, 2 neutrons, and 1 electron). These are
 two very different structures, in which the component particles are
-moving with very diff'erent speeds. The difference in energy shows
+moving with very different speeds. The difference in energy shows
 up as a measurable difference in mass. There is no detectable dif-
 ference, to very high precision, in the electric charge of the two ions.
 
@@ -16037,7 +16037,7 @@ neat arrangement. Therm
 to -speak. A crystal, an orde
 liquid, a much less orderly .
 perature, the melting point.
-is different for diff'erent subs
+is different for different subs
 involves ideas that are better
 physics in the latter part of
 the ordered state itself. Tw
@@ -16788,7 +16788,7 @@ Chapter 3
 3.18 (a) Show that the square of a
 same dimensions as force. This tells
 bodies will largely be determined, as 1
-diff'erences involved. Dimensions will
+differences involved. Dimensions will
 some constants like 471. What is the «
 with a statvolt potential difference be
 (h) Practically achievable potential «
