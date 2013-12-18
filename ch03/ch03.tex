@@ -535,120 +535,103 @@ given, Maxwe11's reason for presenting these figures. One may suspect that he al
 delight in their construction and their elegance.}
 
 % p. 95
-\iffalse
-
 \section{Capacitors and capacitance}
 
 Two similar flat conducting plates are arranged parallel to one
-another, separated by a distance s, as in Fig. 3.l1a. Let the area of
-each plate be A and suppose that there is a charge Q on one plate
-and -Q on the other. (p1 and (P2 are the values of the potential at
-each of the plates. Figure 3.1 lb shows in cross section the field lines
+another, separated by a distance $s$, as in Fig. 3.l1a. Let the area of
+each plate be $A$ and suppose that there is a charge $Q$ on one plate
+and $-Q$ on the other. $\pot_1$ and $\pot_2$ are the values of the potential at
+each of the plates. Figure 3.11b shows in cross section the field lines
 in this system. Away from the edge, the field is very nearly uniform
 in the region between the plates. Treating it as uniform, its magnitude
-must be ((121 - $\pot$2)/s. The corresponding density of the surface
+must be $(\pot_1-\pot_2)/s$. The corresponding density of the surface
 charge on the inner surface of one of the plates is
-
-_ £_ 'P1 - (P2
-_ 471' _ 47rs (10)
-
-0
-
+\begin{equation}
+  \sigma = \frac{E}{4\pi} = \frac{\pot_1-\pot_2}{4\pi s}
+\end{equation}
 % p. 96
- 
-
-If we may neglect the actual variation of E and therefore of a which
+If we may neglect the actual variation of $E$ and therefore of $\sigma$ which
 occurs principally near the edge of the plates, we can write a simple
 expression for the total charge on one plate:
-
-
-
-477$ (neglecting edge effects) (11)
-
+\begin{equation}
+  Q = A \: \frac{\pot_1-\pot_2}{4\pi s}
+\end{equation}
 We should expect Eq. 11 to be more nearly accurate the smaller
-the ratio of the plate separation s to the lateral dimension of the
-plates. Of course, if we were to solve exactly the electrostatic prob-
-lem, edge and all, for a particular shape of plate, we could replace
+the ratio of the plate separation $s$ to the lateral dimension of the
+plates. Of course, if we were to solve exactly the electrostatic problem,
+edge and all, for a particular shape of plate, we could replace
 Eq. 11 by an exact formula. To show how good an approximation
-Eq. 11 is, there are listed in Fig. 3.12 values of the correction factor f
-by which the charge Q given by Eq. 11 differs from the exact result,
+Eq. 11 is, there are listed in Fig. 3.12 values of the correction factor $f$
+by which the charge $Q$ given by Eq. 11 differs from the exact result,
 in the case of two conducting disks at various separations. The
 total charge is always a bit greater than Eq. 11 would predict. That
-seems reasonable, as we look at Fig. 3.1112, for there is evidently an
+seems reasonable, as we look at Fig. 3.11b, for there is evidently an
 extra concentration of charge at the edge, and even some charge on
 the outer surfaces, near the edge.
 
 We are not concerned now with the details of such corrections but
 with the general properties of a two-conductor system. Our pair of
 plates is one example of a common element in electrical systems, the
-capacitor. A capacitor is simply two conductors close together, at
+\intro{capacitor}. A capacitor is simply two conductors close together, at
 different potentials, and carrying different charges. We are interested
-in the relation between the charge Q on one of the plates and
-
+in the relation between the charge $Q$ on one of the plates and
 % p. 97
 the potential difference between them. For the particular system
-to which Eq. 11 applies, the quotient Q/ (cpl - (P2) is A/4ws. Even
+to which Eq. 11 applies, the quotient $Q/(\pot_1-\pot_2)$ is $A/4\pi s$. Even
 if this is only approximate, it is clear that the exact formula will depend
 only on the size and geometrical arrangement of the plates.
 That is, for a fixed pair of conductors, the ratio of charge to potential
-difference will be a constant. We call this constant the capacitance
-of the capacitor and denote it usually by C.
-
-Q = CW1 - $\pot$2) (12)
-
+difference will be a constant. We call this constant the \intro{capacitance}
+of the capacitor and denote it usually by $C$.
+\begin{equation}
+  Q = C(\pot_1-\pot_2)
+\end{equation}
 Thus the capacity of the parallel-plate capacitor, with edge fields
 neglected, is given by
-
-C _ A (in cm?)
-_ 47715' (in cm)
-
-(13)
-
+\begin{equation}
+  C = \frac{\text{$A$ (in $\cmunit^2$)}}{\text{$4\pi s$ (in cm)}}
+\end{equation}
 In the CGS units we are using, with charge in esu and potential in
 statvolts, capacitance has the dimensions of length and the unit of
-capacity can simply be called the centimeter. Two plates each
-100 cm? in area, and 1 mm apart, form a capacitor with a capacitance
-of 100/(477) (0.1) cm, or 79.5 cm.
+capacity can simply be called the \emph{centimeter}. Two plates each
+$100\ \cmunit^2$ in area, and 1 mm apart, form a capacitor with a capacitance
+of $100/(4\pi)(0.1)\ \cmunit$, or 79.5 cm.
 
 In the other system of units that we have to be familiar with, the
 ``practical'' system, electric charge is expressed in coulombs, or
 ampere-seconds, and the unit of potential is the volt. Unit capacitance
 in this system implies a capacitor that has one coulomb on
 one of its plates when the potential difference is one volt. The unit
-is called the farad. To relate the farad to the CGS unit of capac-
-itance, the centimeter, remember that 1 volt = 1/300 statvolt, and
-1 coulomb = 3 x 109 esu. Thus
-
-1 coulomb _ 3 x 109 esu
-lvolt - (1/300) statvolt
-
-1 farad
-
-11_E"_ = 9 1011 .
-9 X 10 statvolt X Cm
-
+is called the \emph{farad}. To relate the farad to the CGS unit of capacitance,
+the centimeter, remember that 1 volt = 1/300 statvolt, and
+1 coulomb = $3 \times 10^9$ esu. Thus
+\begin{align*}
+  1\ \zu{farad} &= \frac{1\ \zu{coulomb}}{1\ \zu{volt}} = \frac{3 \times 10^9\ \zu{esu}}{(1/300)\ \zu{statvolt}} \\
+                &= 9\times 10^{11}\frac{\zu{esu}}{\zu{statvolt}} = 9\times 10^{11}\ \cmunit
+\end{align*}
 A one-farad capacitor would be gigantic. To make it with plates
 1 mm apart would require each plate to have an area of about
-100 km2.T Because this is one place where the ``practical'' units
-
-1 Of course there are more compact ways of making a capacitor of high capacitance!
+$100\ \zu{km}^2$.\footnote{Of course there are more compact ways of making a capacitor of high capacitance!
 You can buy a microfarad of capacitance at any electrical shop and easily carry it home.
 In biological material the wall of a cell forms an electrically insulating layer separating
 the interior of the cell from the external ffuid environment. This membrane behaves
-electrically like a capacitance of, typically, 1 ptF/cm? of membrane area. What ``plate
+electrically like a capacitance of, typically, $1\ \mu\zu{F}/\cmunit^2$ of membrane area. What ``plate
 separation'' does this imply? (Actually, the capacitance depends also on the dielectric
 constant, that is, the electrical polarizability, of the medium between the plates. This
-
+will be discussed in Chap. 9.)}
+Because this is one place where the ``practical'' units
 % p. 98
 happen to come out a rather impractical size, one commonly uses
-the microfarad (,uF) and the micromicrofarad (,u.uF). The latter unit,
-l0'12 farads, is also called the picofarad (abbreviated pf). Notice
-that it is about the same magnitude as our CGS unit of capacity, the
+the \emph{microfarad} ($\mu\zu{F}$) and the
+\emph{picofarad} (pF).
+% Got rid of archaic description of micromicrofarad as a unit of capacitance.
+Notice
+that the latter unit is about the same magnitude as our CGS unit of capacity, the
 centimeter. The word condenser, by the way, is an older term for
 capacitor.
 
 Any pair of conductors, regardless of shape or arrangement, can
-be considered a capacitor. It just happens that the parallel---plate
+be considered a capacitor. It just happens that the parallel-plate
 capacitor is a common arrangement and one for which an approximate
 calculation of the capacitance is very easy. Figure 3.13 shows
 two conductors, one inside the other. We can call this arrangement,
@@ -662,36 +645,38 @@ perturbation of the electric field in that space. To minimize this we
 may suppose the lead wires to be extremely thin. Or we might
 imagine the leads removed before the potentials are determined.
 
-In this system we can distinguish three charges: Q_1, the total
-charge on the inner conductor; Q_2"), the amount of charge on the
-inner surface of the outer conductor; Q_2") the charge on the outer
-surface of the outer conductor. Observe first that Q_2") must equal
--Q_1. We know this because a surface such as S, in Fig. 3.13 encloses
+In this system we can distinguish three charges: $Q_1$, the total
+charge on the inner conductor; $Q_2^{(i)}$, the amount of charge on the
+inner surface of the outer conductor; $Q_2^{(o)}$ the charge on the outer
+surface of the outer conductor. Observe first that $Q_2^{(o)}$ must equal
+$-Q_1$. We know this because a surface such as $S$, in Fig. 3.13 encloses
 both these charges and no others and the flux through this
-surface is zero. The flux is zero because on the surface S, lying, as
+surface is zero. The flux is zero because on the surface $S$, lying, as
 it does, in the interior of a conductor, the electric field is zero.
 
-Evidently the value of Q_1 will uniquely determine the electric field
+Evidently the value of $Q_1$ will uniquely determine the electric field
 within the region between the two conductors, and thus will determine
-the difference between their potentials, $\pot$1 - (P2. For that
+the difference between their potentials, $\pot_1-\pot_2$. For that
 reason, if we are considering the two bodies as ``plates'' of a capaci-
-tor, it is only Q_1, or its counterpart Q_2"), that is involved in determining
+tor, it is only $Q_1$, or its counterpart $Q_2^{(o)}$, that is involved in determining
 the capacitance. The capacitance is:
-
-c=% (14)
-
-Q_2"), on which (P2 itself depends, is here irrelevant. In fact, the complete
+\begin{equation}
+  C = \frac{Q_1}{\pot_1-\pot_2}
+\end{equation}
+$Q_2^{(o)}$, on which $\pot_2$ itself depends, is here irrelevant. In fact, the complete
 enclosure of one conductor by the other makes the capacitance
 
 % p. 99
 independent of everything outside. If we were faced instead with
 two unsymmetrical capacitor plates not so enclosed---something like
 Fig. 3.14, say,---we might be puzzled by the question: What is the
-charge which plays the role of Q_1, in terms of which the capacitance
+charge which plays the role of $Q_1$, in terms of which the capacitance
 should be defined? The answer is that it is the amount of charge
 that would have to be transferred from conductor 1 to conductor 2
 (thus keeping the sum of the charges on the two conductors con-
 stant) to cause their potentials to become equal.
+
+\iffalse
 
 \section{Potentials and charges on several conductors}
 
