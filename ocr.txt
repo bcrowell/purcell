@@ -564,7 +564,7 @@ This would be true whether they came apart simultaneously and
 symmetrically, or were released one at a time in any order. Here
 we see the power of this simple notion of the total potential energy
 of the system. Think what the problem would be like if we had to
-compute the resultant Vector force on every particle, at every stage
+compute the resultant vector force on every particle, at every stage
 of assembly of the configuration! In this example, to be sure, the
 geometrical symmetry would simplify that task; even so it would be
 more complicated than the simple calculation above.
@@ -813,7 +813,7 @@ very much difference for points far away, and a point charge of +2
 units is just what we would have left if we superimposed our two
 sources at one spot.
 
-Another way to depict a Vector field is to draw field lines. These
+Another way to depict a vector field is to draw field lines. These
 are simply curves whose tangent, at any point, lies in the direction of
 the field at that point. Such curves will be smooth and continuous
 except at singularities such as point charges, or points like the one
@@ -2830,7 +2830,7 @@ we keep it in a plane perpendicular to the x axis. In general, the
 vector curl F will vary from place to place. If we let the patch shrink
 down around some other point, the ratio of circulation to area may
 have a dillerent value, depending on the nature of the vector function
-F. That is, curl F is itself a Vector function of the coordinates.
+F. That is, curl F is itself a vector function of the coordinates.
 Its direction at each point is normal to the plane through this point
 in which the circulation is a maximum. Its magnitude is the limiting
 
@@ -2846,7 +2846,7 @@ question.
 % p. 66
 We have only asserted that the object defined in this way is a vector
 ---we haven't proved it. To deserve the name, the components as
-defined must behave in all respects like Vector components. Suppose
+defined must behave in all respects like vector components. Suppose
 we have found certain values for the $x$, $y$, and $z$ components, according
 to Eq. 76. If we then choose f1 in some fourth direction, the result
 given by Eq. 76 ought to prove consistent with the other three num-
@@ -3120,7 +3120,7 @@ Hence no electrostatic field could have this form. If you will sketch
 roughly the form of this field you will see at once that it has
 circulation.
 
-You can develop some feeling for these aspects of Vector functions
+You can develop some feeling for these aspects of vector functions
 by studying the two---dimensional fields pictured in Fig. 2.32. In four
 of these fields the divergence of the vector function is zero throughout
 the region shown. Try to identify the four. Divergence implies
@@ -7589,7 +7589,7 @@ TWe are looking for a force which will appear to an observer in the lab frame as
 
 force perpendicular to the velocity of the test particle, just as the force in the first case
 
-was perpendicular to the velocity, and to the left of the velocity Vector as seen from
+was perpendicular to the velocity, and to the left of the velocity vector as seen from
 above.
 
 % p. 187
@@ -8138,7 +8138,7 @@ Of course, this is not the only function that could serve as the vector
 potential for this particular B. To the A of Eq. 33 could be added any
 vector function with zero curl. This all holds for the space outside
 the wire. Inside the wire, B is different, so A must be different also.
-It is not hard to find the appropriate Vector potential function for
+It is not hard to find the appropriate vector potential function for
 the interior of a solid round wire---see Prob. 6.13.
 
 Incidentally, the A for our particular example above could not
@@ -13345,7 +13345,7 @@ D M
 % p. 329
 The assumption of uniform
 consistent.T To compute the
-add Vectorially to E0 the field
+add vectorially to E0 the field
 equal to P times the V0l11I'I1f
 both inside and outside the c
 
@@ -15815,7 +15815,7 @@ zero divergence.
 This surely has reminded you
 a bit grudgingly, in the last ch
 the free charge as E is related to
-disparaged D, the Vector H is re
+disparaged D, the vector H is re
 is worth understanding. In e1
 control and measure are the pc
 the amounts of free charge on

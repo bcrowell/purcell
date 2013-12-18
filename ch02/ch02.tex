@@ -1547,7 +1547,6 @@ the rules for forming the components of a vector cross-product, we
 get automatically the vector, $\curl\vc{F}$. So $\curl\vc{F}$ and $\nabla\times\vc{F}$ mean the
 same thing.
 
-\iffalse
 
 \section{The physical meaning of the curl}
 
@@ -1556,16 +1555,19 @@ has circulation, or vorticity. Maxwell used the name \emph{rotation}, and
 in German a similar name is still used, abbreviated $\frak{rot}$. Imagine
 a velocity vector field $\vc{G}$, and suppose that $\curl\vc{G}$ is not zero. Then
 % p. 70
-the velocities in this field have something of this character: T:¢ or
-l:T superimposed, perhaps, on a general ffow in one direction. For
-instance the velocity field of water ffowing out of a bathtub generally
+the velocities in this field have something of this character: 
+\raisebox{-.3\height}{\includegraphics{ch02/figs/curly-clockwise-box-of-arrows}}
+or
+\raisebox{-.3\height}{\includegraphics{ch02/figs/curly-counterclockwise-box-of-arrows}}
+superimposed, perhaps, on a general flow in one direction. For
+instance the velocity field of water flowing out of a bathtub generally
 acquires a circulation. Its curl is not zero over most of the surface.
-Something ffoating on the surface rotates as it moves along (see
-Probs. 2.16 and 2.26). In the physics of ffuid ffow, hydrodynamics
+Something floating on the surface rotates as it moves along (see
+Probs. 2.16 and 2.26). In the physics of fluid flow, hydrodynamics
 and aerodynamics, this concept is of central importance.
 
-To make a ``curl-meter'' for an electric fie1d---at least in imagina-
-tion---we could fasten positive charges to a hub by insulating spokes,
+To make a ``curl-meter'' for an electric fie1d---at least in 
+imagination---we could fasten positive charges to a hub by insulating spokes,
 as in Fig. 2.30. Exploring an electric field with this device, we would
 find, wherever $\curl\vc{E}$ is not zero, a tendency for the wheel to turn
 around the shaft. With a spring to restrain rotation, the amount of
@@ -1576,7 +1578,7 @@ is maximum, and clockwise, that is the direction of the vector $\curl\vc{E}$.
 (Of course, we cannot trust the curl-meter in a field which varies
 greatly within the dimensions of the wheel itself.)
 
-What can we say, in the light of all this, about the electrostatic
+What can we say, in the light of all this, about the \emph{electrostatic}
 field E? The conclusion we can draw is a simple one: the curl-meter
 will always read zero! That follows from a fact we have already
 learned; namely, in the electrostatic field the line integral of E
@@ -1584,72 +1586,52 @@ around any closed path is zero. Just to recall why this is so, remember
 that the line integral of $\vc{E}$ between any two points such as $P_1$ and
 $P_2$ in Fig. 2.31 is independent of the path. As we bring the two points
 $P_1$ and $P_2$ close together, the line integral over the shorter path in the
-
 figure obviously vanishes---unless the final location is at a singularity
 such as a point charge, a case we can rule out. So the line integral
-
 must be zero over the closed loop in Fig. 2.31d. But now, if the circulation
-is zero around any closed path, it follows from Stokes'
+is zero around \emph{any} closed path, it follows from Stokes'
 theorem that the surface integral of $\curl\vc{E}$ is zero over a patch of any
 size, shape, or location. But then $\curl\vc{E}$ must be zero everywhere,
 for if it were not zero somewhere we could devise a patch in that
 neighborhood to violate the conclusion. All this leads to the simple
-statement that in the electrostatic field E:
-
+statement that in the electrostatic field $\vc{E}$:
 \begin{equation}
-(equation not yet converted)
+  \curl\vc{E} = 0 \qquad (\text{everywhere})
 \end{equation}
-$\curl\vc{E}$ : 0 (everywhere) (90)
-
-Turning it around, one can say that Eq. 90 is a sufiicient condition for
-a field to be conservative, that is, for it to be describable as the gradient
+Turning it around, one can say that Eq. 90 is a \emph{sufficient} condition for
+a field to be \emph{conservative}, that is, for it to be describable as the gradient
 of some potential function.
 
 This test is easy to apply. When the vector function in Fig. 2.2
 was first introduced, it was said to represent a possible electrostatic
-
 % p. 71
-field. The components were specified by E, = Ky and E1, = Kx, to
-which we should add E2 : O to complete the description of a field
+field. The components were specified by $E_x = Ky$ and $Ey = Kx$, to
+which we should add $E_z=0$ to complete the description of a field
 in three-dimensional space. Calculating $\curl\vc{E}$ we find:
-
+\begin{align}
+\begin{split}
+  (\curl \vc{E})_x &= \frac{\partial E_z}{\partial y} - \frac{\partial E_y}{\partial z} = 0 \\
+  (\curl \vc{E})_y &= \frac{\partial E_x}{\partial z} - \frac{\partial E_z}{\partial x} = 0 \\
+  (\curl \vc{E})_z &= \frac{\partial E_y}{\partial x} - \frac{\partial E_x}{\partial y} = K-K = 0 \\
+\end{split}
+\end{align}
+This tells us that $\vc{E}$ is the gradient of some scalar potential. Incidentally,
+this particular field $\vc{E}$ happens to have zero divergence, also:
 \begin{equation}
-(equation not yet converted)
+  \frac{\partial E_x}{\partial x}+\frac{\partial E_y}{\partial y}+\frac{\partial E_z}{\partial z} = 0
 \end{equation}
-BE BE
-IE 9; = Z - jy =
-(cur ) By az 0
-6E, BEZ _
-($\curl\vc{E}$), _ az - ax _ 0 (91)
-23E 29E
-IE 2 : 1' - 'T : --- =
-(cur ) ax By K K 0
+It therefore represents an electrostatic field in a \emph{charge-free} region.
 
-This tells us that $\vc{E}$ is the gradient of some scalar potential. Inciden-
-tally, this particular field $\vc{E}$ happens to have zero divergence, also:
-
-\begin{equation}
-(equation not yet converted)
-\end{equation}
-5E, 315,, BEZ _
-6x + 6g + Bz _
-
-0 (92)
-
-It therefore represents an electrostatic field in a charge-free region.
 On the other hand, the equally simple vector function defined by
-F, = Ky; F,, = -Kx; F; = 0, does not have zero curl. Instead,
-
+$F_x = Ky$; $F_y = -Kx$; $F_z=0$, does not have zero curl. Instead,
 \begin{equation}
-(equation not yet converted)
+  (\curl\vc{F})_z = -2K
 \end{equation}
-($\curl\vc{F}$): = ---2K (93)
-
 Hence no electrostatic field could have this form. If you will sketch
 roughly the form of this field you will see at once that it has
 circulation.
 
-You can develop some feeling for these aspects of Vector functions
+You can develop some feeling for these aspects of vector functions
 by studying the two---dimensional fields pictured in Fig. 2.32. In four
 of these fields the divergence of the vector function is zero throughout
 the region shown. Try to identify the four. Divergence implies
@@ -1659,44 +1641,24 @@ is zero. In three of the fields the curl of the vector function is
 zero throughout that portion of the field which is shown. Try to
 identify the three by deciding whether a line integral around any
 loop would or would not be zero, in each picture. That is the essence
-of curl. (After you have studied the pictures, think about these questions
+of \emph{curl}. (After you have studied the pictures, think about these questions
 before you compare your reasoning and your conclusions with
 the explanation given in Fig. 2.34 on a later page.)
 
 The curl of a vector field will prove to be a valuable tool later on
-when we deal with electric and magnetic fields whose curl is not zero.
+when we deal with electric and magnetic fields whose curl is \emph{not} zero.
 We have developed it at this point because the ideas involved are so
 close to those involved in the divergence. We may say that we have
-met two kinds of derivatives of a vector field. One kind, the diver-
-
+met two kinds of derivatives of a vector field. One kind, the divergence,
+involves the rate of change of a vector component in its own
 % p. 72
 % p. 73
-direction, 8F,/ax, and so on. The other kind, the curl, is a sort of
-``sideways derivative,'' involving the rate of change of F, as we move
-in the y or z direction.
+direction, $\partial F_x/\partial x$, and so on. The other kind, the curl, is a sort of
+``sideways derivative,'' involving the rate of change of $F_x$, as we move
+in the $y$ or $z$ direction.
 
 The relations called Gauss's theorem and Stokes' theorem are summarized
 in Fig. 2.33. The connection between the scalar potential
 function and the line integral of its gradient can also be looked on
-
 as a member of this family of theorems and is included in the third
 column.
-
-
-Fig. 2.33 Some vector relations summarized.
-
- 
-
-IF-da =fdivFdo [A-ds = ]'curIA-da
-surface volume curve surface
-
-IN CARTESIAN COORDINATI
-
-_ _aFx OF 617,, _A6A _%
-d1vF- ax  az curlA - X(6yz az)
-=  «»c:;:«-::z>
-A %_6A,)
-+z<6x By
-= VXA
-
-\fi
