@@ -4790,7 +4790,7 @@ relations, and shows how Eqs. 10 and 11 are implied by Eq. 12.
 
 Tln general, a linear relation between two vectors involves a tensor. We'1l meet an
 important example of a tensor in Chap. 9. There are a few substances in which the
-conductivity is quite different in dilferent directions and has to be treated as a tensor,
+conductivity is quite different in different directions and has to be treated as a tensor,
 but we needn't worry about them.
 
 IThe Greek letters p and a are the symbols usually adopted for resistivity and con-
@@ -5296,7 +5296,7 @@ each copper tube is an equipotential. Looking at the chart in Fig. 4.6,
 we see that we have more than a factor of 103 between copper and
 graphite, around room temperature, so the assumption seems safe if
 the copper is not extremely thin. Proceeding on that assumption, let
-V0 be the potential dilference between the copper electrodes. To
+V0 be the potential difference between the copper electrodes. To
 
 % p. 128
 0°K due to lattice defects) METALLIC
@@ -5714,7 +5714,7 @@ ing, it is not the energy, but the so-called free energy that is involved,
 a thermodynamic distinction we cannot go into here.
 
 The Weston cell itself is not used as a source of electrical energy but
-rather as a standard for potential dilference. The situation depicted
+rather as a standard for potential difference. The situation depicted
 in Fig. 4.19, in which so large a current is ffowing that the terminal
 voltage has dropped by about 10 percent, would be a gross misuse of
 the cell. The electromotive force of the Weston cell is highly repro-
@@ -6317,7 +6317,7 @@ of the same element, atoms with different nuclear masses but,
 nominally at least, the same nuclear charge. Here again we find a
 marked difference in the motion of the protons within the nucleus,
 but comparison of the spectral lines of the two species shows no discrepancy
-that could be attributed to even a slight dilference in total
+that could be attributed to even a slight difference in total
 nuclear charge.
 
 Mass is not invariant in the same way. We know that the mass of
@@ -7969,7 +7969,7 @@ function.
 
 6.3 Vector Potential
 
-We found that the scalar potential function <p(x,y,z) gave us a
+We found that the scalar potential function $\pot$(x,y,z) gave us a
 simple way to calculate the electrostatic field of a charge distribution.
 If there is some charge distribution p(x,y,z), the potential at any
 point (x1,y1,z1) is given by the volume integral
@@ -7982,7 +7982,7 @@ The integration is extended over the whole charge distribution, and
 r12 is the magnitude of the distance from (x2,y2,z2) to (x1,y1,z1). The
 electric field E is obtained as the negative of the gradient of (p:
 
-E = -grad<p (19)
+E = -grad$\pot$ (19)
 
 The same trick won't work here, because of the essentially different
 character of B. The curl of B is not necessarily zero, so B can't, in
@@ -10055,7 +10055,7 @@ M12 = M21 (47)
 
 This is not a matter of geometrical symmetry. Even the simple
 example in Fig. 7.20 is not symmetrical with respect to the two
-circuits. Note that R1 and R2 enter in dilferent ways into the expression
+circuits. Note that R1 and R2 enter in different ways into the expression
 for M21; Eq. 47 asserts that. for these two dissimilar circuits, if
  then M,, = 
 
@@ -10251,7 +10251,7 @@ if I in the direction shown is increasing. The potential difference
 between B and C, the voltage across the resistor, is RI, with the upper
 end of the resistor positive. Hence the sum of the voltage across the
 inductor and the voltage across the resistor is L dI/dt + RI. This is
-the same as the potential dilference between the battery terminals,
+the same as the potential difference between the battery terminals,
 
 which is 80 (our idealized battery has no internal resistance). Thus
 we have
@@ -11225,7 +11225,7 @@ that this is possible, consider a current described by
 
 I = 10 cos (wt + (p) (19)
 
-To determine the constants I0 and <p, we put this into Eq. 18:
+To determine the constants I0 and $\pot$, we put this into Eq. 18:
 -LI0w sin (wt + q:) - RIO cos (wt + go) = 80 cos wt (20)
 The functions cos wt and sin wt can be separated out:
 
@@ -11469,7 +11469,7 @@ The angle q), which expresses the relative phase of the current and
 emf oscillations, varies with frequency in the manner shown in
 Fig. 8.11. At a very low frequency the capacitor is the dominant
 hindrance to current ffow, and (p is positive. At resonance, (p = 0.
-The higher the Q, the more abruptly <p shifts from positive to negative
+The higher the Q, the more abruptly $\pot$ shifts from positive to negative
 angles as the frequency is raised through coo.
 
 8.3 Alternating-current Networks
@@ -11595,7 +11595,7 @@ voltage across the element can be expressed as a relation between the
 complex numbers that represent the voltage and the current. Look
 at the inductor-resistor combination in Fig. 8.4. The voltage oscillation
 is represented by 80 and the current by Ioetw, where 10 =
-80/ x/B2 + ML? and tan go = -wL/R. The phase dilference (p and
+80/ x/B2 + ML? and tan go = -wL/R. The phase difference (p and
 the ratio of current amplitude to voltage amplitude are properties
 
 of the circuit at this frequency. We define a complex number Y as
@@ -13250,7 +13250,7 @@ tion Cz, where C is any con-
 q. 41 has actually handed us
 
 have labored the details in this one
-e-ball" picture, which is so dilferent
+e-ball" picture, which is so different
 . to be like, might be leading us
 
 % p. 327
@@ -13861,7 +13861,7 @@ natural frequency of the elec-
 stion which we must leave for
 
 is the rainbow!)
-11e is a process quite dilferent
+11e is a process quite different
 m cloud. The whole molecular
 
 % p. 341
@@ -16646,7 +16646,7 @@ ximately given by
 -4%)
 
 and v is everywhere directed down-
-might be quite dilferent from this.)
+might be quite different from this.)
 'way between the center and one side
 am. Explain this. How is it related
 11 will the chip drift while rotating
@@ -16795,7 +16795,7 @@ with a statvolt potential difference be
 for reasons having to do with the struc
 difference of electrical potential is abol
 electrostatic generator operating unde
-tors do not involve potential dilference
+tors do not involve potential difference
 are you likely to find associated with a
 may suggest why electrostatic motors
 
@@ -16839,7 +16839,7 @@ ited technique.
 uposite sign and unequal magnitude.
 ie is positive, and locate it at the coon
 the x axis at x = b. First, locate
-tial <p is zero, not counting the points
+tial $\pot$ is zero, not counting the points
 . sphere with center on the x axis and
 : that the potential is also zero at all
 y of the other equipotential surfaces
@@ -16942,7 +16942,7 @@ some external agency has to suppl
 two-conductor system in which the
 their potentials are respectively (p]
 might have been brought about, stz
-tentials zero, in many dilferent w:
+tentials zero, in many different w:
 interest: _
 
 (a) Keep (P2 at zero while raisir
@@ -17065,7 +17065,7 @@ Introduction to ionic mobility
 3.32 The square cylinders of Prol
 tional method. Suppose we want to
 such a capacitor. This is equivalent
-length, for a given potential dilferenu
+length, for a given potential differenu
 
 U = lC<P1-22
 
@@ -18039,13 +18039,13 @@ highest energy? Which has the lower
 (C) 
 
 
-9.27 Find the dilference in ener
+9.27 Find the difference in ener
 arranged like this:  \rightarrow \rightarrow \rightarrow \rightarrow
 right of a certain point 19 all dipoles 2
 
 -\rightarrow\rightarrow\rightarrow-
 
-This energy dilference is the energy
+This energy difference is the energy
 
 the two domains. [Mathematical no
 
@@ -18147,7 +18147,7 @@ moment p = Qs, so that if we shrink
 of volume and field strength does w
 argument for the magnetic field of a cw
 cerned with the space-average field
-essential dilference between the "in
+essential difference between the "in
 cannot be ignored, even when we
 infinitesimal.
 
@@ -18304,7 +18304,7 @@ of Prob. 10.23 to discuss and explain
 LS sketched in the figure. Notice that
 seems to be a downward force on the
 Remembering that a static magnetic
-:, discuss the variation of the dilferent
+:, discuss the variation of the different
 he lab frame. What would you have
 npet-shaped surface the particle will
 >ack?

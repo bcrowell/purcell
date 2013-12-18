@@ -273,39 +273,40 @@ few neatly soluble examples. Let us instead try to understand the
 general nature of the mathematical problem such a system presents.
 
 % p. 88
-\iffalse
 
 \section{The general electrostatic problem; uniqueness theorem}
 
-We can state the problem in terms of the potential function q),
-for if $\pot$ can be found we can at once get E from it. Everywhere outside
-the conductors $\pot$ has to satisfy the partial dilferential equation
-we met in Chap. 2, Laplace's equation: V2<p -_- 0. Written out in
+We can state the problem in terms of the potential function $\pot$,
+for if $\pot$ can be found we can at once get $\vc{E}$ from it. Everywhere outside
+the conductors $\pot$ has to satisfy the partial differential equation
+we met in Chap. 2, Laplace's equation: $\nabla^2\pot=0$. Written out in
 Cartesian coordinates, Laplace's equation reads,
-
--+-,+-=o <4)
-
+\begin{equation}
+   \frac{\partial^2\pot}{\partial x^2}
+  +\frac{\partial^2\pot}{\partial y^2}
+  +\frac{\partial^2\pot}{\partial z^2} = 0
+\end{equation}
 The problem is to find a function that satisfies Eq. 4 and also meets
 the specified conditions on the conducting surfaces. These conditions
 might have been set in various ways. It might be that the potential
-of each conductor, (pk, is fixed or known. (In a real system
+of each conductor, $\pot_k$, is fixed or known. (In a real system
 the potentials may be fixed by permanent connections to batteries
-or other constant-potential ``power supplies'') Then our solution
-<p(x,y,z) has to assume the correct value at all points on each of the
-surfaces. These surfaces in their totality bound the region in which
-qa is defined, if we include a large surface ``at infinity,'' where we
+or other constant-potential ``power supplies.'') Then our solution
+$\pot(x,y,z)$ has to assume the correct value at all points on each of the
+surfaces. These surfaces in their totality \emph{bound} the region in which
+$\pot$ is defined, if we include a large surface ``at infinity,'' where we
 require $\pot$ to approach zero. Sometimes the region of interest is
 totally enclosed by a conducting surface; then, we can assign this
 conductor a potential and ignore anything outside it. In either case,
-we have a typical boundary-value problem, in which the value the
+we have a typical \emph{boundary-value problem}, in which the value the
 function has to assume on the boundary is specified for the entire
 boundary.
 
-One might, instead, have specified the total charge on each con-
-ductor, $Q_k$. (We could not specify arbitrarily all charges and po-
+One might, instead, have specified the total charge on each conductor,
+$Q_k$. (We could not specify arbitrarily all charges and po-
 tentials; that would overdetermine the problem.) With the charges
 specified, we have in effect fixed the value of the surface integral of
-grad $\pot$ over the surface of each conductor. This gives the mathematical
+$\grad \pot$ over the surface of each conductor. This gives the mathematical
 problem a slightly different aspect. Or one can ``mix'' the
 two kinds of boundary conditions.
 
@@ -314,76 +315,73 @@ conditions given in some way, does the problem have no solution,
 one solution, or more than one solution? We shall not try to answer
 this question in all the forms it can take, but one important case will
 show how such questions can be dealt with, and will give us a useful
-result. Suppose the potential of each conductor, (pk, has been
-specified, together with the requirement that <p approach zero at
+result. Suppose the potential of each conductor, $\pot_k$, has been
+specified, together with the requirement that $\pot$ approach zero at
 infinite distance, or on a conductor which encloses the system. We
 shall prove that this boundary-value problem has no more than one
-
 % p. 89
-solution. It seems obvious, as a matter of physics, that it has a solu-
-tion, for if we should actually arrange the conductors in the prescribed
+solution. It seems obvious, as a matter of physics, that it has a solution,
+for if we should actually arrange the conductors in the prescribed
 manner, connecting them by infinitesimal wires to the proper
-potentials, the system would have to settle down in some state. How-
+potentials, the system would have to settle down in \emph{some} state. How-
 ever, it is quite a different matter to prove mathematically that a solution
 always exists and we shall not attempt it. Instead, we assume
-that there is a solution <p(x,y,z) and show that it must be unique.
+that there is a solution $\pot(x,y,z)$ and show that it must be unique.
 The argument, which is typical of such proofs, runs as follows.
 
-Assume there is another function tl»(x,y,z) which is also a solution
+Assume there is another function $\psi(x,y,z)$ which is also a solution
 meeting the same boundary conditions. Now Laplace's equation is
-linear. That is, if go and 44 satisfy Eq. 4, then so does (p + '41 or any
-linear combination such as clqa + cgzlx, where c1 and C2 are constants.
-In particular, the difference between our two solutions, qn - ml/, must
-satisfy Eq. 4. Call this function W:
-
-W<x.y.z> = «p<x,y,z> - 4«<x,y.z> <5)
-
-Of course, W does not satisfy the boundary conditions. In fact, at
-the surface of every conductor, W is zero, because gb and $\pot$ take on
-the same value, (pk, at the surface of a conductor k. Thus Wis a solution
-of another electrostatic problem, one with the same conductors
+\emph{linear}. That is, if $\psi$ and $\pot$ satisfy Eq. 4, then so does $\pot+\psi$ or any
+linear combination such as $c_1\pot+c_2\psi$, where $c_1$ and $c_2$ are constants.
+In particular, the difference between our two solutions, $\pot-\psi$, must
+satisfy Eq. 4. Call this function $W$:
+\begin{equation}
+  W(x,y,z) = \pot(x,y,z)-\psi(x,y,z)
+\end{equation}
+Of course, $W$ does \emph{not} satisfy the boundary conditions. In fact, at
+the surface of every conductor, $W$ is zero, because $\psi$ and $\pot$ take on
+the same value, $\pot_k$, at the surface of a conductor $k$. Thus $W$ is a solution
+of $\emph{another}$ electrostatic problem, one with the same conductors
 but with all conductors held at zero potential. We can now assert
-that if this is so, Wmust be zero at all points in space. For if it is not,
+that if this is so, $W$ must be zero at all points in space. For if it is not,
 it must have either a maximum or a minimum somewhere---
-remember that W is zero at infinity as well as on all the conducting
-boundaries. If W has an extremum at some point P, consider a
+remember that $W$ is zero at infinity as well as on all the conducting
+boundaries. If $W$ has an extremum at some point $P$, consider a
 sphere centered on that point. As we saw in Chap. 2, the average
 over a sphere of a function that satisfies Laplace's equation is equal
 to its value at the center. This could not be true if the center is a
-maximum or minimum. Thus W cannot have a maximum or mini-
-mum; it must therefore be zero everywhere. It follows that 4» = (p
-everywhere, that is, there can be only one solution of Eq. 4 that
+maximum or minimum. Thus $W$ cannot have a maximum or minimum;
+it must therefore be zero everywhere. It follows that $\psi=\pot$
+everywhere, that is, there can be only \emph{one} solution of Eq. 4 that
 satisfies the prescribed boundary conditions.
 
-We can now demonstrate easily another remarkable fact. In the
+We can now demonstrate easily another remarkable fact. \emph{In the
 space inside a hollow conductor of any shape whatever, if that space
-itself is empty of charge, the electric field is zero. This is true whatever
+itself is empty of charge, the electric field is zero.} This is true whatever
 the field may be outside the conductor. We are already familiar
 with the fact that the field is zero inside an isolated uniform spherical
 shell of charge, just as the gravitational field inside the shell of a
 hollow spherical mass is zero. The theorem we just stated is, in a
-
 % p. 90
 way, more surprising. Consider the closed metal box shown partly
 cut away in Fig. 3.6. There are charges in the neighborhood of the
 box, and the external field is approximately as depicted. There is a
 highly nonuniform distribution of charge over the surface of the box.
-Now the field everywhere in space, including the interior of the box,
+Now the field everywhere in space, \emph{including the interior of the box},
 is the sum of the field of this charge distribution and the fields of the
 external sources. It seems hardly credible that the surface charge
 has so cleverly arranged itself on the box that its field precisely cancels
 the field of the external sources at every point inside the box. Yet
 this must have happened, as we can prove in a few sentences.
 
-The potential function inside the box, <p(x,y,z), must satisfy
+The potential function inside the box, $\pot(x,y,z)$, must satisfy
 Laplace's equation. The entire boundary of this region, namely the
-box, is an equipotential, so we have (p = (pg, a constant everywhere
-on the boundary. One solution is obviously (p = (pg throughout
-
+box, is an equipotential, so we have $\pot=\pot_0$, a constant everywhere
+on the boundary. One solution is obviously $\pot=\pot_0$ throughout
 % p. 91
 the volume. But there can be only one solution, according to our
-uniqueness theorem, so this is it. ``cp = constant'' implies E = 0,
-because E = -grad (P.
+uniqueness theorem, so this is it. ``$\pot$ = constant'' implies $\vc{E} = 0$,
+because $E = -\grad \pot$.
 
 The absence of electric field inside a conducting enclosure is useful
 as well as theoretically interesting. It is the basis for electrical
@@ -393,9 +391,10 @@ or made of metallic screen, the field will be extremely weak except
 in the immediate vicinity of a hole. A metal pipe with open ends,
 if it is a few diameters long, very effectively shields the space inside
 that is not close to either end. We are considering only static fields
-
 of course, but for slowly varying electrical fields these remarks still
 hold.
+
+\iffalse
 
 \section{Some simple systems of conductors}
 
@@ -562,7 +561,7 @@ and -Q on the other. (p1 and (P2 are the values of the potential at
 each of the plates. Figure 3.1 lb shows in cross section the field lines
 in this system. Away from the edge, the field is very nearly uniform
 in the region between the plates. Treating it as uniform, its magnitude
-must be ((121 - <p2)/s. The corresponding density of the surface
+must be ((121 - $\pot$2)/s. The corresponding density of the surface
 charge on the inner surface of one of the plates is
 
 _ £_ 'P1 - (P2
@@ -602,7 +601,7 @@ different potentials, and carrying different charges. We are interested
 in the relation between the charge Q on one of the plates and
 
 % p. 97
-the potential dilference between them. For the particular system
+the potential difference between them. For the particular system
 to which Eq. 11 applies, the quotient Q/ (cpl - (P2) is A/4ws. Even
 if this is only approximate, it is clear that the exact formula will depend
 only on the size and geometrical arrangement of the plates.
@@ -610,7 +609,7 @@ That is, for a fixed pair of conductors, the ratio of charge to potential
 difference will be a constant. We call this constant the capacitance
 of the capacitor and denote it usually by C.
 
-Q = CW1 - <P2) (12)
+Q = CW1 - $\pot$2) (12)
 
 Thus the capacity of the parallel-plate capacitor, with edge fields
 neglected, is given by
@@ -689,7 +688,7 @@ it does, in the interior of a conductor, the electric field is zero.
 
 Evidently the value of Q1 will uniquely determine the electric field
 within the region between the two conductors, and thus will determine
-the difference between their potentials, <p1 - (P2. For that
+the difference between their potentials, $\pot$1 - (P2. For that
 reason, if we are considering the two bodies as ``plates'' of a capaci-
 tor, it is only Q1, or its counterpart Q2"), that is involved in determining
 the capacitance. The capacitance is:
@@ -793,7 +792,7 @@ ductors. Incidentally, what was defined earlier as the capacitance
 of a two-plate capacitor, is not the same as C11 (or C22 or C12), but
 it is of course related to them.
 
-A set of equations like (18) can be solved for the <p's in terms of
+A set of equations like (18) can be solved for the $\pot$'s in terms of
 
 the Q's. That is, there is an equivalent set of linear relations of the
 form:
@@ -816,7 +815,7 @@ principle can be applied.
 \section{Energy stored in a capacitor}
 
 Consider a capacitor of capacitance C, with a potential difference
-(p12 between the plates. The charge Q is equal to C<p12. There is a
+(p12 between the plates. The charge Q is equal to C$\pot$12. There is a
 charge Q on one plate and -Q on the other. Suppose we increase
 the charge from Q to Q + dQ by transporting a positive charge dQ
 from the negative to the positive plate, working against the potential
@@ -887,7 +886,7 @@ Surprisingly simple and almost universally applicable, this method
 is based on that special property of harmonic functions with which
 we are already familiar: The value of the function at a point is equal
 to its average over the neighborhood of the point. In this method
-the potential function <p is represented by values at an array of discrete
+the potential function $\pot$ is represented by values at an array of discrete
 points only, including discrete points on the boundaries. The
 values at nonboundary points are then adjusted until each value is
 equal to the average of the neighboring values. In principle one
@@ -928,9 +927,9 @@ the field, energy becomes available to promote the ffow of charge';
 The reason why the surface of water in a bowl is flat is essentially
 the same.
 
-Now consider the potential function <p(x,y,z) in some region enclosed
+Now consider the potential function $\pot(x,y,z)$ in some region enclosed
 by a number of boundaries at given potentials. The correct
-<p(x,y,z), that is, the solution of V2(p = 0 which fits the given boundary
+$\pot(x,y,z)$, that is, the solution of V2(p = 0 which fits the given boundary
 potentials, is distinguished from all other functions which fit the
 boundary conditions but don't satisfy Laplace's equation, such as
 z,b(x,y,z), by the fact that the stored energy is less for q> than for il.
@@ -947,7 +946,7 @@ happen in that case'?
 
 % p. 105
 We can now state the boundary-value problem in a new way,
-without mentioning the Laplacian. The potential function q) is that
+without mentioning the Laplacian. The potential function $\pot$ is that
 function which minimizes the integral of Eq. 25 as compared with any
 other functions fitting the same boundary values. So one way of getting
 at least an approximate solution to a given boundary-value
