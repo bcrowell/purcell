@@ -676,8 +676,6 @@ that would have to be transferred from conductor 1 to conductor 2
 (thus keeping the sum of the charges on the two conductors con-
 stant) to cause their potentials to become equal.
 
-\iffalse
-
 \section{Potentials and charges on several conductors}
 
 We have been skirting the edge of a more general problem, the
@@ -690,145 +688,168 @@ have something definite in mind, consider three separate conductors,
 all enclosed by a conducting shell, as in Fig. 3.15. The potential of
 this shell we may choose to be zero; with respect to this reference the
 potentials of the three conductors, for some particular state of the
-system, are qol, «p2, and (p3. The Uniqueness Theorem guarantees
-that with (p1, (P2, and (P3 given, the electric field is determined throughout
-the system. It follows that the charges Q_1, Q_2, and Q3 on the
+system, are $\pot_1$, $\pot_2$, and $\pot_3$. The Uniqueness Theorem guarantees
+that with $\pot_1$, $\pot_2$, and $\pot_3$ given, the electric field is determined throughout
+the system. It follows that the charges $Q_1$, $Q_2$, and $Q_3$ on the
 individual conductors are likewise uniquely determined.
 
 We need not keep account of the charge on the inner surface of
-the surrounding shell, since it will always be -(Q_1 + Q_2 + Q3).
+the surrounding shell, since it will always be $-(Q_1 + Q_2 + Q_3)$.
 If you prefer, you can let ``infinity'' take over the role of this shell,
 imagining the shell to expand outward without limit. We have kept
 it in the picture because it makes the process of charge transfer easier
 to follow, for some people, if we have something to connect to.
 
-Among the possible statesnof this system are ones with (P2 and (P3
+Among the possible states of this system are ones with $\pot_2$ and $\pot_3$
 both zero. We could enforce this condition by connecting conductors
-2 and 3 to the zero-potential shell, as indicated in Fig. 3.l5a.
+2 and 3 to the zero-potential shell, as indicated in Fig. 3.15a.
 As before, we may suppose the connecting wires are so thin that any
 charge residing on them is negligible. Of course, we really do not
 care how the specified condition is brought about. In such a state,
 which we shall call state I, the electric field in the whole system and
 the charge on every conductor is determined uniquely by the value
-of (pl. Moreover, if (pl were doubled that would imply a doubling
-
+of $\pot_1$. Moreover, if $\pot_1$ were doubled that would imply a doubling
 % p. 100
 of the field strength everywhere, and hence a doubling of each of
-the charges Q_1, Q_2, and Q3. That is, with (P2 = (133 = 0, each of the
-three charges must be proportional to (pl. Stated mathematically:
-
-
-The three constants, C11, C21, and C31 can depend only on the shape
+the charges $Q_1$, $Q_2$, and $Q_3$. That is, with $\pot_2 = \pot_3 = 0$, each of the
+three charges must be proportional to $\pot_1$. Stated mathematically:
+\begin{equation}
+  \left.
+  \begin{array}{cc}
+    \text{\emph{State I}} \\
+    \pot_2 = \pot_3 = 0
+  \end{array}
+  \right\}
+  Q_1=C_{11}\pot_1; \qquad Q_2=C_{21}\pot_1; \qquad Q_3=C_{31}\pot_1
+\end{equation}
+The three constants, $C_{11}$, $C_{21}$, and $C_31$, can depend only on the shape
 and arrangement of the conducting bodies.
 
-In just the same way we could analyze states in which (p1 and (p3
-are zero, calling such a condition state II (Fig. 3.151)). Again, we
-must find a linear relation between the only nonzero potential, (P2 in
+In just the same way we could analyze states in which $\pot_1$ and $\pot_3$
+are zero, calling such a condition state II (Fig. 3.15b). Again, we
+must find a linear relation between the only nonzero potential, $\pot_2$ in
 this case, and the various charges:
-
-II
-Sine _ 0 ] Q_1 = C12<P2; Q_2 = C22<P2§ Q3 = C32<P2 (16)
-'P1 - 'P3 -
-Finally, when (121 and (P2 are held at zero, the field and the charges
-are proportional to (P32
-
-
+\begin{equation}
+  \left.
+  \begin{array}{cc}
+    \text{\emph{State II}} \\
+    \pot_1 = \pot_3 = 0
+  \end{array}
+  \right\}
+  Q_1=C_{12}\pot_2; \qquad Q_2=C_{22}\pot_2; \qquad Q_3=C_{32}\pot_2
+\end{equation}
+Finally, when $\pot_1$ and $\pot_2$ are held at zero, the field and the charges
+are proportional to $\pot_3$:
+\begin{equation}
+  \left.
+  \begin{array}{cc}
+    \text{\emph{State III}} \\
+    \pot_1 = \pot_2 = 0
+  \end{array}
+  \right\}
+  Q_1=C_{13}\pot_3; \qquad Q_2=C_{23}\pot_3; \qquad Q_3=C_{33}\pot_3
+\end{equation}
 
 Now the superposition of three states like I, II, and III is also a
 possible state. The electric field at any point is the vector sum of
 the electric fields at that point in the three cases, while the charge on
 a conductor is the sum of the charges it carried in the three cases.
-In this new state the potentials are (p1, (p2, and (P3, none of them necessarily
+In this new state the potentials are $\pot_1$, $\pot_2$, and $\pot_3$, none of them necessarily
 zero. In short, we have a completely general state. The
-
 relation connecting charges and potentials is obtained simply by
 adding Eqs. 15 through 17:
-
-Q_1 = C11<P1 + C12<P2 + C13<P3
-Q_2 = C21<P1 + C22<P2 + C23<P3 (18)
-Q3 = C31<P1 + C§2<P2 + C33<P3
+\begin{align}
+\begin{split}
+  Q_1 = C_{11}\pot_1 + C_{12}\pot_2 + C_{13}\pot_3 \\
+  Q_2 = C_{21}\pot_1 + C_{22}\pot_2 + C_{23}\pot_3 \\
+  Q_3 = C_{31}\pot_1 + C_{32}\pot_2 + C_{33}\pot_3
+\end{split}
+\end{align}
 
 It appears that the electrical behavior of this system is characterized
-by the nine constants C11, C12, \ldots , C33. In fact only six constants
-are necessary, for it can be proved that in any system
-C12 = C21, C13 = C31, and C23 = C32.  this ShO11ld b6 S0 IS l'10t
+by the nine constants $C_{11}$, $C_{12}$, \ldots , $C_{33}$. In fact only six constants
+are necessary, for it can be proved that in \emph{any} system
+$C_{12} = C_{21}$, $C_{13} = C_{31}$, and $C_{23} = C_{32}$.  Why this should be so is not
 obvious. Problem 3.27 will suggest a proof based on conservation
-
 % p. 101
 of energy, but for that purpose you will need an idea developed in
-Sec. 3.7. The C's in Eqs. 18 are called the coefiicients of capacitance.
-It is clear that our argument would extend to any number of con-
-ductors. Incidentally, what was defined earlier as the capacitance
-of a two-plate capacitor, is not the same as C11 (or C22 or C12), but
+Sec. 3.7. The $C$'s in Eqs. 18 are called the coefficients of capacitance.
+It is clear that our argument would extend to any number of conductors.
+Incidentally, what was defined earlier as the capacitance
+of a two-plate capacitor, is not the same as $C_{11}$ (or $C_{22}$ or $C_{12}$), but
 it is of course related to them.
 
 A set of equations like (18) can be solved for the $\pot$'s in terms of
-
-the Q's. That is, there is an equivalent set of linear relations of the
+the $Q$'s. That is, there is an equivalent set of linear relations of the
 form:
-
-'P1 = P11Q_1 + P12Q_2 + P13Q3
-(P2 = P21Q_1 + P22Q_2 + P23Q3 (19)
-(P3 = P31Q_1 + P32Q_2 + P33Q3
-
-The P's are called the potential coefficients; they could be computed
-from the C's, or vice versa.
+\begin{align}
+\begin{split}
+  \pot_1 = P_{11}Q_1 + P_{12}Q_2 + P_{13}Q_3 \\
+  \pot_2 = P_{21}Q_1 + P_{22}Q_2 + P_{23}Q_3 \\
+  \pot_3 = P_{31}Q_1 + P_{32}Q_2 + P_{33}Q_3
+\end{split}
+\end{align}
+The $P$'s are called the potential coefficients; they could be computed
+from the $C$'s, or vice versa.
 
 We have here a simple example of the kind of relation we can
-expect to govern any linear physical system. Such relations turn up
+expect to govern any \emph{linear} physical system. Such relations turn up
 in the study of mechanical structures (connecting the strains with
 the loads), in the analysis of electrical circuits (connecting voltages
-
 and currents), and generally speaking, wherever the superposition
 principle can be applied.
 
 \section{Energy stored in a capacitor}
 
-Consider a capacitor of capacitance C, with a potential difference
-(p12 between the plates. The charge Q is equal to C$\pot$12. There is a
-charge Q on one plate and -Q on the other. Suppose we increase
-the charge from Q to Q + dQ by transporting a positive charge dQ
+Consider a capacitor of capacitance $C$, with a potential difference
+$\pot_{12}$ between the plates. The charge $Q$ is equal to $C\pot_{12}$. There is a
+charge $Q$ on one plate and $-Q$ on the other. Suppose we increase
+the charge from $Q$ to $Q + \der Q$ by transporting a positive charge $\der Q$
 from the negative to the positive plate, working against the potential
-difference (p12. The work that has to be done is dW = (P12 dQ -_-
-Q dQ/ C. Therefore to charge the capacitor starting from the uncharged
+difference $\pot_{12}$. The work that has to be done is 
+$\der W = \pot_{12} \der Q = Q \der Q/C$.
+Therefore to charge the capacitor starting from the uncharged
 state to some final charge Q, requires the work
-
-_i Q! _ Q/2
-W_ C Q=0QdQ_ 2C
-
-(20)
-
+\begin{equation}
+  W = \frac{1}{C}\int_{Q=0}^{Q_f} Q\;\der Q = \frac{Q_F^2}{2C}
+\end{equation}
 This is the energy U which is ``stored'' in the capacitor. It can also
 be expressed by
-
-U : -%Cq)122 
-
+\begin{equation}
+  U = \frac{1}{2}C\pot_{12}^2
+\end{equation}
 % p. 102
-For the parallel-plate capacitor with plate area A and separation s
-we found the capacitance C = A /4773 and the electric field E = (p12/S.
+For the parallel-plate capacitor with plate area $A$ and separation $s$
+we found the capacitance $C = A /4\pi s$ and the electric field $E = \pot_{12}/s$.
 Hence Eq. 21 is also equivalent to
-
-_ L _A_ _E_2. -2.
-U_ 2 (4778 )(Es)2 _ 877 As _ 8" volume (22)
-
+\begin{equation}
+  U = \frac{1}{2}\left(\frac{A}{4\pi s}\right)(Es)^2 = \frac{E^2}{8\pi}\cdot As 
+     = \frac{E^2}{8\pi}\cdot\text{volume}
+\end{equation}
 This agrees with our general formula, Eq. 2.36, for the energy stored
-in an electric field.T
+in an electric field.\footnote{All this applied to
+the ``vacuum capacitor'' consisting of conductors with empty space
+in between. As you know from the laboratory, most capacitors used in electrical circuits
+are filled with an insulator or ``dielectric.'' We are going to study the effect that has in
+Chap. 9.}
 
 \section{Other views of the boundary-value problem}
 
 It would be wrong to leave the impression that there are no general
-methods for dealing with the Laplacian boundary-value prob-
-lem. Although we cannot pursue this question much further, we
+methods for dealing with the Laplacian boundary-value problem.
+Although we cannot pursue this question much further, we
 shall mention three useful and interesting approaches which you are
 likely to meet in future study of physics or applied mathematics.
 
-First, an elegant method of analysis, called conformal mapping,
-is based on the theory of functions of a complex variable. Unfor-
-tunately it applies only to two-dimensional systems. These are systems
-in which $\pot$ depends only on x and y, for example, all conducting
+First, an elegant method of analysis, called \intro{conformal mapping},
+is based on the theory of functions of a complex variable. Unfortunately
+it applies only to two-dimensional systems. These are systems
+in which $\pot$ depends only on $x$ and $y$, for example, all conducting
 boundaries being cylinders (in the general sense) with elements
-running parallel to z. Laplace's equation then reduces to
-
+running parallel to $z$. Laplace's equation then reduces to
+\begin{equation}
+  \frac{\partial^2\pot}{\partial x^2}+\frac{\partial^2\pot}{\partial y^2}=0
+\end{equation}
 with boundary values specified on some lines or curves in the xy
 plane. Many systems of practical interest are like this, or sufficiently
 like this to make the method useful, quite apart from its intrinsic
@@ -837,17 +858,10 @@ around two long parallel strips is easily obtained by the
 method of conformal mapping. The field lines and equipotentials
 are shown in a cross-section plane in Fig. 3.16. This provides us
 with the edge field for any parallel-plate capacitor in which the edge
-is long compared to the gap. The field shown in Fig. 3.llb was
+is long compared to the gap. The field shown in Fig. 3.11b was
 copied from such a solution. You will be able to apply this method
-
 after you have studied in more advanced mathematics functions of
 a complex variable.
-
-1' All this applied to the ``vacuum capacitor'' consisting of conductors with empty space
-in between. As you know from the laboratory, most capacitors used in electrical circuits
-
-are filled with an insulator or ``dielectric.'' We are going to study the effect that has in
-Chap. 9.
 
 % p. 103
 Second, we mention a numerical method for finding approximate
@@ -860,84 +874,77 @@ the potential function $\pot$ is represented by values at an array of discrete
 points only, including discrete points on the boundaries. The
 values at nonboundary points are then adjusted until each value is
 equal to the average of the neighboring values. In principle one
-could do this by solving a large number of simultaneous equations-
+could do this by solving a large number of simultaneous equations---
 as many as there are interior points. But an approximate solution
-
- 
-
 % p. 104
 can be obtained much more simply by systematically changing each
 value to agree with the average of its neighbors and repeating this
 process until the changes become negligibly small. This is called
-the relaxation method. The only limitation is the patience of the
+the \intro{relaxation method}. The only limitation is the patience of the
 computer, and that has been eliminated by high-speed computing
 machines, to which this method is ideally suited. If you want to see
 how it works, Probs. 3.29 and 3.30 will provide an introduction.
 
 A third method for approximate solution of boundary-value problems
-is the variational method. This involves an idea that we shall
+is the \intro{variational method}. This involves an idea that we shall
 meet in many parts of physics, ranging from Newtonian dynamics
 through optics to quantum mechanics. In electrostatics the principle
 turns up in the following form: We have already learned that
 the total energy associated with an electrostatic field can be expressed
 by
-
-_1
-U_8-fffE2dv (24)
-
+\begin{equation}
+  U = \frac{1}{8\pi}\int E^2\;\der v
+\end{equation}
 If you worked Prob. 2.19, you found that in that very simple case
 the charge on a conducting boundary of constant potential (there
 consisting of the two spheres connected by a wire) distributed itself
-so as to minimize the energy stored in the entire field. This happens
+so as to \emph{minimize} the energy stored in the entire field. This happens
 quite generally. That is, with any system of conductors, at various
-fixed potentials, charge will ffow around on each conductor until the
-energy stored in the field is as small as it can be. This is almost self-
-evident if we note that with every reduction of the total energy in
-the field, energy becomes available to promote the ffow of charge';
+fixed potentials, charge will flow around on each conductor until the
+energy stored in the field is as small as it can be. This is almost 
+self-evident if we note that with every reduction of the total energy in
+the field, energy becomes available to promote the flow 
+of charge.\footnote{In putting it this way we are thinking of the flow of charge as involving some dissipation
+of energy. It usually does. If it didn't, a system not originally in equilibrium could
+not get rid of its energy in order to reach the equilibrium state. What do you think would
+happen in that case?}
 The reason why the surface of water in a bowl is flat is essentially
 the same.
 
 Now consider the potential function $\pot(x,y,z)$ in some region enclosed
 by a number of boundaries at given potentials. The correct
-$\pot(x,y,z)$, that is, the solution of V2(p = 0 which fits the given boundary
+$\pot(x,y,z)$, that is, the solution of $\nabla^2\pot = 0$ which fits the given boundary
 potentials, is distinguished from all other functions which fit the
-boundary conditions but don't satisfy Laplace's equation, such as
-z,b(x,y,z), by the fact that the stored energy is less for q> than for il.
-Expressing the energy in terms of q:, as we did in Eq. 2.38,
-
-U = _1-f|vqa|2 do (25)
-
-877
-
-1' In putting it this way we are thinking of the ffow of charge as involving some dissipation
-of energy. It usually does. If it didn't, a system not originally in equilibrium could
-not get rid of its energy in order to reach the equilibrium state. What do you think would
-happen in that case'?
+boundary conditions but \emph{don't} satisfy Laplace's equation, such as
+$\psi(x,y,z)$, by the fact that the stored energy is \emph{less} for $\pot$ than for $\psi$.
+Expressing the energy in terms of $\pot$, as we did in Eq. 2.38,
+\begin{equation}
+  U = \frac{1}{8\pi}\int |\nabla\pot|^2\;\der v
+\end{equation}
 
 % p. 105
+
 We can now state the boundary-value problem in a new way,
 without mentioning the Laplacian. The potential function $\pot$ is that
-function which minimizes the integral of Eq. 25 as compared with any
-other functions fitting the same boundary values. So one way of getting
+function which \emph{minimizes the integral of Eq. 25 as compared with any
+other functions fitting the same boundary values}. So one way of getting
 at least an approximate solution to a given boundary-value
 problem is to try a lot of functions, requiring only that they take on
 the assigned values at the boundary, and pick the one that gives the
-lowest value for U. Or we could try a function with an adjustable
+lowest value for $U$. Or we could try a function with an adjustable
 parameter or two, and turn these mathematical ``knobs'' to minimize
-U. The method is especially good for estimating the energy
-itself, often the most important unknown quantity. Since U is a
-minimum for the correct (p, it is very insensitive to departures from
-correctness in qo. Problem 3.32 will show the simplicity and accuracy
+$U$. The method is especially good for estimating the energy
+itself, often the most important unknown quantity. Since $U$ is a
+minimum for the correct $\pot$, it is very insensitive to departures from
+correctness in $\pot$. Problem 3.32 will show the simplicity and accuracy
 of the variational method.
 
 More significant to us than its utility in calculations is the fact that
-this variational principle represents an alternative formulation of the
+this variational principle represents an \emph{alternative formulation} of the
 basic law of the electrostatic field. The reformulation of physical
 laws as variational principles has often proved to be a fruitful and
 enlightening enterprise. Professor R. P. Feynman, known for his
 own brilliant work along such lines, has given a lively elementary
-exposition of variational ideas in one chapter of the book The Feyn-
-man Lectures in Physics, vol. II, chap. 19 (Addison-Wesley, Reading,
+exposition of variational ideas in one chapter of the book \emph{The 
+Feynman Lectures in Physics}, vol. II, chap. 19 (Addison-Wesley, Reading,
 Mass., 1964).
-
-\fi

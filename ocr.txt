@@ -2483,7 +2483,7 @@ ax ay Eiz
 (59)
 
 If div F has a positive value at some point, we find---thinking of F
-as a velocity field---a net "outffow" in that neighborhood. For in-
+as a velocity field---a net "outflow" in that neighborhood. For in-
 stance, if all three partial derivatives in Eq. 59 are positive at a
 point P, we might have a vector field in that neighborhood something
 like that suggested in Fig. 2.19. But the field could look quite different
@@ -3040,11 +3040,11 @@ a velocity vector field G, and suppose that curl G is not zero. Then
 
 % p. 70
 the velocities in this field have something of this character: T:¢ or
-l:T superimposed, perhaps, on a general ffow in one direction. For
-instance the velocity field of water ffowing out of a bathtub generally
+l:T superimposed, perhaps, on a general flow in one direction. For
+instance the velocity field of water flowing out of a bathtub generally
 acquires a circulation. Its curl is not zero over most of the surface.
 Something ffoating on the surface rotates as it moves along (see
-Probs. 2.16 and 2.26). In the physics of ffuid ffow, hydrodynamics
+Probs. 2.16 and 2.26). In the physics of ffuid flow, hydrodynamics
 and aerodynamics, this concept is of central importance.
 
 To make a "curl-meter" for an electric fie1d---at least in imagina-
@@ -3194,7 +3194,7 @@ plotting $\pot$ in statvolts against z in centimeters, from z = -5 to z : 15.
 radius R. The spheres carry charges q and Q respectively, spread uniformly
 on their surfaces. Calculate their potential difference. Notice that if q is
 positive, the inner sphere will always be higher in potential than the outer
-sphere. Thus if the spheres are connected by a wire, the charge q will ffow
+sphere. Thus if the spheres are connected by a wire, the charge q will flow
 entirely to the outer sphere no matter how large Q is.
 
 2.4 A thin rod extends along the z axis from z = -a to z = a. The rod
@@ -3244,7 +3244,7 @@ nothing on the other?
 (c) What are the electrical potentials on each sphere in cases (a) and (I2)?
 
 (d) If we were to connect the spheres in (b) with a fine wire so that charge
-could ffow from one to the other, what would be the final charge configuration?
+could flow from one to the other, what would be the final charge configuration?
 How about conservation of energy?
 
 2.11 By explicitly calculating the components of V x E, show that the
@@ -3302,11 +3302,11 @@ any area defined by a little frame fixed in space will be proportional to v, so
 if v at any point is constant in time and if matter is conserved, div v must be
 zero everywhere. Why? This point is, however, only incidental; this problem
 will be concerned mainly with curl v. Consider the special family of time-
-independent ffow patterns in which the ffow is symmetrical about an axis and
+independent flow patterns in which the flow is symmetrical about an axis and
 v is always circumferentially directed. That is, v at any point is a vector perpendicular
 to a plane containing that point and the axis. The axial symmetry
 makes cylindrical polar coordinates z, r, and $\pot$ appropriate. Assume as a
-further restriction that v is a function of r only. Then any ffow of this type can
+further restriction that v is a function of r only. Then any flow of this type can
 be described by v = tiw(r), where (3) means a unit vector perpendicular to 1'- and
 to 2. Starting from the fundamental definition of curl v in terms of the line
 
@@ -3322,7 +3322,7 @@ v(r):
 velocity to. What is curl v in this case?
 
 (b) The ffuid moves so that curl v = 0. Can this hold everywhere? What
-is the function v(r)? Try to represent the ffow in a sketch.
+is the function v(r)? Try to represent the flow in a sketch.
 
 (c) The ffuid moves so that v(r) conforms to Kepler's law for circular
 planetary motion. What is curl v? Could this be the motion in Saturn's
@@ -4145,7 +4145,7 @@ obvious. Problem 3.27 will suggest a proof based on conservation
 
 % p. 101
 of energy, but for that purpose you will need an idea developed in
-Sec. 3.7. The C's in Eqs. 18 are called the coefiicients of capacitance.
+Sec. 3.7. The C's in Eqs. 18 are called the coefficients of capacitance.
 It is clear that our argument would extend to any number of con-
 ductors. Incidentally, what was defined earlier as the capacitance
 of a two-plate capacitor, is not the same as C11 (or C22 or C12), but
@@ -4279,10 +4279,10 @@ the charge on a conducting boundary of constant potential (there
 consisting of the two spheres connected by a wire) distributed itself
 so as to minimize the energy stored in the entire field. This happens
 quite generally. That is, with any system of conductors, at various
-fixed potentials, charge will ffow around on each conductor until the
+fixed potentials, charge will flow around on each conductor until the
 energy stored in the field is as small as it can be. This is almost self-
 evident if we note that with every reduction of the total energy in
-the field, energy becomes available to promote the ffow of charge';
+the field, energy becomes available to promote the flow of charge';
 The reason why the surface of water in a bowl is flat is essentially
 the same.
 
@@ -4298,7 +4298,7 @@ U = _1-f|vqa|2 do (25)
 
 877
 
-1' In putting it this way we are thinking of the ffow of charge as involving some dissipation
+1' In putting it this way we are thinking of the flow of charge as involving some dissipation
 of energy. It usually does. If it didn't, a system not originally in equilibrium could
 not get rid of its energy in order to reach the equilibrium state. What do you think would
 happen in that case'?
@@ -4607,7 +4607,7 @@ speeds may be.
 The current carried by a long conductor like a wire is, of course,
 just the integral of the current density J over the cross section of the
 
-wire. Indeed, the current I ffowing through any surface S is just the
+wire. Indeed, the current I flowing through any surface S is just the
 surface integral
 
 1=fSJ-da (6)
@@ -4654,7 +4654,7 @@ div J = _ % (time-dependent charge distribution) (9)
 The time derivative of the charge density p is written as a partial
 derivative since p will usually be a function of spatial coordinates as
 well as time. Equations 8 and 9 express the conservation of charge:
-No charge can ffow away from a place without diminishing the
+No charge can flow away from a place without diminishing the
 amount of charge that is there.
 
 An instructive example of a stationary current distribution occurs
@@ -4666,7 +4666,7 @@ with respect to the cathode. Electrons emerge from this hot
 cathode with very low velocities, but are then accelerated toward the
 positive anode by the electric field between cathode and anode. In
 the space between the cathode and anode the electric current consists
-of these moving electrons. The circuit is completed by the ffow
+of these moving electrons. The circuit is completed by the flow
 of electrons in external wires, possibly by the movement of ions in
 a battery, and so on, with which we are not here concerned. In this
 diode, the local density of charge in any region, p, is simply -ne
@@ -4729,7 +4729,7 @@ _X
 1- R (10)
 
 % p. 115
-The current I ffowing through a wire is proportional to V, the difference
+The current I flowing through a wire is proportional to V, the difference
 in potential between its ends. We have used q; heretofore as
 the symbol for electric potential, and ((1)1 - (pg) or 9012 for the difference
 of potential. In this section we shall use the symbol V, which
@@ -4740,7 +4740,7 @@ voltage.)
 
 For a given piece of wire maintained at the same temperature, the
 resistance R, the constant of proportionality in Eq. 10, does not depend
-on the amount of current ffowing. The resistance does depend
+on the amount of current flowing. The resistance does depend
 in an obvious way on the length and cross section of the wire, being
 proportional to the length L and inversely proportional to the area
 of cross section A. Of course it also depends on the material of
@@ -5074,7 +5074,7 @@ drawn from a random distribution, one corresponding to the ``Max-
 wellian'' distribution of molecular velocities in a gas. In Fig. 4.519
 We have used the same positions, but now the velocities have all a
 small added increment to the right. That is, Fig. 4.519 is a view of
-an ionized material in which there is a net ffow of negative charge to
+an ionized material in which there is a net flow of negative charge to
 the right, equivalent to a positive current to the left. Fig. 4.5a illustrates
 the situation with zero average current.
 
@@ -5173,7 +5173,7 @@ was no doubt that the high conductivity of metals was due to
 free electrons, free in the sense of not being attached to any single
 atom, able to move through the whole crystal lattice. A convincing
 proof was the utter absence of any transport of chemically identifiable
-material in a metal circuit through which current had been ffowing.
+material in a metal circuit through which current had been flowing.
 The chemistry of the metallic elements and the early quantum theory
 of atomic structure combined to suggest that metal atoms easily lose
 one or two outer electrons. These would be bound to the atom if it
@@ -5276,7 +5276,7 @@ area Of CTOSS SCCIIOII
 
 (20)
 
-The resistance R has meaning only for a well-defined current ffow.
+The resistance R has meaning only for a well-defined current flow.
 In the case of a wire there is no doubt of the meaning. If we have the
 more general case of a volume distribution of current we can't talk
 about the resistance without locating the ``binding posts'' where the
@@ -5284,12 +5284,12 @@ current enters and leaves the system. The distribution of current
 density throughout the volume has to be determined by our basic
 relation J = aE.
 
-To illustrate this, we examine the ffow of current in the object
+To illustrate this, we examine the flow of current in the object
 shown in Fig. 4.7a and b, which consists of two cylindrical copper
 sleeves with the space between them filled with graphite. What is
 the resistance between the terminals? If the resistance of the copper
-tubes to longitudinal current ffow is very small compared to the
-resistance of the graphite to radial current ffow, it should not make
+tubes to longitudinal current flow is very small compared to the
+resistance of the graphite to radial current flow, it should not make
 much difference where the current enters and leaves the copper (that
 is, where the terminals are located). In that case, we may assume
 each copper tube is an equipotential. Looking at the chart in Fig. 4.6,
@@ -5351,7 +5351,7 @@ _ V0
 _ r In (12/11)
 
 and the current density is 0E. The total area through which current
-ffows, at that radius, is 2m'L so the total current ffow is
+flows, at that radius, is 2m'L so the total current flow is
 
 E (22)
 
@@ -5366,9 +5366,9 @@ is
 R=-= In- (24)
 
 What if the copper sleeves had been extremely thin layers of metal,
-with a resistance to longitudinal ffow not small compared to the
+with a resistance to longitudinal flow not small compared to the
 transverse resistance of the graphite? We shall not try to solve that
-problem, but it is instructive to think how the lines of current ffow
+problem, but it is instructive to think how the lines of current flow
 
 might look. Figure 4.70 and d suggests the distribution, for two
 different locations of the terminals.
@@ -5376,21 +5376,21 @@ different locations of the terminals.
 4.8 Circuits and Circuit Elements
 
 Electrical devices usually have well-defined terminals to which
-wires can be connected. Charge can ffow into or out of the device
+wires can be connected. Charge can flow into or out of the device
 over these paths. In particular, if two terminals, and only two, are
-connected by wires to something outside, and if the current ffow is
+connected by wires to something outside, and if the current flow is
 steady with constant potentials everywhere, then obviously the current
 must be equal and opposite at the two terminals.1' In that case
 
-Tlt is perfectly possible to have 4 amp ffowing into one terminal of a two-terminal
-object with 3 amp ffowing out at the other terminal. But then the object is accumulating
+Tlt is perfectly possible to have 4 amp flowing into one terminal of a two-terminal
+object with 3 amp flowing out at the other terminal. But then the object is accumulating
 positive charge at the rate of 1 coulomb/sec. Its potential must be changing very rap-
 
 idly---and that can't go on for long. Hence this cannot be a steady, or time-independent,
 current.
 
 % p. 130
-we can speak of the current I which ffows through the device, and of
+we can speak of the current I which flows through the device, and of
 the voltage V ``between the terminals'' or ``across the terminals,''
 which means their difference in electrical potential. The ratio V/I for
 some given I is a certain number of resistance units (ohms, if V is in
@@ -5405,7 +5405,7 @@ Look at the five boxes in Fig. 4.8. Each has two terminals, and
 inside each box there is some stuff, different in every box. If any one
 of these boxes is made part of an electrical circuit by connecting wires
 to the terminals, the ratio of the potential difference between the
-terminals to the current ffowing in the wire that we have connected
+terminals to the current flowing in the wire that we have connected
 to the terminal will be found to be 65 ohms. We say the resistance
 between the terminals, in each box, is 65 ohms. This statement
 would surely not be true for all conceivable values of the current or
@@ -5475,7 +5475,7 @@ Fig. 4.12, which for all its ornateness can be reduced, step by step,
 to series or parallel combinations. However, the simple network of
 Fig. 4.13 cannot be so reduced, so a more general method is required.
 Any conceivable network of resistors in which a constant current is
-ffowing has to satisfy these conditions:
+flowing has to satisfy these conditions:
 
 (i) The current through each element must equal the voltage
 across that element divided by the resistance of the
@@ -5520,7 +5520,7 @@ on this.
 
 4.9 Energy Dissipation in Current Flow
 
-The ffow of current in a resistor involves the dissipation of energy.
+The flow of current in a resistor involves the dissipation of energy.
 If it takes a force F to push a charge carrier along with average
 velocity v, any agency that accomplishes this must do work at the
 rate F - v. If an electric field E is driving the ion of charge q, then
@@ -5544,7 +5544,7 @@ carriers themselves, the work done by the electric force driving the
 charge carriers is eventually passed on to the rest of the medium as
 random kinetic energy, or heat.
 
-Suppose a steady current I, in amperes, ffows through a resistor
+Suppose a steady current I, in amperes, flows through a resistor
 of R ohms. In every second, I coulombs of charge are transferred
 through a potential difference of V volts, where V = IR. Hence the
 work done in 1 sec is IZR, in joules. (1 coulomb X 1 volt : 1 joule =
@@ -5553,7 +5553,7 @@ power P (rate of doing work). (1 watt = 1 joule/sec.)
 
 P = 123 (27)
 
-Naturally the steady ffow of current in a dc circuit requires some
+Naturally the steady flow of current in a dc circuit requires some
 source of energy capable of maintaining the electric field that drives
 the charge carriers. Until now we have avoided the question of the
 electromotive force by studying only parts of entire circuits; we kept
@@ -5567,7 +5567,7 @@ some mechanism that transports charge carriers in a direction opposite
 to that in which the electric field is trying to move them.
 A Van de Graalf electrostatic generator (Fig. 4.15) is an example on
 a large scale. With everything running steadily, we find current in
-the external resistance ffowing in the direction of the electric field E,
+the external resistance flowing in the direction of the electric field E,
 and energy being dissipated there (appearing as heat) at the rate
 I V0, or PR. Inside the column of the machine, too, there is a down-
 ward-directed electric field. Here charge carriers can be moved
@@ -5634,14 +5634,14 @@ attraction discouraged any more cadmiums from abandoning their
 electrons and leaving.
 
 If we now provide an external conduction path by connecting a
-resistor across the cell, electrons will ffow over this external path
+resistor across the cell, electrons will flow over this external path
 from the negative electrode to the positive electrode. This will allow
 more Cd'' ions to go into solution, the electrons they leave behind
 merely replenishing the negative charge on that electrode. A steady
 current will continue, accompanied by a migration of ions, completing
 the circuit, through the aqueous solution. Meanwhile, things
 are happening at the other electrode. Figure 4.17 shows what is
-going on, while current is ffowing around the circuit, at each of the
+going on, while current is flowing around the circuit, at each of the
 two interfaces between electrode and solution (electrolyte). In
 Fig. 4.17a mercury ions, Hg+, are leaving the solution, meeting electrons
 coming from the outside, and thus becoming neutral mercury
@@ -5665,7 +5665,7 @@ It is these transition layers, no more than some angstroms thick, that
 correspond to the belt in the Van de Graaff generator.
 
 Consider now the electrical potential changes over the whole sys-
-tem, both with and without current ffowing. In Fig. 4.18 the varia-
+tem, both with and without current flowing. In Fig. 4.18 the varia-
 
 % p. 137
 tion of potential around the circuit, which is open at one point, is
@@ -5679,14 +5679,14 @@ plete path is zero. (By the way, the level at which the potential of
 the electrolyte has been drawn is rather arbitrary---one cannot
 directly measure it.)
 
-Figure 4.19 shows the potential distribution when current is ffow-
+Figure 4.19 shows the potential distribution when current is flow-
 ing through an external resistor. Within the electrolyte there is an
-electric field in the direction of current ffow. The cadmium sulfate
+electric field in the direction of current flow. The cadmium sulfate
 solution acts like an ordinary ohmic resistance. The potential difference
 at the terminals is now less than 8, owing to the internal potential
 drop across the electrolyte, and possibly also to extra resistance
 in the transition layers. The line integral of the electric field
-around the whole circuit is still zero. If current ffows until Q coulombs
+around the whole circuit is still zero. If current flows until Q coulombs
 of charge have passed any point in the circuit, then SQ, with
 8 in volts, is the energy in joules that has been dissipated, externally
 and internally, at the expense of the chemical energy of the cell
@@ -5694,7 +5694,7 @@ constituents.
 
 The chain of reactions in the cell is reversible. That is, if another
 source, of greater electromotive force, were connected into the circuit
-in opposition, current would ffow the other way and the processes
+in opposition, current would flow the other way and the processes
 we have described would run backward. That's what happens when
 a storage battery is charged. In the common ``dry cell,'' some
 irreversible changes occur during discharge, precluding reversal of
@@ -5715,7 +5715,7 @@ a thermodynamic distinction we cannot go into here.
 
 The Weston cell itself is not used as a source of electrical energy but
 rather as a standard for potential difference. The situation depicted
-in Fig. 4.19, in which so large a current is ffowing that the terminal
+in Fig. 4.19, in which so large a current is flowing that the terminal
 voltage has dropped by about 10 percent, would be a gross misuse of
 the cell. The electromotive force of the Weston cell is highly repro-
 ducible. In a slightly different version, in which the aqueous solution
@@ -5741,12 +5741,12 @@ Figure 4.21 shows the capacitor indicated by the conventional
 symbol-II-, the resistor R, and a switch which we shall imagine to
 be closed at time t = 0. It is obvious that as current flows the
 capacitor will gradually lose its charge, the voltage across the capacitor
-will diminish, and this in turn will lessen the ffow of current. To
+will diminish, and this in turn will lessen the flow of current. To
 see exactly what happens we need only write down the conditions
 that govern the circuit. Let Q be the charge on the capacitor at any
 instant, V the potential difference between the plates which is also
 the voltage across the resistance B. Let I be the current, considered
-positive if it ffows away from the positive side of the capacitor. These
+positive if it flows away from the positive side of the capacitor. These
 quantities, all functions of the time, must be related as follows:
 
 _ _V d_Q_
@@ -5907,7 +5907,7 @@ as having the same molecular weight somewhere between 02 and N2.
 Let the box be 10 cm x 10 cm x 2 cm and assume that the 10 cm x 10 cm
 faces are metal whereas the rest of the box is made of insulating material. An
 emf of 1000 volts is applied across the conducting ends causing a current of
-1.5 )< 10"6 amp to ffow. What is the conductivity of this weakly ionized gas?
+1.5 )< 10"6 amp to flow. What is the conductivity of this weakly ionized gas?
 If the mean velocity of the ions is taken to be 5 x 104 cm/sec, and the mean
 free path is 10-5 cm, what is the mean collision time? What fraction of the
 molecules in the gas are ionized (assume equal numbers of positive and negative
@@ -5931,7 +5931,7 @@ section, 0.8 cm on a side. Conductor A is made by joining a 50-cm-long square
 rod of iron and a similar bar of copper end-to-end. Conductor B consists of
 1-meter-long rods of copper and iron, 0.4 by 0.8 cm in cross section, clamped
 side by side. What is the resistance in ohms of each conductor between the
-ends 1 meter apart? If a steady current ffows in conductor A, in which material
+ends 1 meter apart? If a steady current flows in conductor A, in which material
 will the power dissipation be greater? Answer the same question for rod B.
 
 4.9 If you stretch a copper wire, making it 0.1 percent longer, how much
@@ -5950,7 +5950,7 @@ spheres is caused mainly by the region in the immediate vicinity of each sphere,
 or by the large intervening volume of ocean. To clarify this question you might
 consider the resistance between two concentric spheres, one much larger than
 the other, with a homogeneous medium in between. Also, you might sketch
-approximately the lines of current ffow in the ocean between the spheres. This
+approximately the lines of current flow in the ocean between the spheres. This
 question of the resistance of a circuit, part of which consists of a conducting
 probe inserted into a poorly conducting medium, is important not only in
 geophysics but also in many physiological investigations.
@@ -5992,10 +5992,10 @@ insensitivity to resistance change in R3.
  
 
 4.15 In the bridge network illustrated the various resistances R1 \ldots R5 are
-given, and the current 10 which ffows in at the left and out at the right is given.
+given, and the current 10 which flows in at the left and out at the right is given.
 Solving this network consists in finding the currents in all the branches. These
 five unknown currents have been arbitrarily assigned directions by the arrows
-in the figure. If a current actually ffows in the direction opposite to the arrow
+in the figure. If a current actually flows in the direction opposite to the arrow
 in some branch, in a specific case, it will turn out to be a negative quantity.
 For each of the four junctions, or nodes, an equation like 10 - I1 - I3 = 0
 holds. Write these out and show that only three are independent. Obtain
@@ -6013,7 +6013,7 @@ Prob. 4.15
 consider a ``black box'' which is approximately a 10-cm cube, with two binding
 posts. Each of these terminals is connected by a wire to some external circuits.
 Otherwise, the box is well insulated from everything. A current of approximately
-one ampere ffows through this circuit element. Suppose now that the
+one ampere flows through this circuit element. Suppose now that the
 current in and the current out differ by one part in a million. About how long
 would it take, unless something else happens, for the box to rise in potential
 by 1000 volts?
@@ -7324,9 +7324,9 @@ frame. Transferring to a frame in which one set of electrons is at
 rest, Fig. 5.2319, we find that in the other wire the electron distribution
 is Lorentz-contracted more than the positive-ion distribution. A
 similar situation is found in Fig. 5.230. So this model, too, predicts
-a repulsion between parallel currents ffowing in opposite directions.
+a repulsion between parallel currents flowing in opposite directions.
 It illustrates, in a qualitative way, the earlier statement that the forces
-between currents depend only on the amount of current ffow, not on
+between currents depend only on the amount of current flow, not on
 how the charge is transported. (Problem 5.15 outlines a general
 proof of that statement.)
 
@@ -7594,11 +7594,11 @@ above.
 
 % p. 187
 tically the same as it would be in vacuum with the same currents
-ffowing. We shall go into these questions thoroughly in Chap. 10.
+flowing. We shall go into these questions thoroughly in Chap. 10.
 Until then we'll avoid iron.
 
 Consider two copper wires 1 mm in diameter, 5 cm apart (Fig. 6.3).
-A current is ffowing in each wire; let us assume the average velocity
+A current is flowing in each wire; let us assume the average velocity
 of the conduction electrons in each wire to be 0.5 cm/sec. As we
 know, this average drift velocity is much smaller than the random
 velocities of the electrons. If we assume there is one conduction
@@ -7617,7 +7617,7 @@ velocity is (3 X l011)(O.5) = 1.5 X 1011 esu/sec, which is about
 
 Let us now find the force on an electron in the other wire, at
 distance r = 5 cm. This electron also moves with the average speed
-0.5 cm/sec, if the same current is ffowing in that wire. Applying
+0.5 cm/sec, if the same current is flowing in that wire. Applying
 Eq. 5.45, we have:
 
 _ 2q>\vv0 _ 2(4.8 X 10'10 esu)(3 X 1011 esu/cm) (0.5 cm/sec)?
@@ -7696,7 +7696,7 @@ dF=%dlxB (6)
 % p. 189
 In Eq. 6, dF is the force on a short section of a conductor of length dl,
 carrying a steady current I measured in esu/sec. The vector dl points
-in the direction of positive current ffow. Equation 6 follows directly
+in the direction of positive current flow. Equation 6 follows directly
 from our definition of B in Eq. 1, and from the definition of current
 in terms of charge transport. It holds for a conducting path of any
 shape; we need only know the magnetic field vector B at every point
@@ -7886,7 +7886,7 @@ which currents the path encircles, and in which sense.
 
 However, we are interested in other things than long straight wires.
 We want to understand the magnetic field of any sort of current dis-
-tribution---for example, that of a current ffowing in a closed loop. It
+tribution---for example, that of a current flowing in a closed loop. It
 turns out that these more general fields obey exactly the same law,
 Eq. 10. The line integral of B around a bent wire is equal to that
 around a long straight wire carrying the same current. This goes
@@ -7908,7 +7908,7 @@ divJ = 0 (12)
 % p. 194
  
 
-Take any closed curve C in a region where currents are ffowing.
+Take any closed curve C in a region where currents are flowing.
 The total current enclosed by C is the flux of J through the surface
 
 spanning C, that is, the surface integral ISJ - da over this surface S
@@ -8091,7 +8091,7 @@ special property? Fortunately, it can be shown that it does.
 
 As an example of a vector potential, consider a long straight wire
 carrying a current I. In Fig. 6.11 we see the current coming toward
-us out of the page, ffowing along the positive z axis. We know what
+us out of the page, flowing along the positive z axis. We know what
 the magnetic field of the straight wire looks like. The field lines are
 circles, as sketched already in Fig. 6.5. A few are shown in Fig. 6.11.
 
@@ -8176,7 +8176,7 @@ C 712
 To calculate A everywhere and then find B by taking the curl of A
 might be a long job. It will be more useful to isolate one contribution
 to the line integral for A, the contribution from the segment of
-wire at the origin, where the current happens to be ffowing in the
+wire at the origin, where the current happens to be flowing in the
 x direction (Fig. 6.13). We shall denote the length of this segment
 by dl. Let dA be the contribution of this part of the integral to A.
 
@@ -8352,7 +8352,7 @@ ripply pattern around and through the individual wires.
 It is quite possible to make a long solenoid with a single turn of a
 thin wide ribbonlike conductor, as in Fig. 6.19. To this our calculation
 and the diagram in Fig. 6.18 apply exactly, the quantity nI being
-merely replaced by the current per centimeter ffowing in the sheet.
+merely replaced by the current per centimeter flowing in the sheet.
 Now the change in direction of a field line that penetrates the wall
 occurs entirely within the thickness of the sheet, as suggested in the
 inset in Fig. 6.19.
@@ -8394,7 +8394,7 @@ argument.
 In the example of Fig. 619 we had a solenoid constructed from a
 single curved sheet of current. Let's look at something even simpler,
 a flat. unbounded current sheet. You may think of this as a sheet
-of copper of uniform thickness in which a current ffows with constant
+of copper of uniform thickness in which a current flows with constant
 density and direction everywhere within the metal. In order to refer
 to directions, let us locate the sheet in the xz plane, and let the current
 flow in the x direction. As the sheet is supposed to be of infinite extent
@@ -8455,7 +8455,7 @@ which the effect of the current sheet is superposed on a field already
 present from another source, are shown in Fig. 6.221) and c. Suppose
 there are two sheets carrying equal and opposite surface currents, as
 shown in cross section in Fig. 6.23, with no other sources around.
-The direction of current ffow is perpendicular to the plane of the
+The direction of current flow is perpendicular to the plane of the
 paper, out on the left and in on the right. The field between the sheets
 is 4776] / c and there is no field at all outside. Something like this is
 found when current is carried by two parallel ribbons or slabs, close
@@ -8505,7 +8505,7 @@ surface. Wherever the component of B parallel to the surface
 changes from B1 to B2, from one side of the surface to the other, we
 
 % p. 210
-may conclude not only that there is a sheet of current ffowing in the
+may conclude not only that there is a sheet of current flowing in the
 surface, but that the surface must be under a perpendicular stress of
 (B12 - B22)/8vrr, measured in dynes/cm2. This is one of the controlling
 principles in magnetohydrodynamics, the study of electrically
@@ -8849,7 +8849,7 @@ $68 and was recorded in a note book of that date.
 6.8 Rowland's Experiment
 
 As we remarked in Sec. 5.9, it was not obvious a hundred years
-ago that a current ffowing in a wire and a moving electrically charged
+ago that a current flowing in a wire and a moving electrically charged
 object are essentially alike as sources of magnetic field. The unified
 view of electricity and magnetism which was then emerging from
 Maxwell's work suggested that any moving charge ought to cause a
@@ -8872,11 +8872,11 @@ pendent, if less dramatic, support to Maxwell's theory of the electromagnetic
 field.
 
 6.9 Electric Conduction in a Magnetic Field: The Hall Efiect
-When a current ffows in a conductor in the presence of a magnetic
+When a current flows in a conductor in the presence of a magnetic
 field, the force (q/c)v x B acts directly on the moving charge car-
 riers. Yet we observe a force on the conductor as a whole. Let's
 see how this comes about. Figure 6.28a shows a section of a metal
-bar in which a steady current is ffowing. Driven by a field E, electrons
+bar in which a steady current is flowing. Driven by a field E, electrons
 are drifting to the left with average speed 6, which has the same
 meaning as the 17 in our discussion of conduction in Chap. 4. The
 conduction electrons are indicated, very schematically, by the white
@@ -8910,9 +8910,9 @@ The existence of the transverse field E, can be demonstrated electrically
 in a very direct way (Fig. 6.29). Wires are connected to
 points P1 and P2 on opposite edges of the bar, the junction points
 being carefully located so that they are at the same potential when
-current is ffowing in the bar and the field B is zero. The wires are
+current is flowing in the bar and the field B is zero. The wires are
 connected to a galvanometer. After the magnetic field B is switched
-on, a steady current ffows in this circuit, showing that P1 and P2 are
+on, a steady current flows in this circuit, showing that P1 and P2 are
 no longer at the same potential. In fact, P1 is positive, relative to P2
 in the system we have just described.
 
@@ -8969,7 +8969,7 @@ in metals.
 % p. 221
 Problems
 
-6.1 A current of 30 amp ffows in the circuit in Fig. 5.lb. The parallel wires
+6.1 A current of 30 amp flows in the circuit in Fig. 5.lb. The parallel wires
 are 5 cm apart. What is the force per unit length on one of the wires?
 
 6.2 The figure shows a rectangular coil suspended from one arm of an
@@ -9013,7 +9013,7 @@ field at the proton which arises from the electron's motion?
 are constructed as follows: A solid aluminum rod 5 cm in diameter is surrounded
 by a return lead in the shape of an aluminum cylinder of 7 cm inside
 diameter and 9 cm outside diameter. (The annular space between the rod and
-the cylinder is filled with ffowing oil which serves to remove the heat.) In each
+the cylinder is filled with flowing oil which serves to remove the heat.) In each
 of the conductors the current density will be practically constant over the cross
 section of the conductor. Calculate and plot on a graph the magnitude of the
 magnetic field B, in gauss, as a function of radius in centimeters from the axis
@@ -9038,13 +9038,13 @@ frame, with a speed 0.60 in the positive y direction. Find the direction and
 magnitude of the electric field which will be reported by an observer in the
 frame F'. What magnetic field does this observer report?
 
-6.9 An ocean current ffows at a speed of 2 knots (about 1 meter/sec)
+6.9 An ocean current flows at a speed of 2 knots (about 1 meter/sec)
 in a region where the vertical component of the earth's magnetic field is
 0.35 gauss. The conductivity of sea water in that region is 0.04 (ohm cm)".
 On the assumption that there is no other horizontal component of E than the
 motional term (v/c) x B, find the density of horizontal electric current in
 amperes per square meter. If you were to carry a bottle of sea water through
-the earth's field at this speed, would such a current be ffowing in it?
+the earth's field at this speed, would such a current be flowing in it?
 
 6.10 For speeds small compared to c, the field transformations can be
 written in a very simple form
@@ -9077,14 +9077,14 @@ curl B : (4'rr/c)J. What statement about A corresponds to the statement
 that the line integral of B around any closed path equals 477/c times the current
 enclosed by the path? Consider the magnetic field of a long cylindrical
 rod of metal carrying a current uniformly distributed over its cross section, and
-ffowing parallel to the axis. You know what the field of such a current distribution
+flowing parallel to the axis. You know what the field of such a current distribution
 is. Draw a picture of the current distribution and the magnetic field
 lines. Now, using the analogy just mentioned, find a vector potential to go
 with the field of an infinitely long solenoid. It is worth noting that in this case
 the vector potential itself is not zero in a region where the magnetic field is zero.
 
 6.14 Since parallel current filaments attract one another, one might think
-that a current ffowing in a solid rod like the inner conductor in Prob. 6.6 would
+that a current flowing in a solid rod like the inner conductor in Prob. 6.6 would
 tend to concentrate near the axis of the rod. That is, the conduction electrons,
 instead of distributing themselves evenly as usual over the interior of the metal,
 would crowd in toward the axis and most of the current would be there. What
@@ -9387,7 +9387,7 @@ was defined as the work per unit charge involved in moving a charge
 around a circuit containing a voltaic cell. We now broaden the
 definition of emf to include any inffuence that causes charge to
 circulate around a closed path. If the path happens to be a physical
-circuit with resistance R, then the emf 8 will cause a current to ffow
+circuit with resistance R, then the emf 8 will cause a current to flow
 according to Ohm's law: I = 8/R. In the particular case we are con-
 
 sidering, f is the force that acts on a charge moving in a magnetic
@@ -9539,7 +9539,7 @@ positive charge around that loop in a counterclockwise direction, as
 seen looking down on the loop (Fig. 7.11).
 
 There is a better way to look at this question of sign and direction.
-Notice that if a current should ffow in the direction of the induced
+Notice that if a current should flow in the direction of the induced
 electromotive force, in the situation shown in Fig. 7.11, this current
 itself would create some flux through the loop in a direction to
 counteract the assumed flux change. That is an essential physical
@@ -9551,15 +9551,15 @@ Another example of Lenz's law is illustrated in Fig. 7.12. The
 conducting ring is falling in the magnetic field of the coil. The flux
 through the ring is downward and is increasing in magnitude. To
 counteract this change, some new flux upward is needed. It would
-take a current ffowing around the ring in the direction of the arrows
+take a current flowing around the ring in the direction of the arrows
 to produce such flux. Lenz's law assures us that the induced emf will
 be in the right direction to cause such a current.
 
-If the electromotive force causes current to ffow in the loop which
+If the electromotive force causes current to flow in the loop which
 is shown in Figs. 7.6 and 7.11, as it will if the loop has a finite resist-
 ance, some energy will be dissipated in the wire. What supplies this
 energy? To answer that, consider the force that acts on the current
-in the loop if it ffows in the sense indicated by the arrow in Fig. 7.11.
+in the loop if it flows in the sense indicated by the arrow in Fig. 7.11.
 The conductor on the right, in the field B2, will experience a force
 toward the right, while the opposite side of the loop, in the field B1,
 
@@ -9907,7 +9907,7 @@ induced electric field.
 
 Two circuits, or loops, C1 and C2 are fixed in position relative to
 one another (Fig. 7.19). By some means, such as a battery and
-a Variable resistance, a controllable current 11 is caused to ffow in
+a Variable resistance, a controllable current 11 is caused to flow in
 circuit C1. Let B1(:x,y,z) be the magnetic field that would exist if
 the current in C1 remained constant at the value I1, and let 4321 denote
 the flux of B1 through the circuit C2. Thus,
@@ -9956,7 +9956,7 @@ force of 1 volt in circuit C2.
 
 As an example, consider the circuits in Fig. 7.20, two coplanar,
 concentric rings, a small ring C2 and a much larger ring C1. What
-is M21 in this case? At the center of C1, with I1 ffowing, the field B1
+is M21 in this case? At the center of C1, with I1 flowing, the field B1
 is given by
 
 _ 27711
@@ -10089,12 +10089,12 @@ A21 = L E (50)
 6 C1 T21
 
 A21 is the vector potential, at some point (x2,y2,z2), of the magnetic
-field caused by current I (esu/sec) ffowing in circuit C1; ds1 is an
+field caused by current I (esu/sec) flowing in circuit C1; ds1 is an
 
 % p. 250
 element of the loop C1; and r21 is the magnitude of the distance from
 that element to the point (x2,y2,z2).
-Figure 7.21 shows the two loops C1 and C2, with current I ffowing
+Figure 7.21 shows the two loops C1 and C2, with current I flowing
 
 in C1. Let (x2,y2,z2) be a point on the loop C2. Then the flux
 through C2 due to current I in C1 is:
@@ -10102,7 +10102,7 @@ through C2 due to current I in C1 is:
 I I ds
 (I321 :L2A21 ' ds2 :1;/12 dS2 ' A21 = FJQJZIIS2 ' 01?: (51)
 
-Similarly, the flux through C1 due to current I ffowing in C2 would
+Similarly, the flux through C1 due to current I flowing in C2 would
 be given by
 
 1 d
@@ -10156,7 +10156,7 @@ The constant L1 is called the self-inductance of the circuit.
 As an example of a circuit for which L1 can be calculated, consider
 the rectangular toroidal coil of Prob. 6.19, shown here again in
 Fig. 7.22. You found (if you worked that problem) that a current I,
-in esu/sec, ffowing in the coil of N turns produces a field the strength
+in esu/sec, flowing in the coil of N turns produces a field the strength
 of which, at a radius r from the axis of the coil, is given by B = 2N1/er.
 The total flux through one turn of the coil is the integral of this field
 over the cross section of the coil:
@@ -10191,7 +10191,7 @@ simple circular loop of wire, we encounter a puzzling difficulty. It
 
 % p. 252
 seems a good idea to simplify the problem by assuming that the wire
-has zero diameter. But we soon discover that if finite current ffows
+has zero diameter. But we soon discover that if finite current flows
 in a filament of zero diameter, the flux threading a loop made of such
 a filament is infinite! The reason is that the field B, in the neighborhood
 of a filamentary current, varies as 1/r where r is the distance
@@ -10205,7 +10205,7 @@ of flux. We are no longer sure what we mean by the flux through the
 circuit. In fact, because the electromotive force is different in the
 different filamentary loops into which the circuit can be divided. some
 redistribution of current density must occur when rapidly changing
-currents ffow in the ring. Hence the inductance of the circuit may
+currents flow in the ring. Hence the inductance of the circuit may
 depend somewhat on the rapidity of change of I, and thus not be
 strictly a constant as Eq. 54 would imply.
 
@@ -10374,7 +10374,7 @@ found (Eq. 58)
 L = 2W' In (E) (71)
 
 02 a
-The magnetic field strength B, with current I ffowing, was given
+The magnetic field strength B, with current I flowing, was given
 
 B : 2NI
 cr
@@ -10471,7 +10471,7 @@ Stokes' theorem,
 fen-d1=Lcur1B-da (81)
 
 The surface S passes right through the conductor in which a current
-I is ffowing. Inside this conductor, curl B has a finite value,
+I is flowing. Inside this conductor, curl B has a finite value,
 namely 47rJ/0, and the integral on the right comes out equal to 4771/c.
 That is to say, if the curve C is close to the wire and well away from
 the capacitor gap, the magnetic field there is not different from the
@@ -10480,7 +10480,7 @@ the capacitor gap, the magnetic field there is not different from the
 field around any wire carrying the same current. Now the surface S'
 in Fig. 7.28 is also a surface spanning C, and has an equally good
 claim to be used in the statement of Stokes' theorem, Eq. 81.
-Through this surface, however, there ffows no current at all! Never-
+Through this surface, however, there flows no current at all! Never-
 theless, curl B cannot be zero over all of S' without violating Stokes'
 theorem. Therefore, on S', curl B must depend on something other
 than the current density J.
@@ -10536,7 +10536,7 @@ by Eq. 76. The right-hand side of Eq. 85 now becomes
 which is zero by virtue of the continuity condition, Eq. 77.
 
 The new term resolves the difficulty raised in Fig. 7.28. As charge
-ffows out of the capacitor, the electric field, which at any instant has
+flows out of the capacitor, the electric field, which at any instant has
 the configuration in Fig. 7.29, diminishes in intensity. In this case,
 
 1 BE
@@ -10612,7 +10612,7 @@ This will be negligible for sulficiently slow changes in field. We
 may call a slowly changing field quasi-static. Now if Jd is a vector
 field without any curl, it can be made up, in the same way that the
 electrostatic field can be made of the fields of point charges, by superposing
-radial currents ffowing outward from point sources or in
+radial currents flowing outward from point sources or in
 toward point ``sinks'' (Fig. 7.32). But the magnetic field of any
 radial, symmetrical current distribution, calculated (1 la Biot-Savart,
 
@@ -10870,7 +10870,7 @@ through 180''?
 the instant when it is in the position there shown. Assume the resistance of
 the loop is so great that the effect of the current in the loop itself is negligible.
 Estimate very roughly how large a resistance would be safe, in this respect.
-Indicate the direction in which current would ffow in the loop, at the instant
+Indicate the direction in which current would flow in the loop, at the instant
 shown.
 
 7.5 Suppose the loop in Fig. 7.6 has a resistance R. Show that whoever
@@ -11342,7 +11342,7 @@ Suppose an alternating current I = I0 cos (wt + q)) is somehow
  
  
 
-caused to ffow through such a combination (shown in Fig. 8.8). The
+caused to flow through such a combination (shown in Fig. 8.8). The
 voltage across the inductor, VL, will be:
 
 VL = L:ii-£ = -IowL sin (wt + (p) (37)
@@ -11402,7 +11402,7 @@ I: R
 
 (44)
 
-This is exactly the current that would ffow if the circuit contained
+This is exactly the current that would flow if the circuit contained
 the resistor alone.
 
 As an example, consider the circuit of Fig. 8.3a, connected now
@@ -11468,14 +11468,14 @@ circuit with a Q of 104, or even 105.
 The angle q), which expresses the relative phase of the current and
 emf oscillations, varies with frequency in the manner shown in
 Fig. 8.11. At a very low frequency the capacitor is the dominant
-hindrance to current ffow, and (p is positive. At resonance, (p = 0.
+hindrance to current flow, and (p is positive. At resonance, (p = 0.
 The higher the Q, the more abruptly $\pot$ shifts from positive to negative
 angles as the frequency is raised through coo.
 
 8.3 Alternating-current Networks
 
 An alternating-current network is any collection of resistors,
-capacitors, and inductors in which currents ffow that are oscillating
+capacitors, and inductors in which currents flow that are oscillating
 steadily at the constant frequency to. One or more electromotive
 forces, at this frequency, drive the oscillation. Figure 8.12 is a diagram
 of one such network. . The source of alternating electromotive
@@ -11590,7 +11590,7 @@ of the various oscillating functions, V1(t), V2(t), etc.
 
 8.4 Admittance and Impedance
 
-The relation between current ffow in a circuit element and the
+The relation between current flow in a circuit element and the
 voltage across the element can be expressed as a relation between the
 complex numbers that represent the voltage and the current. Look
 at the inductor-resistor combination in Fig. 8.4. The voltage oscillation
@@ -11757,7 +11757,7 @@ with Vin volts and t in seconds. An ac ammeter is calibrated to read
 In general, the instantaneous rate at which energy is delivered to
 a circuit element is VI, the product of the instantaneous voltage and
 current, with due regard to sign. Consider this aspect of the current
-ffow in the simple LR circuit in Fig. 8.4. In Fig. 8.18 we have redrawn
+flow in the simple LR circuit in Fig. 8.4. In Fig. 8.18 we have redrawn
 the current and voltage graphs and added a curve proportional to
 the product VI. Positive VI means energy is being transferred into
 the LR combination from the source of electromotive force, or
@@ -14019,7 +14019,7 @@ is all the easier, in the real :
 two 0 atoms is to some degr
 gen bond" that holds the cr:
 looks exactly the same. Th
-curred was a downward ffow
+curred was a downward flow
 up the current in this proce
 we have to put in the same t
 to an upward current, but vs
@@ -14545,7 +14545,7 @@ tter is to be accounted for by
 rrent distributed through the
 
 cy plane encircling the origin,
-measured in esu/sec, ffows
+measured in esu/sec, flows
 he magnetic field this current
 nt points like P1 in the figure.
 3 P1, is much larger than any
@@ -14637,7 +14637,7 @@ a vector, its direction being
 of the vector a, the directed a
 
 As for sign, we' agree that the
-current ffow in the loop are t
+current flow in the loop are t
 illustrated in Fig. 10.5. (The
 points downward, according
 the field of a magnetic dipt
@@ -15598,7 +15598,7 @@ current in the loop to the left l
 
 At every interface in this row <
 x direction of magnitude AI (
-unit area ffowing in the x direc
+unit area flowing in the x direc
 ber of blocks per unit area, wi
 
 J, = A1
@@ -16250,7 +16250,7 @@ you see any grounds for doing so, (
 10.5 At the North Magnetic P
 and has a strength of 0.62 gauss. "I
 dipole at the surface and farther 01
-large a current in amperes, ffowing a
+large a current in amperes, flowing a
 a dipole moment of strength equal
 field is probably not a current neal
 the core.)
@@ -16640,7 +16640,7 @@ The new coordinates are then related
 715 = F7', etc.)
 uarallel sides 2b meters apart. At the
 )city of the water is greatest in mid-
-Suppose that the ffow happens to
+Suppose that the flow happens to
 ximately given by
 
 -4%)
@@ -17127,7 +17127,7 @@ seum. How should the pin board be
 : the location of the pins, the elasticity
 thermal energy, the possibility of rep-
 is in the same environment.
-p us to understand the ffow of current
+p us to understand the flow of current
 arged particles moving through space
 is, what is the nature of the current
 :e? (If we can work that out, we can
@@ -17330,7 +17330,7 @@ is a startling example of the power
 superposition shrewdly, you can do
 way and you will appreciate the 514
 by the way, is 0.5 ohm, but we will nc
-of current ffow to superpose.
+of current flow to superpose.
 
 4.31 In this problem you will in
 voltages varying in time. Each circ
@@ -17520,7 +17520,7 @@ Suggest an arrangement of coils suit
 of ampere-turns required in your cc
 
 6.21 Any ordinary solenoidal (
-component of longitudinal ffow acc
+component of longitudinal flow acc
 because the winding has to progres
 regard the current as the superposi
 
@@ -17699,7 +17699,7 @@ aid of the energy relation
 7.18 Suppose the loop which is Ir
 Fig. 7.6 is made of wire with extremel
 force 8 cause an enormous current t
-the current that is caused to ffow in t]
+the current that is caused to flow in t]
 current. What can you say about the
 guess what might happen if the loop v
 resistance strictly zero?
@@ -17728,7 +17728,7 @@ ance M.
 sists of a solid metal rod of radius a.
 of radius 12. At one end a metal disk
 to predict the self-inductance L of a 5
-current ffowing in the inner conduc
+current flowing in the inner conduc
 cross section of the rod. For a gix
 strength B as a function of radius, bot
 
@@ -17788,7 +17788,7 @@ the arrangement shown in the figl
 balanced against the force between
 direction. A voltage alternating
 applied to the parallel-plate capac
-charge ffowing into and out of C2 c
+charge flowing into and out of C2 c
 that C2 and the various distances in
 ward force on the upper plate of t
 the upper ring. (Of course, the w.
