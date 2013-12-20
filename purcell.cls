@@ -31,3 +31,4 @@
                                                        % interpreted as a double superscript
 \newcommand{\esu}{\zu{esu}}
 \newcommand{\cmunit}{\zu{cm}}
+\newcommand{\sunit}{\zu{s}}
