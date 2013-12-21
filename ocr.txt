@@ -2067,7 +2067,7 @@ Actual surface charges will of course not be found in a layer of zero
 thickness and infinite volume density, so our intermediate picture is
 more realistic than the limiting case. For instance, a charge on the
 surface of a metal may be distributed through a layer several
-angstroms deep. The point is that as long as the layer is thin compared
+tenths of a nanometer deep. The point is that as long as the layer is thin compared
 to the other dimensions of the system we may treat it as a layer
 of zero thickness, characterized only by its local density of charge
 per unit area, for calculating all large-scale effects. On the other

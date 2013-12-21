@@ -628,8 +628,6 @@ vacuum diode, unidirectional. Nonlinear devices are indispensable
 in electronics (as in life). If everything commenced to obey Ohm's
 law, electronic technology would be wiped out.
 
-\iffalse
-
 \section{Electrical conductivity of metals}
 
 The metals are the best conductors we know of. The simple picture
@@ -652,38 +650,31 @@ this lattice of ions the ``conduction electrons'' wander. Even if only
 one electron per metal atom has come loose, the resulting density of
 charge carriers would be enormously greater than it is in substances
 where the ions have to be created by other means. The number of
-atoms per cubic centimeter in sodium metal is 2.5 X 1022.
+atoms per cubic centimeter in sodium metal is $2.5\times10^{22}$.
 
 As we have seen, the mobility of a charge carrier is essentially determined
-by the time 7 over which it can accumulate directed
+by the time $\tau$ over which it can accumulate directed
 momentum from the applied electric field. This is true whatever
 process may be going on. If we believe that the number of charge
 carriers in sodium is one per atom, and that these are electrons of
-
 mass me, we need only the experimentally measured conductivity of
-sodium to calculate T. The conductivitv o of sodium at room tem-
-
+sodium to calculate $\tau$. The conductivity $\sigma$ of sodium at room
 % p. 126
-perature in electrostatic units is 1.9 X 1017 esu/sec-cm-statvolt.
+temperature in electrostatic units is $1.9 \times 10^{17}\ \esu/\sunit\unitdot\cmunit\unitdot\zu{statvolt}$.
 From Eq. 17, omitting the positive carriers altogether,
-
-ome_ __ (1.9 X 1017) X (9 X 10"")
-N_e2 _ (2.5 X 1022) X (23 X 10-20)
-
-: 3 X 10*" see p (19)
-
-'T_Z
 \begin{equation}
+  \tau_- = \frac{\sigma m_{e-}}{N_-e^2}
+         = \frac{(1.9\times10^{17})\times(9\times10^{-28})}{(2.5\times10^{22})\times(23\times10^{-20})}
+         \approx 3\times10^{-14}\ \sunit
 \end{equation}
-
 This seems a surprisingly long time for an electron to move through
 the crystal lattice without suffering serious deflection. The thermal
 speed of an electron at room temperature, according to kinetic
-theory, ought to be about 107 cm/sec, so that in 3 X l0'14 see an
-electron would travel 30 angstr0ms-more than ten lattice spaces.
+theory, ought to be about $10^7$ cm/s, so that in $3 \times 10^{-14}\ \sunit$ an
+electron would travel 3 nm---more than ten lattice spaces.
 
-Why is the lattice of ions so transparent to the electrons? Remem-
-ber that, insofar as one can speak of size, the ions nearly touch one
+Why is the lattice of ions so transparent to the electrons? Remember
+that, insofar as one can speak of size, the ions nearly touch one
 another in a compact lattice. Also, the rise and fall of electrical
 potential along a path through the lattice ought to be very large compared
 to the energy in electron volts of an electron at room tempera-
@@ -698,8 +689,8 @@ present task, we can do as generations of physicists had to do---take
 the remarkable electrical conductivity of metals for granted.
 
 We can, however, keep some of the essentials of our picture of
-conduction, even here. The conduction current is carried by elec-
-trons; it represents a slow systematic drift of the carriers, superimposed
+conduction, even here. The conduction current \emph{is} carried by electrons;
+it represents a slow systematic drift of the carriers, superimposed
 on their much more rapid random motion. Also, it is an
 eventual scattering or deflection of the electron by the lattice that
 makes the drift velocity proportional to the field, and hence makes
@@ -709,16 +700,15 @@ In most metals Ohm's law is obeyed exceedingly accurately up to
 current densities far higher than any that can be long maintained.
 No deviation has ever been clearly demonstrated experimentally.
 According to one theoretical prediction, departures of the order of
-1 percent might be expected at a current density of 109 amp/cmz.
+1 percent might be expected at a current density of $10^9\ \zu{A}/\cmunit^2$.
 That is roughly a million times the current density one finds in
 ordinary wires in circuits.
 
-The conductivity of pure metals increases with lowering tempera-
-ture. That would be a bit difficult to explain with our previous
-
+The conductivity of pure metals increases with lowering temperature.
+That would be a bit difficult to explain with our previous
 % p. 127
 theory. And any notion that a ``billiard-ball'' kind of picture can be
-devised to account for all aspects of metallic conduction is made to
+devised to account for \emph{all} aspects of metallic conduction is made to
 seem ridiculous by the startling phenomenon of superconductivity.
 Many metals at low temperature begin to conduct in a manner that,
 if one tries to describe it by a conductivity, requires the conductivity
@@ -728,9 +718,10 @@ electrical behavior.)
 The chart in Fig. 4.6 shows the conductivities of a variety of pure
 substances, and their variation with temperature. Its main purpose
 is to exhibit the wide range of values and behavior. Note that
-
 abscissa (temperature) and ordinate (conductivity) are both logarithmic
 scales.
+
+\iffalse
 
 \section{Resistance of conductors}
 
@@ -1145,7 +1136,7 @@ so to speak, mercury ions like to gain electrons more than cadmium
 atoms hate to lose them.
 
 Notice that at each interface ions move against the electric field.
-It is these transition layers, no more than some angstroms thick, that
+It is these transition layers, no more than some tenths of a nm thick, that
 correspond to the belt in the Van de Graaff generator.
 
 Consider now the electrical potential changes over the whole sys-

@@ -32,3 +32,4 @@
 \newcommand{\esu}{\zu{esu}}
 \newcommand{\cmunit}{\zu{cm}}
 \newcommand{\sunit}{\zu{s}}
+\newcommand{\unitdot}{\!\cdot\!}
