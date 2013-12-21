@@ -195,8 +195,6 @@ which governs it. The relation is important in electronics not only
 in the design and use of diodes but also in the design of electron guns
 for cathode-ray tubes and the like.
 
-\iffalse
-
 \section{Electrical conductivity and Ohm's law}
 
 There are many ways of causing charge to move, including what
@@ -211,41 +209,35 @@ a more common agent of charge transport, the force exerted on a
 charge carrier by an electric field. An electric field tends to make
 charge carriers move and thus tends to cause an electric current.
 Whether or not it does so depends on the physical nature of the system
-within which the field acts, the medium.
+within which the field acts, the \emph{medium}.
 
 One of the earliest experimental discoveries about electric currents
 in matter is summarized in Ohm's law:
-
-_X
-1- R (10)
 \begin{equation}
+  I = \frac{V}{R}
 \end{equation}
-
 % p. 115
-The current I flowing through a wire is proportional to V, the difference
-in potential between its ends. We have used q; heretofore as
-the symbol for electric potential, and ((1)1 - (pg) or 9012 for the difference
-of potential. In this section we shall use the symbol V, which
+The current $I$ flowing through a wire is proportional to $V$, the difference
+in potential between its ends. We have used $\pot$ heretofore as
+the symbol for electric potential, and $(\pot_1-\pot_2)$ or $\pot_{12}$ for the difference
+of potential. In this section we shall use the symbol $V$, which
 is more common in the elementary physics of electric circuits, and
-comes, of course, from ``volts'' or ``voltage.'' (We had avoided V
+comes, of course, from ``volts'' or ``voltage.'' (We had avoided $V$
 merely because it suggests so many different things: Volume, velocity,
 voltage.)
 
 For a given piece of wire maintained at the same temperature, the
-resistance R, the constant of proportionality in Eq. 10, does not depend
+resistance $R$, the constant of proportionality in Eq. 10, does not depend
 on the amount of current flowing. The resistance does depend
 in an obvious way on the length and cross section of the wire, being
-proportional to the length L and inversely proportional to the area
-of cross section A. Of course it also depends on the material of
-
+proportional to the length $L$ and inversely proportional to the area
+of cross section $A$. Of course it also depends on the material of
 which the conductor is made and all of this is expressed in the simple
 formula:
-
-R:p% (11)
 \begin{equation}
+  R = \rho \frac{L}{A}
 \end{equation}
-
-The factor p is called the volume resistivity of the substance. Usually
+The factor $\rho$ is called the volume resistivity of the substance. Usually
 resistance is measured in ohms, which goes with amperes for current
 and with volts for potential difference in Ohm's law. The corresponding
 unit of resistivity is the ohm-cm, if lengths are measured
@@ -255,82 +247,75 @@ The electrical engineer is interested in Eqs. 10 and 11 chieffy for
 calculating the resistance of parts of electrical circuits, and the
 voltage-current relations in those circuits. The physicist---except
 when he is designing electrical apparatus---sees these equations as
-reffecting a most remarkable and general property of matter, which
-it is his task to understand. The fundamental fact which the equa-
-tions, taken together, reffect, is this: In solid homogeneous materials
+reflecting a most remarkable and general property of matter, which
+it is his task to understand. The fundamental fact which the 
+equations, taken together, reflect, is this: In solid homogeneous materials
 the current density at any point is proportional to the electric field
-and the constant of proportionality depends only on the substance-
+and the constant of proportionality depends only on the substance---
 not, for instance, on the shape of the conductor. That is,
-
-J = 0E (12)
 \begin{equation}
+  \vc{J}=\sigma\vc{E}
 \end{equation}
-
-where a is a constant characteristic of the substance.
+where $\sigma$ is a constant characteristic of the substance.
 
 In the interior of most conductors, three perpendicular directions
 are physically equivalent. For instance, in copper the atoms are
 arranged on a cubic (face-centered cubic) lattice. But even when
-
 its atomic arrangement is not cubical, a piece of metal is usually
-
 % p. 116
-ractical units
-
 composed of many small crystals randomly oriented, which makes
-all directions equivalent in any large-scale average. In all such sub-
-stances, there being no preferred direction, J will have the same
-direction as E, and the constant 0 is simply a sca1ar.T We call it the
-electrical conductivity of the material. The conductivity a is just the
-reciprocal of the resistivity p.32 Figure 4.3 summarizes these simple
-relations, and shows how Eqs. 10 and 11 are implied by Eq. 12.
-
-Tln general, a linear relation between two vectors involves a tensor. We'1l meet an
+all directions equivalent in any large-scale average. In all such 
+substances, there being no preferred direction, $\vc{J}$ will have the same
+direction as $\vc{E}$, and the constant $\sigma$ is simply a 
+sca1ar.\footnote{ln general, a linear relation between two vectors involves a tensor. We'1l meet an
 important example of a tensor in Chap. 9. There are a few substances in which the
 conductivity is quite different in different directions and has to be treated as a tensor,
-but we needn't worry about them.
-
-IThe Greek letters p and a are the symbols usually adopted for resistivity and con-
+but we needn't worry about them.} 
+We call it the
+electrical \intro{conductivity} of the material. The conductivity $\sigma$ is just the
+reciprocal of the resistivity 
+$\rho$.\footnote{The Greek letters $\rho$ and $\sigma$ are the symbols usually adopted for resistivity and con-
 ductivity, in spite of their equally common usage for volume charge density and surface
-charge density. There just aren't enough letters to go round.
+charge density. There just aren't enough letters to go round.} Figure 4.3 summarizes these simple
+relations, and shows how Eqs. 10 and 11 are implied by Eq. 12.
 
 % p. 117
-v....r,. - '_.vvuu- uv \/vvlI\/Ivvu AL-
 
 A word about units and dimensions. The common unit for conductivity
 is derived from the practical unit of resistance, the ohm. As
 you well know, the ohm is one volt per ampere. Conductivity is the
-current density amperes/cm?
-
-field strength volts/cm
-
-or (ohm-cm)'1, often read as ``reciprocal ohm-centimeter.'' More
-often, the reciprocal of the conductivity, called the resistivity, is given.
-The practical unit is the ohm-centimeter, and the usual symbol is p.
+ratio $\frac{\text{current density}}{\text{field strength}}$
+which in practical units would be
+$\frac{\zu{amperes}/\cmunit^2}{\zu{volts}/\cmunit}$
+or $(\text{ohm-cm})^{-1}$, often read as ``reciprocal ohm-centimeter.'' More
+often, the reciprocal of the conductivity, called the \intro{resistivity}, is given.
+The practical unit is the ohm-centimeter, and the usual symbol is $\rho$.
 The resistivity of a good conductor at room temperature is typically
 a few millionths of an ohm-centimeter. Thus pure copper has a
-resistivity at room temperature of 1.7 x l0'3 ohm-cm, or a conductivity
-of 5.8 )< 105 (ohm-cm)'1.
+resistivity at room temperature of $1.7 \times 10^{-6}\ \zu{ohm-cm}$, or a conductivity
+of $5.8\times 10^5\ (\zu{ohm-cm})^{-1}$.
 
 In the CGS electrostatic system there is no special name for the
 unit of conductivity or resistivity, but since that system of units is
 built on the centimeter, gram, and second, and nothing else, the unit
 must be some combination of these. What, for instance, are the
 dimensions of resistivity?
-
-ratio which in practical units would be
-
-Resistivity =  : "fie ilgfig (13)
-current density cm? cm?
 \begin{equation}
+  \text{Resistivity} = \frac{\text{field strength}}{\text{current density}}
+    = \left. 
+        \left(\frac{\text{charge}}{\cmunit^2}\right)
+      \middle/ 
+        \left(\frac{\text{charge}/\sunit}{\cmunit^2}\right)
+      \right.
 \end{equation}
-
 which reduces simply to seconds. Resistivity has the dimensions of
-time, and the appropriate name for the unit would be the second!
-In these units the resistivity of copper is 1O'17 sec, that of glass at
-room temperature of the order of 103 sec. We shall find later that
-this curious association of a time with a material has a reasonable
+time, and the appropriate name for the unit would be the \emph{second!}
+In these units the resistivity of copper is $10^{-17}$ s, that of glass at
+room temperature of the order of $10^3$ s. We shall find later that
+this curious association of a time with a \emph{material} has a reasonable
 physical interpretation.
+
+\iffalse
 
 \section{A model for electrical conduction}
 
@@ -408,7 +393,7 @@ ffight will be altered---perhaps only a little, perhaps drastically---to
 a new velocity u'. Later a new collision occurs, changing the velocity
 to u", and so it goes. It can also happen that another ion some distance
 away, interacting with our ion by the long-range Coulomb
-force, deffects the ion's path. Long-range encounters, which can be
+force, deflects the ion's path. Long-range encounters, which can be
 important between ions and ions, mostly change the velocity in
 smaller random increments, but the eventual efi°ect is the same.
 The eventual effect---and this is the key to our problem---is to wipe
@@ -718,7 +703,7 @@ N_e2 _ (2.5 X 1022) X (23 X 10-20)
 \end{equation}
 
 This seems a surprisingly long time for an electron to move through
-the crystal lattice without suffering serious deffection. The thermal
+the crystal lattice without suffering serious deflection. The thermal
 speed of an electron at room temperature, according to kinetic
 theory, ought to be about 107 cm/sec, so that in 3 X l0'14 see an
 electron would travel 30 angstr0ms-more than ten lattice spaces.
@@ -742,7 +727,7 @@ We can, however, keep some of the essentials of our picture of
 conduction, even here. The conduction current is carried by elec-
 trons; it represents a slow systematic drift of the carriers, superimposed
 on their much more rapid random motion. Also, it is an
-eventual scattering or deffection of the electron by the lattice that
+eventual scattering or deflection of the electron by the lattice that
 makes the drift velocity proportional to the field, and hence makes
 the current obey Ohm's law.
 
@@ -1056,7 +1041,7 @@ random but does not necessarily restore the kinetic energy to normal.
 
 % p. 134
 F or that to happen the ion has to transfer kinetic energy to the obstacle
-that deffects it. Suppose the charge carrier has a considerably
+that deflects it. Suppose the charge carrier has a considerably
 smaller mass than the neutral atom it collides with. The average
 transfer of kinetic energy is small when a billiard ball collides with
 a bowling ball. Therefore the ion (billiard ball) will continue to

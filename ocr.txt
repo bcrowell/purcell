@@ -182,10 +182,10 @@ proton and the negative charge on the electron.
 That particular equality, the proton-electron charge balance, is
 open to a very sensitive test. One can test the normal hydrogen atom
 or molecule for overall electrical neutrality. Thus, one could try to
-deffect a beam of atoms or molecules by an electrical field. In a
+deflect a beam of atoms or molecules by an electrical field. In a
 sensitive experiment devised for this purpose,]' a sharply defined
 beam of cesium atoms was sent, in a high vacuum, through a strong
-electric field. From the absence of any observable deffection it could
+electric field. From the absence of any observable deflection it could
 be concluded that the net charge on a cesium atom must be less than
 l0'16e. An even more sensitive test has recently been made by a
 
@@ -682,7 +682,7 @@ U = -0.8738Ne2
 
 Here N, the number of ions, is twice the number of NaCl molecules.
 
-The negative sign reffects the dominance of the nearest neighbors,
+The negative sign reflects the dominance of the nearest neighbors,
 and shows that work would have to be done to take the crystal apart
 into ions. In other words, the electric energy helps to explain the
 cohesion of the crystal. If this were the whole story, however, the
@@ -1854,7 +1854,7 @@ A minor point deserves a comment: The result we have written
 down in Eq. 22 holds for all points on the positive y axis. It is obvious
 from the physical symmetry of the system (there is no difference between
 one face of the disk and the other) that the potential must have
-the same value for negative and positive y, and this is reffected in
+the same value for negative and positive y, and this is reflected in
 Eq. 21, where only g2 appears. But in writing Eq. 22 we made a
 choice of sign in taking the square root of y2, with the consequence
 that it holds only for positive y. The correct expression for y < 0 is
@@ -2786,7 +2786,7 @@ vector! In fact, as we make smaller and smaller loops in some
 neighborhood, we can arrange to have a loop oriented in any direction
 we choose. (Remember, we are not committed to any particular
 surface over the whole curve C.) Thus we can pass to the limit in
-essentially dilferent ways and we must expect the result to reffect this.
+essentially dilferent ways and we must expect the result to reflect this.
 
 Let us choose some particular orientation for the patch as it goes
 through the last stages of subdivision. The unit vector 1': will denote
@@ -3516,7 +3516,7 @@ when we are concerned with the external fields.
 Tln speaking of the electric field inside matter, we mean an average field, averaged
 over a region large compared to the details of the atomic structure. We know, of course,
 that very strong fields exist in all matter, including the good conductors, if we search
-on a small scale near an atomic nucleus. It was an electric field, after all, that deffected
+on a small scale near an atomic nucleus. It was an electric field, after all, that deflected
 the alpha particles that Rutherford and Geiger and Marsden shot through the gold foil
 (see Vol. 1, Chap. 15, Historical Note 1). The nuclear electric field does not contribute
 to the average field in matter, ordinarily, because it points in one direction on one side
@@ -4760,9 +4760,9 @@ The electrical engineer is interested in Eqs. 10 and 11 chieffy for
 calculating the resistance of parts of electrical circuits, and the
 voltage-current relations in those circuits. The physicist---except
 when he is designing electrical apparatus---sees these equations as
-reffecting a most remarkable and general property of matter, which
+reflecting a most remarkable and general property of matter, which
 it is his task to understand. The fundamental fact which the equa-
-tions, taken together, reffect, is this: In solid homogeneous materials
+tions, taken together, reflect, is this: In solid homogeneous materials
 the current density at any point is proportional to the electric field
 and the constant of proportionality depends only on the substance-
 not, for instance, on the shape of the conductor. That is,
@@ -4909,7 +4909,7 @@ ffight will be altered---perhaps only a little, perhaps drastically---to
 a new velocity u'. Later a new collision occurs, changing the velocity
 to u", and so it goes. It can also happen that another ion some distance
 away, interacting with our ion by the long-range Coulomb
-force, deffects the ion's path. Long-range encounters, which can be
+force, deflects the ion's path. Long-range encounters, which can be
 important between ions and ions, mostly change the velocity in
 smaller random increments, but the eventual efi°ect is the same.
 The eventual effect---and this is the key to our problem---is to wipe
@@ -5207,7 +5207,7 @@ N_e2 _ (2.5 X 1022) X (23 X 10-20)
 'T_Z
 
 This seems a surprisingly long time for an electron to move through
-the crystal lattice without suffering serious deffection. The thermal
+the crystal lattice without suffering serious deflection. The thermal
 speed of an electron at room temperature, according to kinetic
 theory, ought to be about 107 cm/sec, so that in 3 X l0'14 see an
 electron would travel 30 angstr0ms-more than ten lattice spaces.
@@ -5231,7 +5231,7 @@ We can, however, keep some of the essentials of our picture of
 conduction, even here. The conduction current is carried by elec-
 trons; it represents a slow systematic drift of the carriers, superimposed
 on their much more rapid random motion. Also, it is an
-eventual scattering or deffection of the electron by the lattice that
+eventual scattering or deflection of the electron by the lattice that
 makes the drift velocity proportional to the field, and hence makes
 the current obey Ohm's law.
 
@@ -5533,7 +5533,7 @@ random but does not necessarily restore the kinetic energy to normal.
 
 % p. 134
 F or that to happen the ion has to transfer kinetic energy to the obstacle
-that deffects it. Suppose the charge carrier has a considerably
+that deflects it. Suppose the charge carrier has a considerably
 smaller mass than the neutral atom it collides with. The average
 transfer of kinetic energy is small when a billiard ball collides with
 a bowling ball. Therefore the ion (billiard ball) will continue to
@@ -7388,14 +7388,14 @@ speed 0.80 in the x direction when it enters a large region in which there is a
 miform electric field in the y direction. Show that the x velocity of the particle
 nust actually decrease. What about the 2: component of momentum?
 
-5.5 The deffection plates in a high-voltage cathode-ray oscilloscope are
+5.5 The deflection plates in a high-voltage cathode-ray oscilloscope are
 wo rectangular plates, 4 cm long and 1.5 cm wide, spaced 0.8 cm apart. There
 s a difference of potential of 6000 volts between the plates. An electron which
 as been accelerated through a potential difference of 250 kilovolts enters this
 
 lefiector from the left, moving parallel to the plates and halfway between them,
 iitially. We want to find the position of the electron and its direction of
-'lOtl01'1 when it leaves the deffecting field at the other end of the plates. We
+'lOtl01'1 when it leaves the deflecting field at the other end of the plates. We
 1all neglect the fringing field and assume the electric field between the plates
 l uniform right up to the end. The rest mass of the electron may be taken as
 90 kev. First carry out the analysis in the ``lab'' frame by answering these
@@ -7425,7 +7425,7 @@ superposition?
 with speed 0. It reaches the origin at t = 0, and is instantly stopped and
 reversed (as if it had rebounded elastically) so that it then moves out with the
 same constant speed in the positive x direction. Sketch the field at some time
-after the particle was reffected.
+after the particle was reflected.
 
 5.8 The figure shows a highly relativistic positive particle approaching
 the origin from the left and a negative particle approaching with equal speed
@@ -7441,7 +7441,7 @@ How does the field change as time goes on?
 past it, moving at speed 1), the closest distance of approach being 19. The first
 particle was so massive that the velocity it acquired from the Coulomb force
 caused only negligible displacement during the time of passage. Likewise,
-the second particle was so massive that any change in speed or deffection of
+the second particle was so massive that any change in speed or deflection of
 its path from a straight line was negligible. How much transverse momentum
 was acquired by each particle, as a result of the near encounter? (Transverse
 here means perpendicular to the direction of motion of particle 2.) Answer
@@ -7476,7 +7476,7 @@ Chapter 6 The Magnetic Field
 A charge which is moving parallel to a current of other charges
 experiences a force perpendicular to its own velocity. This emerged
 from our analysis of the situation shown in Fig. 5.20 of the last
-chapter. We can see it happening in the deffection of an electron
+chapter. We can see it happening in the deflection of an electron
 beam by a nearby current, as in Fig. 5.3. We have yet to show what
 happens if we send our test charge moving in some other direction.
 You can recognize already, however, the behavior that is usually
@@ -8892,7 +8892,7 @@ is switched on. The state of motion immediately thereafter is
 % p. 219
 \/ll/I-41.1: u .llII(/ Lvnusnvuvuu 1. vvvuw 54!]
 
-shown in Fig. 6.28b. The electrons are being deffected downward.
+shown in Fig. 6.28b. The electrons are being deflected downward.
 But since they cannot escape at the bottom of the bar, they simply
 pile up there, until the surplus of negative charge at the bottom of the
 bar and the corresponding excess of positive charge at the top creates
@@ -9232,7 +9232,7 @@ board, so that when brought near the first, the wires should everywhere
 touch, except that a sheet of thick paper was interposed. One of these wires
 was connected with the galvanometer, and the other with a voltaic battery.
 The first wire was then moved towards the second, and as it approached, the
-needle was deffected. Being then removed, the needle was deffected in the
+needle was deflected. Being then removed, the needle was deflected in the
 opposite direction. By first making the wires approach and then recede,
 simultaneously with the vibrations of the needle, the latter soon became very
 extensive; but when the wires ceased to move from or towards each other,
@@ -9720,7 +9720,7 @@ the experiment in the laboratory.
 Experiment I. With constant current in the coil and table 1 station-
 ary, table 2 moves toward the right with speed 17. The galvanometer
 
-deffects. We are not surprised; we have already analyzed this situation
+deflects. We are not surprised; we have already analyzed this situation
 in Sec. 7.3 above.
 
 Experiment 11. With constant current in the coil and table 2 station-
@@ -9728,7 +9728,7 @@ ary, table 1 moves to the left with speed 12. The galvanometer
 deflects. This doesn't surprise us either. We have just discussed the
 equivalence of Experiments I and II, an equivalence which is an example
 of Lorentz invariance or, for the low speeds of our tables,
-Galilean invariance. We know that in both experiments the deffec-
+Galilean invariance. We know that in both experiments the deflec-
 
 tion of the galvanometer can be related to the rate of change of flux
 of B through the loop.
@@ -9749,7 +9749,7 @@ Although there might be minor differences between the field configurations
 for II and III, an observer who did not know what was
 behind the curtain could not decide, on the basis of local B measurements
 alone, which case it was. Therefore if the galvanometer did
-not respond with the same deffection in Experiment III, it would
+not respond with the same deflection in Experiment III, it would
 mean that the relation between the magnetic and electric fields in a
 region depends on the nature of a remote source. Two magnetic
 fields essentially similar in their local properties would have associated
@@ -16314,7 +16314,7 @@ very strong field
 Force between two magnetized disks
 
 % p. 401
-Design of an electromagnet: A 10.13 For deffecting a beam 01
+Design of an electromagnet: A 10.13 For deflecting a beam 01
 
 "b3"'d""€ "''':'§."9t''f°' '' hi€h'e"'"€y ment one requires a magnetic field
 
@@ -16522,7 +16522,7 @@ ion, by assuming it follows its original
 se the result to calculate the transverse
 e electron, in its passage, and hence
 :tually experienced. You should find
-gular deffection is independent of how
+gular deflection is independent of how
 the wire. That is, the electric field of
 tjectories like that of a weak prism on
 gement has been used to demonstrate
@@ -18473,7 +18473,7 @@ matter, it has one basic defect. Max-
 11 above are not symmetrical, even in
 hand, as we showed in Chapter 10, B,
 atic field inside matter. That is not a
-t a fact of nature, reffecting the absence
+t a fact of nature, reflecting the absence
 
 % p. 451
 of magnetic charge. Thus the MKS
