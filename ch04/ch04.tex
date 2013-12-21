@@ -100,66 +100,59 @@ Eq. 4 describes a \emph{vector} average; it will be zero for a distribution of
 velocities in which all directions are equally likely, whatever the
 speeds may be.
 
-\iffalse
-
 \section{Stationary currents}
 The current carried by a long conductor like a wire is, of course,
-just the integral of the current density J over the cross section of the
-
-wire. Indeed, the current I flowing through any surface S is just the
+just the integral of the current density $\vc{J}$ over the cross section of the
+wire. Indeed, the current $I$ flowing through any surface $S$ is just the
 surface integral
-
-1=fSJ-da (6)
 \begin{equation}
+  I = \int_S \vc{J}\cdot\der\vc{a}
 \end{equation}
-
-I is the ``flux'' associated with the vector J, and in this case the name
+$I$ is the ``flux'' associated with the vector $\vc{J}$, and in this case the name
 is apt.
 
 We speak of a steady or stationary current system when the current
-density vector J remains constant in time everywhere. Steady
+density vector $\vc{J}$ remains constant in time everywhere. Steady
 currents have to obey the law of charge conservation. Consider
 some region of space completely enclosed by the balloonlike surface
-S. The surface integral of J over all of S gives the rate at which
+$S$. The surface integral of $\vc{J}$ over all of $S$ gives the rate at which
 charge is leaving the volume enclosed. It will be positive if positive
 charge carriers are moving outward or negative charge carriers are
 moving inward, and so on. Were this to go on indefinitely, the volume
 would sooner or later run out of charge---unless some new
 charge were created. But charge creation is just what can't happen.
 Therefore, for a truly time-independent current distribution, the
-surface integral of J over any closed surface must be zero. This is
+surface integral of $\vc{J}$ over any closed surface must be zero. This is
 completely equivalent to the statement that, at every point in space:
-
-div J = 0 (time-independent charge distribution) (7)
 \begin{equation}
+  \div\vc{J}=0 \qquad \text{(time-independent charge distribution)}
 \end{equation}
-
 To appreciate the equivalence, recall Gauss's theorem and our fundamental
 definition of divergence in terms of the surface integral
 over a small surface enclosing the location in question.
 
 % p. 113
 We can make a more general statement than Eq. 7. Suppose the
-current is not steady, J being a function of t as well as of $x$, $y$, and $z$.
-
-Then since fs J -da is the instantaneous rate at which charge is
-leaving the enclosed volume, while fv p do is the total charge inside
-
+current is not steady, $\vc{J}$ being a function of $t$ as well as of $x$, $y$, and $z$.
+Then since $\int_S \vc{J}\cdot\der\vc{a}$ is the instantaneous rate at which charge is
+\emph{leaving} the enclosed volume, while $\int_V\rho\der v$ is the total charge inside
 the volume at any instant, we have
-
-ISJ-da=-%fVpdv (8)
 \begin{equation}
+  \int_S \vc{J}\cdot\der\vc{a} = -\frac{\der}{\der t} \int_V\:\rho\der v
 \end{equation}
-
 Letting the volume in question shrink down around any point
-(x,y,z), the relation expressed in Eq. 8 becomeszf
-
-div J = _ % (time-dependent charge distribution) (9)
+$(x,y,z)$, the relation expressed in Eq. 8 becomes:\footnote{If
+the step between Eqs. 8 and 9 is not obvious, look back at our fundamental definition
+of divergence in Chap. 2. As the volume shrinks, we can eventually take $\rho$ outside
+the volume integral on the right. The volume integral is to be carried out at one instant
+of time. Its time derivative thus depends on the difference between the volume integral
+at $t$ and at $t + \der t$. The only difference is due to the change of $\rho$ there, since the boundary
+of the volume remains in the same place.}
 \begin{equation}
+  \div\vc{J}=-\frac{\partial\rho}{\partial t} \qquad \text{(time-dependent charge distribution)}
 \end{equation}
-
-The time derivative of the charge density p is written as a partial
-derivative since p will usually be a function of spatial coordinates as
+The time derivative of the charge density $\rho$ is written as a partial
+derivative since $\rho$ will usually be a function of spatial coordinates as
 well as time. Equations 8 and 9 express the conservation of charge:
 No charge can flow away from a place without diminishing the
 amount of charge that is there.
@@ -176,42 +169,33 @@ the space between the cathode and anode the electric current consists
 of these moving electrons. The circuit is completed by the flow
 of electrons in external wires, possibly by the movement of ions in
 a battery, and so on, with which we are not here concerned. In this
-diode, the local density of charge in any region, p, is simply -ne
-where n is the local density of electrons, in electrons/cm3. The local
-current density J is of course pv where v is the velocity of electrons
-in that region. In the plane-parallel diode we may assume J has no
-y or z components (Fig. 4.2). If conditions are steady, it follows
-
-1' If the step between Eqs. 8 and 9 is not obvious, look back at our fundamental definition
-of divergence in Chap. 2. As the volume shrinks, we can eventually take p outside
-the volume integral on the right. The volume integral is to be carried out at one instant
-of time. Its time derivative thus depends on the difference between the volume integral
-at t and at t + dt. The only difference is due to the change of p there, since the boundary
-of the volume remains in the same place.
-
- 
-
+diode, the local density of charge in any region, $\rho$, is simply $-ne$
+where $n$ is the local density of electrons, in $\zu{electrons}/\cmunit^3$. The local
+current density $\vc{J}$ is of course $\rho \vc{v}$ where $\vc{v}$ is the velocity of electrons
+in that region. In the plane-parallel diode we may assume $\vc{J}$ has no
+$y$ or $z$ components (Fig. 4.2). If conditions are steady, it follows
 % p. 114
-then that J, must be independent of x, for if div J = 0 as Eq. 7 says.
-(BJ,/ax) must be zero if J,, = J; = 0. This is belaboring the obvi-
-ous; if we have a steady stream of electrons moving in the x direction
+then that $J_x$ must be independent of $x$, for if $\div\vc{J} = 0$ as Eq. 7 says,
+$(\partial J_x/\partial x)$ must be zero if $J_y = J_z = 0$. This is belaboring the obvious;
+if we have a steady stream of electrons moving in the $x$ direction
 only, the same number per second have to cross any intermediate
-plane between cathode and anode. We conclude that pv is constant.
-But observe that v is not constant; it varies with 9: because the electrons
-are accelerated by the field. Hence p is not constant either.
+plane between cathode and anode. We conclude that $\rho v$ is constant.
+But observe that $v$ is not constant; it varies with $x$ because the electrons
+are accelerated by the field. Hence $\rho$ is not constant either.
 Instead, the negative charge density is high near the cathode, low
 near the anode, just as the density of cars on an expressway is high
 near a trafiic slowdown, low where traffic is moving at high speed.
-
 The current in a diode may be limited by an interesting effect: the
 inffuence of the negative charge density (the ``space charge'') on the
 electric field, hence on the acceleration and velocity of the electrons,
-hence---completing the circle---on the charge density itself. Prob-
-lem 4.25 explores the behavior of the ``space-charge-lirnited'' diode
+hence---completing the circle---on the charge density itself. 
+Problem 4.25 explores the behavior of the ``space-charge-lirnited'' diode
 and indicates how you can derive the curious voltage-current relation
 which governs it. The relation is important in electronics not only
 in the design and use of diodes but also in the design of electron guns
 for cathode-ray tubes and the like.
+
+\iffalse
 
 \section{Electrical conductivity and Ohm's law}
 
