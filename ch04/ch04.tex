@@ -559,34 +559,29 @@ source of ``noise'' in all electrical circuits, and often determines the
 ultimate limit of sensitivity of devices for detecting weak electrical
 signals. In Vol. V of this course you will read more about this.
 
-\iffalse
-
 \section{Where Ohm's law fails}
 
-We can see now how 0hm's law can break down. Suppose the
-electric field E is so strong that an ion acquires, between collisions,
+We can see now how Ohm's law can break down. Suppose the
+electric field $\vc{E}$ is so strong that an ion acquires, between collisions,
 an added velocity comparable to its average thermal speed. That
-will seriously alfect the average time between collisions, f+ or L,
-appearing in Eq. 16. These times are now functions of E, not con-
-stants, and Eq. 16 is no longer linear. That is, doubling the field
-strength E will not double the current density J if fhas to change too.
+will seriously affect the average time between collisions, $\bar{t}_+$ or $\bar{t}_-$,
+appearing in Eq. 16. These times are now functions of $\vc{E}$, not constants,
+and Eq. 16 is no longer linear. That is, doubling the field
+strength $\vc{E}$ will not double the current density $\vc{J}$ if $\bar{t}$ has to change too.
 Let's see where this might set in, in a typical case. Our model
 resembles a weakly ionized gas. The mean free path of an ion in a
-
 % p. 124
-gas at normal density is of the order of 10'5 cm. The average kinetic
-energy of random motion is of the order of kT, where k is Boltzmann's
+gas at normal density is of the order of $10^{-6}$ cm. The average kinetic
+energy of random motion is of the order of $kT$, where $k$ is Boltzmann's
 constant that occurs in the kinetic theory of gases. Our velocity
 criterion can also be stated this way: We expect trouble if the additional
 kinetic energy the ion acquires from the field between collisions
-is comparable to kT. Setting these two. energies approximately
+is comparable to $kT$. Setting these two energies approximately
 equal:
-
-eE~lO'6 cmzkT (18)
 \begin{equation}
+  eE\cdot10^{-6}\ \cmunit \approx kT
 \end{equation}
-
-and putting in the numbers, we find E z 80 statvolts/cm. That is
+and putting in the numbers, we find $E\approx 80$ statvolts/cm. That is
 a moderately strong field as fields go in the laboratory; it amounts
 to 24 kilovolts/cm. Of course this limit depends directly on the free
 path. Ionized gases at low pressure, where the mean free path is very
@@ -600,9 +595,9 @@ enough to ionize the latter, making more charge carriers and so on.
 The resulting avalanche is a catastrophic breakdown of Ohm's law!
 
 We can anticipate a breakdown of our theory, if not of Ohm's law,
-in another quarter. Suppose the field E to be applied for only a very
+in another quarter. Suppose the field $\vc{E}$ to be applied for only a very
 short time. If this time is comparable to, or shorter than, the critical
-time 1-, we clearly have to revise our picture. To make this quite
+time $\tau$, we clearly have to revise our picture. To make this quite
 evident, consider applying an alternating electric field, alternating
 with a period short compared to the time between collisions. Then
 the response of the carriers will be determined largely by their inertia
@@ -610,29 +605,30 @@ as free bodies. Whatever the nature of the problem, and it is an interesting
 one which you may meet in the future, the theory we have
 outlined is inadequate for it. Notice, however, that the mean time
 between collisions in the gas we have just used as an example will be
-something like (l0'5 cm/molecular speed) for the positive ions,
-which is of the order of l0'1° sec, and even shorter for electrons. So
+something like ($10^{-6}$ cm/molecular speed) for the positive ions,
+which is of the order of $10^{-10}$ s, and even shorter for electrons. So
 our theory, although developed for a constant field, ought to work
 for many systems, even with very rapidly varying fields.
 
-The vacuum diode described in Sec. 4.2 is a conspicuously ``non-
-ohmic'' device. Under one set of conditions, when the supply of
+The vacuum diode described in Sec. 4.2 is a conspicuously ``nonohmic''
+device. Under one set of conditions, when the supply of
 electrons is limited by their rate of emission from the cathode, the
-current is practically independent of the voltage, if the anode is posi-
-tive. If the anode is negative, the current is zero, for the anode cannot
+current is practically independent of the voltage, if the anode is positive.
+If the anode is negative, the current is zero, for the anode cannot
 emit electrons at all. The diode passes current in one direction
-
 % p. 125
-only. It is commonly used as a rectifier of alternating current.
+only. It is commonly used as a \intro{rectifier} of alternating current.
 Under the condition of space-charge-limited current, explored in
 Prob. 4.25, the current in the diode is proportional to the 3/2 power
 of the voltage, instead of the first power as called for by Ohm's law.
 
-The junction between two semiconductor materials, or between a
-semiconductor and a metal, can be highly nonohrnic and, like the
+The junction between two \emph{semiconductor} materials, or between a
+semiconductor and a metal, can be highly nonohmic and, like the
 vacuum diode, unidirectional. Nonlinear devices are indispensable
 in electronics (as in life). If everything commenced to obey Ohm's
 law, electronic technology would be wiped out.
+
+\iffalse
 
 \section{Electrical conductivity of metals}
 
