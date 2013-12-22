@@ -721,31 +721,21 @@ is to exhibit the wide range of values and behavior. Note that
 abscissa (temperature) and ordinate (conductivity) are both logarithmic
 scales.
 
-\iffalse
-
 \section{Resistance of conductors}
 
-It is a simple matter to calculate the resistance R of a uniform wire
-
+It is a simple matter to calculate the resistance $R$ of a uniform wire
 when the resistivity of the material is given. We have already written
 down the formula in Eq. 11:
-
-length )< resistivity
-
-R = .
-area Of CTOSS SCCIIOII
-
-(20)
 \begin{equation}
+  R = \frac{\text{length}\times\text{resistivity}}{\text{area of cross section}}
 \end{equation}
-
-The resistance R has meaning only for a well-defined current flow.
+The resistance $R$ has meaning only for a well-defined current flow.
 In the case of a wire there is no doubt of the meaning. If we have the
 more general case of a volume distribution of current we can't talk
 about the resistance without locating the ``binding posts'' where the
 current enters and leaves the system. The distribution of current
 density throughout the volume has to be determined by our basic
-relation J = aE.
+relation $\vc{J} = \sigma\vc{E}$.
 
 To illustrate this, we examine the flow of current in the object
 shown in Fig. 4.7a and b, which consists of two cylindrical copper
@@ -756,93 +746,41 @@ resistance of the graphite to radial current flow, it should not make
 much difference where the current enters and leaves the copper (that
 is, where the terminals are located). In that case, we may assume
 each copper tube is an equipotential. Looking at the chart in Fig. 4.6,
-we see that we have more than a factor of 103 between copper and
+we see that we have more than a factor of $10^3$ between copper and
 graphite, around room temperature, so the assumption seems safe if
 the copper is not extremely thin. Proceeding on that assumption, let
-V0 be the potential difference between the copper electrodes. To
-
+$V_0$ be the potential difference between the copper electrodes. To
 % p. 128
-0°K due to lattice defects) METALLIC
-
-CTORS
-URE LEAD CON.DU
-_ Conduction by free
-
-aecomes superconducting electrons
-
-elow 7.3°K)
-
--RAPHITE (CARBON)
-
-polycrystalline; single crystals
-
-re anisotropic; they conduct
-
-etter in some directions than " _,
-thers) SEMICONDUCTORS
-
-Conduction by electrons
-thermally excited to
-
-"conduction band"
-URE CERMANIUM
-
-URE SILICON
-ODIUM
-CHLORIDE CONDUCTION BY
-IONS DIFFUSING
-THROUGH SOLID
-LLASS
-
-Fig. 4.6 The electrical conductivity of some representative
-substances. Notice that logarithmic scales are used for both
-conductivity and absolute temperature.
-
 % p. 129
 determine the electric field in the graphite, we recall that the field
-between charged cylinders is proportional to 1/r, so we set E = k/r
-and determine the constant k by requiring that
-
-'2 '2d1'_ T2
-V0=fr1Edr=kJ;1T_kInr- (21)
+between charged cylinders is proportional to $1/r$, so we set $E = k/r$
+and determine the constant $k$ by requiring that
 \begin{equation}
+  V_0 = \int_{r_1}^{r_2} E\:\der r = k \int_{r_1}^{r_2} \frac{\der r}{r} = k \ln\frac{r_2}{r_1}
 \end{equation}
-
-1
-
-Hence the field magnitude at any radius r in the graphite is
-
-_ V0
-_ r In (12/11)
-
-and the current density is 0E. The total area through which current
-flows, at that radius, is 2m'L so the total current flow is
-
-E (22)
+Hence the field magnitude at any radius $r$ in the graphite is
 \begin{equation}
+  E = \frac{V_0}{r\ln(r_2/r_1)}
 \end{equation}
-
-_ 27TLOV0
-_ In (r2/r1)
-
-Note that this is independent of r, as it ought to be. The resistance
+and the current density is $\sigma E$. The total area through which current
+flows, at that radius, is $2mrL$ so the total current flow is
+\begin{equation}
+  I = \frac{2\pi L\sigma V_0}{\ln(r_2/r_1)}
+\end{equation}
+Note that this is independent of $r$, as it ought to be. The resistance
 is
-
-1 (23)
 \begin{equation}
-\end{equation}
-
-R=-= In- (24)
-\begin{equation}
+  R = \frac{V_0}{I} = \frac{1}{2\pi L\sigma}\ln\frac{r_2}{r_1}
 \end{equation}
 
 What if the copper sleeves had been extremely thin layers of metal,
-with a resistance to longitudinal flow not small compared to the
+with a resistance to longitudinal flow \emph{not} small compared to the
 transverse resistance of the graphite? We shall not try to solve that
 problem, but it is instructive to think how the lines of current flow
-
-might look. Figure 4.70 and d suggests the distribution, for two
+might look. Figure 4.7c and d suggests the distribution, for two
 different locations of the terminals.
+
+\iffalse
 
 \section{Circuits and circuit elements}
 
