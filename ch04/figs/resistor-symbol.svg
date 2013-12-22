@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 11 Build 196, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="131.438"
+   height="20.144"
+   viewBox="0 0 131.438 20.144"
+   style="overflow:visible;enable-background:new 0 0 131.438 20.144"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="resistor-symbol.svg"><metadata
+     id="metadata11"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs9" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="996"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="8.4945158"
+     inkscape:cx="91.138616"
+     inkscape:cy="52.492536"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" /><polyline
+     id="polyline5"
+     points="0,11.941 41.5,11.941 46.938,0.378 53.438,19.94     62.125,0.378 69.438,19.878 77.125,0.191 85.188,19.691 91.375,0.753 96.438,11.941 131.438,11.941 "
+     style="fill:none;stroke:#000000;stroke-miterlimit:1;stroke-width:2.59297787;stroke-dasharray:none"
+     transform="matrix(0.48207124,0,0,0.48207124,53.060228,-42.732729)" /></svg>

@@ -6,7 +6,9 @@
 \LoadClass[10pt,twoside,openright]{memoir}
 \usepackage[paperwidth=8.5in, paperheight=11in,bindingoffset=.75in]{geometry}
 \usepackage{url,framed}
-\RequirePackage{amsmath,amssymb,graphicx}
+\RequirePackage{amsmath,amssymb,graphicx,enumerate}
+% enumerate is for lc roman numerals; see http://tex.stackexchange.com/questions/54055/using-lower-case-roman-numerals-in-enumerate-lists ;
+%    used in section 4.8
 
 % The following is set up so vectors are in upright bold.
 \newcommand{\vc}[1]{\ensuremath{\mathbf{#1}}}

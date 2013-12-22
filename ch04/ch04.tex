@@ -780,8 +780,6 @@ problem, but it is instructive to think how the lines of current flow
 might look. Figure 4.7c and d suggests the distribution, for two
 different locations of the terminals.
 
-\iffalse
-
 \section{Circuits and circuit elements}
 
 Electrical devices usually have well-defined terminals to which
@@ -789,26 +787,23 @@ wires can be connected. Charge can flow into or out of the device
 over these paths. In particular, if two terminals, and only two, are
 connected by wires to something outside, and if the current flow is
 steady with constant potentials everywhere, then obviously the current
-must be equal and opposite at the two terminals.1' In that case
-
-Tlt is perfectly possible to have 4 amp flowing into one terminal of a two-terminal
+must be equal and opposite at the 
+two terminals.\footnote{It is perfectly possible to have 4 amp flowing into one terminal of a two-terminal
 object with 3 amp flowing out at the other terminal. But then the object is accumulating
-positive charge at the rate of 1 coulomb/sec. Its potential must be changing very rap-
-
-idly---and that can't go on for long. Hence this cannot be a steady, or time-independent,
-current.
-
+positive charge at the rate of 1 coulomb/s. Its potential must be changing very rap-
+idly---and that can't go on for long. Hence this cannot be a \emph{steady}, or time-independent,
+current.} In that case
 % p. 130
-we can speak of the current I which flows through the device, and of
-the voltage V ``between the terminals'' or ``across the terminals,''
-which means their difference in electrical potential. The ratio V/I for
-some given I is a certain number of resistance units (ohms, if V is in
-volts and I in amperes). If Ohm's law is obeyed in all parts of the
-obj ect through which current flows, that number will be a constant,
+we can speak of \emph{the} current $I$ which flows through the device, and of
+the voltage $V$ ``between the terminals'' or ``across the terminals,''
+which means their difference in electrical potential. The ratio $V/I$ for
+some given $I$ is a certain number of resistance units (ohms, if $V$ is in
+volts and $I$ in amperes). If Ohm's law is obeyed in all parts of the
+object through which current flows, that number will be a constant,
 independent of the current. This one number completely describes
 the electrical behavior of the object, for steady current flow (``dc'')
 between the given terminals. With these rather obvious remarks we
-introduce a simple idea, the notion of a circuit element.
+introduce a simple idea, the notion of a \intro{circuit element}.
 
 Look at the five boxes in Fig. 4.8. Each has two terminals, and
 inside each box there is some stuff, different in every box. If any one
@@ -818,38 +813,36 @@ terminals to the current flowing in the wire that we have connected
 to the terminal will be found to be 65 ohms. We say the resistance
 between the terminals, in each box, is 65 ohms. This statement
 would surely not be true for all conceivable values of the current or
-potential difference. As the potential difference or voltage between
+potential difference. As the potential difference or \emph{voltage} between
 the terminals is raised, various things might happen, earlier in some
-boxes than in others, to change the voltage / current ratio. You might
+boxes than in others, to change the \emph{voltage/current} ratio. You might
 be able to guess which boxes would give trouble first. Still, there is
 some limit below which they all behave linearly, and within that
 range, for steady currents, the boxes are alike. They are alike in this
 sense: if any circuit contains one of these boxes, which box it is makes
 no difference in the behavior of that circuit. The box is equivalent
-to a 65-ohm resistorrf We represent it by the symbol MAN and
-in the description of the circuit of which the box is one component,
+to a 65-ohm resistor.\footnote{We use the term \intro{resistor} for
+the actual object designed especially for that function.
+Thus a ``200-ohm, lO-watt, wire-wound resistor'' is a device consisting of a coil of wire
+on some insulating base, with terminals, intended to be used in such a way that the average
+power dissipated in it is not more than 10 watts.} We represent it by the symbol
+\raisebox{-.3\height}{\includegraphics{ch04/figs/resistor-symbol}}
+and in the description of the circuit of which the box is one component,
 we replace the box with this abstraction. An electrical circuit or
 network is then a collection of such circuit elements joined to one
 another by paths of negligible resistance.
 
 Taking a network consisting of many elements connected together
-
 and selecting two points as terminals, we can regard the whole thing
 as equivalent, as far as these two terminals are concerned, to a single
 resistor. We say that the physical network of objects in Fig. 4.9a is
-represented by the diagram of Fig. 4.919 and for the terminals A1A2
-
-'i'We use the term resistor for the actual object designed especially for that function.
-Thus a ``200-ohm, lO-watt, wire-wound resistor'' is a device consisting of a coil of wire
-on some insulating base, with terminals, intended to be used in such a way that the average
-power dissipated in it is not more than 10 watts.
-
+represented by the diagram of Fig. 4.9b and for the terminals $A_1A_2$
 % p. 131
 the equivalent circuit is Fig. 4.9c. The equivalent circuit for the terminals
-at BIB2 is given in Fig. 4.9d. If you put this assembly in a
+at $B_1B_2$ is given in Fig. 4.9d. If you put this assembly in a
 box with only that pair of terminals accessible, it will be indistinguishable
 from a resistor of 57.6 ohms resistance. There is one very
-important ru1e---only direct-current measurements are allowed! All
+important ru1e---only \emph{direct-current} measurements are allowed! All
 that we have said depends on the current and electric fields being
 constant in time; if they are not, the behavior of a circuit element
 may not depend on its resistance alone. The concept of equivalent
@@ -860,74 +853,68 @@ valuable. We are not quite ready to explore that domain.
 Little time will be spent here on methods for calculating the
 equivalent resistance of a network of circuit elements. The cases of
 series and parallel groups are easy. A combination like that in
-
-Fig. 4.10 is two resistors, of value R1 and R2, in series. The equivalent
+Fig. 4.10 is two resistors, of value $R_1$ and $R_2$, in series. The equivalent
 resistance is
-
+\begin{equation}
+  R = R_1 + R_2
+\end{equation}
 % p. 132
-  
-
- 
-
 A combination like Fig. 4.11 is two resistors in parallel. By an argument
 that you should be able to give, the equivalent resistance R is
 found as follows:
-
-1 1 1 B1B;
----:j --- R24
-R R1 +32 °r , R1+R2
-
-(26)
 \begin{equation}
+  \frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} \qquad \text{or} \qquad
+  R = \frac{R_1R_2}{R_1+R_2}
 \end{equation}
 
 That is all that is needed to handle a circuit like the one shown in
 Fig. 4.12, which for all its ornateness can be reduced, step by step,
 to series or parallel combinations. However, the simple network of
-Fig. 4.13 cannot be so reduced, so a more general method is required.
+Fig. 4.13 \emph{cannot} be so reduced, so a more general method is required.
 Any conceivable network of resistors in which a constant current is
 flowing has to satisfy these conditions:
 
-(i) The current through each element must equal the voltage
+\begin{enumerate}[(i)]
+\item The current through each element must equal the voltage
 across that element divided by the resistance of the
--element.
+element.
 
-(ii) At a node of the network, a point where three or more connecting
+\item At a \emph{node} of the network, a point where three or more connecting
 wires meet, the algebraic sum of the currents into
-the node must be zero. (This is our old charge-conserva-
-tion condition, Eq. 7, in circuit language.)
+the node must be zero. (This is our old charge-conservation condition, Eq. 7, in circuit language.)
 
-(iii) The sum of the potential differences taken in order around
-a loop of the network, a path beginning and ending at the
+\item The sum of the potential differences taken in order around
+a \emph{loop} of the network, a path beginning and ending at the
 same node, is zero. (This is network language for the
-general property of the static electric field: f E - ds = 0 for
+general property of the static electric field: $\int\vc{E}\cdot\der\vc{s}=0$ for
 any closed path.)
+\end{enumerate}
 
 The algebraic statement of these conditions for any network will
 provide exactly the number of independent linear equations needed
 to ensure that there is one and only one solution for the equivalent
 resistance between two selected nodes. We assert this without proving
 it. It is interesting to note that the structure of a dc network
-problem depends only on the topology of the network, that is, on
+problem depends only on the \emph{topology} of the network, that is, on
 those features of the diagram of connections that are independent
 of any distortion of the lines of the diagram.
 
 A dc network of resistances is a linear system---the voltages and
 currents are governed by a set of linear equations, the statements of
 the conditions (i), (ii), and (iii). Therefore the superposition of
-different possible states of the network is also a possible state. F ig-
-ure 4.14 shows a section of a network with certain currents, I1,
-12, \ldots , flowing in the wires and certain potentials, V1, V2, \ldots , at
-the nodes. If some other set of currents and potentials, say 11, \ldots ,
-
+different possible states of the network is also a possible state. 
+Figure 4.14 shows a section of a network with certain currents, $I_1$,
+$I_2$, \ldots, flowing in the wires and certain potentials, $V_1$, $V_2$, \ldots, at
+the nodes. If some other set of currents and potentials, say $I'_1$, \ldots,
 % p. 133
-V3, \ldots , is another possible state of aff'airs in this section of network,
-then so is the set (11 + Ii), ..., (V1 + Vi), .... These currents
+$V'_1$, \ldots, is another possible state of aff'airs in this section of network,
+then so is the set $(1_1 + I'_1)$, \ldots, $(V_1 + V'_1)$, \ldots. These currents
 and voltages corresponding to the superposition will also satisfy the
-conditions (i), (ii), and (iii). Certain general theorems about net-
-
-works, interesting and useful to the electrical engineer, are based
+conditions (i), (ii), and (iii). Certain general theorems about 
+networks, interesting and useful to the electrical engineer, are based
 on this.
+
+\iffalse
 
 \section{Energy dissipation in current flow}
 
