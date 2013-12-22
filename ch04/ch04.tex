@@ -914,23 +914,20 @@ conditions (i), (ii), and (iii). Certain general theorems about
 networks, interesting and useful to the electrical engineer, are based
 on this.
 
-\iffalse
-
 \section{Energy dissipation in current flow}
 
 The flow of current in a resistor involves the dissipation of energy.
-If it takes a force F to push a charge carrier along with average
-velocity v, any agency that accomplishes this must do work at the
-rate F - v. If an electric field E is driving the ion of charge q, then
-F = qE, and the rate at which work is done is qE - v. The energy
+If it takes a force $\vc{F}$ to push a charge carrier along with average
+velocity $\vc{v}$, any agency that accomplishes this must do work at the
+rate $\vc{F}\cdot\vc{v}$. If an electric field $\vc{E}$ is driving the ion of charge $q$, then
+$\vc{F} = q\vc{E}$, and the rate at which work is done is $q\vc{E}\cdot\vc{v}$. The energy
 thus expended shows up eventually as heat. In our model of ionic
 conduction the way this comes about is quite clear. The ion acquires
 some extra kinetic energy, as well as momentum, between collisions.
 A collision, or at most a few collisions, redirects its momentum at
 random but does not necessarily restore the kinetic energy to normal.
-
 % p. 134
-F or that to happen the ion has to transfer kinetic energy to the obstacle
+For that to happen the ion has to transfer kinetic energy to the obstacle
 that deflects it. Suppose the charge carrier has a considerably
 smaller mass than the neutral atom it collides with. The average
 transfer of kinetic energy is small when a billiard ball collides with
@@ -942,23 +939,24 @@ carriers themselves, the work done by the electric force driving the
 charge carriers is eventually passed on to the rest of the medium as
 random kinetic energy, or heat.
 
-Suppose a steady current I, in amperes, flows through a resistor
-of R ohms. In every second, I coulombs of charge are transferred
-through a potential difference of V volts, where V = IR. Hence the
-work done in 1 sec is IZR, in joules. (1 coulomb X 1 volt : 1 joule =
-107 ergs.) The watt, or volt-ampere, is the corresponding unit of
-power P (rate of doing work). (1 watt = 1 joule/sec.)
-
-P = 123 (27)
+Suppose a steady current $I$, in amperes, flows through a resistor
+of $R$ ohms. In every second, $I$ coulombs of charge are transferred
+through a potential difference of $V$ volts, where $V = IR$. Hence the
+work done in 1 sec is $I^2R$, in joules. (1 coulomb $\times$ 1 volt = 1 joule =
+$10^7$ ergs.) The watt, or volt-ampere, is the corresponding unit of
+power $P$ (rate of doing work). (1 watt = 1 joule/sec.)
 \begin{equation}
+  P = I^2 R
 \end{equation}
 
 Naturally the steady flow of current in a dc circuit requires some
 source of energy capable of maintaining the electric field that drives
 the charge carriers. Until now we have avoided the question of the
-electromotive force by studying only parts of entire circuits; we kept
+\intro{electromotive force} by studying only parts of entire circuits; we kept
 the ``battery'' out of the picture. In Sec. 4.10 we shall discuss some
 sources of electromotive force.
+
+\iffalse
 
 \section{Electromotive force and the voltaic cell}
 
