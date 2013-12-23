@@ -7532,7 +7532,7 @@ the existence of the force. We can discover that without doing any
 calculations.
 
 In Fig. 6.1a we have sketched the ''lab'' frame with the test particle
-moving toward the wire. In the ``particle'' frame (Fig. 6.119) where
+moving toward the wire. In the ``particle'' frame (Fig. 6.1b) where
 the test charge is at rest, we see the line of positive and negative
 charges advancing down toward the test charge, while the individual
 charges move obliquely, the positives obliquely down to the right,
@@ -11089,7 +11089,7 @@ the circuit must have been provided with energy somehow, and then
 left running. For instance, the capacitor might have been charged,
 with the circuit open, and then connected to the coil.
 
-In Fig. 8.219 the time scale has been expanded and the dotted curve
+In Fig. 8.2b the time scale has been expanded and the dotted curve
 showing the variation of the current I has been added. For Vlet us
 take the damped cosine, Eq. 3. Then the current as a function of time
 is given by:
@@ -11969,7 +11969,7 @@ ek to understand the inter-
 ith matter in bulk.
 3 us. Maintaining a large-
 could see how the presence
-1 the plastic slab in Fig. 9.119
+1 the plastic slab in Fig. 9.1b
 side, where we can measure
 iple laws which would ade-
 stem of conductors and in-
@@ -14569,7 +14569,7 @@ ith the contribution of a small
 iominator r12 as we go around
 rder variation in r12 depends
 ent dlz, and not on x2. This
-:etched in Fig. 10.419. Thus,
+:etched in Fig. 10.4b. Thus,
 
 (x2/r12)2, we may treat r12
 161' in the side view, as equal.
