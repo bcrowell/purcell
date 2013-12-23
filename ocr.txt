@@ -380,7 +380,7 @@ a certain range of distances, leaves little to be desired. In 1785
 Coulomb measured with a torsion balance the force between small
 charged spheres. Many years before Coulomb, Priestley had sug-
 gested, by analogy with the gravitational field, that the absence of
-electrical inffuence inside a hollow charged sphere was proof of an
+electrical influence inside a hollow charged sphere was proof of an
 inverse-square force. Henry Cavendish, the British experimental
 genius whose work was largely unknown to his contemporaries,
 carried out in 1772 a test of the inverse-square law accurate to about
@@ -441,7 +441,7 @@ Whipple, and L. H. Solomon, Nature 202, 377 (I964)].
 
 In principle, Coulomb's law is all there is to electrostatics. Given
 the charges and their locations we can find all the electrical forces.
-Or given that the charges are free to move under the inffuence of
+Or given that the charges are free to move under the influence of
 other kinds of forces as well, we can find the equilibrium arrangement
 in which the charge distribution will remain stationary. In the same
 sense, Newton's laws of motion are all there is to mechanics. But in
@@ -3472,7 +3472,7 @@ cases, unbalanced, non-Coulomb forces acting on charge carriers
 inside a conducting medium. When that happens, the electrostatic
 situation is attained when there is a finite electric field in the con-
 
-ductor that just offsets the inffuence of the other forces, whatever
+ductor that just offsets the influence of the other forces, whatever
 they may be.
 
 % p. 83
@@ -4697,7 +4697,7 @@ near the anode, just as the density of cars on an expressway is high
 near a trafiic slowdown, low where traffic is moving at high speed.
 
 The current in a diode may be limited by an interesting effect: the
-inffuence of the negative charge density (the ``space charge'') on the
+influence of the negative charge density (the ``space charge'') on the
 electric field, hence on the acceleration and velocity of the electrons,
 hence---completing the circle---on the charge density itself. Prob-
 lem 4.25 explores the behavior of the ``space-charge-lirnited'' diode
@@ -6167,7 +6167,7 @@ direct-current circuit. We now know, however, as Ampere was the
 first to suspect, that magnetized iron is full of perpetually moving
 charges---electric currents on an atomic scale. A slender coil of wire
 with a battery to drive current through it (Fig. 5.2b) behaves just
-like the compass needle under the inffuence of a nearby current.
+like the compass needle under the influence of a nearby current.
 
 Observing the motion of a free charged particle, instead of awire
 carrying current, we find the same thing happening. In a cathode-ray
@@ -7059,7 +7059,7 @@ Other Moving Charges
 We know that there can be a velocity-dependent force on a moving
 charge. That force is associated with a magnetic field, the sources of
 which are electric currents, that is, other charges in motion.
-Oersted's experiment showed that electric currents could inffuence
+Oersted's experiment showed that electric currents could influence
 magnets, but at that time the nature of a magnet was totally
 mysterious. Soon Ampere and others unraveled the interaction of
 electric currents with each other, as in the attraction observed between
@@ -7582,7 +7582,7 @@ two parallel wires carrying current.
 Because this example involves us, for the first time, with a magnetic
 field inside matter, we must interrupt the discussion to remark on
 that point. Most metals, including copper (but not including iron),
-and most substances generally, have almost no inffuence on a magnetic
+and most substances generally, have almost no influence on a magnetic
 field. We may assume that the field B inside copper is prac-
 
 TWe are looking for a force which will appear to an observer in the lab frame as a
@@ -9158,7 +9158,7 @@ to investigate experimentally the inductive effect of electric currents. I latel
 arrived at positive results; and not only had my hopes fulfilled, but obtained
 a key which appeared to me to open out a full explanation of Arago's magnetic
 phenomena, and also to discover a new state, which may probably have
-great inffuence in some of the most important effects of electric currents.
+great influence in some of the most important effects of electric currents.
 
 5. These results I purpose describing, not as they were obtained, but in
 such a manner as to give the most concise View of the whole.
@@ -9189,7 +9189,7 @@ The most sensitive detector of such currents was a galvanometer. It
 consisted of a magnetized needle pivoted like a compass needle or
 suspended by a weak fiber between two coils of wire. Sometimes
 another needle, outside the coil but connected rigidly to the first
-needle, was used to compensate the inffuence of the earth's magnetic
+needle, was used to compensate the influence of the earth's magnetic
 field (Fig. 7.1a). The sketches in Fig. 7.1b through e represent a
 few of Faraday's induction experiments. You must read his own
 account, one of the classics of experimental science, to appreciate
@@ -9315,7 +9315,7 @@ the electric field zero inside, as in the case of the metal box of Fig. 3.6,
 
 % p. 230
 or of any other conductor in an electric field. The presence of the
-magnetic field B' has no inffuence on this static charge distribution.
+magnetic field B' has no influence on this static charge distribution.
 Figure 7.4a shows some electric field lines in the frame F', and in the
 magnified view of the end of the rod in Fig. 7.4b we observe that the
 electric field inside the rod is zero.
@@ -9385,7 +9385,7 @@ q
 The term electromotive force was introduced earlier, in Sec. 4.10. It
 was defined as the work per unit charge involved in moving a charge
 around a circuit containing a voltaic cell. We now broaden the
-definition of emf to include any inffuence that causes charge to
+definition of emf to include any influence that causes charge to
 circulate around a closed path. If the path happens to be a physical
 circuit with resistance R, then the emf 8 will cause a current to flow
 according to Ohm's law: I = 8/R. In the particular case we are con-
@@ -14441,7 +14441,7 @@ onstrated in the case of seedlings grow-
 Id. We are not suggesting, either, that
 mteresting to the biochemist. On the
 [S are sometimes detectable, even identi-
-iuite a different thing from the inffuence
+iuite a different thing from the influence
 3y the way, if you put your head in a
 .ste" electrolytic currents in your mouth
 : force.
@@ -14624,7 +14624,7 @@ al around the axis of the loop,
 ymmetrical also. The explana-
 [S so far from the loop that the
 
-negligible inffuence. All loops
+negligible influence. All loops
 
 % p. 363
  
@@ -15204,7 +15204,7 @@ dipole moment; (iii) within the
 the ordinary sources of magnetic
 tiliar.
 magnetic moment is always the
-:ld can inffuence is its direction.
+:ld can influence is its direction.
 ald experiences a torque. If you
 
  
@@ -17118,7 +17118,7 @@ e negative ions have roughly the same
 mong them helium, do not form nega-
 l6I'Cf01'C are ideal for experiments on
 
-s of neutral atoms under the inffuence
+s of neutral atoms under the influence
 all in a pinball machine. Develop the
 similarities? State the equivalent of
 ne you are given the task of designing
@@ -17615,7 +17615,7 @@ is zero? Can you find a frame in w]
 6.28 A student said, "You almo
 currents, which I thought was mag:
 moving charges. But if so, why does
-wire from the inffuence of the other'.
+wire from the influence of the other'.
 
 6.29 Suppose we had a situation
 field parallel to the plane of a sheet
