@@ -19,3 +19,8 @@ use \grad, which comes out as a bold-faced del symbol (triangle).
 Where the symbol occurs as a scalar, e.g., in Poisson's equation,
 use \nabla. For the Greek letter phi, where it occurs as the electric
 potential, use \pot; for a phase angle, use \phi.
+
+Use \boxed{...} for single-line equations with boxes around them,
+\begin{framed}...\end{framed} for equations that are more than one
+line. When a multiline equation has a single number, do
+\begin{align}    \begin{split}  ... \end{split} \end{align}.
