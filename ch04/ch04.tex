@@ -238,9 +238,9 @@ formula:
   R = \rho \frac{L}{A}
 \end{equation}
 The factor $\rho$ is called the volume resistivity of the substance. Usually
-resistance is measured in ohms, which goes with amperes for current
+resistance is measured in ohms, $\Omega$, which goes with amperes for current
 and with volts for potential difference in Ohm's law. The corresponding
-unit of resistivity is the ohm-cm, if lengths are measured
+unit of resistivity is the ohm-centimeter, $\Omega\unitdot\cmunit$, if lengths are measured
 in centimeters, and this is the unit which is commonly given in tables.
 
 The electrical engineer is interested in Eqs. 10 and 11 chieffy for
@@ -287,13 +287,13 @@ you well know, the ohm is one volt per ampere. Conductivity is the
 ratio $\frac{\text{current density}}{\text{field strength}}$
 which in practical units would be
 $\frac{\zu{amperes}/\cmunit^2}{\zu{volts}/\cmunit}$
-or $(\text{ohm-cm})^{-1}$, often read as ``reciprocal ohm-centimeter.'' More
+or $(\ohmunit\unitdot\cmunit)^{-1}$, often read as ``reciprocal ohm-centimeter.'' More
 often, the reciprocal of the conductivity, called the \intro{resistivity}, is given.
 The practical unit is the ohm-centimeter, and the usual symbol is $\rho$.
 The resistivity of a good conductor at room temperature is typically
 a few millionths of an ohm-centimeter. Thus pure copper has a
-resistivity at room temperature of $1.7 \times 10^{-6}\ \zu{ohm-cm}$, or a conductivity
-of $5.8\times 10^5\ (\zu{ohm-cm})^{-1}$.
+resistivity at room temperature of $1.7 \times 10^{-6}\ \ohmunit\unitdot\cmunit$, or a conductivity
+of $5.8\times 10^5\ \ohmunit\unitdot\cmunit^{-1}$.
 
 In the CGS electrostatic system there is no special name for the
 unit of conductivity or resistivity, but since that system of units is
@@ -810,8 +810,8 @@ inside each box there is some stuff, different in every box. If any one
 of these boxes is made part of an electrical circuit by connecting wires
 to the terminals, the ratio of the potential difference between the
 terminals to the current flowing in the wire that we have connected
-to the terminal will be found to be 65 ohms. We say the resistance
-between the terminals, in each box, is 65 ohms. This statement
+to the terminal will be found to be $65\ \ohmunit$. We say the resistance
+between the terminals, in each box, is $65\ \ohmunit$. This statement
 would surely not be true for all conceivable values of the current or
 potential difference. As the potential difference or \emph{voltage} between
 the terminals is raised, various things might happen, earlier in some
@@ -841,7 +841,7 @@ represented by the diagram of Fig. 4.9b and for the terminals $A_1A_2$
 the equivalent circuit is Fig. 4.9c. The equivalent circuit for the terminals
 at $B_1B_2$ is given in Fig. 4.9d. If you put this assembly in a
 box with only that pair of terminals accessible, it will be indistinguishable
-from a resistor of 57.6 ohms resistance. There is one very
+from a resistor of $57.6\ \ohmunit$ resistance. There is one very
 important ru1e---only \emph{direct-current} measurements are allowed! All
 that we have said depends on the current and electric fields being
 constant in time; if they are not, the behavior of a circuit element
@@ -1120,108 +1120,91 @@ Connection to an external resistance $R$ results in a current
 \end{equation*}
 as shown in Fig. 4.20.
 
-\iffalse
-
 \section{Variable currents in capacitors and resistors}
 
-Let a capacitor of capacitance C be charged to some potential V0
-and then discharged by suddenly connecting it across a resistance R.
+Let a capacitor of capacitance $C$ be charged to some potential $V_0$
+and then discharged by suddenly connecting it across a resistance $R$.
 Figure 4.21 shows the capacitor indicated by the conventional
-symbol-II-, the resistor R, and a switch which we shall imagine to
-be closed at time t = 0. It is obvious that as current flows the
+symbol
+\raisebox{-0.1\height}{\includegraphics{ch04/figs/capacitor-symbol}},
+the resistor $R$, and a switch which we shall imagine to
+be closed at time $t = 0$. It is obvious that as current flows the
 capacitor will gradually lose its charge, the voltage across the capacitor
 will diminish, and this in turn will lessen the flow of current. To
 see exactly what happens we need only write down the conditions
-that govern the circuit. Let Q be the charge on the capacitor at any
-instant, V the potential difference between the plates which is also
-the voltage across the resistance B. Let I be the current, considered
+that govern the circuit. Let $Q$ be the charge on the capacitor at any
+instant, $V$ the potential difference between the plates which is also
+the voltage across the resistance $R$. Let $I$ be the current, considered
 positive if it flows away from the positive side of the capacitor. These
 quantities, all functions of the time, must be related as follows:
-
-_ _V d_Q_
-Q_CV 1-3 _dt_1 (28)
 \begin{equation}
+  Q = CV \qquad I=\frac{V}{R} \qquad -\frac{\der Q}{\der t} = I
 \end{equation}
-
 % p. 139
-Eliminating I and V, we obtain the equation which governs the time
-variation of Q:
-
-d_Q _ _ £
-
-dt _ RC (29)
+Eliminating $I$ and $V$, we obtain the equation which governs the time
+variation of $Q$:
 \begin{equation}
+  \frac{\der Q}{\der t} = -\frac{Q}{RC}
 \end{equation}
 Writing this in the form
-
-dQ _ dt
-
-? - ' R (30)
 \begin{equation}
+  \frac{\der Q}{Q} = -\frac{\der t}{RC}
 \end{equation}
-
 we can integrate both sides, obtaining
-_ ;t
-lnQ_ RC+const (31)
 \begin{equation}
+  \ln Q = -\frac{-t}{RC} + \text{const}
 \end{equation}
-
 The solution of our differential equation is therefore:
-Q = (another constant) x e"/RC (32)
 \begin{equation}
+  Q = (\text{another constant}) \times e^{-t/RC}
 \end{equation}
 
-We said that at t : O, V = V0, so that Q = CV0 for t = O. This
-
-determines the constant and we now have the exact behavior of Q
+We said that at $t = O$, $V = V_0$, so that $Q = CV_0$ for $t = O$. This
+determines the constant and we now have the exact behavior of $Q$
 after the switch is closed:
-
-Q : CV06_t/RC 
 \begin{equation}
+  Q = CV_0 e^{-t/RC}
 \end{equation}
-
-The behavior of the current I is found directly from this:
-
-1 = _ 'ET? = %e-t/RC (34)
+The behavior of the current $I$ is found directly from this:
 \begin{equation}
+  I = -\frac{\der Q}{\der t} = \frac{V_0}{R} e^{-t/RC}
 \end{equation}
 
 At the closing of the switch the current rises at once to the value
-V0/R and then ``decays'' exponentially to zero. The time that characterizes
-this decay is the constant RC. We should not be surprised to
+$V_0/R$ and then ``decays'' exponentially to zero. The time that characterizes
+this decay is the constant $RC$. We should not be surprised to
 find that the product of resistance and capacitance has the dimensions
-of time, for we know that C has the dimensions of length, and
-we have already remarked that resistance >< length, when it appears
-as ohm-cm, the unit of resistivity, has the dimensions of time. People
-often speak of the ``RC time constant'' associated with a circuit or
+of time, for we know that $C$ has the dimensions of length, and
+we have already remarked that \emph{resistance} $\times$ \emph{length}, when it appears
+as $\ohmunit\unitdot\cmunit$, the unit of resistivity, has the dimensions of time. People
+often speak of the ``$RC$ time constant'' associated with a circuit or
 part of a circuit.
 
-In the practical system of units the unit of capacitance is the farad.
+In the practical system of units the unit of capacitance is the \intro{farad}.
 A capacitor of one farad capacitance has a charge of one coulomb
-for a potential difference of one volt. With R in ohms and C in
-farads, the product RC is a time in seconds. Just to check this,
-note that ohm = volt/ampere = volt-sec/coulomb, while farad =
-coulomb/volt. If we make the circuit of Fig. 4.21 out of a 0.05-
-
+for a potential difference of one volt. With $R$ in ohms and $C$ in
+farads, the product $RC$ is a time in seconds. Just to check this,
+note that ohm = volt/ampere = $\zu{volt}\unitdot\sunit/\zu{coulomb}$, while farad =
+coulomb/volt. If we make the circuit of Fig. 4.21 out of a 0.05-microfarad
 % p. 140
-microfarad capacitor and a 5-megohm resistor, both of which are
+capacitor and a $5\ \zu{M}\ohmunit$ resistor, both of which are
 reasonable objects to find around any laboratory, we would have
-RC = 5 X 105 X 0.05 X 10*' or 0.25 sec.
+$RC = 5 \times 10^6 \times 0.05 \times 10^{-6}$ or 0.25 s.
 
 Quite generally, in any electrical system made up of charged conductors
 and resistive current paths, one time scale---perhaps not the
 only one---for processes in the system is set by some resistance-
 capacitance product. This has a bearing on our earlier observation
 about the dimensions of resistivity. Imagine a capacitor with plates
-of area A and separation s. Its capacitance C is A/(4773). Now
+of area $A$ and separation $s$. Its capacitance $C$ is $A/(4\pi s)$. Now
 imagine the space between the plates suddenly filled with a conductive
-medium of resistivity p. To avoid any question of how this might
+medium of resistivity $\rho$. To avoid any question of how this might
 affect the capacitance, let us suppose that the medium is a very
-slightly ionized gas; a substance of that density will hardly alfect the
+slightly ionized gas; a substance of that density will hardly affect the
 capacitance at all. This new conductive path will discharge the
 capacitor as effectively as did the external resistor in Fig. 4.21. How
-quickly will this happen? The resistance of the path, R, is ps/A.
-Hence the time constant RC is just (ps/A)(A/4ws) = p/477. This
+quickly will this happen? The resistance of the path, $R$, is $\rho s/A$.
+Hence the time constant $RC$ is just $(\rho s/A)(A/4\pi s) = \rho/4\pi$. This
 time is independent of the proportions and the absolute size of the
 capacitor. What we have here is simply the time constant for the
 process of redistribution of charge or relaxation of the electric field,
@@ -1229,35 +1212,32 @@ in a conducting medium. We really didn't need the capacitor plates
 at all to describe the situation. If we place two sheets of charge opposite
 one another in a conducting medium, they will presently dis-
 appear, the electric field will vanish, and the medium will be restored
-to a constant potential. The relaxation time is determined by the
-resistivity p. For instance, if our weakly ionized gas had a resistivity
-of 103 ohm-cm, the relaxation time ought to be about 10 psec.
+to a constant potential. The \intro{relaxation time} is determined by the
+resistivity $\rho$. For instance, if our weakly ionized gas had a resistivity
+of $10^3\ \ohmunit\unitdot\cmunit$, the relaxation time ought to be about $10\ \mu\sunit$.
 
 We remember that really good conductors like the metals have
-resistivities of the order of 10'5 ohm-cm, which we now see implies
-a relaxation time of the order of 10-13 sec. A number like this should
+resistivities of the order of $10^{-5}\ \ohmunit\unitdot\cmunit$, which we now see implies
+a relaxation time of the order of $10^{-18}\ \sunit$. A number like this should
 arouse our suspicion. Can it really be interpreted as the time required
 for dissipation of a charge concentration in a conductor? We
 note first of all that it is much shorter than any collision time or correlation
 time that we might infer from our model of electrical con-
-ductivity. In Eq. 19 we found 1-_ = 3 )< l0'14 sec for sodium at
+ductivity. In Eq. 19 we found $\tau_- = 3\times 10^{-14}\ \sunit$ for sodium at
 room temperature. This already warns us that for phenomena on
-so short a time scale we have no right whatever to use the ``dc'' re-
-sistivity p. This throws doubt on any quantitative estimate of a
+so short a time scale we have no right whatever to use the ``dc'' resistivity
+$\rho$. This throws doubt on any quantitative estimate of a
 relaxation time.
 
 However there is an even deeper reason to suspect that the story
 is not complete. That is the curious fact that our electrical relaxation
-
 % p. 141
-time T = p/47r appears to be independent of the size of the region
+time $T = \rho/4\pi$ appears to be independent of the size of the region
 involved. That is all very well if the region is small enough, but for
-any finite relaxation time T, if the region involved has one dimension
-greater than T times the speed of light, the relaxation would involve
-the propagation of a charge readjustment at a speed greater than c.
+any finite relaxation time $T$, if the region involved has one dimension
+greater than $T$ times the speed of light, the relaxation would involve
+the propagation of a charge readjustment at a speed greater than $c$.
 That would be incompatible with relativity. Thus we see already
 that if the behavior of electric charges and fields is to be consistent
 with the postulates of special relativity, something more has to come
 into the picture. That will be the subject of our next chapters.
-
-\fi

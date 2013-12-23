@@ -5096,7 +5096,7 @@ signals. In Vol. V of this course you will read more about this.
 We can see now how 0hm's law can break down. Suppose the
 electric field E is so strong that an ion acquires, between collisions,
 an added velocity comparable to its average thermal speed. That
-will seriously alfect the average time between collisions, f+ or L,
+will seriously affect the average time between collisions, f+ or L,
 appearing in Eq. 16. These times are now functions of E, not con-
 stants, and Eq. 16 is no longer linear. That is, doubling the field
 strength E will not double the current density J if fhas to change too.
@@ -5814,7 +5814,7 @@ of area A and separation s. Its capacitance C is A/(4773). Now
 imagine the space between the plates suddenly filled with a conductive
 medium of resistivity p. To avoid any question of how this might
 affect the capacitance, let us suppose that the medium is a very
-slightly ionized gas; a substance of that density will hardly alfect the
+slightly ionized gas; a substance of that density will hardly affect the
 capacitance at all. This new conductive path will discharge the
 capacitor as effectively as did the external resistor in Fig. 4.21. How
 quickly will this happen? The resistance of the path, R, is ps/A.
@@ -10115,7 +10115,7 @@ The meaning of each of the integrals above is: Take the scalar product
 of a pair of line elements, one on each loop, divide by the distance
 between them and sum over all pairs. The only difference between
 Eq. 51 and Eq. 52 is the order in which this operation is carried out,
-and that cannot alfect the final sum. Hence (1312 = (1921, from which
+and that cannot affect the final sum. Hence (1312 = (1921, from which
 it follows directly that M12 = M21. Thanks to this theorem, we need
 make no distinction between M12 and M21. We may speak, hence-
 forth, of the mutual inductance M of any two circuits.
