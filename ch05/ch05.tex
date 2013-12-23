@@ -1,0 +1,1374 @@
+\chapter{The fields of moving charges}
+
+\section{From Oersted to Einstein}
+
+In the winter of 1819-20 Hans Christian Oersted was lecturing on
+Electricity, Galvanism, and Magnetism to advanced students at the
+University of Copenhagen. \emph{Electricity} meant electrostatics; galvanism
+referred to the effects produced by continuous currents from
+batteries, a subject opened up by Galvani's chance discovery and the
+subsequent experiments of Volta; \emph{magnetism} dealt with the already
+ancient lore of lodestones, compass needles, and the terrestrial magnetic
+field. It seemed clear to some that there must be a relation between
+galvanic currents and electric charge, although there was little
+more direct evidence than the fact that both could cause shocks. On
+the other hand, magnetism and electricity appeared to have nothing
+whatever to do with one another. Still, Oersted had a notion, vague
+perhaps, but tenaciously pursued, that magnetism like the galvanic
+current might be a sort of ``hidden form'' of electricity. Groping for
+some manifestation of this, he tried before his class the experiment
+of passing a galvanic current through a wire which ran above and at
+right angles to a compass needle. It had no effect. After the lecture,
+something impelled him to try the experiment with a wire running
+parallel to the compass needle. The needle swung wide---and when
+the galvanic current was reversed it swung the other way!
+
+The scientific world was more than ready for this revelation. A
+ferment of experimentation and discovery followed as soon as the
+word reached other laboratories. Before long Ampere, Faraday, and
+others had worked out an essentially complete and exact description
+of the magnetic action of electric currents. Faraday's crowning discovery
+of electromagnetic induction came less than 12 years after
+Oersted's experiment. In the previous two centuries since the publication
+in 1600 of William Gilbert's great work \emph{De Magnete}, man's
+understanding of magnetism had advanced not at all. Out of these
+experimental discoveries there grew the complete classical theory of
+electromagnetism. Formulated mathematically by Maxwell, it was
+triumphantly corroborated by Hertz's demonstration of electromagnetic
+waves in 1888.
+
+Special relativity has its historical roots in electromagnetism.
+Lorentz, exploring the electrodynamics of moving charges, was led
+very close to the final formulation of Einstein. And Einstein's great
+paper of 1905 was entitled not ``Theory of Relativity,'' but rather ``On
+148
+% p. 149
+the Electrodynamics of Moving Bodies.'' Today we see in the
+postulates of relativity and their implications a wide framework, one
+that embraces all physical laws and not solely those of electromagnetism.
+We expect any complete physical theory to be relativistically
+invariant. It ought to tell the same story in all inertial frames of
+reference. As it happened, physics already \emph{had} one relativistically
+invariant theory---Maxwell's electromagnetic theory---long before
+the significance of relativistic invariance was recognized. Whether
+the ideas of special relativity could have evolved in the absence of a
+complete theory of the electromagnetic field is a question for the
+historian of science to speculate about; probably it can't be answered.
+We can only say that the actual history shows rather plainly a path
+running from Oersted's compass needle to Einstein's postulates.
+
+In this chapter and Chap. 6 we are going to follow that path \emph{almost
+in reverse}. This implies no disrespect for history. Indeed, we think
+a student of the history of those magnificent discoveries will not be
+handicapped by a clear view of the essential relation between electricity
+and magnetism. That relation can be exposed very directly
+and simply by looking, in the light of special relativity, at what we
+have already learned about electric charge and the electric field.
+
+Before we do that, let's review some of the phenomena we shall be
+trying to explain.
+
+\section{Magnetic forces}
+
+Two wires running parallel to one another and carrying currents
+in the same direction are drawn together. The force on one of the
+wires, per unit length of wire, proves to be proportional to the product
+of the two currents and inversely proportional to the distance between
+the wires (Fig. 5.1a). Reversing the direction of one of the
+currents changes the force to one of repulsion. Thus the two sections
+of wire in Fig. 5.1b which are part of the same circuit tend to fly apart.
+There is some sort of ``action-at-a-distance'' between the two filaments
+of steady electric current. It seems to have nothing to do with
+any static electric charge on the surface of the wire. There may be
+some such charge and the wires may be at different potentials, but
+the force we are concerned with depends only on the charge \emph{movement}
+in the wires, that is, on the two currents. You can put a sheet
+of metal between the two wires without affecting this force at all
+(Fig. 5.1c). These new forces that come into play when charges are
+moving are called \emph{magnetic}.
+
+% p. 150
+ 
+Oersted's compass needle (Fig. 5.2a) doesn't look much like a
+direct-current circuit. We now know, however, as Ampere was the
+first to suspect, that magnetized iron is full of perpetually moving
+charges---electric currents on an atomic scale. A slender coil of wire
+with a battery to drive current through it (Fig. 5.2b) behaves just
+like the compass needle under the inffuence of a nearby current.
+
+Observing the motion of a free charged particle, instead of awire
+carrying current, we find the same thing happening. In a cathode-ray
+tube, electrons that would otherwise follow a straight path are 
+deflected toward or away from an external current-carrying wire, depending
+on the relative direction of the current in that wire (Fig. 5.3).
+You are already familiar with this from the laboratory, and you know
+that this interaction of currents and other moving charges can be
+described by introducing a \emph{magnetic field}. (The electric field,
+remember, was simply a way of describing the ``action-at-a-distance''
+between stationary charges that is expressed in Coulomb's law.)
+We say that an electric current has associated with it a magnetic field
+which pervades the surrounding space. Some other current, or any
+moving charged particle which finds itself in this field, experiences a
+force proportional to the strength of the magnetic field in that
+locality. The force is always perpendicular to the velocity, for a
+charged particle. The entire force on a particle carrying charge $q$ is
+given by
+\begin{equation}
+  \vc{F} = q\vc{E} + \frac{q}{c}\vc{v}\times\vc{B}
+\end{equation}
+where $\vc{B}$ is the magnetic field.
+
+% p. 151
+We shall take Eq. 1 as the definition of $\vc{B}$. The magnetic field
+strength is a vector which determines the velocity-proportional part
+of the force on a moving charge. In other words, the command,
+``Measure the direction and magnitude of the vector $\vc{B}$ at such and
+such a place,'' calls for the following operations: Take a particle of
+known charge $q$. Measure the force on $q$ at rest, to determine \vc{E}.
+Then measure the force on the particle when its velocity is $\vc{v}$; repeat
+with $\vc{v}$ in some other direction. Now find a $\vc{B}$ that will make Eq. 1
+fit all these results; that is the magnetic field at the place in question.
+
+Clearly this doesn't explain anything. Why does Eq. 1 work?
+Why can we always find a $\vc{B}$ that is consistent with this simple 
+relation, for all possible velocities? We want to understand why there
+is a velocity-proportional force. It is really most remarkable that
+this force is strictly proportional to $\vc{v}$, and that the effect of the electric
+field does not depend on $\vc{v}$ at all! In the following pages we'll see
+how this comes about.
+
+\section{Measurement of charge in motion}
+
+How are we going to measure the quantity of electric charge on a
+moving particle? Until this question is settled, it is pointless to ask
+what effect motion has on charge itself. A charge can only be measured
+by the effects it produces. A point charge $Q$ which is at rest can
+be measured by determining the force that acts on a test charge q a
+certain distance away (Fig. 5.4a). That is based on Coulomb's law.
+But if the charge we want to measure is moving, we are on uncertain
+ground. There is now a special direction in space, the instantaneous
+direction of motion. It could be that the force on the test charge $q$
+depends on the direction from $Q$ to $q$, as well as on the distance between
+the two charges. For different positions of the test charge, as
+in Fig. 5.4b, we would observe different forces. Putting these into
+Coulomb's Law would lead to different values for the same quantity
+$Q$. Also we have as yet no assurance that the force will always
+be in the direction of the radius vector $\vc{r}$.
+
+To allow for this possibility, let's agree to define $Q$ by averaging
+over all directions. Imagine a large number of infinitesimal test
+charges distributed evenly over a sphere (Fig. 5.4c). At the instant
+the moving charge passes the center of the sphere, the radial component
+of force on each test charge is measured, and the average of these
+force magnitudes is used to compute $Q$. Now this is just the operation
+% p. 152
+that would be needed to determine the surface integral of the
+electric field over that sphere, at time $t$. The test charges here are all
+at rest, remember; the force on $q$ per unit charge gives, by definition,
+the electric field at that point. This suggests that Gauss's law, rather
+than Coulomb's law, offers the natural 
+way\footnote{It is not the only \emph{possible} way. You could, for instance, adopt the arbitrary rule that
+the test charge must always be placed directly ahead (in the direction of motion) of the
+charge to be measured. Charge so defined would \emph{not} have the simple properties we are
+about to discuss, and your theory would prove clumsy and complicated.} to define quantity of
+charge for a moving charged particle, or for a collection of moving
+charges. We can frame such a definition as follows.
+
+The amount of electric charge in a region is defined by the surface
+integral of the electric field $\vc{E}$ over a surface $S$ enclosing the region.
+This surface $S$ is fixed in some coordinate frame $F$. The field $\vc{E}$ is
+measured, at any point $(x,y,z)$ and at time $t$ in $F$, by the force on a
+test charge at rest in $F$, at that time and place. The surface integral
+is to be determined for a particular time $t$. That is, the field values
+used are those measured simultaneously by observers deployed all
+over $S$. (This presents no difficulty, for $S$ is stationary in the frame $F$.)
+Let us denote such a surface integral, over $S$ at time $t$, by
+\begin{equation}
+  \int_{S(t)} \vc{E}\cdot\der\vc{a}
+\end{equation}
+We define the amount of charge inside $S$ as $1/4\pi$ times this integral:
+\begin{equation}
+  Q = \frac{1}{4\pi} \int_{S(t)} \vc{E}\cdot\der\vc{a}
+\end{equation}
+
+It would be embarrassing if the value of $Q$ so determined depended
+on the size and shape of the surface $S$. For a stationary charge it
+doesn't---that is Gauss's law. But how do we know that Gauss's law
+holds when charges are moving? Fortunately it does. We can take
+that as an experimental fact. This fundamental property of the
+electric field of moving charges permits us to define quantity of
+charge by Eq. 3. From now on we can speak of the amount of charge
+in a region or on a particle, and that will have a perfectly definite
+meaning even if the charge is in motion.
+
+Figure 5.5 summarizes these points in an example. Two protons
+and two electrons are shown in motion, at a particular instant of
+time. It is a fact that the surface integral of the electric field $\vc{E}$ over
+the surface $S_1$ is precisely equal to the surface integral over $S_2$
+evaluated at the same instant, and we may use this integral, as we
+% p. 153
+always have used Gauss's law in electrostatics, to determine the total
+charge enclosed. Figure 5.6 raises a new question. What if the
+same particles had some other velocities? For instance, suppose the
+two protons and two electrons combine to form a hydrogen molecule.
+Will the total charge appear exactly the same as before?
+
+\iffalse
+
+\section{Invariance of charge}
+
+There is conclusive experimental evidence that the total charge in
+a system is not changed by the motion of the charge carriers. We
+are so accustomed to taking this for granted that we seldom pause
+to think how remarkable and fundamental a fact it is. For proof,
+we can point to the exact electrical neutrality of atoms and molecules.
+We have already described in Chap. 1 the experimental test of the
+neutrality of the hydrogen molecule which proved that the electron
+and proton carry charges equal in magnitude to better than 1 part
+in 1020. A similar experiment was performed with helium atoms.
+Now the helium atom contains two protons and two electrons, the
+same charged particles that make up the hydrogen molecule. In the
+helium atom their motion is very different. The protons, in par-
+ticular, instead of revolving slowly 0.7 angstroms apart, are tightly
+bound into the helium nucleus where they move with kinetic energies
+in the range of a million electron volts. If motion had any effect on
+the amount of charge, we could not have exact cancellation of nuclear
+and electronic charge in both the hydrogen molecule and the helium
+atom. In fact, the helium atom was shown to be neutral with nearly
+the same experimental accuracy.
+
+Another line of evidence comes from the optical spectra of isotopes
+of the same element, atoms with different nuclear masses but,
+nominally at least, the same nuclear charge. Here again we find a
+marked difference in the motion of the protons within the nucleus,
+but comparison of the spectral lines of the two species shows no discrepancy
+that could be attributed to even a slight difference in total
+nuclear charge.
+
+Mass is not invariant in the same way. We know that the mass of
+a particle is changed by its motion, by the factor l/(1 - U2/c2)1/2.
+To emphasize the difference, we show in Fig. 5.7 an imaginary ex-
+periment. In the box on the right the two massive charged particles,
+which are fastened to the end of a pivoted rod, have been set revolving
+with speed v. The entire mass on the right is greater than the
+mass on the left, as demonstrated by weighing the box on a spring
+
+% p. 154
+balance or by measuring the force required to accelerate it.T The
+total electric charge, however, is unchanged. A real experiment
+equivalent to this can be carried out with a mass spectrograph, which
+can reveal quite plainly a mass difference between an ionized deuterium
+molecule (2 protons, 2 neutrons, 1 electron) and an ionized
+helium atom (also 2 protons, 2 neutrons, and 1 electron). These are
+two very different structures, in which the component particles are
+moving with very different speeds. The difference in energy shows
+up as a measurable difference in mass. There is no detectable dif-
+ference, to very high precision, in the electric charge of the two ions.
+
+'i'The difference in mass depends not only on the kinetic energy of the particles but
+also on any change in potential energy as in the elastic strain in the rod that holds the
+particles. If the rod is fairly stiff, this contribution will be small compared to the v2/c2
+term. See if you can show why.
+
+% p. 155
+This invariance of charge lends a special significance to the fact of
+charge quantization. We emphasized in Chap. 1 the importance-
+and the mystery---of the fact that every elementary charged particle
+has a charge equal in magnitude to that of every other such particle.
+We now observe that this precise equality holds not only for two
+particles at rest with respect to one another, but for any state of relative
+motion.
+
+The experiments we have described, and many others, show that
+the value of our Gauss's law surface integral LE - da depends only on
+
+the number and variety of charged particles inside S, and not on how
+they are moving. According to the postulate of relativity, such a
+statement must be true for any inertial frame of reference if it is true
+for one. Therefore if F' is some other inertial frame, moving with
+respect to F, and if S' is a closed surface in that frame which at time t'
+
+encloses the same charged bodies that were enclosed by S at time t,
+we must have
+
+\begin{equation}
+\end{equation}
+fs(nE ' da = s'<r>E, ' da' (4)
+
+The field E' is of course measured in F', that is, it is defined by the
+force on a test charge at rest in F'. The distinction between t and t'
+must not be overlooked. As we know, events that are simultaneous
+in F need not be simultaneous in F'. Each of the surface integrals in
+Eq. 4 is to be evaluated at one instant in its frame. If charges lie on
+the boundary of S, or of S', one has to be rather careful about ascertaining
+that the charges within S at t are the same as those within S'
+at t'. If the charges are well away from the boundary, as in Fig. 5.8
+which is intended to illustrate the relation in Eq. 4, there is no prob-
+1cm in this respect.
+
+Equation 4 is a formal statement of the relativistic invariance of
+charge. We can choose our Gaussian surface in any inertial frame;
+the surface integral will give a number independent of the frame.
+This is not the same as charge conservation, which was discussed in
+Chap. 4 and expressed mathematically in the equation
+
+at
+
+Charge conservation implies that if we take a closed surface fixed in
+some coordinate system, containing some charged matter, and if no
+particles cross the boundary, then the total charge inside that surface
+
+% p. 156
+remains constant. Charge invariance implies that if we look at this
+collection of stuff from any other frame of reference we will measure
+exactly the same amount of charge. Energy is conserved, but energy
+is not a relativistic invariant. Charge is conserved and charge is a
+relativistic invariant. In the language of relativity theory, energy is
+one component of a four-vector, while charge is a scalar, an invariant
+number, with respect to the Lorentz transformation. This is an observed
+fact with far-reaching implications. It completely determines
+the nature of the field of moving charges.
+
+\section{Electric field measured in different frames of reference}
+
+If charge is to be invariant under a Lorentz transformation, the
+electric field E has to transform in a particular way. ``Transform-
+ing E'' means answering a question like this: If an observer in a certain
+inertial frame F measures an electric field E as so-and-so-many
+statvolts/cm, at a given point in space and time, what field will be
+measured at the same space-time point by an observer in a different
+inertial frame F'? For a certain class of fields, we can answer this
+question by applying Gauss's law to some simple systems.
+
+In the frame F (Fig. 5.9a) there are two stationary sheets of charge
+of uniform density +0 and -a esu/cm2, respectively. They are
+squares 19 cm on a side lying parallel to the xy plane, and their separation
+is supposed to be so small compared to their extent that the field
+between them can be treated as uniform. The magnitude of this
+field, as measured by an observer in F, is of course just 47m. Now
+consider an inertial frame F' which moves toward the left, with
+respect to F, with velocity v. To an observer in F', the charged
+``squares'' are no longer square. Their x' dimension is contracted
+from 19 to bx/l - [32, where ,8 stands for 12/0, as usual. But total
+charge is invariant, that is, independent of reference frame, so the
+charge density measured in F', is greater than a in the ratio 1/ \/l - B2.
+Figure 5.9 shows the system in cross section, (19) as seen in F and (c)
+as seen in F'. What can we say about the electric field in F', if all
+we know about the electric field of moving charges is contained in
+Eq. 4?
+
+For one thing, we can be sure that the electric field is zero outside
+the sandwich, and uniform between the sheets, at least in the limit
+as the extent of the sheets becomes infinite. The field of an infinite
+uniform sheet could not depend on the distance from the sheet, nor
+on position along the sheet. (There is nothing in the system to fix
+
+% p. 157
+\/Il«lJIJ- U 1"/I9 .L'ltOl4l.l10 IJJ LVLIJL/I/I06 Kill/IJIISOO All]
+
+a distance scale or a position; if the field varied according to a power
+law like the field of a point or line charge, it would be infinite at the
+sheet.) However, for all we know now,T the field of a single moving
+sheet of positive charge could look like Fig. 5.9d. But if it did, the
+field of a sheet of negative charge would have to look like Fig. 5.9e,
+so the superposition of the two would still give a field of the character
+indicated in Fig. 5.9f.
+
+We can apply Gauss's law to a box stationary in frame F', the box
+shown in cross section in Fig. 5.9f. The charge content is determined
+by a', and the field is zero outside the sandwich. Gauss's law tells us
+that the magnitude of E,', which is the only field component inside,
+
+must be 4770', or 47m/\/1 - B2.
+E
+
+---'j=E
+\  72'
+
+(For the factor 1/ \/l - B2 we shall often use the symbol y, introduced
+in Vol. 1, Chap. 11, Eq. 13. It saves a lot of writing. Remem-
+ber, y 2 1, always.)
+
+Now imagine a different situation with the stationary charged
+sheets in the frame F oriented perpendicular to the x axis, as in
+Fig. 5.10. The observer in F now reports a field in the x direction of
+magnitude E, = 4770. In this case, the surface charge density observed
+in the frame F' is the same as that observed in F. The sheets
+are not contracted; only the distance between them is contracted, but
+that doesn't enter into the determination of the field. This time we
+find by applying Gauss's law to the box stationary in F':
+
+\begin{equation}
+\end{equation}
+E2' = (5)
+
+\begin{equation}
+\end{equation}
+E,' = 47m' = 4770 : E, (6)
+
+That is all very well for the particularly simple arrangement of
+charges here pictured; do our conclusions have more general validity?
+This question takes us to the heart of the meaning of field. If the
+electric field E at a point in space-time is to have a unique meaning,
+then the way E appears in other frames of reference, in the same
+space-time neighborhood, cannot depend on the nature of the
+sources, wherever they may be, that produced E. In other words,
+the observer in F, having measured the field in his neighborhood at
+some time, ought to be able to predict from these measurements alone
+what observers in other frames of reference would measure at the
+
+T Remember this is a moving sheet of charge, in F'; we have as yet no guarantee that
+
+its field will be like that of a stationary sheet. In fact, as it turns out, the electric field
+of a moving sheet of charge is nernendicnlar tn the sheet, unlike the hvnothetical fields
+
+% p. 158
+same space-time point. Were this not true, field would be a useless
+concept. The evidence that it is true is the eventual agreement of
+our field theory with experiment.
+
+Seen in this light, the relations expressed in Eqs. 5 and 6 take on
+a significance beyond the special case of charges on parallel sheets.
+Consider any charge distribution all parts of which are at rest with
+respect to the frame F. If an observer in F measures a field E2 in the
+z direction, then an observer in the frame F' will report, for the same
+space-time point, a field E; = yEz. That is, he will get a number, as
+the result of his E; measurement, which is larger by the factor y than
+the number the F observer got in his E2 measurement. On the
+other hand, if the observer in F measures a field E, in the x direction,
+the direction of the velocity of F' with respect to F, then the observer
+in F' reports a field E; equal to E,. Obviously the y and the z directions
+are equivalent, both being transverse to the velocity v. Any-
+thing we have said about E; applies to E,', too. Whatever the direction
+of E in the frame F, we can treat it as a superposition of fields in
+the x, the y, and the z directions, and from the transformation of each
+of these predict the vector field E' at that point in F'. Let's summarize
+this in words appropriate to relative motion in any direction:
+Charges at rest in frame F are the source of a field E. Let frame F'
+move with speed v relative to F. At any point in F, resolve E into a
+"longitudinal" component E" parallel to v and a transverse component
+E L perpendicular to the direction of v. At the same space-time
+point in F', the field E' is to be resolved into El and EL, E( being
+parallel to v and E1 perpendicular thereto. We have learned that
+
+\begin{equation}
+\end{equation}
+(7)
+
+ 
+
+Our conclusion holds only for fields that arise from charges stationary
+in F. As we shall see presently, if charges in F are moving, the prediction
+of the electric field in F' involves knowledge of two fields in F,
+the electric and the magnetic. But we already have a useful result,
+one that suffices whenever we can find any inertial frame of reference
+in which all the charges remain at rest. We shall use it now to study
+the electric field of a point charge moving with constant velocity.
+
+\section{Field of a point charge moving with constant velocity}
+In the frame F the point charge Q remains at rest at the origin
+(Fig. 5.1la). At every point the electric field E has the magnitude
+
+% p. 159
+ 
+
+Q/r2 and is directed radially outward. In the xz plane its components
+at any point (x,z) are
+
+\begin{equation}
+\end{equation}
+_ Q _ Qx
+E' ' ,2 cos 0 ' (x2 + z2)3/2
+Q Q (8)
+. z
+E, = r-2 sm 0 = (x2 + z2)3/2
+
+Let the frame F' move in the negative x direction, with speed 12. The
+relations between the coordinates of an event, or space-time point,
+in the two frames are
+
+\begin{equation}
+\end{equation}
+x=y(x'-,Bct') y=g' z=z' t=y(r_Ec"i) (9)
+
+This is the Lorentz transformation given in Eq. 15 of Chap. 11, Vol.1.
+We have minus signs in our equations above because our frame F' is
+moving in the negative x direction, seen from F. The clocks have
+been set to read zero when x': O and x' = 0 coincide.
+
+According to Eqs. 5 and 6, E; = 'yE, and E,' = E,,. Using Eqs. 8
+and 9, we can express the field components E; and E; in terms of the
+
+coordinates in F '. For the instant t' = 0, when Q passes the origin
+in F ', we have:
+
+\begin{equation}
+\end{equation}
+E; = E: = L
+ + z'2]3/2
+Z, (10)
+12;: YE: *9
+
+= 
+
+% p. 160
+Note first that E;/E,' = z' / x'. This tells us that the vector E' makes
+the same angle with the x' axis as does the radius vector r'. Hence
+E' points radially outward along a line drawn from the instantaneous
+position of Q, as in Fig. 5.1lb. Pause a moment to let this conclusion
+sink in! It means that if Q passed the origin of the primed system at
+precisely 12:00 noon, ``prime time,'' an observer stationed anywhere
+in the primed system will report that the electric field in his vicinity
+was pointing, at 12:00 noon, exactly radially from the origin. This
+sounds at first like instantaneous transmission of information! How
+can an observer a mile away know where the particle is at the same
+instant? He can't. That wasn't implied. This particle, remember,
+has been moving at constant speed forever, on a ``ffight plan'' that
+calls for it to pass the origin at noon. That information has been
+available for a long time. It is the past history of the particle that
+determined the field observed, if you want to talk about cause and
+effect. We'1l inquire presently into what happens when there is an
+unscheduled change in the ffight plan.
+
+To find the strength of the field, we compute E;2 + Egz, which is
+the square of the magnitude of the field, E'2.
+
+\begin{equation}
+\end{equation}
+, , 2Q"'(x'2 + 3'2) Q2(x'2 + 2")
+E2:E5€'2+Eé2:.Y I I : I I I
+[(Yx)2+z2]3 Y4[x2+z2-B2z2]3
+2 2
+(1 - .32)
+= Q 323,2 3 (11)
+
+(Here, for once, it was neater with ,8 worked back into the expres-
+sion.) Let 1' denote the distance from the charge Q, which is
+momentarily at the origin, to the point (x',z') where the field is
+measured: 1' = (x'2 + z'2)1/2. Let 0' denote the angle between this
+radius vector and the velocity of the charge Q, which is moving in
+the positive x' direction in the frame F'. Then since z' = 1' sin 0', the
+magnitude of the field can be written as:
+
+\begin{equation}
+\end{equation}
+I 1- 2
+E  (12)
+
+There is nothing special about the origin of coordinates, nor about
+the x'z' plane as compared to any other plane through the x' axis.
+Therefore we can say quite generally that the electric field of a charge
+in uniform motion, at a given instant of time, is directed radially from
+the instantaneous position of the charge, while its magnitude is given
+by Eq. 12 with 0' the angle between the direction of motion of the
+
+% p. 161
+ 
+
+Fig. 5.12 The intensity in various directions
+of the field of a moving charge. At
+this instant, the charge is passing the origin
+of the x'y'z' frame. The numbers give the
+field strength relative to Q/1'2.
+
+charge and the radius vector from the instantaneous position of the
+charge to the point of observation.
+
+For low speeds the field reduces simply to E' : Q/i' 2, and is practically
+the same, at any instant, as the field of a point charge stationary
+in F' at the instantaneous location of Q. But if ,8? is not
+negligible, the field is stronger at right angles to the motion than in
+the direction of the motion, at the same distance from the charge.
+If we were to indicate the intensity of the field by the density of field
+lines, as is often done, the lines tend to concentrate in a pancake
+perpendicular to the direction of motion. Figure 5.12 shows the
+density of lines as they pass through a unit sphere, from a charge
+moving in the x' direction with a speed 0/0 = 0.866. A simpler representation
+of the field is shown in Fig. 5.13, a cross section through
+the field with some field lines in the x'z' plane indicated.i'
+
+This is a remarkable electric field. It is not spherically symmet-
+rical, which is not surprising because in this frame there is a preferred
+direction, the direction of motion of the charge. Also, it is a field
+that no stationary charge distribution, whatever its form, could pro-
+duce. For in this field the line integral of E' is not zero around every
+closed path. Consider, for example, the closed path ABCD in
+Fig. 5.13. The circular arcs contribute nothing to the line integral,
+being perpendicular to the field; on the radial sections, the field is
+stronger along BC than along DA, so the circulation of E' on this path
+is not zero. But remember, this is not an electrostatic field. In the
+
+TA twodimensional diagram like Fig. 5.13 cannot faithfully represent the field intensity
+by the density of field lines. Unless we arbitrarily break off some of the lines,
+the density of lines in the picture will fall off as 1/1', whereas the intensity of the field
+we are trying to represent falls ofi" as 1/1". So Fig. 5.13 gives only a qualitative in-
+
+ 
+
+% p. 162
+% p. 163
+course of time the electric field E' at any point in the frame F' changes
+as the source charge moves.
+
+Figures 5.14 and 5.15 show the electric field at certain instants of
+time observed in a frame of reference through which an electron is
+moving at constant velocity in the x direction.T In Fig. 5.14, the
+speed of the electron is 0.330, its kinetic energy therefore (Vol. 1,
+Chap. 12) about 30,000 electron-volts (30 kev). The value of ,8?
+is 13 and the electric field does not differ greatly from that of a charge
+at rest. In Fig. 5.15, the speed is 0.80, corresponding to a kinetic
+energy of 335 kev. If the time unit for each diagram is taken as
+1.0 X 10'10 see, the distance scale is life-size, as drawn. Of course,
+the diagram holds equally well for any charged particle moving at
+the specified fraction of the speed of light. We mention the equivalent
+energies for an electron merely to remind the reader that relativistic
+speeds are nothing out of the ordinary in the laboratory.
+
+\section{Field of a charge that starts or stops}
+
+It must be clearly understood that uniform velocity, as we have
+been using the term, implies a motion at constant speed in a straight
+line that has been going on forever. What if our electron had not
+been traveling in the distant past along the negative x axis until it
+came into view in our diagram at t = 0? Suppose it had been sitting
+quietly at rest at the origin, waiting for the clock to read t = 0. Just
+prior to t = 0, something gives the electron a sudden large accelera-
+tion, up to the speed v, and it moves away along the positive x axis
+at this speed. Its motion from then on precisely duplicates the motion
+of the electron for which Fig. 5.15 was drawn. But Fig. 5.15
+does not correctly represent the field of the electron whose history
+was just described. To see that it cannot do so, consider the field at
+the point marked P, at time t = 2, which means 2 X 10'10 sec. In
+2 x 10-10 see a light signal travels 6 cm. Since this point lies more
+than 6 cm distant from the origin, it could not have received the news
+that the electron had startedto move at t = 0! Unless there is a
+gross violation of relativity---and we are taking the postulates of
+relativity as basis for this whole discussion---the field at the point P
+at time t = 2, and indeed at all points outside the sphere of radius
+
+6 cm centered on the origin, must be the field of a charge at rest at the
+origin.
+
+T Previously we had the charge at rest in the unprimed frame, moving in the primed
+
+frame. Here we adopt xyz for the frame in which the charge is moving, to avoid cluttering
+the subsequent discussion with primes.
+
+% p. 164
+ 
+
+W
+
+On the other hand, close to the moving charge itself, what happened
+in the remote past can't make any difference. The field must
+somehow change, as we consider regions farther and farther from
+the charge, at the given instant t = 2, from the field shown in the
+second diagram of Fig. 5.15 to the field of a charge at the origin. We
+can't deduce more than this without knowing how fast the news does
+travel. Suppose---just suppose---it travels as fast as it can without
+confficting with the relativity postulates. Then if the period of acceleration
+is neglected, we should expect the field within the entire
+6-cm-radius sphere, at t = 2, to be the field of a uniformly moving
+point charge. If that is so, the field of the electron which starts from
+rest, suddenly acquiring the speed 12 at t = 0, must look something
+like Fig. 5.16. There is a thin spherical shell (whose thickness in an
+actual case will depend on the duration of the interval required for
+acceleration) within which the transition from one type of field to
+the other takes place. This shell simply expands with speed c, its
+center remaining at x = 0. The arrowheads on the field lines indicate
+the direction of the field when the source is a negative charge
+as we have been assuming.
+
+Figure 5.17 shows the field of an electron which had been moving
+with uniform velocity until t = 0, at which time it reached x = 0
+where it was abruptly stopped. Now the news that it was stopped
+
+% p. 165
+  
+
+cannot reach, by time t, any point farther than ct from the origin.
+The field outside the sphere of radius R = ct must be that which
+would have prevailed if the electron had kept on moving at its original
+speed. That is why we see the ``brush'' of field lines on the right
+in Fig. 5.17 pointing precisely down to the position where the electron
+would be if it hadn't stopped. (Note that this last conclusion
+does not depend on the assumption we introduced in the previous
+paragraph, that the news travels as fast as it can.) The field almost
+seems to have a life of its own!
+
+It is a relatively simple matter to connect up the inner and outer
+field lines. There is only one way it can be done that is consistent
+with Gauss's law. Taking Fig. 5.17 as an example, from some point
+such as A on the radial field line making angle 00 with the x axis,
+follow the field line wherever it may lead until you emerge in the
+outer field on some line making an angle that we may call (pg with
+the x axis. (This line of course is radial from the extrapolated position
+of the charge, the apparent source of the outer field.) Connect
+A and D to the x axis by circular arcs, arc AE centered on the source
+of the inner field, arc DF centered on the apparent source of the
+outer field. Rotate the curve EABCDF around the x axis to generate
+a surface of revolution. As the surface encloses no charge, the surface
+integral of E over the entire surface must be zero. The only
+
+% p. 166
+ 
+
+contributions to the integral come from the spherical caps, for the
+rest of the surface generated by ABCD is parallel to the field by the
+very mode of its construction. The field over the inner cap is the
+field of a point charge at rest; the field over the outer cap is the field
+of a point charge with constant speed 0, as given by Eq. 12. Let us
+calculate the flux through the inner cap, shown in Fig. 5.18. The
+integral of E over this cap is:
+
+\begin{equation}
+\end{equation}
+_f()0°rl22wr2sin0d0 = 27rq Laosinfidff (13)
+The integral of E over the outer cap is:
+
+'Poi 1-32 2 2.
+L ,2 (1_'32sin2q,)3/2 7'' Smtpdl'
+
+0 1- .
+\begin{equation}
+\end{equation}
+:2wqL¢#S1n¢d@ (14)
+
+The condition that the flux in at the left equal the flux out at the
+right is therefore:
+
+\begin{equation}
+\end{equation}
+90 . 'Po 1-32 .
+J;)s1n0d0=L  s1n¢d¢ (15)
+
+You can work this out as an exercise in integration? It yields the
+following relation between 90 and (p0:
+
+COS (Po
+
+7T  "Q
+
+COS 00 :
+
+'['The integral needed is
+
+I do: _ x
+(a2 + x2)3/2 _ a2(a2 + x2)1/2 '
+
+% p. 167
+An equivalent, and simpler, way of expressing the same relation is:
+tan (P0 = ytan 00 (17)
+\begin{equation}
+\end{equation}
+
+Incidentally, this relation between 00 and cpo, based on the inclusion
+of equal amounts of flux, is the same as the relation between the
+angles that a rigid rod makes with the direction of relative motion,
+in its rest frame and in the moving frame. This allows us to picture
+the transformation to the field of a moving charge in a very simple
+way: Let each ``line'' represent a certain amount of flux, and imagine
+the lines in the rest frame of the charge as fixed rods sticking out in
+all directions. In the moving frame, each rod represents the same
+amount of flux, and the rods now appear at steeper angles, so that
+the cluster of rods looks like Fig. 5.13.
+
+It is only the width of the transition region in Fig. 5.17 that depends
+on our as-yet-unsupported assumption that ``the news travels
+as fast as it can.'' The connection expressed in Eq. 17 must hold if
+there is any region close to the charge now at rest from which traces
+of its history before t = 0 have vanished. Therefore in the field lines
+that connect the near field to the remote field, there must be a trans-
+verse, that is, nonradial, component.
+
+The field lines in Figs. 5.16 and 5.17 were connected so as to conform
+to the requirement of Eq. 17. The result is a rather intense
+field in the transition region, with the field there running mainly perpendicular
+to the radius vector from the origin. Remembering that
+this field configuration expands with speed c as time goes on, we see
+that we have something very much like an outgoing wave of transverse
+electric field---transverse to the direction of propagation, that is.
+
+We were led to this by following through consistently the consequences
+of the relativity postulates and the observed fact that electric
+charge is a relativistic invariant. We shall be able to use these ideas
+later to understand the nature of the radiation from an accelerated
+charge. First, however, we must return to the uniformly moving
+charge, which has more surprises in store.
+
+\section{Force on a moving charge}
+
+Equation 12 tells us the force experienced by a stationary charge
+in the field of another charge that is moving at constant velocity.
+We now ask a different question: What is the force that acts on a
+moving charge. one that moves in the field of some other charges?
+
+% p. 168
+We shall look first into the case of a charge moving through the field
+produced by stationary charges. It might be an electron moving
+between the charged plates of an oscilloscope, or an alpha particle
+moving through the Coulomb field around an atomic nucleus. The
+sources of the field, in any case, are all at rest in some frame of reference
+which we shall call the ``lab.'' At some place and time in the
+``lab'' frame we observe a particle carrying charge q which is moving,
+at that instant, with velocity v through the electrostatic field. What
+force appears to act on q?
+
+Force is only a name for rate-of-change-of-momenturn, so we are
+really asking, what is the rate of change of momentum of the particle,
+dp/dt, at this place and time, as measured in our ``lab'' frame of ref-
+erence? (That is all we mean by the force on a moving particle.)
+The answer is contained, by implication, in what we have already
+learned. Let's look at the system from a coordinate frame F' moving,
+at the time in question, along with the particle. In this ``particle''
+frame the particle will be, at least momentarily, at rest. It is the
+other charges that are now moving. This is a situation we know
+how to handle. The force on the stationary charge q is just E'q where
+E' is the electric field observed in the frame F'. Then we know how
+to find E' when E is given; Eq. 7 provides our rule. Thus knowing
+E, we can find the rate of change of momentum of the particle as
+observed in F'. All that remains is to transform this quantity back
+to F. So our problem hinges on the question, how does force, that
+is, rate of change of momentum, transform from one inertial frame
+to another?
+
+That question was studied in Vol. 1, Chap. 12. You may remember
+how it came out. However, instead of lifting the appropriate formulas
+from Vol. I, we are going to review here some steps which lead
+to them. This will help us to understand exactly what is going on.
+Consider, then, any inertial frame F 'moving in the positive x direction
+with speed 0 as observed in another frame F. In F', let a particle
+of rest mass m be moving in the positive x' direction with speed v'.
+Use p, to denote the x component of momentum (measured in F)
+
+and p,' to denote the x' component of momentum (measured in F').
+To find the relation between p, and p_,' we note that
+
+I
+
+1110
+
+;=_____= " w
+
+Here we have used the obvious abbreviations, B' = u'/c and
+
+y=um-az
+
+% p. 169
+In the frame F, on the other hand, the speed of the particle is
+(u + u')/(1 + vv'/c2) which can be written c(,B + ,8')/(1 + BB'),
+50 that
+\begin{equation}
+\end{equation}
+
+W : mc(B + ,8') = mc(B + ,8')
+' 2 1/2 _ 2 __ '2 /2
+(1 + BB,)[1_(1BJ;+B.l:;,) J [(1 .3 )(1 .3 )1'
+= mm/(B + .3') (19)
+\begin{equation}
+\end{equation}
+
+)n comparing Eq. 18 with Eq. 19, we find that p, is related to p,' as
+bllows:
+
+p1 = 7(1); + /3Y'mC) (20)
+\begin{equation}
+\end{equation}
+
+We note that in the term ,8y'mc, the part y'mc is y'mc2/c, or E'/c
+/here E ' (not to be confused with the electric field in which we have
+amporarily lost interest!) is the total energy, rest plus kinetic, of the
+article in F'. Let us write Eq. 20 this way, p, = y(p,' + BE'/c), and
+ause brieffy to compare it with the Lorentz transformation of the
+oordinate x in the same situation: x = y(x' + ,8ct'). The similarity
+zminds us of a general fact: in a Lorentz transformation the four
+uantities p,, p,,, P24, and E/c behave exactly like the four space~time
+aordinates, x, y, z, and at. Indeed, if you were firmly in command
+f that fact you could have written Eq. 20 down directly and yomare
+ntitled to regard our little review as a waste of time. Let's use the
+[Ct as a substitute for a derivation for the transverse momentum
+)mponents. Since y = y' in a Lorentz transformation with
+directed relative velocity, we must expect that
+
+Pa = Pu' (21)
+\begin{equation}
+\end{equation}
+
+The relation between t and t' is given by the familiar formula:
+
+_c__
+
+t: y(r + Bx') (22)
+\begin{equation}
+\end{equation}
+
+e are interested in the relation between dp,/dt and dp;/dt'. Differ-
+tiating Eq. 22, we get:
+
+dx'
+dt'
+
+dt: ydt'+ yE(
+
+C
+
+)dt" = ydr(1+ BB') (23)
+\begin{equation}
+\end{equation}
+
+ice dx'/dt' is simply v'. Equation 21 gives us
+
+dm = dry' (24)
+\begin{equation}
+\end{equation}
+
+% p. 170
+and differentiating Eq. 20 gives
+
+dm = yap; + yBm(j*',)dp; <25)
+\begin{equation}
+\end{equation}
+
+1'
+
+In this last expression the factor mc(dy'/dpg) can be evaluated from
+Eq. 18, which says that
+
+Pr' = moi/B' = m0\/Y'2 - 1 (26)
+\begin{equation}
+\end{equation}
+
+Thus
+
+dp,' _ mcy' _ Lo 27
+
+\begin{equation}
+\end{equation}
+
+dv" y'2-1'/3* "
+Then dyl = TL = 'B/ and putting this into Eq. 25 we get
+
+\begin{equation}
+\end{equation}
+
+
+dpé (dp;/dv') mo
+dm = v dp;<1 + BB') (28)
+Comparing Eqs. 23 and 28 we see that
+d .z' d z'
+5; = 2:, <2»
+
+and this holds no matter how large 1)' is since the factor (1 + /3,8')
+appeared in both equations. Actually, we shall be interested only in
+situations where v' is very small---that is, where the particle is very
+nearly at rest in the F' frame. In that case the term BB' can be neglected
+and if we then compare Eqs. 23 and 24, we find, for the transverse
+momentum change:
+
+\begin{equation}
+\end{equation}
+
+dpv : L dpl;
+dt y dt'
+
+(30)
+
+Summarizing the important results: F' is an inertial frame in
+which a particle is instantaneously at rest or moving very slowly. F is
+any other inertial frame with respect to which F' is moving with any
+speed whatever. Using H and _L to label momentum components
+
+respectively parallel to and transverse to the relative velocity of F'
+and F, we can state that
+
+\begin{equation}
+\end{equation}
+
+(31)
+
+ 
+
+Equipped with the force transformation law, Eq. 31, and the transformation
+law for the electric field, Eq. 7, we return now to our
+
+% p. 171
+charged particle moving through the field E, and we discover an
+astonishingly simple fact. Consider first E", the component of E
+parallel to the instantaneous direction of motion of our charged
+particle. Transform to a frame F' moving, at that instant, with the
+particle. In that frame the longitudinal electric field is Efi, and
+according to Eq. 7, EN' = E". So the force dpfi /dt' is
+
+\begin{equation}
+\end{equation}
+
+d ' ,
+
+dig': = E.q = qE». (32)
+Back in frame F, observers are measuring the longitudinal force, that
+is, the rate of change of the longitudinal momentum component,
+
+dpu/df. According to Eq. 31, dp"/dt : dpll/dt', so in frame F the
+longitudinal force component they find is:
+
+\begin{equation}
+\end{equation}
+
+d d '
+72¢ = d";'l = GEN (33)
+
+Of course the particle does not remain at rest in F' as time goes on.
+It will be accelerated by the field E', and v', the velocity of the particle
+in the inertial frame F', will gradually increase from zero. However,
+as we are concerned with the instantaneous acceleration, only
+infinitesimal values of v' are involved anyway, and the restriction
+on Eq. 31 is rigorously fulfilled. For E L, the transverse field component
+in F, the transformation is E' = yEi, so that (dpl/dt') =
+qEi = qyEi. But on transforming the force back to frame F we have
+(dpi/dt) = (1/7) (dpi/dt') so the 7 drops out after all:
+
+\begin{equation}
+\end{equation}
+
+% = §(vEiq) = qEl (34)
+The message of Eqs. 33 and 34 is simply this: the force acting on a
+charged particle in motion through F is q times the electric field E in
+that frame, strictly independent of the velocity of the particle.
+Figure 5.19 is a reminder of this fact, and of the way we discovered it.
+
+You have already used this result earlier in the course, where you
+were simply told that the contribution of the electric field to the force
+on a moving charge is qE. Because this is familiar and so simple, you
+may think it is obvious and we have been wasting our time proving it.
+Now we could have taken it as an empirical fact. It has been verified
+over an enormous range, up to velocities so close to the speed of light,
+in the case of electrons, that the factor 7 is 104. From that point of
+view it is a most remarkable law. Our discussion in this chapter has
+shown it to be a direct consequence of charge invariance.
+
+% p. 172
+\section{Interaction between a moving charge and other moving charges}
+
+We know that there can be a velocity-dependent force on a moving
+charge. That force is associated with a magnetic field, the sources of
+which are electric currents, that is, other charges in motion.
+Oersted's experiment showed that electric currents could inffuence
+magnets, but at that time the nature of a magnet was totally
+mysterious. Soon Ampere and others unraveled the interaction of
+electric currents with each other, as in the attraction observed between
+two parallel wires carrying current in the same direction. This
+led Ampere to the hypothesis that a magnetic substance contains
+permanently circulating electric currents. If so, Oersted's experi-
+
+% p. 173
+ment could be understood as the interaction of the ``galvanic'' current
+in the wire with the permanent microscopic currents which gave
+the compass needle its special properties. Ampere gave a complete
+and elegant mathematical formulation of the interaction of steady
+currents, and of the equivalence of magnetized matter to systems of
+permanent currents. His brilliant conjecture about the actual nature
+of magnetism in iron had to wait a century, more or less, for its
+ultimate confirmation.
+
+Whether the magnetic manifestations of electric currents arose
+from anything more than the simple transport of charge was not clear
+to Ampere and his contemporaries. Would the motion of an electro-
+statically charged object cause effects like those produced by a continuous
+galvanic current? Later in the century Maxwell's theoretical
+work suggested the answer should be yes. The first direct evidence
+was obtained by Henry Rowland, to whose experiment we shall return
+at the end of Chap. 6.
+
+From our present vantage point, the magnetic interaction of
+electric currents can be recognized as an inevitable corollary
+of Coulomb's law. If the postulates of relativity are valid, if electric
+charge is invariant, and if Coulomb's law holds, then the effects we
+commonly call ``magnetic'' are bound to occur. They will emerge as
+soon as we examine the electric interaction between a moving charge
+and other moving charges. A very simple system will illustrate this.
+
+In the ``lab'' frame, as shown in Fig. 5.20:1, we have an infinitely
+long procession of positive charges moving to the right with speed 00
+and superimposed on it a procession of negative charges moving
+toward the left with the same speed. These charges are supposed to
+be so numerous and closely spaced that their discreteness can be
+ignored at the distances we shall be concerned with. In the figure, for
+clarity, we have drawn the two processions slightly separated. For
+this system there exists no frame of reference in which all charges
+are at rest. Suppose the density of positive charge along the line,
+as measured in the laboratory frame, is A, in esu/cm, and the density
+of negative charge is the same. 'The net density of charge on the line,
+in the ``lab'' frame, is then zero. It follows that the electric field E
+is zero in the lab frame. What we have here is equivalent to an uncharged
+wire carrying a steady electric current. In a metallic wire
+the negative charges only (electrons) would be moving, with the positive
+charges at rest. We have taken a more symmetrical model only
+to simplify the discussion slightly.
+
+If you were to move at the same speed as the positive charges, you
+would find their density along the line different. The situation is like
+
+% p. 174
+ 
+
+that in the capacitor of Fig. 5.19. In the lab frame the positive charge
+distribution would be contracted in the x direction by the factor
+(1 --- 1202/ c2)1/ 2, which would make it more dense than in a frame in
+which the positive charges were at rest. Since we have specified that
+the density in the lab frame shall be A, the density in the rest frame of
+the positive charges must be less, namely >\(l - v02/c2)1/2. The
+same holds for the linear density of negative charges in their rest
+frame. This will be useful presently.
+
+A stationary test charge q some distance r from the ``wire'' experiences
+no force because the electric field is zero. We are interested
+now in the force on a moving test charge. Suppose the charge q is set
+in motion to the right with speed 12, in the lab frame. What force, as
+observed in the lab frame, acts on it then? We have learned how such
+questions can be answered. We get into a coordinate system moving
+with the test charge q. In that ``particle'' frame the charge q is at
+rest and the force on it is determined solely by the electric field in
+that frame.
+
+Why should there be an electric field in the ``particle'' frame when
+there is none in the ``lab'' frame? The reason is that the magnitudes
+of the line charge densities seen in the ``particle'' frame, which we
+shall denote by M, and >\'_ respectively, are not equal. As observed
+in the ``particle'' frame, the wire is charged! It has an excess of negative
+charge in every unit of its 1ength.1'
+
+1``'What about charge invariance?'' you may ask. We have always emphasized that
+the total charge enclosed within some boundary is the same no matter what frame it is
+measured in. In this case no boundary can enclose the total charge on the wire,which
+stretches out to infinity; whatever happens at its ``ends'' does not matter here.
+
+% p. 175
+To work this out we need to know the speed of the positive charges
+and the speed of the negative charges in the new frame of reference.
+It is obvious that these are not going to be equal. In fact, since our
+``particle'' frame has to move toward the right, as seen in the lab, it
+tends to catch up with the positive charges and run away even faster
+from the negatives. Figure 5.21 will help to identify the velocities we
+have to consider. We are not going to make any approximations, so
+we must use the relativistic velocity-addition formula to find the
+speeds 0; and v', of the positives and negatives in the ``particle''
+frame. These speeds are
+
+\begin{equation}
+\end{equation}
+
+J _ D0 - D I _ D0 + D 
+M -1 - vov/02 0- _ 1+ vov/02 ( )
+
+Here the ,8 and y symbols will be handy. Let B0 = 130/0, 70 =
+(1 - Bo2)""2'; B; = v'+/c, 7; = (1 - B'+2)""2', and so on. In
+this notation Eq. 35 is written
+
+\begin{equation}
+\end{equation}
+
+Br :80 ' B ,8! _ :80 + :8 
+
+'T173 "1+#oB<
+
+The two charge distributions will sufier different amounts of
+Lorentz contraction---that is the crux of the matter. We can find the
+linear density of the positive charges by starting with the density in
+the positives' own rest frame and applying the factor for contraction
+to the ``particle'' frame. We worked out earlier the density of positives
+in their own rest frame; it was Ml - 1202/c2)1/2, or A/yo in our
+new notation. The factor by which the distribution is linearly con-
+tracted, as seen from the particle frame is 1/7;, so that the reciprocal
+of this, y'+, is the factor by which the linear charge density is increased,
+over the density in the rest frame of the positives. Thus the linear
+density of positive charge in the particle frame must be:
+
+\begin{equation}
+\end{equation}
+
+M. = Y'+ (1) (37)
+
+Yo
+
+Similarly, the density of negative charge in the particle frame is:
+
+\begin{equation}
+\end{equation}
+
+>«_ = y:  (38)
+
+We want to find the net density of line charge, A; - >\'_, eliminating
+y; and y'_ from these equations by the use of Eq. 36. It looks as
+
+ 
+
+% p. 176
+though we might be getting into thick algebra, but the substitution
+leads promptly to a delightful simplification, as follows:
+
+\begin{equation}
+\end{equation}
+
+M ~ >«_ = %(v'+ - w.) (39)
+From Eq. 36,
+Y; _ Y; 2 ___1i _ .i1_i
+_ B - /3 2 _ 30 + B 2
+1 (10-303) \/1 l1+/203)
+_ 1 - /303 _ 1 + 30.3
+' \/1 - B02 - B2 + 30232 M1 - B02 - /22 + 30252
+= 43°'; = -2.8oBvov <40)
+
+\begin{equation}
+\end{equation}
+
+\/(1- Bo2)(1- 32)
+
+Hence the net line charge density is:
+
+\begin{equation}
+\end{equation}
+
+A; _ >v_ 2 -2}\,B0By = _ 2>':;"'° (41)
+
+This linear electric charge in the particle frame gives the same electric
+field as any line charge of the same density. We need only apply
+Gauss's law to a cylinder enclosing the line to obtain the familiar
+result that there is a radial electric field of magnitude
+
+\begin{equation}
+\end{equation}
+
+2(>\; - >\_) _ _ 4}\yvvo
+r - M2
+
+E; = (42)
+
+Hence the force on the positive test charge q is directed radially in-
+ward, that is, in the positive y' direction in the particle frame, and its
+magnitude is
+
+4qy?\vv0
+
+F' :
+y r02
+
+\begin{equation}
+\end{equation}
+
+(43)
+
+This is a transverse force in the particle frame. As measured in the
+lab frame, its magnitude will be different. According to our rules
+for transforming forces (Eqs. 31), Fy : (1 /-y)F;. This knocks out
+the y. We conclude that the magnitude of the force on the charge q,
+moving with speed 0 parallel to the ``wire'' in the lab frame, is
+
+_ 4q}\vv0
+
+F
+1' M2
+
+\begin{equation}
+\end{equation}
+
+(44)
+
+% p. 177
+Now the quantity 2?\v0, which we could factor out of Eq. 44 if we
+wanted to, is just the electric current in our ``wire,'' in esu per second.
+That is, A00 is the rate of transport of positive charge to the right---
+the amount of positive charge that the procession carries past a given
+point per second---and the transport of negative charge to the left
+contributes an equal amount to the current. Denoting this current
+by I, the magnitude of the force on the moving charge is given by
+
+_ Zqvl
+
+F
+re?
+
+\begin{equation}
+\end{equation}
+
+(45)
+
+It is a remarkable fact that the force on the moving test charge
+does not depend separately on the velocity or density of the charge
+carriers in the wire, but only on the combination that determines the
+net charge transport. If we have a certain current, say 107 esu/sec,
+which is the same as 3.3 milliamperes, it does not matter whether this
+current is composed of high-energy electrons moving with 99 percent
+of the speed of light, of electrons in a metal executing random thermal
+motion with a slight superimposed drift in one direction, or of
+charged ions in solution with positives moving one way, negatives
+the other. Also, the force on the test charge is strictly proportional
+to the velocity of the test charge. Our derivation was in no way
+restricted to small velocities, either for the charge carriers in the wire
+or for the test charge. Equation 45, is exact, with no restrictions.
+
+Let's see how this explains the mutual repulsion of conductors
+carrying currents in opposite directions, as shown in Fig. 5.1b at the
+beginning of this chapter. Assume first that in each conductor there
+are equal numbers of positive and negative charge carriers, moving
+in opposite directions at the same speed. In the ``lab'' frame we have
+something like Fig. 5.22a. Switching to a frame of reference which
+moves along with the negative charges in conductor 1 and the positive
+charges in conductor 2, we see the system as it appears in
+Fig. 5.2212. In this frame conductor 1 has an excess of positive charge
+in every unit length; hence it 'repels the positive charges in conductor
+2. Similarly, the negatives in conductor 1 are repelled by the
+excess negative charge in conductor 2. To find the forces on the remaining
+charge carriers---the positives in 1 and the negatives in 2-
+we transfer to the frame in which they are at rest, Fig. 5.220. Here
+conductor 2 appears with an excess of positive charge, so the positives
+in 1 must feel a repulsion. Similarly for the negatives in 2.
+
+Thus every charge carrier, in its own rest frame, experiences a net
+renulsion from the charge carriers in the other conductor. To find
+
+% p. 178
+ 
+ 
+ 
+
+the exact strength of the force in the lab frame we would have to
+transform the forces back, as we did in the step from Eq. 43 to Eq. 44.
+But that can't change the Sign of a force. Hence we are bound to
+
+observe, in the laboratory, a repulsion of each conductor by the
+other.
+
+The model ust described could represent conduction in an electrolyte
+or an ionized gas, although in general the two types of carriers
+might have rather different speeds. In a metal, however, only the
+negative charge carriers (electrons) move, while the corresponding
+positive charges remain fixed in the crystal lattice. Two such wires
+carrying currents in opposite directions are seen in the lab frame in
+Fig. 5.23a. The wires being neutral, there is no electric force from
+the opposite wire on the positive ions which are stationary in the lab
+frame. Transferring to a frame in which one set of electrons is at
+rest, Fig. 5.2319, we find that in the other wire the electron distribution
+is Lorentz-contracted more than the positive-ion distribution. A
+similar situation is found in Fig. 5.230. So this model, too, predicts
+a repulsion between parallel currents flowing in opposite directions.
+It illustrates, in a qualitative way, the earlier statement that the forces
+between currents depend only on the amount of current flow, not on
+how the charge is transported. (Problem 5.15 outlines a general
+proof of that statement.)
+
+In this chapter we have seen how the fact of charge invariance implies
+forces between electric currents. That does not oblige us to
+look on one fact as the cause of the other. These are simply two
+aspects of electromagnetism whose relationship beautifully illustrates
+the more general law: physics is the same in all inertial frames
+of reference.
+
+If we had to analyze every system of moving charges by transforming
+back and forth among various coordinate systems, our task would
+grow both tedious and confusing. There is a better way. The overall
+effect of one current on another, or of a current on a moving charge,
+
+can be described completely and concisely by introducing a new field,
+the magnetic field.
+
+\fi
