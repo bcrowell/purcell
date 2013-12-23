@@ -6402,7 +6402,7 @@ number, with respect to the Lorentz transformation. This is an observed
 fact with far-reaching implications. It completely determines
 the nature of the field of moving charges.
 
-5.5 Electric Field Measured in Diferent Frames of Reference
+5.5 Electric Field Measured in different Frames of Reference
 
 If charge is to be invariant under a Lorentz transformation, the
 electric field E has to transform in a particular way. ``Transform-
