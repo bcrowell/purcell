@@ -5875,7 +5875,7 @@ as rate of charge transport requires the velocities of the carriers to be nonrel
 tivistic and there is no rule against a given charged particle getting counted
 many times during a second as part of the current.
 
-4.3 In a Van de Graaff" electrostatic generator, a rubberized belt 30 cm wide
+4.3 In a Van de Graaff electrostatic generator, a rubberized belt 30 cm wide
 travels at a velocity of 20 m/sec. The belt is given a surface charge at the lower
 roller, the surface charge density being high enough to cause a field of 40 stat-
 volts/cm on each side of the belt. What is the current in milliamperes?
