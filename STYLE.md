@@ -11,7 +11,7 @@ Modern units and symbols for units should be used: s, not sec; A, not amp;
 pF, not uuF; nm, not angstroms. In expressions like N.m for mechanical work,
 use a dot (LaTeX command \unitdot), not a dash as Purcell does (N-m).
 Hyphenate expressions like "0.05-microfarad capacitor," but not
-"0.05 uF capacitor."
+"0.05 uF capacitor." Use keV, not kev.
 
 Use the LaTeX macro \der for derivatives and \vc{F} for a vector F.
 Use \div and \curl where Purcell writes "div" and "curl." For gradients,

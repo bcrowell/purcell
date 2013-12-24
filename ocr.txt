@@ -4905,7 +4905,7 @@ line at constant speed until, presently, it chances to come close to an
 atom, close enough for short-range forces to come into play. In this
 collision, the total kinetic energy and the total momentum of the two
 bodies will be conserved, but the speed and direction of the ion's
-ffight will be altered---perhaps only a little, perhaps drastically---to
+flight will be altered---perhaps only a little, perhaps drastically---to
 a new velocity u'. Later a new collision occurs, changing the velocity
 to u", and so it goes. It can also happen that another ion some distance
 away, interacting with our ion by the long-range Coulomb
@@ -5218,7 +5218,7 @@ another in a compact lattice. Also, the rise and fall of electrical
 potential along a path through the lattice ought to be very large compared
 to the energy in electron volts of an electron at room tempera-
 ture. On the other hand, if it isn't a collision with an ion that interrupts
-the electron's ffight, what does? These crucial questions could
+the electron's flight, what does? These crucial questions could
 not really be answered until the wave nature of the electron was dis-
 covered. Indeed, the behavior of electrons in metals confronted
 physics, before quantum mechanics, with a set of stubborn para-
@@ -6584,12 +6584,12 @@ was pointing, at 12:00 noon, exactly radially from the origin. This
 sounds at first like instantaneous transmission of information! How
 can an observer a mile away know where the particle is at the same
 instant? He can't. That wasn't implied. This particle, remember,
-has been moving at constant speed forever, on a ``ffight plan'' that
+has been moving at constant speed forever, on a ``flight plan'' that
 calls for it to pass the origin at noon. That information has been
 available for a long time. It is the past history of the particle that
 determined the field observed, if you want to talk about cause and
 effect. We'1l inquire presently into what happens when there is an
-unscheduled change in the ffight plan.
+unscheduled change in the flight plan.
 
 To find the strength of the field, we compute E;2 + Egz, which is
 the square of the magnitude of the field, E'2.
@@ -6671,10 +6671,10 @@ Figures 5.14 and 5.15 show the electric field at certain instants of
 time observed in a frame of reference through which an electron is
 moving at constant velocity in the x direction.T In Fig. 5.14, the
 speed of the electron is 0.330, its kinetic energy therefore (Vol. 1,
-Chap. 12) about 30,000 electron-volts (30 kev). The value of ,8?
+Chap. 12) about 30,000 electron-volts (30 keV). The value of ,8?
 is 13 and the electric field does not differ greatly from that of a charge
 at rest. In Fig. 5.15, the speed is 0.80, corresponding to a kinetic
-energy of 335 kev. If the time unit for each diagram is taken as
+energy of 335 keV. If the time unit for each diagram is taken as
 1.0 X 10'10 see, the distance scale is life-size, as drawn. Of course,
 the diagram holds equally well for any charged particle moving at
 the specified fraction of the speed of light. We mention the equivalent
@@ -7398,7 +7398,7 @@ iitially. We want to find the position of the electron and its direction of
 'lOtl01'1 when it leaves the deflecting field at the other end of the plates. We
 1all neglect the fringing field and assume the electric field between the plates
 l uniform right up to the end. The rest mass of the electron may be taken as
-90 kev. First carry out the analysis in the ``lab'' frame by answering these
+90 keV. First carry out the analysis in the ``lab'' frame by answering these
 
 F ie
 relc
@@ -7409,7 +7409,7 @@ Shc
 the plates = ? (Neglect the change in horizontal velocity discussed in
 Prob. 5.4); transverse momentum component acquired, in units of me, = ? ;
 transverse velocity at exit = ? ; vertical position at exit = ? ; direction of
-ffight at exit? Now describe this whole process as it would appear in an inertial
+flight at exit? Now describe this whole process as it would appear in an inertial
 frame which moved with the electron at the moment it entered the de-
 ffecting region: What do the plates look like? What is the field between them?
 What happens to the electron in this coordinate system? Your main object
@@ -17404,7 +17404,7 @@ the force on the moving test chargc
 5.13 In a "colliding-beam" part
 each having an energy of 2 Bev pass
 The encounter is so close that eacl
-ffight by an angle of 10'? radians.
+flight by an angle of 10'? radians.
 closest distance of approach.
 
 5.14 What density of uncompen
