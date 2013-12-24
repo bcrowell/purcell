@@ -727,15 +727,12 @@ later to understand the nature of the radiation from an accelerated
 charge. First, however, we must return to the uniformly moving
 charge, which has more surprises in store.
 
-\iffalse
-
 \section{Force on a moving charge}
 
 Equation 12 tells us the force experienced by a stationary charge
 in the field of another charge that is moving at constant velocity.
 We now ask a different question: What is the force that acts on a
 moving charge. one that moves in the field of some other charges?
-
 % p. 168
 We shall look first into the case of a charge moving through the field
 produced by stationary charges. It might be an electron moving
@@ -743,243 +740,190 @@ between the charged plates of an oscilloscope, or an alpha particle
 moving through the Coulomb field around an atomic nucleus. The
 sources of the field, in any case, are all at rest in some frame of reference
 which we shall call the ``lab.'' At some place and time in the
-``lab'' frame we observe a particle carrying charge q which is moving,
-at that instant, with velocity v through the electrostatic field. What
-force appears to act on q?
+``lab'' frame we observe a particle carrying charge $q$ which is moving,
+at that instant, with velocity $v$ through the electrostatic field. What
+force appears to act on $q$?
 
 Force is only a name for rate-of-change-of-momenturn, so we are
 really asking, what is the rate of change of momentum of the particle,
-dp/dt, at this place and time, as measured in our ``lab'' frame of ref-
-erence? (That is all we mean by the force on a moving particle.)
+$\der p/\der t$, at this place and time, as measured in our ``lab'' frame of reference?
+(That is all we mean by the force on a moving particle.)
 The answer is contained, by implication, in what we have already
-learned. Let's look at the system from a coordinate frame F' moving,
+learned. Let's look at the system from a coordinate frame $F'$ moving,
 at the time in question, along with the particle. In this ``particle''
 frame the particle will be, at least momentarily, at rest. It is the
 other charges that are now moving. This is a situation we know
-how to handle. The force on the stationary charge q is just $\vc{E}'$q where
-$\vc{E}'$ is the electric field observed in the frame F'. Then we know how
-to find $\vc{E}'$ when E is given; Eq. 7 provides our rule. Thus knowing
-E, we can find the rate of change of momentum of the particle as
-observed in F'. All that remains is to transform this quantity back
-to F. So our problem hinges on the question, how does force, that
-is, rate of change of momentum, transform from one inertial frame
+how to handle. The force on the stationary charge $q$ is just $\vc{E}'q$ where
+$\vc{E}'$ is the electric field observed in the frame $F'$. Then we know how
+to find $\vc{E}'$ when $\vc{E}$ is given; Eq. 7 provides our rule. Thus knowing
+$\vc{E}$, we can find the rate of change of momentum of the particle as
+observed in $F'$. All that remains is to transform \emph{this} quantity back
+to $F$. So our problem hinges on the question, how does \emph{force}, that
+is, \emph{rate of change of momentum}, transform from one inertial frame
 to another?
 
 That question was studied in Vol. 1, Chap. 12. You may remember
 how it came out. However, instead of lifting the appropriate formulas
 from Vol. I, we are going to review here some steps which lead
 to them. This will help us to understand exactly what is going on.
-Consider, then, any inertial frame F 'moving in the positive x direction
-with speed 0 as observed in another frame F. In F', let a particle
-of rest mass m be moving in the positive x' direction with speed v'.
-Use p, to denote the x component of momentum (measured in F)
-
-and p,' to denote the x' component of momentum (measured in F').
-To find the relation between p, and p_,' we note that
-
-I
-
-1110
-
-;=_____= " w
-
-Here we have used the obvious abbreviations, B' = u'/c and
-
-y=um-az
-
+Consider, then, any inertial frame $F'$ moving in the positive $x$ direction
+with speed $v$ as observed in another frame $F$. In $F'$, let a particle
+of rest mass $m$ be moving in the positive $x'$ direction with speed $v'$.
+Use $p_x$ to denote the $x$ component of momentum (measured in $F$)
+and $p_x'$ to denote the $x'$ component of momentum (measured in $F'$).
+To find the relation between $p_x$ and $p_x'$ we note that
+\begin{equation}
+  p_x' = \frac{mv'}{\sqrt{1-v'^2/c^2}} = mc\beta'\gamma'
+\end{equation}
+Here we have used the obvious abbreviations, $\beta' = v'/c$ and
+$\gamma'=1/\sqrt{1-\beta'^2}$.
 % p. 169
-In the frame F, on the other hand, the speed of the particle is
-(u + u')/(1 + vv'/c2) which can be written c(,B + ,8')/(1 + BB'),
-50 that
+In the frame $F$, on the other hand, the speed of the particle is
+$(v + v')/(1 + vv'/c^2)$ which can be written $c(\beta + \beta')/(1 + \beta\beta')$,
+so that
+\begin{align}
+\begin{split}
+  p_x &= \frac{mc(\beta+\beta')}{(1+\beta\beta')\left[1-\left(\frac{\beta+\beta'}{1+\beta\beta'}\right)\right]^{1/2}}
+      = \frac{mc(\beta+\beta')}{\left[(1-\beta^2)(1-\beta'^2)\right]^{1/2}} \\
+      &= mc\gamma\gamma'(\beta+\beta')
+\end{split}
+\end{align}
+On comparing Eq. 18 with Eq. 19, we find that $p_x$ is related to $p_x'$ as
+follows:
 \begin{equation}
+  p_x = \gamma(p_x'+\beta\gamma' mc)
 \end{equation}
 
-W : mc(B + ,8') = mc(B + ,8')
-' 2 1/2 _ 2 __ '2 /2
-(1 + BB,)[1_(1BJ;+B.l:;,) J [(1 .3 )(1 .3 )1'
-= mm/(B + .3') (19)
+We note that in the term $\beta\gamma'mc$, the part $\gamma'mc$ is $\gamma'mc^2/c$, or $E'/c$
+where $E'$ (not to be confused with the electric field in which we have
+temporarily lost interest!) is the total energy, rest plus kinetic, of the
+particle in $F'$. Let us write Eq. 20 this way, $p_x = \gamma(p_x' + \beta E'/c)$, and
+pause briefly to compare it with the Lorentz transformation of the
+coordinate $x$ in the same situation: $x = \gamma(x' + \beta ct')$. The similarity
+reminds us of a general fact: in a Lorentz transformation the four
+quantities $p_x$, $p_y$, $p_z$, and $E/c$ behave exactly like the four space~time
+coordinates, $x$, $y$, $z$, and $ct$. Indeed, if you were firmly in command
+of that fact you could have written Eq. 20 down directly and you are
+entitled to regard our little review as a waste of time. Let's use the
+fact as a substitute for a derivation for the transverse momentum
+components. Since $y = y'$ in a Lorentz transformation with
+$x$-directed relative velocity, we must expect that
 \begin{equation}
+  p_y = p_y'
 \end{equation}
-
-)n comparing Eq. 18 with Eq. 19, we find that p, is related to p,' as
-bllows:
-
-p1 = 7(1); + /3Y'mC) (20)
+The relation between $t$ and $t'$ is given by the familiar formula:
 \begin{equation}
+  t = \gamma\left(t'+\frac{\beta x'}{c}\right)
 \end{equation}
-
-We note that in the term ,8y'mc, the part y'mc is y'mc2/c, or $\vc{E}'$/c
-/here E ' (not to be confused with the electric field in which we have
-amporarily lost interest!) is the total energy, rest plus kinetic, of the
-article in F'. Let us write Eq. 20 this way, p, = y(p,' + BE'/c), and
-ause brieffy to compare it with the Lorentz transformation of the
-oordinate x in the same situation: x = y(x' + ,8ct'). The similarity
-zminds us of a general fact: in a Lorentz transformation the four
-uantities p,, p,,, P24, and E/c behave exactly like the four space~time
-aordinates, x, y, z, and at. Indeed, if you were firmly in command
-f that fact you could have written Eq. 20 down directly and yomare
-ntitled to regard our little review as a waste of time. Let's use the
-[Ct as a substitute for a derivation for the transverse momentum
-)mponents. Since y = y' in a Lorentz transformation with
-directed relative velocity, we must expect that
-
-Pa = Pu' (21)
+We are interested in the relation between $\der p_x/\der t$ and $\der p_x'/\der t'$.
+Differentiating Eq. 22, we get:
 \begin{equation}
+  \der t = \gamma\; \der t'\;+\;\gamma\frac{\beta}{c}\left(\frac{\der x'}{\der t'}\right)\der t'
+        = \gamma \:\der t'(1+\beta\beta')
 \end{equation}
-
-The relation between t and t' is given by the familiar formula:
-
-_c__
-
-t: y(r + Bx') (22)
+since $\der x'/\der t'$ is simply $v'$. Equation 21 gives us
 \begin{equation}
+  \der p_y = \der p_y'
 \end{equation}
-
-e are interested in the relation between dp,/dt and dp;/dt'. Differ-
-tiating Eq. 22, we get:
-
-dx'
-dt'
-
-dt: ydt'+ yE(
-
-C
-
-)dt" = ydr(1+ BB') (23)
-\begin{equation}
-\end{equation}
-
-ice dx'/dt' is simply v'. Equation 21 gives us
-
-dm = dry' (24)
-\begin{equation}
-\end{equation}
-
 % p. 170
 and differentiating Eq. 20 gives
-
-dm = yap; + yBm(j*',)dp; <25)
 \begin{equation}
+  \der p_x = \gamma \der p_x' + \gamma\beta mc\left(\frac{\der\gamma'}{\der p_x'}\right)\der p_x'
 \end{equation}
-
-1'
-
-In this last expression the factor mc(dy'/dpg) can be evaluated from
+In this last expression the factor $mc(\der\gamma'/\der p_x')$ can be evaluated from
 Eq. 18, which says that
-
-Pr' = moi/B' = m0\/Y'2 - 1 (26)
 \begin{equation}
+  p_x' = mc\gamma'\beta' = mc\sqrt{\gamma'^2-1}
 \end{equation}
-
 Thus
-
-dp,' _ mcy' _ Lo 27
-
 \begin{equation}
+  \frac{\der p_x'}{\der\gamma'} = \frac{mc\gamma'}{\sqrt{\gamma'^2-1}} = \frac{mc}{\beta'}
 \end{equation}
-
-dv" y'2-1'/3* "
-Then dyl = TL = 'B/ and putting this into Eq. 25 we get
-
+Then $\frac{\der\gamma'}{\der p_x'}=\frac{1}{(\der p_x'/\der\gamma')}=\frac{\beta'}{mc}$
+and putting this into Eq. 25 we get
 \begin{equation}
+  \der p_x = \gamma \der p_x'(1+\beta\beta')
 \end{equation}
-
-
-dpé (dp;/dv') mo
-dm = v dp;<1 + BB') (28)
 Comparing Eqs. 23 and 28 we see that
-d .z' d z'
-5; = 2:, <2»
-
-and this holds no matter how large 1)' is since the factor (1 + /3,8')
+\begin{equation}
+  \frac{\der p_x}{\der t} = \frac{\der p_x'}{\der t'}
+\end{equation}
+and this holds no matter how large $v'$ is since the factor $(1+\beta\beta')$
 appeared in both equations. Actually, we shall be interested only in
-situations where v' is very small---that is, where the particle is very
-nearly at rest in the F' frame. In that case the term BB' can be neglected
+situations where $v'$ is very small---that is, where the particle is very
+nearly at rest in the $F'$ frame. In that case the term $\beta\beta'$ can be neglected
 and if we then compare Eqs. 23 and 24, we find, for the transverse
 momentum change:
-
 \begin{equation}
+  \frac{\der p_y}{\der t} = \frac{1}{\gamma}\frac{\der p_y'}{\der t'}
 \end{equation}
 
-dpv : L dpl;
-dt y dt'
-
-(30)
-
-Summarizing the important results: F' is an inertial frame in
-which a particle is instantaneously at rest or moving very slowly. F is
-any other inertial frame with respect to which F' is moving with any
-speed whatever. Using H and _L to label momentum components
-
-respectively parallel to and transverse to the relative velocity of F'
-and F, we can state that
-
-\begin{equation}
-\end{equation}
-
-(31)
-
- 
+Summarizing the important results: $F'$ is an inertial frame in
+which a particle is instantaneously at rest or moving very slowly. $F$ is
+any other inertial frame with respect to which $F'$ is moving with any
+speed whatever. Using $\parallel$ and $\perp$ to label momentum components
+parallel to and transverse to the relative velocity of $F'$
+and $F$, we can state that
+\begin{framed}
+\begin{align}
+\begin{split}
+  \frac{\der p_\parallel}{\der t} &=   \frac{\der p_\parallel'}{\der t'} \\
+  \frac{\der p_\perp}{\der t} &=   \frac{1}{\gamma}\frac{\der p_\perp'}{\der t'} 
+\end{split}
+\end{align}
+\end{framed}
 
 Equipped with the force transformation law, Eq. 31, and the transformation
 law for the electric field, Eq. 7, we return now to our
-
 % p. 171
-charged particle moving through the field E, and we discover an
-astonishingly simple fact. Consider first E", the component of E
+charged particle moving through the field $\vc{E}$, and we discover an
+astonishingly simple fact. Consider first $E_\parallel$, the component of $\vc{E}$
 parallel to the instantaneous direction of motion of our charged
-particle. Transform to a frame F' moving, at that instant, with the
-particle. In that frame the longitudinal electric field is Efi, and
-according to Eq. 7, EN' = E". So the force dpfi /dt' is
-
+particle. Transform to a frame $F'$ moving, at that instant, with the
+particle. In that frame the longitudinal electric field is $E_\parallel'$, and
+according to Eq. 7, $E_\parallel'=E_\parallel$. So the force $\der p_\parallel'/\der t'$ is
 \begin{equation}
+  \frac{\der p_\parallel'}{\der t'} = E_\parallel' q = q E_\parallel
 \end{equation}
-
-d ' ,
-
-dig': = E.q = qE». (32)
-Back in frame F, observers are measuring the longitudinal force, that
+Back in frame $F$, observers are measuring the longitudinal force, that
 is, the rate of change of the longitudinal momentum component,
-
-dpu/df. According to Eq. 31, dp"/dt : dpll/dt', so in frame F the
+$\der p_\parallel/\der t$. According to Eq. 31, 
+$\der p_\parallel/\der t=\der p_\parallel'/\der t'$, so in frame $F$ the
 longitudinal force component they find is:
-
 \begin{equation}
+  \frac{\der p_\parallel}{\der t} = \frac{\der p_\parallel'}{\der t'} = q E_\parallel
 \end{equation}
-
-d d '
-72¢ = d";'l = GEN (33)
-
-Of course the particle does not remain at rest in F' as time goes on.
-It will be accelerated by the field $\vc{E}'$, and v', the velocity of the particle
-in the inertial frame F', will gradually increase from zero. However,
+Of course the particle does not \emph{remain} at rest in $F'$ as time goes on.
+It will be accelerated by the field $\vc{E}'$, and $\vc{v'}$, the velocity of the particle
+in the inertial frame $F'$, will gradually increase from zero. However,
 as we are concerned with the instantaneous acceleration, only
-infinitesimal values of v' are involved anyway, and the restriction
-on Eq. 31 is rigorously fulfilled. For E L, the transverse field component
-in F, the transformation is E' = yEi, so that (dpl/dt') =
-qEi = qyEi. But on transforming the force back to frame F we have
-(dpi/dt) = (1/7) (dpi/dt') so the 7 drops out after all:
-
+infinitesimal values of $v'$ are involved anyway, and the restriction
+on Eq. 31 is rigorously fulfilled. For $E_\perp$, the transverse field component
+in $F$, the transformation is $E_\perp'=\gamma E_\perp$, so that 
+$\der p_\perp'/\der t' = q\gamma E_\perp$. But on transforming the force back 
+to frame $F$ we have
+$\der p_\perp/\der t = (1/\gamma) \der p_\perp'/\der t'$ so the $\gamma$ drops out after all:
 \begin{equation}
+  \frac{\der p_\perp}{\der t} = \frac{1}{\gamma}(\gamma E_\perp q) = qE_\perp
 \end{equation}
-
-% = §(vEiq) = qEl (34)
 The message of Eqs. 33 and 34 is simply this: the force acting on a
-charged particle in motion through F is q times the electric field E in
-that frame, strictly independent of the velocity of the particle.
+charged particle in motion through $F$ is $q$ times the electric field $\vc{E}$ in
+that frame, \emph{strictly independent} of the velocity of the particle.
 Figure 5.19 is a reminder of this fact, and of the way we discovered it.
 
 You have already used this result earlier in the course, where you
 were simply told that the contribution of the electric field to the force
-on a moving charge is qE. Because this is familiar and so simple, you
+on a moving charge is $q\vc{E}$. Because this is familiar and so simple, you
 may think it is obvious and we have been wasting our time proving it.
 Now we could have taken it as an empirical fact. It has been verified
 over an enormous range, up to velocities so close to the speed of light,
-in the case of electrons, that the factor 7 is 104. From that point of
+in the case of electrons, that the factor $\gamma$ is $10^4$. From that point of
 view it is a most remarkable law. Our discussion in this chapter has
 shown it to be a direct consequence of charge invariance.
 
 % p. 172
+\iffalse
+
 \section{Interaction between a moving charge and other moving charges}
 
 We know that there can be a velocity-dependent force on a moving
