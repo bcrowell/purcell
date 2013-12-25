@@ -9,11 +9,12 @@ Units
 Where Purcell writes "5 amp," write "$5\ \ampunit$," and similarly
 for "ohm" -> \ohmunit.
 
-Modern units and symbols for units should be used: s, not sec; A, not amp;
+Modern units and symbols for units should be used: s, not sec; A, not amp; g, not gm;
 pF, not uuF; nm, not angstroms. In expressions like N.m for mechanical work,
 use a dot (LaTeX command \unitdot), not a dash as Purcell does (N-m).
 Hyphenate expressions like "0.05-microfarad capacitor," but not
-"0.05 uF capacitor." Use keV, not kev.
+"0.05 uF capacitor." Use keV, not kev. Don't pluralize units, e.g.,
+dyne/cm, not dynes/cm.
 
 Variables
 =======

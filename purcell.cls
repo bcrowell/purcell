@@ -39,3 +39,4 @@
 \newcommand{\emf}{\mathcal{E}}
 \newcommand{\ohmunit}{\Omega} % Purcell uses "ohm"
 \newcommand{\ampunit}{A} % purcell uses "amp"
+\newcommand{\bell}{\boldsymbol{\ell}}

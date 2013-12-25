@@ -1,0 +1,1610 @@
+\chapter{The magnetic field}
+
+\section{Definition of the magnetic field}
+
+A charge which is moving parallel to a current of other charges
+experiences a force perpendicular to its own velocity. This emerged
+from our analysis of the situation shown in Fig. 5.20 of the last
+chapter. We can see it happening in the deflection of an electron
+beam by a nearby current, as in Fig. 5.3. We have yet to show what
+happens if we send our test charge moving in some other direction.
+You can recognize already, however, the behavior that is usually
+described by saying that there is a magnetic field around a wire that
+carries current and a moving charge experiences a force in a magnetic
+field. Just as we have defined the electric field vector $\vc{E}$ as the force
+on unit test charge at rest, so we can now define another field by the
+velocity-proportional part of the force that acts on a test charge in
+motion. To state this precisely, suppose that, at some position and
+time in a particular frame of reference, experiments show that the
+force on a test charge $q$ moving with uniform velocity $\vc{v}$ is given by
+\begin{equation}
+  \vc{F} = q\vc{E}+\vc{v}\times\vc{B}
+\end{equation}
+where $\vc{E}$ and $\vc{B}$ are vectors that do not depend on v. If that holds,
+we define $\vc{E}$ as the electric field at that place and we \emph{define} $\vc{B}$ as the
+magnetic field at that place.\index{magnetic field!defined}
+
+To justify the definition fully we would have to show, by experiment
+or otherwise, that such a relation always can be found. We
+have not completed that task, but we have shown that it holds in some
+important and instructive special cases. In Sec. 5.8 we proved that
+the force on the test charge is strictly independent of its velocity if
+all other charges are stationary. In that case, Eq. 1 holds with $\vc{B} = 0$
+everywhere. The argument we have just been through shows that
+the particle moving parallel to the steady stream of charge carriers
+in the ``wire'' experiences a force that is proportional to its velocity
+and perpendicular thereto, as required by the cross-product relation
+in Eq. 1. In fact we can say exactly what magnetic field vector $\vc{B}$
+would be consistent with our findings and with the symmetry of the
+system. It would be a vector perpendicular to the plane of the diagram,
+that is, perpendicular to both the wire and the test-charge
+% p. 185
+velocity $\vc{v}$. To make Eq. 5.45 and Eq. 1 consistent, the magnitude
+of $\vc{B}$ must be:
+\begin{equation}
+  B = \frac{2I}{rc}
+\end{equation}
+
+We have derived the magnetic field of a straight current by analyzing
+only the \emph{electric} field of moving charges. Our derivation is 
+incomplete, but in ways that are not essential. We ought to show that
+a velocity-dependent force, of the same magnitude and proper 
+direction, arises also if we make the test charge move radially toward or
+away from the ``wire.'' That can be done in the same way, although
+the mathematical details are a little more tedious if we try to carry
+it through without any approximation. What is interesting is not the
+mathematics of the coordinate transformations but the reason for
+the existence of the force. We can discover that without doing any
+calculations.
+
+In Fig. 6.1a we have sketched the ''lab'' frame with the test particle
+moving toward the wire. In the ``particle'' frame (Fig. 6.1b) where
+the test charge is at rest, we see the line of positive and negative
+charges advancing down toward the test charge, while the individual
+charges move obliquely, the positives obliquely down to the right,
+the negatives obliquely down to the left. It is rather like some
+% p. 186
+marching maneuver of a college band. What we \emph{hope} to find in this
+frame is an electric field $\vc{E}'$ pointing 
+to the left.\footnote{We are looking for a force which will appear to an observer in the lab frame as a
+force perpendicular to the velocity of the test particle, just as the force in the first case
+was perpendicular to the velocity, and to the left of the velocity vector as seen from
+above.} Still, everything
+appears quite symmetrical; how can such a field arise?
+
+Consider one of the positive charges $P_1$ in the particle frame, and
+a symmetrically located positive charge $P_2$. (If we were to sum the
+contributions of all the positive charges, we could always group them
+in such symmetrical pairs, one from the right half of the line, one
+from the left.) The electric fields of these two charges are indicated
+in Fig. 6.2a. It is now clear why they do not produce equal effects
+at $q$. The relativistic contraction of the field, described by the factor
+$(1-\beta^2\sin^2\theta')^{-3/2}$ in Eq. 5.12, makes the field of $P_2$ stronger at $q$
+than the field of $P_1$. If the fields were spherically symmetrical they
+would cancel, so far as an $x'$ component is concerned. Instead, $P_2$
+wins, resulting in an $x'$ component to the left.
+
+Now take two symmetrically located negative charges, $N_1$ and $N_2$,
+as shown in Fig. 6.2b. In this case $N_1$ produces the stronger field and
+that also results in a component of electric field in the negative $x'$
+direction. On the other hand, the $y'$ components of the fields of the
+positive and negative charges obviously cancel one another. We are
+left with an electric field $\vc{E'}$ and consequently a force on $q$, which is
+parallel to the wire, in the negative $x'$ direction.
+
+We can now see plainly that the magnetic interaction between
+moving charges is a relativistic effect. That was already indicated
+by the appearance of the factor $vv_0/c^2$ in Eq. 5.44. In a world of
+moving electric charges, magnetism would vanish if $c$ were infinite.
+That being so, it seems odd that magnetic forces can be strong enough
+to turn motor armatures and lift weights. We remarked earlier that
+electrostatic forces between large-scale objects are not, as a rule, very
+impressive. Why aren't magnetic forces very much weaker still?
+The explanation is the almost exact electrical neutrality of bulk
+matter. Our next example will provide a good illustration of this.
+We shall calculate the force to be expected, in a practical case, between
+two parallel wires carrying current.
+
+Because this example involves us, for the first time, with a magnetic
+field inside matter, we must interrupt the discussion to remark on
+that point. Most metals, including copper (but not including iron),
+and most substances generally, have almost no influence on a magnetic
+field. We may assume that the field $\vc{B}$ inside copper is practically
+% p. 187
+the same as it would be in vacuum with the same currents
+flowing. We shall go into these questions thoroughly in Chap. 10.
+Until then we'll avoid iron.
+
+Consider two copper wires 1 mm in diameter, 5 cm apart (Fig. 6.3).
+A current is flowing in each wire; let us assume the average velocity
+of the conduction electrons in each wire to be 0.5 cm/sec. As we
+know, this average drift velocity is much smaller than the random
+velocities of the electrons. If we assume there is one conduction
+electron per copper atom, we can easily find the number of conduction
+electrons in a 1-cm length of 1-mm diameter wire. It is about
+$6 X 10^{20}$. (For this estimate we need the density of copper,
+$8\ \zu{g}/\cmunit^3$; the atomic weight of copper, 64; and Avogadro's
+number.) The linear density $\lambda$ of the negative charge that moves is
+then
+\begin{equation}
+  \lambda = (6\times 10^{20})\times(4.8\times 10^{-10})\approx 3\times10^{11}\ \esu/\cmunit
+\end{equation}
+The positive charges are stationary. The product of $\lambda$ times the drift
+velocity is $(3\times10^{11})(0.5) = 1.5 \times 10^{11}\ \esu/\sunit$, which is about
+50 amperes of current.
+
+Let us now find the force on an electron in the other wire, at
+distance $r = 5\ \cmunit$. This electron also moves with the average speed
+0.5 cm/sec, if the same current is flowing in that wire. Applying
+Eq. 5.45, we have:
+\begin{align}
+\begin{split}
+  F &= \frac{2q\lambda v v_0}{rc^2}
+     = \frac{2(4.8\times10^{-10}\ \esu)(3\times10^{11}\ \esu/\cmunit)(0.5\ \cmunit/\sunit)^2}
+            {(5\ \cmunit)(3\times10^{10}\ \cmunit/\sunit)^2} \\
+    &\approx 1.6\times 10^{-20}\ \zu{dyne}
+\end{split}
+\end{align}
+Since every conduction electron in the other wire experiences such
+a force, the total force on the electrons in 1 cm of wire is 
+$(6 \times 10^{20}) \times (1.6 \times 10^{-20})$,
+or approximately 10 dynes/cm. We observe this as
+a force on the wire itself; any momentum imparted to the electrons
+is eventually transferred to the lattice that confines them. As for the
+direction of the force, our analysis of the situation in Fig. 5.20 shows
+that when charges of the same sign move parallel to one another, the
+magnetic interaction tends to draw them together. Hence our copper
+wires, if they carry current in the \emph{same} direction, will be drawn toward
+one another with a force amounting to 10 dynes per centimeter of
+wire. This will be true of any two parallel straight wires the same distance
+apart carrying the equivalent current, 50 amperes.
+
+Now 10 dynes is not an enormous force, but it is easily measurable.
+Let us compare it with the electrostatic force that would act between
+% p. 188
+the wires if they carried uncompensated static charge of 
+$3 \times 10^{11}\ \esu/\cmunit$ on each wire. The electric field of a line charge of density
+$\lambda$ being $2\lambda/r$ (Eq. 1.26), the force that acts per centimeter of length
+on a similar line charge $r$ cm away must be $2\lambda^2/r$. Substituting the
+linear charge density we assumed for the electrons in the wire,
+$3 \times 10^{11}\ \esu/\cmunit$, we obtain a force just $(c/v)^2$ times larger than the
+magnetic interaction of 10 dynes/cm, namely $36 \times 10^{21}\ \zu{dyne}/\cmunit$,
+or roughly $4 \times 10^{13}$ tons per cm! Magnetic phenomena would be relatively
+inconspicuous, to put it mildly, if Nature did not provide two
+kinds of charge capable of canceling off`` the electrostatic interaction
+---but of course a world with only one kind of charge would be unimaginably
+different anyway. In the atomic domain, where the full
+Coulomb force between elementary particles comes into play, magnetic
+effects do indeed take second place compared to electric inter-
+actions. They are weaker, generally speaking, by just the factor we
+should expect, the square of the ratio of the particle speed to the
+speed of light.
+
+The magnetic interaction between parallel currents depends only
+on the products of the currents, not on the charge densities and
+velocities separately. We introduced charge density and velocity into
+the example above in order to make the comparison of the electrostatic
+and the magnetic interactions. Ordinarily we are concerned
+only with the total current in each wire, and the mechanism of charge
+transport, whether by many charges moving slowly or few charges
+moving rapidly, doesn't matter at all. Let conductor 1 in Fig. 6.4
+carry a current $1_1$ esu/sec. Suppose that in conductor 2, at distance $r$,
+there is an amount of charge $A$ esu/cm which is moving with
+velocity $v_2$. We know that the force per unit length of conductor
+2 must be $2 I_1\lambda v_2/rc^2$, but that is equivalent to:
+\begin{equation}
+  \text{Force per centimeter} = \frac{2I_1I_2}{rc^2}
+\end{equation}
+because $\lambda v_2$ is the current $I_2$ in the second conductor.
+
+Expressed in terms of a magnetic field $\vc{B}$ the magnitude of the force
+on a conductor which carries a steady current $I$, in a magnetic field $\vc{B}$
+due to other currents, is $IB/c$ per centimeter of conductor. The force
+is perpendicular to the conductor and to the magnetic field, so we
+can write this statement in vector form as follows:
+\begin{equation}
+\boxed{
+  \der\vc{F} = \frac{I}{c} \der\bell\times\vc{B}
+}
+\end{equation}
+% p. 189
+In Eq. 6, $\der\vc{F}$ is the force on a short section of a conductor of length $\der\bell$,
+carrying a steady current $I$ measured in esu/sec. The vector $\der\bell$ points
+in the direction of positive current flow. Equation 6 follows directly
+from our definition of $\vc{B}$ in Eq. 1, and from the definition of current
+in terms of charge transport. It holds for a conducting path of any
+shape; we need only know the magnetic field vector $\vc{B}$ at every point
+on the path. Note that you can get Eq. 6 by remembering that the
+force on a charge element $\der q$ which is moving with speed $v$ is
+$\der\vc{F} = \der q(\vc{v}/c) \times \vc{B}$. Then with $\vc{v} = \der\bell/\der t$
+and $\der q = I \der t$, this turns at once into
+\begin{equation}
+  \der\vc{F} = \frac{I \der t}{c} \frac{\der\bell}{\der t} \times \vc{B} = \frac{I}{c} \der\bell\times\vc{B}
+\end{equation}
+So far we have chosen to measure $I$ in esu/sec. The practical unit
+of current, the ampere, is $3 \times 10^9\ \esu/\sunit$.\footnote{We
+remarked in Chap. 1 that such ``3's'' come from the speed of light. Now we
+see how that happens. The exact number is of course 2.9979 \ldots
+} If the current in a
+straight wire is expressed in amperes, the magnetic field at a distance
+$r$ cm from the wire is
+\begin{equation}
+  B\ (\text{gauss}) = \frac{2}{10}\frac{I\ (\text{amperes})}{r\ \text{(centimeters)}}
+\end{equation}
+The factor 2/10 is exact, the 1/10 coming from the ratio of $3 \times 10^9$
+to $c$. Similarly, the force on a conductor carrying $I$ amperes in a field
+of $\vc{B}$ gauss is
+\begin{equation}
+  \der\vc{F}\ (\text{dynes}) 
+        = \frac{1}{10}I\ (\text{amperes})\; \der\bell \times \vc{B}\ (\cmunit\unitdot\zu{gauss})
+\end{equation}
+The unit for $B$ implied by these formulas, with force in dynes and
+distance in centimeters, is called the \intro{gauss}. It has long been used by
+physicists and engineers, and in spite of competition from other systems
+of units, is likely to remain the most familiar unit of magnetic
+field strength. The intensity of the earth's magnetic field, near the
+surface of the earth, is of the order of one-half gauss. The field at
+one of the wires, in Fig. 6.3, arising from the current in the other wire,
+is about 2 gauss. The field between the poles of a large electromagnet
+is likely to be measured in thousands of gauss (kilogauss). It is quite
+easy to reach 10 to 20 kilogauss in an iron magnet, and 60 to 80 kilogauss
+in a commercially available superconducting magnet. Fields
+above $10^5$ gauss require rather special efibrt. On the sun's surface,
+local regions (sunspots) display magnetic fields of hundreds of gauss,
+% p. 190
+and a few stars are known which have general surface fields greater
+than one kilogauss. On the whole, the large-scale magnetic fields in
+the universe are rather weak in absolute magnitude, by comparison.
+A recent measurement (a special kind of spectroscopic measure-
+ment) of the interstellar magnetic field in one small region in our
+Galaxy gave around $10^{-5}$ gauss. On the scale of the Galaxy a field
+of that magnitude is not insignificant. In fact the magnetic field plays
+an essential, sometimes dominant, role in galactic dynamics. Thus a
+unit of one gauss, about the magnitude of the only magnetic field
+man had explored for centuries, is now roughly the geometric mean
+between the important magnetic fields of cosmology, and the strongest
+fields in the laboratory.
+
+We should add that the quantity we have defined as $\vc{B}$ and have
+been calling the magnetic field strength, is called in some books the
+magnetic \emph{induction}.\index{magnetic induction|see{magnetic field}}
+
+\iffalse
+
+\section{Some properties of the magnetic field}
+
+The magnetic field, like the electric field, is a device for describing
+how charged particles interact with one another. If we say that the
+magnetic field at the point (4.5,3.2,6.0) at 12:00 noon points horizontally
+in the negative y direction and has a magnitude of 5 gauss.
+we are making a statement about the acceleration which a moving
+charged particle at that point in space-time would exhibit. The remarkable
+thing is that a statement of this form, giving simply a vector
+quantity B, says all there is to say. With it one can predict uniquely
+the velocity-dependent part of the force on any charged particle moving
+with any velocity. It makes unnecessary any further description
+of the other charged particles which are the sources of the field. In
+other words, if two quite different systems of moving charges happen
+to produce the same $\vc{E}$ and $\vc{B}$ at a particular point, the behavior of
+any test particle at the point would be exactly the same in the two
+systems. It is for this reason only that the concept of field. as an intermediary
+in the interaction of particles, is useful. And it is for this
+reason that we think of the field as an independent entity.
+
+Is the field more, or less, real than the particles whose interaction,
+as seen from our present point of view, it was invented to describe?
+That is a deep question which we would do well to set aside for a long
+time. People to whom the electric and magnetic fields were vividly
+real---Faraday and Maxwell, to name two---were led thereby to new
+insights and great discoveries. Let's view the magnetic field as concretely
+as they did and learn some of its properties.
+
+% p. 191
+So far we have studied only the magnetic field of a straight wire
+or filament of steady current. The field direction, we found, is everywhere
+perpendicular to a plane containing the filament and the point
+where the field is observed. The magnitude of the field is proportional
+to 1 /r. The field lines are circles surrounding the filament, as
+sketched in Fig. 6.5. The sense of direction of $\vc{B}$ is determined by our
+previously adopted convention about the vector cross-product, by
+the (arbitrary) decision to write the second term in Eq. 1 as
++ (q/c) v x B, and by the physical fact that a positive charge moving
+in the direction of a positive current is attracted to it rather than
+repelled. These are all consistent if we relate the direction of $\vc{B}$ to
+the direction of the current that is its source in the manner shown
+in Fig. 6.5. Looking in the direction of positive current, $\vc{B}$ lines curl
+clockwise. Or you may prefer to remember it as a right-hand-thread
+relation.
+
+Let's look at the line integral of $\vc{B}$ around a closed path in this field.
+(Remember that a similar inquiry in the case of the electric field of
+a point charge led us to a simple and fundamental property of all
+electrostatic fields.) Consider first the path ABCD in Fig. 6.6a. This
+lies in a plane perpendicular to the wire; in fact, we need only work
+in this plane. for $\vc{B}$ has no component parallel to the wire. The line
+integral of $\vc{B}$ around the path shown is zero, for the following reason.
+Paths BC and DA are perpendicular to $\vc{B}$ and contribute nothing.
+Along AB, $\vc{B}$ is stronger in the ratio r2/r1 than it is along CD; but CD
+is longer than AB by the same factor, for these two arcs subtend the
+same angle at the wire. So the two arcs give equal and opposite con-
+tributions, and the whole integral is zero.
+
+It follows that the line integral is also zero on any path that can
+be constructed out of radial segments and arcs, such as the path in
+Fig. 6.61). From this it is a short step to conclude that the line integral
+is zero around any path that does not enclose the wire. To smooth
+out the corners we would only need to show that the integral around
+a little triangular path vanishes to a sufficient order. The same step
+was involved in the case of the electric field.
+
+A path which does not enclose the wire is one like the path in
+Fig. 6.6c, which, if it were made of string, could be pulled free. The
+line integral around any such path is zero.
+
+Now consider a circular path that encloses the wire, as in Fig. 6.6d.
+Here the circumference is 2-rrr, the field is 21 /or and everywhere parallel
+to the path, so the value of the line integral around this particular
+path is (27rr) (21/rc), or 47rI/c. We now claim that any path looping
+once around the wire must give the same value. Consider, for in-
+
+% p. 192
+; on n.u'o . u. ' . 0. . 9. n 3 -
+I '_ " ' ' ' I"_. .0 no u' '0. I '-
+O' ' -. .0 I u' ' '-. 'o ' '-. .0 0
+
+- - -
+' ' I ' . '. -.0 - . .'I. ' .- 0'
+-
+
+- -_ ' I'o' 1 .100 0 . 9| ' ' 'o . ' . 0
+
+'9. C " . on 9
+
+Pure water; negative ions moving
+right at 3.5 cm/sec; positive ions
+
+Copper wire; conduction electrons
+drifting to left with average
+
+velocity ~ 10'4 cm/sec
+
+% p. 193
+The magnetic field, as we have emphasized before, depends only
+on the rate of charge transport, the number of units of charge passing
+a given point in the circuit, per second. Figure 6.7 shows a circuit
+with a current of 5 mA (milliamperes), equivalent to 15 )< 106
+esu/sec. The average velocity of the charge carriers ranges from
+10-4 cm/sec in one part of the circuit to 0.8 times the speed of light
+in another. The line integral of $\vc{B}$ over a closed path has the same
+value around every part of this circuit, namely:
+
+fB_ds _ ffI__ 477 )< (15 x 106 esu/sec)
+_ c _ 3 x 1010 cm/sec
+= 0.00628 gauss-cm (11)
+\begin{equation}
+\end{equation}
+
+What we have proved for the case of a long straight filament of
+current clearly holds, by superposition, for the field of any system
+of straight filaments. In Fig. 6.8 several wires are carrying currents
+in different directions. If Eq. 10 holds for the magnetic field of one
+of these wires, it must hold for the total field which is the vector sum,
+at every point, of the fields of the individual wires. That is a pretty
+complicated field. Nevertheless, we can predict the value of the line
+integral of $\vc{B}$ around the closed path in Fig. 6.8 merely by noting
+which currents the path encircles, and in which sense.
+
+However, we are interested in other things than long straight wires.
+We want to understand the magnetic field of any sort of current dis-
+tribution---for example, that of a current flowing in a closed loop. It
+turns out that these more general fields obey exactly the same law,
+Eq. 10. The line integral of $\vc{B}$ around a bent wire is equal to that
+around a long straight wire carrying the same current. This goes
+beyond anything we have so far deduced, so we must look on it here
+as a postulate confirmed by the experimental tests of its con-
+sequences.
+
+To state the law in the most general way, we must talk about volume
+distributions of current._ A general steady current distribution
+is described by a volume current density J (x,y,z) which varies from
+place to place but is constant in time. A current in a wire is merely
+a special case in which J has a large value within the wire but is zero
+elsewhere. We discussed volume distribution of current in Chap. 4,
+where we noted that for time-independent currents, J has to satisfy
+the continuity equation, or conservation-of-charge condition,
+
+\begin{equation}
+\end{equation}
+divJ = 0 (12)
+
+% p. 194
+ 
+
+Take any closed curve C in a region where currents are flowing.
+The total current enclosed by C is the flux of J through the surface
+
+spanning C, that is, the surface integral ISJ - da over this surface S
+
+(see Fig. 6.9). A general statement of the relation in Eq. 10 is
+therefore:
+
+\begin{equation}
+\end{equation}
+fen-ds=4T"'SJ-da (13)
+
+Let us compare this with Stokes' theorem, which we developed in
+Chap. 2:
+
+\begin{equation}
+\end{equation}
+fCF - ds : fS(curl F) - da (14)
+We see that a statement equivalent to Eq. 13 is this:
+
+M
+C
+
+\begin{equation}
+\end{equation}
+curlB_-_ (15)
+
+This is the simplest and most general statement of the relation between
+the magnetic field and the moving charges which are its source.
+However, Eq. 15 is not enough to determine B(x,y,z), given
+J(x,y,z), for many different vector fields could have the same curl.
+We need to complete it with another condition. We had better think
+about the divergence of B. Going back to the magnetic field of a
+single straight wire, we observe that the divergence of that field is
+zero. You can't draw a little box anywhere, even one enclosing the
+wire, which will have a net outward or inward flux. It is enough to
+note that the boxes V1 and V2 in Fig. 6.10 have no net flux and can
+shrink to zero without developing any. For this field then, \div B = 0,
+and hence also for all superpositions of such fields. Again we postulate
+that the principle can be extended to the field of any distribution
+of currents, so that a companion to Eq. 12 is the condition
+
+\begin{equation}
+\end{equation}
+<16>
+
+Equations 15 and 16 together very nearly determine $\vc{B}$ uniquely
+if J is given. If we had two different fields B1(x,y,z) and B2(x,y,:)
+both satisfying Eqs. 15 and 16, their difference B1 --- B2 would be a
+field with zero divergence and zero curl everywhere. Such a field is
+simply a constant vector B0, the same at all points in space. So except
+for the possible addition of a constant field pervading all space, the
+conditions \curl B = 47rJ/c, and \div B = 0, uniquely determine the
+
+% p. 195
+magnetic field of a given distribution of currents. It is interesting
+to compare these with their counterparts in the case of the electrostatic
+field. There we had the conditions
+
+\begin{equation}
+\end{equation}
+div E = 477p and \curl E = 0 (17)
+
+In the case of the electric field, however, we began with Coulomb's
+law, which expressed directly the contribution of each charge to the
+electric field at any point. Here we shall have to work our way back
+to some relation of that type.T We shall do so by means of a potential
+function.
+
+\section{Vector potential}
+
+We found that the scalar potential function $\pot$(x,y,z) gave us a
+simple way to calculate the electrostatic field of a charge distribution.
+If there is some charge distribution p(x,y,z), the potential at any
+point (x1,y1,z1) is given by the volume integral
+
+\begin{equation}
+\end{equation}
+f  (18)
+
+'P(x1,!/1.31) = H2
+
+The integration is extended over the whole charge distribution, and
+r12 is the magnitude of the distance from (x2,y2,z2) to (x1,y1,z1). The
+electric field $\vc{E}$ is obtained as the negative of the gradient of (p:
+
+\begin{equation}
+\end{equation}
+E = -grad$\pot$ (19)
+
+The same trick won't work here, because of the essentially different
+character of B. The curl of $\vc{B}$ is not necessarily zero, so $\vc{B}$ can't, in
+general, be the gradient of a scalar potential. However, we know
+another kind of vector derivative, the curl. It turns out that we can
+usefully represent B, not as the gradient of a scalar function, but as
+the curl of a vector function, like this:
+
+\begin{equation}
+\end{equation}
+00>
+
+By obvious analogy, we call A the vector potential. It is not
+obvious, at this point, why this tactic is helpful. That will have to
+
+TThe student may wonder why we couldn't have started from some equivalent of
+Coulomb's law for the interaction of currents. The answer is that a piece of a current
+filament, unlike an electric charge, is not an independent object that can be physically
+isolated. You cannot perform an experiment to determine the field from part of a
+circuit: if the rest of the circuit isn't there. the current can't be steady without violating
+the continuity condition.
+
+ 
+
+% p. 196
+emerge as we proceed. It is encouraging that Eq. 16 is automatically
+satisfied, since \div \curl A = 0, for any A.T Or to put it another way,
+the fact that \div B = 0 presents us with the opportunity to represent
+B as the curl of another vector function. Our job now is to discover
+how to calculate A, when the current distribution J is given, so that
+Eq. 20 will indeed yield the correct magnetic field. In view of Eq. 15,
+the relation between J and A is
+
+\begin{equation}
+\end{equation}
+curl (curl A) = 4L' (21)
+
+0
+
+Equation 21, being a vector equation, is really three equations.
+We shall work out one of them, say the x-component equation. The
+x component of \curl B is BB,/ By - BB,/Bz. The z and y components
+of B are, respectively,
+
+\begin{equation}
+\end{equation}
+
+
+BA BA BA BA
+B, = 1' - " B = 3 - 2 22
+Bx By 1' Bz Bx ( )
+Thus the x component part of Eq. 21 reads
+
+\begin{equation}
+\end{equation}
+
+_B_(BA,, _ BA,) _  _ BA,) : 477], (23)
+By Bx By Bz Bz Bx c
+
+We assume our functions are such that the order of partial differentiation
+can be interchanged. Taking advantage of that and rearranging
+a little, we can write Eq. 23 in this way:
+
+\begin{equation}
+\end{equation}
+
+_ a2A,_ BZA, a (aA,)+ a (aA,)_ 4771, (24)
+
+By? Bzz + B-x By B-x Bz c
+To make the thing more symmetrical, 1et's add and subtract the same
+term, BZA,/Bx2, on the left:
+
+\begin{equation}
+\end{equation}
+
+ax? By? Bz2 +59?
+
+2 2 2
+B A, B A, B A, B (BA, + BA, + BA,) : 47rJ, (25)
+Bx By Bz c
+
+We can now recognize the first three terms as the negative of the
+Laplacian of A,. The quantity in parentheses is the divergence of A.
+Now we have a certain latitude in the construction of A. All we care
+
+"(If you are not familiar with this fact, refer back to Prob. 2.15.
+
+% p. 197
+about is its curl; its divergence can be anything we like. Let us
+require thatl'
+
+\begin{equation}
+\end{equation}
+
+div A = 0 (26)
+
+In other words, among the various functions which might satisfy our
+requirement that \curl A = B, let us consider as candidates only those
+which also have zero divergence. Then that part of Eq. 25 drops
+away and we are left simply with
+
+\begin{equation}
+\end{equation}
+
+a2A, a2A, a2A, _ 4771,
+ax? + ayz + fizz _- c
+
+(27)
+
+J, is a known scalar function of x, y, z. Let us compare Eq. 27 with
+Poisson's equation, Eq. 2.70, which read:
+
+\begin{equation}
+\end{equation}
+
+-+---,+-=-4m> <28)
+
+The two equations are identical in form. We already know how to
+find a solution to Eq. 28. The volume integral in Eq. 18 is the pre-
+scription. Therefore a solution to Eq. 27 must be given by
+
+\begin{equation}
+\end{equation}
+
+l J, , d
+A.(x1,y1.z1> = 3f (29)
+
+The other components must satisfy similar formulas. They can all
+be combined neatly in one vector formula:
+
+\begin{equation}
+\end{equation}
+
+A<x1,y1.z1) = %f (30)
+
+There is only one snag. We stipulated that \div A = 0, in order to
+get Eq. 27. How do we know the A given by Eq. 30 will have this
+special property? Fortunately, it can be shown that it does.
+
+As an example of a vector potential, consider a long straight wire
+carrying a current I. In Fig. 6.11 we see the current coming toward
+us out of the page, flowing along the positive z axis. We know what
+the magnetic field of the straight wire looks like. The field lines are
+circles, as sketched already in Fig. 6.5. A few are shown in Fig. 6.11.
+
+TTO see why we are free to do this, suppose we had an A such that \curl A _-. B, but
+div A = f(x,y,z) aé 0. Treating f like the charge density p in an electrostatic field, we
+obviously can find a field F, the analog of the electrostatic E, such that \div F = f.
+But we know that the curl of such a field will be zero. Hence we could add -F to A,
+making a new field with the correct curl and zero divergence.
+
+% p. 198
+The magnitude of $\vc{B}$ is 21 /or. Using a unit vector (in in the ``circum-
+ferential'' direction we can write the vector $\vc{B}$ as
+
+\begin{equation}
+\end{equation}
+
+_ 21¢
+- or
+
+B
+
+(31)
+
+Noting that the unit vector (in is - sin (pf: +' cos tpy, we can write this
+in terms of x and y as follows:
+
+\begin{equation}
+\end{equation}
+
+B=2I(-sin<px+cos<py) :2_I(-yx+xy) (32)
+
+0, /x2 + y2 C x2 + yz
+
+One vector function A(x,y,z) that will satisfy V x A : B is the
+following:
+
+\begin{equation}
+\end{equation}
+
+A = 4% In (x2 + y2) (33)
+
+To verify this, we calculate the components of V x A:
+
+\begin{equation}
+\end{equation}
+
+aA,, _ 6A,, _ -219
+
+(V X A), : _ e :B,
+ay 8;' c(x2 + y?) ( )
+aA, aAz 21
+(v x A). = 53 - ax =  <=B.,> (34)
+(V x A)z 2 5;! _ 3;' = 0 (:32)
+
+Of course, this is not the only function that could serve as the vector
+potential for this particular B. To the A of Eq. 33 could be added any
+vector function with zero curl. This all holds for the space outside
+the wire. Inside the wire, $\vc{B}$ is different, so A must be different also.
+It is not hard to find the appropriate vector potential function for
+the interior of a solid round wire---see Prob. 6.13.
+
+Incidentally, the A for our particular example above could not
+have been obtained by Eq. 30. The integral would diverge owing to
+the infinite extent of the wire. This may remind you of the difficulty
+we encountered in Chap. 2 in setting up a scalar potential for the
+electric field of a charged wire. Indeed the two problems are very
+closely related, as we should expect from their identical geometry
+and the similarity of Eqs. 30 and 18. We found (Eq. 2.19) that a suitable
+scalar potential for the line charge problem is -}x In (x2 + y?) +
+arbitrary constant. This assigns zero potential to some arbitrary
+point which is neither on the wire nor at infinite distance away. Both
+that scalar potential and the vector potential of Eq. 33 are singular
+at the origin and at infinity.
+
+% p. 199
+\section{Field of any current-carrying wire}
+
+Figure 6.12 shows a loop of wire carrying current I. The vector
+potential A at the point (x1,y1,z1) is given according to Eq. 30 by the
+integral over the loop. For current confined to a thin wire we may
+take as the volume element dug a short section of the wire of length dl.
+The current density J is I/a, where a is the cross-section area, and
+dD2 = adl. Hence J dog = I dl, and if we make the vector dl point
+in the direction of positive current, we can simply replace J (102 by
+
+I dl. Thus for a thin wire or filament, we can write Eq. 30 as a line
+integral over the circuit:
+
+\begin{equation}
+\end{equation}
+A=Lff
+C 712
+
+(35)
+
+To calculate A everywhere and then find $\vc{B}$ by taking the curl of A
+might be a long job. It will be more useful to isolate one contribution
+to the line integral for A, the contribution from the segment of
+wire at the origin, where the current happens to be flowing in the
+x direction (Fig. 6.13). We shall denote the length of this segment
+by dl. Let dA be the contribution of this part of the integral to A.
+
+Then at the point (x,y,0) in the xy plane, dA, which points in the
+positive or direction, is
+
+\begin{equation}
+\end{equation}
+
+(I/c)dl
+' /x2 + y2
+
+dA = ,2 (36)
+
+% p. 200
+It is clear from symmetry that the contribution of this part of A to
+curl A must be perpendicular to the xy plane. Denoting the corresponding
+part of $\vc{B}$ by dB we have
+
+\begin{equation}
+\end{equation}
+
+(37)
+
+With this result we can free ourselves at once from a particular
+coordinate system. Obviously all that matters is the relative orientation
+of the element dl and the radius vector r from that element to
+the point where the field $\vc{B}$ is to be found. The contribution to B
+from any short segment of wire dl can be taken to be a vector
+perpendicular to the plane containing dl and r, of magnitude
+I dl sin (p/1'20, where $\pot$ is the angle between dl and r. This can be
+
+written compactly using the cross-product, and is illustrated in
+Fig. 6.14.
+
+\begin{equation}
+\end{equation}
+
+_Idlxf-
+_ GT2
+
+dB
+
+(38)
+
+% p. 201
+If you are familiar with the rules of the vector calculus, you can take
+a short cut from Eq. 35 to Eq. 38. Writing dB = V x dA, with
+dA = I dl/cr, we treat V as a vector, reversing the order of the cross-
+product and changing the sign. Here dl is a constant, so that V
+operates only on 1/r, otherwise we couldn't get away with this! We
+
+recall that V( l /r) = -f/r2 (as in going from the Coulomb potential
+to the Coulomb field). Thus:
+
+\begin{equation}
+\end{equation}
+
+dB=VxLu= _Ld1xv<l)
+Cr C T
+=_ldtx(-L2)=j'd':" (39)
+C 7' CT
+
+Historically, Eq. 38 is known as the Biot-Savart Law. The meaning
+of Eq. 38 is that if $\vc{B}$ is computed by integrating over the complete
+circuit, taking the contribution from each element to be given by this
+formula, the resulting $\vc{B}$ will be correct. As we remarked in the footnote
+at the end of Sec. 6.2, the contribution of part of a circuit is not
+physically identifiable. In fact, Eq. 38 is not the only formula that
+could be used to get a correct result for B-to it could be added any
+function which would give zero when integrated around a closed
+path.
+
+We seem to have discarded the vector potential as soon as it performed
+one essential service for us. Indeed, it is often easier, as a
+practical matter, to calculate the field of a current system directly,
+now that we have Eq. 38, than to find the vector potential first. We
+shall practice on some examples in the next section. However, the
+vector potential is important for deeper reasons. For one thing, it
+has revealed to us a striking parallel between the relation of the electrostatic
+field $\vc{E}$ to its sources, electric charges. and the relation of the
+magnetic field $\vc{B}$ to steady currents. Its greatest usefulness lies ahead,
+in the study of time-varying fields, and electromagnetic radiation.
+
+\section{Fields of rings and coils}
+
+A current filament in the form of a circular ring of radius bis shown
+in Fig. 6.l5a. We could predict without any calculation that the
+magnetic field of this source must look something like Fig. 6.151»,
+where we have sketched some field lines in a plane through the axis
+of symmetry. The field as a whole must be rotationally symmetrical
+about this axis, the z axis in Fig. 6.l5a, and the field lines themselves
+must be symmetrical with respect to the plane of the loop, the
+
+% p. 202
+xy plane. Very close to the filament the field will resemble that near
+a long straight wire, since the distant parts of the ring are there relatively
+unimportant.
+
+It is easy to calculate the field on the axis, using Eq. 38. Each element
+of the ring of length dl contributes a dB perpendicular to r. We
+
+need only include the 2: component of dB, for we know the total field
+on the axis must point in the z direction,
+
+\begin{equation}
+\end{equation}
+
+Idl Idlb
+dB: = goes 0 = $7 (40)
+
+Integrating over the whole ring, we have simply f dl = 2771), so the
+field on the axis at any point z, is
+
+\begin{equation}
+\end{equation}
+
+Bz = 27rb2I _ 2771721
+
+073 -    on axis) 
+
+At the center of the ring, 2: = 0, the magnitude of the field is
+
+\begin{equation}
+\end{equation}
+
+_ 2771
+
+B, _ W (field at center) (42)
+
+The cylindrical coil of wire shown in Fig. 6.l6a is usually called a
+solenoid. We assume the wire is closely and evenly spaced so that
+
+% p. 203
+the number of turns in the winding, per centimeter length along the
+cylinder, is a constant, n. Now the current path is actually helical,
+but if the turns are many and closely spaced we can ignore this and
+regard the whole solenoid as equivalent to a stack of current rings.
+Then we can use Eq. 41 as a basis for calculating the field at any point
+such as the point z, on the axis of the coil. Take first the contribution
+from the current ring included between radii from the point z making
+angles 0 and 0 + d0 with the axis. The length of this segment of the
+solenoid, shaded in Fig. 6.16b, is 7 d0/ sin 0, and it is therefore equivalent
+to a ring carrying a current Inr d0/ sin 0. Since r = b/ sin 0, we
+have, for the contribution of this ring to the axial field:
+
+\begin{equation}
+\end{equation}
+
+C13 sin0 c
+
+Carrying out the integration between the limits 01 and 02 gives
+
+\begin{equation}
+\end{equation}
+
+3, = 27"" fifsin (M0 = 2:1" (cos 0. _ cos 0,) (44)
+
+C 1
+
+We have used Eq. 44 to make a graph, in Fig. 6.17, of the field
+strength on the axis of a coil the length of which is four times its
+diameter. The ordinate is the field strength B, relative to the field
+
+% p. 204
+ 
+
+strength in a coil of infinite length with the same number of turns
+per centimeter and the same current in each turn. For the infinite
+coil, 01 = 0 and 02 = 7r, so
+
+\begin{equation}
+\end{equation}
+
+B, = 4:1" (infinitely long solenoid) (45)
+At the center of the ``four-to-one" coil the field is very nearly as large
+
+as this, and it stays pretty nearly constant until we approach one of
+the ends.
+
+Figure 6.18 shows the magnetic field lines in and around a coil of
+these proportions. Note that some field lines actually penetrate the
+
+% p. 205
+winding. The cylindrical sheath of current is a surface of discontinuity
+for the magnetic field. Of course, if we were to examine the
+field Very closely in the neighborhood of the wires, we would not find
+any infinitely abrupt kinks, but we would find a very complicated,
+ripply pattern around and through the individual wires.
+
+It is quite possible to make a long solenoid with a single turn of a
+thin wide ribbonlike conductor, as in Fig. 6.19. To this our calculation
+and the diagram in Fig. 6.18 apply exactly, the quantity nI being
+merely replaced by the current per centimeter flowing in the sheet.
+Now the change in direction of a field line that penetrates the wall
+occurs entirely within the thickness of the sheet, as suggested in the
+inset in Fig. 6.19.
+
+We could have found the field of the infinitely long solenoid without
+going through the analysis leading to Eq. 45. In the infinite
+
+ 
+
+Fig. 6.19 A solenoid formed by a single cylin:
+sheet. Insert shows how the field lines change di
+current-carrying conductor.
+
+% p. 206
+solenoid, clearly, nothing can vary with z, the coordinate in the axial
+direction. The field must be parallel to 2 everywhere. Consider the
+line integral of $\vc{B}$ around a rectangular path like the path ABCDA in
+Fig. 6.20. The horizontal sides give nothing. The side CD had better
+give zero also, for if the line integral on CD has a finite value, the
+integral along any other such leg, such as C'D' would have to give
+the same, and we would have magnetic 'field filling all space outside
+the coil with constant intensity. We conclude that the field outside
+must be zero.T That leaves the line integral of $\vc{B}$ along AB which is
+B21 and the entire line integral must equal 477/c times the enclosed
+current. Hence Bzl = (471/c)nIl, or B2 = 4-rrnl/c, in agreement
+with Eq. 45.
+
+TWhy couldn't such a solenoid produce a uniform field in the entire space outside?
+After all, the infinite flat current sheet we are about to consider has a uniform field
+filling the half space on each side of it. The solenoid, however, can be made as slender
+as we please, and it would be strange indeed if a solenoid of vanishing diameter could
+
+still cause a finite field everywhere. Perhaps you can think of a more conclusive
+argument.
+
+% p. 207
+\section{Change in B at a current sheet}
+
+In the example of Fig. 619 we had a solenoid constructed from a
+single curved sheet of current. Let's look at something even simpler,
+a flat. unbounded current sheet. You may think of this as a sheet
+of copper of uniform thickness in which a current flows with constant
+density and direction everywhere within the metal. In order to refer
+to directions, let us locate the sheet in the xz plane, and let the current
+flow in the x direction. As the sheet is supposed to be of infinite extent
+with no edges, it is hard to draw a picture of it! We show a
+broken-out fragment of the sheet in Fig. 6.21, in order to have something
+to draw; you must imagine the rest of it extending over the
+whole plane. The thickness of the sheet will not be very important,
+finally, but we may suppose that it has some definite thickness t. If
+the current density inside the metal is J in (esu/sec) /cm? then every
+centimeter of height, in the z direction, includes a ribbon of current
+amounting to Jt esu/sec. We call this the ``surface current density''
+or ``sheet current density,'' and use the symbol :5 to distinguish it from
+the volume current density J. The units of a7 are (esu/sec) /cm. If
+we are not concerned with what goes on inside the sheet itself, 5 is
+a useful quantity. It is :9 that determines the change in the magnetic
+field from one side of the sheet to the other, as we shall see.
+
+The field in Fig. 6.21 is not merely that due to the sheet alone.
+Some other field in the z direction was present, from another source.
+The total field, including the effect of the current sheet, is represented
+by the $\vc{B}$ vectors drawn in front of and behind the sheet.
+
+Consider the line integral of $\vc{B}$ around the rectangle 12341 in
+Fig. 6.21. One of the long sides is in front of the surface, the other
+behind it, with the short sides piercing the sheet. Let B; denote the
+z component of the magnetic field immediately in front of the sheet,
+B; the z component of the field immediately behind the sheet. We
+mean here the field of all sources that may be around, including the
+sheet itself. The line integra1_ofB around the long rectangle is simply
+l(B,,+ - B2'). (Even if there were some other source which caused
+a field component parallel to the short legs of the rectangle, these
+legs themselves can be kept much shorter than the long sides, since
+we assume the sheet is thin, in any case, compared to the scale of any
+field variation.) The current enclosed by the rectangle is just log.
+Hence we have the relation l(Bz+ - B2") = 4'rro9l/c, or
+
+\begin{equation}
+\end{equation}
+
+_47r¢3
+_ c
+
+Bf - B,'
+
+(46)
+
+% p. 208
+ 
+ 
+
+A current sheet of densitycg gives rise to a jump in that component
+of $\vc{B}$ which is parallel to the surface and perpendicular toff This
+may remind you of the change in electric field at a sheet of charge.
+There, the perpendicular component of $\vc{E}$ is discontinuous, the magnitude
+of the jump depending on the density of surface charge.
+
+If the sheet is the only current source we have, then of course the
+field is symmetrical about the sheet. B5' is 2773/0, and B; is
+-2775/c. This is shown in Fig. 6.22a. Some other situations, in
+which the effect of the current sheet is superposed on a field already
+present from another source, are shown in Fig. 6.221) and c. Suppose
+there are two sheets carrying equal and opposite surface currents, as
+shown in cross section in Fig. 6.23, with no other sources around.
+The direction of current flow is perpendicular to the plane of the
+paper, out on the left and in on the right. The field between the sheets
+is 4776] / c and there is no field at all outside. Something like this is
+found when current is carried by two parallel ribbons or slabs, close
+together compared to their width, as sketched in Fig. 6.24. Often bus
+bars for distributing heavy currents in power stations are of this form.
+
+The change in $\vc{B}$ takes place within the sheet, as we already remarked
+in connection with Fig. 6.19. For the same 3, the thinner
+the sheet, the more abrupt the transition. We looked at a situation
+very much like this in Chaps. 1 and 2 when we examined the discontinuity
+in the perpendicular component of $\vc{E}$ that occurs at a sheet
+of surface charge. It was instructive then to ask about the force on
+the surface charge, and we shall ask a similiar question here.
+
+Consider a square portion of the sheet, 1 cm on a side. The current
+included is equal to (9, the length of current path is 1 cm, and the
+average field that acts on this current, assuming the current is uniformly
+distributed through the thickness of the sheet, is %(Bz+ + B2').
+Therefore the force on this portion of the current distribution is
+
+\begin{equation}
+\end{equation}
+
+5
+
+Force on 1 cm? of sheet = %(Bz+ + B3'): (47)
+
+In View of Eq. 46, we can substitute (B; - B2') /4rr for $7/c, so that
+the force per square centimeter can be expressed in this way:
+
+\begin{equation}
+\end{equation}
+
+<35" + 32' )(Bz+ - B2')
+2 477
+
+§',;[<B.+>2 - (Bz_)2l (48)
+
+Force per cm?
+
+% p. 209
+The force is perpendicular to the surface and proportional to the
+area, like the stress caused by hydrostatic pressure. To make sure
+of the sign, we can figure out the direction of the force in a particular
+case, such as that in Fig. 6.23. The force is outward on each con-
+ductor. It is as if the high field region were the region of high pres-
+sure. We must remember, though, that it is only the component of
+B parallel to the surface that counts in determining this force.
+
+We have been considering an infinite flat sheet, but things are very
+much the same in the immediate neighborhood of any curving
+surface. Wherever the component of $\vc{B}$ parallel to the surface
+changes from B1 to B2, from one side of the surface to the other, we
+
+% p. 210
+may conclude not only that there is a sheet of current flowing in the
+surface, but that the surface must be under a perpendicular stress of
+(B12 - B22)/8vrr, measured in dynes/cm2. This is one of the controlling
+principles in magnetohydrodynamics, the study of electrically
+conducting ffuids, a subject of interest both to electrical engineers
+and to astrophysicists.
+
+\section{How the fields transform}
+
+A sheet of surface charge, if it is moving parallel to itself, constitutes
+a surface current. If we have a uniform charge density of 0
+on the surface, with the surface itself sliding along at speed 12, the
+surface current density is just 3 = av. This simple idea will help us
+to see how the electric and magnetic field quantities must change
+when we transform from one inertial frame of reference to another.
+
+Let's imagine two plane sheets of surface charge, parallel to the
+xz plane as in Fig. 6.25. Again, we show fragments of surfaces only,
+in the sketch; the surfaces are really infinite in extent. In the inertial
+frame F, with coordinates $x$, $y$, and $z$, the density of surface charge
+is a on one sheet and -0 on the other. In this frame the uniform
+electric field $\vc{E}$ points in the positive y direction, and Gauss's law
+assures us, as usual, that its strength is:
+
+\begin{equation}
+\end{equation}
+
+El, : 47m (49)
+
+In this frame F the sheets are both moving in the positive x direction
+with speed 00, so that we have a pair of current sheets. The
+density of surface current is J, = ovo in one sheet, the negative of
+that in the other. As in the arrangements in Fig. 6.21, the field between
+two such current sheets is
+
+\begin{equation}
+\end{equation}
+
+B2 : 47r<~9, : 477000
+c c
+
+(50)
+
+The inertial frame F ' is one that moves, as seen from F, with a speed
+v in the positive x direction. VVhat fields will an observer in F'
+measure? To answer this we need only find out what the sources look
+like in F'.
+
+In F' the x' velocity of the charge-bearing sheets is ué, given by
+the velocity addition formula:
+
+% p. 211
+ 
+
+Fig. 6.25 The frame F' is moving, as
+in F, with a speed v in the positiv
+charged sheets are moving with spee«
+
+observer in F.
+
+\begin{equation}
+\end{equation}
+
+06 = L'; 2
+l - D01)/C2
+
+130-13
+
+0 1 _ BOB (51)
+There is a different Lorentz contraction of the charge density, in this
+frame, exactly as in our earlier example of the moving line charge,
+in Sec. 5.9. Repeating the argument we used then, the density in
+the rest frame of the charges themselves is o(1 - v02/c2)1/2, or o/yo,
+and therefore the density in the frame F' is
+
+\begin{equation}
+\end{equation}
+(52)
+
+As usual, ya stands for (1 - 052/c2)'1/2. By means of Eq. 51 we
+
+can eliminate ya, expressing it in terms of /30 and ,8, or yo and y.
+When we do this, the result is:
+
+\begin{equation}
+\end{equation}
+0' = 01/(1 - Bo/3) (53)
+
+% p. 212
+The surface current density in the frame F' is therefore
+
+\begin{equation}
+\end{equation}
+3' =  = om ~ /2oB>c@15l = 0Y(Uo - v) (54)
+1 - 30.3
+We now know how the sources appear in frame F', so we know what
+the fields in that frame must be. In saying this, we are again invoking
+the postulate of relativity. The laws of physics must be the same in
+all inertial frames, and that includes the formulas connecting electric
+
+field with surface charge density, and magnetic field with surface
+current density. It follows then that:
+
+\begin{equation}
+\end{equation}
+E1,' = 4770' = 1/ [47m --- (47:00  (55)
+ 
+
+If we look back at the values of E,, and B', in Eqs. 49 and 50, we see
+that our result can be written as follows:
+
+\begin{equation}
+\end{equation}
+E11, = l'(Ey - BB2)
+B2, = Y(B2 - BE11)
+
+If the sandwich of current sheets had been oriented parallel to the
+xy plane, instead of the xz plane, we would have obtained relations
+connecting E; with E2 and B1,, and B; with By and E2. Of course they
+would have the same form as the relations above, but if you trace
+the directions through, you will find that there are differences of sign,
+following from the rules for the direction of B.
+
+It remains to find how the field components in the direction of
+motion change. We had already discovered in Sec. 5.5 that a longitudinal
+component of $\vc{E}$ has the same magnitude in the two frames.
+That this is true also of a longitudinal component of $\vc{B}$ can be seen
+as follows. Suppose a longitudinal component of B, a B, component
+in the arrangement in Fig. 6.25, is produced by a solenoid around the
+x axis in frame F. The field strength inside a solenoid, as we know,
+depends only on the current in the wire, I, which is charge per second,
+and n, the number of turns of wire per centimeter of axial length.
+In the frame F' the solenoid will be Lorentz-contracted so the number
+of turns per centimeter in that frame will be greater. But the current,
+as reckoned by the observer in F', will be reduced, since from his point
+of view, the F observer who measured the current by counting the
+
+number of electrons passing a point on the wire, per second, was
+using a slow-running watch. The time dilation iust cancels the length
+
+\begin{equation}
+\end{equation}
+(57)
+
+% p. 213
+contraction in the product nI. Indeed any quantity of the dimensions
+(longitudinal length) *1 >< (time)'1 is unchanged in a Lorentz trans-
+formation. So B,' = B,.
+
+Remember the point made early in Chap. 5, in the discussion
+following Eq. 5.6: The transformation properties of the field are local
+properties. The values of $\vc{E}$ and $\vc{B}$ at some space-time point in one
+frame must uniquely determine the field components observed in
+any other frame at that same space-time point. Therefore the fact
+that we have used an especially simple kind of source (the parallel
+uniformly charged sheets) in our derivation in no way compromises
+the generality of our result. We have in fact arrived at the general
+laws for the transformation of all components of the electric and
+magnetic field, of whatever origin or configuration.
+
+We give below the full list of transformations. All primed
+quantities are measured in the frame F', which is moving in the positive
+x direction with speed v as seen from F. Unprimed quantities
+are the numbers which are the results of measurement in F. As usual,
+,8 stands for 0/0 and y for (1 - ,82)'1/2.
+
+\begin{equation}
+\end{equation}
+E; = E, E,' = y(E,, - /33,) E,' = y(E, + /313,)
+(58)
+
+ 
+
+3:' = Bx Bu' = Y(By + .3152) B2' = Y(Bz - /3Eu)
+
+The equations in the box confront us with an astonishing fact, their
+symmetry with respect to $\vc{E}$ and B. If the printer had mistakenly
+interchanged E's with B's, and y's with z's, the equations would come
+out exactly the same! Yet our previous View had been that magnetism
+is a kind of ``second-order'' eff"ect arising from relativistic
+changes in the electric fields of moving charges. Certainly magnetic
+phenomena as we find them in Nature are distinctly different from
+electrical phenomena. The world around us is by no means symmetrical
+with respect to electricity and magnetism. Nevertheless,
+with the sources out of the picture, we find that the fields themselves,
+E and B, are connected to one another in a highly symmetrical way.
+
+It appears too that the electric and magnetic fields are in some
+sense aspects, or components, of a single entity. We can speak of the
+electromagnetic field, and we may think of E,,, E,,, E2, B,,, B,,, and B2 as
+six components of the electromagnetic field. The same field viewed
+in different inertial frames will be represented by different sets of
+values for these components, somewhat as a vector is represented by
+different components in different coordinate systems rotated with
+respect to one another. However, the electromagnetic field so
+
+% p. 214
+something called a tensor. The totality of the equations in the box
+forms the prescription for transforming the components of such a
+tensor when we shift from one inertial frame to another. We are not
+going to develop that mathematical language here. In fact, we shall
+return now to our old way of talking about the electric field as a vector
+field, and the magnetic field as another vector field coupled to the
+first in a manner to be explored further in Chap. 7. To follow up on
+this brief hint of the unity of the electromagnetic field as represented
+in four-dimensional space-time, you will have to wait for a more
+advanced course.
+
+The transformations of Eq. 58 predict a strikingly simple relation
+in a certain class of cases. Suppose that in one frame, say the ``un-
+
+primed'' coordinates, the magnetic field $\vc{B}$ is zero everywhere. Then
+the fields observed in the other frame are:
+E,' = E, Ey' = yE,, E; yEz
+
+\begin{equation}
+\end{equation}
+' BYE11
+
+(59)
+
+B,' = 0 B1,' = ByEz B3'
+
+This implies a certain relation between the electric and the magnetic
+field everywhere in the ``primed'' frame, namely:
+
+\begin{equation}
+\end{equation}
+B,' : 0 By' : BE,' Bz' : -BE,,' (60)
+
+Remembering that in this instance the velocity of the unprimed frame
+is a vector in the -x' direction, as seen in the primed frame, we can
+express the relation above as a vector cross-product, and thus obtain
+a more general rule:
+
+\begin{equation}
+\end{equation}
+    
+  
+
+I
+
+B' =  x E' (if B = 0 everywhere in some frame) (61)
+
+C
+
+ 
+
+Here v' means the velocity, as observed from the primed frame, of
+that special frame in which $\vc{B}$ happens to be everywhere zero.
+In exactly the same way, we deduce from Eq. 58 that if E = O
+
+everywhere in one frame, which we shall call the unprimed frame.
+then in another frame
+
+ 
+   
+\begin{equation}
+\end{equation}
+
+  
+ 
+
+E' = _.  x B' (if E = 0 everywhere in some frame)
+c
+
+(62)
+
+ 
+
+Here, as in Eq. 61, v' is the velocity of the unprimed frame (in this
+case the (me in which $\vc{E}$ is evervwhere zero) as seen from the orimed
+
+% p. 215
+frame. The parenthetical restrictions on Eqs. 61 and 62 are pretty
+severe, of course. Often there will be no frame in which $\vc{B}$ is zero
+everywhere, and no frame in which the electric charge density, and
+therefore E, is zero everywhere.
+
+Because Eq. 61 involves only quantities measured in the same
+frame of reference, it is easy to apply, whenever the restriction is
+met, to fields that vary in space.]'
+
+A good example is the field of a point charge q moving with constant
+velocity, the problem studied in Chap. 5. Take the unprimed
+frame to be the frame in which the charge is at rest. In this frame,
+of course, there is no magnetic field. Equation 61 tells us that in the
+``lab'' frame, where we find the charge moving with speed 12, there
+must be a magnetic field perpendicular to the electric field and to the
+direction of motion. We have already worked out the exact form of
+the electric field in this frame: We know the field is radial from the
+instantaneous position of the charge, with a magnitude given by
+Eq. 5.12. The magnetic field lines must be circles around the direction
+of motion, as indicated crudely in Fig. 6.26. When the velocity
+of the charge is high, so that y > 1, the radial ``spokes'' which are the
+electric field lines are folded together into a thin disk. The circular
+magnetic field lines are likewise concentrated in this disk. The magnitude
+of $\vc{B}$ is then nearly equal to the magnitude of E. That is, the
+magnitude of the magnetic field in gauss is almost exactly the same
+as the magnitude of the electric field, at the same point and instant
+of time, in statvolts/cm.
+
+We have come a long way from Coulomb's law in the last two
+chapters. Yet with each step we have only been following out consistently
+the requirements of relativity and of the invariance of electric
+charge. We can begin to see that the existence of the magnetic
+field and its curiously symmetrical relationship to the electric field
+is a necessary consequence of these general principles. We remind
+the reader again that this was not at all the historical order of discovery
+and elucidation of the laws of electromagnetism. One aspect
+of the coupling between the electric and magnetic fields which is
+implicit in Eq. 58 came to light in Michael Faraday's experiments
+with changing electrical currents. That was seventy-five years before
+anyone thought of writing down equations like those in the box.
+
+'rFor spatially varying fields, the meaning of Eq. 58 is E'(x',y',z',t') = E(x,y,z,I), etc.
+
+Thus if we want to compute the fields that will be observed everywhere in the primed
+frame at the instant t', we have to use for each point (x',y',:') the time t that goes with
+x'. y'. z'. t', as well as the $x$, $y$, and $z$ that go with x', y', z', t'. For instance, it is the
+values of B; and B!' at that time t, at that point (x,y,z), that go on the right in the last
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+% p. 216
+[American Journal of Science [3], XV, 30-38, 1878]
+
+The experiments described in this paper were made with a view of
+etermining whether or not an electrified body in motion produces
+agnetic effects. There seems to be no theoretical ground upon which
+3 can settle the question, seeing that the magnetic action of a con-
+icted electric current may be ascribed to some mutual action between
+e conductor and the current. Hence an experiment is of value. Pro-
+ssor Maxwell, in his ' Treatise on Electricity,' Art. 770, has computed
+e magnetic action of a moving electrified surface, but that the action
+:ists has not yet been proved experimentally or theoretically.
+
+The apparatus employed consisted of a vulcanite disc 21-1 centi-
+etres in diameter and -5 centimetre thick which could be made to
+svolve around a vertical axis with a velocity of 61- turns per second.
+u either side of the disc at a distance of -6 cm. were fixed glass plates
+wing a diameter of 38-9 cm. and a hole in the centre of 7-8 cm. The
+ilcanite disc was gilded on both sides and the glass plates had an
+inular ring of gilt on one side, the outside and inside diameters being
+L-0 cm. and 8-9 cm. respectively. The gilt sides could be turned
+»ward or from the revolving disc but were usually turned toward it so
+rat the problem might be calculated more readily and there should
+3 no uncertainty as to the electrification. The outside plates were
+sually connected with the earth ; and the inside disc with an electric
+ittery, by means of a point which approached within one-third of a
+illimetre of the edge and turned toward it. As the edge was broad,
+re point would not discharge unless there was a difference of potential
+etween it and the edge. Between the electric battery and the disc,
+
+1The experiments described were made in the laboratory of the Berlin University
+rough the kindness of Professor Helmholtz, to Whose advice they are greatly in-
+sbted for their completeness. The idea of the experiment first occurred to me in
+$68 and was recorded in a note book of that date.
+
+216
+
+ 
+
+% p. 217
+\section{Rowland's experiment}
+
+As we remarked in Sec. 5.9, it was not obvious a hundred years
+ago that a current flowing in a wire and a moving electrically charged
+object are essentially alike as sources of magnetic field. The unified
+view of electricity and magnetism which was then emerging from
+Maxwell's work suggested that any moving charge ought to cause a
+magnetic field, but experimental proof was hard to come by.
+
+That the motion of an electrostatically charged sheet produces a
+magnetic field was first demonstrated by Henry Rowland, the great
+American physicist renowned for his perfection of the diffraction
+grating. Rowland made many ingenious and accurate electrical
+measurements, but none that taxed his experimental virtuosity as
+severely as the detection and measurement of the magnetic field of
+a rotating charged disk. The field to be detected was something like
+lO'5 of the earth's field in magnitude---a formidable experiment,
+even with today's instruments! In Fig. 6.27, you will see a sketch
+of Rowland's apparatus and a reproduction of the first page of the
+paper in which he described his experiment. Ten years before Hertz'
+discovery of electromagnetic waves, Rowland's result gave inde-
+
+pendent, if less dramatic, support to Maxwell's theory of the electromagnetic
+field.
+
+\section{Electric conduction in a magnetic field: the Hall effect}
+
+When a current flows in a conductor in the presence of a magnetic
+field, the force (q/c)v x B acts directly on the moving charge car-
+riers. Yet we observe a force on the conductor as a whole. Let's
+see how this comes about. Figure 6.28a shows a section of a metal
+bar in which a steady current is flowing. Driven by a field E, electrons
+are drifting to the left with average speed 6, which has the same
+meaning as the 17 in our discussion of conduction in Chap. 4. The
+conduction electrons are indicated, very schematically, by the white
+dots. The black dots are the positive ions which form the rigid framework
+of the solid metal bar. Since the electrons are negative, we have
+a current in the y direction. The current density J and the field E
+are related by the conductivity of the metal, a, as usual: J = (IE.
+There is no magnetic field in Fig. 6280 except that of the current
+itself, which we shall ignore. Now an external field $\vc{B}$ in the x direction
+is switched on. The state of motion immediately thereafter is
+
+% p. 218
+% p. 219
+\/ll/I-41.1: u .llII(/ Lvnusnvuvuu 1. vvvuw 54!]
+
+shown in Fig. 6.28b. The electrons are being deflected downward.
+But since they cannot escape at the bottom of the bar, they simply
+pile up there, until the surplus of negative charge at the bottom of the
+bar and the corresponding excess of positive charge at the top creates
+an electric field E, in which the upward force, of magnitude eE,,
+exactly balances the downward force (e/c)t'>B. In the steady state
+(which is attained very quickly!) the average motion is horizontal
+again, and there existsin the interior of the metal this transverse
+electric field E,, as observed in coordinates fixed in the metal lattice
+(Fig. 6.28c). This field causes a downward force on the positive
+ions. That is how the force, (- e/c)v x B, on the electrons is passed
+on to the solid bar. The bar, of course, pushes on whatever is holding
+it---or, if nothing is holding it, accelerates downward.
+
+The existence of the transverse field E, can be demonstrated electrically
+in a very direct way (Fig. 6.29). Wires are connected to
+points $P_1$ and $P_2$ on opposite edges of the bar, the junction points
+being carefully located so that they are at the same potential when
+current is flowing in the bar and the field $\vc{B}$ is zero. The wires are
+connected to a galvanometer. After the magnetic field $\vc{B}$ is switched
+on, a steady current flows in this circuit, showing that $P_1$ and $P_2$ are
+no longer at the same potential. In fact, $P_1$ is positive, relative to $P_2$
+in the system we have just described.
+
+This effect was discovered in 1879 by E. H. Hall, who was studying
+under Rowland at Johns Hopkins. In those days no one understood
+the mechanism of conduction in metals. The electron itself was un-
+known. The Hall effect proved to be a most instructive phenomenon.
+
+ 
+
+% p. 220
+For modern research on electric conduction, especially in semicon-
+ductors, Hall-effect measurements are indispensable.
+
+We have seen that the magnetic field of a current, as well as the
+force on a current-carrying conductor in an external field, are quite
+independent of the details of the conduction process. The Hall
+effect, however, reveals something about the charge carriers. Notice
+that if the current in the bar in Fig. 6.28 had been due to positive
+charges moving to the right, a transverse field E, of opposite direction
+would have developed. Thus the sign of the ``Hall potential differ-
+ence'' between $P_1$ and $P_2$ tells us whether the charge carriers are positive
+or negative. Quantitatively, the magnitude of the transverse
+field E, is determined by the equality
+
+\begin{equation}
+\end{equation}
+
+qEt : q B 01' E5 : B 
+
+ole:
+ole:
+
+On the other hand, the average carrier velocity 6 is related to the
+current density J by
+
+\begin{equation}
+\end{equation}
+
+J : nqfi (64)
+
+where n is 'the number of charge carriers per unit volume, with charge
+q in each. Combining Eqs. 63 and 64, we can eliminate 6:
+
+\begin{equation}
+\end{equation}
+
+E, = JB (65)
+
+E,, J, and $\vc{B}$ can be measured in an arrangement like that in
+Fig. 6.29. E, is just the potential difference between $P_1$ and $P_2$ divided
+by the width of the bar; J the total current divided by the cross-
+sectional area. Thus we can infer (1 /nqc). This factor is called the
+``Hall coefficient'' for the substance. For many metals the Hall
+coefficient has about the value you would expect if there is roughly
+one conduction electron per atom, with the sign of the effect indicating
+that the charge carriers are indeed negative. But some metals
+have Hall coefficients of the opposite sign! This remained a baffiing
+
+paradox until it was explained by the quantum theory of electrons
+in metals.
+
+\fi
