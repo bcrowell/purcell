@@ -269,19 +269,17 @@ We should add that the quantity we have defined as $\vc{B}$ and have
 been calling the magnetic field strength, is called in some books the
 magnetic \emph{induction}.\index{magnetic induction|see{magnetic field}}
 
-\iffalse
-
 \section{Some properties of the magnetic field}
 
 The magnetic field, like the electric field, is a device for describing
 how charged particles interact with one another. If we say that the
 magnetic field at the point (4.5,3.2,6.0) at 12:00 noon points horizontally
-in the negative y direction and has a magnitude of 5 gauss.
+in the negative $y$ direction and has a magnitude of 5 gauss,
 we are making a statement about the acceleration which a moving
 charged particle at that point in space-time would exhibit. The remarkable
 thing is that a statement of this form, giving simply a vector
-quantity B, says all there is to say. With it one can predict uniquely
-the velocity-dependent part of the force on any charged particle moving
+quantity $\vc{B}$, says all there is to say. With it one can predict uniquely
+the velocity-dependent part of the force on \emph{any} charged particle moving
 with any velocity. It makes unnecessary any further description
 of the other charged particles which are the sources of the field. In
 other words, if two quite different systems of moving charges happen
@@ -300,15 +298,16 @@ insights and great discoveries. Let's view the magnetic field as concretely
 as they did and learn some of its properties.
 
 % p. 191
+
 So far we have studied only the magnetic field of a straight wire
 or filament of steady current. The field direction, we found, is everywhere
 perpendicular to a plane containing the filament and the point
 where the field is observed. The magnitude of the field is proportional
-to 1 /r. The field lines are circles surrounding the filament, as
+to $1/r$. The field lines are circles surrounding the filament, as
 sketched in Fig. 6.5. The sense of direction of $\vc{B}$ is determined by our
 previously adopted convention about the vector cross-product, by
 the (arbitrary) decision to write the second term in Eq. 1 as
-+ (q/c) v x B, and by the physical fact that a positive charge moving
+$+ (q/c) \vc{v} \times \vc{B}$, and by the \emph{physical fact} that a positive charge moving
 in the direction of a positive current is attracted to it rather than
 repelled. These are all consistent if we relate the direction of $\vc{B}$ to
 the direction of the current that is its source in the manner shown
@@ -319,20 +318,20 @@ relation.
 Let's look at the line integral of $\vc{B}$ around a closed path in this field.
 (Remember that a similar inquiry in the case of the electric field of
 a point charge led us to a simple and fundamental property of all
-electrostatic fields.) Consider first the path ABCD in Fig. 6.6a. This
+electrostatic fields.) Consider first the path $ABCD$ in Fig. 6.6a. This
 lies in a plane perpendicular to the wire; in fact, we need only work
-in this plane. for $\vc{B}$ has no component parallel to the wire. The line
+in this plane, for $\vc{B}$ has no component parallel to the wire. The line
 integral of $\vc{B}$ around the path shown is zero, for the following reason.
-Paths BC and DA are perpendicular to $\vc{B}$ and contribute nothing.
-Along AB, $\vc{B}$ is stronger in the ratio r2/r1 than it is along CD; but CD
-is longer than AB by the same factor, for these two arcs subtend the
-same angle at the wire. So the two arcs give equal and opposite con-
-tributions, and the whole integral is zero.
+Paths $BC$ and $DA$ are perpendicular to $\vc{B}$ and contribute nothing.
+Along $AB$, $\vc{B}$ is stronger in the ratio $r_2/r_1$ than it is along $CD$; but $CD$
+is longer than $AB$ by the same factor, for these two arcs subtend the
+same angle at the wire. So the two arcs give equal and opposite 
+contributions, and the whole integral is zero.
 
 It follows that the line integral is also zero on any path that can
 be constructed out of radial segments and arcs, such as the path in
 Fig. 6.61). From this it is a short step to conclude that the line integral
-is zero around any path that does not enclose the wire. To smooth
+is zero around \emph{any} path that does not enclose the wire. To smooth
 out the corners we would only need to show that the integral around
 a little triangular path vanishes to a sufficient order. The same step
 was involved in the case of the electric field.
@@ -342,47 +341,43 @@ Fig. 6.6c, which, if it were made of string, could be pulled free. The
 line integral around any such path is zero.
 
 Now consider a circular path that encloses the wire, as in Fig. 6.6d.
-Here the circumference is 2-rrr, the field is 21 /or and everywhere parallel
+Here the circumference is $2\pi r$, the field is $2I/cr$ and everywhere parallel
 to the path, so the value of the line integral around this particular
-path is (27rr) (21/rc), or 47rI/c. We now claim that any path looping
-once around the wire must give the same value. Consider, for in-
-
+path is $(2\pi r)(2I/rc)$, or $4\pi I/c$. We now claim that \emph{any} path looping
+once around the wire must give the same value. Consider, for instance,
 % p. 192
-; on n.u'o . u. ' . 0. . 9. n 3 -
-I '_ " ' ' ' I"_. .0 no u' '0. I '-
-O' ' -. .0 I u' ' '-. 'o ' '-. .0 0
-
-- - -
-' ' I ' . '. -.0 - . .'I. ' .- 0'
--
-
-- -_ ' I'o' 1 .100 0 . 9| ' ' 'o . ' . 0
-
-'9. C " . on 9
-
-Pure water; negative ions moving
-right at 3.5 cm/sec; positive ions
-
-Copper wire; conduction electrons
-drifting to left with average
-
-velocity ~ 10'4 cm/sec
+the crooked path $C$ in Fig. 6.6e. Let us construct the path $C'$
+in Fig. 6.6f made from a path like $C$ and a circular path, but \emph{not}
+enclosing the wire. The line integral around $C'$ must be zero and therefore
+the integral around $C$ must be the negative of the integral around
+the circle, which we have already evaluated as $4\pi I/c$ in magnitude.
+The sign will depend in an obvious way on the sense of traversal of
+the path. Our general conclusion is:
+\begin{equation*}
+\boxed{
+  \int \vc{B}\cdot\der\vc{s} = \frac{4\pi}{c} \times \text{current enclosed by path}
+}
+\end{equation*}
+Equation 10 holds when the path loops the current filament once.
+Obviously a path which loops it $N$ times, like the one in Fig. 6.6g, will
+give just $N$ times as big a result for the line integral.
 
 % p. 193
 The magnetic field, as we have emphasized before, depends only
 on the rate of charge transport, the number of units of charge passing
 a given point in the circuit, per second. Figure 6.7 shows a circuit
-with a current of 5 mA (milliamperes), equivalent to 15 )< 106
-esu/sec. The average velocity of the charge carriers ranges from
-10-4 cm/sec in one part of the circuit to 0.8 times the speed of light
+with a current of 5 mA (milliamperes), equivalent to $15 \times 10^6\ \esu/\sunit$.
+The average velocity of the charge carriers ranges from
+$10^{-4}\ \cmunit/\sunit$ in one part of the circuit to 0.8 times the speed of light
 in another. The line integral of $\vc{B}$ over a closed path has the same
 value around every part of this circuit, namely:
-
-fB_ds _ ffI__ 477 )< (15 x 106 esu/sec)
-_ c _ 3 x 1010 cm/sec
-= 0.00628 gauss-cm (11)
-\begin{equation}
-\end{equation}
+\begin{align*}
+\begin{split}
+  \int \vc{B}\cdot\der\vc{s} &= \frac{4\pi I}{c}
+        = \frac{4\pi \:\times\: (15\times10^6\ \esu/\sunit)}{3\times10^{10}\ \cmunit/\sunit} \\
+    &= 0.00628\ \zu{gauss}\cdot\cmunit
+\end{split}
+\end{align*}
 
 What we have proved for the case of a long straight filament of
 current clearly holds, by superposition, for the field of any system
@@ -397,7 +392,7 @@ which currents the path encircles, and in which sense.
 However, we are interested in other things than long straight wires.
 We want to understand the magnetic field of any sort of current dis-
 tribution---for example, that of a current flowing in a closed loop. It
-turns out that these more general fields obey exactly the same law,
+turns out that these more general fields \emph{obey exactly the same law},
 Eq. 10. The line integral of $\vc{B}$ around a bent wire is equal to that
 around a long straight wire carrying the same current. This goes
 beyond anything we have so far deduced, so we must look on it here
@@ -405,89 +400,87 @@ as a postulate confirmed by the experimental tests of its con-
 sequences.
 
 To state the law in the most general way, we must talk about volume
-distributions of current._ A general steady current distribution
-is described by a volume current density J (x,y,z) which varies from
+distributions of current. A general steady current distribution
+is described by a volume current density $\vc{J}(x,y,z)$ which varies from
 place to place but is constant in time. A current in a wire is merely
-a special case in which J has a large value within the wire but is zero
+a special case in which $\vc{J}$ has a large value within the wire but is zero
 elsewhere. We discussed volume distribution of current in Chap. 4,
-where we noted that for time-independent currents, J has to satisfy
+where we noted that for time-independent currents, $\vc{J}$ has to satisfy
 the continuity equation, or conservation-of-charge condition,
-
 \begin{equation}
+  \div\vc{J} = 0
 \end{equation}
-divJ = 0 (12)
 
 % p. 194
- 
 
-Take any closed curve C in a region where currents are flowing.
-The total current enclosed by C is the flux of J through the surface
-
-spanning C, that is, the surface integral ISJ - da over this surface S
-
+Take any closed curve $C$ in a region where currents are flowing.
+The total current enclosed by $C$ is the flux of $\vc{J}$ through the surface
+spanning $C$, that is, the surface integral $\int_S\vc{J}\cdot\der\vc{a}$ over this surface $S$
 (see Fig. 6.9). A general statement of the relation in Eq. 10 is
 therefore:
-
 \begin{equation}
+  \int_C \vc{B}\cdot\der\vc{s} = \frac{4\pi}{c} \int_S \vc{J}\cdot\der\vc{a}
 \end{equation}
-fen-ds=4T"'SJ-da (13)
-
 Let us compare this with Stokes' theorem, which we developed in
 Chap. 2:
-
 \begin{equation}
+  \int_C \vc{F}\cdot\der\vc{s} = \int_S(\curl \vc{F})\cdot\der\vc{a}
 \end{equation}
 fCF - ds : fS(curl F) - da (14)
 We see that a statement equivalent to Eq. 13 is this:
-
-M
-C
-
 \begin{equation}
+\boxed{
+  \curl\vc{B} = \frac{4\pi\vc{J}}{c}
+}
 \end{equation}
-curlB_-_ (15)
-
 This is the simplest and most general statement of the relation between
 the magnetic field and the moving charges which are its source.
-However, Eq. 15 is not enough to determine B(x,y,z), given
-J(x,y,z), for many different vector fields could have the same curl.
+
+However, Eq. 15 is not enough to determine $\vc{B}(x,y,z)$, given
+$\vc{J}(x,y,z)$, for many different vector fields could have the same curl.
 We need to complete it with another condition. We had better think
-about the divergence of B. Going back to the magnetic field of a
+about the divergence of $\vc{B}$. Going back to the magnetic field of a
 single straight wire, we observe that the divergence of that field is
 zero. You can't draw a little box anywhere, even one enclosing the
 wire, which will have a net outward or inward flux. It is enough to
-note that the boxes V1 and V2 in Fig. 6.10 have no net flux and can
-shrink to zero without developing any. For this field then, \div B = 0,
+note that the boxes $V_1$ and $V_2$ in Fig. 6.10 have no net flux and can
+shrink to zero without developing any. For this field then, $\div B = 0$,
 and hence also for all superpositions of such fields. Again we postulate
 that the principle can be extended to the field of any distribution
 of currents, so that a companion to Eq. 12 is the condition
-
 \begin{equation}
+\boxed{
+  \div\vc{B} = 0
+}
 \end{equation}
-<16>
 
 Equations 15 and 16 together very nearly determine $\vc{B}$ uniquely
-if J is given. If we had two different fields B1(x,y,z) and B2(x,y,:)
-both satisfying Eqs. 15 and 16, their difference B1 --- B2 would be a
+if $\vc{J}$ is given. If we had two different fields $\vc{B}_1(x,y,z)$ and $\vc{B}_2(x,y,z)$
+both satisfying Eqs. 15 and 16, their difference $\vc{B}_1-\vc{B}_2$ would be a
 field with zero divergence and zero curl everywhere. Such a field is
-simply a constant vector B0, the same at all points in space. So except
+simply a constant vector $\vc{B}_0$, the same at all points in space. So except
 for the possible addition of a constant field pervading all space, the
-conditions \curl B = 47rJ/c, and \div B = 0, uniquely determine the
-
+conditions $\curl\vc{B}=4\pi\vc{J}/c$, and $\div \vc{B} = 0$, uniquely determine the
 % p. 195
 magnetic field of a given distribution of currents. It is interesting
 to compare these with their counterparts in the case of the electrostatic
 field. There we had the conditions
-
 \begin{equation}
+  \div\vc{E} = 4\pi\rho \qquad \text{and} \qquad \curl\vc{E}=0
 \end{equation}
-div E = 477p and \curl E = 0 (17)
 
 In the case of the electric field, however, we began with Coulomb's
 law, which expressed directly the contribution of each charge to the
 electric field at any point. Here we shall have to work our way back
-to some relation of that type.T We shall do so by means of a potential
-function.
+to some relation of that type.\footnote{The student may wonder why we couldn't have started from some equivalent of
+Coulomb's law for the interaction of currents. The answer is that a piece of a current
+filament, unlike an electric charge, is not an independent object that can be physically
+isolated. You cannot perform an experiment to determine the field from part of a
+circuit: if the rest of the circuit isn't there. the current can't be steady without violating
+the continuity condition.} We shall do so by means of a \emph{potential
+function}.
+
+\iffalse
 
 \section{Vector potential}
 
@@ -524,12 +517,6 @@ the curl of a vector function, like this:
 By obvious analogy, we call A the vector potential. It is not
 obvious, at this point, why this tactic is helpful. That will have to
 
-TThe student may wonder why we couldn't have started from some equivalent of
-Coulomb's law for the interaction of currents. The answer is that a piece of a current
-filament, unlike an electric charge, is not an independent object that can be physically
-isolated. You cannot perform an experiment to determine the field from part of a
-circuit: if the rest of the circuit isn't there. the current can't be steady without violating
-the continuity condition.
 
  
 
