@@ -21,13 +21,14 @@
 
 % some convenience commands for math:
 \renewcommand{\div}{\operatorname{div}} % the built-in is a division sign
-\newcommand{\curl}{\operatorname{curl}}
+\newcommand{\curl}{\operatorname{curl}} % Purcell sometimes spells out curl, sometimes uses del x (e.g., p. 198)
 \newcommand{\grad}{\boldsymbol{\nabla}} % Purcell uses bold nabla for gradient operator, but not, e.g., in Laplacian
 \newcommand{\xhat}{\hat{\vc{x}}}
 \newcommand{\yhat}{\hat{\vc{y}}}
 \newcommand{\zhat}{\hat{\vc{z}}}
 \newcommand{\rhat}{\hat{\vc{r}}}
 \newcommand{\nhat}{\hat{\vc{n}}}
+\newcommand{\phihat}{\hat{\boldsymbol{\varphi}}}
 \newcommand{\pot}{\varphi} % the style of phi with only a tail, not head, used for the potential
 \newcommand{\degunit}{\ensuremath{\mspace{0mu}^\circ}} % the \mspace{0mu} is a zero-width math space; need it so that, e.g., $2\times10^{-3}\degunit$ doesn't get
                                                        % interpreted as a double superscript

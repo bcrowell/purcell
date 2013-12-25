@@ -480,239 +480,196 @@ circuit: if the rest of the circuit isn't there. the current can't be steady wit
 the continuity condition.} We shall do so by means of a \emph{potential
 function}.
 
-\iffalse
-
 \section{Vector potential}
 
-We found that the scalar potential function $\pot$(x,y,z) gave us a
+We found that the scalar potential function $\pot(x,y,z)$ gave us a
 simple way to calculate the electrostatic field of a charge distribution.
-If there is some charge distribution p(x,y,z), the potential at any
-point (x1,y1,z1) is given by the volume integral
-
+If there is some charge distribution $\rho(x,y,z)$, the potential at any
+point $(x_1,y_1,z_1)$ is given by the volume integral
 \begin{equation}
+  \pot(x_1,y_1,z_1) = \int \frac{\rho(x_2,y_2,z_2)\;\der v_2}{r_{12}}
 \end{equation}
-f  (18)
-
-'P(x1,!/1.31) = H2
-
 The integration is extended over the whole charge distribution, and
-r12 is the magnitude of the distance from (x2,y2,z2) to (x1,y1,z1). The
-electric field $\vc{E}$ is obtained as the negative of the gradient of (p:
-
+$r_{12}$ is the magnitude of the distance from $(x_2,y_2,z_2)$ to $(x_1,y_1,z_1)$. The
+electric field $\vc{E}$ is obtained as the negative of the gradient of $\pot$:
 \begin{equation}
+  \vc{E} = -\grad \pot
 \end{equation}
-E = -grad$\pot$ (19)
 
 The same trick won't work here, because of the essentially different
-character of B. The curl of $\vc{B}$ is not necessarily zero, so $\vc{B}$ can't, in
+character of $\vc{B}$. The curl of $\vc{B}$ is not necessarily zero, so $\vc{B}$ can't, in
 general, be the gradient of a scalar potential. However, we know
 another kind of vector derivative, the curl. It turns out that we can
-usefully represent B, not as the gradient of a scalar function, but as
+usefully represent $\vc{B}$, not as the gradient of a scalar function, but as
 the curl of a vector function, like this:
-
 \begin{equation}
+\boxed{
+  \vc{B} = \curl\vc{A}
+}
 \end{equation}
-00>
 
-By obvious analogy, we call A the vector potential. It is not
+By obvious analogy, we call $\vc{A}$ the \intro{vector potential}. It is \emph{not}
 obvious, at this point, why this tactic is helpful. That will have to
-
-
- 
-
 % p. 196
 emerge as we proceed. It is encouraging that Eq. 16 is automatically
-satisfied, since \div \curl A = 0, for any A.T Or to put it another way,
-the fact that \div B = 0 presents us with the opportunity to represent
-B as the curl of another vector function. Our job now is to discover
-how to calculate A, when the current distribution J is given, so that
+satisfied, since $\div \curl \vc{A} = 0$, for any 
+$\vc{A}$.\footnote{If you are not familiar with this fact, refer back to Prob. 2.15.}
+Or to put it another way,
+the fact that $\div\vc{B} = 0$ presents us with the opportunity to represent
+$\vc{B}$ as the curl of another vector function. Our job now is to discover
+how to calculate $\vc{A}$, when the current distribution $\vc{J}$ is given, so that
 Eq. 20 will indeed yield the correct magnetic field. In view of Eq. 15,
-the relation between J and A is
-
+the relation between $\vc{J}$ and $\vc{A}$ is
 \begin{equation}
+  \curl(\curl\vc{A}) = \frac{4\pi\vc{J}}{c}
 \end{equation}
-curl (curl A) = 4L' (21)
-
-0
 
 Equation 21, being a vector equation, is really three equations.
-We shall work out one of them, say the x-component equation. The
-x component of \curl B is BB,/ By - BB,/Bz. The z and y components
-of B are, respectively,
-
+We shall work out one of them, say the $x$-component equation. The
+$x$ component of $\curl\vc{B}$ is $\partial B_z/\partial y-\partial B_y/\partial z$.
+The $z$ and $y$ components
+of $\vc{B}$ are
 \begin{equation}
+  B_z = \frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}
+  \qquad
+  B_y = \frac{\partial A_x}{\partial z} - \frac{\partial A_z}{\partial x}
 \end{equation}
-
-
-BA BA BA BA
-B, = 1' - " B = 3 - 2 22
-Bx By 1' Bz Bx ( )
-Thus the x component part of Eq. 21 reads
-
+Thus the $x$ component part of Eq. 21 reads
 \begin{equation}
+  \frac{\partial}{\partial y} \left(\frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}\right)
+ -\frac{\partial}{\partial z} \left(\frac{\partial A_x}{\partial z} - \frac{\partial A_z}{\partial x}\right)
+ = \frac{4\pi J_x}{c}
 \end{equation}
-
-_B_(BA,, _ BA,) _  _ BA,) : 477], (23)
-By Bx By Bz Bz Bx c
-
 We assume our functions are such that the order of partial differentiation
 can be interchanged. Taking advantage of that and rearranging
 a little, we can write Eq. 23 in this way:
-
 \begin{equation}
+  -\frac{\partial^2 A_x}{\partial y^2} - \frac{\partial^2 A_x}{\partial z^2}
+  +\frac{\partial}{\partial x} \left(\frac{\partial A_y}{\partial y}\right)
+  +\frac{\partial}{\partial x} \left(\frac{\partial A_z}{\partial z}\right)
+ = \frac{4\pi J_x}{c}
 \end{equation}
-
-_ a2A,_ BZA, a (aA,)+ a (aA,)_ 4771, (24)
-
-By? Bzz + B-x By B-x Bz c
 To make the thing more symmetrical, 1et's add and subtract the same
-term, BZA,/Bx2, on the left:
-
+term, $\partial^2 A_x/\partial x^2$, on the left:
 \begin{equation}
+  -\frac{\partial^2 A_x}{\partial x^2}
+  - \frac{\partial^2 A_x}{\partial y^2}
+  - \frac{\partial^2 A_x}{\partial z^2}
+  +\frac{\partial}{\partial x} \left(
+    \frac{\partial A_x}{\partial x}
+   +\frac{\partial A_y}{\partial y}
+   +\frac{\partial A_z}{\partial z}
+  \right)
+ = \frac{4\pi J_x}{c}
 \end{equation}
-
-ax? By? Bz2 +59?
-
-2 2 2
-B A, B A, B A, B (BA, + BA, + BA,) : 47rJ, (25)
-Bx By Bz c
-
 We can now recognize the first three terms as the negative of the
-Laplacian of A,. The quantity in parentheses is the divergence of A.
-Now we have a certain latitude in the construction of A. All we care
-
-"(If you are not familiar with this fact, refer back to Prob. 2.15.
-
+Laplacian of $A_x$. The quantity in parentheses is the divergence of $\vc{A}$.
+Now we have a certain latitude in the construction of $\vc{A}$. All we care
 % p. 197
 about is its curl; its divergence can be anything we like. Let us
-require thatl'
-
+\emph{require} that\footnote{To see why we are free to do this,
+suppose we had an $\vc{A}$ such that $\curl\vc{A}=\vc{B}$, but
+$\div \vc{A} = f(x,y,z) \ne 0$. Treating $f$ like the charge density $\rho$ in an electrostatic field, we
+obviously can find a field $\vc{F}$, the analog of the electrostatic $\vc{E}$, such that $\div\vc{F} = f$.
+But we know that the curl of such a field will be zero. Hence we could add $-\vc{F}$ to $\vc{A}$,
+making a new field with the correct curl and zero divergence.}
 \begin{equation}
+  \div \vc{A} = 0
 \end{equation}
-
-div A = 0 (26)
-
 In other words, among the various functions which might satisfy our
-requirement that \curl A = B, let us consider as candidates only those
+requirement that $\curl\vc{A} = \vc{B}$, let us consider as candidates only those
 which also have zero divergence. Then that part of Eq. 25 drops
 away and we are left simply with
-
 \begin{equation}
+  \frac{\partial^2 A_x}{\partial x^2}
+  + \frac{\partial^2 A_x}{\partial y^2}
+  + \frac{\partial^2 A_x}{\partial z^2}
+ = -\frac{4\pi J_x}{c}
 \end{equation}
 
-a2A, a2A, a2A, _ 4771,
-ax? + ayz + fizz _- c
-
-(27)
-
-J, is a known scalar function of x, y, z. Let us compare Eq. 27 with
+$J_x$ is a known scalar function of $x$, $y$, and $z$. Let us compare Eq. 27 with
 Poisson's equation, Eq. 2.70, which read:
-
 \begin{equation}
+  \frac{\partial^2 \pot}{\partial x^2}
+  + \frac{\partial^2 \pot}{\partial y^2}
+  + \frac{\partial^2 \pot}{\partial z^2}
+ = -4\pi \rho
 \end{equation}
-
--+---,+-=-4m> <28)
-
 The two equations are identical in form. We already know how to
-find a solution to Eq. 28. The volume integral in Eq. 18 is the pre-
-scription. Therefore a solution to Eq. 27 must be given by
-
+find a solution to Eq. 28. The volume integral in Eq. 18 is the 
+prescription. Therefore a solution to Eq. 27 must be given by
 \begin{equation}
+  A_x(x_1,y_1,z_1) = \frac{1}{c}\int \frac{J_x(x_2,y_2,z_2)\;\der v_2}{r_{12}}
 \end{equation}
-
-l J, , d
-A.(x1,y1.z1> = 3f (29)
-
 The other components must satisfy similar formulas. They can all
 be combined neatly in one vector formula:
-
 \begin{equation}
+\boxed{
+  \vc{A}(x_1,y_1,z_1) = \frac{1}{c}\int \frac{\vc{J}(x_2,y_2,z_2)\;\der v_2}{r_{12}}
+}
 \end{equation}
 
-A<x1,y1.z1) = %f (30)
-
-There is only one snag. We stipulated that \div A = 0, in order to
-get Eq. 27. How do we know the A given by Eq. 30 will have this
+There is only one snag. We stipulated that $\div\vc{A} = 0$, in order to
+get Eq. 27. How do we know the $\vc{A}$ given by Eq. 30 will have this
 special property? Fortunately, it can be shown that it does.
 
 As an example of a vector potential, consider a long straight wire
-carrying a current I. In Fig. 6.11 we see the current coming toward
-us out of the page, flowing along the positive z axis. We know what
+carrying a current $I$. In Fig. 6.11 we see the current coming toward
+us out of the page, flowing along the positive $z$ axis. We know what
 the magnetic field of the straight wire looks like. The field lines are
 circles, as sketched already in Fig. 6.5. A few are shown in Fig. 6.11.
-
-TTO see why we are free to do this, suppose we had an A such that \curl A _-. B, but
-div A = f(x,y,z) aé 0. Treating f like the charge density p in an electrostatic field, we
-obviously can find a field F, the analog of the electrostatic E, such that \div F = f.
-But we know that the curl of such a field will be zero. Hence we could add -F to A,
-making a new field with the correct curl and zero divergence.
-
 % p. 198
-The magnitude of $\vc{B}$ is 21 /or. Using a unit vector (in in the ``circum-
+The magnitude of $\vc{B}$ is $2I/cr$. Using a unit vector (in in the ``circum-
 ferential'' direction we can write the vector $\vc{B}$ as
-
 \begin{equation}
+  \vc{B} = \frac{2I\phihat}{cr}
 \end{equation}
-
-_ 21¢
-- or
-
-B
-
-(31)
-
-Noting that the unit vector (in is - sin (pf: +' cos tpy, we can write this
-in terms of x and y as follows:
-
+Noting that the unit vector $\phihat$ is $-\sin\pot\xhat+\cos\pot\yhat$, we can write this
+in terms of $x$ and $y$ as follows:
 \begin{equation}
+  \vc{B} = \frac{2I(-\sin\pot\xhat+\cos\pot\yhat)}{c\sqrt{x^2+y^2}}
+         = \frac{2I}{c} \left(\frac{-y\xhat+x\yhat}{x^2+y^2}\right)
 \end{equation}
-
-B=2I(-sin<px+cos<py) :2_I(-yx+xy) (32)
-
-0, /x2 + y2 C x2 + yz
-
-One vector function A(x,y,z) that will satisfy V x A : B is the
+One vector function $\vc{A}(x,y,z)$ that will satisfy $\grad\times\vc{A}=\vc{B}$ is the
 following:
-
 \begin{equation}
+  \vc{A} = -\zhat \frac{I}{c} \ln(x^2+y^2)
 \end{equation}
-
-A = 4% In (x2 + y2) (33)
-
-To verify this, we calculate the components of V x A:
-
-\begin{equation}
-\end{equation}
-
-aA,, _ 6A,, _ -219
-
-(V X A), : _ e :B,
-ay 8;' c(x2 + y?) ( )
-aA, aAz 21
-(v x A). = 53 - ax =  <=B.,> (34)
-(V x A)z 2 5;! _ 3;' = 0 (:32)
-
+To verify this, we calculate the components of $\grad\times\vc{A}$:
+\begin{align}
+\begin{split}
+  (\grad\times\vc{A})_x &= \frac{\partial A_z}{\partial y} - \frac{\partial A_y}{\partial z}
+                         = \frac{-2Iy}{c(x^2+y^2)} \qquad (=B_x) \\
+  (\grad\times\vc{A})_y &= \frac{\partial A_x}{\partial z} - \frac{\partial A_z}{\partial x}
+                         = \frac{+2Ix}{c(x^2+y^2)} \qquad (=B_y) \\
+  (\grad\times\vc{A})_z &= \frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}
+                         = 0 \qquad\qquad\qquad (=B_z) \\
+\end{split}
+\end{align}
 Of course, this is not the only function that could serve as the vector
-potential for this particular B. To the A of Eq. 33 could be added any
+potential for this particular $\vc{B}$. To the $\vc{A}$ of Eq. 33 could be added any
 vector function with zero curl. This all holds for the space outside
-the wire. Inside the wire, $\vc{B}$ is different, so A must be different also.
+the wire. Inside the wire, $\vc{B}$ is different, so $\vc{A}$ must be different also.
 It is not hard to find the appropriate vector potential function for
 the interior of a solid round wire---see Prob. 6.13.
 
-Incidentally, the A for our particular example above could not
+Incidentally, the $\vc{A}$ for our particular example above could not
 have been obtained by Eq. 30. The integral would diverge owing to
 the infinite extent of the wire. This may remind you of the difficulty
 we encountered in Chap. 2 in setting up a scalar potential for the
 electric field of a charged wire. Indeed the two problems are very
 closely related, as we should expect from their identical geometry
 and the similarity of Eqs. 30 and 18. We found (Eq. 2.19) that a suitable
-scalar potential for the line charge problem is -}x In (x2 + y?) +
-arbitrary constant. This assigns zero potential to some arbitrary
+scalar potential for the line charge problem
+is $-\lambda\ln(x^2+y^2)+\text{\emph{arbitrary constant}}$.
+This assigns zero potential to some arbitrary
 point which is neither on the wire nor at infinite distance away. Both
 that scalar potential and the vector potential of Eq. 33 are singular
 at the origin and at infinity.
 
 % p. 199
+\iffalse
+
 \section{Field of any current-carrying wire}
 
 Figure 6.12 shows a loop of wire carrying current I. The vector
