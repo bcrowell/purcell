@@ -6,9 +6,10 @@
 \LoadClass[10pt,twoside,openright]{memoir}
 \usepackage[paperwidth=8.5in, paperheight=11in,bindingoffset=.75in]{geometry}
 \usepackage{url,framed}
-\RequirePackage{amsmath,amssymb,graphicx,enumerate}
+\RequirePackage{amsmath,amssymb,graphicx,enumerate,mathrsfs}
 % enumerate is for lc roman numerals; see http://tex.stackexchange.com/questions/54055/using-lower-case-roman-numerals-in-enumerate-lists ;
 %    used in section 4.8
+% mathrsfs is for script letters
 
 % The following is set up so vectors are in upright bold.
 \newcommand{\vc}[1]{\ensuremath{\mathbf{#1}}}
@@ -41,3 +42,14 @@
 \newcommand{\ohmunit}{\Omega} % Purcell uses "ohm"
 \newcommand{\ampunit}{A} % purcell uses "amp"
 \newcommand{\bell}{\boldsymbol{\ell}}
+
+% Get a script J that doesn't lean over so much:
+% http://tex.stackexchange.com/questions/21452/how-to-typeset-this-symbol
+\DeclareSymbolFont{rsfso}{U}{rsfso}{m}{n}
+\DeclareSymbolFontAlphabet{\mathscr}{rsfso}
+% Also need a bold version. See
+% http://tex.stackexchange.com/a/23741/6853
+% The mathdesign solution works, but gives a more sloping J, which doesn't match the non-bold one.
+
+\newcommand{\scrj}{\mathscr{J}}
+\newcommand{\bscrj}{\pmb{\scrj}}
