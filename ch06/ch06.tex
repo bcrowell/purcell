@@ -668,102 +668,81 @@ that scalar potential and the vector potential of Eq. 33 are singular
 at the origin and at infinity.
 
 % p. 199
-\iffalse
 
 \section{Field of any current-carrying wire}
 
-Figure 6.12 shows a loop of wire carrying current I. The vector
-potential A at the point (x1,y1,z1) is given according to Eq. 30 by the
+Figure 6.12 shows a loop of wire carrying current $I$. The vector
+potential $\vc{A}$ at the point $(x_1,y_1,z_1)$ is given according to Eq. 30 by the
 integral over the loop. For current confined to a thin wire we may
-take as the volume element dug a short section of the wire of length dl.
-The current density J is I/a, where a is the cross-section area, and
-dD2 = adl. Hence J dog = I dl, and if we make the vector dl point
-in the direction of positive current, we can simply replace J (102 by
-
-I dl. Thus for a thin wire or filament, we can write Eq. 30 as a line
+take as the volume element $\der v_2$ a short section of the wire of length $\der\bell$.
+The current density $J$ is $I/a$, where $a$ is the cross-section area, and
+$\der v_2 = a \der\bell$. Hence $\vc{J}\: \der v_2 = I\: \der\bell$, and if 
+we make the vector $\der\bell$ point
+in the direction of positive current, we can simply replace $\vc{J}\: \der v_2$ by
+$I\: \der\bell$. Thus for a thin wire or filament, we can write Eq. 30 as a line
 integral over the circuit:
-
 \begin{equation}
+  \vc{A} = \frac{1}{c} \int \frac{\der\bell}{r_{12}}
 \end{equation}
-A=Lff
-C 712
 
-(35)
-
-To calculate A everywhere and then find $\vc{B}$ by taking the curl of A
+To calculate $\vc{A}$ everywhere and then find $\vc{B}$ by taking the curl of $\vc{A}$
 might be a long job. It will be more useful to isolate one contribution
-to the line integral for A, the contribution from the segment of
+to the line integral for $\vc{A}$, the contribution from the segment of
 wire at the origin, where the current happens to be flowing in the
-x direction (Fig. 6.13). We shall denote the length of this segment
-by dl. Let dA be the contribution of this part of the integral to A.
-
-Then at the point (x,y,0) in the xy plane, dA, which points in the
-positive or direction, is
-
+$x$ direction (Fig. 6.13). We shall denote the length of this segment
+by $\der \ell$. Let $\der\vc{A}$ be the contribution of this part of the integral to $\vc{A}$.
+Then at the point $(x,y,0)$ in the $xy$ plane, $\der\vc{A}$, which points in the
+positive $x$ direction, is
 \begin{equation}
+  \der\vc{A} = \xhat \frac{(I/c)\der\ell}{\sqrt{x^2+y^2}}
 \end{equation}
-
-(I/c)dl
-' /x2 + y2
-
-dA = ,2 (36)
-
 % p. 200
-It is clear from symmetry that the contribution of this part of A to
-curl A must be perpendicular to the xy plane. Denoting the corresponding
-part of $\vc{B}$ by dB we have
-
-\begin{equation}
-\end{equation}
-
-(37)
+It is clear from symmetry that the contribution of this part of $\vc{A}$ to
+$\curl \vc{A}$ must be perpendicular to the $xy$ plane. Denoting the corresponding
+part of $\vc{B}$ by $\der\vc{B}$ we have
+\begin{align}
+\begin{split}
+  \der\vc{B} = \curl(\der\vc{A}) = \zhat\left(-\frac{\partial A_x}{\partial y}\right)
+        &= \zhat\frac{(I/c)\der\ell\cdot y}{(x^2+y^2)^{3/2}} \\
+        &= \zhat\frac{(I/c)\:\der\ell\:\sin\pot}{r^2} 
+\end{split}
+\end{align}
 
 With this result we can free ourselves at once from a particular
 coordinate system. Obviously all that matters is the relative orientation
-of the element dl and the radius vector r from that element to
-the point where the field $\vc{B}$ is to be found. The contribution to B
-from any short segment of wire dl can be taken to be a vector
-perpendicular to the plane containing dl and r, of magnitude
-I dl sin (p/1'20, where $\pot$ is the angle between dl and r. This can be
-
+of the element $\der\bell$ and the radius vector $\vc{r}$ from that element to
+the point where the field $\vc{B}$ is to be found. The contribution to $\vc{B}$
+from any short segment of wire $\der\bell$ can be taken to be a vector
+perpendicular to the plane containing $\der\bell$ and $\vc{r}$, of magnitude
+$I \der\ell \sin \pot/r^2c$, where $\pot$ is the angle between $\der\bell$ and $\vc{r}$. This can be
 written compactly using the cross-product, and is illustrated in
 Fig. 6.14.
-
 \begin{equation}
+  \der\vc{B} = \frac{I\:\der\bell\times \rhat}{cr^2}
 \end{equation}
-
-_Idlxf-
-_ GT2
-
-dB
-
-(38)
-
 % p. 201
 If you are familiar with the rules of the vector calculus, you can take
-a short cut from Eq. 35 to Eq. 38. Writing dB = V x dA, with
-dA = I dl/cr, we treat V as a vector, reversing the order of the cross-
-product and changing the sign. Here dl is a constant, so that V
-operates only on 1/r, otherwise we couldn't get away with this! We
-
-recall that V( l /r) = -f/r2 (as in going from the Coulomb potential
+a short cut from Eq. 35 to Eq. 38. Writing $\der\vc{B} = \grad \times \der\vc{A}$, with
+$\der\vc{A} = I\: \der\bell/cr$, we treat $\grad$ as a vector, reversing the order of the 
+cross-product and changing the sign. Here $\der\bell$ is a constant, so that $\grad$
+operates only on $1/r$, otherwise we couldn't get away with this! We
+recall that $\grad( 1 /r) = -\rhat/r^2$ (as in going from the Coulomb potential
 to the Coulomb field). Thus:
+\begin{align}
+\begin{split}
+  \der\vc{B} &= \grad\times \frac{I\:\der\bell}{cr} = -\frac{I}{c}\der\bell\times\grad\left(\frac{1}{r}\right) \\
+             &= -\frac{I}{c} \der\bell\times\left(-\frac{\rhat}{r^2}\right)
+                   = \frac{I\:\der\bell\times\rhat}{cr^2}
+\end{split}
+\end{align}
 
-\begin{equation}
-\end{equation}
-
-dB=VxLu= _Ld1xv<l)
-Cr C T
-=_ldtx(-L2)=j'd':" (39)
-C 7' CT
-
-Historically, Eq. 38 is known as the Biot-Savart Law. The meaning
-of Eq. 38 is that if $\vc{B}$ is computed by integrating over the complete
-circuit, taking the contribution from each element to be given by this
+Historically, Eq. 38 is known as the Biot-Savart law.\index{Biot-Savart law} The meaning
+of Eq. 38 is that if $\vc{B}$ is computed by integrating over the \emph{complete
+circuit}, taking the contribution from each element to be given by this
 formula, the resulting $\vc{B}$ will be correct. As we remarked in the footnote
 at the end of Sec. 6.2, the contribution of part of a circuit is not
 physically identifiable. In fact, Eq. 38 is not the only formula that
-could be used to get a correct result for B-to it could be added any
+could be used to get a correct result for $\vc{B}$---to it could be added any
 function which would give zero when integrated around a closed
 path.
 
@@ -777,6 +756,8 @@ has revealed to us a striking parallel between the relation of the electrostatic
 field $\vc{E}$ to its sources, electric charges. and the relation of the
 magnetic field $\vc{B}$ to steady currents. Its greatest usefulness lies ahead,
 in the study of time-varying fields, and electromagnetic radiation.
+
+\iffalse
 
 \section{Fields of rings and coils}
 
