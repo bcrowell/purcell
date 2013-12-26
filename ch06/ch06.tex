@@ -757,107 +757,79 @@ field $\vc{E}$ to its sources, electric charges. and the relation of the
 magnetic field $\vc{B}$ to steady currents. Its greatest usefulness lies ahead,
 in the study of time-varying fields, and electromagnetic radiation.
 
-\iffalse
-
 \section{Fields of rings and coils}
 
-A current filament in the form of a circular ring of radius bis shown
-in Fig. 6.l5a. We could predict without any calculation that the
-magnetic field of this source must look something like Fig. 6.151»,
+A current filament in the form of a circular ring of radius $b$ is shown
+in Fig. 6.15a. We could predict without any calculation that the
+magnetic field of this source must look something like Fig. 6.15b,
 where we have sketched some field lines in a plane through the axis
 of symmetry. The field as a whole must be rotationally symmetrical
-about this axis, the z axis in Fig. 6.l5a, and the field lines themselves
+about this axis, the $z$ axis in Fig. 6.l5a, and the field lines themselves
 must be symmetrical with respect to the plane of the loop, the
-
 % p. 202
-xy plane. Very close to the filament the field will resemble that near
+$xy$ plane. Very close to the filament the field will resemble that near
 a long straight wire, since the distant parts of the ring are there relatively
 unimportant.
 
 It is easy to calculate the field on the axis, using Eq. 38. Each element
-of the ring of length dl contributes a dB perpendicular to r. We
-
-need only include the 2: component of dB, for we know the total field
-on the axis must point in the z direction,
-
+of the ring of length $\der\ell$ contributes a $\der\vc{B}$ perpendicular to $\vc{r}$. We
+need only include the $z$ component of $\der\vc{B}$, for we know the total field
+on the axis must point in the $z$ direction,
 \begin{equation}
+  \der B_z = \frac{I\:\der\ell}{cr^2} \cos\theta = \frac{I\:\der\ell}{cr^2} \frac{b}{r}
+\end{equation}
+Integrating over the whole ring, we have simply $\int\:\der\ell = 2\pi b$, so the
+field on the axis at any point $z$ is
+\begin{equation}
+  B_z = \frac{2\pi b^2I}{cr^3} = \frac{2\pi b^2I}{c(b^2+z^2)^{3/2}}
+           \qquad (\text{field on axis})
+\end{equation}
+At the center of the ring, $z=0$, the magnitude of the field is
+\begin{equation}
+  B_z = \frac{2\pi I}{cb}
+           \qquad (\text{field at center})
 \end{equation}
 
-Idl Idlb
-dB: = goes 0 = $7 (40)
-
-Integrating over the whole ring, we have simply f dl = 2771), so the
-field on the axis at any point z, is
-
-\begin{equation}
-\end{equation}
-
-Bz = 27rb2I _ 2771721
-
-073 -    on axis) 
-
-At the center of the ring, 2: = 0, the magnitude of the field is
-
-\begin{equation}
-\end{equation}
-
-_ 2771
-
-B, _ W (field at center) (42)
-
-The cylindrical coil of wire shown in Fig. 6.l6a is usually called a
+The cylindrical coil of wire shown in Fig. 6.16a is usually called a
 solenoid. We assume the wire is closely and evenly spaced so that
-
 % p. 203
 the number of turns in the winding, per centimeter length along the
-cylinder, is a constant, n. Now the current path is actually helical,
+cylinder, is a constant, $n$. Now the current path is actually helical,
 but if the turns are many and closely spaced we can ignore this and
 regard the whole solenoid as equivalent to a stack of current rings.
 Then we can use Eq. 41 as a basis for calculating the field at any point
 such as the point z, on the axis of the coil. Take first the contribution
-from the current ring included between radii from the point z making
-angles 0 and 0 + d0 with the axis. The length of this segment of the
-solenoid, shaded in Fig. 6.16b, is 7 d0/ sin 0, and it is therefore equivalent
-to a ring carrying a current Inr d0/ sin 0. Since r = b/ sin 0, we
+from the current ring included between radii from the point $z$ making
+angles $\theta$ and $\theta+\der\theta$ with the axis. The length of this segment of the
+solenoid, shaded in Fig. 6.16b, is $r\der\theta/\sin\theta$, and it is therefore equivalent
+to a ring carrying a current $Inr \der\theta/ \sin \theta$. Since $r = b/ \sin\theta$, we
 have, for the contribution of this ring to the axial field:
-
 \begin{equation}
+  \der B_z = \frac{2\pi b^2}{cr^3}\frac{Inr\:\der\theta}{\sin\theta}
+            = \frac{2\pi I n}{c} \sin\theta\:\der\theta
 \end{equation}
-
-C13 sin0 c
-
-Carrying out the integration between the limits 01 and 02 gives
-
+Carrying out the integration between the limits $\theta_1$ and $\theta_2$ gives
 \begin{equation}
+  B_z = \frac{2\pi I n}{c} \int_{\theta_1}^{\theta_2} \sin\theta\:\der\theta
+      = \frac{2\pi I n}{c}\:(\cos\theta_1 - \cos\theta_2)
 \end{equation}
-
-3, = 27"" fifsin (M0 = 2:1" (cos 0. _ cos 0,) (44)
-
-C 1
 
 We have used Eq. 44 to make a graph, in Fig. 6.17, of the field
 strength on the axis of a coil the length of which is four times its
-diameter. The ordinate is the field strength B, relative to the field
-
+diameter. The ordinate is the field strength $B_z$ relative to the field
 % p. 204
- 
-
 strength in a coil of infinite length with the same number of turns
 per centimeter and the same current in each turn. For the infinite
-coil, 01 = 0 and 02 = 7r, so
-
+coil, $\theta_1 = 0$ and $\theta_2 = \pi$, so
 \begin{equation}
+  B_z = \frac{2\pi I n}{c} \qquad (\text{infinitely long solenoid})
 \end{equation}
-
-B, = 4:1" (infinitely long solenoid) (45)
-At the center of the ``four-to-one" coil the field is very nearly as large
-
+At the center of the ``four-to-one'' coil the field is very nearly as large
 as this, and it stays pretty nearly constant until we approach one of
 the ends.
 
 Figure 6.18 shows the magnetic field lines in and around a coil of
 these proportions. Note that some field lines actually penetrate the
-
 % p. 205
 winding. The cylindrical sheath of current is a surface of discontinuity
 for the magnetic field. Of course, if we were to examine the
@@ -865,9 +837,9 @@ field Very closely in the neighborhood of the wires, we would not find
 any infinitely abrupt kinks, but we would find a very complicated,
 ripply pattern around and through the individual wires.
 
-It is quite possible to make a long solenoid with a single turn of a
+It is quite possible to make a long solenoid with a \emph{single} turn of a
 thin wide ribbonlike conductor, as in Fig. 6.19. To this our calculation
-and the diagram in Fig. 6.18 apply exactly, the quantity nI being
+and the diagram in Fig. 6.18 apply exactly, the quantity $nI$ being
 merely replaced by the current per centimeter flowing in the sheet.
 Now the change in direction of a field line that penetrates the wall
 occurs entirely within the thickness of the sheet, as suggested in the
@@ -875,36 +847,28 @@ inset in Fig. 6.19.
 
 We could have found the field of the infinitely long solenoid without
 going through the analysis leading to Eq. 45. In the infinite
-
- 
-
-Fig. 6.19 A solenoid formed by a single cylin:
-sheet. Insert shows how the field lines change di
-current-carrying conductor.
-
 % p. 206
-solenoid, clearly, nothing can vary with z, the coordinate in the axial
-direction. The field must be parallel to 2 everywhere. Consider the
-line integral of $\vc{B}$ around a rectangular path like the path ABCDA in
-Fig. 6.20. The horizontal sides give nothing. The side CD had better
-give zero also, for if the line integral on CD has a finite value, the
-integral along any other such leg, such as C'D' would have to give
-the same, and we would have magnetic 'field filling all space outside
+solenoid, clearly, nothing can vary with $z$, the coordinate in the axial
+direction. The field must be parallel to $\zhat$ everywhere. Consider the
+line integral of $\vc{B}$ around a rectangular path like the path $ABCDA$ in
+Fig. 6.20. The horizontal sides give nothing. The side $CD$ had better
+give zero also, for if the line integral on $CD$ has a finite value, the
+integral along any other such leg, such as $C'D'$ would have to give
+the same, and we would have magnetic field filling all space outside
 the coil with constant intensity. We conclude that the field outside
-must be zero.T That leaves the line integral of $\vc{B}$ along AB which is
-B21 and the entire line integral must equal 477/c times the enclosed
-current. Hence Bzl = (471/c)nIl, or B2 = 4-rrnl/c, in agreement
-with Eq. 45.
-
-TWhy couldn't such a solenoid produce a uniform field in the entire space outside?
+must be zero.\footnote{Why couldn't such a solenoid produce a uniform field in the entire space outside?
 After all, the infinite flat current sheet we are about to consider has a uniform field
 filling the half space on each side of it. The solenoid, however, can be made as slender
 as we please, and it would be strange indeed if a solenoid of vanishing diameter could
-
 still cause a finite field everywhere. Perhaps you can think of a more conclusive
-argument.
+argument.} That leaves the line integral of $\vc{B}$ along $AB$ which is
+$B_z\ell$ and the entire line integral must equal $4\pi/c$ times the enclosed
+current. Hence $B_z\ell = (4\pi/c)nI\ell$, or $B_z=4\pi nI/c$, in agreement
+with Eq. 45.
 
 % p. 207
+\iffalse
+
 \section{Change in B at a current sheet}
 
 In the example of Fig. 619 we had a solenoid constructed from a
