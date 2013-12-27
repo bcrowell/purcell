@@ -979,152 +979,113 @@ principles in \intro{magnetohydrodynamics}, the study of electrically
 conducting fluids, a subject of interest both to electrical engineers
 and to astrophysicists.
 
-\iffalse
-
 \section{How the fields transform}
 
 A sheet of surface charge, if it is moving parallel to itself, constitutes
-a surface current. If we have a uniform charge density of 0
-on the surface, with the surface itself sliding along at speed 12, the
-surface current density is just 3 = av. This simple idea will help us
+a surface current. If we have a uniform charge density of $\sigma$
+on the surface, with the surface itself sliding along at speed $v$, the
+surface current density is just $\scrj=\sigma v$. This simple idea will help us
 to see how the electric and magnetic field quantities must change
 when we transform from one inertial frame of reference to another.
 
 Let's imagine two plane sheets of surface charge, parallel to the
-xz plane as in Fig. 6.25. Again, we show fragments of surfaces only,
+$xz$ plane as in Fig. 6.25. Again, we show fragments of surfaces only,
 in the sketch; the surfaces are really infinite in extent. In the inertial
-frame F, with coordinates $x$, $y$, and $z$, the density of surface charge
-is a on one sheet and -0 on the other. In this frame the uniform
-electric field $\vc{E}$ points in the positive y direction, and Gauss's law
+frame $F$, with coordinates $x$, $y$, and $z$, the density of surface charge
+is $\sigma$ on one sheet and $-\sigma$ on the other. In this frame the uniform
+electric field $\vc{E}$ points in the positive $y$ direction, and Gauss's law
 assures us, as usual, that its strength is:
-
 \begin{equation}
+  E_y = 4\pi\sigma
 \end{equation}
-
-El, : 47m (49)
-
-In this frame F the sheets are both moving in the positive x direction
-with speed 00, so that we have a pair of current sheets. The
-density of surface current is J, = ovo in one sheet, the negative of
+In this frame $F$ the sheets are both moving in the positive $x$ direction
+with speed $v_0$, so that we have a pair of current sheets. The
+density of surface current is $\scrj_x=\sigma v_0$ in one sheet, the negative of
 that in the other. As in the arrangements in Fig. 6.21, the field between
 two such current sheets is
-
 \begin{equation}
+  B_z = \frac{4\pi\scrj_x}{c} = \frac{4\pi\sigma v_0}{c} 
 \end{equation}
 
-B2 : 47r<~9, : 477000
-c c
+The inertial frame $F'$ is one that moves, as seen from $F$, with a speed
+$v$ in the positive $x$ direction. \emph{What fields will an observer in $F'$
+measure?} To answer this we need only find out what the sources look
+like in $F'$.
 
-(50)
-
-The inertial frame F ' is one that moves, as seen from F, with a speed
-v in the positive x direction. VVhat fields will an observer in F'
-measure? To answer this we need only find out what the sources look
-like in F'.
-
-In F' the x' velocity of the charge-bearing sheets is ué, given by
+In $F'$ the $x'$ velocity of the charge-bearing sheets is $v_0'$, given by
 the velocity addition formula:
-
 % p. 211
- 
-
-Fig. 6.25 The frame F' is moving, as
-in F, with a speed v in the positiv
-charged sheets are moving with spee«
-
-observer in F.
-
 \begin{equation}
+  v_0' = \frac{v_0-v}{1-v_0v/c^2} = c\frac{\beta_0-\beta}{1-\beta_0\beta}
 \end{equation}
-
-06 = L'; 2
-l - D01)/C2
-
-130-13
-
-0 1 _ BOB (51)
 There is a different Lorentz contraction of the charge density, in this
 frame, exactly as in our earlier example of the moving line charge,
 in Sec. 5.9. Repeating the argument we used then, the density in
-the rest frame of the charges themselves is o(1 - v02/c2)1/2, or o/yo,
-and therefore the density in the frame F' is
-
+the rest frame of the charges themselves is $\sigma(1 - v_0^2/c^2)^{1/2}$, or $\sigma/\gamma_0$,
+and therefore the density in the frame $F'$ is
 \begin{equation}
+  \sigma' = \sigma \frac{\gamma_0'}{\gamma_0}
 \end{equation}
-(52)
-
-As usual, ya stands for (1 - 052/c2)'1/2. By means of Eq. 51 we
-
-can eliminate ya, expressing it in terms of /30 and ,8, or yo and y.
+As usual, $\gamma_0'$ stands for $(1 - v_0'^2/c^2)^{-1/2}$. By means of Eq. 51 we
+can eliminate $\gamma_0'$, expressing it in terms of $\beta_0$ and $\beta$, or $\gamma_0$ and $\gamma$.
 When we do this, the result is:
-
 \begin{equation}
+  \sigma' = \sigma\gamma(1-\beta_0\beta)
 \end{equation}
-0' = 01/(1 - Bo/3) (53)
-
 % p. 212
-The surface current density in the frame F' is therefore
-
+The surface current density in the frame $F'$ is therefore
 \begin{equation}
+  \scrj' = \sigma' v_0' = \sigma\gamma(1-\beta_0\beta)c\frac{\beta_0-\beta}{1-\beta_0\beta}
+        = \sigma\gamma(v_0-v)
 \end{equation}
-3' =  = om ~ /2oB>c@15l = 0Y(Uo - v) (54)
-1 - 30.3
-We now know how the sources appear in frame F', so we know what
+We now know how the sources appear in frame $F'$, so we know what
 the fields in that frame must be. In saying this, we are again invoking
 the postulate of relativity. The laws of physics must be the same in
 all inertial frames, and that includes the formulas connecting electric
-
 field with surface charge density, and magnetic field with surface
 current density. It follows then that:
-
-\begin{equation}
-\end{equation}
-E1,' = 4770' = 1/ [47m --- (47:00  (55)
- 
-
-If we look back at the values of E,, and B', in Eqs. 49 and 50, we see
+\begin{align}
+  E_y' &= 4\pi\sigma'
+        = \gamma\left[4\pi\sigma-\left(\frac{4\pi\sigma v_0}{c}\right)\left(\frac{v}{c}\right)\right] \\
+  B_z' &= \frac{4\pi}{c}\scrj'
+        = \gamma\left[\frac{4\pi\sigma v_0}{c}-4\pi\sigma\left(\frac{v}{c}\right)\right] 
+\end{align}
+If we look back at the values of $E_y$, and $B_z$, in Eqs. 49 and 50, we see
 that our result can be written as follows:
-
-\begin{equation}
-\end{equation}
-E11, = l'(Ey - BB2)
-B2, = Y(B2 - BE11)
+\begin{align*}
+  E_y' &= \gamma(E_y - \beta B_z) \\
+  B_z' &= \gamma(B_z - \beta E_y)
+\end{align*}
 
 If the sandwich of current sheets had been oriented parallel to the
-xy plane, instead of the xz plane, we would have obtained relations
-connecting E; with E2 and B1,, and B; with By and E2. Of course they
+$xy$ plane, instead of the $xz$ plane, we would have obtained relations
+connecting $E_z'$ with $E_z$ and $B_y$, and $B_y'$ with $B_y$ and $E_z$. Of course they
 would have the same form as the relations above, but if you trace
 the directions through, you will find that there are differences of sign,
-following from the rules for the direction of B.
+following from the rules for the direction of $\vc{B}$.
 
 It remains to find how the field components in the direction of
 motion change. We had already discovered in Sec. 5.5 that a longitudinal
 component of $\vc{E}$ has the same magnitude in the two frames.
 That this is true also of a longitudinal component of $\vc{B}$ can be seen
-as follows. Suppose a longitudinal component of B, a B, component
+as follows. Suppose a longitudinal component of $\vc{B}$, a $B_x$ component
 in the arrangement in Fig. 6.25, is produced by a solenoid around the
-x axis in frame F. The field strength inside a solenoid, as we know,
-depends only on the current in the wire, I, which is charge per second,
-and n, the number of turns of wire per centimeter of axial length.
-In the frame F' the solenoid will be Lorentz-contracted so the number
+$x$ axis in frame $F$. The field strength inside a solenoid, as we know,
+depends only on the current in the wire, $I$, which is charge per second,
+and $n$, the number of turns of wire per centimeter of axial length.
+In the frame $F'$ the solenoid will be Lorentz-contracted so the number
 of turns per centimeter in that frame will be greater. But the current,
-as reckoned by the observer in F', will be reduced, since from his point
-of view, the F observer who measured the current by counting the
-
+as reckoned by the observer in $F'$, will be reduced, since from his point
+of view, the $F$ observer who measured the current by counting the
 number of electrons passing a point on the wire, per second, was
-using a slow-running watch. The time dilation iust cancels the length
-
-\begin{equation}
-\end{equation}
-(57)
-
+using a slow-running watch. The time dilation just cancels the length
 % p. 213
-contraction in the product nI. Indeed any quantity of the dimensions
-(longitudinal length) *1 >< (time)'1 is unchanged in a Lorentz trans-
-formation. So B,' = B,.
+contraction in the product $nI$. Indeed any quantity of the dimensions
+$(\text{longitudinal length}^{-1})\times(\text{time}^{-1})$ is unchanged in a Lorentz 
+transformation. So $B_x' = B_x$.
 
 Remember the point made early in Chap. 5, in the discussion
-following Eq. 5.6: The transformation properties of the field are local
+following Eq. 5.6: The transformation properties of the field are \emph{local}
 properties. The values of $\vc{E}$ and $\vc{B}$ at some space-time point in one
 frame must uniquely determine the field components observed in
 any other frame at that same space-time point. Therefore the fact
@@ -1135,43 +1096,45 @@ laws for the transformation of all components of the electric and
 magnetic field, of whatever origin or configuration.
 
 We give below the full list of transformations. All primed
-quantities are measured in the frame F', which is moving in the positive
-x direction with speed v as seen from F. Unprimed quantities
-are the numbers which are the results of measurement in F. As usual,
-,8 stands for 0/0 and y for (1 - ,82)'1/2.
+quantities are measured in the frame $F'$, which is moving in the positive
+$x$ direction with speed $v$ as seen from $F$. Unprimed quantities
+are the numbers which are the results of measurement in $F$. As usual,
+$\beta$ stands for$v/c$ and $\gamma$ for $(1-\beta^2)^{-1/2}$.
 
-\begin{equation}
-\end{equation}
-E; = E, E,' = y(E,, - /33,) E,' = y(E, + /313,)
-(58)
-
- 
-
-3:' = Bx Bu' = Y(By + .3152) B2' = Y(Bz - /3Eu)
+% In the following, the split environment causes it not to compile.
+\begin{framed}
+\begin{align}
+%\begin{split}
+  E_x'&=E_x    &    E_y'&=\gamma(E_y-\beta B_z)   &    E_z'&=\gamma(E_z+\beta B_y) \\
+  B_x'&=B_x    &    B_y'&=\gamma(B_y-\beta E_z)   &    B_z'&=\gamma(B_z+\beta E_y) 
+%\end{split}
+\end{align}
+\end{framed}
 
 The equations in the box confront us with an astonishing fact, their
-symmetry with respect to $\vc{E}$ and B. If the printer had mistakenly
-interchanged E's with B's, and y's with z's, the equations would come
+symmetry with respect to $\vc{E}$ and $\vc{B}$. If the printer had mistakenly
+interchanged $E$'s with $B$'s, and $y$'s with $z$'s, the equations would come
 out exactly the same! Yet our previous View had been that magnetism
-is a kind of ``second-order'' eff"ect arising from relativistic
+is a kind of ``second-order'' effect arising from relativistic
 changes in the electric fields of moving charges. Certainly magnetic
 phenomena as we find them in Nature are distinctly different from
 electrical phenomena. The world around us is by no means symmetrical
 with respect to electricity and magnetism. Nevertheless,
 with the sources out of the picture, we find that the fields themselves,
-E and B, are connected to one another in a highly symmetrical way.
+$\vc{E}$ and $\vc{B}$, are connected to one another in a highly symmetrical way.
 
 It appears too that the electric and magnetic fields are in some
 sense aspects, or components, of a single entity. We can speak of the
-electromagnetic field, and we may think of E,,, E,,, E2, B,,, B,,, and B2 as
-six components of the electromagnetic field. The same field viewed
+\emph{electromagnetic} field,\index{electromagnetic field}
+and we may think of $E_x$, $E_y$, $E_z$, $B_x$, $B_y$, and $B_z$ as
+six components of the electromagnetic field. The \emph{same} field viewed
 in different inertial frames will be represented by different sets of
 values for these components, somewhat as a vector is represented by
 different components in different coordinate systems rotated with
 respect to one another. However, the electromagnetic field so
-
+conceived is not a vector, mathematically speaking, but rather
 % p. 214
-something called a tensor. The totality of the equations in the box
+something called a \intro{tensor}. The totality of the equations in the box
 forms the prescription for transforming the components of such a
 tensor when we shift from one inertial frame to another. We are not
 going to develop that mathematical language here. In fact, we shall
@@ -1183,81 +1146,63 @@ in four-dimensional space-time, you will have to wait for a more
 advanced course.
 
 The transformations of Eq. 58 predict a strikingly simple relation
-in a certain class of cases. Suppose that in one frame, say the ``un-
-
-primed'' coordinates, the magnetic field $\vc{B}$ is zero everywhere. Then
+in a certain class of cases. Suppose that in one frame, say the ``unprimed''
+coordinates, the magnetic field $\vc{B}$ is zero everywhere. Then
 the fields observed in the other frame are:
-E,' = E, Ey' = yE,, E; yEz
-
-\begin{equation}
-\end{equation}
-' BYE11
-
-(59)
-
-B,' = 0 B1,' = ByEz B3'
-
+\begin{align}
+%\begin{split}
+    E_x'&=E_x   &   E_y'&=\gamma E_y         &   E_z'&=\gamma E_z \\
+    B_x'&=0     &   B_y'&=\beta\gamma E_z    &   B_z'&=-\beta\gamma E_y
+%\end{split}
+\end{align}
 This implies a certain relation between the electric and the magnetic
 field everywhere in the ``primed'' frame, namely:
-
 \begin{equation}
+  B_x'=0 \qquad B_y'=\beta E_z' \qquad B_z'=-\beta E_y'
 \end{equation}
-B,' : 0 By' : BE,' Bz' : -BE,,' (60)
-
 Remembering that in this instance the velocity of the unprimed frame
-is a vector in the -x' direction, as seen in the primed frame, we can
+is a vector in the $-\xhat'$ direction, as seen in the primed frame, we can
 express the relation above as a vector cross-product, and thus obtain
 a more general rule:
-
 \begin{equation}
+\boxed{
+  \vc{B}' = \left(\frac{\vc{v}'}{c}\right) \times \vc{E}'
+    \qquad (\text{if $\vc{B}=0$ everywhere in some frame})
+}
 \end{equation}
-    
-  
-
-I
-
-B' =  x E' (if B = 0 everywhere in some frame) (61)
-
-C
-
- 
-
-Here v' means the velocity, as observed from the primed frame, of
+Here $\vc{v}'$ means the velocity, as observed from the primed frame, of
 that special frame in which $\vc{B}$ happens to be everywhere zero.
-In exactly the same way, we deduce from Eq. 58 that if E = O
 
+In exactly the same way, we deduce from Eq. 58 that if $\vc{E} = O$
 everywhere in one frame, which we shall call the unprimed frame.
 then in another frame
-
- 
-   
 \begin{equation}
+\boxed{
+  \vc{E}' = -\left(\frac{\vc{v}'}{c}\right) \times \vc{B}'
+    \qquad (\text{if $\vc{E}=0$ everywhere in some frame})
+}
 \end{equation}
-
-  
- 
-
-E' = _.  x B' (if E = 0 everywhere in some frame)
-c
-
-(62)
-
- 
-
-Here, as in Eq. 61, v' is the velocity of the unprimed frame (in this
-case the (me in which $\vc{E}$ is evervwhere zero) as seen from the orimed
-
+Here, as in Eq. 61, $\vc{v}'$ is the velocity of the unprimed frame (in this
+case the one in which $\vc{E}$ is everywhere zero) as seen from the primed
 % p. 215
 frame. The parenthetical restrictions on Eqs. 61 and 62 are pretty
-severe, of course. Often there will be no frame in which $\vc{B}$ is zero
-everywhere, and no frame in which the electric charge density, and
-therefore E, is zero everywhere.
+severe, of course. Often there will be \emph{no} frame in which $\vc{B}$ is zero
+everywhere, and \emph{no} frame in which the electric charge density, and
+therefore $\vc{E}$, is zero everywhere.
 
 Because Eq. 61 involves only quantities measured in the same
 frame of reference, it is easy to apply, whenever the restriction is
-met, to fields that vary in space.]'
+met, to fields that vary in 
+space.\footnote{For spatially varying fields, the
+meaning of Eq. 58 is $E'(x',y',z',t') = E(x,y,z,t)$, etc.
+Thus if we want to compute the fields that will be observed everywhere in the primed
+frame at the instant $t'$, we have to use for each point $(x',y',z')$ the time $t$ that goes with
+$x'$, $y'$, $z'$, $t'$, as well as the $x$, $y$, and $z$ that
+go with $x'$, $y'$, $z'$, $t'$. For instance, it is the
+values of $B_z$ and $B_y$ at that time $t$, at that point $(x,y,z)$, that go on 
+the right in the last of the equations in the box.}
 
-A good example is the field of a point charge q moving with constant
+A good example is the field of a point charge $q$ moving with constant
 velocity, the problem studied in Chap. 5. Take the unprimed
 frame to be the frame in which the charge is at rest. In this frame,
 of course, there is no magnetic field. Equation 61 tells us that in the
@@ -1268,10 +1213,10 @@ the electric field in this frame: We know the field is radial from the
 instantaneous position of the charge, with a magnitude given by
 Eq. 5.12. The magnetic field lines must be circles around the direction
 of motion, as indicated crudely in Fig. 6.26. When the velocity
-of the charge is high, so that y > 1, the radial ``spokes'' which are the
+of the charge is high, so that $\gamma\gg 1$, the radial ``spokes'' which are the
 electric field lines are folded together into a thin disk. The circular
 magnetic field lines are likewise concentrated in this disk. The magnitude
-of $\vc{B}$ is then nearly equal to the magnitude of E. That is, the
+of $\vc{B}$ is then nearly equal to the magnitude of $\vc{E}$. That is, the
 magnitude of the magnetic field in gauss is almost exactly the same
 as the magnitude of the electric field, at the same point and instant
 of time, in statvolts/cm.
@@ -1288,62 +1233,6 @@ of the coupling between the electric and magnetic fields which is
 implicit in Eq. 58 came to light in Michael Faraday's experiments
 with changing electrical currents. That was seventy-five years before
 anyone thought of writing down equations like those in the box.
-
-'rFor spatially varying fields, the meaning of Eq. 58 is E'(x',y',z',t') = E(x,y,z,I), etc.
-
-Thus if we want to compute the fields that will be observed everywhere in the primed
-frame at the instant t', we have to use for each point (x',y',:') the time t that goes with
-x'. y'. z'. t', as well as the $x$, $y$, and $z$ that go with x', y', z', t'. For instance, it is the
-values of B; and B!' at that time t, at that point (x,y,z), that go on the right in the last
-
-  
-
- 
-
- 
-
- 
-
- 
-
-% p. 216
-[American Journal of Science [3], XV, 30-38, 1878]
-
-The experiments described in this paper were made with a view of
-etermining whether or not an electrified body in motion produces
-agnetic effects. There seems to be no theoretical ground upon which
-3 can settle the question, seeing that the magnetic action of a con-
-icted electric current may be ascribed to some mutual action between
-e conductor and the current. Hence an experiment is of value. Pro-
-ssor Maxwell, in his ' Treatise on Electricity,' Art. 770, has computed
-e magnetic action of a moving electrified surface, but that the action
-:ists has not yet been proved experimentally or theoretically.
-
-The apparatus employed consisted of a vulcanite disc 21-1 centi-
-etres in diameter and -5 centimetre thick which could be made to
-svolve around a vertical axis with a velocity of 61- turns per second.
-u either side of the disc at a distance of -6 cm. were fixed glass plates
-wing a diameter of 38-9 cm. and a hole in the centre of 7-8 cm. The
-ilcanite disc was gilded on both sides and the glass plates had an
-inular ring of gilt on one side, the outside and inside diameters being
-L-0 cm. and 8-9 cm. respectively. The gilt sides could be turned
-»ward or from the revolving disc but were usually turned toward it so
-rat the problem might be calculated more readily and there should
-3 no uncertainty as to the electrification. The outside plates were
-sually connected with the earth ; and the inside disc with an electric
-ittery, by means of a point which approached within one-third of a
-illimetre of the edge and turned toward it. As the edge was broad,
-re point would not discharge unless there was a difference of potential
-etween it and the edge. Between the electric battery and the disc,
-
-1The experiments described were made in the laboratory of the Berlin University
-rough the kindness of Professor Helmholtz, to Whose advice they are greatly in-
-sbted for their completeness. The idea of the experiment first occurred to me in
-$68 and was recorded in a note book of that date.
-
-216
-
- 
 
 % p. 217
 \section{Rowland's experiment}
@@ -1362,14 +1251,15 @@ grating. Rowland made many ingenious and accurate electrical
 measurements, but none that taxed his experimental virtuosity as
 severely as the detection and measurement of the magnetic field of
 a rotating charged disk. The field to be detected was something like
-lO'5 of the earth's field in magnitude---a formidable experiment,
+$10^{-5}$ of the earth's field in magnitude---a formidable experiment,
 even with today's instruments! In Fig. 6.27, you will see a sketch
 of Rowland's apparatus and a reproduction of the first page of the
 paper in which he described his experiment. Ten years before Hertz'
-discovery of electromagnetic waves, Rowland's result gave inde-
-
-pendent, if less dramatic, support to Maxwell's theory of the electromagnetic
+discovery of electromagnetic waves, Rowland's result gave 
+independent, if less dramatic, support to Maxwell's theory of the electromagnetic
 field.
+
+\iffalse
 
 \section{Electric conduction in a magnetic field: the Hall effect}
 
