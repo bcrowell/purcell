@@ -1,4 +1,5 @@
-\chapter{Electromagnetic induction and Maxwell's equations}
+\chapter[Electromagnetic induction and Maxwell's equations]
+      [Electromagnetic induction]{Electromagnetic induction and Maxwell's equations}
 
 \section{Faraday's discovery}
 
@@ -132,45 +133,43 @@ course we again depart from the historical order of development, but
 we do so (borrowing Faraday's own words from the end of the
 passage first quoted) \emph{to give the most concise view of the whole}.
 
-\iffalse
-
-\section{A conducting rod moves through a uniform magnetic field}
+\section[A conducting rod moves through a uniform magnetic field]
+      [A conducting rod moves through a magnetic field]{A conducting rod moves through a uniform magnetic field}
 
 Figure 7.2a shows a straight piece of wire, or slender metal rod,
-supposed to be moving at constant velocity v in a direction perpendicular
+supposed to be moving at constant velocity $\vc{v}$ in a direction perpendicular
 to its length. Pervading the space through which the rod
-moves there is a uniform magnetic field B, constant in time. This
+moves there is a uniform magnetic field $\vc{B}$, constant in time. This
 could be supplied by a large solenoid enclosing the entire region of
-the diagram. The reference frame F with coordinates x, y, z is the
+the diagram. The reference frame $\vc{F}$ with coordinates $x$, $y$, $z$ is the
 one in which this solenoid is at rest. In the absence of the rod there
-is no electric field in that frame, only the uniform magnetic field B.
+is no electric field in that frame, only the uniform magnetic field $\vc{B}$.
 The rod, being a conductor, contains charged particles that will
 move if a force is applied to them. Any charged particle that is
-carried along with the rod, such as the particle of charge q in Fig. 7.2b.
-
+carried along with the rod, such as the particle of charge $q$ in Fig. 7.2b.
 % p. 229
-necessarily moves through the magnetic field B and does therefore
+necessarily moves through the magnetic field $\vc{B}$ and does therefore
 experience a force
-
-f=%vxB (1)
-
-With B and v directed as shown in Fig. 7.2, the force is in the positive
-x direction if q is a positive charge, and in the opposite direction for
+\begin{equation}
+  \vc{f} = \frac{q}{c}\vc{v}\times\vc{B}
+\end{equation}
+With $\vc{B}$ and $\vc{v}$ directed as shown in Fig. 7.2, the force is in the positive
+$x$ direction if $q$ is a positive charge, and in the opposite direction for
 the negatively charged electrons that are in fact the mobile charge
 carriers in most conductors. The consequences will be the same,
 whether negatives or positives, or both, are mobile.
 
 When the rod is moving at constant speed and things have settled
-down to a steady state, the force f given by Eq. 1 must be balanced,
+down to a steady state, the force $\vc{f}$ given by Eq. 1 must be balanced,
 at every point inside the rod, by an equal and opposite force. This
 can only arise from an electric field in the rod. The electric field
-develops in this way: The force f pushes negative charges toward one
+develops in this way: The force $\vc{f}$ pushes negative charges toward one
 end of the rod, leaving the other end positively charged. This goes
-on until these separated charges themselves cause an electric field E
+on until these separated charges themselves cause an electric field $\vc{E}$
 such that, everywhere in the interior of the rod,
-
-qE = -f (2)
-
+\begin{equation}
+  q\vc{E} = -\vc{f}
+\end{equation}
 Then the motion of charge relative to the rod ceases. This charge
 distribution causes an electric field outside the rod, as well as inside.
 The field outside looks something like that of separated positive and
@@ -180,151 +179,141 @@ external field is sketched in Fig. 7.3a. Figure 7.31) is an enlarged view
 of the positively charged end of the rod, showing the charge distribution
 on the surface and some field lines both outside and inside the
 conductor. That is the way things look, at any instant of time, in
-frame F.
+frame $F$.
 
-Let us observe this system from a frame F' that moves with the rod.
-Ignoring the rod for the moment, we see in this frame F', indicated in
-Fig. 7.2c, a magnetic field B' (not much different from B if v is small)
+Let us observe this system from a frame $F'$ that moves with the rod.
+Ignoring the rod for the moment, we see in this frame $F'$, indicated in
+Fig. 7.2c, a magnetic field $\vc{B}'$ (not much different from $\vc{B}$ if $v$ is small)
 together with a uniform electric field, as given by Eq. 6.62,
-
-E'=-i)(B'=1XB' 
-
-c c
+\begin{equation}
+  \vc{E}' = -\frac{\vc{v}'}{c}\times\vc{B}' = \frac{\vc{v}}{c}\times\vc{B}'
+\end{equation}
 When we add the rod to this system, all we are doing is putting a
 stationary conducting rod into a uniform electric field. There will
-
 be a redistribution of charge on the surface of the rod so as to make
 the electric field zero inside, as in the case of the metal box of Fig. 3.6,
-
 % p. 230
 or of any other conductor in an electric field. The presence of the
-magnetic field B' has no influence on this static charge distribution.
-Figure 7.4a shows some electric field lines in the frame F', and in the
+magnetic field $\vc{B}'$ has no influence on this static charge distribution.
+Figure 7.4a shows some electric field lines in the frame $F'$, and in the
 magnified view of the end of the rod in Fig. 7.4b we observe that the
 electric field inside the rod is zero.
 
-Except for the Lorentz contraction, which is second order in 0/0,
+Except for the Lorentz contraction, which is second order in $v/c$
 the charge distribution seen at one instant in frame F, Fig. 7.31:, is the
-same as that seen in F'. The electric fields differ because the field in
+same as that seen in $F'$. The electric fields differ because the field in
 Fig. 7.3 is that of the surface charge distribution alone, while the
 electric field we see in Fig. 7.4 is the field of the surface charge
 distribution plus the uniform electric field that exists in that frame
-of reference. An observer in F says: ``Inside the rod there has developed
-an electric field E = - (v/c) x B, exerting a force qE -_-
--q(v/c) x B which just balances the force q(v/c) x B that would
-otherwise cause any charge q to move along the rod.'' An observer
-in F' says: ``Inside the rod there is no electric field, and although there
+of reference. An observer in $F$ says: ``Inside the rod there has developed
+an electric field $\vc{E} = - (\vc{v}/c) \times \vc{B}$, exerting a force 
+$q\vc{E}=-q(\vc{v}/c)\times\vc{B}$
+which just balances the force $q(\vc{v}/c) \times \vc{B}$ that would
+otherwise cause any charge $q$ to move along the rod.'' An observer
+in $F'$ says: ``Inside the rod there is no electric field, and although there
 is a uniform magnetic field here, no force arises from it because no
 charges are moving.'' Each account is correct.
 
-% p. 231
 % p. 232
 \section{A loop moves through a nonuniform magnetic field}
 
 What if we made a rectangular loop of wire, as shown in Fig. 7.5,
-and moved it at constant speed through the uniform field B? To
+and moved it at constant speed through the uniform field $\vc{B}$? To
 predict what will happen, we need only ask ourselves---adopting the
-frame F'-what would happen if we put such a loop into a uniform
-electric field. Obviously two opposite 'sides of the rectangle would
+frame $F'$---what would happen if we put such a loop into a uniform
+electric field. Obviously two opposite sides of the rectangle would
 acquire some charge, but that would be all. Suppose, however, that
-the field B in the frame F, though constant in time, is not uniform in
-space. To make this vivid, we show in Fig. 7.6 the field B with a short
-solenoid as its source.» This solenoid, together with the battery that
-supplies its constant current, is fixed near the origin in the frame F.
-(We said earlier there is no electric field in F; if we really use a
+the field $\vc{B}$ in the frame $F$, though constant in time, is \emph{not uniform} in
+space. To make this vivid, we show in Fig. 7.6 the field $\vc{B}$ with a short
+solenoid as its source. This solenoid, together with the battery that
+supplies its constant current, is fixed near the origin in the frame $F$.
+(We said earlier there is no electric field in $F$; if we really use a
 solenoid of finite resistance to provide the field, there will be an electric
 field associated with the battery and this circuit. It is irrelevant
 to our problem and can be ignored. Or we can pack the whole
 solenoid, with its battery, inside a metal box.)
 
-Now, with the loop moving with speed 12 in the y direction, in the
-frame F, let its position at some instant t be such that the magnetic
-field strength is B1 at the left side of the loop and B2 along the right
-side (Fig. 7.6). Let f denote the force which acts on a charge q that
+Now, with the loop moving with speed $v$ in the $y$ direction, in the
+frame $F$, let its position at some instant $t$ be such that the magnetic
+field strength is $B_1$ at the left side of the loop and $B_2$ along the right
+side (Fig. 7.6). Let $\vc{f}$ denote the force which acts on a charge $q$ that
 rides along with the loop. This force is a function of position on the
-loop, at this instant of time. Let's evaluate the line integral of f,
+loop, at this instant of time. Let's evaluate the line integral of $\vc{f}$,
 taken around the whole loop: On the two sides of the loop which lie
-parallel to the direction of motion, f is perpendicular to the path
-
- 
-
+parallel to the direction of motion, $\vc{f}$ is perpendicular to the path
 % p. 233
-element ds, so these give nothing. Taking account of the contributions
-from the other two sides, each of length w, we have:
+element $\der\vc{s}$, so these give nothing. Taking account of the contributions
+from the other two sides, each of length $w$, we have:
+\begin{equation}
+  \int \vc{f}\cdot\der\vc{s} = \frac{qv}{c}(B_1-B_2)w
+\end{equation}
 
-ff-ds = "7"(B1 - B2>w (4)
-
-If we imagine a charge q to move all around the loop, in a time
+If we imagine a charge $q$ to move all around the loop, in a time
 short enough so that the position of the loop has not changed ap-
-preciably, then Eq. 4 gives the work done by the force f. The work
-done per unit charge is (1/q)ff - ds. We call this quantity electromotive
-force. We use the symbol 8 for it, and often shorten the name
-to ``emf.'' 8 has the same dimensions as electric potential and is
+preciably, then Eq. 4 gives the work done by the force $\vc{f}$. The work
+done \emph{per unit charge} is $(1/q)\int\vc{f}\cdot\der\vc{s}$.
+We call this quantity \emph{electromotive force}.\index{electromotive force!generalized definition}
+We use the symbol $\emf$ for it, and often shorten the name
+to ``emf.'' $\emf$ has the same dimensions as electric potential and is
 measured in statvolts, or ergs per unit charge, in the CGS system.
-
-2, = if r - ds (5)
-q
-
-The term electromotive force was introduced earlier, in Sec. 4.10. It
+\begin{equation}
+  \emf = \frac{1}{q}\int\vc{f}\cdot\der\vc{s}
+\end{equation}
+The term \emph{electromotive force} was introduced earlier, in Sec. 4.10. It
 was defined as the work per unit charge involved in moving a charge
 around a circuit containing a voltaic cell. We now broaden the
 definition of emf to include any influence that causes charge to
 circulate around a closed path. If the path happens to be a physical
-circuit with resistance R, then the emf 8 will cause a current to flow
-according to Ohm's law: I = 8/R. In the particular case we are con-
-
-sidering, f is the force that acts on a charge moving in a magnetic
-field, and 8 has the magnitude:
-
-8 = $031 - B2) (6)
-
+circuit with resistance $R$, then the emf $\emf$ will cause a current to flow
+according to Ohm's law: $I = \emf/R$. In the particular case we are considering,
+$\vc{f}$ is the force that acts on a charge moving in a magnetic
+field, and $\emf$ has the magnitude:
+\begin{equation}
+  \emf = \frac{vw}{c}(B_1-B_2)
+\end{equation}
 The electromotive force given by Eq. 6 is related in a very simple way
-to the rate of change of magnetic flux through the loop. By the magnetic
-flux through a loop we mean the surface integral of B over a
-surface which has the loop for its boundary. The flux <1) through the
-
+to the \emph{rate of change of magnetic flux through the loop}. By the magnetic
+flux through a loop we mean the surface integral of $\vc{B}$ over a
+surface which has the loop for its boundary. The flux $\Phi$ through the
 closed curve or loop C in Fig. 7.7a is given by the surface integral
-of B over S1:
+of $\vc{B}$ over $S_1$:
+\begin{equation}
+  \Phi_{(S_1)} = \int_{S_1} \vc{B}\cdot\der\vc{a}_1
+\end{equation}
 
-'ptsn = SIB ' dal (7)
-
-We could draw infinitely many surfaces bounded by C. Figure 7.7b
-shows another one, S2. Why don't we have to specify which surface
-to use in computing the flux? It doesn't make any difierence because
-fB - da will have the same value for all such surfaces. Let's take a
-minute to settle this point once and for all. The flux through S2 will
-
-be IS B - dag. Notice that we let the vector dag stick out from the
-2
-
+We could draw infinitely many surfaces bounded by $C$. Figure 7.7b
+shows another one, $S_2$. Why don't we have to specify which surface
+to use in computing the flux? It \emph{doesn't make any difference} because
+$\int\vc{B}\cdot\der\vc{a}$ will have the same value for all such surfaces. Let's take a
+minute to settle this point once and for all. The flux through $S_2$ will
+be $\int_{S_2} \vc{B}\cdot\der\vc{a}_2$. Notice that we let the vector $\der\vc{a}_2$ stick out from the
 % p. 234
- 
-
-upper side of S2, to be consistent with our choice of side of S1. This
-will give a positive number if the net flux through C is upward.
-
-q)(S,_,) : S2B'da2 
-
+upper side of $S_2$, to be consistent with our choice of side of $S_1$. This
+will give a positive number if the net flux through $C$ is upward.
+\begin{equation}
+  \Phi_{(S_2)} = \int_{S_2} \vc{B}\cdot\der\vc{a}_2
+\end{equation}
 We learned in Sec. 6.2 that the magnetic field has zero divergence:
-div B = 0. It follows then from Gauss's theorem that if S is any
-closed surface (``balloon''), and Vis the volume inside it:
-
-fSB-da=fVdivBdv=0 (9)
-
+$\div\vc{B}$ = 0. It follows then from Gauss's theorem that if $S$ is any
+\emph{closed} surface (``balloon''), and $V$ is the volume inside it:
+\begin{equation}
+  \int_S \vc{B}\cdot\der\vc{a} = \int_V \div\vc{B}\:\der v = 0
+\end{equation}
 Apply this to the closed surface, rather like a kettle drum, formed by
-joining our S1 and S2, as in Fig. 7.7c. On S2 the outward normal is
-
-opposite to the vector da2 we used in calculating the flux through C.
+joining our $S_1$ and $S_2$, as in Fig. 7.7c. On $S_2$ the outward normal is
+opposite to the vector $\der\vc{a}_2$ we used in calculating the flux through $C$.
 Thus
-
-0=fSB-da=fB-dal +J'B-(-da2)
-or (10)
-S1B'da1 = S2B'da2
-
+\begin{align}
+\begin{split}
+  0 &= \int_S \vc{B}\cdot\der\vc{a} = \int \vc{B}\cdot\der\vc{a}_1+\int \vc{B}\cdot(-\der\vc{a}_2) \\
+\intertext{or}
+    & \int_{S_1} \vc{B}\cdot\der\vc{a}_1 =   \int_{S_2} \vc{B}\cdot\der\vc{a}_2
+\end{split}
+\end{align}
 This shows that it doesn't matter which surface we use to compute
-the flux through C.
+the flux through $C$.
 
-This is all pretty obvious if you realize that div B = 0 implies a
+This is all pretty obvious if you realize that $\div\vc{B}$ = 0 implies a
 kind of spatial conservation of flux. As much flux enters any volume
 as leaves it. (We are considering the situation in the whole space at
 one instant of time.) It is often helpful to visualize ``tubes'' of flux.
@@ -333,90 +322,80 @@ field line lies in the plane of the surface. It is a surface through
 which no flux passes, and we can think of it as containing a certain
 amount of flux, as a telephone cable contains wires. Through any
 closed curve drawn tightly around a flux tube, the same flux passes.
-This could be said about the electric field E only for regions where
-there is no electric charge, since div E = 477p. The magnetic field
+This could be said about the electric field $\vc{E}$ only for regions where
+there is no electric charge, since $\div\vc{E} = 4\pi\rho$. The magnetic field
 always has zero divergence everywhere.
 
-Returning now to the moving rectangular loop, let us find the rate
-of change of flux through the loop. In time dt the loop moves a distance
-1; dt. This changes in two ways the total flux through the loop,
-which is fB - da over a surface spanning the loop. As you can see
-in Fig. 7.9, flux is gained at the right, in amount B2wv dt, while an
-amount of flux Blwv dt is lost at the left. Hence dd), the change in
-flux through the loop in time dt, is
-
-d<I>= -(B1-B2)wvdt (ll)
-
+Returning now to the moving rectangular loop, let us find the \emph{rate
+of change} of flux through the loop. In time $\der t$ the loop moves a distance
+$v\;\der t$. This changes in two ways the total flux through the loop,
+which is $\int\vc{B}\cdot\der\vc{a}$ over a surface spanning the loop. As you can see
+in Fig. 7.9, flux is gained at the right, in amount $B_2 wv\:\der t$, while an
+amount of flux $B_1 wv\:\der t$ is lost at the left. Hence $\der\Phi$, the change in
+flux through the loop in time $\der t$, is
+\begin{equation}
+  \der\Phi = -(B_1-B_2)wv\:\der t
+\end{equation}
 % p. 235
 Comparing Eq. 11 with Eq. 6, we see that, in this case at least, the
 electromotive force can be expressed as:
-
-1 dd)
-
-8 _ - g? (12)
-
+\begin{equation}
+  \emf = -\frac{1}{c}\frac{\der\Phi}{\der t}
+\end{equation}
 We can show that this holds quite generally, for a loop of any shape
-moving in any manner. The loop C in Fig. 7.10 occupies the position
-C1 at time t, and it is moving so that it occupies the position C2 at
-time t + dt. A particular element of the loop ds has been transported
-with velocity v to its new position. S indicates a surface that spans
-
-the loop at time t. The flux through the loop at this instant of time is
-
-<I>(t) =fSB-da (13)
-
-The magnetic field B comes from sources that are stationary in our
+moving in any manner. The loop $C$ in Fig. 7.10 occupies the position
+$C_1$ at time $t$, and it is moving so that it occupies the position $C_2$ at
+time $t + \der t$. A particular element of the loop $\der s$ has been transported
+with velocity $\vc{v}$ to its new position. $S$ indicates a surface that spans
+the loop at time $t$. The flux through the loop at this instant of time is
+\begin{equation}
+  \Phi(t) = \int_S\vc{B}\cdot\der\vc{a}
+\end{equation}
+The magnetic field $\vc{B}$ comes from sources that are stationary in our
 frame of reference and remains constant in time, at any point fixed
-in this frame. At time t + dt a surface which spans the loop is the
-original surface S, left fixed in space, augmented by the ``rim'' dS.
-
-(Remember, we are allowed to use any surface spanning the loop to
+in this frame. At time $t + \der t$ a surface which spans the loop is the
+original surface $S$, left fixed in space, augmented by the ``rim'' $\der S$.
+(Remember, we are allowed to use \emph{any} surface spanning the loop to
 compute the flux through it.) Thus:
-
-€I>(t+ dt) =f
-
-S+dSB-da = <I>(t) +LSB-da (14)
-Hence the change in flux, in time dt, is just the flux through the ``rim''
-:15, ds B - da. On the rim, an element of surface area da can be ex-
-
-pressed as (v dt) x ds, so the integral over the surface dS can be
-written as an integral around the path C, in this way:
-
-d<I)=fdSB-da:fCB-[(vdt)xds] (15)
-
-Since dt is a constant for the integration, we can factor it out and
+\begin{equation}
+  \Phi(t+\der t) = \int_{S+\der S} \vc{B}\cdot\der\vc{a} = \Phi(t)+\int_{\der S}\vc{B}\cdot\der\vc{a}
+\end{equation}
+Hence the change in flux, in time $\der t$, is just the flux through the ``rim''
+$\der S$, $\int_{\der S}\vc{B}\cdot\der\vc{a}$. On the rim, an element of surface area da can be 
+expressed as $(\vc{v} \der t) \times \der\vc{s}$, so the integral over the surface $\der S$ can be
+written as an integral around the path $C$, in this way:
+\begin{equation}
+  \der\Phi = \int_{\der S}\vc{B}\cdot\der\vc{a} = \int_C \vc{B}\cdot[(\vc{v}\:\der t)\times\der\vc{s}]
+\end{equation}
+Since $\der t$ is a constant for the integration, we can factor it out and
 have:
-
-%'=fCB-(vxds) (16)
-
+\begin{equation}
+  \frac{\der\Phi}{\der t} = \int_C \vc{B}\cdot(\vc{v}\times\der\vc{s})
+\end{equation}
 According to the rule for the scalar triple product (Vol. I, p. 38,
-Eq. 52) we have the identity: a- (b x c) = - (b x a) - c. Using
-this to rearrange the integrand in Eq. 16, we have:
-
-%=-fC(vxB)-ds (17)
-
- 
-
+Eq. 52) we have the identity: $\vc{a}\cdot (\vc{b} \times \vc{c}) = - (\vc{b} \times \vc{a}) \cdot \vc{c}$.
+Using this to rearrange the integrand in Eq. 16, we have:
+\begin{equation}
+  \frac{\der\Phi}{\der t} = - \int_C (\vc{v}\times\vc{B})\cdot\der\vc{s}
+\end{equation}
 % p. 236
-  
-
-Now the force on a charge q which is carried along by the loop is just
-q(v x B) /c, so the electromotive force, which is the line integral
+Now the force on a charge $q$ which is carried along by the loop is just
+$q(\vc{v} \times \vc{B}) /c$, so the electromotive force, which is the line integral
 around the loop of the force per unit charge, is just
-
-2-.=%fC(vxB)-ds (18)
-
+\begin{equation}
+  \emf = \frac{1}{c} \int_C (\vc{v}\times\vc{B})\cdot\der\vc{s}
+\end{equation}
 Comparing Eq. 17 with Eq. 18 we get the simple relation already
 given in Eq. 12, but valid now for arbitrary shape and motion of the
-loop. (We did not even have to assume that v is the same for all
+loop. (We did not even have to assume that $\vc{v}$ is the same for all
 parts of the loop!) In summary, the line integral around a moving
-loop of f/q, the force per unit charge, is just --- 1/c times the rate of
+loop of $\vc{f}/q$, the force per unit charge, is just $-1/c$ times the rate of
 change of flux through the loop.
 
 The sense of the line integral and the direction in which flux is
 called positive are to be related by a right-hand-thread rule. For
-instance, in Fig. 7.6, the flux is upward through the loop and is
-decreasing. Taking the minus sign in Eq. 12 into account, our rule
+instance, in Fig. 7.6, the flux is \emph{upward} through the loop and is
+\emph{decreasing}. Taking the minus sign in Eq. 12 into account, our rule
 would predict an electromotive force which would tend to drive a
 positive charge around that loop in a counterclockwise direction, as
 seen looking down on the loop (Fig. 7.11).
@@ -425,14 +404,14 @@ There is a better way to look at this question of sign and direction.
 Notice that if a current should flow in the direction of the induced
 electromotive force, in the situation shown in Fig. 7.11, this current
 itself would create some flux through the loop in a direction to
-counteract the assumed flux change. That is an essential physical
+\emph{counteract} the assumed flux change. That is an essential physical
 fact, and not the consequence of an arbitrary convention about signs
 and directions. It is a manifestation of the tendency of systems to
 resist change. In this context it is traditionally called Lenz's law.
 
 Another example of Lenz's law is illustrated in Fig. 7.12. The
 conducting ring is falling in the magnetic field of the coil. The flux
-through the ring is downward and is increasing in magnitude. To
+through the ring is \emph{downward} and is \emph{increasing} in magnitude. To
 counteract this change, some new flux upward is needed. It would
 take a current flowing around the ring in the direction of the arrows
 to produce such flux. Lenz's law assures us that the induced emf will
@@ -443,15 +422,14 @@ is shown in Figs. 7.6 and 7.11, as it will if the loop has a finite resist-
 ance, some energy will be dissipated in the wire. What supplies this
 energy? To answer that, consider the force that acts on the current
 in the loop if it flows in the sense indicated by the arrow in Fig. 7.11.
-The conductor on the right, in the field B2, will experience a force
-toward the right, while the opposite side of the loop, in the field B1,
-
+The conductor on the right, in the field $B_2$, will experience a force
+toward the right, while the opposite side of the loop, in the field $B_1$,
 % p. 237
-will be pushed toward the left. But B1 is greater than B2, so the net
-force on the loop is toward the left, opposing the motion. To keep
+will be pushed toward the left. But $B_1$ is greater than $B_2$, so the net
+force on the loop is toward the left, \emph{opposing the motion}. To keep
 the loop moving at constant speed some external agency has to do
 work, and the energy thus invested eventually shows up as heat in
-the wire. Imagine what would happen if I.enz's law were violated,
+the wire. Imagine what would happen if Lenz's law were violated,
 or if the force on the loop were to act in a direction to assist the
 motion of the loop!
 
@@ -460,69 +438,68 @@ is a loop or coil that rotates in a magnetic field. Let's apply
 what we have just learned to the system shown in Fig. 7.13, a single
 loop rotating at constant speed in a magnetic field that is approximately
 uniform. The mechanical essentials, shaft, bearings, drive,
-etc., are not drawn. The field B is provided by the two fixed coils.
-Suppose the loop rotates with angular velocity on, in radians/sec. If
-its position at any instant is specified by the angle 0, then 0 = wt + 01,
-
+etc., are not drawn. The field $\vc{B}$ is provided by the two fixed coils.
+Suppose the loop rotates with angular velocity $\omega$ in radians/sec. If
+its position at any instant is specified by the angle $\theta$, then $\theta=\omega t +\alpha$,
 % p. 238
-where the constant oz is simply the position of the loop at t = 0. The
-component of B perpendicular to the plane of the loop is B sin 0.
-Therefore the flux through the loop at time t is
-
-CD(t) = SB sin (oat + OL) (19)
-
-where S is the area of the loop. For the induced electromotive force
-we then have: i
-l dll) _ _ SBoo
-
-s;=---
-
-cdt_
-
-cos (wt + or) (20)
-
+where the constant $\alpha$ is simply the position of the loop at $t = 0$. The
+component of $\vc{B}$ perpendicular to the plane of the loop is $B \sin \theta$.
+Therefore the flux through the loop at time $t$ is
+\begin{equation}
+  \Phi(t) = SB\sin(\omega t+\alpha)
+\end{equation}
+where $S$ is the area of the loop. For the induced electromotive force
+we then have: 
+\begin{equation}
+  \emf = -\frac{1}{c}\frac{\der\Phi}{\der t} = -\frac{SB\omega}{c} \cos(\omega t+\alpha)
+\end{equation}
 If the loop instead of being closed is connected through slip rings to
 external wires, as shown in Fig. 7.13, we can detect at these terminals
 a sinusoidally alternating potential difference.
 
 A numerical example may clear up any question about units.
-Suppose the magnetic field strength B is 500 gauss, the speed of rotation
-30 revolutions per second, the loop area 100 cm2. Then
-00 = 2n x 30, or 188 radians/sec, and the amplitude, that is, the
+Suppose the magnetic field strength $B$ is 500 gauss, the speed of rotation
+30 revolutions per second, the loop area $100\ \cmunit^2$. Then
+$\omega = 2\pi \times 30$, or 188 radians/sec, and the amplitude, that is, the
 maximum magnitude, of the oscillating electromotive force is
-
-8 _ SBw _ (188 sec'1)(100 cm2)(500 gauss)
-max - c _ (3 X 1010 cm sec'1)
-
-= 3.1 X 10-4 gauss-cm, or statvolt (21)
-
-Since 8 is work per unit charge, it ought to come out in statvolts in
+\begin{align}
+\begin{split}
+  \emf_{\text{max}} &= \frac{SB\omega}{c} 
+        = \frac{(188\ \sunit^{-1})(100\ \cmunit^2)(500\ \text{gauss})}{(3\times10^{10}\ \cmunit/\sunit)} \\
+        &= 3.1\times10^{-4}\ \text{gauss}\cdot\cmunit,\ \text{or statvolt}
+\end{split}
+\end{align}
+Since $\emf$ is work per unit charge, it ought to come out in statvolts in
 the CGS system we are using. Notice that the units in Eq. 21 reduce
-to gauss-centimeters. Electric field strength E and magnetic field
-strength B have the same dimensions in the Gaussian CGS system.
-For instance, in a transformation formula like E' = (v/c) x B, we
-multiply a magnetic field strength by the dimensionless ratio 0/0 to
+to gauss-centimeters. Electric field strength $\vc{E}$ and magnetic field
+strength $B$ have the same dimensions in the Gaussian CGS system.
+For instance, in a transformation formula like $\vc{E}' = (v/c) \times \vc{B}$, we
+multiply a magnetic field strength by the dimensionless ratio $v/c$ to
 obtain an electric field strength. (The unit of electric field strength,
 statvolts per centimeter, happens not to have been given a name all
-its own, like gauss.) Thus 1 gauss-cm translates directly to 1 (stat-
-vo1t/ cm) -cm, that is, 1 statvolt. In ordinary volts, the ``practical''
+its own, like \emph{gauss}.) Thus $1\ \zu{gauss}\cdot\cmunit$ translates directly to 
+$1\ (\text{statvo1t}/\cmunit)\cdot\cmunit$, that is, 1 statvolt. In ordinary volts, the ``practical''
 unit, the amplitude of the electromotive force in this example
-amounts to 3.1 X 10'4 X 300, or 0.093 volt.
+amounts to $3.1 \times 10^{-4} \times 300$, or 0.093 volt.
+
+\iffalse
 
 \section{A stationary loop with the field source moving}
 
 We can, if we like, look at the events depicted in Fig. 7.6 from a
 frame of reference that is moving with the loop. That can't change
-the physics, only the words we use to describe it. Let F', with coordinates
+the physics, only the words we use to describe it. Let $F'$, with coordinates
 x', y', z', be the frame attached to the loop, which we now regard
 
 % p. 239
 as stationary (Fig. 7.14). The coil and battery, stationary in frame F,
 are moving in the - y' direction with velocity v' = -v. Let Bi and
 B5 be the magnetic fields measured at the two ends of the loop by
-observers in F' at some instant t'. At these positions there will be
-an electric field in F'. Equation 6.62 tells us that
+observers in $F'$ at some instant t'. At these positions there will be
+an electric field in $F'$. Equation 6.62 tells us that
 
+\begin{equation}
+\end{equation}
 _v'xBi vxBi
 
 E': :
@@ -532,11 +509,13 @@ E,_ v'xBé_vxBé
 
 2__ c _ c
 
-For observers in F' this is a genuine electric field. It is not an
-electrostatic field. The line integral of E' around any closed path in
-F' is not generally zero. In fact, the line integral of E' around the
+For observers in $F'$ this is a genuine electric field. It is not an
+electrostatic field. The line integral of $\vc{E}'$ around any closed path in
+$F'$ is not generally zero. In fact, the line integral of $\vc{E}'$ around the
 rectangular loop is:
 
+\begin{equation}
+\end{equation}
 fE' - ds' = 322035 _ 13;) (23)
 
 We can call the line integral in Eq. 23 the electromotive force 8' on
@@ -550,40 +529,42 @@ velocity -v of the source. Hence for the flux lost or gained at either
 end of the loop, in a time interval dt', we get a result similar to Eq. 11,
 and we conclude that
 
+\begin{equation}
+\end{equation}
 ,_1d<I>'-
 8_cdt'
 
 (24)
 
 We can summarize as follows the descriptions in the two frames of
-reference, F, in which the source of B is at rest, and F', in which the
+reference, F, in which the source of $\vc{B}$ is at rest, and $F'$, in which the
 loop is at rest: is
 
-An observer in F says, ``We have here a magnetic field which,
+An observer in $F$ says, ``We have here a magnetic field which,
 though it is not uniform spatially, is constant in time. There is no
 electric field. That wire loop over there is moving with velocity v
 through the magnetic field, so the charges in it are acted on by a force
 (v/ c) x B dynes per unit charge. The line integral of this force-per-
 unit-charge, taken around the whole loop is the electromotive force 8
 and it is equal to - ( l/c) (d<I>/dt). The flux <1) is fB - da over a surface
-S which, at some instant of time t by my clock, spans the loop.''
+$S$ which, at some instant of time t by my clock, spans the loop.''
 
-An observer in F' says, ``This loop is stationary and only an electric
+An observer in $F'$ says, ``This loop is stationary and only an electric
 field could cause the charges in it to move. But there is in fact an
-electric field E'. It seems to be caused by that magnetlike object
+electric field $\vc{E}'$. It seems to be caused by that magnetlike object
 which happens at this moment to be whizzing by with a velocity -v,
-producing at the same time a rather strong magnetic field B'. The
+producing at the same time a rather strong magnetic field $\vc{B}'$. The
 electric field is such that fE' -_ds' around this stationary loop is not
 zero but instead is equal to 4''; 1/0 time_s_,l the rate of change of flux
 through the loop, d<I>'/dt'. The flux <1)' is JB' - da' over a surface
-spanning the loop, the values of B' to be measured all over this surface
+spanning the loop, the values of $\vc{B}'$ to be measured all over this surface
 at some one instant t', by my clock.''
 
 Our conclusions so far are relativistically exact. They hold for
 any speed 0 g c provided we observe scrupulously the distinctions
-between B and B', t and t', etc. If v < c, so that u'3/c2 can be
+between B and $\vc{B}'$, t and t', etc. If v < c, so that u'3/c2 can be
 
-neglected, B' will be practically equal to B, and we can safely ignore
+neglected, $\vc{B}'$ will be practically equal to B, and we can safely ignore
 also the distinction between t and t'.
 
 \section{A universal law of induction}
@@ -614,11 +595,11 @@ of Lorentz invariance or, for the low speeds of our tables,
 Galilean invariance. We know that in both experiments the deflec-
 
 tion of the galvanometer can be related to the rate of change of flux
-of B through the loop.
+of $\vc{B}$ through the loop.
 
 Experiment 111. Both tables remain at rest, but we vary the current
 I in the coil by sliding the contact K along the resistance strip. We
-do this in such a way that the rate of decrease of the field B at the loop
+do this in such a way that the rate of decrease of the field $\vc{B}$ at the loop
 
 is the same as it was in Experiments I and II. Does the galvanometer
 deflect?
@@ -630,7 +611,7 @@ position, there is no way to distinguish between Experiments 1, II,
 and III. Imagine a black cloth curtain between the two tables.
 Although there might be minor differences between the field configurations
 for II and III, an observer who did not know what was
-behind the curtain could not decide, on the basis of local B measurements
+behind the curtain could not decide, on the basis of local $\vc{B}$ measurements
 alone, which case it was. Therefore if the galvanometer did
 not respond with the same deflection in Experiment III, it would
 mean that the relation between the magnetic and electric fields in a
@@ -647,9 +628,11 @@ change of the flux of B, and not on anything else. We can state as a
 universal relation Faraday's Law of Induction:
 
 If C is some closed curve, stationary in coordinates
-x, y, z, if S is a surface spanning C, and B(x,y,z,t) is the
+x, y, z, if $S$ is a surface spanning C, and B(x,y,z,t) is the
 magnetic field measured in x, y, z, at any time t, then
 
+\begin{equation}
+\end{equation}
 _  (25)
 
  
@@ -657,12 +640,16 @@ _  (25)
 Using the vector derivative curl, we can express this law in differential
 form. If the relation
 
+\begin{equation}
+\end{equation}
 _ ii .
 CEds__CdtfSBda (26)
 
 is true for any curve C and spanning surface S, as our law asserts, it
 follows that at any point
 
+\begin{equation}
+\end{equation}
 curl E = _ L111 (27)
 
 cdt
@@ -670,7 +657,7 @@ cdt
 To show that Eq. 27 follows from Eq. 26, we proceed as usual to let C
 shrink down around a point, which we take to be a nonsingular
 
-point for the function B. Then in the limit the variation of B over the
+point for the function B. Then in the limit the variation of $\vc{B}$ over the
 
 % p. 243
 small patch of surface a that spans C will be negligible and the surface
@@ -679,18 +666,24 @@ integral will approach simply B - a. Now by definition (Eq. 2.76)
 the limit approached by ICE - ds as the patch shrinks is a - curl E.
 Thus we have, in the limit,
 
+\begin{equation}
+\end{equation}
 a-curlE:-%%(B-a)=a-(---:-%) (28)
 
 Since this holds for any infinitesimal a, it must be thatf
 
+\begin{equation}
+\end{equation}
 curl E = _ id_B (29)
 
 0 dt
-Recognizing that B may depend on position as well as time we shall
+Recognizing that $\vc{B}$ may depend on position as well as time we shall
 
 write BB/at in place of dB/dt. We have then these two entirely
 equivalent statements of the law of induction:
 
+\begin{equation}
+\end{equation}
 fCE-ds= ---%%fSB-da
 
 or (30)
@@ -699,8 +692,8 @@ curlE= ---1-Q
 
 cat
 
-In Eq. 30 the electric field E is to be expressed in absolute electrostatic
-units, that is, statvolts per centimeter, and B is to be measured
+In Eq. 30 the electric field $\vc{E}$ is to be expressed in absolute electrostatic
+units, that is, statvolts per centimeter, and $\vc{B}$ is to be measured
 
 in gauss. The electromotive force 8 = fc E - ds will be given in stat-
 
@@ -711,6 +704,8 @@ field strength. Recalling that l statvolt is equivalent to 300 volts,
 we see that the relation between 8 and the rate of change of flux
 must be:
 
+\begin{equation}
+\end{equation}
 e: E-d=_(1o-8)i B-da
 / Li K /"Jr \
 
@@ -731,10 +726,10 @@ c
 , and so on.
 
 % p. 244
-of the field relations. The variation in time of B in a neighborhood
-completely determines curl E there-nothing else matters. That
-does not completely determine E itself, of course. Without affecting
-this relation any electrostatic field, with curl E = 0, could be
+of the field relations. The variation in time of $\vc{B}$ in a neighborhood
+completely determines $\curl\vc{E}$ there-nothing else matters. That
+does not completely determine $\vc{E}$ itself, of course. Without affecting
+this relation any electrostatic field, with $\curl\vc{E}$ = 0, could be
 superposed.
 
 As a concrete example, suppose coils like those in Fig. 7.13 are
@@ -745,18 +740,25 @@ magnetic field B in the central region reaches a maximum value of
 50 gauss. We want to investigate the induced electric field, and the
 electromotive force, on the circular path 10 cm in radius shown in
 
-Fig. 7.16. We may assume that the field B is practically uniform in
+Fig. 7.16. We may assume that the field $\vc{B}$ is practically uniform in
 the interior of this circle, at any instant of time.
 
+\begin{equation}
+\end{equation}
 B = 50 sin 377: (32)
 
 % p. 245
 B is in gauss and t in seconds. The flux through the loop C is
 (I) = arr2B = 77 x 102 x 50 sin 377t
 
+\begin{equation}
+\end{equation}
 = 15,700 sin 377t (gauss-cm?) (33)
 Using Eq. 31 to calculate the electromotive force in volts,
 8 = - (10'8)% = - (10'8) (377) (15,700) cos 377t
+
+\begin{equation}
+\end{equation}
 = ---0.059 cos 377t (volts) (34)
 
 The maximum attained by 8 is 59 millivolts. The minus sign will
@@ -766,9 +768,9 @@ consistently. The variation of both (I) and 8 with time is shown in
 Fig. 7.17.
 
 What about the electric field itself? Usually we cannot deduce
-E from a knowledge of curl E alone. However, our path C is here a
+E from a knowledge of $\curl\vc{E}$ alone. However, our path C is here a
 circle around the center of a symmetrical system. If there are no
-other electric fields around, we may assume that on the circle C, E lies
+other electric fields around, we may assume that on the circle C, $\vc{E}$ lies
 in that plane and has a constant magnitude. Then it is a trivial
 
 matter to predict its magnitude, since ICE - ds = 2-rrrE = 8, which
@@ -795,6 +797,8 @@ circuit C1. Let B1(:x,y,z) be the magnetic field that would exist if
 the current in C1 remained constant at the value I1, and let 4321 denote
 the flux of B1 through the circuit C2. Thus,
 
+\begin{equation}
+\end{equation}
 Q21 = S2B'da2 
 
 where S2 is a surface spanning the loop C2. With the shape and
@@ -802,6 +806,8 @@ where S2 is a surface spanning the loop C2. With the shape and
 relative position of the two circuits fixed, (1321 will be proportional
 to I1;
 
+\begin{equation}
+\end{equation}
 : = const (36)
 
 Suppose now that I1 changes with time, but slowly enough so that
@@ -814,6 +820,8 @@ value in 10 nanoseconds!) The flux 4321 will change in proportion
 as 11 changes. There will be an electromotive force induced in
 circuit C2, of magnitude
 
+\begin{equation}
+\end{equation}
 const ffl
 c dt
 
@@ -827,6 +835,8 @@ The constant here is the same as the one in Eq. 36. Let's absorb the
 c in the denominator into a single constant, denoted by M21, and write
 Eq. 37 in this way:
 
+\begin{equation}
+\end{equation}
 821 = -M21% (38)
 
 We call the constant M21 the coefficient of mutual inductance. Its
@@ -842,6 +852,8 @@ concentric rings, a small ring C2 and a much larger ring C1. What
 is M21 in this case? At the center of C1, with I1 flowing, the field B1
 is given by
 
+\begin{equation}
+\end{equation}
 _ 27711
 - CR1
 
@@ -853,12 +865,16 @@ find the field at the center of a current ring.) We assume R2 < R1
 so that we can neglect the variation of B1 over the interior of the small
 ring. Then the flux through the small ring is
 
+\begin{equation}
+\end{equation}
 2 1 2 21R 2
 (D21 = (11322) 071;: = %_ (40)
 
 Thus the ``constant'' in Eq. 36, in this particular case, has the value
 2vr2R22/cR1, and the electromotive force induced in C2 will be
 
+\begin{equation}
+\end{equation}
 8 _ _i_ 21121122 .dI1
 21 _ c CR1 dt
 
@@ -877,12 +893,16 @@ with 821 in statvolts and 11 in esu per second. To express the mutual
 inductance in henrys, we note that a statvolt is 300 volts and
 I(esu/sec) = I(amp) x 3 X 109, so that
 
+\begin{equation}
+\end{equation}
 ZWZRZZ >< 1O'9ff (amp/sec) (42)
 
 8(volts) = _ R1 dt
 
 Thus the value of M21 in henrys, with R2 and R1 in centimeters, is
 
+\begin{equation}
+\end{equation}
 M,,, Z My (43)
 1
 
@@ -899,6 +919,8 @@ that in the next, making the total electromotive force in that circuit
 N2 times that of a single turn. Thus for multiple turns in each coil
 the mutual inductance will be given by
 
+\begin{equation}
+\end{equation}
 2772 X l0-9N1N2R22
 
 M :
@@ -915,6 +937,8 @@ of the electromotive force in volts in circuit 2, caused by changing
 current in circuit 1, to the rate of change of current 11 in amperes / sec.
 That is,
 
+\begin{equation}
+\end{equation}
 821 (volts)
 
 M21(henrys) = dl amp
@@ -929,11 +953,17 @@ M21(henrys) = dl amp
 In considering the circuits C1 and C2 we might have inquired about
 the electromotive force induced in circuit C1 by a changing current
 in circuit C2. That would involve another coefficient of mutual
-
 inductance. M12:
+
+\begin{equation}
+\end{equation}
+
 M2 = 8" (46)
 
 It is a remarkable fact that for any two circuits,
+
+\begin{equation}
+\end{equation}
 M12 = M21 (47)
 
 This is not a matter of geometrical symmetry. Even the simple
@@ -952,6 +982,8 @@ flows in circuit C1. To show this, we use the vector potential.
 
 According to Stokes' theorem:
 
+\begin{equation}
+\end{equation}
 M21 :
 
 LA-ds =fS(cur1 A) -da (48)
@@ -959,14 +991,18 @@ LA-ds =fS(cur1 A) -da (48)
 In particular, if A is the vector potential of a magnetic field B, that is,
 if B = curl A, then we have
 
+\begin{equation}
+\end{equation}
 <4"
 
 That is, the line integral of the vector potential around a loop is equal
-to the flux of B through the loop.
+to the flux of $\vc{B}$ through the loop.
 Now the vector potential is related to its current source as follows,
 
 according to Eq. 6.35:
 
+\begin{equation}
+\end{equation}
 A21 = L E (50)
 
 6 C1 T21
@@ -982,12 +1018,16 @@ Figure 7.21 shows the two loops C1 and C2, with current I flowing
 in C1. Let (x2,y2,z2) be a point on the loop C2. Then the flux
 through C2 due to current I in C1 is:
 
+\begin{equation}
+\end{equation}
 I I ds
 (I321 :L2A21 ' ds2 :1;/12 dS2 ' A21 = FJQJZIIS2 ' 01?: (51)
 
 Similarly, the flux through C1 due to current I flowing in C2 would
 be given by
 
+\begin{equation}
+\end{equation}
 1 d
 (1)12 = : folds, g (52)
 
@@ -1021,6 +1061,8 @@ through circuit C1 itself, consequently an electromotive force is in-
 duced. Call this 811. The induction law holds, whatever the source
 of the flux:
 
+\begin{equation}
+\end{equation}
 an 2 _ L d'1>u
 
 cdt
@@ -1033,6 +1075,8 @@ I 1 in circuit 1. The minus sign expresses the fact that the electromotive
 force is always directed so as to oppose the change in current---
 Lenz's law, again. Since <I>11 will be proportional to I1 we can write
 
+\begin{equation}
+\end{equation}
 811 = -L1 % (54)
 The constant L1 is called the self-inductance of the circuit.
 
@@ -1044,15 +1088,23 @@ of which, at a radius r from the axis of the coil, is given by B = 2N1/er.
 The total flux through one turn of the coil is the integral of this field
 over the cross section of the coil:
 
+\begin{equation}
+\end{equation}
 <1>(one turn) 2 h b2NI dr = 2NIh ln  (55)
 a or c a
 The flux threading the circuit of N turns is N times as great:
+\begin{equation}
+\end{equation}
 «D = 2N2"' ln (2) (56)
 c a
 Hence the induced electromotive force 8 is
+\begin{equation}
+\end{equation}
 _ 1 dd) _ 2N?h ) dI
 8-7?-' C2 1" am (57)
 Thus the self-inductance of this coil is given by
+\begin{equation}
+\end{equation}
 L = 2N2" ln (9) (58)
 c2 (1
 
@@ -1061,17 +1113,14 @@ in esu/sec and 8 in statvolts. For I in amperes and 8 in volts
 the appropriate unit for L is the henry, as in the case of mutual in-
 ductance. Converting to these units we get:
 
+\begin{equation}
+\end{equation}
 L (henrys) = 2 x 10-9N2h1n (59)
 
 You may think that one of the rings we considered earlier would
 have made a simpler example to illustrate the calculation of self-
 inductance. However, if we try to calculate the inductance of a
 simple circular loop of wire, we encounter a puzzling difficulty. It
-
- 
-
- 
-
 % p. 252
 seems a good idea to simplify the problem by assuming that the wire
 has zero diameter. But we soon discover that if finite current flows
@@ -1125,6 +1174,8 @@ which the battery tends to drive current around the circuit, then the
 net electromotive force at any instant is 80 - L dI/dt. This drives
 the current I through the resistor R. That is,
 
+\begin{equation}
+\end{equation}
 so - L% = R1 (60)
 
 We can also describe the situation in this way: The potential difference
@@ -1139,6 +1190,8 @@ the same as the potential difference between the battery terminals,
 which is 80 (our idealized battery has no internal resistance). Thus
 we have
 
+\begin{equation}
+\end{equation}
 _ ff 1
 80_Ldt+RI (6)
 
@@ -1151,6 +1204,8 @@ switch has been closed, some steady state will have been attained,
 with current practically constant at some value 10. Then and there-
 after, dI/dt 2: O, and Eq. 60 reduces to
 
+\begin{equation}
+\end{equation}
 80 : R10 (62)
 
 The transition from zero current to the steady-state current I0 cannot
@@ -1158,6 +1213,8 @@ occur abruptly at t = 0, for then dI/dt would be infinite. In fact,
 just after t = 0, the current I will be so small that the second term
 R1 in Eq. 60 can be ignored, giving
 
+\begin{equation}
+\end{equation}
 dI _ 80
 E - L (63)
 The inductance L limits the rate of rise of the current.
@@ -1171,6 +1228,8 @@ nu: LJVI/I/Ulklllvtffglffl/VWU anvwwuuwurw
 Vol. 1, Chap. 6. Without further ado we can write down a solution
 to Eq. 60 which satisfies our initial condition, I = O at t = O.
 
+\begin{equation}
+\end{equation}
 50 _
 I 2 _ 1 _ (R/L)t 64
 R( e > < >
@@ -1194,12 +1253,16 @@ path across the LR combination, as in Fig. 7.250. at the same time dis-
 connecting the battery. We now have a circuit described by the
 equation
 
+\begin{equation}
+\end{equation}
 0=L%+H1 (65)
 
 with the initial condition I = 10 at t = t1, where t1 is the instant at
 which the short circuit was closed. The solution is the simple exponential
 decay function:
 
+\begin{equation}
+\end{equation}
 1 = I06-(R/L)(t-t1) (66)
 
 with the same characteristic time, L/R, as before.
@@ -1211,11 +1274,15 @@ energy is dissipated in the resistor R. Since the energy d U dissipated
 in any short interval dt is R12 dt, the total energy dissipated after
 the closing of the switch at time t1 must be:
 
+\begin{equation}
+\end{equation}
 U = °°R12 dt = °°RI02e~<2R/L><t-m dt (67)
 
 % p. 255
 With the substitution x = 2B(t - t1)/L this is easily evaluated:
 
+\begin{equation}
+\end{equation}
 U = R102 f0°°e-I dx = iuoz (68)
 
 The source of this energy was the inductor with its magnetic field.
@@ -1229,11 +1296,15 @@ L (II/dt. So in time dt the work done is
 
 ff
 
+\begin{equation}
+\end{equation}
 dW: LI dt
 
 dt = LI dI =iLd(12) (69)
 
 Therefore, we may assign a total energy
+\begin{equation}
+\end{equation}
 U = §LI2 (70)
 
 to an inductor carrying current I. With the eventual decay of this
@@ -1254,11 +1325,15 @@ To show how this works out in one case, we can go back to the
 toroidal coil whose inductance L we calculated in Sec. 7.8. We
 found (Eq. 58)
 
+\begin{equation}
+\end{equation}
 L = 2W' In (E) (71)
 
 02 a
 The magnetic field strength B, with current I flowing, was given
 
+\begin{equation}
+\end{equation}
 B : 2NI
 cr
 
@@ -1268,14 +1343,18 @@ cr
 To calculate the volume integral of B2/8w we can use a volume element
 consisting of the cylindrical shell sketched in Fig. 7.26, with
 volume Zvrrh dr. As this shell expands from r = a to r = b, it sweeps
-through all the space that contains magnetic field. (The field B is
+through all the space that contains magnetic field. (The field $\vc{B}$ is
 zero everywhere outside the torus, remember.)
 
+\begin{equation}
+\end{equation}
 1 1 b2NI 2 N2h12 I9
 WfB2dv:87  Cr ) 27rrhdr: C2 ln(;) (73)
 
 Comparing this result with Eq. 71, we see that, indeed,
 
+\begin{equation}
+\end{equation}
 1
 8---WfB2 do = %LI2 (74)
 
@@ -1283,6 +1362,8 @@ The more general statement, the counterpart of our statement for
 the electric field in Eq. 1.36, is that the energy U to be associated with
 any magnetic field B(x,y,z) is given by:
 
+\begin{equation}
+\end{equation}
 (75)
 
  
@@ -1297,6 +1378,8 @@ Let us review the relations between charges and fields. As we
 learned in Chap. 2, a statement equivalent to Coulomb's law is the
 differential relation
 
+\begin{equation}
+\end{equation}
 div E = 4'n'p (76)
 
 connecting the electric charge density p and the electric field E. This
@@ -1304,7 +1387,7 @@ holds for moving charges as well as stationary charges. That is, p can
 be a function of time as well as position. As we emphasized in
 Chap. 5, the fact that Eq. 76 holds for moving charges is consistent
 with charge invariance: No matter how an isolated charged particle
-may be moving, its charge, as measured by the integral of E over a
+may be moving, its charge, as measured by the integral of $\vc{E}$ over a
 surface surrounding it, appears the same in every frame of reference.
 
 % p. 257
@@ -1312,6 +1395,8 @@ Electric charge in motion is electric current. Because charge is
 never created or destroyed, the charge density p and the current
 density J always satisfy the condition
 
+\begin{equation}
+\end{equation}
 divJ= _@ (77)
 
 We first wrote down this ``Equation of Continuity'' as Eq. 4.9.
@@ -1320,6 +1405,8 @@ If the current density J is constant in time, we call it a stationary
 current distribution. The magnetic field of a stationary current distribution
 satisfies the equation
 
+\begin{equation}
+\end{equation}
 curl B = 4T'"J (78)
 
 We worked with this relation in Chap. 6.
@@ -1331,11 +1418,15 @@ with Bp/at sé 0. For instance, we might have a capacitor which is
 discharging through a resistor. According to Eq. 77, ap/at7&O
 implies
 
+\begin{equation}
+\end{equation}
 div J yé O (79)
 
 But according to Eq. 78, since the divergence of the curl of any
 vector function is identically zero (see Prob. 2.15),
 
+\begin{equation}
+\end{equation}
 div J = L div (curl B) = 0 (80)
 477'
 
@@ -1351,10 +1442,12 @@ the line integral of magnetic field around the wire carrying
 charge away from the capacitor plate in Fig. 7.27. According to
 Stokes' theorem,
 
+\begin{equation}
+\end{equation}
 fen-d1=Lcur1B-da (81)
 
-The surface S passes right through the conductor in which a current
-I is flowing. Inside this conductor, curl B has a finite value,
+The surface $S$ passes right through the conductor in which a current
+I is flowing. Inside this conductor, $\curl\vc{B}$ has a finite value,
 namely 47rJ/0, and the integral on the right comes out equal to 4771/c.
 That is to say, if the curve C is close to the wire and well away from
 the capacitor gap, the magnetic field there is not different from the
@@ -1364,8 +1457,8 @@ field around any wire carrying the same current. Now the surface S'
 in Fig. 7.28 is also a surface spanning C, and has an equally good
 claim to be used in the statement of Stokes' theorem, Eq. 81.
 Through this surface, however, there flows no current at all! Never-
-theless, curl B cannot be zero over all of S' without violating Stokes'
-theorem. Therefore, on S', curl B must depend on something other
+theless, $\curl\vc{B}$ cannot be zero over all of S' without violating Stokes'
+theorem. Therefore, on S', $\curl\vc{B}$ must depend on something other
 than the current density J.
 
 We can only conclude that Eq. 78 has to be replaced by some
@@ -1373,16 +1466,20 @@ We can only conclude that Eq. 78 has to be replaced by some
 other relation, in the more general situation of changing charge dis-
 tributions. Let's write instead
 
+\begin{equation}
+\end{equation}
 curl B = 47% + ('2) (82)
 
 and see if we can discover what ('?) must be.
 
 Another line of thought suggests the answer. Remember that the
 transformation laws of the electromagnetic field, Eq. 6.58, are quite
-symmetrical in E and B. Now in Faraday's induction phenomenon
+symmetrical in $\vc{E}$ and B. Now in Faraday's induction phenomenon
 a changing magnetic field is accompanied by an electric field, in a
 manner described by our Eq. 30:
 
+\begin{equation}
+\end{equation}
 curl E = _ ii (30)
 
 cat
@@ -1390,10 +1487,10 @@ cat
 % p. 259
 This is a local relation connecting the electric and magnetic fields in
 empty space-charges are not directly involved. If symmetry with
-respect to E and B is to prevail, we must expect that a changing electric
+respect to $\vc{E}$ and $\vc{B}$ is to prevail, we must expect that a changing electric
 field can give rise to a magnetic field. There ought to be an induction
 phenomenon described by an equation like Eq. 30, but with
-the roles of E and B switched. It will turn out that we need to change
+the roles of $\vc{E}$ and $\vc{B}$ switched. It will turn out that we need to change
 the sign too, but that is all:
 
 curl B = :7} (83)
@@ -1401,8 +1498,13 @@ curl B = :7} (83)
 This provides the missing term that is called for in Eq. 82. To
 try it out, write
 
+\begin{equation}
+\end{equation}
 cui1B=4T"J+%-%% (84)
 and take the divergence of both sides:
+
+\begin{equation}
+\end{equation}
 div (curl B) = div (EJ) + div (LE) (85)
 c c at
 
@@ -1410,10 +1512,15 @@ The left side is necessarily zero, as already remarked. In the second
 term on the right we can interchange the order of differentiation with
 respect to space coordinates and time. Thus
 
+\begin{equation}
+\end{equation}
 .1aE_ia. _477Bp
 '""(:7) - cw""VE) 'T73? (86)
 
 by Eq. 76. The right-hand side of Eq. 85 now becomes
+
+\begin{equation}
+\end{equation}
 - div J + --- (87)
 
 which is zero by virtue of the continuity condition, Eq. 77.
@@ -1422,13 +1529,15 @@ The new term resolves the difficulty raised in Fig. 7.28. As charge
 flows out of the capacitor, the electric field, which at any instant has
 the configuration in Fig. 7.29, diminishes in intensity. In this case,
 
+\begin{equation}
+\end{equation}
 1 BE
 
-BE/at points opposite to E. The vector function F E is represented
+BE/at points opposite to E. The vector function $F$ E is represented
 by the black arrows in Fig. 7.30. With curl B = 4T7TJ + %-aa%, the
 
-integral of curl B over S' now has the same value as it does over S.
-On 8' the second term contributes everything; on S the first term, the
+integral of $\curl\vc{B}$ over S' now has the same value as it does over S.
+On 8' the second term contributes everything; on $S$ the first term, the
 term with J, is practically all that counts.
 
 % p. 260
@@ -1445,6 +1554,8 @@ seems very appropriate. To be precise, we can define a ``displace-
 ment current density" J,,,, to be distinguished from the conduction
 current density J, by writing Eq. 84 this way:
 
+\begin{equation}
+\end{equation}
 curl B = 4_:(J + Jd) (88)
 and defining J,,, E 
 
@@ -1476,7 +1587,7 @@ relatively slowly varying fields.
 
 To see why this is so, notice that the vector function J,,;, indicated
 by the black arrows in Fig. 7.30, has the same form as the electric
-field E in Fig. 7.29. This electric field is practically an electrostatic
+field $\vc{E}$ in Fig. 7.29. This electric field is practically an electrostatic
 field, except that it is slowly dying away. We expect therefore that
 its curl is practically zero which would imply that curl J must be
 
@@ -1490,6 +1601,8 @@ with the displacement current Jd = Li, we get, by interchang-
 47r at
 ing the order of differentiation,
 
+\begin{equation}
+\end{equation}
 curl J,,, = 4L7Tcur1  = 4-£T-5a;(curl E) = -  (89)
 This will be negligible for sulficiently slow changes in field. We
 may call a slowly changing field quasi-static. Now if Jd is a vector
@@ -1544,6 +1657,8 @@ complete. We have arrived by different routes at various pieces of it,
 which we shall now assemble in the form traditionally called
 Maxwell 's equations:
 
+\begin{equation}
+\end{equation}
 (90)
 
  
@@ -1565,11 +1680,13 @@ that there are no sources of magnetic field except currents. We shall
 have more to say about this aspect of Nature in Chap. 10.
 
 Notice that the lack of symmetry in these equations, with respect
-to B and E, is entirely due to the presence of electric charge and elec-
+to $\vc{B}$ and E, is entirely due to the presence of electric charge and elec-
 
 tric conduction current. In empty space, the terms with p and J are
 zero, and Maxwell's equations become
 
+\begin{equation}
+\end{equation}
 (91)
 
  
@@ -1592,6 +1709,8 @@ field in the region between the planes y = 0 and y = 2a. This field E
 has a z component only, and its z component depends only on y, in
 the following manner:
 
+\begin{equation}
+\end{equation}
 Ez=E0% <o:y:a>
 (at time t = 0) (92)
 
@@ -1608,9 +1727,11 @@ infinite slab, although in the figure we show field vectors on the y axis
 only. The shaded patches marked I and II lie within this slab.
 Everywhere outside the slab, that is, for y < O and y > 2a, the electric
 field is zero at this instant of time. At the same time a magnetic
-field B exists in this slab of space. It has an x component only.
+field $\vc{B}$ exists in this slab of space. It has an x component only.
 given by:
 
+\begin{equation}
+\end{equation}
 Bz=B0% (05y§a)
 (at time t = O) (93)
 
@@ -1620,11 +1741,17 @@ We simply invented this field. Let us now command the field
 configuration to travel in the y direction with speed 0, while preserving
 its shape. We can do that by writing out orders as follows:
 
+\begin{equation}
+\end{equation}
 Region 1:
 E2 = E0 (y - ct)
 Cl _ _
 _ Ct (ct 2 y 2 at + a) (94)
 B' : B0 (y a )
+
+
+\begin{equation}
+\end{equation}
 Region II:
 2 _
 E, : E0  _ _
@@ -1633,19 +1760,21 @@ Bx = Bo <+)
 
 This describes the situation as we see it in Fig. 7.3312, or at any other
 time t. The region containing field is simply displaced to the right
-by a distance at. Within regions I and II, both E and B have the same
+by a distance at. Within regions I and II, both $\vc{E}$ and $\vc{B}$ have the same
 form as before. Our equations, then, describe a traveling configuration
 of electric and magnetic fields, but can such fields exist? To
-answer that, we must see if E and B, as given by Eqs. 94 and 95, satisfy
+answer that, we must see if $\vc{E}$ and B, as given by Eqs. 94 and 95, satisfy
 Maxwell's equations.
 
 Beginning with the divergence equations, it is easy to see that
-div E = 0 and div B = 0. (Obviously 6E,/Bz = O and the other
-components of E are themselves zero.) But curl E is not zero.
+div E = 0 and $\div\vc{B}$ = 0. (Obviously 6E,/Bz = O and the other
+components of $\vc{E}$ are themselves zero.) But $\curl\vc{E}$ is not zero.
 Instead, its value is:
 
 In Region I: V x E _-_ ii = f;
 
+\begin{equation}
+\end{equation}
 (96)
 In Region II: V x E = $2 = -
 
@@ -1654,12 +1783,16 @@ In the same way we calculate V x B:
 
 In Regionlz VxB= -i aaB' = -%i
 9
+\begin{equation}
+\end{equation}
 (97)
 In Region 11; VxB= -2 33" =l3£2
 By a
 The partial derivatives with respect to t are:
 In Region 1: 1;. = _ EEO2 fig. = _ £302
 a a
+\begin{equation}
+\end{equation}
 (98)
 In Region II: % : %E0i % : %Box
 
@@ -1676,13 +1809,13 @@ to exactly the same requirement for the fields in region II. Exactly
 at the peak of the gable, and also at each end, there are mathematical
 singularities in the assumed fields. To be sure that the field equations
 are satisfied everywhere, we must see that there is no trouble at these
-points. There is none, because E and B are continuous there. (An
-abrupt jump. or discontinuity, in E or B would not be possible in
+points. There is none, because $\vc{E}$ and $\vc{B}$ are continuous there. (An
+abrupt jump. or discontinuity, in $\vc{E}$ or $\vc{B}$ would not be possible in
 empty space.) Thus the particular electromagnetic field we have
 described. which does represent a traveling wave, does satisfy all the
 field equations, if the electric field, in statvolts/cm, is everywhere
 equal to the magnetic field strength, at the same time and place. It is
-essential that E and B be perpendicular to one another and to the
+essential that $\vc{E}$ and $\vc{B}$ be perpendicular to one another and to the
 direction of travel---otherwise the field equation could not have been
 satisfied.
 
@@ -1700,13 +1833,13 @@ any other direction is as good as the y axis.) Fig. 7.34 suggests some
 of the waves you could make with ``gables.'' It is pretty obvious that
 any function could be approximated as closely as desired by superposing
 ``gables.'' Therefore, what we have learned about the gable
-wave must apply to any wave in which E and B are functions only
+wave must apply to any wave in which $\vc{E}$ and $\vc{B}$ are functions only
 of the coordinate in the direction of travel. These general facts are:
 
 (i) The disturbance travels with speed c, with unchanging
 form. 
 
-(ii) E and B are perpendicular to each other and to the direction
+(ii) $\vc{E}$ and $\vc{B}$ are perpendicular to each other and to the direction
 of travel, with the vector E x B always pointing in the
 direction of the travel, as it does in our example.
 
@@ -1720,8 +1853,8 @@ Prob. 6.11, which were based on those equations, according to which
 the two scalar quantities, E2 - B2 and E - B remain invariant in a
 transformation to another inertial frame. In this case, since E = B
 at any point, the invariant quantity E2 - B2 has the value zero. Also.
-because E is perpendicular to B, the other invariant E - B is zero. It
-follows that in any other frame the transformed fields E' and B' must
+because $\vc{E}$ is perpendicular to B, the other invariant E - B is zero. It
+follows that in any other frame the transformed fields $\vc{E}'$ and $\vc{B}'$ must
 be equal to each other in magnitude and perpendicular in direction.
 A light wave looks like a light wave in any frame of reference.
 

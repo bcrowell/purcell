@@ -737,7 +737,7 @@ charge qo would experience at any point. We have to be a
 little careful with that interpretation. Unless the source charges are
 really immovable, the introduction of some finite charge qo may
 cause the source charges to shift their positions, so that the field itself,
-as defined by Eq. 14, is difierent. That is why we assumed fixed
+as defined by Eq. 14, is different. That is why we assumed fixed
 charges to begin our discussion. People sometimes define the field
 by requiring qo to be an "infinitesimal" test charge, letting E be the
 limit of F/qo as q0\rightarrow 0. Any ffavor of rigor this may impart is illu-
@@ -1532,7 +1532,7 @@ evaluate it for a path like ABC. Actually, we shall not often need to
 compute the value of a line integral. The main purpose of the example
 is to make sure you understand what the line integral means.
 
-2.2 Potential Difierence and the Potential Function
+2.2 Potential difference and the Potential Function
 Because the line integral in the electrostatic field is path-
 independent, we can use it to define a scalar quantity (p21, as follows:
 
@@ -9407,7 +9407,7 @@ of B over S1:
 
 We could draw infinitely many surfaces bounded by C. Figure 7.7b
 shows another one, S2. Why don't we have to specify which surface
-to use in computing the flux? It doesn't make any difierence because
+to use in computing the flux? It doesn't make any difference because
 fB - da will have the same value for all such surfaces. Let's take a
 minute to settle this point once and for all. The flux through S2 will
 
@@ -10200,7 +10200,7 @@ when we extend it down to r = 0. To avoid this we may let the radius
 of the wire be finite, not zero, which is more realistic anyway. This
 may make the calculation a bit more complicated, in a given case,
 but that won't worry us. The real difficulty is that different parts of
-the wire now appear as difierent circuits, linked by different amounts
+the wire now appear as different circuits, linked by different amounts
 of flux. We are no longer sure what we mean by the flux through the
 circuit. In fact, because the electromotive force is different in the
 different filamentary loops into which the circuit can be divided. some
@@ -12902,7 +12902,7 @@ ave know the field, of course, in
 the sheets. The field strength
 nst be just 4770, pointing down,
 l points A' and B' is therefore
-difierence must exist between
+difference must exist between
 ur polarized slab, because the
 : two systems.
 
