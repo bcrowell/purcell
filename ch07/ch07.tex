@@ -551,49 +551,47 @@ between $\vc{B}$ and $\vc{B}'$, $t$ and $t'$, etc. If $v \ll c$, so that $v^2/c^
 neglected, $B'$ will be practically equal to $B$, and we can safely ignore
 also the distinction between $t$ and $t'$.
 
-\iffalse
-
 \section{A universal law of induction}
 
 Let's carry out three experiments with the apparatus shown in
 Fig. 7.15. The tables are on wheels so that they can be easily moved.
 A sensitive galvanometer has been connected to our old rectangular
 loop, and to increase any induced electromotive force we put several
-turns of wire in the loop rather than one. Frankly though. our sen-
-
+turns of wire in the loop rather than one. Frankly though, our
 % p. 241
-sitivity might still be marginal, with the feeble source of magnetic
-
+sensitivity might still be marginal, with the feeble source of magnetic
 field pictured. Perhaps you can devise a more practical version of
 the experiment in the laboratory.
 
-Experiment I. With constant current in the coil and table 1 station-
-ary, table 2 moves toward the right with speed 17. The galvanometer
+\begin{description}
 
-deflects. We are not surprised; we have already analyzed this situation
+\item[\textbf{Experiment I}.] With constant current in the coil and table 1 
+stationary, table 2 moves toward the right at speed $v$. \emph{The galvanometer
+deflects.} We are not surprised; we have already analyzed this situation
 in Sec. 7.3 above.
 
-Experiment 11. With constant current in the coil and table 2 station-
-ary, table 1 moves to the left with speed 12. The galvanometer
-deflects. This doesn't surprise us either. We have just discussed the
+\item[\textbf{Experiment II}.] With constant current in the coil and table 2 
+stationary, table 1 moves to the left with speed $v$. \emph{The galvanometer
+deflects.} This doesn't surprise us either. We have just discussed the
 equivalence of Experiments I and II, an equivalence which is an example
 of Lorentz invariance or, for the low speeds of our tables,
-Galilean invariance. We know that in both experiments the deflec-
-
-tion of the galvanometer can be related to the rate of change of flux
+Galilean invariance. We know that in both experiments the deflection
+of the galvanometer can be related to the rate of change of flux
 of $\vc{B}$ through the loop.
 
-Experiment 111. Both tables remain at rest, but we vary the current
-I in the coil by sliding the contact K along the resistance strip. We
-do this in such a way that the rate of decrease of the field $\vc{B}$ at the loop
+\item[\textbf{Experiment III}.] Both tables remain at rest, but we vary the current
+$I$ in the coil by sliding the contact $K$ along the resistance strip. We
+do this in such a way that the \emph{rate of decrease} of the field $\vc{B}$ at the loop
+is the same as it was in Experiments I and II. \emph{Does the galvanometer
+deflect?}
 
-is the same as it was in Experiments I and II. Does the galvanometer
-deflect?
+\end{description}
 
 % p. 242
+
 For an observer stationed at the loop on table 2 and measuring
 the magnetic field in that neighborhood as a function of time and
-position, there is no way to distinguish between Experiments 1, II,
+position, there is no way to distinguish between Experiments I, II,
 and III. Imagine a black cloth curtain between the two tables.
 Although there might be minor differences between the field configurations
 for II and III, an observer who did not know what was
@@ -604,175 +602,137 @@ mean that the relation between the magnetic and electric fields in a
 region depends on the nature of a remote source. Two magnetic
 fields essentially similar in their local properties would have associated
 in one case, but not in the other, an electric field with
-E - ds 7E 0.
+$\int\vc{E}\cdot\der\vc{s}\ne0$.
 
-We find by experiment that III is equivalent to I and II. The
+We find by experiment that III \emph{is} equivalent to I and II. The
 galvanometer defiects, by the same amount as before. Faraday's
 experiments were the first to demonstrate this fundamental fact.
 The electromotive force we observe depends only on the rate of
-change of the flux of B, and not on anything else. We can state as a
-universal relation Faraday's Law of Induction:
+change of the flux of $\vc{B}$, and not on anything else. We can state as a
+universal relation Faraday's Law of Induction:\index{induction!Faraday's law of}\index{Faraday!law of induction}
 
-If C is some closed curve, stationary in coordinates
-x, y, z, if $S$ is a surface spanning C, and B(x,y,z,t) is the
-magnetic field measured in x, y, z, at any time t, then
-
+\begin{framed}
+If $C$ is some closed curve, stationary in coordinates
+$x$, $y$, $z$, if $S$ is a surface spanning $C$, and $\vc{B}(x,y,z,t)$ is the
+magnetic field measured in $x$, $y$, $z$, at any time $t$, then
 \begin{equation}
+  \emf = \int_C \vc{E}\cdot\der\vc{s} = -\frac{1}{c}\frac{\der}{\der t}\int_S \vc{B}\cdot\der\vc{a}
+       = -\frac{1}{c}\frac{\der\Phi}{\der t}
 \end{equation}
-_  (25)
-
- 
+\end{framed}
 
 Using the vector derivative curl, we can express this law in differential
 form. If the relation
-
 \begin{equation}
+  \int_C \vc{E}\cdot\der\vc{s} = -\frac{1}{c}\frac{\der}{\der t}\int_S \vc{B}\cdot\der\vc{a}
 \end{equation}
-_ ii .
-CEds__CdtfSBda (26)
-
-is true for any curve C and spanning surface S, as our law asserts, it
+is true for \emph{any} curve $C$ and spanning surface $S$, as our law asserts, it
 follows that at any point
-
 \begin{equation}
+  \curl\vc{E} = -\frac{1}{c}\frac{\der\vc{B}}{\der t}
 \end{equation}
-curl E = _ L111 (27)
-
-cdt
-
-To show that Eq. 27 follows from Eq. 26, we proceed as usual to let C
+To show that Eq. 27 follows from Eq. 26, we proceed as usual to let $C$
 shrink down around a point, which we take to be a nonsingular
-
-point for the function B. Then in the limit the variation of $\vc{B}$ over the
-
+point for the function $\vc{B}$. Then in the limit the variation of $\vc{B}$ over the
 % p. 243
-small patch of surface a that spans C will be negligible and the surface
-integral will approach simply B - a. Now by definition (Eq. 2.76)
-
-the limit approached by ICE - ds as the patch shrinks is a - curl E.
+small patch of surface $\vc{a}$ that spans $C$ will be negligible and the surface
+integral will approach simply $\vc{B}\cdot\vc{a}$. Now by definition (Eq. 2.76)
+the limit approached by $\int_C\vc{E}\cdot\der\vc{s}$ as the patch shrinks is $\vc{a}\cdot\curl\vc{E}$.
 Thus we have, in the limit,
-
 \begin{equation}
+  \vc{a}\cdot\curl\vc{E} = -\frac{1}{c}\frac{\der}{\der t}(\vc{B}\cdot\vc{a})
+        = \vc{a}\cdot\left(-\frac{1}{c}\frac{\der\vc{B}}{\der t}\right)
 \end{equation}
-a-curlE:-%%(B-a)=a-(---:-%) (28)
-
-Since this holds for any infinitesimal a, it must be thatf
-
+Since this holds for \emph{any} infinitesimal $\vc{a}$,
+it must be that\footnote{If that isn't obvious, note that choosing $\vc{a}$ in the $x$
+direction will establish that
+$(\curl\vc{E})_x = -\frac{1}{c}\frac{\der B_x}{\der t}$, and so on.}
 \begin{equation}
+  \curl\vc{E} = -\frac{1}{c}\frac{\der\vc{B}}{\der t}
 \end{equation}
-curl E = _ id_B (29)
-
-0 dt
 Recognizing that $\vc{B}$ may depend on position as well as time we shall
-
-write BB/at in place of dB/dt. We have then these two entirely
+write $\partial\vc{B}/\partial t$ in place of $\der \vc{B}/\der t$. We have then these two entirely
 equivalent statements of the law of induction:
-
-\begin{equation}
-\end{equation}
-fCE-ds= ---%%fSB-da
-
-or (30)
-
-curlE= ---1-Q
-
-cat
-
+\begin{framed}
+\begin{align}
+  \int_C \vc{E}\cdot\der\vc{s} &= -\frac{1}{c}\frac{\der}{\der t}\int_S \vc{B}\cdot\der\vc{a} \\
+\intertext{or}
+  \curl\vc{E} = -\frac{1}{c}\frac{\partial\vc{B}}{\partial t}
+\end{align}
+\end{framed}
 In Eq. 30 the electric field $\vc{E}$ is to be expressed in absolute electrostatic
 units, that is, statvolts per centimeter, and $\vc{B}$ is to be measured
-
-in gauss. The electromotive force 8 = fc E - ds will be given in stat-
-
-volts. In practical calculations we often prefer to express electromotive
+in gauss. The electromotive force $\emf = \int_C \vc{E}\cdot\der\vc{s}$ will be given in statvolts.
+In practical calculations we often prefer to express electromotive
 force in volts, while retaining gauss for the unit of magnetic
 field strength. Recalling that l statvolt is equivalent to 300 volts,
-
-we see that the relation between 8 and the rate of change of flux
+we see that the relation between $\emf$ and the rate of change of flux
 must be:
-
-\begin{equation}
-\end{equation}
-e: E-d=_(1o-8)i B-da
-/ Li K /"Jr \
-
-(volts) (volts/cm)< (cm) (sec) (gauss) (cm?)
-
-___ _ ( lO~8)id<ll: (gauzzgcmz)
-
-(31)
-
-The differential expression, curl E = - (1/c) BB/at, brings out
+\begin{align}
+\begin{split}
+  \underbrace{\emf}_\text{(volts)} 
+  &= \int_C \underbrace{\vc{E}}_\text{(volts/cm)}\cdot\underbrace{\der\vc{s}}_\text{(cm)} \\
+  &= -(10^{-8}) \underbrace{\frac{\der}{\der t}}_\text{($\sunit^{-1}$)}
+    \int \underbrace{\vc{B}}_\text{(gauss)}
+    \cdot \underbrace{\der\vc{a}}_\text{($\cmunit^2$)} \\
+  &= -(10^{-8})\frac{\der\Phi}{\der t} \qquad \left(\frac{\zu{gauss}\cdot\cmunit^2}{\sunit}\right)
+\end{split}
+\end{align}
+The differential expression, $\curl\vc{E} = - (1/c) \partial\vc{B}/\partial t$, brings out
 rather plainly the point we tried to make earlier about the local nature
-
-Tlf that isn't obvious, note that choosing a in the x direction will establish that
-
-(curl E), = - -l dB'
-c
-
-, and so on.
-
 % p. 244
 of the field relations. The variation in time of $\vc{B}$ in a neighborhood
-completely determines $\curl\vc{E}$ there-nothing else matters. That
+completely determines $\curl\vc{E}$ there --- nothing else matters. That
 does not completely determine $\vc{E}$ itself, of course. Without affecting
-this relation any electrostatic field, with $\curl\vc{E}$ = 0, could be
+this relation any electrostatic field, with $\curl\vc{E} = 0$, could be
 superposed.
 
 As a concrete example, suppose coils like those in Fig. 7.13 are
-supplied with 60 cycle/sec alternating current, instead of direct
-current. The current and the magnetic field vary as sin (2-rr - 60 - t),
-or sin 377t. Suppose the amplitude of the current is such that the
-magnetic field B in the central region reaches a maximum value of
+supplied with 60 cycle/s alternating current, instead of direct
+current. The current and the magnetic field vary as $\sin (2\pi\cdot 60\cdot t)$,
+or $\sin 377t$. Suppose the amplitude of the current is such that the
+magnetic field $\vc{B}$ in the central region reaches a maximum value of
 50 gauss. We want to investigate the induced electric field, and the
-electromotive force, on the circular path 10 cm in radius shown in
-
-Fig. 7.16. We may assume that the field $\vc{B}$ is practically uniform in
+electromotive force, on the circular path $10\ \cmunit$ in radius shown in
+Fig. 7.16. We may assume that the field $B$ is practically uniform in
 the interior of this circle, at any instant of time.
-
 \begin{equation}
+  B = 50 \sin 377t
 \end{equation}
-B = 50 sin 377: (32)
-
 % p. 245
-B is in gauss and t in seconds. The flux through the loop C is
-(I) = arr2B = 77 x 102 x 50 sin 377t
+$B$ is in gauss and $t$ in seconds. The flux through the loop $C$ is
+\begin{align}
+  \Phi &= \pi r^2 B = \pi \times 10^2 \times 50\sin 377 t \\
+       &= 15,700 \sin 377 t \qquad \text{($\zu{gauss}\cdot\cmunit^2$)}
+\end{align}
 
-\begin{equation}
-\end{equation}
-= 15,700 sin 377t (gauss-cm?) (33)
 Using Eq. 31 to calculate the electromotive force in volts,
-8 = - (10'8)% = - (10'8) (377) (15,700) cos 377t
-
-\begin{equation}
-\end{equation}
-= ---0.059 cos 377t (volts) (34)
-
-The maximum attained by 8 is 59 millivolts. The minus sign will
+\begin{align}
+  \emf &= -(10^{-8})\frac{\der\Phi}{\der t} = -(10^{-8})(377)(15,700)\;\cos 377 t \\
+       &= -0.059\cos 377 t \qquad \text{(volts)}
+\end{align}
+The maximum attained by $\emf$ is 59 millivolts. The minus sign will
 ensure that Lenz's law is respected, if we have defined our directions
-
-consistently. The variation of both (I) and 8 with time is shown in
+consistently. The variation of both $\Phi$ and $\emf$ with time is shown in
 Fig. 7.17.
 
 What about the electric field itself? Usually we cannot deduce
-E from a knowledge of $\curl\vc{E}$ alone. However, our path C is here a
-circle around the center of a symmetrical system. If there are no
-other electric fields around, we may assume that on the circle C, $\vc{E}$ lies
+$\vc{E}$ from a knowledge of $\curl\vc{E}$ alone. However, our path $C$ is here a
+circle around the center of a symmetrical system. \emph{If there are no
+other} electric fields around, we may assume that on the circle $C$, $\vc{E}$ lies
 in that plane and has a constant magnitude. Then it is a trivial
-
-matter to predict its magnitude, since ICE - ds = 2-rrrE = 8, which
-
+matter to predict its magnitude, since $\int_C \vc{E}\cdot\der\vc{s} = 2\pi r E = \emf$, which
 we have already calculated. In this case, the electric field on the
 circle might look like Fig. 7.18a at a particular instant. But if there
 are other field sources it could look quite different. If there happened
 to be a positive and a negative charge located on the axis as shown
-in Fig. 7.l8b, the electric field in the vicinity of the circle would be
+in Fig. 7.18b, the electric field in the vicinity of the circle would be
 the superposition of the electrostatic field of the two charges and the
 induced electric field.
 
- 
-
 % p. 246
- 
+
+\iffalse
 
 \section{Mutual inductance}
 
