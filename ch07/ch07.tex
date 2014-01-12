@@ -732,173 +732,124 @@ induced electric field.
 
 % p. 246
 
-\iffalse
-
 \section{Mutual inductance}
 
-Two circuits, or loops, C1 and C2 are fixed in position relative to
+Two circuits, or loops, $C_1$ and $C_2$ are fixed in position relative to
 one another (Fig. 7.19). By some means, such as a battery and
-a Variable resistance, a controllable current 11 is caused to flow in
-circuit C1. Let B1(:x,y,z) be the magnetic field that would exist if
-the current in C1 remained constant at the value I1, and let 4321 denote
-the flux of B1 through the circuit C2. Thus,
-
+a variable resistance, a controllable current $I_1$ is caused to flow in
+circuit $C_1$. Let $\vc{B}_1(x,y,z)$ be the magnetic field that would exist if
+the current in $C_1$ remained constant at the value $I_1$, and let $\Phi_{21}$ denote
+the flux of $\vc{B}_1$ through the circuit $C_2$. Thus,
 \begin{equation}
+  \Phi_{21} = \int_{S_2} \vc{B}\cdot\der\vc{a}_2
 \end{equation}
-Q21 = S2B'da2 
-
-where S2 is a surface spanning the loop C2. With the shape and
-
-relative position of the two circuits fixed, (1321 will be proportional
-to I1;
-
+where $S_2$ is a surface spanning the loop $C_2$. With the shape and
+relative position of the two circuits fixed, $\Phi_{21}$ will be proportional
+to $I_1$:
 \begin{equation}
+  \frac{\Phi_{21}}{I_1} = \text{const}
 \end{equation}
-: = const (36)
 
-Suppose now that I1 changes with time, but slowly enough so that
-the field B1 at any point in the vicinity of C2 and the current I1 in C1
+Suppose now that $I_1$ changes with time, but \emph{slowly enough} so that
+the field $\vc{B}_1$ at any point in the vicinity of $C_2$ and the current $I_1$ in $C_1$
 at the same instant of time are related as they would be for steady
-currents. (To see why such a restriction is necessary, imagine that C1
-and C2 are 10 meters apart and we cause the current in C1 to double in
-value in 10 nanoseconds!) The flux 4321 will change in proportion
-
-as 11 changes. There will be an electromotive force induced in
-circuit C2, of magnitude
-
+currents. (To see why such a restriction is necessary, imagine that $C_1$
+and $C_2$ are 10 meters apart and we cause the current in $C_1$ to double in
+value in 10 nanoseconds!) The flux $\Phi_{21}$ will change in proportion
+as $I_1$ changes. There will be an electromotive force induced in
+circuit $C_2$, of magnitude
 \begin{equation}
+  \emf_{21} = -\frac{\text{const}}{c} \frac{\der I_1}{\der t}
 \end{equation}
-const ffl
-c dt
-
-321: -
-
-(37)
-
 % p. 247
 The constant here is the same as the one in Eq. 36. Let's absorb the
-
-c in the denominator into a single constant, denoted by M21, and write
+$c$ in the denominator into a single constant, denoted by $M_{21}$, and write
 Eq. 37 in this way:
-
 \begin{equation}
+  \emf_{21} = -M_{21} \frac{\der I_1}{\der t}
 \end{equation}
-821 = -M21% (38)
 
-We call the constant M21 the coefficient of mutual inductance. Its
+We call the constant $M_{21}$ the coefficient of \intro{mutual inductance}. Its
 value is determined by the geometry of our arrangement of loops.
-The units will of course depend on our choice of units for 8, I, and t.
-In the practical system, with 821 in volts and 11 in amperes, M is expressed
-in henrys.T That is, the mutual inductance M21 is one henry
-if a current 11 changing at the rate of 1 ampere / sec induces an electromotive
-force of 1 volt in circuit C2.
-
-As an example, consider the circuits in Fig. 7.20, two coplanar,
-concentric rings, a small ring C2 and a much larger ring C1. What
-is M21 in this case? At the center of C1, with I1 flowing, the field B1
-is given by
-
-\begin{equation}
-\end{equation}
-_ 27711
-- CR1
-
-B1 (39)
-
-with 11 in esu/sec, B1 in gauss. (Review the paragraph at the beginning
-of Sec. 6.5, leading to Eq. 6.42, if you don't remember how to
-find the field at the center of a current ring.) We assume R2 < R1
-so that we can neglect the variation of B1 over the interior of the small
-ring. Then the flux through the small ring is
-
-\begin{equation}
-\end{equation}
-2 1 2 21R 2
-(D21 = (11322) 071;: = %_ (40)
-
-Thus the ``constant'' in Eq. 36, in this particular case, has the value
-2vr2R22/cR1, and the electromotive force induced in C2 will be
-
-\begin{equation}
-\end{equation}
-8 _ _i_ 21121122 .dI1
-21 _ c CR1 dt
-
-(41)
-
-TThe unit is named after Joseph Henry (1797-1878), the foremost American physicist
+The units will of course depend on our choice of units for $\emf$, $I$, and $t$.
+In the practical system, with $\emf_{21}$ in volts and $I_1$ in amperes, $M$ is expressed
+in\index{henry (unit)} \emph{henrys}.\footnote{The unit is named after 
+Joseph Henry (1797-1878), the foremost American physicist\index{Henry, Joseph}
 of his time. Electromagnetic induction was discovered independently by Henry, practically
 at the same time as Faraday's experiments. Henry was the first to recognize the
 phenomenon of self-induction. He developed the electromagnet and the prototype of
-the electric motor, invented the electric relay, and all but invented telegraphy.
+the electric motor, invented the electric relay, and all but invented telegraphy.}
+That is, the mutual inductance $M_{21}$ is one henry
+if a current $I_1$ changing at the rate of $1\ \text{ampere}/\sunit$ induces an electromotive
+force of 1 volt in circuit $C_2$.
 
- 
-
+As an example, consider the circuits in Fig. 7.20, two coplanar,
+concentric rings, a small ring $C_2$ and a much larger ring $C_1$. What
+is $M_{21}$ in this case? At the center of $C_1$, with $I_1$ flowing, the field $B_1$
+is given by
+\begin{equation}
+  B_1 = \frac{2\pi I_1}{c R_1}
+\end{equation}
+with $I_1$ in $\esu/\sunit$, $B_1$ in gauss. (Review the paragraph at the beginning
+of Sec. 6.5, leading to Eq. 6.42, if you don't remember how to
+find the field at the center of a current ring.) We assume $R_2 \ll R_1$
+so that we can neglect the variation of $B_1$ over the interior of the small
+ring. Then the flux through the small ring is
+\begin{equation}
+  \Phi_{21} = (\pi R_2^2)\frac{2\pi I_1}{c R_1} = \frac{2\pi^2 I_1 R_2^2}{c R_1}
+\end{equation}
+Thus the ``constant'' in Eq. 36, in this particular case, has the value
+$2\pi^2R_2^2/cR_1$, and the electromotive force induced in $C_2$ will be
+\begin{equation}
+  \emf_{21} = -\frac{1}{c}\cdot\frac{2\pi^2 R_2^2}{c R_1}\cdot \frac{\der I_1}{\der t}
+\end{equation}
 % p. 248
-with 821 in statvolts and 11 in esu per second. To express the mutual
+with $\emf_{21}$ in statvolts and $I_1$ in esu per second. To express the mutual
 inductance in henrys, we note that a statvolt is 300 volts and
-I(esu/sec) = I(amp) x 3 X 109, so that
-
+$I(\esu/\sunit) = I(\text{amperes}) \times 3 \times 10^9$, so that
 \begin{equation}
+  \emf (\text{volts}) = - \frac{2\pi^2 R_2^2}{ R_1} \times 10^{-9} \frac{\der I}{\der t}\qquad(\text{amperes/s})
 \end{equation}
-ZWZRZZ >< 1O'9ff (amp/sec) (42)
-
-8(volts) = _ R1 dt
-
-Thus the value of M21 in henrys, with R2 and R1 in centimeters, is
-
+Thus the value of $M_{21}$ in henrys, with $R_2$ and $R_1$ in centimeters, is
 \begin{equation}
+  M_{21} = \frac{2\pi^2 \times 10^{-9}R_2^2}{R_1}
 \end{equation}
-M,,, Z My (43)
-1
-
 Incidentally, the minus sign we had been carrying along doesn't tell
 us much at this stage. If you want to be sure which way the electromotive
-force will tend to drive current in C2, Lenz's law is your most
+force will tend to drive current in $C_2$, Lenz's law is your most
 reliable guide.
 
-If the circuit C1 consisted of N1 turns of wire instead of a single
-ring, the field B1 at the center would be N1 times as strong, for a given
-current I1. Also, if the small loop C2 consisted of N2 turns, all of the
-same radius R2, the electromotive force in each turn would add to
+If the circuit $C_1$ consisted of $N_1$ turns of wire instead of a single
+ring, the field $B_1$ at the center would be $N_1$ times as strong, for a given
+current $I_1$. Also, if the small loop $C_2$ consisted of $N_2$ turns, all of the
+same radius $R_2$, the electromotive force in each turn would add to
 that in the next, making the total electromotive force in that circuit
-N2 times that of a single turn. Thus for multiple turns in each coil
+$N_2$ times that of a single turn. Thus for \emph{multiple turns} in each coil
 the mutual inductance will be given by
-
 \begin{equation}
+  M_{21} = \frac{2\pi^2 \times 10^{-9}N_1N_2R_2^2}{R_1}
 \end{equation}
-2772 X l0-9N1N2R22
-
-M :
-21 R1
-
-(44)
-
-This assumes that the turns in each coil are neatly bundled to-
-gether, the cross section of the bundle being small compared to the
-coil radius. However, the mutual inductance M21 has a well-defined
+This assumes that the turns in each coil are neatly bundled 
+together, the cross section of the bundle being small compared to the
+coil radius. However, the mutual inductance $M_{21}$ has a well-defined
 meaning for two circuits of any shape or distribution. It is the ratio
 of the electromotive force in volts in circuit 2, caused by changing
-
-current in circuit 1, to the rate of change of current 11 in amperes / sec.
+current in circuit 1, to the rate of change of current $I_1$ in amperes/second.
 That is,
-
 \begin{equation}
+  M_{21}(\text{henrys})
+        = \frac{\emf_{21}\ (\text{volts})}{\left(\frac{\der I_1}{\der t}\right)\left(\frac{\text{A}}{s}\right)}
 \end{equation}
-821 (volts)
-
-M21(henrys) = dl amp
-1
-(W) l sec )
-
-(45)
 
 % p. 249
+
+\iffalse
+
 \section{A ``reciprocity'' theorem}
 
-In considering the circuits C1 and C2 we might have inquired about
-the electromotive force induced in circuit C1 by a changing current
-in circuit C2. That would involve another coefficient of mutual
+In considering the circuits $C_1$ and $C_2$ we might have inquired about
+the electromotive force induced in circuit $C_1$ by a changing current
+in circuit $C_2$. That would involve another coefficient of mutual
 inductance. M12:
 
 \begin{equation}
@@ -922,9 +873,9 @@ R1 R1
 also---and not what we would get by switching l's and 2's everywhere!
 
 To prove the theorem, Eq. 47, we have to show that the flux (1)12
-through some circuit C1 as a result of a current I in a circuit C2 is
+through some circuit $C_1$ as a result of a current I in a circuit $C_2$ is
 equal to the flux CD21 that threads circuit 2 when an equal current I
-flows in circuit C1. To show this, we use the vector potential.
+flows in circuit $C_1$. To show this, we use the vector potential.
 
 According to Stokes' theorem:
 
@@ -954,22 +905,22 @@ A21 = L E (50)
 6 C1 T21
 
 A21 is the vector potential, at some point (x2,y2,z2), of the magnetic
-field caused by current I (esu/sec) flowing in circuit C1; ds1 is an
+field caused by current I (esu/sec) flowing in circuit $C_1$; ds1 is an
 
 % p. 250
-element of the loop C1; and r21 is the magnitude of the distance from
+element of the loop $C_1$; and r21 is the magnitude of the distance from
 that element to the point (x2,y2,z2).
-Figure 7.21 shows the two loops C1 and C2, with current I flowing
+Figure 7.21 shows the two loops $C_1$ and $C_2$, with current I flowing
 
-in C1. Let (x2,y2,z2) be a point on the loop C2. Then the flux
-through C2 due to current I in C1 is:
+in $C_1$. Let (x2,y2,z2) be a point on the loop $C_2$. Then the flux
+through $C_2$ due to current I in $C_1$ is:
 
 \begin{equation}
 \end{equation}
 I I ds
 (I321 :L2A21 ' ds2 :1;/12 dS2 ' A21 = FJQJZIIS2 ' 01?: (51)
 
-Similarly, the flux through C1 due to current I flowing in C2 would
+Similarly, the flux through $C_1$ due to current I flowing in $C_2$ would
 be given by
 
 \begin{equation}
@@ -977,7 +928,7 @@ be given by
 1 d
 (1)12 = : folds, g (52)
 
-C2 T12
+$C_2$ T12
 
 Now r12 = r21, for these are just distance magnitudes, not vectors.
 The meaning of each of the integrals above is: Take the scalar product
@@ -1002,7 +953,7 @@ waves.
 
 \section{Self-inductance}
 When the current I1 is changing, there is a change in the flux
-through circuit C1 itself, consequently an electromotive force is in-
+through circuit $C_1$ itself, consequently an electromotive force is in-
 
 duced. Call this 811. The induction law holds, whatever the source
 of the flux:
@@ -1047,7 +998,7 @@ Hence the induced electromotive force 8 is
 \begin{equation}
 \end{equation}
 _ 1 dd) _ 2N?h ) dI
-8-7?-' C2 1" am (57)
+8-7?-' $C_2$ 1" am (57)
 Thus the self-inductance of this coil is given by
 \begin{equation}
 \end{equation}
@@ -1295,7 +1246,7 @@ zero everywhere outside the torus, remember.)
 \begin{equation}
 \end{equation}
 1 1 b2NI 2 N2h12 I9
-WfB2dv:87  Cr ) 27rrhdr: C2 ln(;) (73)
+WfB2dv:87  Cr ) 27rrhdr: $C_2$ ln(;) (73)
 
 Comparing this result with Eq. 71, we see that, indeed,
 
