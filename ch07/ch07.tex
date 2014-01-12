@@ -482,90 +482,76 @@ $1\ (\text{statvo1t}/\cmunit)\cdot\cmunit$, that is, 1 statvolt. In ordinary vol
 unit, the amplitude of the electromotive force in this example
 amounts to $3.1 \times 10^{-4} \times 300$, or 0.093 volt.
 
-\iffalse
-
 \section{A stationary loop with the field source moving}
 
 We can, if we like, look at the events depicted in Fig. 7.6 from a
 frame of reference that is moving with the loop. That can't change
 the physics, only the words we use to describe it. Let $F'$, with coordinates
-x', y', z', be the frame attached to the loop, which we now regard
-
+$x'$, $y'$, $z'$, be the frame attached to the loop, which we now regard
 % p. 239
-as stationary (Fig. 7.14). The coil and battery, stationary in frame F,
-are moving in the - y' direction with velocity v' = -v. Let Bi and
-B5 be the magnetic fields measured at the two ends of the loop by
-observers in $F'$ at some instant t'. At these positions there will be
+as stationary (Fig. 7.14). The coil and battery, stationary in frame $F$,
+are moving in the $-y'$ direction with velocity $\vc{v}' = -\vc{v}$. Let $B'_1$ and
+$B'_2$ be the magnetic fields measured at the two ends of the loop by
+observers in $F'$ at some instant $t'$. At these positions there will be
 an electric field in $F'$. Equation 6.62 tells us that
-
-\begin{equation}
-\end{equation}
-_v'xBi vxBi
-
-E': :
-
-1 c c (22)
-E,_ v'xBé_vxBé
-
-2__ c _ c
-
+\begin{align}
+\begin{split}
+  \vc{E}'_1 &= -\frac{\vc{v'}\times\vc{B}_1'}{c} = \frac{\vc{v}\times\vc{B}'_1}{c} \\
+  \vc{E}'_2 &= -\frac{\vc{v'}\times\vc{B}_2'}{c} = \frac{\vc{v}\times\vc{B}'_2}{c} 
+\end{split}
+\end{align}
 For observers in $F'$ this is a genuine electric field. It is not an
 electrostatic field. The line integral of $\vc{E}'$ around any closed path in
 $F'$ is not generally zero. In fact, the line integral of $\vc{E}'$ around the
 rectangular loop is:
-
 \begin{equation}
+  \int \vc{E}'\cdot\der\vc{s}' = \frac{wv}{c}(B'_1-B'_2)
 \end{equation}
-fE' - ds' = 322035 _ 13;) (23)
 
-We can call the line integral in Eq. 23 the electromotive force 8' on
-this path. If a charged particle moves once around the path, 8' is
-the work done on it, per unit charge. 8' is related to the rate of
-
+We can call the line integral in Eq. 23 the electromotive force $\emf'$ on
+this path. If a charged particle moves once around the path, $\emf'$ is
+the work done on it, per unit charge. $\emf'$ is related to the rate of
 % p. 240
 change of flux through the loop. To see this, note that while the loop
-itself is stationary, the magnetic field pattern is now moving with the
-velocity -v of the source. Hence for the flux lost or gained at either
-end of the loop, in a time interval dt', we get a result similar to Eq. 11,
+itself is stationary, the \emph{magnetic field pattern} is now moving with the
+velocity $-\vc{v}$ of the source. Hence for the flux lost or gained at either
+end of the loop, in a time interval $\der t'$, we get a result similar to Eq. 11,
 and we conclude that
-
 \begin{equation}
+  \emf' = \frac{1}{c}\frac{\der\Phi'}{\der t'}
 \end{equation}
-,_1d<I>'-
-8_cdt'
-
-(24)
 
 We can summarize as follows the descriptions in the two frames of
-reference, F, in which the source of $\vc{B}$ is at rest, and $F'$, in which the
-loop is at rest: is
+reference, $F$, in which the source of $\vc{B}$ is at rest, and $F'$, in which the
+loop is at rest:
 
 An observer in $F$ says, ``We have here a magnetic field which,
 though it is not uniform spatially, is constant in time. There is no
-electric field. That wire loop over there is moving with velocity v
+electric field. That wire loop over there is moving with velocity $\vc{v}$
 through the magnetic field, so the charges in it are acted on by a force
-(v/ c) x B dynes per unit charge. The line integral of this force-per-
-unit-charge, taken around the whole loop is the electromotive force 8
-and it is equal to - ( l/c) (d<I>/dt). The flux <1) is fB - da over a surface
-$S$ which, at some instant of time t by my clock, spans the loop.''
+$(\vc{v}/ c) \times \vc{B}$ dynes per unit charge. The line integral of this 
+force-per-unit-charge, taken around the whole loop is the electromotive force $\emf$
+and it is equal to $-(1/c)(\der\Phi/\der t)$. The flux $\Phi$ is $\int\vc{B}\cdot\der\vc{a}$ over a surface
+$S$ which, at some instant of time $t$ by my clock, spans the loop.''
 
 An observer in $F'$ says, ``This loop is stationary and only an electric
 field could cause the charges in it to move. But there is in fact an
 electric field $\vc{E}'$. It seems to be caused by that magnetlike object
-which happens at this moment to be whizzing by with a velocity -v,
+which happens at this moment to be whizzing by with a velocity $-\vc{v}$,
 producing at the same time a rather strong magnetic field $\vc{B}'$. The
-electric field is such that fE' -_ds' around this stationary loop is not
-zero but instead is equal to 4''; 1/0 time_s_,l the rate of change of flux
-through the loop, d<I>'/dt'. The flux <1)' is JB' - da' over a surface
-spanning the loop, the values of $\vc{B}'$ to be measured all over this surface
-at some one instant t', by my clock.''
+electric field is such that $\int\vc{E}'\cdot\der\vc{s}'$ around this stationary loop is not
+zero but instead is equal to $-1/c$ times the rate of change of flux
+through the loop, $\der\Phi'/\der t'$. The flux $\Phi'$ is $\int\vc{B}'\cdot\der\vc{a}'$ over a surface
+spanning the loop, the values of $B'$ to be measured all over this surface
+at some one instant $t'$, by my clock.''
 
 Our conclusions so far are relativistically exact. They hold for
-any speed 0 g c provided we observe scrupulously the distinctions
-between B and $\vc{B}'$, t and t', etc. If v < c, so that u'3/c2 can be
+any speed $v \le c$ provided we observe scrupulously the distinctions
+between $\vc{B}$ and $\vc{B}'$, $t$ and $t'$, etc. If $v \ll c$, so that $v^2/c^2$ can be
+neglected, $B'$ will be practically equal to $B$, and we can safely ignore
+also the distinction between $t$ and $t'$.
 
-neglected, $\vc{B}'$ will be practically equal to B, and we can safely ignore
-also the distinction between t and t'.
+\iffalse
 
 \section{A universal law of induction}
 
