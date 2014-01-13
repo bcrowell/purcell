@@ -843,113 +843,92 @@ That is,
 
 % p. 249
 
-\iffalse
-
 \section{A ``reciprocity'' theorem}
 
 In considering the circuits $C_1$ and $C_2$ we might have inquired about
 the electromotive force induced in circuit $C_1$ by a changing current
 in circuit $C_2$. That would involve another coefficient of mutual
-inductance. M12:
-
+inductance, $M_{12}$:
 \begin{equation}
+  M_{12} = \frac{\emf_{12}}{\left(\frac{\der I_2}{\der t}\right)}
 \end{equation}
-
-M2 = 8" (46)
-
-It is a remarkable fact that for any two circuits,
-
+It is a remarkable fact that for \emph{any} two circuits,
 \begin{equation}
+  M_{12}=M_{21}
 \end{equation}
-M12 = M21 (47)
 
 This is not a matter of geometrical symmetry. Even the simple
 example in Fig. 7.20 is not symmetrical with respect to the two
-circuits. Note that R1 and R2 enter in different ways into the expression
-for M21; Eq. 47 asserts that. for these two dissimilar circuits, if
- then M,, = 
+circuits. Note that $R_1$ and $R_2$ enter in different ways into the expression
+for $M_{21}$; Eq. 47 asserts that, for these two dissimilar circuits, if
+$  M_{21} = \frac{2\pi^2 \times 10^{-9}N_1N_2R_2^2}{R_1}$, then
+$  M_{12} = \frac{2\pi^2 \times 10^{-9}N_1N_2R_2^2}{R_1}$
+also---and \emph{not} what we would get by switching 1's and 2's everywhere!
 
-R1 R1
-also---and not what we would get by switching l's and 2's everywhere!
-
-To prove the theorem, Eq. 47, we have to show that the flux (1)12
-through some circuit $C_1$ as a result of a current I in a circuit $C_2$ is
-equal to the flux CD21 that threads circuit 2 when an equal current I
+To prove the theorem, Eq. 47, we have to show that the flux $\Phi_{12}$
+through some circuit $C_1$ as a result of a current $I$ in a circuit $C_2$ is
+equal to the flux $\Phi_{21}$ that threads circuit 2 when an \emph{equal} current $I$
 flows in circuit $C_1$. To show this, we use the vector potential.
 
 According to Stokes' theorem:
-
 \begin{equation}
+  \int_C \vc{A}\cdot\der\vc{s} = \int_S (\curl\vc{A})\cdot\der\vc{a}
 \end{equation}
-M21 :
-
-LA-ds =fS(cur1 A) -da (48)
-
-In particular, if A is the vector potential of a magnetic field B, that is,
-if B = curl A, then we have
-
+In particular, if $\vc{A}$ is the vector potential of a magnetic field $\vc{B}$, that is,
+if $\vc{B} = \curl \vc{A}$, then we have
 \begin{equation}
+\boxed{
+  \int_C \vc{A}\cdot\der\vc{s} = \int_S \vc{B}\cdot\der\vc{a} = \Phi_S
+}
 \end{equation}
-<4"
+\emph{That is, the line integral of the vector potential around a loop is equal
+to the flux of $\vc{B}$ through the loop.}
 
-That is, the line integral of the vector potential around a loop is equal
-to the flux of $\vc{B}$ through the loop.
 Now the vector potential is related to its current source as follows,
-
 according to Eq. 6.35:
-
 \begin{equation}
+  \vc{A}_{21} = \frac{I}{c} \int_{C_1} \frac{\der\vc{s}_1}{r_{21}}
 \end{equation}
-A21 = L E (50)
-
-6 C1 T21
-
-A21 is the vector potential, at some point (x2,y2,z2), of the magnetic
-field caused by current I (esu/sec) flowing in circuit $C_1$; ds1 is an
-
+$\vc{A}_{21}$ is the vector potential, at some point $(x_2,y_2,z_2)$, of the magnetic
+field caused by current $I$ (esu/s) flowing in circuit $C_1$; $\der\vc{s}_1$ is an
 % p. 250
-element of the loop $C_1$; and r21 is the magnitude of the distance from
-that element to the point (x2,y2,z2).
-Figure 7.21 shows the two loops $C_1$ and $C_2$, with current I flowing
+element of the loop $C_1$; and $r_{21}$ is the magnitude of the distance from
+that element to the point $(x_2,y_2,z_2)$.
 
-in $C_1$. Let (x2,y2,z2) be a point on the loop $C_2$. Then the flux
-through $C_2$ due to current I in $C_1$ is:
-
+Figure 7.21 shows the two loops $C_1$ and $C_2$, with current $I$ flowing
+in $C_1$. Let $(x_2,y_2,z_2)$ be a point on the loop $C_2$. Then the flux
+through $C_2$ due to current $I$ in $C_1$ is:
 \begin{equation}
+  \Phi_{21} = \int_{C_2} \vc{A}_{21}\cdot\der\vc{s}_2
+            = \int_{C_2} \der\vc{s}_2\cdot\vc{A}_{21}
+            = \frac{I}{c} \int_{C_2} \der\vc{s}_2 \cdot \int_{C_1} \frac{\der\vc{s}_1}{r_{21}}
 \end{equation}
-I I ds
-(I321 :L2A21 ' ds2 :1;/12 dS2 ' A21 = FJQJZIIS2 ' 01?: (51)
-
-Similarly, the flux through $C_1$ due to current I flowing in $C_2$ would
+Similarly, the flux through $C_1$ due to current $I$ flowing in $C_2$ would
 be given by
-
 \begin{equation}
+  \Phi_{12} = \frac{I}{c} \int_{C_1} \der\vc{s}_1 \cdot \int_{C_2} \frac{\der\vc{s}_2}{r_{12}}
 \end{equation}
-1 d
-(1)12 = : folds, g (52)
-
-$C_2$ T12
-
-Now r12 = r21, for these are just distance magnitudes, not vectors.
+Now $r_{12} = r_{21}$, for these are just distance magnitudes, not vectors.
 The meaning of each of the integrals above is: Take the scalar product
 of a pair of line elements, one on each loop, divide by the distance
 between them and sum over all pairs. The only difference between
-Eq. 51 and Eq. 52 is the order in which this operation is carried out,
-and that cannot affect the final sum. Hence (1312 = (1921, from which
-it follows directly that M12 = M21. Thanks to this theorem, we need
-make no distinction between M12 and M21. We may speak, hence-
-forth, of the mutual inductance M of any two circuits.
+Eq. 51 and Eq. 52 is the \emph{order} in which this operation is carried out,
+and that cannot affect the final sum. Hence $\Phi_{12}=\Phi_{21}$, from which
+it follows directly that $M_{12} = M_{21}$. Thanks to this theorem, we need
+make no distinction between $M_{12}$ and $M_{21}$. We may speak, hence-
+forth, of the mutual inductance $M$ of any two circuits.
 
 Theorems of this sort are often called ``reciprocity'' theorems.
 There are some other reciprocity theorems on electrical circuits, not
-unrelated to this one. This may remind you of the relation C,-k = Ck,-
+unrelated to this one. This may remind you of the relation $C_{jk} = C_{kj}$
 mentioned in Sec. 3.6 and treated in Prob. 3.27. A reciprocity relation
 usually expresses some general symmetry law which is not apparent
 in the superficial structure of the system. You will meet an
 extremely sweeping, and from some points of view surprising,
-
 reciprocity law when you study the transmission of electromagnetic
 waves.
+
+\iffalse
 
 \section{Self-inductance}
 When the current I1 is changing, there is a change in the flux
