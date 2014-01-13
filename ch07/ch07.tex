@@ -928,70 +928,53 @@ extremely sweeping, and from some points of view surprising,
 reciprocity law when you study the transmission of electromagnetic
 waves.
 
-\iffalse
-
 \section{Self-inductance}
-When the current I1 is changing, there is a change in the flux
-through circuit $C_1$ itself, consequently an electromotive force is in-
-
-duced. Call this 811. The induction law holds, whatever the source
+When the current $I_1$ is changing, there is a change in the flux
+through circuit $C_1$ itself, and consequently an electromotive force is induced.
+Call this $\emf_{11}$. The induction law holds, whatever the source
 of the flux:
-
 \begin{equation}
+  \emf_{11} = -\frac{1}{c} \frac{\der\Phi_{11}}{\der t}
 \end{equation}
-an 2 _ L d'1>u
-
-cdt
-
-(53)
-
 % p. 251
-where (1311 is the flux through circuit 1 of the field B1 due to the current
-I 1 in circuit 1. The minus sign expresses the fact that the electromotive
-force is always directed so as to oppose the change in current---
-Lenz's law, again. Since <I>11 will be proportional to I1 we can write
-
+where $\emf_{11}$ is the flux through circuit 1 of the field $B_1$ due to the current
+$I_1$ in circuit 1. The minus sign expresses the fact that the electromotive
+force is always directed so as to \emph{oppose} the \emph{change} in current---
+Lenz's law, again. Since $\Phi_{11}$ will be proportional to $I_1$ we can write
 \begin{equation}
+  \emf_{11} = -L_1 \frac{\der I_1}{\der t}
 \end{equation}
-811 = -L1 % (54)
-The constant L1 is called the self-inductance of the circuit.
+The constant $L_1$ is called the \intro{self-inductance} of the circuit.
 
-As an example of a circuit for which L1 can be calculated, consider
+As an \emph{example} of a circuit for which $L_1$ can be calculated, consider
 the rectangular toroidal coil of Prob. 6.19, shown here again in
-Fig. 7.22. You found (if you worked that problem) that a current I,
-in esu/sec, flowing in the coil of N turns produces a field the strength
-of which, at a radius r from the axis of the coil, is given by B = 2N1/er.
+Fig. 7.22. You found (if you worked that problem) that a current $I$,
+in esu/s, flowing in the coil of $N$ turns produces a field the strength
+of which, at a radius $r$ from the axis of the coil, is given by $B = 2NI/cr$.
 The total flux through one turn of the coil is the integral of this field
 over the cross section of the coil:
-
 \begin{equation}
+  \Phi\ \text{(one turn)} = h\int_a^b \frac{2NI}{cr}\der r = \frac{2NIh}{c}\ln\left(\frac{b}{a}\right)
 \end{equation}
-<1>(one turn) 2 h b2NI dr = 2NIh ln  (55)
-a or c a
-The flux threading the circuit of N turns is N times as great:
+The flux threading the circuit of $N$ turns is $N$ times as great:
 \begin{equation}
+  \Phi = \frac{2N^2Ih}{c}\ln\left(\frac{b}{a}\right)
 \end{equation}
-«D = 2N2"' ln (2) (56)
-c a
-Hence the induced electromotive force 8 is
+Hence the induced electromotive force $\emf$ is
 \begin{equation}
+  \emf = -\frac{1}{c}\frac{\der\Phi}{\der t} = -\frac{2N^2h}{c^2}\ln\left(\frac{b}{a}\right)\frac{\der I}{\der t}
 \end{equation}
-_ 1 dd) _ 2N?h ) dI
-8-7?-' $C_2$ 1" am (57)
 Thus the self-inductance of this coil is given by
 \begin{equation}
+  L = \frac{2N^2h}{c^2}\ln\left(\frac{b}{a}\right)
 \end{equation}
-L = 2N2" ln (9) (58)
-c2 (1
-
-Equation 58 is the correct expression for the inductance if I is measured
-in esu/sec and 8 in statvolts. For I in amperes and 8 in volts
-the appropriate unit for L is the henry, as in the case of mutual in-
-ductance. Converting to these units we get:
-
+Equation 58 is the correct expression for the inductance if $I$ is measured
+in esu/s and $\emf$ in statvolts. For $I$ in amperes and $\emf$ in volts
+the appropriate unit for $L$ is the henry, as in the case of mutual 
+inductance. Converting to these units we get:
 \begin{equation}
+  L\ \text{(henrys)} = 2 \times 10^{-9} N^2 h \ln\left(\frac{b}{a}\right)
 \end{equation}
-L (henrys) = 2 x 10-9N2h1n (59)
 
 You may think that one of the rings we considered earlier would
 have made a simpler example to illustrate the calculation of self-
@@ -1001,27 +984,29 @@ simple circular loop of wire, we encounter a puzzling difficulty. It
 seems a good idea to simplify the problem by assuming that the wire
 has zero diameter. But we soon discover that if finite current flows
 in a filament of zero diameter, the flux threading a loop made of such
-a filament is infinite! The reason is that the field B, in the neighborhood
-of a filamentary current, varies as 1/r where r is the distance
-from the filament, and the integral of B'x area diverges as f(dr/r)
-when we extend it down to r = 0. To avoid this we may let the radius
+a filament is infinite! The reason is that the field $B$, in the neighborhood
+of a filamentary current, varies as $1/r$ where $r$ is the distance
+from the filament, and the integral of $B\times\text{\emph{area}}$ diverges as $\int(\der r/r)$
+when we extend it down to $r = 0$. To avoid this we may let the radius
 of the wire be finite, not zero, which is more realistic anyway. This
 may make the calculation a bit more complicated, in a given case,
 but that won't worry us. The real difficulty is that different parts of
-the wire now appear as difierent circuits, linked by different amounts
-of flux. We are no longer sure what we mean by the flux through the
+the wire now appear as \emph{different} circuits, linked by different amounts
+of flux. We are no longer sure what we mean by \emph{the} flux through \emph{the}
 circuit. In fact, because the electromotive force is different in the
 different filamentary loops into which the circuit can be divided. some
-redistribution of current density must occur when rapidly changing
+\emph{redistribution} of current density must occur when rapidly changing
 currents flow in the ring. Hence the inductance of the circuit may
-depend somewhat on the rapidity of change of I, and thus not be
+depend somewhat on the rapidity of change of $I$, and thus not be
 strictly a constant as Eq. 54 would imply.
 
 We avoided this embarrassment in the toroidal coil example by
 ignoring the field in the immediate vicinity of the individual turns of
-the winding. Most of the flux does not pass through the wires themselves
+the winding. Most of the flux does \emph{not} pass through the wires themselves
 and whenever that is the case the effect we have just been
 worrying about will be unimportant.
+
+\iffalse
 
 \section{A circuit containing self-inductance}
 
