@@ -1006,127 +1006,106 @@ the winding. Most of the flux does \emph{not} pass through the wires themselves
 and whenever that is the case the effect we have just been
 worrying about will be unimportant.
 
-\iffalse
-
 \section{A circuit containing self-inductance}
 
-Suppose we connect a battery, providing electromotive force 80,
-to a coil, or inductor, with self-inductance L, as in Fig. 7.230. The
+Suppose we connect a battery, providing electromotive force $\emf_0$,
+to a coil, or \intro{inductor}, with self-inductance $L$, as in Fig. 7.23a. The
 coil itself, the connecting wires, and even the battery will have some
 resistance. We don't care how this is distributed around the circuit.
-It can all be lumped together in one resistance R, indicated on the
+It can all be lumped together in one resistance $R$, indicated on the
 circuit diagram of Fig. 7.23b by a resistor symbol with this value.
 Also, the rest of the circuit, especially the connecting wires, contribute
 a bit to the self-inductance of the whole circuit; we assume that
-this is included in L. In other words, Fig. 7.23b represents an
-idealization of the physical circuit: the inductor L, symbolized by
-\.U.Qr, has no resistance; the resistor R has no inductance. It is
-this idealized circuit that we shall now analyze. F
+this is included in $L$. In other words, Fig. 7.23b represents an
+idealization of the physical circuit: the inductor $L$, symbolized by
+\raisebox{-0.1\height}{\includegraphics{ch07/figs/inductor-symbol}},
+has no resistance; the resistor $R$ has no inductance. It is
+this idealized circuit that we shall now analyze.
 
-If the current I in the circuit is changing at the rate dI/dt. an electromotive
-force L dI/dt will be induced, in a direction to oppose the
-change. Also, there is the constant electromotive force 80 of the
-
+If the current $I$ in the circuit is changing at the rate $\der I/\der t$, an electromotive
+force $L\: \der I/\der t$ will be induced, in a direction to oppose the
+change. Also, there is the constant electromotive force $\emf_0$ of the
 % p. 253
-(Jhap. 7 Electromagnetic Induction 253
-
 battery. If we define the positive current direction as the one in
 which the battery tends to drive current around the circuit, then the
-net electromotive force at any instant is 80 - L dI/dt. This drives
-the current I through the resistor R. That is,
-
+net electromotive force at any instant is $\emf_0 - L\: \der I/\der t$. This drives
+the current $I$ through the resistor $R$. That is,
 \begin{equation}
+  \emf_0 - L\frac{\der I}{\der t} = RI
 \end{equation}
-so - L% = R1 (60)
 
 We can also describe the situation in this way: The potential difference
-between points A and B, which we'll call the voltage across
-the inductor, is L dI/dt, with the upper end of the inductor positive
-if I in the direction shown is increasing. The potential difference
-between B and C, the voltage across the resistor, is RI, with the upper
+between points $A$ and $B$, which we'll call the \emph{voltage across
+the inductor}, is $L\: \der I/\der t$, with the upper end of the inductor positive
+if $I$ in the direction shown is \emph{increasing}. The potential difference
+between $B$ and $C$, the voltage across the resistor, is $RI$, with the upper
 end of the resistor positive. Hence the sum of the voltage across the
-inductor and the voltage across the resistor is L dI/dt + RI. This is
+inductor and the voltage across the resistor is $L\: \der I/\der t+RI$. This is
 the same as the potential difference between the battery terminals,
-
-which is 80 (our idealized battery has no internal resistance). Thus
+which is $\emf_0$ (our idealized battery has no internal resistance). Thus
 we have
-
 \begin{equation}
+  \emf_0 = L\frac{\der I}{\der t} + RI
 \end{equation}
-_ ff 1
-80_Ldt+RI (6)
-
 which is merely a restatement of Eq. 60.
 
 Before we look at the mathematical solution of Eq. 60, 1et's predict
-what ought to happen in this circuit if the switch is closed at t = 0.
-Before the switch is closed, I = 0, necessarily. A long time after the
+what ought to happen in this circuit if the switch is closed at $t = 0$.
+Before the switch is closed, $I = 0$, necessarily. A long time after the
 switch has been closed, some steady state will have been attained,
-with current practically constant at some value 10. Then and there-
-after, dI/dt 2: O, and Eq. 60 reduces to
-
+with current practically constant at some value $I_0$. Then and there-
+after, $\der I/\der t\approx 0$, and Eq. 60 reduces to
 \begin{equation}
+  \emf_0 = RI_0
 \end{equation}
-80 : R10 (62)
-
-The transition from zero current to the steady-state current I0 cannot
-occur abruptly at t = 0, for then dI/dt would be infinite. In fact,
-just after t = 0, the current I will be so small that the second term
-R1 in Eq. 60 can be ignored, giving
-
+The transition from zero current to the steady-state current $I_0$ cannot
+occur abruptly at $t = 0$, for then $\der I/\der t$ would be infinite. In fact,
+just after $t = 0$, the current $I$ will be so small that the second term
+$RI$ in Eq. 60 can be ignored, giving
 \begin{equation}
+  \frac{\der I}{\der t} = \frac{\emf_0}{L}
 \end{equation}
-dI _ 80
-E - L (63)
-The inductance L limits the rate of rise of the current.
+The inductance $L$ limits the rate of rise of the current.
+
 What we now know is summarized in Fig. 7.24a. It only remains
-
-to find how the whole change takes place. Equation 60 is a differ-
-
+to find how the whole change takes place. Equation 60 is a differential 
+equation like some you have already met in Sec. 4.11 and in
 % p. 254
-nu: LJVI/I/Ulklllvtffglffl/VWU anvwwuuwurw
-
 Vol. 1, Chap. 6. Without further ado we can write down a solution
-to Eq. 60 which satisfies our initial condition, I = O at t = O.
-
+to Eq. 60 which satisfies our initial condition, $I = 0$ at $t = 0$.
 \begin{equation}
+  I = \frac{\emf_0}{R}\left(1-e^{-(R/L)t}\right)
 \end{equation}
-50 _
-I 2 _ 1 _ (R/L)t 64
-R( e > < >
 
-The graph in Fig. 7.241) shows the current approaching its asymptotic
-value 10 exponentially. The ``time constant'' of this circuit is
-the quantity L/R. If L is measured in henrys and R in ohms, this
-comes out in seconds, since henrys ~ vo1ts/ (amp/sec), and
-ohms ~ volts/amperes.
+The graph in Fig. 7.24b shows the current approaching its asymptotic
+value $I_0$ exponentially. The ``time constant'' of this circuit is
+the quantity $L/R$. If $L$ is measured in henrys and $R$ in ohms, this
+comes out in seconds, since $\zu{henrys} \sim \zu{vo1ts}/ (\zu{A}/\sunit)$, and
+$\zu{ohms} \sim \zu{volts}/\zu{A}$.
 
-What happens if we open the switch after the current I0 has been
+What happens if we open the switch after the current $I_0$ has been
 established, thus forcing the current to drop abruptly to zero? That
-would make the term L dI/dt negatively infinite! The catastrophe
+would make the term $L\: \der I/\der t$ negatively infinite! The catastrophe
 can be more than mathematical. People have been killed opening
 switches in highly inductive circuits. What happens generally is that
 a very high induced voltage causes a spark or are across the open
 switch contacts, so that the current continues after all. Let us instead
 remove the battery from the circuit by closing a conducting
-path across the LR combination, as in Fig. 7.250. at the same time dis-
-
-connecting the battery. We now have a circuit described by the
+path \emph{across} the $LR$ combination, as in Fig. 7.25a, at the same time 
+disconnecting the battery. We now have a circuit described by the
 equation
-
 \begin{equation}
+  0 = L \frac{\der I}{\der t} +RI
 \end{equation}
-0=L%+H1 (65)
-
-with the initial condition I = 10 at t = t1, where t1 is the instant at
+with the initial condition $I = I_0$ at $t = t_1$, where $t_1$ is the instant at
 which the short circuit was closed. The solution is the simple exponential
 decay function:
-
 \begin{equation}
+  I = I_0 e^{-(R/L)(t-t_1)}
 \end{equation}
-1 = I06-(R/L)(t-t1) (66)
+with the same characteristic time, $L/R$, as before.
 
-with the same characteristic time, L/R, as before.
+\iffalse
 
 \section{Energy stored in the magnetic field}
 During the decay of the current described by Eq. 66 and Fig. 7.2511,
