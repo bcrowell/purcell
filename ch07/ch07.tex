@@ -1327,24 +1327,19 @@ term with $\vc{J}$, is practically all that counts.
 
 % p. 260
 % p. 261
-\iffalse
-
 \section{The displacement current}
 
-Observe that the vector field L 381;; appears to form a continuation
-
-c
-
-of the conduction current distribution. Maxwell called it the displacement
-current, and the name has stuck although it no longer
-seems very appropriate. To be precise, we can define a ``displace-
-ment current density" J,,,, to be distinguished from the conduction
-current density J, by writing Eq. 84 this way:
-
+Observe that the vector field $\frac{1}{c}\frac{\partial\vc{E}}{\partial t}$
+appears to form a \emph{continuation}
+of the conduction current distribution. Maxwell called it the \intro{displacement
+current}, and the name has stuck although it no longer
+seems very appropriate. To be precise, we can define a
+``displacement current density" $\vc{J}_d$, to be distinguished from the conduction
+current density $\vc{J}$, by writing Eq. 84 this way:
 \begin{equation}
+  \curl\vc{B} = \frac{4\pi}{c}(\vc{J}+\vc{J}_d)
 \end{equation}
-curl B = 4_:(J + Jd) (88)
-and defining J,,, E 
+and defining $\vc{J}_d \equiv \frac{1}{4\pi}\frac{\partial\vc{E}}{\partial t}$.
 
 We needed the new term to make the relation between current and
 magnetic field consistent with the continuity equation, in the case
@@ -1356,66 +1351,63 @@ for it, but there is a more fundamental reason why experiments like
 F araday's could not have revealed any new effects attributable to the
 last term in Eq. 84. In any apparatus in which there are changing
 electric fields, there are present at the same time conduction currents,
-charges in motion. The magnetic field B, everywhere around the
+charges in motion. The magnetic field $\vc{B}$, everywhere around the
 apparatus, is just about what you would expect those conduction
 currents to produce. In fact, it is almost exactly the field you would
 calculate if, ignoring the fact that the circuits may not be continuous,
 you used the ``Biot-Savart'' formula, Eq. 6.38, to find the contribution
 of each conduction current element to the field at some point in space.
 
-Consider, for example, the point P in the space between our discharging
+Consider, for example, the point $P$ in the space between our discharging
 condenser plates, Fig. 7.31. Each element of conduction
 current, in the wires and on the surface of the plates, contributes to
-the field at P, according to the Biot-Savart formula. Must We include
-also the elements of ``displacement current'' Jd? The answer is rather
-surprising. We may include Jd; but if we are careful to include the
-entire displacement current distribution, its net effect will be zero for
+the field at $P$, according to the Biot-Savart formula. Must We include
+also the elements of ``displacement current'' $\vc{J}_d$? The answer is rather
+surprising. We \emph{may} include $\vc{J}_d$; but if we are careful to include the
+entire displacement current distribution, its net effect will be \emph{zero} for
 relatively slowly varying fields.
 
-To see why this is so, notice that the vector function J,,;, indicated
+To see why this is so, notice that the vector function $\vc{J}_d$, indicated
 by the black arrows in Fig. 7.30, has the same form as the electric
 field $\vc{E}$ in Fig. 7.29. This electric field is practically an electrostatic
 field, except that it is slowly dying away. We expect therefore that
-its curl is practically zero which would imply that curl J must be
-
+its curl is practically zero which would imply that $\curl\vc{J}$ must be
 % p. 262
-practically zero. More precisely, we have curl E = - L311 and
-
-cat
-
-with the displacement current Jd = Li, we get, by interchang-
-
-47r at
-ing the order of differentiation,
-
+practically zero. More precisely, we have $\curl\vc{E} = -\frac{1}{c}\frac{\partial\vc{B}}{\partial t}$ and
+with the displacement current $\vc{J}_d=\frac{1}{4\pi}\frac{\partial\vc{E}}{\partial t}$,
+we get, by interchanging the order of differentiation,
 \begin{equation}
+  \curl \vc{J}_d = \frac{1}{4\pi}\curl\left(\frac{\partial\vc{E}}{\partial t}\right)
+        = \frac{1}{4\pi}\frac{\partial}{\partial t}(\curl\vc{E})
+        = -\frac{1}{4\pi c}\frac{\partial^2\vc{B}}{\partial t^2}
 \end{equation}
-curl J,,, = 4L7Tcur1  = 4-£T-5a;(curl E) = -  (89)
 This will be negligible for sulficiently slow changes in field. We
-may call a slowly changing field quasi-static. Now if Jd is a vector
+may call a slowly changing field \emph{quasi-static}.\index{quasi-static field}
+Now if $\vc{J}_d$ is a vector
 field without any curl, it can be made up, in the same way that the
 electrostatic field can be made of the fields of point charges, by superposing
 radial currents flowing outward from point sources or in
 toward point ``sinks'' (Fig. 7.32). But the magnetic field of any
-radial, symmetrical current distribution, calculated (1 la Biot-Savart,
-
+\emph{radial}, symmetrical current distribution, calculated \emph{\`a la} Biot-Savart,
 must be zero by symmetry, for there is no unique direction anywhere,
 except the radial direction itself.
 
-In the quasi-static field, then, the conduction currents alone are
-the only sources needed to account for the magnetic field. In other
+In the \emph{quasi-static} field, then, the conduction currents alone are
+the only \emph{sources} needed to account for the magnetic field. In other
 words, if Faraday had arranged something like Fig. 7.31, and had
-been able to measure the magnetic field at P, by using a compass
+been able to measure the magnetic field at $P$, by using a compass
 needle say, he would not have been surprised. He would not have
 needed to invent a displacement current to explain it.
 
 % p. 263
+
 To see this new induction effect, we need rapidly changing fields.
 In fact, we need changes to occur in the time it takes light to cross
 the apparatus. That is why the direct demonstration had to wait for
-
 Hertz, whose experiment came many years after the law itself had
 been worked out by Maxwell.
+
+\iffalse
 
 \section{Maxwell's equations}
 
