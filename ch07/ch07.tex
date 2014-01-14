@@ -1188,178 +1188,147 @@ With $B$ in gauss and $v$ in cubic centimeters, $U$ in Eq. 75 will be given
 in ergs. In Eq. 70, we may use practical units, henrys and amperes,
 for $L$ and $I$, and then $U$ will be given in joules.
 
-\iffalse
-
 \section{``Something is missing''}
 
 Let us review the relations between charges and fields. As we
 learned in Chap. 2, a statement equivalent to Coulomb's law is the
 differential relation
-
 \begin{equation}
+  \div\vc{E} = 4 \pi\rho
 \end{equation}
-div E = 4'n'p (76)
-
-connecting the electric charge density p and the electric field E. This
-holds for moving charges as well as stationary charges. That is, p can
+connecting the electric charge density $\rho$ and the electric field $\vc{E}$. This
+holds for moving charges as well as stationary charges. That is, $\rho$ can
 be a function of time as well as position. As we emphasized in
 Chap. 5, the fact that Eq. 76 holds for moving charges is consistent
-with charge invariance: No matter how an isolated charged particle
+with \emph{charge invariance}: No matter how an isolated charged particle
 may be moving, its charge, as measured by the integral of $\vc{E}$ over a
 surface surrounding it, appears the same in every frame of reference.
 
 % p. 257
+
 Electric charge in motion is electric current. Because charge is
-never created or destroyed, the charge density p and the current
-density J always satisfy the condition
-
+never created or destroyed, the charge density $\rho$ and the current
+density $\vc{J}$ always satisfy the condition
 \begin{equation}
+  \div\vc{J} = -\frac{\partial\rho}{\partial t}
 \end{equation}
-divJ= _@ (77)
-
 We first wrote down this ``Equation of Continuity'' as Eq. 4.9.
-If the current density J is constant in time, we call it a stationary
 
+If the current density $\vc{J}$ is constant in time, we call it a stationary
 current distribution. The magnetic field of a stationary current distribution
 satisfies the equation
-
 \begin{equation}
+  \curl\vc{B} = \frac{4\pi}{c}\vc{J}
 \end{equation}
-curl B = 4T'"J (78)
-
 We worked with this relation in Chap. 6.
 
 Now we are interested in charge distributions and fields that are
-changing in time. Suppose we have a charge distribution p(x,y,z,t)
-with Bp/at sé 0. For instance, we might have a capacitor which is
-
-discharging through a resistor. According to Eq. 77, ap/at7&O
+changing in time. Suppose we have a charge distribution $\rho(x,y,z,t)$
+with $\partial\rho/\partial t\ne 0$. For instance, we might have a capacitor which is
+discharging through a resistor. According to Eq. 77, $\partial\rho/\partial t\ne 0$
 implies
-
 \begin{equation}
+  \div\vc{J} \ne 0
 \end{equation}
-div J yé O (79)
-
 But according to Eq. 78, since the divergence of the curl of any
 vector function is identically zero (see Prob. 2.15),
-
 \begin{equation}
+  \div\vc{J} = \frac{c}{4\pi}\div(\curl\vc{B}) = 0
 \end{equation}
-div J = L div (curl B) = 0 (80)
-477'
-
-The contradiction shows that Eq. 78 cannot be correct for a system
+The contradiction shows that Eq. 78 \emph{cannot be correct} for a system
 in which the charge density is varying in time. Of course, no one
 claimed it was; a stationary current distribution, for which Eq. (78)
-does hold, is one in which not even the current density J, let alone the
+does hold, is one in which not even the current density $\vc{J}$, let alone the
+charge density $\rho$, is time-dependent.
 
-charge density p, is time-dependent.
 The problem can be posed in somewhat different terms by considering
 the line integral of magnetic field around the wire carrying
-
 charge away from the capacitor plate in Fig. 7.27. According to
 Stokes' theorem,
-
 \begin{equation}
+  \int_C \vc{B}\cdot\der\bell = \int_S \curl\vc{B}\cdot\der\vc{a}
 \end{equation}
-fen-d1=Lcur1B-da (81)
-
 The surface $S$ passes right through the conductor in which a current
-I is flowing. Inside this conductor, $\curl\vc{B}$ has a finite value,
-namely 47rJ/0, and the integral on the right comes out equal to 4771/c.
-That is to say, if the curve C is close to the wire and well away from
+$I$ is flowing. Inside this conductor, $\curl\vc{B}$ has a finite value,
+namely $4\pi\vc{J}/c$, and the integral on the right comes out equal to $4\pi I/c$.
+That is to say, if the curve $C$ is close to the wire and well away from
 the capacitor gap, the magnetic field there is not different from the
-
 % p. 258
-field around any wire carrying the same current. Now the surface S'
-in Fig. 7.28 is also a surface spanning C, and has an equally good
+field around any wire carrying the same current. Now the surface $S'$
+in Fig. 7.28 is also a surface spanning $C$, and has an equally good
 claim to be used in the statement of Stokes' theorem, Eq. 81.
-Through this surface, however, there flows no current at all! Never-
-theless, $\curl\vc{B}$ cannot be zero over all of S' without violating Stokes'
-theorem. Therefore, on S', $\curl\vc{B}$ must depend on something other
-than the current density J.
+Through this surface, however, there flows no current at all! 
+Nevertheless, $\curl\vc{B}$ cannot be zero over all of $S'$ without violating Stokes'
+theorem. Therefore, on $S'$, $\curl\vc{B}$ must depend on something other
+than the current density $\vc{J}$.
 
 We can only conclude that Eq. 78 has to be replaced by some
-
-other relation, in the more general situation of changing charge dis-
-tributions. Let's write instead
-
+other relation, in the more general situation of changing charge 
+distributions. Let's write instead
 \begin{equation}
+  \curl\vc{B} = \frac{4\pi}{c}\vc{J} + (?)
 \end{equation}
-curl B = 47% + ('2) (82)
-
-and see if we can discover what ('?) must be.
+and see if we can discover what (?) must be.
 
 Another line of thought suggests the answer. Remember that the
 transformation laws of the electromagnetic field, Eq. 6.58, are quite
-symmetrical in $\vc{E}$ and B. Now in Faraday's induction phenomenon
-a changing magnetic field is accompanied by an electric field, in a
+symmetrical in $\vc{E}$ and $\vc{B}$. Now in Faraday's induction phenomenon
+a \emph{changing magnetic field} is accompanied by an \emph{electric field}, in a
 manner described by our Eq. 30:
-
 \begin{equation}
+  \curl\vc{E} = -\frac{1}{c}\frac{\partial\vc{B}}{\partial t}
 \end{equation}
-curl E = _ ii (30)
-
-cat
-
 % p. 259
 This is a local relation connecting the electric and magnetic fields in
 empty space-charges are not directly involved. If symmetry with
 respect to $\vc{E}$ and $\vc{B}$ is to prevail, we must expect that a changing electric
-field can give rise to a magnetic field. There ought to be an induction
+field can give rise to a \emph{magnetic field}. There ought to be an induction
 phenomenon described by an equation like Eq. 30, but with
 the roles of $\vc{E}$ and $\vc{B}$ switched. It will turn out that we need to change
 the sign too, but that is all:
-
-curl B = :7} (83)
+\begin{equation}
+  \curl\vc{B} = \frac{1}{c}\frac{\partial\vc{E}}{\partial t}
+\end{equation}
 
 This provides the missing term that is called for in Eq. 82. To
 try it out, write
-
 \begin{equation}
+  \curl\vc{B} = \frac{4\pi}{c}\vc{J} + \frac{1}{c}\frac{\partial\vc{E}}{\partial t}
 \end{equation}
-cui1B=4T"J+%-%% (84)
 and take the divergence of both sides:
-
 \begin{equation}
+  \div(\curl\vc{B}) = \div\left(\frac{4\pi}{c}\vc{J}\right) + 
+            \div\left(\frac{1}{c}\frac{\partial\vc{E}}{\partial t}\right)
 \end{equation}
-div (curl B) = div (EJ) + div (LE) (85)
-c c at
-
 The left side is necessarily zero, as already remarked. In the second
 term on the right we can interchange the order of differentiation with
 respect to space coordinates and time. Thus
-
 \begin{equation}
+  \div\left(\frac{1}{c}\frac{\partial\vc{E}}{\partial t}\right)
+   = \frac{1}{c}\frac{\partial}{\partial t}(\div\vc{E})
+   = \frac{4\pi}{c} \frac{\partial\rho}{\partial t}
 \end{equation}
-.1aE_ia. _477Bp
-'""(:7) - cw""VE) 'T73? (86)
-
 by Eq. 76. The right-hand side of Eq. 85 now becomes
-
 \begin{equation}
+  \frac{4\pi}{c}\div\vc{J}+\frac{4\pi}{c}\frac{\partial\rho}{\partial t}
 \end{equation}
-- div J + --- (87)
-
 which is zero by virtue of the continuity condition, Eq. 77.
 
 The new term resolves the difficulty raised in Fig. 7.28. As charge
 flows out of the capacitor, the electric field, which at any instant has
-the configuration in Fig. 7.29, diminishes in intensity. In this case,
-
-\begin{equation}
-\end{equation}
-1 BE
-
-BE/at points opposite to E. The vector function $F$ E is represented
-by the black arrows in Fig. 7.30. With curl B = 4T7TJ + %-aa%, the
-
-integral of $\curl\vc{B}$ over S' now has the same value as it does over S.
-On 8' the second term contributes everything; on $S$ the first term, the
-term with J, is practically all that counts.
+the configuration in Fig. 7.29, \emph{diminishes} in intensity. In this case,
+$\partial\vc{E}/\partial t$ points opposite to $\vc{E}$. 
+The vector function $\frac{1}{c}\frac{\partial\vc{E}}{\partial t}$ is represented
+by the black arrows in Fig. 7.30.
+With $\curl\vc{B} = \frac{4\pi}{c}\vc{J} + \frac{1}{c}\frac{\partial\vc{E}}{\partial t}$, the
+integral of $\curl\vc{B}$ over S' now has the same value as it does over $S$.
+On $S'$ the second term contributes everything; on $S$ the first term, the
+term with $\vc{J}$, is practically all that counts.
 
 % p. 260
 % p. 261
+\iffalse
+
 \section{The displacement current}
 
 Observe that the vector field L 381;; appears to form a continuation
