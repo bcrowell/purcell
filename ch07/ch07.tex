@@ -1105,112 +1105,90 @@ decay function:
 \end{equation}
 with the same characteristic time, $L/R$, as before.
 
-\iffalse
-
 \section{Energy stored in the magnetic field}
-During the decay of the current described by Eq. 66 and Fig. 7.2511,
-energy is dissipated in the resistor R. Since the energy d U dissipated
-
-in any short interval dt is R12 dt, the total energy dissipated after
-the closing of the switch at time t1 must be:
-
+During the decay of the current described by Eq. 66 and Fig. 7.25b,
+energy is dissipated in the resistor $R$. Since the energy $\der U$ dissipated
+in any short interval $\der t$ is $RI^2 \der t$, the total energy dissipated after
+the closing of the switch at time $t_1$ must be:
 \begin{equation}
+  U = \int_{t_1}^\infty RI^2\:\der t
+    = \int_{t_1}^\infty RI_0^2e^{-(2R/L)(t-t_1)}\:\der t
 \end{equation}
-U = °°R12 dt = °°RI02e~<2R/L><t-m dt (67)
-
 % p. 255
-With the substitution x = 2B(t - t1)/L this is easily evaluated:
-
+With the substitution $x = 2R(t - t_1)/L$ this is easily evaluated:
 \begin{equation}
+  U = RI_0^2\left(\frac{L}{2R}\right)\int_0^\infty e^{-x}\:\der x = \frac{1}{2}LI_0^2
 \end{equation}
-U = R102 f0°°e-I dx = iuoz (68)
 
 The source of this energy was the inductor with its magnetic field.
 Indeed, exactly that amount of work had been done by the battery
 to build up the current in the first place---over and above the energy
-dissipated in the resistor between t = 0 and t = t1, which was also
+dissipated in the resistor between $t = 0$ and $t = t_1$, which was also
 provided by the battery. To see that this is a general relation, note
 that if we have an increasing current in an inductor, work must be
-done to drive the current I against the induced electromotive force
-L (II/dt. So in time dt the work done is
-
-ff
-
+done to drive the current $I$ against the induced electromotive force
+$L\:\der I/\der t$. So in time dt the work done is
 \begin{equation}
+  \der W = LI\frac{\der I}{\der t} \der t
+         = LI\:\der I
+         = \frac{1}{2}L\:\der(I^2)
 \end{equation}
-dW: LI dt
-
-dt = LI dI =iLd(12) (69)
-
 Therefore, we may assign a total energy
 \begin{equation}
+  U = \frac{1}{2}LI^2
 \end{equation}
-U = §LI2 (70)
-
-to an inductor carrying current I. With the eventual decay of this
+to an inductor carrying current $I$. With the eventual decay of this
 current, that amount of energy will appear somewhere else.
 
 It is natural to regard this as energy stored in the magnetic field
 of the inductor, just as we have described the energy of a charged
 capacitor as stored in its electric field. The energy of a capacitor
-charged to potential difference V is §CV2, and is accounted for by
-assigning to an element of volume do, where the electric field strength
-is E, an amount of energy (1/87r)E2 do. It is pleasant, but hardly
+charged to potential difference $V$ is $\frac{1}{2}CV^2$, and is accounted for by
+assigning to an element of volume $\der v$, where the electric field strength
+is $E$, an amount of energy $(1/8\pi)E^2\: \der v$. It is pleasant, but hardly
 surprising, to find that an exactly similar relation holds for the energy
 stored in an inductor. That is, we can ascribe to the magnetic field
-an energy density (1/87r)B2, and summing the energy of the whole
-field will give the energy §LI2.
+an energy density $(1/8\pi)B^2\: \der v$, and summing the energy of the whole
+field will give the energy $\frac{1}{2}LI^2$.
 
 To show how this works out in one case, we can go back to the
-toroidal coil whose inductance L we calculated in Sec. 7.8. We
+toroidal coil whose inductance $L$ we calculated in Sec. 7.8. We
 found (Eq. 58)
-
 \begin{equation}
+  L = \frac{2N^2h}{c^2}\ln\left(\frac{b}{a}\right)
 \end{equation}
-L = 2W' In (E) (71)
-
-02 a
-The magnetic field strength B, with current I flowing, was given
-
+The magnetic field strength $B$, with current $I$ flowing, was
 \begin{equation}
+  B = \frac{2NI}{cr}
 \end{equation}
-B : 2NI
-cr
-
-(72)
-
 % p. 256
-To calculate the volume integral of B2/8w we can use a volume element
+To calculate the volume integral of $B^2/8\pi$ we can use a volume element
 consisting of the cylindrical shell sketched in Fig. 7.26, with
-volume Zvrrh dr. As this shell expands from r = a to r = b, it sweeps
-through all the space that contains magnetic field. (The field $\vc{B}$ is
+volume $2\pi rh\:\der r$. As this shell expands from $r = a$ to $r = b$, it sweeps
+through all the space that contains magnetic field. (The field $B$ is
 zero everywhere outside the torus, remember.)
-
 \begin{equation}
+  \frac{1}{8\pi}\int B^2\:\der v = \frac{1}{8\pi}\int_a^b\left(\frac{2NI}{cr}\right)^2 \: 2\pi rh\:\der r
+        = \frac{N^2hI^2}{c^2} \ln\left(\frac{b}{a}\right)
 \end{equation}
-1 1 b2NI 2 N2h12 I9
-WfB2dv:87  Cr ) 27rrhdr: $C_2$ ln(;) (73)
-
 Comparing this result with Eq. 71, we see that, indeed,
-
 \begin{equation}
+  \frac{1}{8\pi}\int B^2\:\der v = \frac{1}{2}LI^2
 \end{equation}
-1
-8---WfB2 do = %LI2 (74)
 
 The more general statement, the counterpart of our statement for
-the electric field in Eq. 1.36, is that the energy U to be associated with
-any magnetic field B(x,y,z) is given by:
-
+the electric field in Eq. 1.36, is that the energy $U$ to be associated with
+any magnetic field $B(x,y,z)$ is given by:
 \begin{equation}
+\boxed{
+  U = \frac{1}{8\pi}\int_{\begin{matrix}\text{Entire}\\ \text{field}\end{matrix}} B^2\:\der v
+}
 \end{equation}
-(75)
-
- 
-
-With B in gauss and v in cubic centimeters, U in Eq. 75 will be given
+With $B$ in gauss and $v$ in cubic centimeters, $U$ in Eq. 75 will be given
 in ergs. In Eq. 70, we may use practical units, henrys and amperes,
-for L and I, and then U will be given in joules.
+for $L$ and $I$, and then $U$ will be given in joules.
+
+\iffalse
 
 \section{``Something is missing''}
 
