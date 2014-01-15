@@ -321,7 +321,7 @@ is by observing the interaction of charged bodies. One might
 wonder, then, how much of the apparent content of Coulomb's law is
 really only definition. As it stands, the significant physical content is
 the statement of inverse-square dependence, and the implication that
-electric charge is additive in its elfect. To bring out the latter point,
+electric charge is additive in its effect. To bring out the latter point,
 we have to consider more than two charges. After all, if we had only
 two charges in the world to experiment with, ql and qg, we could never
 measure them separately. We could verify only that F is proportional
@@ -11152,7 +11152,7 @@ whose frequency we is given by
 \/T
 Mostly we deal with systems in which the damping is small enough
 to be ignored in calculating the frequency. As Prob. 8.9 will demon-
-strate, damping has only a second-order elfect on m.
+strate, damping has only a second-order effect on m.
 
 For completeness we review brieffy what goes on in the over-
 damped circuit, in which R > 2\/L/ C. Equation 2 then has a solution
@@ -17206,7 +17206,7 @@ various constants in the problem. W
 will meet condition (1'), the boundary
 family of solutions will do so. We mus
 more restriction. We are interested ll
-the repulsive elfect of the space charge
+the repulsive effect of the space charge
 get across even if more were to be relet
 feature of this condition is that the ele:
 why. What would happen if the field
@@ -18309,7 +18309,7 @@ he lab frame. What would you have
 npet-shaped surface the particle will
 >ack?
 )out the quantum theory of the atom
-malysis in Sec. 10.5 of the elfect of a
+malysis in Sec. 10.5 of the effect of a
 n atomic electron. When the velocity
 agular momentum mvr changes. But
 rbit is supposed to be precisely an in-
