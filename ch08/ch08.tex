@@ -1,0 +1,912 @@
+\chapter{Alternating-current circuits}
+
+\iffalse
+
+\section{A resonant circuit}
+
+A circuit containing inductance, capacitance, and resistance was
+one of the examples of the damped harmonic oscillator discussed in
+Vol. 1, Chap. 7. Now we can see exactly what goes on in that system.
+The circuit diagram in Fig. 8.1 represents such a ``series RLC '' circuit.
+
+Let Q be the charge, at time t, on the capacitor in this circuit. The
+potential difference, or voltage across the capacitor, is V, which
+obviously is the same as the voltage across the series combination
+of inductor L and resistor R. We take V to be positive when the upper
+capacitor plate is positively charged, and we define the positive current
+direction by the arrow in Fig. 8.1. With the signs chosen that
+
+way, the relations connecting charge Q, current I, and voltage across
+the capacitor V are:
+
+d d
+I=---Q- Q=CV V=L7:+R1 (1)
+
+We want to eliminate two of the three variables Q, I, and V. From
+
+ 
+
+the first two equations we obtain I = - C dV/dt, and the third equation
+becomes V = -LC(d2V/dt2) - RC(dV/dt), or
+
+d2V R dV 1 _
+
+dt2 + (f)E+ (f€)V'O (2)
+
+This is a second-order differential equation with constant coef-
+ficients. We shall try a solution of the form
+
+V = Ae'"' cos wt (3)
+
+where A, or, and w are constants. The first and second derivatives of
+this function are:
+
+'fT't] = Ae'"'[ -a cos wt - no sin wt] (4)
+dzv : Ae'"'[(a2 - <02) COS out + Zaw sin wt] (5)
+
+dt2
+
+% p. 275
+Substituting back into Eq. 2, we cancel out the common factor Ae"a'
+and are left with
+
+(oz? - 0:2) cos wt + Zaw sin wt - %(oz COS wt + to sin wt)
+
+1 _
++Ecoswt_0 (6)
+
+This will be satisfied for all t if, and only if, the coefficients of sin wt
+and cos out are both zero. That is, we must require:
+
+2aw-T=O (7)
+and
+a2-o.>2-¢x%-+%=0 (8)
+
+The first of these equations gives a condition on a:
+
+__R_
+"' 2L (9)
+
+while the second equation requires that:
+
+w2:%6~-¢x%-+a2=-L%-% (10)
+Since our constant on is a real number, to? cannot be negative.
+Therefore we succeed in obtaining a solution of the form assumed in
+Eq. 3 only if R2/4L2 § 1/LC. In fact it is the case of ``light
+damping,'' that is, low resistance, that we want to examine, so we
+shall assume that the values of R, L, and C in the circuit are such that
+the inequality R < 2x/L/C holds.
+The function Ae'"' cos out is not the only possible solution.
+Bra' sin wt works just as well, with the same requirements, Eq. 9 and
+
+Eq. 10, on at and 4» respectively. The general solution is the sum of
+these:
+
+V(t) = e'"'(A cos wt + B sin wt) (11)
+
+The arbitrary constants A and B could be adjusted to fit initial
+conditions. That is not very interesting. Whether the solution in
+any given case involves the sine or the cosine function, or some super-
+position, is a trivial matter of how the clock is set. The essential
+phenomenon is a damped sinusoidal oscillation.
+
+% p. 276
+The variation of voltage with time is shown in Fig. 8.2a. Of course,
+this cannot really hold for all past time. At some time in the past
+the circuit must have been provided with energy somehow, and then
+left running. For instance, the capacitor might have been charged,
+with the circuit open, and then connected to the coil.
+
+In Fig. 8.2b the time scale has been expanded and the dotted curve
+showing the variation of the current I has been added. For Vlet us
+take the damped cosine, Eq. 3. Then the current as a function of time
+is given by:
+
+1: _ cd_V=ACw (sin wt+£coswt)e-at (12)
+dt on
+
+The ratio 01/00 is a measure of the damping. If 01/ to is very small,
+many oscillations occur while the amplitude is decaying only a little.
+For Fig. 8.2 we chose a case in which at/w : 0.04. Then the cosine
+term in Eq. 12 doesn't amount to much. All it does, in effect, is shift
+the phase by a small angle, tan'1 (Oi/0.)). So the current oscillation
+
+is almost exactly one-quarter cycle out of phase with the voltage
+oscillation.
+
+The oscillation involves a transfer of energy back and forth from
+the capacitor to the inductor, or from electric field to magnetic field.
+At the times marked 1 in Fig. 8.217 all the energy is in the electric field.
+A quarter-cycle later, at 2, the capacitor is discharged and nearly all
+this energy is found in the magnetic field of the coil. Meanwhile, the
+circuit resistance R is taking its toll, and as the oscillation goes on,
+the energy remaining in the fields gradually diminishes.
+
+The relative damping in an oscillator is often expressed by giving a
+number called Q. This was introduced in the general discussion of
+harmonic oscillators in Vol. 1, Chap. 7. Q (not to be confused with
+the charge on the capacitor!) is said to stand for ``quality'' or ``quality
+factor.'' In fact, no one calls it that; we just call it ``Q.'' The less
+the damping, the larger the number Q. For an oscillator with frequency
+co, Q is the dimensionless ratio formed as follows:
+
+energy stored
+
+Q : w average power dissipated
+
+(13)
+
+Or you may prefer to remember that Q is the number of radians of
+the argument wt (that is, 277 times the number of cycles) required for
+the energy in the oscillator to diminish by the factor l/e.
+
+% p. 277
+% p. 278
+In our circuit the stored energy is proportional to V2 or I2 and,
+therefore, to e'2°<'. The energy decays by l/e in a time t = l/2a,
+which covers oo/2a radians. Hence for our RLC circuit
+
+Q=2ia=% (14)
+
+As a rough estimate, what is the Q of the oscillation represented in
+Fig. 8.2?
+
+Clearly, the general case we have just studied includes some simple
+special cases. If R = O we have the completely undamped oscillator,
+whose frequency we is given by
+
+0.10 =L (15)
+
+\/T
+Mostly we deal with systems in which the damping is small enough
+to be ignored in calculating the frequency. As Prob. 8.9 will demon-
+strate, damping has only a second-order elfect on m.
+
+For completeness we review brieffy what goes on in the over-
+damped circuit, in which R > 2\/L/ C. Equation 2 then has a solution
+of the form V = Ae'/" for two values of B, the general solution
+being
+
+V(t) = Ae'l31' + Be'/32' (16)
+
+There are no oscillations, only a monotonic decay. In the special
+
+case of ``critical'' damping, R = 2\/L/ C, 31 = B2 and the solution
+of the differential equation, Eq. 2, takes the form
+
+V(t) = (A + Bt)e'/3' (17)
+
+This is the condition, for given L and C, in which the total energy
+in the circuit is most rapidly dissipated. (See Prob. 8.8.)
+
+You can see this whole range of behavior in Fig. 8.3, where V(t) is
+plotted for two underdamped circuits, a critically damped circuit,
+and an overdamped circuit. The capacitor and inductor remain the
+same; only the resistor is changed. The natural angular frequency
+we = 1/\/LC is 106 sec'1 for this circuit, corresponding to a frequency
+in cycles per second of 106/277, or 159 kilocycles/sec.
+
+The circuit is started off by charging the capacitor to a potential
+difference of, say, 1 volt and then closing the switch at t = 0. That
+is, V = l at t = 0 is one initial condition. Also, I = 0 at t = 0, because
+the inductor will not allow the current to rise discontinuously.
+Therefore, the other initial condition on V is dV/dt = 0, at t = 0.
+
+% p. 279
+Notice that all four decay curves start the same way. In the heavily
+damped case (B = 600 ohms) most of the decay curve looks like
+the simple exponential decay of an RC circuit. Only the very beginning
+where the curve is rounded over so that it starts with zero slope,
+betrays the presence of the inductance L.
+
+\section{Alternating current}
+
+The resonant circuit we have just discussed contained no source
+of energy and was, therefore, doomed to a transient activity, an
+oscillation that must sooner or later die out. In an alternating-
+current circuit we are concerned with a steady state, a current and
+voltage oscillating sinusoidally without change in amplitude. Some
+oscillating electromotive force drives the system.
+
+Let us apply an electromotive force 8 = 80 cos wt to a circuit containing
+inductance and resistance. We might generate 8 by a
+machine schematically like the one in Fig. 7.13, having provided
+some engine or motor to turn the shaft at the constant angular
+speed ea. In Fig. 8.4 this electromotive force is represented as connected
+into the circuit. We shall neglect any internal resistance in
+the generator, or include it in R. We set the sum of potential drops
+over the element of this circuit equal to the electromotive force 8,
+
+exactly as we did in developing Eq. 7.61. The equation governing
+the current is then:
+
+Lff
+
+dt + R1 = 80 cos wt (18)
+
+Now there may be some transient behavior, depending on the
+initial conditions, that is, on how and when the generator is switched
+on. But we are interested only in the steady state, when the current
+is oscillating obediently at the frequency of the driving force, with
+the amplitude and phase necessary to keep Eq. 18 satisfied. To show
+that this is possible, consider a current described by
+
+I = 10 cos (wt + (p) (19)
+
+To determine the constants I0 and $\pot$, we put this into Eq. 18:
+-LI0w sin (wt + q:) - RIO cos (wt + go) = 80 cos wt (20)
+The functions cos wt and sin wt can be separated out:
+
+-LI0w(sin wt cos (p + cos wt sin (p)
++RI0(cos wt cos (p - sin wt sin (p) = 80 cos wt (21)
+
+ 
+
+% p. 280
+ 
+ 
+
+Setting the coefficients of cos wt and sin wt separately equal to zero,
+
+-LI0w cos (p - RIO sin cp = 0 (22)
+which gives
+tan go 2 - EH14 (23)
+-LI0w sin (p + R10 cosgb _ 50 = 0 (24)
+which gives
+1 _ }:530____
+0- RCOS(p- coLSin<;0
+_ 80 _ 80 cos (1) 2
+- R(cos<p+ sinqotan qJ) _ R ( 5)
+or since
+cos - _L- (from E 23) (26)
+'P " \/1W,7,2'L7 q'
+10 = 8° (27)
+
+, /R2 + w2L2
+
+In Fig. 8.5 the oscillations of 8 and I are plotted on the same graph.
+Since $\pot$ is a negative angle, the current reaches its maximum a bit
+later than the electromotive force. One says, ``The current lags the
+voltage in an inductive circuit.'' The quantity wL which has the
+dimensions of resistance and can be expressed in ohms is called the
+inductive reactance.
+
+If we replace the inductor L by a capacitor C, as in Fig. 8.6, we
+have a circuit governed by the equation
+
+- % + HI = 80 cos wt (28)
+
+We consider the steady-state solution
+I = 10 cos (wt + (p) (29)
+Since I _-_ -dQ/dt, we have
+Q=_f1dt=_I_°sin(wt+<p) (30)
+00
+Note that in going from I to Q by integration, there is no question
+
+of adding a constant of integration, for we know that Q must oscillate
+symmetrically about zero in the steady state.
+
+% p. 281
+Substituting back into Eq. 28 leads to
+
+1_0
+
+C sin (wt + (p) + RIO cos (cot + (p) = 80 cos wt (31)
+(.0
+
+Just as before, we obtain conditions on go and 10 by requiring that the
+coelficients of cos wt and sin wt separately vanish. In this case, the
+results are:
+
+l
+RwC
+
+tan q) : 
+
+and
+
+10 = :8'; (33)
+
+\/R2 + (l/wC)2
+
+Notice that the phase angle is now positive. As the saying goes, the
+current ``leads the Voltage'' in a capacitive circuit. What this means
+is apparent in the graph of Fig. 8.7.
+
+Mathematically speaking, the function
+
+_ 80 _ OJL
+I _ \/---1  cos (wt - tan 1 Y) (34)
+
+is a particular integral of the differential equation, Eq. 18. To this
+could be added a complementary function, that is, any solution of
+the homogeneous differential equation
+
+dI _
+L? + RI _ 0 (35)
+
+Now this is just Eq. 765, whose solution we found, in Sec. 7.9, to be
+an exponentially decaying function,
+
+1 ~ e-<R/L» (36)
+
+The physical significance is this: A transient, determined by some
+
+ 
+
+  
+
+initial conditions, is represented by a decaying component of I (t), _
+
+of the form of Eq. 36. After a time t > L/R, this will have vanished
+leaving only the steady sinusoidal oscillation at the driving frequency,
+represented by the particular integral, Eq. 34.
+
+The similarity of our results for the RL circuit and the RC circuit
+suggests a way to look at the inductor and capacitor in series.
+Suppose an alternating current I = I0 cos (wt + q)) is somehow
+
+% p. 282
+ 
+ 
+
+caused to flow through such a combination (shown in Fig. 8.8). The
+voltage across the inductor, VL, will be:
+
+VL = L:ii-£ = -IowL sin (wt + (p) (37)
+
+The Voltage Vg across the capacitor, with sign consistent with the sign
+Of VL, lS
+
+1 I .
+V0 : - % = -C-JTdt = +)Cs1n (wt + 90) (38)
+
+The voltage across the combination is then
+
+v=vL+vc= _ (wL_%)10sin(wt+(p) (39)
+For a given an, the combination is evidently equivalent to a single ele-
+ment, either an inductor or a capacitor, depending on whether the
+
+1 .
+quantity (ooL - TC) is positive or negative. Suppose, for example,
+
+that wL >  Then the combination is equivalent to an inductor
+OJ
+
+L' such that
+
+, 1
+
+wL _ wL - E (40)
+Equivalence means only that the relation between current and
+voltage, for steady oscillation at the particular frequency w, is the
+same. This allows us to replace L and C by L' in any circuit driven
+
+at this frequency.
+This can be applied to the simple RLC circuit in Fig. 8.9. We need
+only recall Eqs. 23 and 27, the solution for the RL circuit driven by
+
+the electromotive force 80 cos wt, and replace wL by wL - l/coC:
+
+_ 50
+tan (p = RLW _ '~1'TL (42)
+
+For fixed amplitude 80 of the electromotive force, and given circuit
+elements L, C, and R, we get the greatest current when the driving
+frequency co is such that
+
+1
+
+-:= 4
+wL wc 0 (3)
+
+% p. 283
+which is the same as saying that w = 1/ LC = «:0, the resonant
+frequency of the undamped LC circuit. In that case Eq. 39 reduces to
+
+80 COS wt
+
+I: R
+
+(44)
+
+This is exactly the current that would flow if the circuit contained
+the resistor alone.
+
+As an example, consider the circuit of Fig. 8.3a, connected now
+to a source or generator of alternating emf, 8 = 80 cos cat. The driving
+frequency to may be different from the resonant frequency
+we = 1/ \/IT', which, for the given capacitance (0.01 microfarads)
+and the inductance (100 microhenrys), is 106 radians/ sec (or 106/2w
+cycles/sec). Figure 8.10 shows the amplitude of the oscillating cur-
+rent, as a function of the driving frequency w, for three different
+
+R = 20 ohms
+
+% p. 284
+values of the circuit resistance R. It is assumed that the amplitude 80
+of the emf is 100 volts in each case. Notice the resonance peak at
+w = we, which is most prominent and sharp for the lowest resistance
+value. This is the same value of R for which, running as a damped
+oscillator without any driving emf, the circuit behaved as shown in
+the top graph of Fig. 8.31).
+The Qofthe circuit definedb E 14 L ' -___('°6 X 10%)
+, y q. as «>0 /R,'l' IS 20 .
+or 5, in this case. Generally speaking, the higher the Q of a circuit,
+the narrower and higher the peak of its response as a function of
+driving frequency co. To be more precise, consider frequencies in
+the neighborhood of mo, writing a: = mg + Aw. Then to first order
+in Aw/coo, the expression wL - 1/o.>C which occurs in the denomi-
+
+nator in Eq. 41 can be approximated this way:
+
+1 < Aw) I
+L _ - = L 1 - _ L; 45
+"' "'° 'L w0C(l + Aw/mo) ( )
+
+woL [1 + A1 - -L-] : woL (2 fo-:°) (46)
+
+Exactly at resonance, the quantity inside the square root sign in
+Eq. 41 is just R2. As on is shifted away from resonance the quantity
+under the square root will have doubled when |wL - l/wC| = R,
+or when, approximately,
+
+2Aw R l
+= = - 47
+000 LOOL Q ( )
+
+This means that the current amplitude will have fallen to 1/ \/7 times
+the peak when Aw/coo = 1/2Q. These are the ``half-power'' points.
+because the energy, or power is proportional to the amplitude
+squared, as we shall explain in Sec. 8.5. One often expresses the
+width of a resonance peak by giving the full width between half-
+power points. Evidently that is just 1/ Q times the resonant frequency
+itself. Circuits with very much higher Q than this one are
+quite common. A radio receiver may select a particular station and
+
+TThe w in Eq. 14 was the frequency of the freely decaying damped oscillator, practically
+the same as too for moderate or light damping. We use we here in the definition
+of Q. In the present discussion to is any frequency we may choose to apply to this circuit.
+
+% p. 285
+discriminate against others by the help of a resonant circuit with a Q
+of several hundred. It is quite easy to make a microwave resonant
+circuit with a Q of 104, or even 105.
+
+The angle q), which expresses the relative phase of the current and
+emf oscillations, varies with frequency in the manner shown in
+Fig. 8.11. At a very low frequency the capacitor is the dominant
+hindrance to current flow, and (p is positive. At resonance, (p = 0.
+The higher the Q, the more abruptly $\pot$ shifts from positive to negative
+angles as the frequency is raised through coo.
+
+\section{Alternating-current networks}
+
+An alternating-current network is any collection of resistors,
+capacitors, and inductors in which currents flow that are oscillating
+steadily at the constant frequency to. One or more electromotive
+forces, at this frequency, drive the oscillation. Figure 8.12 is a diagram
+of one such network. . The source of alternating electromotive
+force is represented by the symbol  In a branch of the network,
+
+for instance the branch that includes the inductor L2, the current as
+a function of time is
+
+I2 = 102 COS (wt + (pg) 
+
+Since the frequency is a constant for the whole network, two num-
+bers, such as the amplitude I02 and the phase constant (122 above, are
+enough to determine for all time the current in a particular branch.
+
+ 
+
+% p. 286
+Similarly, the voltage across a branch oscillates with a certain
+amplitude and phase:
+
+V2 : V02 COS (wt + 02) 
+
+If we have determined the currents and voltages in all branches of
+a network, we have analyzed it completely. To find them by constructing
+and solving all the appropriate differential equations is
+possible, of course; and if we were concerned with the transient behavior
+of the network, we might have to do something like that. For
+the steady state, however, we can use a far simpler and more elegant
+method. It is based on two ideas:
+
+(i) An alternating current or voltage can be represented by a
+complex number.
+
+(ii) Any one branch or element of the circuit can be charac-
+terized, at a given frequency, by the relation between the
+voltage and current in that branch.
+
+The first idea exploits that remarkable mathematical identity
+e" = cos 0 + 2' sin 0 (50)
+
+with i2 = - 1. To carry it out we adopt the following rule for the
+representation:
+
+  
+
+An alternating current 10 cos (wt + q:) is to be represented
+by the complex number Ioeiw, that is, the number whose real
+part is I0 cos q: and whose imaginary part is 10 sin tp.
+
+Going the other way, if the complex number x + iy represents
+a current I, then the current as a function of time is given
+by the real part of the product (3: + iy)ei~'.
+
+      
+   
+ 
+    
+
+Figure 8.13 is a reminder of this two-way correspondence. Since
+a complex number z = x + iy can be graphically represented on the
+two-dimensional plane, it is easy to visualize the phase constant as
+the angle tan'1 y/x, and the amplitude Io as the modulus 
+
+What makes all this useful is the following fact: The representation
+of the sum of two currents is the sum of their representations. Consider
+the sum of two currents I1 and 12 that meet at a junction of wires in
+Fig. 8.12. At any instant of time t the sum of the currents is:
+
+11 + 12 = 101 C08 (cot + (pi) + 102 cos (wt + (P2)
+
+= (101 cos (p1 + 102 cos (P2) cos wt
+- (I01 Sl1'l (P1 + 102 SlI'l (P2) SlI'l wt 
+
+% p. 287
+On the other hand, the sum of the complex numbers that, according
+to our rule, represent I1 and I2 is:
+
+1016*?' + 10291" = (101 005 'P1 + 102 005 #32)
++ i(Io1 Sin 'P1 + 102 Sin (P2) (52)
+
+If you multiply the right-hand side of Eq. 52 by (cos wt + i sin wt)
+and take the real part of the result, you will get just what appears or
+the right in Eq. 51.
+
+This means that instead of adding or subtracting the periodic functions
+of time themselves, we can add or subtract the complex numbers
+that represent them. Or putting it another way, the algebra of alternating
+currents turns out to be the same as the algebra of complex
+numbers, in respect to addition. The correspondence does not extend
+to multiplication. The complex number Io1I02e"W1+W2) does not
+represent the product of the two current functions in Eq. 51.
+
+However, it is only the addition of currents and voltages that we
+need to carry out in analyzing the network. For example, at the
+junction where 11 meets 12 in Fig. 8.12, there is the physical requirement
+that at every instant the net flow of current into the junction
+shall be zero. Hence the condition
+
+I1-{-I2-I-13:0 
+
+must hold, where 11, I2, and 13 are the actual periodic functions of
+time. Thanks to our correspondence, this can be expressed in the
+
+% p. 288
+simple algebraic statement that the sum of three complex numbers
+is zero. Voltages can be handled in the same way. Instantaneously,
+the sum of the voltage drops around any loop in the network must
+equal the electromotive force in the loop at that instant. This condition
+relating periodic voltage functions can likewise be replaced by
+a statement about the sum of some complex numbers, the representations
+of the various oscillating functions, V1(t), V2(t), etc.
+
+\section{Admittance and impedance}
+
+The relation between current flow in a circuit element and the
+voltage across the element can be expressed as a relation between the
+complex numbers that represent the voltage and the current. Look
+at the inductor-resistor combination in Fig. 8.4. The voltage oscillation
+is represented by 80 and the current by Ioetw, where 10 =
+80/ x/B2 + ML? and tan go = -wL/R. The phase difference (p and
+the ratio of current amplitude to voltage amplitude are properties
+
+of the circuit at this frequency. We define a complex number Y as
+follows:
+
+eiw
+, /R2 +?w2L2
+
+Then the relation
+
+wL
+
+Y = with (,5 = tan'1<- -R-) (54)
+
+1 = YV (55)
+
+holds, where V is the complex number that represents the Voltage
+across the series combination of R and L, and I is the complex number
+that represents the current. Y is called the admittance. The
+
+same relation can be expressed with the reciprocal of Y, denoted by
+Z and called the impedance:
+
+V =  I = Z1 (56)
+
+Here we do make use of the product of two complex numbers, but
+only one of the numbers is the representation of an alternating current
+or Voltage. The other is the impedance or admittance.T
+
+TOur algebra thus contains two categories of complex numbers, those that represent
+impedances, for example, and those that represent currents. The product of two
+
+``impedance numbers,'' like the product of two ``current numbers,'' doesn't represent
+anything.
+
+% p. 289
+The impedance is measured in ohms. Indeed, if the circuit element
+had consisted of the resistance R alone, the impedance would
+be real and equal simply to R, so that Eq. 56 would resemble Ohm's
+law for a direct-current circuit: V = R1.
+
+The admittance of a resistanceless inductor is the imaginary
+quantity Y = -i/wL. This can be seen by letting R go to zero in
+Eq. 54. The factor ---i shows that the current oscillation lags the
+voltage oscillation by 77/2 in phase. On the complex number dia-
+gram, if the voltage is represented by V (Fig. 8.1419), the current
+might be represented by I, located as shown there. For the capacitor,
+Y = icoC, as can be seen from the expression for the current in
+Fig. 8.7. In this case V and I are related as indicated in Fig. 8.140.
+The inset in each of the figures shows how the relative sign of Vand I
+is to be specified. Unless that is done consistently, ``leading'' and
+``lagging'' are meaningless. Note that we always define the positive
+current direction so that a positive voltage applied to a resistor causes
+positive current (Fig. 8.l4a).
+
+The properties of the three basic circuit elements are summarized
+below:
+
+Symbol Admittance, Y Impedance, Z = LY
+R L R
+JWW R
+L  1'¢..>L
+'\U.Qr wL
+C .
+' C ;'
+_H- W wC
+I = YV V = Z1
+
+We can build up any circuit from these elements. When elements
+or combinations of elements are connected in parallel, it is convenient
+to use the admittance, for in that case admittances add. In Fig. 8.15
+two ``black boxes'' with admittances Y1 and Y2 are connected in
+parallel. We have then
+
+I = 11 + 12 = Y1V+ Y2V= (Y1 + Y2)V (57)
+
+% p. 290
+  
+
+which implies that the equivalent single black box has an admittance
+Y = Y1 + Y2. From Fig. 8.16 it will be obvious that the impedances
+add for elements connected in series. It sounds as if we are talking
+about a direct-current network! In fact, we have now reduced the
+ac network problem to the dc network problem, with only this dif-
+ference: the numbers we deal with arecomplex numbers.
+
+As an example, let's look at the ``parallel RLC'' circuit in
+Fig. 8.17. The combined admittance of the three parallel branches is
+
+_L - _;'
+Y_R+1wC COL (53)
+
+The voltage is simply 80, so the complex current is
+1: YV= s0[-+i(wc_i)] (59)
+
+The amplitude of the current oscillation is the modulus of the complex
+number I, which is 80[(l/R)? + (wC - 1/wL)2]1/2, and the
+phase angle is tan'1 (RwC - R/wL).
+
+We can only deal in this way with linear circuit elements, elements
+in which the current is proportional to the voltage. In other words,
+our circuit must be described by a linear differential equation. You
+can't even define an impedance for a nonlinear element. Nonlinear
+circuit elements are very important and interesting devices. You
+have studied some in the laboratory, and you can see why they will
+not readily yield to this kind of analysis.
+
+This is all predicated, too, on the continuous oscillation at constant
+frequency. The transient behavior of the circuit is a different
+problem. However, for linear circuits the tools we have just developed
+have some utility, even for transients. The reason is that by
+superposing steady oscillations of many frequencies we can represent
+a nonsteady behavior, and the response to each of the individual
+frequencies can be calculated as if that frequency were present alone.
+This can well be left for Volume III.
+
+\section{Power and energy in alternating-current circuits}
+If the voltage across a resistor R is V0 cos cat, the current is
+I : (V0/R) cos Lot. The instantaneous power, that is the instantaneous
+rate at which energy is being dissipated in the resistor is
+V02
+
+P = R12 = T cos? wt (60)
+
+% p. 291
+Since the average of cos? out over many cycles is %, the average power
+dissipated in the circuit is
+
+1 V02
+
+P=_:
+2 R
+
+(61)
+
+It is customary to express voltage and current in ac circuits by giving
+not the amplitude but 1/ \/7 times the amplitude. This is often called
+the ``root-mean-square'' or, for short, ``rms'' value. That takes care
+of the factor 4 in Eq. 61, so that
+
+V%ms
+R
+
+P:
+
+(62)
+
+For example, the common domestic line voltage, 120 volts, corresponds
+to an amplitude 120\/7 volts. The potential difference be-
+
+tween the terminals of the electric outlet in your room (if the voltage
+is up to normal) is
+
+V(t) = 170 cos 377t (63)
+
+with Vin volts and t in seconds. An ac ammeter is calibrated to read
+1 amp when the current amplitude is 1.414 amperes.
+
+In general, the instantaneous rate at which energy is delivered to
+a circuit element is VI, the product of the instantaneous voltage and
+current, with due regard to sign. Consider this aspect of the current
+flow in the simple LR circuit in Fig. 8.4. In Fig. 8.18 we have redrawn
+the current and voltage graphs and added a curve proportional to
+the product VI. Positive VI means energy is being transferred into
+the LR combination from the source of electromotive force, or
+generator. Notice that VI is negative in certain parts of the cycle.
+In those periods some energy is being returned to the generator.
+This is explained by the oscillation in the energy stored in the magnetic
+field of the inductor. This stored energy, §LI2, goes through
+a maximum twice in each full cycle.
+
+The average power, 13, corresponds to the horizontal dashed line.
+To calculate its value, let's look at the product V1, with V = 80 cos out
+and 1 : 10 cos (wt + (P):
+
+VI = 8010 cos cot cos (cot + (p)
+: 80I0(cos 2 cot cos (p - cos cot sin wt sin (p) (64)
+
+% p. 292
+oped in Sec. 8.4, we'll analyze
+an, 1-watt resistor has been
+pacitance 0.2 and 0.5 micro-
+5 into the 120-volt, 60-cycle
+>r get too hot? In the course
+:r dissipated in R exceeds the
+he currents and voltages we
+One way to work through the
+
+7) (2 x 10'7)i
+'41' ohm'1
+
+: 10_4 OhII1_1
++ 0.754i) ohm'1
+
+1
++ 0.7541')
+
+. 0.754:-)
+0.7542
+
+- 4800:') ohms
+
+1
+(377) (5 X 10'7)
+LS
+360 - 10,1001') ohms
+
+0 + 10,1001')
++ (10,100)?
+
+1e rms voltage, we obtain the
+re complex number 11, which
+or 10.0 milliamperes (mA),
+illiammeter inserted in series
+; current has a phase angle
+ns with respect to the line
+to the entire circuit is then:
+
+; 1.01 = 0.64 watt
+
+% p. 293
+R and L in series
+
+B and C in series
+
+R, L, and C in parallel
+
+In this circuit the resistor is
+be the average power dissip
+the voltage V2 across the re:
+
+(ix) V1 = 11: (5.3
+
+= (45.2 _ 28.41') ~
+(x) V2 = 120 - V1 = (7A
+
+The current 12 in R will be ll
+power in R will be
+
+P=L2 =_(
+
+R
+
+which checks.
+
+Thus the rating of the r
+surance is worth. Actually
+pends not only on the avera
+easily it can get rid of the he
+a rough guide.
+
+Problems
+8.1 How large an inductanc
+a 120-volt, 60-watt light bulb, if
+is connected across a 240-volt
+reactance required. You 'may
+inductance of the light bulb.)
+8.2 A 2000-ohm resistor a:
+series across a 120-volt (rms),
+(a) What is the impedance?
+(b) What is the rms value 0
+(c) What is the power dissi]
+(d) What will be the read
+resistor? across the capacitor?
+(e) The horizontal plates 0
+resistor and the vertical plates
+you expect to see on the screer
+8.3 A 1000-ohm resistor. a
+nected all in parallel. What i
+quency of 10 kc/sec? At a frt
+at which the absolute value of
+
+% p. 294
+b. 8. 7
+
+dissipative element is a resistor
+'ith the LC combination. Work
+)p1ies to this circuit. Find also
+ose that hold in the series RLC
+'cuit have the same L, C, and Q,
+
+of Fig. 8.1 is given by Eq. 12.
+= 0. Then calculate the energy
+t = 7r/2w. Verify that the dif-
+: resistor R during this interval.
+light, that is, that at/no < 1, and
+
+the values of B1 and B2 for the
+rmine also the ratio of B to A,
+
+ted in the figure is an essential
+be regarded as a simple ``LC''
+with one turn; this inductor is
+s. Find an expression for the
+uy a sketch the configuration of
+
+ 
+
+Prob. 8.4
+
+% p. 295
+% p. 296
+Chapter 9
+
+
+\fi
