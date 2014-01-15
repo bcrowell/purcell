@@ -1407,8 +1407,6 @@ the apparatus. That is why the direct demonstration had to wait for
 Hertz, whose experiment came many years after the law itself had
 been worked out by Maxwell.
 
-\iffalse
-
 \section{Maxwell's equations}
 
 James Clerk Maxwell, after immersing himself in the accounts of
@@ -1417,181 +1415,180 @@ a theory of electricity and magnetism. Maxwell could not exploit
 re1ativity---that came fifty years later. The electrical constitution
 of matter was a mystery, the relation between light and electromagnetism
 unsuspected. Many of the arguments that we have used to
-make our next step seem obvious were unthinkable then. Neverthe-
-less, as Maxwell's theory developed, the term we have been discuss-
-ing, 6E/at, appeared quite naturally in his formulation. He called
+make our next step seem obvious were unthinkable then. 
+Nevertheless, as Maxwell's theory developed, the term we have been 
+discussing, $\partial\vc{E}/\partial t$, appeared quite naturally in his formulation. He called
 it the ``displacement current.'' Maxwell was concerned with electric
 fields in solid matter as well as in vacuum, and when he talks about
-a ``displacement current'' he is often including some charge-in-
-motion, too. We'll clarify that point in Chap. 9 when we study electric
+a ``displacement current'' he is often including some 
+charge-in-motion, too. We'll clarify that point in Chap. 9 when we study electric
 fields in matter. Indeed, Maxwell thought of space itself as a
 medium, the ``aether,'' so that even in the absence of solid matter the
 displacement current was occurring in something. But never mind---
 his mathematical equations were perfectly clear and unambiguous,
-and his introduction of the displacement current was a theoretical
+and his introduction of the displacement current was a \emph{theoretical}
 discovery of the first rank. 
 
 Maxwell's description of the electromagnetic field was essentially
 complete. We have arrived by different routes at various pieces of it,
 which we shall now assemble in the form traditionally called
-Maxwell 's equations:
-
-\begin{equation}
-\end{equation}
-(90)
-
- 
-
+\intro{Maxwell's equations}:
+\begin{framed}
+\begin{align}
+\begin{split}
+  \curl\vc{E} &= -\frac{1}{c}\frac{\partial\vc{B}}{\partial t} \\
+  \curl\vc{B} &= \frac{1}{c}\frac{\partial\vc{E}}{\partial t} + \frac{4\pi}{c}\vc{J} \\
+  \div\vc{E} &= 4\pi\rho \\
+  \div\vc{B} &= 0
+\end{split}  
+\end{align}
+\end{framed}
 These are written for the fields in vacuum, in the presence of electric
-
-charge of density p and electric current, that is, charge-in-motion,
-of density J.
-
-in
+charge of density $\rho$ and electric current, that is, charge-in-motion,
+of density $\vc{J}$.
 
 % p. 264
-The first equation is Faraday's law of induction. The second
-expresses the dependence of the magnetic field on the displacement
-current density, or rate-of-change of electric field, and on the conduction
-current density, or rate-of-motion of charge. The third
+
+The first equation is Faraday's \emph{law of induction}. The second
+expresses the dependence of the magnetic field on the \emph{displacement
+current} density, or rate-of-change of electric field, and on the \emph{conduction
+current density}, or rate-of-motion of charge. The third
 equation is equivalent to Coulomb's law. The fourth equation states
-that there are no sources of magnetic field except currents. We shall
+that there are no sources of magnetic field \emph{except} currents. We shall
 have more to say about this aspect of Nature in Chap. 10.
 
 Notice that the lack of symmetry in these equations, with respect
-to $\vc{B}$ and E, is entirely due to the presence of electric charge and elec-
-
-tric conduction current. In empty space, the terms with p and J are
+to $\vc{B}$ and $\vc{E}$, is entirely due to the presence of electric charge and 
+electric conduction current. In empty space, the terms with $\rho$ and $\vc{J}$ are
 zero, and Maxwell's equations become
-
-\begin{equation}
-\end{equation}
-(91)
-
- 
+\begin{framed}
+\begin{align}
+\begin{split}
+  \curl\vc{E} &= -\frac{1}{c}\frac{\partial\vc{B}}{\partial t} \qquad
+  \div\vc{E} = 0 \\
+  \curl\vc{B} &= \quad \frac{1}{c}\frac{\partial\vc{E}}{\partial t} \qquad
+  \div\vc{B} = 0
+\end{split}  
+\end{align}
+\end{framed}
 
 Here the displacement current term is all-important. Its presence,
 along with its counterpart in the first equation, implies the possibility
-of electromagnetic waves. Recognizing that, Maxwell went on to
+of \intro{electromagnetic waves}. Recognizing that, Maxwell went on to
 develop with brilliant success an electromagnetic theory of light.
 You will be exploring the physics of waves, and of light waves in
 particular, in Vol. III. We can show right now that an electromagnetic
-disturbance traveling at speed c is compatible with Maxwell's
+disturbance traveling at speed $c$ is compatible with Maxwell's
 equations. To do this, we shall describe a very simple set of electric
 and magnetic fields which represent a traveling disturbance, and
 then we shall show that these fields satisfy all the equations in the
 box, Eqs. 91.
 
-At the instant of time t = 0, there exists, we suppose, an electric
-field in the region between the planes y = 0 and y = 2a. This field E
-
-has a z component only, and its z component depends only on y, in
-the following manner:
-
-\begin{equation}
-\end{equation}
-Ez=E0% <o:y:a>
-(at time t = 0) (92)
-
-2 - _ _
-Ee=EO( "Q 9) (a2y22a>
+At the instant of time $t = 0$, there exists, we suppose, an electric
+field in the region between the planes $y = 0$ and $y = 2a$. This field $\vc{E}$
+has a $z$ component only, and its $z$ component depends only on $y$, in
+the following manner at time $t=0$:
+\begin{align}
+\begin{split}
+  E_z &= E_0\frac{y}{a}        \qquad\qquad\qquad (0\le y \le a) \\
+  E_z &= E_0\left(\frac{2a-y}{a}\right) \qquad (a \le y \le 2a)
+\end{split}
+\end{align}
 As indicated in Fig. 7.33a, this describes a ``gable''-shaped distribution
-of field strength, maximum in the center at y = a and falling off
-linearly to zero at y = a and g = 2a. For given y, the field is the
-same at all x and z. That is, we have electric field throughout an
-
+of field strength, maximum in the center at $y = a$ and falling off
+linearly to zero at $y = a$ and $y = 2a$. For given $y$, the field is the
+same at all $x$ and $z$. That is, we have electric field throughout an
 % p. 265
 % p. 266
-infinite slab, although in the figure we show field vectors on the y axis
+infinite slab, although in the figure we show field vectors on the $y$ axis
 only. The shaded patches marked I and II lie within this slab.
-Everywhere outside the slab, that is, for y < O and y > 2a, the electric
+Everywhere outside the slab, that is, for $y < 0$ and $y > 2a$, the electric
 field is zero at this instant of time. At the same time a magnetic
-field $\vc{B}$ exists in this slab of space. It has an x component only.
-given by:
-
-\begin{equation}
-\end{equation}
-Bz=B0% (05y§a)
-(at time t = O) (93)
-
-B,=Bo(2"a"') <a:y:2a>
+field $\vc{B}$ exists in this slab of space. It has an $x$ component only,
+given at $t=0$ by:
+\begin{align}
+\begin{split}
+  B_x &= B_0\frac{y}{a}        \qquad\qquad\qquad (0\le y \le a) \\
+  B_x &= B_0\left(\frac{2a-y}{a}\right) \qquad (a \le y \le 2a)
+\end{split}
+\end{align}
 
 We simply invented this field. Let us now command the field
-configuration to travel in the y direction with speed 0, while preserving
+configuration to travel in the $y$ direction with speed $c$, while preserving
 its shape. We can do that by writing out orders as follows:
-
-\begin{equation}
-\end{equation}
-Region 1:
-E2 = E0 (y - ct)
-Cl _ _
-_ Ct (ct 2 y 2 at + a) (94)
-B' : B0 (y a )
-
-
-\begin{equation}
-\end{equation}
-Region II:
-2 _
-E, : E0  _ _
-20- +Ct (ct+a2y2ct+2a) (95)
-Bx = Bo <+)
-
-This describes the situation as we see it in Fig. 7.3312, or at any other
-time t. The region containing field is simply displaced to the right
-by a distance at. Within regions I and II, both $\vc{E}$ and $\vc{B}$ have the same
+\linebreak[4]\noindent\emph{Region I ($ct \le y \le ct+a$):}
+\begin{align}
+\begin{split}
+  E_z &= E_0 \left(\frac{y-ct}{a}\right) \\
+  B_x &= B_0 \left(\frac{y-ct}{a}\right) \\
+\end{split}
+\end{align}
+\emph{Region II ($ct+a \le y \le ct+2a$):}
+\begin{align}
+\begin{split}
+  E_z &= E_0 \left(\frac{2a-y+ct}{a}\right) \\
+  B_x &= B_0 \left(\frac{2a-y+ct}{a}\right) \\
+\end{split}
+\end{align}
+This describes the situation as we see it in Fig. 7.33b or at any other
+time $t$. The region containing field is simply displaced to the right
+by a distance $ct$. Within regions I and II, both $\vc{E}$ and $\vc{B}$ have the same
 form as before. Our equations, then, describe a traveling configuration
 of electric and magnetic fields, but can such fields exist? To
-answer that, we must see if $\vc{E}$ and B, as given by Eqs. 94 and 95, satisfy
+answer that, we must see if $\vc{E}$ and $\vc{B}$, as given by Eqs. 94 and 95, satisfy
 Maxwell's equations.
 
 Beginning with the divergence equations, it is easy to see that
-div E = 0 and $\div\vc{B}$ = 0. (Obviously 6E,/Bz = O and the other
+$\div\vc{E} = 0$ and $\div\vc{B} = 0$. (Obviously $\partial E_z/\partial z = 0$ and the other
 components of $\vc{E}$ are themselves zero.) But $\curl\vc{E}$ is not zero.
 Instead, its value is:
+\begin{align}
+\begin{split}
+  \text{In \emph{Region I}:}  \qquad & \grad\times\vc{E} = \xhat \frac{\partial E_z}{\partial y} 
+                                                      = \frac{E_0}{a} \xhat \\
+  \text{In \emph{Region II}:} \qquad & \grad\times\vc{E} = \xhat \frac{\partial E_z}{\partial y} 
+                                                      = -\frac{E_0}{a} \xhat 
+\end{split}
+\end{align}
 
-In Region I: V x E _-_ ii = f;
+In the same way we calculate $\grad\times\vc{B}$:
+\begin{align}
+\begin{split}
+  \text{In \emph{Region I}:}  \qquad & \grad\times\vc{B} = -\zhat \frac{\partial B_x}{\partial y} 
+                                                      = -\frac{B_0}{a} \zhat \\
+  \text{In \emph{Region II}:} \qquad & \grad\times\vc{B} = -\zhat \frac{\partial B_x}{\partial y} 
+                                                      = \frac{B_0}{a} \zhat 
+\end{split}
+\end{align}
 
-\begin{equation}
-\end{equation}
-(96)
-In Region II: V x E = $2 = -
-
-% p. 267
-In the same way we calculate V x B:
-
-In Regionlz VxB= -i aaB' = -%i
-9
-\begin{equation}
-\end{equation}
-(97)
-In Region 11; VxB= -2 33" =l3£2
-By a
-The partial derivatives with respect to t are:
-In Region 1: 1;. = _ EEO2 fig. = _ £302
-a a
-\begin{equation}
-\end{equation}
-(98)
-In Region II: % : %E0i % : %Box
-
-The fields will satisfy the "induction" equations in region I, then, if
-
-E , 1 ,
-7°' = ':('§B°")
-and B I C (99)
-__°2 =_(_ -1202)
-a C a
-
-Indeed, these are satisfied provided E0 = B0. The equations lead
+The partial derivatives with respect to $t$ are:
+\begin{align}
+\begin{split}
+  \text{In \emph{Region I}:}  \qquad 
+             \frac{\partial\vc{E}}{\partial t} = -\frac{c}{a}E_0\zhat
+           \qquad & \qquad \frac{\partial\vc{B}}{\partial t} = -\frac{c}{a}B_0\xhat \\
+  \text{In \emph{Region II}:}  \qquad 
+             \frac{\partial\vc{E}}{\partial t} = \frac{c}{a}E_0\zhat
+           \qquad & \qquad \frac{\partial\vc{B}}{\partial t} = \frac{c}{a}B_0\xhat 
+\end{split}
+\end{align}
+The fields will satisfy the ``induction'' equations in region I, then, if
+\begin{align}
+\begin{split}
+  \frac{E_0}{a}\xhat &= -\frac{1}{c}\left(-\frac{c}{a}B_0\xhat\right) \\
+\intertext{and}
+  -\frac{B_0}{a}\zhat &= \frac{1}{c}\left(-\frac{c}{a}E_0\zhat\right) 
+\end{split}
+\end{align}
+Indeed, these are satisfied provided $E_0 = B_0$. The equations lead
 to exactly the same requirement for the fields in region II. Exactly
 at the peak of the gable, and also at each end, there are mathematical
 singularities in the assumed fields. To be sure that the field equations
-are satisfied everywhere, we must see that there is no trouble at these
-points. There is none, because $\vc{E}$ and $\vc{B}$ are continuous there. (An
+are satisfied \emph{everywhere}, we must see that there is no trouble at these
+points. There is none, because $\vc{E}$ and $\vc{B}$ are \emph{continuous} there. (An
 abrupt jump. or discontinuity, in $\vc{E}$ or $\vc{B}$ would not be possible in
 empty space.) Thus the particular electromagnetic field we have
-described. which does represent a traveling wave, does satisfy all the
+described, which \emph{does} represent a traveling wave, \emph{does} satisfy all the
 field equations, if the electric field, in statvolts/cm, is everywhere
 equal to the magnetic field strength, at the same time and place. It is
 essential that $\vc{E}$ and $\vc{B}$ be perpendicular to one another and to the
@@ -1600,41 +1597,36 @@ satisfied.
 
 Our traveling ``gable'' may strike you as a rather special kind of
 wave. In fact, this simple example reveals all that is essential about
-any plane electromagnetic wave! We need only think of super-
-position. As we have frequently emphasized, the equations of the
+\emph{any} plane electromagnetic wave! We need only think of 
+\emph{superposition}. As we have frequently emphasized, the equations of the
 electromagnetic field are linear. If two sets of fields satisfy Maxwell's
 equations, so does their sum. We can have any number of our
 ``gable'' fields traveling through space, in the same or different direc-
-tions. (Naturally, the fields don't care how the axes are oriented-
-
+tions. (Naturally, the fields don't care how the axes are oriented---
 % p. 268
-any other direction is as good as the y axis.) Fig. 7.34 suggests some
+any other direction is as good as the $y$ axis.) Fig. 7.34 suggests some
 of the waves you could make with ``gables.'' It is pretty obvious that
-any function could be approximated as closely as desired by superposing
+\emph{any} function could be approximated as closely as desired by superposing
 ``gables.'' Therefore, what we have learned about the gable
 wave must apply to any wave in which $\vc{E}$ and $\vc{B}$ are functions only
 of the coordinate in the direction of travel. These general facts are:
-
-(i) The disturbance travels with speed c, with unchanging
-form. 
-
-(ii) $\vc{E}$ and $\vc{B}$ are perpendicular to each other and to the direction
-of travel, with the vector E x B always pointing in the
-direction of the travel, as it does in our example.
-
-(iii) At a given point and time, E = B.
+\begin{enumerate}[(i)]
+\item The disturbance travels with speed $c$, with unchanging form. 
+\item $\vc{E}$ and $\vc{B}$ are perpendicular to each other and to the direction
+    of travel, with the vector $\vc{E}\times\vc{B}$ always pointing in the
+    direction of the travel, as it does in our example.
+\item At a given point and time, $E = B$.
+\end{enumerate}
 
 An electromagnetic field with these properties transforms in a
 simple and satisfying way when we change coordinate systems. In
 Chap. 6 we derived formulas for the Lorentz transformation of the
 electric and magnetic fields (Eq. 6.58). Let's use the results of
 Prob. 6.11, which were based on those equations, according to which
-the two scalar quantities, E2 - B2 and E - B remain invariant in a
-transformation to another inertial frame. In this case, since E = B
-at any point, the invariant quantity E2 - B2 has the value zero. Also.
-because $\vc{E}$ is perpendicular to B, the other invariant E - B is zero. It
+the two scalar quantities, $E^2 - B^2$ and $\vc{E}\cdot\vc{B}$ remain invariant in a
+transformation to another inertial frame. In this case, since $E = B$
+at any point, the invariant quantity $E^2 - B^2$ has the value zero. Also.
+because $\vc{E}$ is perpendicular to $\vc{B}$, the other invariant $\vc{E}\cdot\vc{B}$ is zero. It
 follows that in any other frame the transformed fields $\vc{E}'$ and $\vc{B}'$ must
 be equal to each other in magnitude and perpendicular in direction.
 A light wave looks like a light wave in any frame of reference.
-
-\fi
