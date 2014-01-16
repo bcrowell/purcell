@@ -437,37 +437,30 @@ hindrance to the flow of current, and $\pot$ is positive. At resonance, $\pot = 
 The higher the $Q$, the more abruptly $\pot$ shifts from positive to negative
 angles as the frequency is raised through $\omega_0$.
 
-\iffalse
-
 \section{Alternating-current networks}
 
 An alternating-current network is any collection of resistors,
 capacitors, and inductors in which currents flow that are oscillating
 steadily at the constant frequency to. One or more electromotive
 forces, at this frequency, drive the oscillation. Figure 8.12 is a diagram
-of one such network. . The source of alternating electromotive
-force is represented by the symbol  In a branch of the network,
-
-for instance the branch that includes the inductor L2, the current as
+of one such network. The source of alternating electromotive
+force is represented by the symbol 
+\raisebox{-0.1\height}{\includegraphics{ch08/figs/ac-emf-source}}.
+In a branch of the network,
+for instance the branch that includes the inductor $L_2$, the current as
 a function of time is
-
 \begin{equation}
+  I_2 = I_{02} \cos (\omega t + \pot_2) 
 \end{equation}
-I2 = 102 COS (\omega t + (pg) 
-
-Since the frequency is a constant for the whole network, two num-
-bers, such as the amplitude I02 and the phase constant (122 above, are
+Since the frequency is a constant for the whole network, two 
+numbers, such as the amplitude $I_{02}$ and the phase constant $\pot_2$ above, are
 enough to determine for all time the current in a particular branch.
-
- 
-
 % p. 286
 Similarly, the voltage across a branch oscillates with a certain
 amplitude and phase:
-
 \begin{equation}
+  V_2 = V_{02} \cos (\omega t + \theta_2) 
 \end{equation}
-V2 : V02 COS (\omega t + 02) 
 
 If we have determined the currents and voltages in all branches of
 a network, we have analyzed it completely. To find them by constructing
@@ -476,64 +469,57 @@ possible, of course; and if we were concerned with the transient behavior
 of the network, we might have to do something like that. For
 the steady state, however, we can use a far simpler and more elegant
 method. It is based on two ideas:
-
-(i) An alternating current or voltage can be represented by a
-complex number.
-
-(ii) Any one branch or element of the circuit can be charac-
-terized, at a given frequency, by the relation between the
-voltage and current in that branch.
+\begin{enumerate}[(i)]
+\item An alternating current or voltage can be represented by a
+      complex number.
+\item Any one branch or element of the circuit can be 
+      characterized, at a given frequency, by the relation between the
+      voltage and current in that branch.
+\end{enumerate}
 
 The first idea exploits that remarkable mathematical identity
 \begin{equation}
+  e^{i\theta} = \cos\theta+i\sin\theta
 \end{equation}
-e" = cos 0 + 2' sin 0 (50)
-
-with i2 = - 1. To carry it out we adopt the following rule for the
+with $i^2 = -1$. To carry it out we adopt the following \emph{rule} for the
 representation:
 
-  
+\begin{framed}
+An alternating current $I_0 \cos (\omega t + \pot)$ is to be \emph{represented
+by} the complex number $I_0e^{i\pot}$, that is, the number whose real
+part is $I_0 \cos \pot$ and whose imaginary part is $I_0 \sin \pot$.
 
-An alternating current 10 cos (\omega t + q:) is to be represented
-by the complex number Ioeiw, that is, the number whose real
-part is I0 cos q: and whose imaginary part is 10 sin tp.
-
-Going the other way, if the complex number x + iy represents
-a current I, then the current as a function of time is given
-by the real part of the product (3: + iy)ei~'.
-
-      
-   
- 
-    
+Going the other way, if the complex number $x + iy$ \emph{represents}
+a current $I$, then the current as a function of time is given
+by the real part of the product $(x + iy)e^{i\omega t}$.
+\end{framed}
 
 Figure 8.13 is a reminder of this two-way correspondence. Since
-a complex number z = x + iy can be graphically represented on the
+a complex number $z = x + iy$ can be graphically represented on the
 two-dimensional plane, it is easy to visualize the phase constant as
-the angle tan'1 y/x, and the amplitude Io as the modulus 
+the angle $\tan^{-1} y/x$, and the amplitude $I_0$ as the modulus
+$\sqrt{x^2+y^2}$.
 
-What makes all this useful is the following fact: The representation
-of the sum of two currents is the sum of their representations. Consider
-the sum of two currents I1 and 12 that meet at a junction of wires in
-Fig. 8.12. At any instant of time t the sum of the currents is:
-
-\begin{equation}
-\end{equation}
-11 + 12 = 101 C08 (cot + (pi) + 102 cos (\omega t + (P2)
-
-= (101 cos (p1 + 102 cos (P2) cos \omega t
-- (I01 Sl1'l (P1 + 102 SlI'l (P2) SlI'l \omega t 
-
+What makes all this useful is the following fact: \emph{The representation
+of the sum of two currents is the sum of their representations}. Consider
+the sum of two currents $I_1$ and $I_2$ that meet at a junction of wires in
+Fig. 8.12. At any instant of time $t$ the sum of the currents is:
+\begin{align}
+\begin{split}
+  I_1+I_2 &= I_{01}\cos(\omega t+\pot_1) + I_{02}\cos(\omega t+\pot_2) \\
+          &=  (I_{01}\cos\pot_1+I_{02}\cos\pot_2)\cos\omega t
+             -(I_{01}\sin\pot_1+I_{02}\sin\pot_2)\sin\omega t
+\end{split}
+\end{align}
 % p. 287
 On the other hand, the sum of the complex numbers that, according
-to our rule, represent I1 and I2 is:
-
+to our rule, represent $I_1$ and $I_2$ is:
 \begin{equation}
+  I_{01}e^{i\pot_1}+I_{02}e^{i\pot_2}
+   =  (I_{01}\cos\pot_1+I_{02}\cos\pot_2)
+    +i(I_{01}\sin\pot_1+I_{02}\sin\pot_2)
 \end{equation}
-1016*?' + 10291" = (101 005 'P1 + 102 005 #32)
-+ i(Io1 Sin 'P1 + 102 Sin (P2) (52)
-
-If you multiply the right-hand side of Eq. 52 by (cos \omega t + i sin \omega t)
+If you multiply the right-hand side of Eq. 52 by $(\cos \omega t + i \sin \omega t)$
 and take the real part of the result, you will get just what appears or
 the right in Eq. 51.
 
@@ -541,23 +527,20 @@ This means that instead of adding or subtracting the periodic functions
 of time themselves, we can add or subtract the complex numbers
 that represent them. Or putting it another way, the algebra of alternating
 currents turns out to be the same as the algebra of complex
-numbers, in respect to addition. The correspondence does not extend
-to multiplication. The complex number Io1I02e"W1+W2) does not
+numbers, in respect to addition. The correspondence does \emph{not} extend
+to multiplication. The complex number $I_{01}I_{02}e^{i(\pot_1+\pot_2)}$ does \emph{not}
 represent the product of the two current functions in Eq. 51.
 
 However, it is only the addition of currents and voltages that we
 need to carry out in analyzing the network. For example, at the
-junction where 11 meets 12 in Fig. 8.12, there is the physical requirement
-that at every instant the net flow of current into the junction
+junction where $I_1$ meets $I_2$ in Fig. 8.12, there is the physical requirement
+that \emph{at every instant} the net flow of current into the junction
 shall be zero. Hence the condition
-
 \begin{equation}
+  I_1+I_2+I_3 = 0
 \end{equation}
-I1-{-I2-I-13:0 
-
-must hold, where 11, I2, and 13 are the actual periodic functions of
-time. Thanks to our correspondence, this can be expressed in the
-
+must hold, where $I_1$, $I_2$, and $I_3$ are the \emph{actual periodic functions of
+time}. Thanks to our correspondence, this can be expressed in the
 % p. 288
 simple algebraic statement that the sum of three complex numbers
 is zero. Voltages can be handled in the same way. Instantaneously,
@@ -565,7 +548,9 @@ the sum of the voltage drops around any loop in the network must
 equal the electromotive force in the loop at that instant. This condition
 relating periodic voltage functions can likewise be replaced by
 a statement about the sum of some complex numbers, the representations
-of the various oscillating functions, V1(t), V2(t), etc.
+of the various oscillating functions, $V_1(t)$, $V_2(t)$, etc.
+
+\iffalse
 
 \section{Admittance and impedance}
 
