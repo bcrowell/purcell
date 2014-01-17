@@ -680,155 +680,153 @@ a nonsteady behavior, and the response to each of the individual
 frequencies can be calculated as if that frequency were present alone.
 This can well be left for Volume III.
 
-\iffalse
-
 \section{Power and energy in alternating-current circuits}
-If the voltage across a resistor R is V0 cos cat, the current is
-I : (V0/R) cos Lot. The instantaneous power, that is the instantaneous
+If the voltage across a resistor $R$ is $V_0 \cos \omega t$, the current is
+$I = (V_0/R) \cos \omega t$. The instantaneous power, that is the instantaneous
 rate at which energy is being dissipated in the resistor is
-V02
-
 \begin{equation}
+  P = RI^2 = \frac{V_0^2}{R}\cos^2\omega t
 \end{equation}
-P = R12 = T cos? \omega t (60)
-
 % p. 291
-Since the average of cos? out over many cycles is %, the average power
+Since the average of $\cos^2\omega t$ over many cycles is $\frac{1}{2}$, the average power
 dissipated in the circuit is
-
 \begin{equation}
+  \bar{P} = \frac{1}{2}\frac{V_0^2}{R}
 \end{equation}
-1 V02
-
-P=_:
-2 R
-
-(61)
-
 It is customary to express voltage and current in ac circuits by giving
-not the amplitude but 1/ \/7 times the amplitude. This is often called
-the ``root-mean-square'' or, for short, ``rms'' value. That takes care
-of the factor 4 in Eq. 61, so that
-
+not the amplitude but $1/\sqrt{2}$ times the amplitude. This is often called
+the ``root-mean-square'' or, for short, ``rms'' value.\index{amplitude!rms}\index{rms}\index{root-mean-square}
+That takes care
+of the factor $\frac{1}{2}$ in Eq. 61, so that
 \begin{equation}
+  \bar{P} = \frac{V_\text{rms}^2}{R}
 \end{equation}
-V%ms
-R
-
-P:
-
-(62)
-
-For example, the common domestic line voltage, 120 volts, corresponds
-to an amplitude 120\/7 volts. The potential difference be-
-
-tween the terminals of the electric outlet in your room (if the voltage
+For example, the common domestic line voltage in the United States, 120 volts, corresponds
+to an \emph{amplitude} $120\sqrt{2}$ volts. The potential difference 
+between the terminals of the electric outlet in your room (if the voltage
 is up to normal) is
-
 \begin{equation}
+  V(t) = 170\cos 377t
 \end{equation}
-V(t) = 170 cos 377t (63)
-
-with Vin volts and t in seconds. An ac ammeter is calibrated to read
-1 amp when the current amplitude is 1.414 amperes.
+with $V$ in volts and $t$ in seconds. An ac ammeter is calibrated to read
+$1\ \zu{A}$ when the current amplitude is 1.414 amperes.
 
 In general, the instantaneous rate at which energy is delivered to
-a circuit element is VI, the product of the instantaneous voltage and
+a circuit element is $VI$, the product of the instantaneous voltage and
 current, with due regard to sign. Consider this aspect of the current
-flow in the simple LR circuit in Fig. 8.4. In Fig. 8.18 we have redrawn
+flow in the simple $LR$ circuit in Fig. 8.4. In Fig. 8.18 we have redrawn
 the current and voltage graphs and added a curve proportional to
-the product VI. Positive VI means energy is being transferred into
-the LR combination from the source of electromotive force, or
-generator. Notice that VI is negative in certain parts of the cycle.
+the product $VI$. Positive $VI$ means energy is being transferred into
+the $LR$ combination from the source of electromotive force, or
+generator. Notice that $VI$ is negative in certain parts of the cycle.
 In those periods some energy is being returned to the generator.
 This is explained by the oscillation in the energy stored in the magnetic
-field of the inductor. This stored energy, §LI2, goes through
+field of the inductor. This stored energy, $\frac{1}{2}LI^2$, goes through
 a maximum twice in each full cycle.
 
-The average power, 13, corresponds to the horizontal dashed line.
-To calculate its value, let's look at the product V1, with V = 80 cos out
-and 1 : 10 cos (\omega t + (P):
-
-\begin{equation}
-\end{equation}
-VI = 8010 cos cot cos (cot + (p)
-: 80I0(cos 2 cot cos (p - cos cot sin \omega t sin (p) (64)
-
+The \emph{average} power, $\bar{P}$, corresponds to the horizontal dashed line.
+To calculate its value, let's look at the product $VI$, with $V = \emf_0 \cos \omega t$
+and $I = I_0\cos(\omega t+\pot)$:
+\begin{align}
+\begin{split}
+  VI &= \emf_0I_0\cos\omega t \cos(\omega t+\pot) \\
+     &= \emf_0I_0(\cos^2\omega t\cos\pot - \cos\omega t\sin\omega t\sin\pot)
+\end{split}
+\end{align}
 % p. 292
-oped in Sec. 8.4, we'll analyze
-an, 1-watt resistor has been
-pacitance 0.2 and 0.5 micro-
-5 into the 120-volt, 60-cycle
->r get too hot? In the course
-:r dissipated in R exceeds the
-he currents and voltages we
-One way to work through the
-
-7) (2 x 10'7)i
-'41' ohm'1
-
-: 10_4 OhII1_1
-+ 0.754i) ohm'1
-
-1
-+ 0.7541')
-
-. 0.754:-)
-0.7542
-
-- 4800:') ohms
-
-1
-(377) (5 X 10'7)
-LS
-360 - 10,1001') ohms
-
-0 + 10,1001')
-+ (10,100)?
-
-1e rms voltage, we obtain the
-re complex number 11, which
-or 10.0 milliamperes (mA),
-illiammeter inserted in series
-; current has a phase angle
-ns with respect to the line
-to the entire circuit is then:
-
-; 1.01 = 0.64 watt
-
-% p. 293
-R and L in series
-
-B and C in series
-
-R, L, and C in parallel
-
-In this circuit the resistor is
-be the average power dissip
-the voltage V2 across the re:
-
+The term proportional to $\cos\omega t\sin\omega t$ has a time average
+zero, as is obvious if you write it as $\frac{1}{2}\sin2\omega t$, while
+the average of $\cos^2\omega t$ is $\frac{1}{2}$.
+Thus for the time average we have
 \begin{equation}
+  \bar{P} = \overline{VI} = \frac{1}{2}\emf_0I_0\cos\pot
 \end{equation}
-(ix) V1 = 11: (5.3
-
-= (45.2 _ 28.41') ~
-(x) V2 = 120 - V1 = (7A
-
-The current 12 in R will be ll
-power in R will be
-
+If both current and voltage are expressed as rms values, in volts and
+amperes respectively,
 \begin{equation}
+  \underbrace{\bar{P}}_\text{(watts)}
+        = \underbrace{V_\text{rms}}_\text{(volts)}
+          \underbrace{I_\text{rms}}_\text{(amperes)}
+          \cos\pot
 \end{equation}
-P=L2 =_(
+In this circuit all the energy dissipated goes into the resistance $R$.
+Naturally, any real inductor has some resistance. For the purpose
+of analyzing the circuit, we included that with the resistance $R$. Of
+course the heat evolves at the actual site of the resistance.
 
-R
+To practice with the methods we developed in Sec. 8.4, we'll analyze
+the circuit in Fig. 8.19a. A $10,000\ \text{ohm}$, $1\ \zu{W}$ resistor has been
+connected up with two capacitors of capacitance 0.2 and 0.5 microfarads
+($\mu\zu{F}$). We propose to plug this into the 120 V, 60 Hz outlet.
+\emph{Question:} Will the 1 W resistor get too hot? In the course
+of finding out whether the average power dissipated in $R$ exceeds the
+1 W rating, we'll calculate some of the currents and voltages we
+might expect to measure in this circuit. One way to work through the
+circuit is outlined below.
 
+\begin{enumerate}[(i)]
+
+\item
+  $\text{Admittance of $C_2$} = i\omega C_2 = (377)(2\times 10^{-7})i 
+                               = 0.754\times 10^{-4}i\ \text{ohm}^{-1}$
+
+\item $\text{Admittance of the resistor} = \frac{1}{R} = 10^{-4}\ \text{ohm}^{-1}$
+
+\item Admittance of 
+         \raisebox{-0.4\height}{\includegraphics{ch08/figs/rc-parallel}}
+         $=\ 10^{-4}(1+0.754i)\ \text{ohm}^{-1}$
+
+\item Impedance of 
+         \raisebox{-0.4\height}{\includegraphics{ch08/figs/rc-parallel}}
+         $=\frac{1}{10^{-4}(1+0.754i)}
+          =\frac{10^4(1-0.754i)}{1^2+0.754^2}
+          = (6360-4800i)\ \text{ohm}$
+
+\item $\text{Impedance of $C_1$} = -\frac{i}{\omega C}
+               = -\frac{i}{(377)(5\times 10^{-7})}
+               = -5300i\ \text{ohm}$
+
+\item $\text{Impedance of entire circuit} = (6360-10,100i)\ \text{ohm}$
+
+\item $I_1 = \frac{120}{6360-10,100i} = \frac{120(6360+10,100i)}{(6360)^2+(10,100)^2}
+           = (5.37+8.53i)\times 10^{-3}\ \zu{A}$
+
+\end{enumerate}
+
+\noindent Since we have used 120 volts, which is the rms voltage, we obtain the
+rms current. That is, the modulus of the complex number $I_1$, which
+is $[(5.37)^2+(8.53)^2]^{1/2}\times10^{-3}\ \zu{A}$ or 10.0 mA,
+is the rms current. An ac milliammeter inserted in series
+with the line would read 10 mA. This current has a phase angle
+$\pot=\tan^{-1}(0.853/0.537)$ or 1.01 radians with respect to the line
+voltage. The average power delivered to the entire circuit is then:
+
+% FIXME -- had to do these Roman numerals by hand
+\vspace{3mm}
+\noindent (viii) $\bar{P}=(120\ \text{volts})(0.010\ \zu{A})\cos1.01=0.64\ \zu{W}$
+\vspace{3mm}
+
+\noindent In this circuit the resistor is the only dissipative element, so this must
+be the average power dissipated in it. Just as a check, we can find
+the voltage $V_2$ across the resistor:
+
+\vspace{3mm}
+\noindent (ix) $V_1=I_1\left(\frac{-i}{\omega C}\right) = (5.37+8.53i)(-5300i)10^{-3}
+        =(45.2-28.4i)\ \zu{V}$
+\vspace{3mm}
+
+\noindent (x) $V_2=120-V_1=(74.8+28.4i)\ \zu{V}$
+\vspace{3mm}
+
+\noindent The current $I_2$ in $R$ will be in phase with $V_2$, of course, so the average
+power in $R$ will be
+\begin{equation}
+  \bar{P} = \frac{V_2^2}{R} = \frac{(74.8)^2+(28.4)^2}{10^4} = 0.64\ \zu{W}
+\end{equation}
 which checks.
 
-Thus the rating of the r
-surance is worth. Actually
-pends not only on the avera
-easily it can get rid of the he
-a rough guide.
-
-\fi
+Thus the rating of the resistor isn't exceeded, for what that
+assurance is worth. Actually, whether the resistor will get too hot
+depends not only on the average power dissipated in it but also on how
+easily it can get rid of the heat. The power rating of the resistor is
+only a rough guide.
