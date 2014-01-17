@@ -550,130 +550,120 @@ relating periodic voltage functions can likewise be replaced by
 a statement about the sum of some complex numbers, the representations
 of the various oscillating functions, $V_1(t)$, $V_2(t)$, etc.
 
-\iffalse
-
 \section{Admittance and impedance}
 
 The relation between current flow in a circuit element and the
 voltage across the element can be expressed as a relation between the
 complex numbers that represent the voltage and the current. Look
 at the inductor-resistor combination in Fig. 8.4. The voltage oscillation
-is represented by 80 and the current by Ioetw, where 10 =
-80/ x/B2 + ML? and tan go = -wL/R. The phase difference (p and
+is represented by $\emf_0$ and the current by $I_0e^{i\phi}$, where 
+$I_0 = \emf_0/\sqrt{R^2+\omega^2L^2}$ and $\tan \pot = -\omega L/R$. The phase difference $\pot$ and
 the ratio of current amplitude to voltage amplitude are properties
-
-of the circuit at this frequency. We define a complex number Y as
+of the circuit at this frequency. We define a complex number $Y$ as
 follows:
-
 \begin{equation}
+  Y=\frac{e^{i\phi}}{\sqrt{R^2+\omega^2L^2}} \qquad \text{with} \qquad
+          \pot = \tan^{-1}\left(-\frac{\omega L}{R}\right)
 \end{equation}
-eiw
-, /R2 +?w2L2
-
 Then the relation
-
 \begin{equation}
+  I = YV
 \end{equation}
-wL
-
-Y = with (,5 = tan'1<- -R-) (54)
-
+holds, where $V$ is the complex number that represents the voltage
+across the series combination of $R$ and $L$, and $I$ is the complex number
+that represents the current. $Y$ is called the \intro{admittance}. The
+same relation can be expressed with the reciprocal of $Y$, denoted by
+$Z$ and called the impedance:\index{impedance}
 \begin{equation}
+  V = \left(\frac{1}{Y}\right)I = ZI
 \end{equation}
-1 = YV (55)
-
-holds, where V is the complex number that represents the Voltage
-across the series combination of R and L, and I is the complex number
-that represents the current. Y is called the admittance. The
-
-same relation can be expressed with the reciprocal of Y, denoted by
-Z and called the impedance:
-
-\begin{equation}
-\end{equation}
-V =  I = Z1 (56)
 
 Here we do make use of the product of two complex numbers, but
 only one of the numbers is the representation of an alternating current
-or Voltage. The other is the impedance or admittance.T
-
-TOur algebra thus contains two categories of complex numbers, those that represent
+or Voltage. The other is the impedance 
+or admittance.\footnote{Our algebra
+thus contains two categories of complex numbers, those that represent
 impedances, for example, and those that represent currents. The product of two
-
 ``impedance numbers,'' like the product of two ``current numbers,'' doesn't represent
-anything.
+anything.}
 
 % p. 289
+
 The impedance is measured in ohms. Indeed, if the circuit element
-had consisted of the resistance R alone, the impedance would
-be real and equal simply to R, so that Eq. 56 would resemble Ohm's
-law for a direct-current circuit: V = R1.
+consisted of the resistance $R$ alone, the impedance would
+be real and equal simply to $R$, so that Eq. 56 would resemble Ohm's
+law for a direct-current circuit: $V = RI$.
 
 The admittance of a resistanceless inductor is the imaginary
-quantity Y = -i/wL. This can be seen by letting R go to zero in
-Eq. 54. The factor ---i shows that the current oscillation lags the
-voltage oscillation by 77/2 in phase. On the complex number dia-
-gram, if the voltage is represented by V (Fig. 8.1419), the current
-might be represented by I, located as shown there. For the capacitor,
-Y = icoC, as can be seen from the expression for the current in
-Fig. 8.7. In this case V and I are related as indicated in Fig. 8.140.
-The inset in each of the figures shows how the relative sign of Vand I
+quantity $Y = -i/\omega L$. This can be seen by letting $R$ go to zero in
+Eq. 54. The factor $-i$ shows that the current oscillation lags the
+voltage oscillation by $\pi/2$ in phase. On the complex number 
+diagram, if the voltage is represented by $V$ (Fig. 8.14b), the current
+might be represented by $I$, located as shown there. For the capacitor,
+$Y = i\omega C$, as can be seen from the expression for the current in
+Fig. 8.7. In this case $V$ and $I$ are related as indicated in Fig. 8.14c.
+The inset in each of the figures shows how the relative sign of $V$ and $I$
 is to be specified. Unless that is done consistently, ``leading'' and
 ``lagging'' are meaningless. Note that we always define the positive
 current direction so that a positive voltage applied to a resistor causes
-positive current (Fig. 8.l4a).
+positive current (Fig. 8.14a).
 
 The properties of the three basic circuit elements are summarized
 below:
 
-Symbol Admittance, Y Impedance, Z = LY
-R L R
-JWW R
-L  1'¢..>L
-'\U.Qr wL
-C .
-' C ;'
-_H- W wC
-I = YV V = Z1
+\vspace{5mm}
+\begingroup
+\renewcommand*{\arraystretch}{2}
+\begin{tabular}{|c|c|c|}
+\hline
+\emph{Symbol} & \emph{Admittance, $Y$} & \emph{Impedance, $Z=\frac{1}{Y}$} \\
+\hline
+\raisebox{-.3\height}{\includegraphics{ch08/figs/table-resistor}}
+   & $\frac{1}{R}$
+   & $R$ \\
+\raisebox{-.3\height}{\includegraphics{ch08/figs/table-inductor}}
+   & $\frac{-i}{\omega L}$
+   & $i\omega L$ \\
+\raisebox{-.3\height}{\includegraphics{ch08/figs/table-capacitor}}
+   & $i\omega C$
+   & $\frac{-i}{\omega C}$ \\
+\hline
+   & I=YV & V=ZI \\
+\hline
+\end{tabular}
+\endgroup
+\vspace{5mm}
 
 We can build up any circuit from these elements. When elements
 or combinations of elements are connected in parallel, it is convenient
 to use the admittance, for in that case admittances add. In Fig. 8.15
-two ``black boxes'' with admittances Y1 and Y2 are connected in
+two ``black boxes'' with admittances $Y_1$ and $Y_2$ are connected in
 parallel. We have then
-
 \begin{equation}
+  I = I_1+I_2 = Y_1V+Y_2V = (Y_1+Y_2)V
 \end{equation}
-I = 11 + 12 = Y1V+ Y2V= (Y1 + Y2)V (57)
-
 % p. 290
-  
-
 which implies that the equivalent single black box has an admittance
-Y = Y1 + Y2. From Fig. 8.16 it will be obvious that the impedances
-add for elements connected in series. It sounds as if we are talking
+$Y = Y_1 + Y_2$. From Fig. 8.16 it will be obvious that the \emph{impedances}
+add for elements connected in \emph{series}. It sounds as if we are talking
 about a direct-current network! In fact, we have now reduced the
-ac network problem to the dc network problem, with only this dif-
-ference: the numbers we deal with arecomplex numbers.
+ac network problem to the dc network problem, with only this 
+difference: the numbers we deal with are complex numbers.
 
-As an example, let's look at the ``parallel RLC'' circuit in
+As an example, let's look at the ``parallel $RLC$'' circuit in
 Fig. 8.17. The combined admittance of the three parallel branches is
-
 \begin{equation}
+  Y = \frac{1}{R} + i\omega C - \frac{i}{\omega L}
 \end{equation}
-_L - _;'
-Y_R+1wC COL (53)
-
-The voltage is simply 80, so the complex current is
+The voltage is simply $\emf_0$, so the complex current is
 \begin{equation}
+  I = YV = \emf_0\left[\frac{1}{R} \: + \: i\left(\omega C-\frac{1}{\omega L}\right)\right]
 \end{equation}
-1: YV= s0[-+i(wc_i)] (59)
-
 The amplitude of the current oscillation is the modulus of the complex
-number I, which is 80[(l/R)? + (wC - 1/wL)2]1/2, and the
-phase angle is tan'1 (RwC - R/wL).
+number $I$, which is $\emf_0 [(1/R)^2 + (\omega C - 1/\omega L)^2]^{1/2}$, and the
+phase angle is $\tan^{-1} (R\omega C - R/\omega L)$.
 
-We can only deal in this way with linear circuit elements, elements
+We can only deal in this way with \emph{linear} circuit elements, elements
 in which the current is proportional to the voltage. In other words,
 our circuit must be described by a linear differential equation. You
 can't even define an impedance for a nonlinear element. Nonlinear
@@ -689,6 +679,8 @@ superposing steady oscillations of many frequencies we can represent
 a nonsteady behavior, and the response to each of the individual
 frequencies can be calculated as if that frequency were present alone.
 This can well be left for Volume III.
+
+\iffalse
 
 \section{Power and energy in alternating-current circuits}
 If the voltage across a resistor R is V0 cos cat, the current is
