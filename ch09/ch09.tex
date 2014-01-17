@@ -149,12 +149,10 @@ field produced by an atom or molecule, it will help to make some
 general observations about the electrostatic field external to any small
 system of charges.
 
-\iffalse
-
 \section{The moments of a charge distribution}
 
 An atom or molecule consists of some electric charges occupying
-a small volume, perhaps a few cubic angstroms (1O‘24 cm3) of space.
+a small volume, perhaps \linebreak[4]$\sim (0.1\ \zu{nm})^3=10^{-24}\ \cmunit^3$ of space.
 We are interested in the electric field outside that volume, which
 arises from this rather complicated charge distribution. We shall
 be particularly concerned with the field far away from the source,
@@ -166,152 +164,143 @@ at a point outside it. Figure 9.2 shows a charge distribution of some
 sort located in the neighborhood of the origin of coordinates. It
 might be a molecule consisting of several positive nuclei and quite
 a large number of electrons. In any case we shall suppose it is described
-by a given charge density function p(x,y,z). p is negative
+by a given charge density function $\rho(x,y,z)$. $\rho$ is negative
 where the electrons are and positive where the nuclei are. To find
 the electric field at distant points we can begin by computing the
 potential of the charge distribution. To illustrate, let's take some
-point A out on the z axis.‘ (Since we are not assuming any special
+point $A$ out on the $z$ axis. (Since we are not assuming any special
 symmetry in the charge distribution, there is nothing special about
-the z axis.) Let r be the distance of A from the origin. The electric
-potential at A, denoted by <;oA, is obtained as usual by adding the
+the $z$ axis.) Let $r$ be the distance of $A$ from the origin. The electric
+potential at $A$, denoted by $\pot_A$, is obtained as usual by adding the
 contributions from all elements of the charge distribution:
-
 \begin{equation}
+  \pot_A = \int \frac{\rho(x',y',z')\:\der v'}{R}
 \end{equation}
-,, :  (3,
-
 % p. 302
-In the integrand do' is an element of volume within the charge dis-
-tribution, p(x',y',z') is the charge density there, and R in the denominator
-is the distance from A to this particular charge element. The
-integration is carried out in the coordinates x', y', z', of course, and
-is extended over all the region containing charge. We can express R
-in terms of r and the distance 1' from the origin to the charge element.
-
-Using the law of cosines with 0 the angle between 1' and the axis on
-which A lies:
-
+In the integrand $\der v'$ is an element of volume within the charge 
+distribution, $\rho(x',y',z')$ is the charge density there, and $R$ in the denominator
+is the distance from $A$ to this particular charge element. The
+integration is carried out in the coordinates $x'$, $y'$, $z'$, of course, and
+is extended over all the region containing charge. We can express $R$
+in terms of $r$ and the distance $r'$ from the origin to the charge element.
+Using the law of cosines with $\theta$ the angle between $r'$ and the axis on
+which $A$ lies:
 \begin{equation}
+  R = [r^2 + r'^2 - 2rr'\cos\theta]^{1/2}
 \end{equation}
-R = [r2 + 1/2 _ 2n' cos 011/2 (4)
-
-With this substitution for R the integral becomes:
-q,)A =fpdo'[r2 + 1/2 _ 2n' cos 6]-1/2 (4a)
-
+With this substitution for $R$ the integral becomes:
+\begin{equation}
+  \pot_A = \int \rho\:\der v'[r^2 + r'^2 - 2rr'\cos\theta]^{-1/2}
+\end{equation}
 Now we want to take advantage of the fact that for a distant point
-like A, 1' is much smaller than r for all parts of the charge distribution.
+like $A$, $r'$ is much smaller than $r$ for all parts of the charge distribution.
 This suggests that we should expand the square root in Eq. 4 in
-powers of 1' /1. Writing
-
+powers of $r'/r$. Writing
 \begin{equation}
+  [r^2 + r'^2 - 2rr'\cos\theta]^{-1/2} 
+      = \frac{1}{r}\left[1+\left(\frac{r'^2}{r^2}-\frac{2r'}{r}\cos\theta\right)\right]^{-1/2}
 \end{equation}
-[r2 + 1/2 _ 2w cos 01-1/2 = L [1 +  _ 3'- --- " cos 0)?'' (5)
-r r r
-and using the expansion (1 + 8)‘1/2 = 1  ---  {6 + gaz ~-, we get,
-
-after collecting together terms of the same power in 1"/r:
-
+and using the expansion $(1+\delta)^{-1/2}=1-\frac{1}{2}\delta+\frac{3}{8}\delta^2\ldots$, we get,
+after collecting together terms of the same power in $r'/r$:
 \begin{equation}
+  [r^2 + r'^2 - 2rr'\cos\theta]^{-1/2}
+   = \frac{1}{r}\left[1+\frac{r'}{r}\cos\theta
+                       +\left(\frac{r'}{r}\right)^2\frac{(3\cos^2\theta-1)}{2}
+                       +\left(\begin{array}{cc}\text{terms of}\\\text{higher power}\end{array}\right)\right]
 \end{equation}
-[12 + /2  ---  2rr' cos 0]"-1/2
-
-_l _1/_ L2(3cos20 --- l) < terms of 
-"rl1+rCOs0+lr>f+ higherpower (6)
-
-Now r is a constant in the integration, so we can take it outside and
-write the prescription for the potential at A as follows:
-
+Now $r$ is a constant in the integration, so we can take it outside and
+write the prescription for the potential at $A$ as follows:
 \begin{equation}
+  \pot_A =
+        \frac{1}{r}  \underbrace{\int\rho\:\der v'}_{K_0}
+       +\frac{1}{r^2}\underbrace{\int r'\cos\theta\:\rho\:\der v'}_{K_1}
+       +\frac{1}{r^3}\underbrace{\int r'^2\frac{(3\cos^2\theta-1)}{2}\rho\:\der v'}_{K_2}
+       +\ldots
 \end{equation}
-<p,4 = %fp dv' + %f1' cos 0 p do'
-+x --- ' 4-\/ ---  --- -'
-
-K0 K1
-2 _
-+ %f',2'(3 Cos20*1)pdv' +  (7)
-K2
-
-Each of the integrals above, K0, K1, K2, and so on, has a value that
+Each of the integrals above, $K_0$, $K_1$, $K_2$, and so on, has a value that
 depends only on the structure of the charge distribution. Hence the
-
 % p. 303
-potential for all points along the z axis can be written as a power series
-in l /r with constant coefficients:
-
+potential for all points along the $z$ axis can be written as a power series
+in $1/r$ with constant coefficients:
 \begin{equation}
+  \pot_A = \frac{K_0}{r}+\frac{K_1}{r^2}+\frac{K_2}{r^3}+\ldots
 \end{equation}
--52 E K2
-<z>.4 --- r+r,+r3+--- (8)
 
 To finish the problem we would have to get the electric field at all
-other points, in order to calculate the electric field as  --- grad (p. We
+other points, in order to calculate the electric field as  $-\operatorname{grad}\pot$. We
 have gone far enough, though, to bring out the essential point: The
 behavior of the potential at large distances from the source will be
-dominated by the first term in this series whose coeflicient is not zero.
+dominated by the first term in this series whose coefficient is not zero.
 
-Let us look at these coefficients more closely. The coeflicient K0
-is f p do', which is nothing but the total charge in the distribution.
+Let us look at these coefficients more closely. The coeflicient $K_0$
+is $\int\rho\:\der v'$, which is nothing but the total charge in the distribution.
 If we have equal amounts of positive and negative charge, as in a
-neutral molecule, K0 will be zero. For a singly ionized molecule K0
-will have the value e. If K0 is not zero, then no matter how large
-K1, K2, etc., may be, if we go out to a sufliciently large distance the
-term K0/ r will win out. Beyond that, the potential will approach that
+neutral molecule, $K_0$ will be zero. For a singly ionized molecule $K_0$
+will have the value $e$. If $K_0$ is not zero, then no matter how large
+$K_1$, $K_2$, etc., may be, if we go out to a sufliciently large distance the
+term $K_0/ r$ will win out. Beyond that, the potential will approach that
 of a point charge at the origin and so will the field. This is hardly
 surprising.
 
-Suppose we have a neutral molecule, so that K0 is zero. Our interest
-now shifts to the second term, with coefficient K1 = f 1' cos 0 p do'.
-Since r' cos 0 is simply z', this term measures the relative displace-
-ment, in the direction toward A, of the positive and negative charge.
+Suppose we have a neutral molecule, so that $K_0$ is zero. Our interest
+now shifts to the second term, with coefficient $K_1 = \int r'\cos\theta\:\rho\:\der v'$.
+Since $r' \cos \theta$ is simply $z'$, this term measures the relative 
+displacement, in the direction toward $A$, of the positive and negative charge.
 It has a nonzero value for the distributions sketched in Fig. 9.3, where
 the densities of positive and of negative charge have been indicated
 separately. In fact, all the distributions shown there have approximately
-the same value of K1.
+the same value of $K_1$.
 
-It is worth noting that if the distribution is neutral the value of K1
+It is worth noting that if the distribution is neutral the value of $K_1$
 is independent of the position of the origin. That is, if we replace
-z' by (z' + z(1), thus in effect shifting the origin, the value of the integral
-is not changed: f(z' + z6)p do' = fz'p dv' + zé f p do' and the
+$z'$ by $(z' + z_0')$, thus in effect shifting the origin, the value of the integral
+is not changed: $\int(z' + z_0')\rho\:\der v' = \int z'\rho\: \der v' + z_0'\int\rho\:\der v'$ and the
 latter integral is always zero for a neutral distribution.
 
-Evidently if K0 = O and K1 7': 0, the potential along the z axis will
-vary asymptotically (that is, with ever --- closer approximation as we
-go out to larger distances) as 1/12. We expect the electric field
-strength, then, to behave asymptotically like 1/13, in contrast to the
-1 /r2 dependence of the field from a point charge. Of course we have
-discussed only the potential on the z axis. We will return to the question
+Evidently if $K_0 = 0$ and $K_1\ne 0$, the potential along the $z$ axis will
+vary asymptotically (that is, with ever-closer approximation as we
+go out to larger distances) as $1/r^2$. We expect the electric field
+strength, then, to behave asymptotically like $1/r^3$, in contrast to the
+$1 /r^2$ dependence of the field from a point charge. Of course we have
+discussed only the potential on the $z$ axis. We will return to the question
 of the exact form of the field after getting a general view of the
 situation.
 
 % p. 304
- 
 
-If K0 and K1 are both zero, and K2 is not, the potential will behave
-like 1/13 at large distances, and the field strength will fall off with
+If $K_0$ and $K_1$ are both zero, and $K_2$ is not, the potential will behave
+like $1/r^3$ at large distances, and the field strength will fall off with
 the inverse fourth power of the distance. Figure 9.4 shows a charge
-distribution for which K0 and K1 are both zero (and would be zero
-no matter what direction we had chosen for the z axis) while K2 is
+distribution for which $K_0$ and $K_1$ are both zero (and would be zero
+no matter what direction we had chosen for the $z$ axis) while $K_2$ is
 not zero.
 
-The quantities K0, K1, K2, . . . are related to what are called the
-moments of the charge distribution. Using this language, we call K0,
-which is simply the net charge, the monopole moment, or monopole
-strength. K1 is one component of the dipole moment of the distri-
-bution. The dipole moment has the dimensions charge times dis-
-placement; it is a vector and our K1 is its z component. The third
-constant K2 is related to the quadrupole moment of the distribution,
-the next to the octupole moment, and so on.'r
+The quantities $K_0$, $K_1$, $K_2$, \ldots are related to what are called the
+\emph{moments}\index{moments} of the charge distribution. Using this language, we call $K_0$,
+which is simply the net charge, the \intro{monopole moment}, or \emph{monopole
+strength}. $K_1$ is one component of the \intro{dipole moment} of the 
+distribution. The dipole moment has the dimensions \emph{charge} times 
+\emph{displacement}; it is a vector and our $K_1$ is its $z$ component. The third
+constant $K_2$ is related to the \intro{quadrupole moment} of the distribution,
+the next to the \intro{octupole moment}, and
+so on.\footnote{It can be shown that decomposition of the source into various \intro{multipoles}, if carried
+through completely, uniquely specifies the charge distribution. In other words, if we
+know all the multipole strengths we can ``in principle'' deduce $\rho(x',y',z')$. This is not
+very useful. The quadrupole and higher moments are not vectors, by the way, but
+more complicated entities.}
 
 The advantage to us of describing a charge distribution by this
 hierarchy of moments is that it singles out just those features of the
 charge distribution which determine the field at a great distance. If
 we were concerned only with the field in the immediate neighborhood
 of the distribution, it would be a fruitless exercise. For our main task,
-understanding what goes on in a dielectric, it turns out that only the
+understanding what goes on in a dielectric, it turns out that \emph{only} the
 monopole strength (the net charge) and the dipole strength of the
 molecular building blocks matter. We can ignore all other moments.
 And if the building blocks are neutral, we have only their dipole
 moments to consider.
+
+\iffalse
 
 \section{The potential and field of a dipole}
 
@@ -329,11 +318,6 @@ arbitrary axis as
 which will serve to give the potential at any point. The integral on
 the right in Eq. 9 is the dipole moment of the charge distribution. It
 
-Tlt can be shown that decomposition of the source into various multipoks, if carried
-through completely, uniquely specifies the charge distribution. In other words, if we
-know all the multipole strengths we can ``in principle'' deduce p(x',y'.z'). This is not
-very useful. The quadrupole and higher moments are not vectors, by the way, but
-more complicated entities.
 
 % p. 305
 is a vector, obviously, with the dimensions charge times distance. We
