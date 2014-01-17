@@ -300,98 +300,79 @@ molecular building blocks matter. We can ignore all other moments.
 And if the building blocks are neutral, we have only their dipole
 moments to consider.
 
-\iffalse
-
 \section{The potential and field of a dipole}
 
-The dipole contribution to the potential at the point A, distance
-r from the origin, was given by (1/r2)fr' cos 0 p do'. We can write
-1' cos 0, which is just the projection of r' on the direction toward A,
-as f - r'. Thus we can write the potential without reference to any
+The dipole contribution to the potential at the point $A$, distance
+$r$ from the origin, was given by $(1/r^2)\int r' \cos \theta\:\rho\:\der v'$. We can write
+$r' \cos \theta$, which is just the projection of $\vc{r}'$ on the direction toward $A$,
+as $\hat{\vc{r}}\cdot\vc{r}'$. Thus we can write the potential without reference to any
 arbitrary axis as
-
 \begin{equation}
+  \pot_A = \frac{1}{r^2}\int \hat{\vc{r}}\cdot\vc{r}'\rho\:\der v'
+      = \frac{\rhat}{r^2}\cdot\int \vc{r}'\rho\:\der v'
 \end{equation}
-1 A ; /_‘_ ,
-(pA:-;5fl"l'pdv_: fr'pdv (9)
-
 which will serve to give the potential at any point. The integral on
-the right in Eq. 9 is the dipole moment of the charge distribution. It
-
-
+the right in Eq. 9 is the \emph{dipole moment} of the charge distribution. It
 % p. 305
-is a vector, obviously, with the dimensions charge times distance. We
-shall denote the dipole moment vector by p:
-
+is a vector, obviously, with the dimensions \emph{charge} times \emph{distance}. We
+shall denote the dipole moment vector by $\vc{p}$:
 \begin{equation}
+  \vc{p} = \int \vc{r}'\rho\:\der v'
 \end{equation}
-p =fr'p do' (10)
-
-Using the dipole moment p, we can rewrite Eq. 9 as
-
+Using the dipole moment $\vc{p}$, we can rewrite Eq. 9 as
 \begin{equation}
+  \pot(\vc{r}) = \frac{\rhat\cdot\vc{p}}{r^2}
 \end{equation}
-<p<r> = "P (11)
-
-r2
-
 The electric field is the negative gradient of this potential. To see
-what the dipole field is like, locate a dipole p at the origin, pointing
-in the z direction (Fig. 9.5). With this arrangement,
-
+what the dipole field is like, locate a dipole $\vc{p}$ at the origin, pointing
+in the $z$ direction (Fig. 9.5). With this arrangement,
 \begin{equation}
+  \pot = \frac{p\cos\theta}{r^2}
 \end{equation}
-_pcos0
-
-(P  ---  (12)
-
-1-2
-
 % p. 306
 The potential and the field are, of course, symmetrical around the
-z axis. Let's work in the xz plane, where cos 0 = z/ (x2 + z2)1/2. In
-that plane, then
-
+$z$ axis. Let's work in the $xz$ plane, where $\cos \theta = z/ (x^2 + z^2)^{1/2}$. In
+that plane,
 \begin{equation}
+  \pot = \frac{pz}{(x^2 + z^2)^{3/2}}
 \end{equation}
-_ P3
-"' '  (13)
-
-The components of the electric field are readily derived:
-
-E __8_<p_ 3pxz _3psin0cos0
-' ‘ ax `` (x2 + z2)5/2 ‘ ,3
-_ _ 31 _ [ 3z2 _ l ]
-E‘ " az  ---  P (x2 + z2)5/2 (x2 + z2)3/2 (14)
-2 p(3 cos? 0 -1)
-13
+The components of the electric field are:
+\begin{align}
+\begin{split}
+  E_x = -\frac{\partial\pot}{\partial x} &= \frac{3pxz}{(x^2 + z^2)^{5/2}} = \frac{3p\sin\theta\cos\theta}{r^3} \\
+  E_z = -\frac{\partial\pot}{\partial z} 
+   &= p\left[\frac{3z^2}{(x^2 + z^2)^{5/2}}-\frac{1}{(x^2 + z^2)^{3/2}}\right] \\
+   &= \frac{p(3\cos^2\theta-1)}{r^3}
+\end{split}
+\end{align}
 
 Proceeding out in any direction from the dipole, we find the electric
-field strength falling off as 1/13, as we had anticipated. Along
-the z axis the field is parallel to the dipole moment p, with magnitude
-2p/1'3. In the equatorial plane the field points antiparallel to p and
-has the value  --- p/13.
+field strength falling off as $1/r^3$, as we had anticipated. Along
+the $z$ axis the field is parallel to the dipole moment $\vc{p}$, with magnitude
+$2p/r^3$. In the equatorial plane the field points antiparallel to $\vc{p}$ and
+has the value $-\vc{p}/r^3$.
 
 This field may remind you of one we have met before. Remember
 the point charge over the conducting plane, with its ``image charge.''
-
 % p. 307
-Perhaps the simplest charge distribution with a dipole moment is two
-point charges, +q and  --- q, separated by a distance s. For a system
+The simplest charge distribution with a dipole moment is two
+point charges, $+q$ and  $-q$, separated by a distance $s$. For a system
 of point charges Eq. 10 takes the form of a sum. The dipole moment
-of our point-charge pair is just qs, and the vector points in the direction
+of our point-charge pair is just $qs$, and the vector points in the direction
 from negative charge to positive. In Fig. 9.6 we have sketched
 the field of this pair of charges, mainly to emphasize that the field
-near the charges is not a dipole field. This charge distribution has
+near the charges is \emph{not} a dipole field. This charge distribution has
 many multipole moments, indeed infinitely many, so it is only the
-``far field'' at distances r > s that can be represented as a dipole field.
+``far field'' at distances $r \gg s$ that can be represented as a dipole field.
 
 To generate a complete dipole field right in to the origin we would
-have to let s shrink to zero while increasing q without limit so as to
-keep p = qs finite. This highly singular abstraction is not very in-
-teresting. We know that our molecular charge distribution will have
+have to let $s$ shrink to zero while increasing $q$ without limit so as to
+keep $p = qs$ finite. This highly singular abstraction is not very 
+interesting. We know that our molecular charge distribution will have
 complicated near fields, so we could not easily represent the near
 region in any case. Fortunately we shall not need to.
+
+\iffalse
 
 \section{The torque and the force on a dipole in an external field}
 
