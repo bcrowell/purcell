@@ -38,10 +38,12 @@
 \newcommand{\cmunit}{\zu{cm}}
 \newcommand{\sunit}{\zu{s}}
 \newcommand{\unitdot}{\!\cdot\!}
+\newcommand{\bell}{\boldsymbol{\ell}}
 \newcommand{\emf}{\mathcal{E}}
 \newcommand{\ohmunit}{\Omega} % Purcell uses "ohm"
 \newcommand{\ampunit}{A} % purcell uses "amp"
-\newcommand{\bell}{\boldsymbol{\ell}}
+\newcommand{\btorque}{\boldsymbol{\tau}}% Purcell uses N for torque
+\newcommand{\torque}{\tau}
 
 % Get a script J that doesn't lean over so much:
 % http://tex.stackexchange.com/questions/21452/how-to-typeset-this-symbol

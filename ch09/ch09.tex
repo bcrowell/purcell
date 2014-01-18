@@ -372,95 +372,89 @@ interesting. We know that our molecular charge distribution will have
 complicated near fields, so we could not easily represent the near
 region in any case. Fortunately we shall not need to.
 
-\iffalse
-
 \section{The torque and the force on a dipole in an external field}
 
-Suppose two charges q and  --- q are mechanically connected so
-that s, the distance between them, is fixed. You may think of the
-charges as stuck on the end of a short nonconducting rod of length 3.
-We shall call this object a dipole. Its dipole moment p is simply qs.
+Suppose two charges $q$ and  $-	q$ are mechanically connected so
+that $s$, the distance between them, is fixed. You may think of the
+charges as stuck on the end of a short nonconducting rod of length $s$.
+We shall call this object a dipole. Its dipole moment $p$ is simply $qs$.
 Let us put the dipole in an external electric field, that is, the field from
 some other source. The field of the dipole itself does not concern
 us now. Consider first a uniform electric field, as in Fig. 9.7a. The
 positive end of the dipole is pulled toward the right, the negative end
-toward the left, by a force of strength Eq. The net force on the object
+toward the left, by a force of strength $Eq$. The net force on the object
 is zero and so is the torque, in this position. A dipole which makes
-some angle 0 with the field direction as in Fig. 9.71) obviously experiences
-a torque. In general, torque N is r x F where F is the force
-applied at a distance r from the origin (Vol. 1, Chap. 6). Taking the
-origin in the center of the dipole, so that r = s/2, we have
-
+some angle $\theta$ with the field direction as in Fig. 9.7b obviously experiences
+a torque. In general, torque $\btorque$ is $\vc{r} \times \vc{F}$ where $\vc{F}$ is the force
+applied at a distance $\vc{r}$ from the origin (Vol. 1, Chap. 6). Taking the
+origin in the center of the dipole, so that $r = s/2$, we have
 \begin{equation}
+  \btorque = \vc{r}\times\vc{F}_+ + (-\vc{r})\times\vc{F}_-
 \end{equation}
-N:-rxF++( --- r)xF_ (15)
-
-N is a vector perpendicular to the figure, and its magnitude is:
-N=§rygn0+§rqgno=amgn0=pEan0 am
-
+$\btorque$ is a vector perpendicular to the figure, and its magnitude is:
+\begin{equation}
+  \tau = \frac{s}{2}Eq\sin\theta + \frac{s}{2}Eq\sin\theta = sqE\sin\theta = pE\sin\theta
+\end{equation}
 This can be written simply
-
 \begin{equation}
+  \btorque = \vc{p}\times\vc{E}
 \end{equation}
-N=pxE an
 
 % p. 308
-  
 
 The orientation of the dipole in Fig. 9.7a has the lowest energy.
 Work has to be done to rotate it into any other position. Let us calculate
 the work required to rotate the dipole from a position parallel
-to the field, through some angle 00, as shown in Fig. 9.70. Rotation
-through an infinitesimal angle d0 requires an amount of work N d0.
+to the field, through some angle $\theta_0$, as shown in Fig. 9.7c. Rotation
+through an infinitesimal angle $\der\theta$ requires an amount of work $\torque\:\der\theta$
 Thus the total work done is
-
 \begin{equation}
+  \int_0^{\theta_0} \torque\:\der\theta 
+    = \int_0^{\theta_0} pE\sin\theta\:\der\theta
+    = pE(1-\cos\theta_0)
 \end{equation}
-f0''°Nd0=f0''°pEsmod9=pE(1_cos00) (18)
+To reverse the dipole, turning it end for end, corresponds to $\theta_0=\pi$
+and requires an amount of work equal to $2pE$.
 
-To reverse the dipole, turning it end for end, corresponds to 00 = 77
-and requires an amount of work equal to 2pE.
-
-The net force on the dipole in any uniform field is zero, obviously.
+The net force on the dipole in any \emph{uniform} field is zero, obviously.
 regardless of its orientation. In a nonuniform field the forces on the
-two ends of the dipole will generally not be exactly equal and op-
-posite, and there will be a net force on the object. A simple example
-is a dipole in the field of a point charge Q. If the dipole is oriented
+two ends of the dipole will generally not be exactly equal and 
+opposite, and there will be a net force on the object. A simple example
+is a dipole in the field of a point charge $Q$. If the dipole is oriented
 radially as in Fig. 9.8a, with the positive end nearer the positive
-charge Q, the net force will be outward, and its magnitude will be
-
+charge $Q$, the net force will be outward, and its magnitude will be
 \begin{equation}
+  F = (q)\frac{Q}{r^2}+(-q)\frac{Q}{(r+2)^2}
 \end{equation}
-F= <q>% + ( --- q)(%) --- 2 (19)
-
-For .9 < r, we need only evaluate this to first order in s/r, which we
+For $s\ll r$, we need only evaluate this to first order in $s/r$, which we
 do as follows:
-
 \begin{equation}
+  F = \frac{qQ}{r^2}\left[1-\frac{1}{\left(1+\frac{s}{r}\right)^2}\right]
+    \approx \frac{qQ}{r^2}\left[1-\frac{1}{1+\frac{2s}{r}}\right]
+    \approx \frac{2sqQ}{r^3}
 \end{equation}
-F=gr2Ql‘ 1s2]:_zT[1~%s]:% <20'
-(1 + 7) 1 + 7
-In terms of the dipole moment p, this is simply
-F = 349 (21)
+In terms of the dipole moment $p$, this is simply
+\begin{equation}
+  F = \frac{2pQ}{r^3}
+\end{equation}
 
-13
-
-With the dipole at right angles to the field, as in Fig. 9.81), there is
+With the dipole at right angles to the field, as in Fig. 9.8b, there is
 also a force. Now the forces on the two ends, though equal, are not
 exactly opposite in direction.
 
 It is not hard to work out a general formula for the force on a dipole
 in a nonuniform electric field. The force depends essentially on the
 gradients of the various components of the field. In general, the
-x component of the force on a dipole of moment p is
-
+$x$ component of the force on a dipole of moment $\vc{p}$ is
 \begin{equation}
+  F_x = \vc{p}\cdot\operatorname{grad} E_x
 \end{equation}
-F, = p - grad E, (22)
-
-with corresponding formulas for F, and F3.
+with corresponding formulas for $F_y$ and $F_z$.
 
 % p. 309
+
+\iffalse
+
 \section{Atomic and molecular dipoles; induced dipole moments}
 
 In describing the charge distribution in an atom or molecule we
