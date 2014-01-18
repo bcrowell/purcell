@@ -453,8 +453,6 @@ with corresponding formulas for $F_y$ and $F_z$.
 
 % p. 309
 
-\iffalse
-
 \section{Atomic and molecular dipoles; induced dipole moments}
 
 In describing the charge distribution in an atom or molecule we
@@ -467,13 +465,13 @@ the picture we are about to sketch, reassuringly supports it.
 Consider the simplest atom, the hydrogen atom, which consists of
 a nucleus and one electron. If you imagine the negatively charged
 electron revolving around the positive nucleus like a planet around
-the sun --- as in the original atomic model of Niels Bohr --- you will
+the sun --- as in the original atomic model of Niels Bohr\index{Bohr model} --- you will
 conclude that the atom has, at any one instant of time, an electric
-dipole moment. The dipole moment vector p points parallel to the
-electron --- proton radius vector, and its magnitude is e times the
-electron --- proton distance. The direction of this vector is continually
+dipole moment. The dipole moment vector $\vc{p}$ points parallel to the
+electron-proton radius vector, and its magnitude is $e$ times the
+electron-proton distance. The direction of this vector is continually
 and rapidly changing as the electron circles around its orbit. To be
-sure, the time average of p will be zero for a circular orbit, but we
+sure, the \emph{time average} of $\vc{p}$ will be zero for a circular orbit, but we
 should expect the periodically changing dipole moment components
 to generate rapidly oscillating electric fields and electromagnetic
 radiation. The absence of such radiation in the normal hydrogen
@@ -484,22 +482,21 @@ of the hydrogen atoms in the universe) as a spherically symmetrical
 structure with the electronic charge distributed, in the time average,
 over a cloud surrounding the nucleus. Nothing is revolving or
 oscillating. If we could take a snapshot with an exposure time
-shorter than l0‘15 seconds, we might discern an electron localized
+shorter than $10^{-16}$ seconds, we might discern an electron localized
 some distance away from the nucleus. But for processes involving
 times much longer than that we have, in effect, a smooth distribution
 of negative charge surrounding the nucleus and extending out in all
 directions with steadily decreasing density. The total charge in this
-distribution is just  --- e. the charge of one electron. Roughly half of
-it lies within a sphere of radius 0.5 angstrom (0.5 X 10-8 cm). The
-density decreases exponentially outward; a sphere only 2.2 angstroms
+distribution is just  $-e$, the charge of one electron. Roughly half of
+it lies within a sphere of radius 0.05 nm. The
+density decreases exponentially outward; a sphere only 0.22 nm
 in radius contains 99 percent of the charge.
 
-A similar picture is the best one to adopt for other atoms and mole-
-cules. We can treat the nuclei in molecules as point charges; for our
+A similar picture is the best one to adopt for other atoms and 
+molecules. We can treat the nuclei in molecules as point charges; for our
 present purposes their size is too small to matter. The entire electronic
 structure of the molecule is to be pictured as a single cloud of
 negative charge of smoothly varying density. The shape of this cloud
-
 % p. 310
 and the variation of charge density within it will of course be dilferent
 for different molecules. But at the fringes of the cloud the density
@@ -510,8 +507,8 @@ Figure 9.9 represents the charge distribution in the normal hydrogen
 atom. It is a cross section through t-he spherically symmetrical
 cloud, with the density suggested by shading. Obviously the dipole
 moment of such a distribution is zero. The same is true of any atom
-in its state of lowest energy, no matter how many electrons it con-
-tains, for in all such states the electron distribution has spherical
+in its state of lowest energy, no matter how many electrons it 
+contains, for in all such states the electron distribution has spherical
 symmetry. It is also true of any ionized atom, though an ion, of
 course, has a ``monopole moment,'' that is, a net charge.
 
@@ -526,50 +523,44 @@ longer coincide.
 We can use a makeshift model of the hydrogen atom to estimate,
 in order of magnitude, the amount of distortion to be expected.
 Suppose that in the absence of an electric field the negative electric
-charge e is distributed with constant density throughout a sphere of
-radius a, outside which it is zero. Figure 9.1 1 shows this crude substitute
+charge $e$ is distributed with \emph{constant} density throughout a sphere of
+radius $a$, outside which it is zero. Figure 9.1 1 shows this crude substitute
 for the real distribution depicted in Fig. 9.9. Assume that
-when the field E is applied, this ball of negative charge keeps its shape
+when the field $\vc{E}$ is applied, this ball of negative charge keeps its shape
 and density and is merely displaced, relative to the nucleus, so that
-the nucleus ends up some distance 12 from the center of the sphere
+the nucleus ends up some distance $b$ from the center of the sphere
 (Fig. 9.12). In equilibrium, the force on the nucleus due to the electric
-field E, a force of eE dynes acting upward, must be balanced by
+field $\vc{E}$, a force of $eE$ dynes acting upward, must be balanced by
 the downward attraction exerted on the nucleus by the negative
 charge cloud, which pulls the nucleus toward its center. To find the
 magnitude of the latter force, we recall that inside a spherical charge
-distribution, at a point 19 cm from the center, the electric field is
-simply that due to the charge inside a sphere of radius b. In this case
-the amount of charge inside the sphere of radius 12 is (b/a)3e, since e
-is the amount of charge inside the sphere of radius a. At the location
+distribution, at a point $b$ cm from the center, the electric field is
+simply that due to the charge inside a sphere of radius $b$. In this case
+the amount of charge \emph{inside} the sphere of radius $b$ is $(b/a)^3e$, since $e$
+is the amount of charge inside the sphere of radius $a$. At the location
 of the nucleus, therefore, the field arising from the electron cloud is
-just (1 /b2)e(b/(1)3 or eb/a3. Setting this field strength equal to that
-of the applied field E gives the equilibrium condition:
-
+just $(1/b^2)e(b/a)^3$ or $eb/a^3$. Setting this field strength equal to that
+of the applied field $E$ gives the equilibrium condition:
 \begin{equation}
+  E = \frac{eb}{a^3} \qquad \text{from which} \qquad b=\frac{a^3E}{e}
 \end{equation}
-eb
-
-E = ? from which b = E (23)
-
-6
 
 % p. 311
-As a good round number let's put in 1 angstrom, or 10‘3 cm, for a.
-We have suggested that a radius of that magnitude would include
-most of the charge in the true distribution. For E we'll try 100 stat-
-volts/cm. That is 30,000 volts/cm, a pretty strong electric field as
-fields go in the laboratory. With these assumptions, Eq. 23 yields
-for b the magnitude 2 x 10‘13 cm. The distortion is very slight. The
-displacement is about 10‘5 of the atomic radius, not much more than
-the radius of the nucleus. The resulting electric dipole moment is eb,
 
+As a good round number let's put in 0.1 nm for $a$.
+We have suggested that a radius of that magnitude would include
+most of the charge in the true distribution. For $E$ we'll try 100 
+statvolts/cm. That is 30,000 volts/cm, a pretty strong electric field as
+fields go in the laboratory. With these assumptions, Eq. 23 yields
+for $b$ the magnitude $2 \times10^{-13}\ \cmunit$.
+The distortion is \emph{very slight}. The
+displacement is about $10^{-5}$ of the atomic radius, not much more than
+the radius of the nucleus. The resulting electric dipole moment is $eb$,
 so that the relation between dipole moment and applied field, in this
 model, is
-
 \begin{equation}
+  p = eb = a^3E
 \end{equation}
-,9 = eb = a3E (24)
-
 The direction of the dipole moment vector is upward, that is, in the
 same direction as the electric field.
 
@@ -578,37 +569,39 @@ field. We can expect that this will be true in the real atom, at
 least for small distortions, and our calculation strongly suggests that
 any reasonable laboratory field perturbs an atom only very slightly.
 Any atom can be polarized in this way. We say that the dipole
-moment is induced by the electric field E. In every case we find that
-p is proportional to E:
-
+moment is \emph{induced}\index{induced dipole moment}\index{dipole moment!induced}
+by the electric field $\vc{E}$. In every case we find that
+$p$ is proportional to $\vc{E}$:
 \begin{equation}
+  \vc{p} = \alpha\vc{E}
 \end{equation}
-P = aE (25)
+The constant $\alpha$ is a property of the atom called the \emph{atomic
+polarizability}.\index{polarizability}\index{atomic polarizability}
 
-The constant a is a property of the atom called the atomic
-polarizability.
+\begin{table}[h] % makes it floating
+\caption{Atomic polarizabilities, in units of $10^{-24}\ \cmunit^3$}\label{table:polarizabilities}
+\begin{tabular}{llllllllll}
+\hline
+\emph{Element} & H & He & Li & Be & C & Ne & Na & A & K \\
+$\alpha=$      & 0.66 & 0.21 & 12 & 9.3 & 1.5 & 0.4 & 27 & 1.6 & 34 \\
+\hline
+\end{tabular}
+\end{table}
 
-For our model of the hydrogen atom the polarizability a is equal
-to (13. Notice that at has the dimensions of volume. An exact
-quantum mechanical calculation of the pola rizability of the hydrogen
-atom predicts a = (9/2)a03, where a0 is the ``Bohr radius,''
-0.52 X l0‘3 cm, the characteristic distance in the H atom structure
+For our model of the hydrogen atom the polarizability $\alpha$ is equal
+to $a^3$. Notice that $\alpha$ has the dimensions of volume. An exact
+quantum mechanical calculation of the polarizability of the hydrogen
+atom predicts $\alpha = (9/2)a_0^3$, where $a_0$ is the ``Bohr radius,''
+$0.52 \times 10^{-8}\ \cmunit$, the characteristic distance in the H atom structure
 in its normal state. The electric polarizabilities of several species of
-atoms, experimentally determined, are given in Table 9.2. The ex-
-
-Table 9.2 Atomic polarizabilities, in units of 1044 cm3
-
-Element H He Li Be C Ne Na A K
-or = 0.66 0.21 12 9.3 1.5 0.4 27 1.6 34
-
-amples given are arranged in order of increasing numbers of elec-
-trons. Notice the wide variations in a. If you are acquainted with
+atoms, experimentally determined, are given in Table \ref{table:polarizabilities}. The 
+examples given are arranged in order of increasing numbers of 
+electrons. Notice the wide variations in $\alpha$. If you are acquainted with
 the Periodic Table of the elements, you may discern something systematic
 here. Hydrogen and the alkali metals, lithium, sodium, and
-
 % p. 312
 potassium, which occupy the first column of the Periodic Table, have
-large values of a and these increase steadily with increasing atomic
+large values of $\alpha$ and these increase steadily with increasing atomic
 number, from hydrogen to potassium. The noble gases have much
 smaller atomic polarizabilities, but these also increase as we proceed,
 within the family, from helium to neon to krypton. Apparently the
@@ -622,17 +615,19 @@ electric field is applied to it. The methane molecule depicted in
 Fig. 9.13 is made from four hydrogen atoms arranged at the corners
 of a tetrahedron around the central carbon atom. This object has
 an electrical polarizability, determined experimentally, of
-
-2.6 )< 10*`` cm3
-
+\begin{equation*}
+  2.6\times 10^{-24}\ \cmunit^3
+\end{equation*}
 It is interesting to compare this with the sum of the polarizabilities of
 a carbon atom and four isolated hydrogen atoms. Taking the data
-from Table 9.2, we find ac + 40:}; = 4.1 X 10-24 cm3. Evidently
+from Table \ref{table:polarizabilities}, we find 
+$\alpha_\zu{C}+4\alpha_\zu{H} = 4.1 \times 10^{-24}\ \cmunit^3$. Evidently
 the binding of the atoms into a molecule has somewhat altered the
-electronic structure. Measurements of atomic and molecular polar-
-
-izabilities have long been used by chemists as clues to molecular
+electronic structure. Measurements of atomic and molecular 
+polarizabilities have long been used by chemists as clues to molecular
 structure.
+
+\iffalse
 
 \section{The polarizability tensor}
 
