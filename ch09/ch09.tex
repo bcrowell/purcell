@@ -1386,92 +1386,86 @@ add vectorially to $\vc{E}_0$ the field of a central dipole with dipole moment
 equal to $\vc{P}$ times the volume of the sphere. Some field lines of $\vc{E}$,
 both inside and outside the dielectric sphere, are shown in Fig. 9.29.
 
-\iffalse
-
 \section{The field of a charge in a dielectric medium, and Gauss's law}
 
 Suppose that a very large volume of homogeneous dielectric has
-somewhere within it a concentrated charge Q, not part of the regular
+somewhere within it a concentrated charge $Q$, not part of the regular
 molecular structure of the dielectric. Imagine, for instance, that a
 small metal sphere has been charged and then dropped into a tank
-of oil. As was stated earlier, the electric field in the oil is simply 1/:
-times the field that Q would produce in a vacuum.
-
+of oil. As was stated earlier, the electric field in the oil is simply $1/\epsilon$
+times the field that $Q$ would produce in a vacuum.
 \begin{equation}
+  E = \frac{Q}{\epsilon r^2}
 \end{equation}
-E = Q2 (51)
-61'
-
 It is interesting to see how Gauss's law works out. The surface integral
-of E (which is the macroscopic, or space average, field, remem-
-ber) taken over a sphere surrounding Q, gives 47rQ/c, if we believe
-Eq. 51, and not 47rQ. Why not? The answer is that Q is not the only
+of $\vc{E}$ (which is the macroscopic, or space average, field, 
+remember) taken over a sphere surrounding $Q$, gives $4\pi Q/\epsilon$, if we believe
+Eq. 51, and \emph{not} $4\pi Q$. Why not? The answer is that $Q$ is not the only
 charge inside the sphere. There are also all the charges that make up
 the atoms and molecules of the dielectric. Ordinarily any volume
 of the oil would be electrically neutral. But now the oil is radially
-polarized, which means that the charge Q, assuming it is positive, has
+polarized, which means that the charge $Q$, assuming it is positive, has
 pulled in toward itself the negative charge in the oil molecules and
 pushed away the positive charges. Although the displacement may
 be only very slight in each molecule, still on the average any sphere
-we draw around Q will contain more oil --- molecule negative charge
-than oil --- molecule positive charge. Hence the net charge in the
-sphere, including the ``foreign'' charge Q at the center, is less than Q.
+we draw around $Q$ will contain more oil-molecule negative charge
+than oil-molecule positive charge. Hence the net charge in the
+sphere, including the ``foreign'' charge $Q$ at the center, is less than $Q$.
+In fact it is $Q/\epsilon$.
 
-In fact it is Q/6.
-It is often useful to distinguish between the ``foreign'' charge Q
+It is often useful to distinguish between the ``foreign'' charge $Q$
 and the charges that make up the dielectric itself. Over the former
-
-
 % p. 331
 we have some degree of control --- charge can be added to or removed
 from an object, such as the plate of a capacitor. This is often called
-free charge. The other charges, which are integral parts of the atoms
-or molecules of the dielectric, are usually called ``bound'' charge.
+\emph{free} charge.\index{charge!free}\index{free charge}
+The other charges, which are integral parts of the atoms
+or molecules of the dielectric, are usually 
+called ``\emph{bound}'' charge.\index{charge!bound}\index{bound charge}
 Structural charge might be a better name. These charges are not
 mobile but more or less elastically bound, contributing, by their
 slight displacement, to the polarization.
 
 One can devise a vector quantity which is related by something
 like Gauss's law to the free charge only. In the system we have just
-examined, a point charge Q immersed in a dielectric, the vector (E
-has this property. That is, feE - da, taken over some closed surface S,
-equals 47rQ if S encloses Q, and zero if it does not. By superposition,
+examined, a point charge $Q$ immersed in a dielectric, the vector $\epsilon\vc{E}$
+has this property. That is, $\int\epsilon\vc{E}\cdot\der\vc{a}$, taken over some closed surface $S$,
+equals $4\pi Q$ if $S$ encloses $Q$, and zero if it does not. By superposition,
 this must hold for any collection of free charges described by a free
-charge density pf,ee(x,y,z) in an infinite homogeneous dielectric
+charge density $\rho_\text{free}(x,y,z)$ in an infinite homogeneous dielectric
 medium:
-
 \begin{equation}
+  \int_S \epsilon\vc{E}\cdot\der\vc{a} = 4\pi\int_V\rho_\text{free}\der v
 \end{equation}
-fser:-da = 477 fvpfmdu (52)
-
-where V is the volume enclosed by the surface S. An integral relation
+where $V$ is the volume enclosed by the surface $S$. An integral relation
 like this implies a ``local'' relation between the divergence of
-the vector field eE and the free charge density:
-
+the vector field $\epsilon\vc{E}$ and the free charge density:
 \begin{equation}
+  \div(\epsilon\vc{E}) = 4\pi\rho_\text{free}
 \end{equation}
-div (‘E) = 4'77Pfree 
-
-Since 5 has been assumed to be constant throughout the medium,
+Since $\epsilon$ has been assumed to be constant throughout the medium,
 Eq. 53 tells us nothing new. However it can help us to isolate the
 role of the bound charge. In any system whatever, the fundamental
-relation between electric field E and total charge density pfree + pbmmd
+relation between electric field $\vc{E}$ and total charge density 
+$\rho_\text{free}+\rho_\text{bound}$
 remains valid:
-
 \begin{equation}
+  \div\vc{E} = 4\pi(\rho_\text{free}+\rho_\text{bound})
 \end{equation}
-diV E = 47T(Ptree + Pbound) (54)
 From Eqs. 53 and 54 it follows that
-diV (5  ---  1)E =  --- 4'7TPbound (55)
-According to Eq. 38, (£  ---  l)E = 477'P, so Eq. 55 implies that
-div 1' =  --- Pbound (56)
+\begin{equation}
+  \div\:(\epsilon-1)\vc{E} = -4\pi\rho_\text{bound}
+\end{equation}
+According to Eq. 38, $(\epsilon-1)\vc{E}=4\pi\vc{P}$, so Eq. 55 implies that
+\begin{equation}
+  \div\vc{P} = -\rho_\text{bound}
+\end{equation}
 
 Equation 56 is a statement about two aspects of the bound charge
-distribution in any neighborhood, and about nothing else. There-
-fore it cannot depend on conditions elsewhere in the system, nor
+distribution in any neighborhood, and about nothing else. 
+Therefore it cannot depend on conditions elsewhere in the system, nor
 on how the particular arrangement of bound charges is maintained.
 Any arrangement of bound charge which has a certain local excess,
-
 % p. 332
 per unit volume, of nuclear protons over atomic electrons must
 represent a polarization with a certain divergence. So Eq. 56 must
@@ -1480,78 +1474,86 @@ a feeling for the identity expressed in Eq. 56 by imagining a few polar
 molecules arranged to give a polarization with a positive divergence
 (Fig. 9.30). The dipoles point outward, which necessarily leaves a
 little concentration of negative charge in the middle. Of course,
-Eq. 56 refers to averages over volume elements so large that P and
-pbmmd can be treated as smoothly varying quantities.
+Eq. 56 refers to averages over volume elements so large that $\vc{P}$ and
+$\rho_\text{bound}$ can be treated as smoothly varying quantities.
+
 From Eqs. 54 and 56 we get the relation
-
 \begin{equation}
+  \div(\vc{E}+4\pi\vc{P}) = 4\pi\rho_\text{free}
 \end{equation}
-div (E + 4711') = 47rpf,ee (57)
+This is quite independent of any relation between $\vc{E}$ and $\vc{P}$. It is not
+limited to those materials, which we call dielectrics, in which $\vc{P}$ is
+proportional to $\vc{E}$.
 
-This is quite independent of any relation between E and P. It is not
-limited to those materials, which we call dielectrics, in which P is
-proportional to E.
-
-It is customary to give the combination E + 4771' a special name,
-
-the electric displacement vector, and its own symbol, D. That is. we
-define D by
-
+It is customary to give the combination $\vc{E}+4\pi\vc{P}$ a special name,
+the \intro{electric displacement} vector, and its own symbol, $\vc{D}$. That is. we
+define $\vc{D}$ by
 \begin{equation}
+  \vc{D} = \vc{E}+4\pi\vc{P}
 \end{equation}
-D = E + 47rP (58)
-In an isotropic dielectric, D is simply cE, but the relation
-div D :_ 4‘7Tpf1-ee (59)
+In an isotropic dielectric, $\vc{D}$ is simply $\epsilon\vc{E}$, but the relation
+\begin{equation}
+  \div\vc{D} = 4\pi\rho_\text{free}
+\end{equation}
+holds in any situation in which the macroscopic quantities $\vc{P}$, $\vc{E}$, and
+$\rho$ can be defined.
 
-holds in any situation in which the macroscopic quantities P, E, and
-p can be defined.
-
-The appearance of Eq. 59 may suggest that we should look on D
-as a vector field whose source is the free charge distribution pf]-ee, in
-the same sense that the total charge distribution p is the source of E.
-That would be wrong. The electrostatic field E is uniquely determined
+The appearance of Eq. 59 may suggest that we should look on $\vc{D}$
+as a vector field whose source is the free charge distribution $\rho_\text{free}$, in
+the same sense that the total charge distribution $\rho$ is the source of $\vc{E}$.
+That would be wrong. The electrostatic field $\vc{E}$ is uniquely determined
 --- except for the addition of a constant field --- by the charge
-distribution p because, supplementing the law div E : 477p, there
-is another universal condition, curl E = 0. It is not true. in general.
-that curl D = 0. Thus the distribution of free charge is not sufficient
-to determine D through Eq. 59. Something else is needed, such as
+distribution $\rho$ because, supplementing the law $\div\vc{E}=4\pi\rho$, there
+is another universal condition, $\curl\vc{E} = 0$. It is \emph{not} true, in general,
+that $\curl\vc{D} = 0$. Thus the distribution of free charge is not sufficient
+to determine $\vc{D}$ through Eq. 59. Something else is needed, such as
 the boundary conditions at various dielectric surfaces. The boundary
-conditions on D are of course merely an alternate way of expressing
-the boundary conditions involving E and P, already stated near
+conditions on $\vc{D}$ are of course merely an alternate way of expressing
+the boundary conditions involving $\vc{E}$ and $\vc{P}$, already stated near
 the end of Sec. 9.10.
 
 In the approach we have taken to electric fields in matter the introduction
-of D is an artifice which is not, on the whole, very helpful.
-We have mentioned D because it is hallowed by tradition, beginning
-
+of $\vc{D}$ is an artifice which is not, on the whole, very helpful.
+We have mentioned $\vc{D}$ because it is hallowed by tradition, beginning
 % p. 333
-with Maxwellq‘ and the student is sure to encounter it in other books,
+with Maxwell,\footnote{The prominence of $\vc{D}$
+in Maxwell's formulation of electromagnetic theory, and his
+choice of the name displacement can perhaps be traced to his inclination toward a
+kind of mechanical model of the ``aether.'' Whittaker has pointed out in his classic,
+A History of the Theories of Aether and Electricity, Vol. I, p. 266 (Harper Torchbooks,
+New York, 1960) that this inclination may have led Maxwell himself astray at one
+point in the application of his theory of the problem of reflection of light 
+from a dielectric.} and the student is sure to encounter it in other books,
 many of which treat it with more respect than it deserves.
 
 Our essential conclusions about electric fields in matter can be
 summarized like this:
 
-(i) Matter can be polarized, its condition being described com-
-pletely, so far as the macroscopic field is concerned, by a
-polarization density P, which is the dipole moment per unit
+\begin{enumerate}[(i)]
+\item Matter can be polarized, its condition being described 
+completely, so far as the macroscopic field is concerned, by a
+polarization density $\vc{P}$, which is the dipole moment per unit
 volume. The contribution of such matter to the electric
-field E is the same as that of a charge distribution pbound,
-existing in vacuum and having the density pbound =  --- div P.
+field $\vc{E}$ is the same as that of a charge distribution $\rho_\text{bound}$,
+existing in vacuum and having the density $\rho_\text{bound} =  - \div\vc{P}$.
 In particular, at the surface of a polarized substance, where
-there is a discontinuity in P, this reduces to a surface charge
-of density 0 =  --- P,,. Add any free charge distribution that
+there is a discontinuity in $\vc{P}$, this reduces to a surface charge
+of density $\sigma =  -P_n$. Add any free charge distribution that
 may be present, and the electric field is the field that this
-total charge distribution would produce in vacuum. That
-is the macroscopic field E both inside and outside matter,
+\emph{total} charge distribution would produce in vacuum. That
+is the macroscopic field $\vc{E}$ both inside and outside matter,
 with the understanding that inside matter it is the spatial
 average of the true microscopic field.
 
-(ii) If P is proportional to E in a material, we call the material
-a dielectric. We define the electric susceptibility X5 and the
-dielectric constant a characteristic of that material:
-X3 : P/E and e = l + 47rx,,. Free charges immersed in
-a dielectric give rise to electric fields which are l/e times
-as strong as the same charges would produce in Vacuum.
+\item If $\vc{P}$ is proportional to $\vc{E}$ in a material, we call the material
+a dielectric. We define the electric susceptibility $\chi_e$ and the
+dielectric constant $\epsilon$ characteristic of that material:
+$\chi_e=\vc{P}/\vc{E}$ and $\epsilon = 1+4\pi\chi_e$. Free charges immersed in
+a dielectric give rise to electric fields which are $1/\epsilon$ times
+as strong as the same charges would produce in vacuum.
+\end{enumerate}
+
+\iffalse
 
 \section{The connection between electric susceptibility and atomic polarizability}
 
@@ -1562,20 +1564,7 @@ but the sum, in unit volume, of the dipole moments p of the individual
 atoms. We can predict the induced dipole moment of an atom if
 we know at and the electric field acting on the atom to polarize it.
 Hence we ought to be able, if we know at and the number of atoms
-
-TThe prominence of D in Maxwell's formulation of electromagnetic theory, and his
-choice of the name displacement can perhaps be traced to his inclination toward a
-kind of mechanical model of the ``aether.'' Whittaker has pointed out in his classic,
-A History of the Theories of Aether and Electricity, Vol. I, p. 266 (Harper Torchbooks,
-New York, 1960) that this inclination may have led Maxwell himself astray at one
-point in the application of his theory ofthe problem ofreflection oflight from a dielectric.
-
 % p. 334
- 
- 
-
- 
-
 per unit volume, N, to predict the susceptibility Xe. Let us try to
 make a theory connecting Xe with at.
 
@@ -2051,7 +2040,7 @@ term, and fix that up by writing Eq. 79 as follows:
 curl B =  --- _ _ _ __ 82
 C [477 at + at + J] ( )
 T T T
-Vacuum ‘ Bound Free
+vacuum ‘ Bound Free
 displacement charge charge
 current current current
 density density density

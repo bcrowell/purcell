@@ -4435,7 +4435,7 @@ of the earth, in microfarads?
 
 3.15 Imagine that a spherical capacitor like the one described in Prob. 3.12
 is orbiting the earth as a satellite. There is no mechanical connection between
-the inner and outer shells. The Vacuum is essentially perfect, and the drag
+the inner and outer shells. The vacuum is essentially perfect, and the drag
 on the outer sphere is negligible. In other words, we have a perfect ``zero-g''
 situation. Suppose the inner sphere has some net charge and happens to be
 centrally located with respect to the outer. Is this a stable situation? (Con-
@@ -12867,7 +12867,7 @@ E0 = 2Ptot _ 10.2 X 104 esu-cm
 We have been a long time getting around to the dielectric-filled
 capacitor, but now we can bring to bear on this problem some understanding
 of the dielectric itself. Consider first the two conducting
-plates in Vacuum with charge  --- Q on the upper plate, charge +Q
+plates in vacuum with charge  --- Q on the upper plate, charge +Q
 on the lower. Figure 9.22:1 is just Fig. 9.1a, with which we began
 this chapter, in cross section. The field between the plates E0 is
 equal to 47rQ/A, and points upward. The potential difference between
@@ -13358,7 +13358,7 @@ a dielectric. We define the electric susceptibility X5 and the
 dielectric constant a characteristic of that material:
 X3 : P/E and e = l + 47rx,,. Free charges immersed in
 a dielectric give rise to electric fields which are l/e times
-as strong as the same charges would produce in Vacuum.
+as strong as the same charges would produce in vacuum.
 
 9.13 The Connection between Electric Susceptibility and
 Atomic Polarizability
@@ -13831,7 +13831,7 @@ term, and fix that up by writing Eq. 79 as follows:
 curl B =  --- _ _ _ __ 82
 C [477 at + at + J] ( )
 T T T
-Vacuum ‘ Bound Free
+vacuum ‘ Bound Free
 displacement charge charge
 current current current
 density density density
