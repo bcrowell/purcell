@@ -1280,14 +1280,14 @@ constant, satisfies Laplace's equation, so Eq. 41 has actually handed us
 the solution to the potential \emph{in the interior} of the sphere. It is the
 potential of a uniform electric field in the  $-z$ direction:
 \begin{equation}
-  E_z = -\frac{\partial\pot_{in}}{\partial z}
+  E_z = -\frac{\partial\pot_\text{in}}{\partial z}
       = -\frac{\partial}{\partial z}\left[\frac{4\pi Pz}{3}\right]
       = -\frac{4\pi P}{3}
 \end{equation}
 As the direction of $\vc{P}$ was the only thing that distinguished the $z$ axis,
 we can write our result in more general form:
 \begin{equation}
-  \vc{E}_{in} = -\frac{4\pi \vc{P}}{3}
+  \vc{E}_\text{in} = -\frac{4\pi \vc{P}}{3}
 \end{equation}
 This is the macroscopic field $\vc{E}$ in the polarized material.
 
@@ -1323,75 +1323,70 @@ medium. The rules just stated therefore apply in any system, the
 discontinuity in $\vc{E}$ being determined solely by the existing polarization.
 
 % p. 329
-\iffalse
-
 \section{A dielectric sphere in a uniform field}
 
 As an example, let us put a sphere of dielectric material characterized
-by a dielectric constant 5 into a homogeneous electric field E0
+by a dielectric constant $\epsilon$ into a homogeneous electric field $\vc{E}_0$
 like the field between the parallel plates of a vacuum capacitor,
 Fig. 9.28. Let the sources of this field, the charges on the plates,
-be far from the sphere so that they do not shift as the sphere is intro-
-duced. Then whatever the field may be in the vicinity of the sphere,
-it will remain practically E0 at a great distance. That is what is meant
-by putting a sphere into a uniform field. The total field E is no
-longer uniform in the neighborhood of the sphere. It is the sum of
-the uniform field E0 of the distant sources and a field E' generated
+be far from the sphere so that they do not shift as the sphere is 
+introduced. Then whatever the field may be in the vicinity of the sphere,
+it will remain practically $\vc{E}_0$ at a great distance. That is what is meant
+by putting a sphere into a uniform field. The total field $\vc{E}$ is no
+longer uniform in the neighborhood of the sphere. It is the \emph{sum} of
+the uniform field $\vc{E}_0$ of the distant sources and a field $\vc{E}'$ generated
 by the polarized matter itself:
-
 \begin{equation}
+  \vc{E} = \vc{E}_0 + \vc{E}'
 \end{equation}
-E = E0 + E' (45)
-
-The field E' depends on the polarization P of the dielectric, which in
-turn depends on the value of E inside the sphere:
-
+The field $\vc{E}'$ depends on the polarization $\vc{P}$ of the dielectric, which in
+turn depends on the value of $\vc{E}$ inside the sphere:
 \begin{equation}
+  \vc{P} = \chi_e\vc{E} = \frac{\epsilon-1}{4\pi}\vc{E}
 \end{equation}
-1>=X.E=‘ --- 1E (46)
-477
 
-We don't know yet what the total field E is; we only know that
+We don't know yet what the total field $\vc{E}$ is; we only know that
 Eq. 46 has to hold at any point inside the sphere. If the sphere becomes
 uniformly polarized, an assumption that will need to be
 justified by our results, the relation between the polarization of the
-sphere and its own field E', at points inside, is given already by Eq. 43.
-(In Eq. 43 we were using the symbol E for this field; in that case it
-
+sphere and its own field $\vc{E}'$, at points inside, is given already by Eq. 43.
+(In Eq. 43 we were using the symbol $\vc{E}$ for this field; in that case it
 was the only field present.)
-
 \begin{equation}
+  \vc{E}'_\text{in} = -\frac{4\pi \vc{P}}{3} 
 \end{equation}
-E{,, = _ ‘ll (47)
-3
-Now we have enough equations to eliminate P and E', which should
-
-give us a relation connecting E and E0. Using Eqs. 45 to 47 we find:
-
+Now we have enough equations to eliminate $\vc{P}$ and $\vc{E}'$, which should
+give us a relation connecting $\vc{E}$ and $\vc{E}_0$. Using Eqs. 45 to 47 we find:
 \begin{equation}
+  \vc{E} = \vc{E}_0-\frac{4\pi \vc{P}}{3} = \vc{E}_0-\frac{\epsilon-1}{3}\vc{E}
 \end{equation}
-E=E0_LP=E0_‘"1E (48)
-3 3
-Solving for E,
-_ 3
-E~<...>Eo 
-
-Because 5 is greater than one, the factor 3/ (2 + 6) will be less than
-
-one; the field inside the dielectric is weaker than E0. The polarization
+Solving for $\vc{E}$,
+\begin{equation}
+  \vc{E} = \left(\frac{3}{2+\epsilon}\right)\vc{E}_0
+\end{equation}
+Because $\epsilon$ is greater than one, the factor $3/ (2 + \epsilon)$ will be less than
+one; the field inside the dielectric is weaker than $\vc{E}_0$. The polarization
 is
-
 \begin{equation}
+  \vc{P} = \frac{\epsilon-1}{4\pi} \vc{E} = \frac{3}{4\pi}\left(\frac{\epsilon-1}{\epsilon+2}\right)\vc{E}_0
 \end{equation}
-P=‘ --- ‘E=i(``1)E{, (50)
-
 % p. 330
-The assumption of uniform polarization is now seen to be self-consistent
-        FOOTNOTE
-To compute the total field E outside the sphere we must
-add Vectorially to E0 the field of a central dipole with dipole moment
-equal to P times the volume of the sphere. Some field lines of E,
+The assumption of uniform polarization is now seen to be 
+self-consistent.\footnote{That is what makes this system easy to deal 
+with. For a dielectric cylinder of
+finite length in a uniform electric field, the assumption would not work. The field $\vc{E}'$
+of a uniformly polarized cylinder --- for instance one with its length about equal to its
+diameter --- is not uniform inside the cylinder. (What must it look like?) Therefore
+$\vc{E} = \vc{E}_0 + \vc{E}'$ cannot be uniform --- but in that case 
+$\vc{P}=\chi_e\vc{E}$ could not be uniform after
+all. In fact it is only dielectrics of ellipsoidal shape, of which the sphere is a special
+case, which acquire uniform polarization in a uniform field.}
+To compute the total field $\vc{E}$ outside the sphere we must
+add vectorially to $\vc{E}_0$ the field of a central dipole with dipole moment
+equal to $\vc{P}$ times the volume of the sphere. Some field lines of $\vc{E}$,
 both inside and outside the dielectric sphere, are shown in Fig. 9.29.
+
+\iffalse
 
 \section{The field of a charge in a dielectric medium, and Gauss's law}
 
@@ -1426,13 +1421,6 @@ In fact it is Q/6.
 It is often useful to distinguish between the ``foreign'' charge Q
 and the charges that make up the dielectric itself. Over the former
 
-]‘That is what makes this system easy to deal with. For a dielectric cylinder of
-finite length in a uniform electric field, the assumption would not work. The field E'
-of a uniformly polarized cylinder --- for instance one with its length about equal to its
-diameter --- is not uniform inside the cylinder. (What must it look like?) Therefore
-E = E0 + E' cannot be uniform --- but in that case P : xeE could not be uniform after
-all. In fact it is only dielectrics of ellipsoidal shape, of which the sphere is a special
-case, which acquire uniform polarization in a uniform field.
 
 % p. 331
 we have some degree of control --- charge can be added to or removed
