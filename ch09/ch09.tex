@@ -812,87 +812,74 @@ no large-scale effect. An applied electric field merely \emph{aligns} them to
 a certain degree. In either process, however, the macroscopic elfects
 will be determined by the net amount of polarization per unit volume.
 
-\iffalse
-
 \section{The electric field caused by polarized matter}
 
 Suppose we build up a block of matter by assembling a very large
 number of molecules in a previously empty region of space. Suppose
 too that each of these molecules is polarized in the same direction.
 For the present we need not concern ourselves with the nature of the
-molecules or with the means by which their polarization is main-
-tained. We are interested only in the electric field they produce when
+molecules or with the means by which their polarization is 
+maintained. We are interested only in the electric field \emph{they} produce when
 they are in this condition; later we can introduce any fields from other
 sources that might be around. If you like, you can imagine that these
 are molecules with permanent dipole moments that have been lined
-up neatly and frozen in position. All we need to specify is N, the
+up neatly and frozen in position. All we need to specify is $N$, the
 number of dipoles per cubic centimeter, and the moment of each
-dipole p. We shall assume that N is so large that any macroscopically
-
+dipole $\vc{p}$. We shall assume that $N$ is so large that any macroscopically
 % p. 317
-small volume do contains quite a large number of dipoles. The total
-dipole strength in such a volume is pN dv. At any point far away
+small volume $\der v$ contains quite a large number of dipoles. The total
+dipole strength in such a volume is $\vc{p}N\: \der v$. At any point far away
 from this volume element compared to its size, the electric field from
 these particular dipoles will be practically the same if they were replaced
-by a single dipole moment of strength pN do. We shall call pN
-the density of polarization, and denote it by P, a vector quantity with
-the dimensions charge-cm/cm3, or charge/cm2. Then Pdv is the
-dipole moment to be associated with any small volume element do
+by a single dipole moment of strength $\vc{p}N\: \der v$. We shall call $\vc{p}N$
+the density of polarization, and denote it by $\vc{P}$, a vector quantity with
+the dimensions $\zu{charge}\unitdot\cmunit/\cmunit^3$, or 
+$\zu{charge}/\cmunit^2$. Then $\vc{P}\:\der v$ is the
+dipole moment to be associated with any small volume element $\der v$
 for the purpose of computing the electric field at a distance. By the
 way, our matter has been assembled from neutral molecules only;
 there is no net charge in the system or on any molecule, so we have
-only the dipole moments to consider as sources of a distant field.
+\emph{only} the dipole moments to consider as sources of a distant field.
 
-In Fig. 9 .17 there is shown a slender column, or cylinder, of this
-polarized material. Its cross section is da, and it extends vertically
-from zl to Z2. The polarization density P within the column is uniform
-over the length and points in the positive z direction. We are
+In Fig. 9.17 there is shown a slender column, or cylinder, of this
+polarized material. Its cross section is $\der a$, and it extends vertically
+from $z_1$ to $z_2$. The polarization density $\vc{P}$ within the column is uniform
+over the length and points in the positive $z$ direction. We are
 about to calculate the electrical potential, at some external point, of
-this column of polarization. An element of the cylinder, of height dz,
-has a dipole moment P do = Pda dz. Its contribution to the potential
-at the point A can be written down by referring back to our
+this column of polarization. An element of the cylinder, of height $\der z$,
+has a dipole moment $\vc{P} \der v = \vc{P} \der a \der z$. Its contribution to the potential
+at the point $A$ can be written down by referring back to our
 formula Eq. 12 for the potential of a dipole.
-
 \begin{equation}
+  \der\pot_A = \frac{P\:\der a\:\der z\:\cos\theta}{r^2}
 \end{equation}
-51% =  9 (27)
-
 The potential due to the entire column is
-
 \begin{equation}
+  \pot_A = P\:\der a\:\int_{z_1}^{z_2} \frac{\der z\:\cos\theta}{r^2}
 \end{equation}
-Z'' i (23)
-
-¢A :  21 T2
-
-This is simpler than it looks: dz cos 0 is just  --- dr, so that the inte-
-grand is a perfect differential, d(l /r). The result of the integration is
+This is simpler than it looks: $\der z\:\cos\theta$ is just $-\der r$, so that the 
+integrand is a perfect differential, $\der(1 /r)$. The result of the integration is
 then
-
 \begin{equation}
+  \pot_A = P\:\der a\left(\frac{1}{r_2}-\frac{1}{r_1}\right)
 \end{equation}
-«pl --- =Pda(i --- i) (29)
-T2 71
 
 Equation 29 is precisely the same as the expression for the potential
-at A that would be produced by two point charges, a positive
-charge of magnitude P da sitting on top of the column at a distance 12
-from A, and a negative charge of the same magnitude at the bottom
+at $A$ that would be produced by two point charges, a positive
+charge of magnitude $P\: \der a$ sitting on top of the column at a distance $r_2$
+from $A$, and a negative charge of the same magnitude at the bottom
 of the column. The source consisting of a column of uniformly
-polarized matter is equivalent, at least so far as its field at all external
+polarized matter is equivalent, at least so far as its field at all \emph{external}
 points is concerned, to two concentrated charges.
 
- 
-
- 
-
 % p. 318
-We can prove this rigorously in another way without any mathe-
-matics. Consider a small section of the column of height dz, containing
-dipole moment in amount Pda dz. Let us make an irnita-
-tion or substitute for this by taking an unpolarized insulator of the
-same size and shape and sticking a charge +P da on top of it, and a
-charge  --- Pda on the bottom. This little block now has the same
+
+We can prove this rigorously in another way without any 
+mathematics. Consider a small section of the column of height $\der z$, containing
+dipole moment in amount $P\:\der a\:\der z$. Let us make an 
+imitation or substitute for this by taking an unpolarized insulator of the
+same size and shape and sticking a charge $+P\: \der a$ on top of it, and a
+charge $-P\: \der a$  on the bottom. This little block now has the same
 dipole moment as that bit of our original column, and therefore it
 will make an identical contribution to the field at any remote point A.
 (The field inside our substitute, or very close to it, may be different
@@ -903,11 +890,11 @@ does, for each block gave the same contribution as its counterpart
 in the original (Fig. 9.17b). Now see what we have! At every joint
 the positive charge on the top of one block coincides with the negative
 charge on the bottom of the block above it, making charge zero.
-The only charges left uncompensated are the negative charge  --- P da
-on the bottom of the bottom block and the positive charge +P da on
-the top of the top block. Seen from a distant point such as A, these
+The only charges left uncompensated are the negative charge $-P\: \der a$ da
+on the bottom of the bottom block and the positive charge $+P\: \der a$ on
+the top of the top block. Seen from a distant point such as $A$, these
 look like point charges. We conclude, as before, that two such
-charges produce at A exactly the same field as does our whole column
+charges produce at $A$ exactly the same field as does our whole column
 of polarized material.
 
 With no further calculation we can extend this to a slab, or right
@@ -915,123 +902,111 @@ cylinder, of any proportions uniformly polarized in a direction perpendicular
 to its parallel faces (Fig. 9.18a). The slab can simply be
 subdivided into a bundle of columns and the potential outside will
 be the sum of the contributions of the columns, each of which can
-be replaced by a charge at either end. The charges on the top. P da
-on each column end of area da, make up a uniform sheet of surface
-charge of density a = P esu per unit area. We conclude that the
-potential everywhere outside a uniformly polarized slab or cylinder
+be replaced by a charge at either end. The charges on the top, $P\:\der a$
+on each column end of area $\der a$, make up a uniform sheet of surface
+charge of density $\sigma=P$ esu per unit area. We conclude that the
+potential everywhere \emph{outside} a uniformly polarized slab or cylinder
 is precisely what would result from two sheets of surface charge
 located where the top and bottom surfaces of the slab were located,
-carrying the constant surface charge density 0 = +P and o :  --- P
-respectively (Fig. 9.1819).
+carrying the constant surface charge density $\sigma=+P$ and $\sigma=-P$
+respectively (Fig. 9.18b).
 
-We are not quite ready to say anything about the field inside the
+We are not quite ready to say anything about the field \emph{inside} the
 slab. However, we do know the potential at all points on the surface
-of the slab, top, bottom, or sides. Any two such points, A and B,
+of the slab, top, bottom, or sides. Any two such points, $A$ and $B$,
 can be connected by a path running entirely through the external
-field, so that the line integral fE - ds is entirely determined by the
-external field. It must be the same as the integral along the path A'B'
-
+field, so that the line integral $\int\vc{E}\cdot\der\vc{s}$ is entirely determined by the
+external field. It must be the same as the integral along the path $A'B'$
 % p. 319
-in Fig. 9.1819. A point literally on the surface of the dielectric might
+in Fig. 9.18b. A point literally on the surface of the dielectric might
 be within range of the intense molecular fields, the ``near field'' of
 the molecule that we have left out of account. Let's agree to define
 the boundary of the dielectric as a surface far enough out from the
-outermost atomic nucleus --- l0 or 20 angstroms would be margin
+outermost atomic nucleus --- 1 or 2 nm would be margin
 enough --- so that at any point outside this boundary, the ``near fields''
 of the individual atoms make a negligible contribution to the whole
-line integral from A to B.
+line integral from $A$ to $B$.
 
 With this in mind, let's look at a rather thin, wide plate of polarized
-material, of thickness t shown in cross section in Fig. 9.l9a. Figure
-9.1919 shows, likewise in cross section, the equivalent sheets of charge.
+material, of thickness $t$ shown in cross section in Fig. 9.19a. Figure
+9.19b shows, likewise in cross section, the equivalent sheets of charge.
 For the system of two charge sheets we know the field, of course, in
 the space both outside and between the sheets. The field strength
-inside, well away from the edges, must be just 4770, pointing down,
-and the potential difi‘erence between points A' and B' is therefore
-47mt statvolts. The same potential difierence must exist between
-
-corresponding points A and B on our polarized slab, because the
+inside, well away from the edges, must be just $4\pi\sigma$, pointing down,
+and the potential difference between points $A'$ and $B'$ is therefore
+$4\pi\sigma t$ statvolts. The \emph{same potential difference} must exist between
+corresponding points $A$ and $B$ on our polarized slab, because the
 entire external field is the same in the two systems.
 
-Is the field identical inside, too? Certainly not, because the slab
+Is the field identical inside, too? Certainly \emph{not}, because the slab
 is full of positive nuclei and electrons, with fields of millions of volts
 per centimeter pointing in one direction here, another direction there.
 But one thing is the same: The line integral of the field, reckoned over
-any internal path from A to B, must be just (P3  ---  <pA, which as we have
-seen is the same as (pg:  ---  <pA«, which is equal to 47rot, or 47rPt. This
+any internal path from $A$ to $B$, must be just $\pot_B-\pot_A$, which as we have
+seen is the same as $\pot_{B'}-\pot_{A'}$, which is equal to $4\pi\sigma t$, or $4\pi P t$. This
 must be so because the introduction of atomic charges, no matter
 what their distribution, cannot destroy the conservative property of
-
-the electric field, expressed in the statement that j'E- ds is independent
-of path, or curl E = 0.
-
- 
+the electric field, expressed in the statement that $\int\vc{E}\cdot\der\vc{s}$ is independent
+of path, or $\curl \vc{E} = 0$.
 
 % p. 320
- 
- 
 
-We know that in Fig. 9.1919 the potential difference between the
+We know that in Fig. 9.19b the potential difference between the
 top and bottom sheets is nearly constant, except near the edges, because
 the interior electric field is practically uniform. Therefore in
 the central area of our polarized plate the potential difierence between
 top and bottom must likewise be constant. In this region the
-
-line integralLBE - ds taken from any point A on top of the slab to
-
-any point B on the bottom, by any path, must always yield the same
-value 477-Pt. Figure 9.20 is a ``magnified view'' of the central region
+line integral $\int_A^B\vc{E}\cdot\der\vc{s}$ taken from \emph{any} point $A$ on top of the slab to
+\emph{any} point $B$ on the bottom, by \emph{any} path, must always yield the same
+value $4\pi Pt$. Figure 9.20 is a ``magnified view'' of the central region
 of the slab, in which the polarized molecules have been made to look
-something like H20 molecules all pointing the same way. We have
+something like $\zu{H}_2\zu{O}$ molecules all pointing the same way. We have
 not attempted to depict the very intense fields that exist between the
-molecules, and inside them. (Ten angstroms distant from a water
+molecules, and inside them. (One nanometer distant from a water
 molecule its field amounts to several hundred kilovolts/cm, as you
 can discover from Table 9.1 and Eq. 14.) You must imagine some
 rather complicated field configurations in the neighborhood of each
-molecule. Now the E that stands in j'E - ds means the total electric
-field at a given point in space, inside or outside a molecule; it includes
+molecule. Now the $\vc{E}$ that stands in $\int\vc{E}\cdot\der\vc{s}$ means the \emph{total electric
+field} at a given point in space, inside or outside a molecule; it includes
 these complicated and intense fields just mentioned. We
-have reached the remarkable conclusion that any path through this
+have reached the remarkable conclusion that \emph{any} path through this
 welter of charges and fields, whether it dodges molecules or penetrates
 them, must yield the same value for the path integral, namely
-the value we find in the system of Fig. 9.1919 where the field is quite
-uniform and has the strength 47rP.
+the value we find in the system of Fig. 9.19b where the field is quite
+uniform and has the strength $4\pi P$.
 
-This tells us that the spatial average of the electric field within our
-polarized slab must be  --- 47rP. By the spatial average of a field E
-
-over some volume V, which we might denote by (E) V, we mean
+This tells us that the \emph{spatial average} of the electric field within our
+polarized slab must be $-4\pi\vc{P}$. By the spatial average of a field $\vc{E}$
+over some volume $V$, which we might denote by $\langle\vc{E}\rangle_V$, we mean
 precisely this:
-
 \begin{equation}
+  \langle\vc{E}\rangle_V = \frac{1}{V}\int_V \vc{E}\:\der v
 \end{equation}
-(E)V=%jVEdv (30)
 
-One way to sample impartially the field in many equal small dv's
-into which V might be divided would be to measure the field along
+One way to sample impartially the field in many equal small $\der v$'s
+into which $V$ might be divided would be to measure the field along
 each line in a ``fiber bundle'' of closely spaced parallel lines. We
-have just seen that the line integral of E along any or all such paths
-is the same as if we were in a constant electric field of strength  ---  47rP.
-That is the justification for the conclusion that (E) =  --- 47rP.
+have just seen that the line integral of $\vc{E}$ along any or all such paths
+is the same as if we were in a constant electric field of strength $-4\pi\vc{P}$.
+That is the justification for the conclusion that $\langle\vc{E}\rangle=-4\pi\vc{P}$.
 
-This average field is a macroscopic quantity. The volume over
+This average field is a \emph{macroscopic} quantity. The volume over
 which we take the average should be large enough to include very
 many molecules, otherwise the average will fluctuate from one such
-volume to the adjoining one. The average field (E) defined by Eq. 30
-is really the only kind of macroscopic electric field in the interior of
-
+volume to the adjoining one. The average field $\langle\vc{E}\rangle$ defined by Eq. 30
+is really the only kind of \emph{macroscopic} electric field in the interior of
 % p. 321
 a dielectric that we can talk about. It provides the only satisfactory
 answer, in the context of a macroscopic description of matter, to the
 question, ``What is the electric field inside a dielectric material?''
 
-The E in the integrand on the right, in Eq. 30, we may call the
-microscopic field. If we send someone out to measure the field values
+The $\vc{E}$ in the integrand on the right, in Eq. 30, we may call the
+\emph{microscopic} field. If we send someone out to measure the field values
 we need for the path integral, he will be measuring electric fields in
 vacuum, in the presence, of course, of electric charge. He will need
 very tiny instruments, for he may be called on to measure the field
 at a particular point just inside one end of a certain molecule. Have
-we any right to talk in this way about taking the line integral of E
+we any right to talk in this way about taking the line integral of $\vc{E}$
 along some path that skirts the southwest corner of a particular
 molecule and then tunnels through its neighbor? Yes. The justification
 is the massive evidence that the laws of electromagnetism work
@@ -1044,54 +1019,55 @@ the material. From the net change in its momentum the average
 electric field that acted on it, over its whole path, could be inferred.
 
 Let's work a numerical example involving polarized material.
-Imagine a disk 1 cm in radius and 0.3 cm thick, as in Fig. 9.2la. Let
-the density of molecules in the disk be 3 )< 1022 molecules/cm3.
+Imagine a disk 1 cm in radius and 0.3 cm thick, as in Fig. 9.21a. Let
+the density of molecules in the disk be $3\times10^{22}\ \text{molecules}/\cmunit^3$.
 Suppose they are all polar molecules, each with a dipole moment
-1.8 X l0‘13 esu-cm. Finally --- and this is a rather far-fetched
+$1.8 \times 10^{-18}\ \zu{esu}\unitdot\cmunit$. Finally --- and this is a rather far-fetched
 assumption --- suppose they are all lined up, like the molecules in
 Fig. 9.20, with their dipole moments pointing in the same direction,
-parallel to the axis of the disk. We'll discuss the field at a point A
-inside the disk, a point B just outside the disk, and a point C 10 cm
-away on the axis. The polarization P has the value
-
-\begin{equation}
-\end{equation}
-P = Np = (3 x 1022 cm‘3) X (1.8 X 10-13 esu-cm)
-= 5.4 x 104 esu/cm? (31)
-
-The equivalent sheets of charge are shown in Fig. 9.2lc. If these
-sheets extended to infinity, the field at the point A between them
-would be simply 4770, or 6.8 X 105 statvolts/cm. That will be a
+parallel to the axis of the disk. We'll discuss the field at a point $A$
+inside the disk, a point $B$ just outside the disk, and a point $C$ 10 cm
+away on the axis. The polarization $\vc{P}$ has the value
+\begin{align}
+\begin{split}
+  P &= Np = (3\times10^{22}\ \cmunit^{-3})\times(1.8 \times 10^{-18}\ \zu{esu}\unitdot\cmunit) \\
+    &= 5.4\times10^4\ \zu{esu}/\cmunit^2
+\end{split}
+\end{align}
+The equivalent sheets of charge are shown in Fig. 9.21c. If these
+sheets extended to infinity, the field at the point $A$ between them
+would be simply $4\pi\sigma$, or $6.8 \times 10^5\ \zu{statvolts}/\cmunit$. That will be a
 pretty good approximation in this case, because the separation of
 the sheets is relatively small compared to their diameter. Actually,
-the field will be slightly less. The field just outside, at point B, would
+the field will be slightly less. The field just outside, at point $B$, would
 be zero for infinite sheets, but in the actual case will have a relatively
-small value, pointing to the right. The discontinuity in E at the posi-
-
+small value, pointing to the right. The discontinuity in $E$ at the
 % p. 322
-tive sheet will be exactly 47m, or 47rP. If we needed to calculate the
-fields at A or B precisely, we could use the formula we worked out
+positive sheet will be exactly $4\pi\sigma$, or $4\pi P$. If we needed to calculate the
+fields at $A$ or $B$ precisely, we could use the formula we worked out
 in Chap. 2 for the field of a disk of surface charge, superposing the
 fields of two such disks appropriately located. To estimate the field
-at a remote point hke C, all we need to know is the total dipole
-moment of the object. Seen from C, it doesn't matter much how the
+at a remote point like $C$, all we need to know is the total dipole
+moment of the object. Seen from $C$, it doesn't matter much how the
 individual dipoles are distributed. The disk acts like a single dipole
-of strength pm, = volume x P = 0.942 cm3 X 5.4 x 104 esu/cm? :
-5.1 )< 104 esu-cm. The field on the axis of such a dipole, 10 cm
+of strength 
+$p_{tot}=\text{volume}\times P=0.942\ \cmunit^3\times 5.4 \times 10^4\ \zu{esu}/\cmunit^2
+=5.1\times10^4\ \zu{esu}\unitdot\cmunit$.
+The field on the axis of such a dipole, 10 cm
 away, is
-
 \begin{equation}
+  E_C = \frac{2p_tot}{r^3} = \frac{10.2\times10^4\ \zu{esu}\unitdot\cmunit}{(10\ \cmunit)^3}
+       = 102\ \zu{statvolts}/\cmunit
 \end{equation}
-E0 = 2Ptot _ 10.2 X 104 esu-cm
 
-13 _ (10 Cm)3 = 102 statvolts/cm (32)
+\iffalse
 
 \section{The capacitor filled with dielectric}
 
 We have been a long time getting around to the dielectric-filled
 capacitor, but now we can bring to bear on this problem some understanding
 of the dielectric itself. Consider first the two conducting
-plates in Vacuum with charge  --- Q on the upper plate, charge +Q
+plates in vacuum with charge  --- Q on the upper plate, charge +Q
 on the lower. Figure 9.22:1 is just Fig. 9.1a, with which we began
 this chapter, in cross section. The field between the plates E0 is
 equal to 47rQ/A, and points upward. The potential difference between
