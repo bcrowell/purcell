@@ -1060,135 +1060,123 @@ away, is
        = 102\ \zu{statvolts}/\cmunit
 \end{equation}
 
-\iffalse
-
 \section{The capacitor filled with dielectric}
 
 We have been a long time getting around to the dielectric-filled
 capacitor, but now we can bring to bear on this problem some understanding
 of the dielectric itself. Consider first the two conducting
-plates in vacuum with charge  --- Q on the upper plate, charge +Q
-on the lower. Figure 9.22:1 is just Fig. 9.1a, with which we began
-this chapter, in cross section. The field between the plates E0 is
-equal to 47rQ/A, and points upward. The potential difference between
-the plates, (p12, is equal to 47rQt/A. The capacitance of the
-empty capacitor, C0, is given by the now familiar formula
-
+plates in vacuum with charge  $-Q$ on the upper plate, charge $+Q$
+on the lower. Figure 9.22a is just Fig. 9.1a, with which we began
+this chapter, in cross section. The field between the plates $\vc{E}_0$ is
+equal to $4\pi Q/A$, and points upward. The potential difference between
+the plates, $\pot_{12}$, is equal to $4\pi Qt/A$. The capacitance of the
+empty capacitor, $C_0$, is given by the now familiar formula
 \begin{equation}
+  C_0 = \frac{Q}{\pot_{12}} = \frac{A}{4\pi t}
 \end{equation}
-C0 = % = 4177, <33)
-
 Now bring between the plates a dielectric. The field will polarize
 the atoms or molecules in the dielectric. We cannot, at this stage,
 predict the magnitude of the induced dipole moment of each molecule
 because the field that acts on the molecule in this situation is
-not just the field E0 but includes a contribution from the other molecules
+not just the field $\vc{E}_0$ but includes a contribution from the other molecules
 as well. The direction of the polarization, at any rate, will be
-parallel to E0, for a dielectric that is isotropic. Let us denote the
-magnitude of the polarization density, whatever it may be, by P.
-We now have the system shown in Fig. 9.220, consisting of two real
-sheets of charge plus a slab of polarized material. It is the superposition
-of the two charge distributions we have already analyzed.
-that of Fig. 9.22a, and that of Fig. 9.19:1, shown again in Fig. 9.2219.
-The electric field will be the sum of the fields of those two distribu-
-tions, the field E0 of two real charge sheets of surface charge density
+parallel to $\vc{E}_0$, for a dielectric that is isotropic. Let us denote the
+magnitude of the polarization density, whatever it may be, by $\vc{P}$.
 
+We now have the system shown in Fig. 9.22c, consisting of two real
+sheets of charge plus a slab of polarized material. It is the \emph{superposition}
+of the two charge distributions we have already analyzed,
+that of Fig. 9.22a, and that of Fig. 9.19a, shown again in Fig. 9.22b.
+The electric field will be the sum of the fields of those two 
+distributions, the field $\vc{E}_0$ of two real charge sheets of surface charge density
 % p. 323
-0 = Q/A. plus the field E' of the two charge sheets of density a' = P,
-to which the polarized slab is equivalent. Notice that E' is directed
-opposite to E0 because P is in the same direction as E0; the sheet of
+$\sigma = Q/A$, plus the field $\vc{E}'$ of the two charge sheets of density $\sigma' = P$,
+to which the polarized slab is equivalent. Notice that $\vc{E}'$ is directed
+\emph{opposite} to $\vc{E}_0$ because $\vc{P}$ is in the same direction as $\vc{E}_0$; the sheet of
 positive equivalent charge lies next to the negatively charged plate.
 The reason for this, of course, is that the negative charge on the plate
 polarized the atoms of the dielectric by pulling on their positive parts
 and pushing on their negative parts, thus drawing positive charge
-
 closer to that plate. In the interior of the capacitor, then, the electric
-field E is
-
+field $\vc{E}$ is
 \begin{equation}
+  \vc{E} = \vc{E}_0+\vc{E}' = \vc{E}_0-4\pi\vc{P}
 \end{equation}
-E=Eo+E'=E0 --- 4vrP (34)
-
 The magnitude of the potential difference between the plates has
 become
-
+\begin{equation}
+  \pot_{12} = (E_0-4\pi P)t
+\end{equation}
 The charge on the capacitor is still the same. If the plates were to
-be connected by a wire, the charge Q would drain oil'', the dielectric
+be connected by a wire, the charge $Q$ would drain off, the dielectric
 meanwhile relaxing back to its unpolarized condition. Because the
-potential difference has been reduced by the factor (E0  ---  47rP)/E0,
+potential difference has been reduced by the factor $(E_0-4\pi P)/E_0$,
 as compared to the vacuum capacitor with the same charge, the
-
-capacitance, C = Q/(pm, has been increased by the reciprocal of that
+capacitance, $C = Q/\pot_{12}$, has been increased by the reciprocal of that
 factor:
-
 \begin{equation}
+  C = C_0\frac{E_0}{E_0-4\pi P}
 \end{equation}
-E0
-
-CZCOKTJ
-
-(36)
-It is better to express this in terms of E, the electric field (macro-
-scopic. or average, field) that now exists within the capacitor. Since
-E0 = E + 47rP, from Eq. 34, we have
-
+It is better to express this in terms of $\vc{E}$, the electric field (macroscopic,
+or \emph{average}, field) that now exists within the capacitor. Since
+$E_0 = E + 4\pi P$, from Eq. 34, we have
 \begin{equation}
+  C = C_0 \frac{E+4\pi P}{E} = C_0\left(1+4\pi\frac{P}{E}\right)
 \end{equation}
-C=C0 :C0<l+4'/7%) (37)
-
-The ratio of P to E is an intrinsic property of the dielectric material.
-This ratio is called the electric susceptibility of the material, and the
-symbol X9 is customarily used for it. The ratio is dimensionless.
-
-The entire quantity in parenthesis in Eq. 37 is called the dielectric
-constant of the material denoted by e.
-
+The ratio of $P$ to $E$ is an intrinsic property of the dielectric material.
+This ratio is called the \intro{electric susceptibility} of the material, and the
+symbol $\chi_e$ is customarily used for it. The ratio is dimensionless.
+The entire quantity in parenthesis in Eq. 37 is called the \intro{dielectric
+constant} of the material denoted by $\epsilon$.
 \begin{equation}
+  P = \chi_e E \qquad \epsilon=1+4\pi\chi_e
 \end{equation}
-P : xeE e = l + 47rxe (38)
-
 These are just definitions; the physics is in Eqs. 34 and 37.
-Strictly speaking, filling the vacuum capacitor with dielectric material
-increases the capacitance by precisely the factor 6 only if we
 
+Strictly speaking, filling the vacuum capacitor with dielectric material
+increases the capacitance by precisely the factor $\epsilon$ only if we
 % p. 324
 fill the space all around it as well as the space between the plates.
 In the example above we have tacitly assumed that the plate separation
-t is so small compared to the width of the plates that ``edge
+$t$ is so small compared to the width of the plates that ``edge
 effects,'' including the small amount of charge that is on the outside
-of the plates near the edge (see Fig. 3.1119) are negligible. A quite
+of the plates near the edge (see Fig. 3.11b) are negligible. A quite
 general statement can be made about a system of conductors of any
 shape or arrangement which is entirely immersed in a homogeneous,
 isotropic dielectric --- for instance in a large tank of oil. With any
-charges whatever, Q1, Q2, etc., on the various conductors, the macroscopic
-field Emed everywhere in the dielectric medium is just 1/: times
-the field Ema that would exist there with the same charges on the
+charges whatever, $Q_1$, $Q_2$, etc., on the various conductors, the macroscopic
+field $\vc{E}_{med}$ everywhere in the dielectric medium is just $1/\epsilon$ times
+the field $\vc{E}_{vac}$ that would exist there with the same charges on the
 same conductors in vacuum (Fig. 9.23). Of course all potential
-differences are reduced by the same factor, 1/6.
+differences are reduced by the same factor, $1/\epsilon$.
 
 Our unfinished business consists of two problems of a quite different
 nature:
 
-(i) We need to understand the behavior of any system of insulators
+\begin{enumerate}[(i)]
+\item We need to understand the behavior of any system of insulators
 and conductors, given the dielectric constants of the
 materials involved. That is, we want to be able to calculate
 the electric fields outside the dielectrics and the macroscopic
-E inside, whatever boundary conditions are imposed
-in terms of potentials and charges on the conductors.
+$\vc{E}$ inside, whatever boundary conditions are imposed
+in terms of potentials and charges on the conductors.\label{polzn-problem-1}
 
-(ii) The quantitative relation between the bulk polarizability of
-a material, expressed by the susceptibility X6, and the polar-
+\item The quantitative relation between the bulk polarizability of
+a material, expressed by the susceptibility $\chi_e$, and the polar-
 izability of the atoms or molecules of which the dielectric
 is composed, remains rather mysterious. To discover it
 we shall have to decide what field a polarizable atom
 actually feels when the space average, or macroscopic, field
 in its vicinity is known. What a fixed atom feels is not the
 space average field, but another field we can call the local
-field. It is the local field, Em, that actually induces the
+field. It is the local field, $\vc{E}_{loc}$, that actually induces the
 dipole moment of the atom. This question calls for another
 ``microscopic'' look at the interior of the dielectric.
+\end{enumerate}
 
-We turn first to problem (i).
+We turn first to problem (\ref{polzn-problem-1}).
+
+\iffalse
 
 \section{The field of a polarized sphere}
 
