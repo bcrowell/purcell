@@ -1386,7 +1386,7 @@ add vectorially to $\vc{E}_0$ the field of a central dipole with dipole moment
 equal to $\vc{P}$ times the volume of the sphere. Some field lines of $\vc{E}$,
 both inside and outside the dielectric sphere, are shown in Fig. 9.29.
 
-\section{The field of a charge in a dielectric medium, and Gauss's law}
+\section[Charge in a dielectric]{The field of a charge in a dielectric medium, and Gauss's law}
 
 Suppose that a very large volume of homogeneous dielectric has
 somewhere within it a concentrated charge $Q$, not part of the regular
@@ -1553,235 +1553,201 @@ a dielectric give rise to electric fields which are $1/\epsilon$ times
 as strong as the same charges would produce in vacuum.
 \end{enumerate}
 
-\iffalse
+\section[Susceptibility and atomic polarizability]{The connection between electric susceptibility and atomic polarizability}
 
-\section{The connection between electric susceptibility and atomic polarizability}
-
-The ratio of polarization density P to macroscopic electric field E
-in a substance is the electric susceptibility Xe. Suppose the substance
-is composed of atoms of atomic polarizability 01. Now P is nothing
-but the sum, in unit volume, of the dipole moments p of the individual
+The ratio of polarization density $\vc{P}$ to macroscopic electric field $\vc{E}$
+in a substance is the electric susceptibility $\chi_e$. Suppose the substance
+is composed of atoms of atomic polarizability $\alpha$. Now $\vc{P}$ is nothing
+but the sum, in unit volume, of the dipole moments $\vc{p}$ of the individual
 atoms. We can predict the induced dipole moment of an atom if
-we know at and the electric field acting on the atom to polarize it.
-Hence we ought to be able, if we know at and the number of atoms
+we know $\alpha$ and the electric field acting on the atom to polarize it.
+Hence we ought to be able, if we know $\alpha$ and the number of atoms
 % p. 334
-per unit volume, N, to predict the susceptibility Xe. Let us try to
-make a theory connecting Xe with at.
+per unit volume, $N$, to predict the susceptibility $\chi_e$. Let us try to
+make a theory connecting $\chi_e$ with $\alpha$.
 
 The dipole moment induced in some atom A is determined by the
-field, arising from all other sources, that acts on that atom. This is
-not the same as the macroscopic electric field E in that neighborhood,
-for that field E includes a contribution from the charges in the atom A
-itself. So our problem takes an interesting twist right at the begin-
-ning. To make the situation clear, we consider a very specific system.
+field, arising from all \emph{other} sources, that acts on that atom. This is
+\emph{not} the same as the macroscopic electric field $\vc{E}$ in that neighborhood,
+for that field $\vc{E}$ includes a contribution from the charges in the atom A
+itself. So our problem takes an interesting twist right at the 
+beginning. To make the situation clear, we consider a very specific system.
 Our substance is made of identical atoms arrayed on a simple cubic
-crystal lattice with spacing 12 cm between nearest neighbors. The
-polarizability of each atom is 01. Figure 9.31 is a cross section
+crystal lattice with spacing $b$ cm between nearest neighbors. The
+polarizability of each atom is $\alpha$. Figure 9.31 is a cross section
 through the lattice. The assumed direction of the macroscopic field
-E in that region is indicated, as is the distortion of the polarized
+$\vc{E}$ in that region is indicated, as is the distortion of the polarized
 atoms. Our question is, what is the magnitude of the field that is
 causing that distortion? Each atom may be thought of as occupying
 its own cubical box, and we shall assume that the atoms are a good
 deal smaller than the lattice spacing, so that all the charge in an atom
 is fairly near the center of its box.
 
-We'll designate by Eelse the field that acts on atom A. The sources
+We'll designate by $\vc{E}_\text{else}$ the field that acts on atom A. The sources
 of this field are everything else in the system, including all the other
-atoms and any other charges outside. E9159 is the field that we would
+atoms and any other charges outside. $\vc{E}_\text{else}$ is the field that we would
 find in box A if we could magically remove atom A while freezing all
 other charge distributions in the shape they have with atom A
-present. Eelse will not be quite constant through box A, but we shall
-suppose that its average value within the box is close enough to what
+present. $\vc{E}_\text{else}$ will not be quite constant through box A, but we shall
+suppose that its \emph{average value} within the box is close enough to what
 we want. By an average over the volume enclosed by box A we
+mean, as usual, the integral $\int\vc{E}\der v$ divided by the volume of the box.
+We shall indicate such averages by $\langle\quad\rangle_\text{box}$.
 
-mean, as usual, the integral I E do divided by the volume of the box.
-
-We shall indicate such averages by ( )1,,,x.
-
-Let Esau denote the field of the atom A. The total microscopic
-field, Emic, is then at every point
-
-Emic = Eelse ‘l' Eself 
-
-We know that the macroscopic field E is equal to the space average
-of the microscopic field Emic. The variation of Emic is of course the
-same in every box. Also, the boxes completely fill the space with
-no gaps between them. Therefore the average of Emic within any
-one box must be the same as its average over a larger region containing
-many boxes.T It follows that
-
-<Emic>box = E 
-
-'rDon't accept this crucial statement without thought. Why would gaps between
-boxes spoil it?
-
-% p. 335
-But (E,,,ic)bo,, = (Ee1s,,)b.,x + (Eseu)b.,x, the average of a sum being
-the sum of the averages, so that (Ee1se)b,,x, which is the quantity we're
-after, is given by
-
+Let $\vc{E}_\text{self}$ denote the field of the atom A. The total microscopic
+field, $\vc{E}_\text{mic}$, is then at every point
 \begin{equation}
+  \vc{E}_\text{mic} = \vc{E}_\text{else} + \vc{E}_\text{self}
 \end{equation}
-<Eelse> box = E `` <Eself> box 
+We know that the macroscopic field $\vc{E}$ is equal to the space average
+of the microscopic field $\vc{E}_\text{mic}$. The variation of $\vc{E}_\text{mic}$ is of course the
+same in every box. Also, the boxes completely fill the space with
+no gaps between them. Therefore the average of $\vc{E}_\text{mic}$ within any
+\emph{one} box must be the same as its average over a larger region containing
+many boxes.\footnote{Don't accept this crucial statement without thought. Why would gaps between
+boxes spoil it?} It follows that
+\begin{equation}
+  \langle\vc{E}_\text{mic}\rangle_\text{box} = \vc{E}
+\end{equation}
+% p. 335
+But $\langle\vc{E}_\text{mic}\rangle_\text{box}
+=\langle\vc{E}_\text{else}\rangle_\text{box}+\langle\vc{E}_\text{self}\rangle_\text{box}$,
+the average of a sum being
+the sum of the averages, so that $\langle\vc{E}_\text{else}\rangle_\text{box}$, which is the quantity we're
+after, is given by
+\begin{equation}
+  \langle\vc{E}_\text{else}\rangle_\text{box} = \vc{E} - \langle\vc{E}_\text{self}\rangle_\text{box}
+\end{equation}
 
-Our problem is now reduced to the calculation of (Ese1;)box, the
-
+Our problem is now reduced to the calculation of $\langle\vc{E}_\text{self}\rangle_\text{box}$, the
 average within the box of the field of the atom which occupies the
 box.
-
 \begin{equation}
+  \langle\vc{E}_\text{self}\rangle_\text{box} = \frac{1}{b^3}\int_\text{box} \vc{E}_\text{self}\der v
 \end{equation}
-<Ese1f>box = % Ibex Eself dv 
-
 We must include in the integration all volume elements within the
 box, inside as well as outside the atomic charge distribution. Figure
-9.32 suggests what the field E591; might look like. It makes our task
+9.32 suggests what the field $\vc{E}_\text{self}$ might look like. It makes our task
 seem formidable. However, we can always deal with a charge distribution
 one element at a time. Let us calculate the box average
-of the field Eq from a single point charge q.
+of the field $\vc{E}_q$ from a single point charge $q$.
 
 If the point charge were at the center of the box, as in Fig. 9.33a,
-
-the integral Eq do would be zero. Thanks to the symmetry,
-
-box
-
+the integral $\int_\text{box} \vc{E}_q\der v$ would be zero. Thanks to the symmetry,
 every volume element in the box is matched by another in which the
 field has equal strength in the opposite direction. Now shift the
-charge q upward by a small distance z, as in Fig. 9.331). There is a
-thin layer at the bottom of the box, of thickness 2z, that is not bal-
-
- 
-
+charge $q$ upward by a small distance $z$, as in Fig. 9.33b. There is a
+thin layer at the bottom of the box, of thickness $2z$, that is not balanced
 % p. 336
-anced by a layer at the top. It is this layer which now makes the only
-contribution to box Eq dv. Obviously, we only need to compute the
-
-average of Eqz; Eqz and Eqy will still average to zero. If we neglect the
-slight variation of Eqz in the thickness of the layer, the volume integral
-of Eqz through the volume of the layer is just 2z times the sur-
-
-face integral of Eqz over the square which forms the median plane
+by a layer at the top. It is this layer which now makes the only
+contribution to $\int_\text{box} \vc{E}_q\der v$. Obviously, we only need to compute the
+average of $E_{qz}$; $E_{qz}$ and $E_{qy}$ will still average to zero. If we neglect the
+slight variation of $E_{qz}$ in the thickness of the layer, the volume integral
+of $E_{qz}$ through the volume of the layer is just $2z$ times the 
+surface integral of $E_{qz}$ over the square which forms the median plane
 of the layer (Fig. 9.33c).
-
 \begin{equation}
+  \int_\text{layer} E_{qz}\der v = 2z \int_\text{square} E_{qz}\der a
 \end{equation}
-jam E,'' dv = 2; We Eqz da (64)
-
 Gauss's law comes to our aid now, for the surface integral in Eq. 64
-is just the flux of Eq through one side of a cube centered about the
-charge q. That flux must be just 4a7q/ 6, because a cube has six equiv-
-
-alent faces. We conclude that 2z j E,,, da =  --- 2z(4'77q/6) =
-
-square
-
- ---  47rqz/3 so that
-
-1 -4:
-aana=3§,``maw= 3;' mm
-
+is just the flux of $\vc{E}_q$ through one side of a cube centered about the
+charge $q$. That flux must be just $4\pi q/6$, because a cube has six 
+equivalent faces. We conclude that $2z \int_\text{square} E_{qz}\der a=-2z(4\pi q/6)
+=-4\pi qz/3$ so that
+\begin{equation}
+  \langle E_{qz}\rangle_\text{box} = \frac{1}{b^3} \int_\text{box} E_{qz}\der v = \frac{-4\pi qz}{3 b^3}
+\end{equation}
 The minus sign expresses the fact that upward displacement of a
 positive charge results in a preponderance of downward field in the
-box. A similar formula would apply to a displacement in the x or
-the y direction. Therefore a small displacement r from the center in
+box. A similar formula would apply to a displacement in the $x$ or
+the $y$ direction. Therefore a small displacement $\vc{r}$ from the center in
 any direction will result in the average field in the box being
- --- 47rqr/3b3. Hence for our complete atom A, with its charge distribution
-p(x,y,z), the average field in the box will be
-
-<amm=;gfmw mm
-In the integral f rp do we can recognize the dipole moment of the
-
-charge distribution, p. (Compare the definition of dipole moment,
+$-4\pi q\vc{r}/3b^3$. Hence for our complete atom A, with its charge distribution
+$\rho(x,y,z)$, the average field in the box will be
+\begin{equation}
+  \langle E_\text{self}\rangle_\text{box} = \frac{-4\pi}{3b^3} \int\vc{r}\rho\:\der v
+\end{equation}
+In the integral $\int\vc{r}\rho\:\der v$ we recognize the \emph{dipole moment} of the
+charge distribution, $\vc{p}$. (Compare the definition of dipole moment,
 Eq. 10.) We have now
+\begin{equation}
+  \langle E_\text{self}\rangle_\text{box} = \frac{-4\pi}{3b^3}\vc{p}
+\end{equation}
 
-<Ese1f>b0x =  P 
 The rest is clear sailing. From Eq. 62 we get at once:
-<Eelse>box = E "  
-
-If we say that (Ee1Se)b.,x is the field effective in polarizing the atom,
-then p is related to this field through the atomic polarizability:
-
-/‘l‘| \ //r\\
-
+\begin{equation}
+  \langle E_\text{else}\rangle_\text{box} = \vc{E}-\frac{4\pi}{3b^3}\vc{p}
+\end{equation}
+If we say that $\langle E_\text{else}\rangle_\text{box}$ is the field effective in polarizing the atom,
+then $\vc{p}$ is related to this field through the atomic polarizability:
+\begin{equation}
+  \vc{p} = \alpha \langle E_\text{else}\rangle_\text{box}
+\end{equation}
 % p. 337
-From Eqs. 68 and 69 we get the relation connecting p and E:
-
+From Eqs. 68 and 69 we get the relation connecting $\vc{p}$ and $\vc{E}$:
 \begin{equation}
+  \vc{p} = \alpha\left[\vc{E}+\frac{4\pi\vc{p}}{3b^3}\right]
 \end{equation}
-p=a[E+4'''P] (70)
-
 This can be written in terms of the macroscopic polarization density
-P. Since N, the number of polarized atoms per cubic centimeter, is
-equal to 1/I93, P = Np = p/b3. Substituting in Eq. 70,
-
+$\vc{P}$. Since $N$, the number of polarized atoms per cubic centimeter, is
+equal to $1/b^3$, $\vc{P} = N\vc{p} = \vc{p}/b^3$. Substituting in Eq. 70,
 \begin{equation}
+  \vc{P} = N\alpha\left[\vc{E}+\frac{4\pi\vc{P}}{3}\right]
 \end{equation}
-P=Na[E+‘l'''TP] (71)
 which, rearranged, is
-_ Na
-P ‘ l1  ---  (477/3)Na]E (72)
-
-The factor in brackets must be the electric susceptibility Xe.
+\begin{equation}
+  \vc{P} = \left[\frac{N\alpha}{1-(4\pi/3)N\alpha}\right]\vc{E}
+\end{equation}
+The factor in brackets must be the electric susceptibility $\chi_e$.
 
 We made two approximations along the way to Eq. 72. We assumed
 that all parts of the atomic charge distribution are near the
-center of the box; Eqs. 65 and 66 are not accurate if z, or r, is not
-small compared to b. Also, we used the average of Eelse in the box,
-instead of the value of E9159 at the center of the box, as the field that
+center of the box; Eqs. 65 and 66 are not accurate if $z$, or $\vc{r}$, is not
+small compared to $b$. Also, we used the average of $\vc{E}_\text{else}$ in the box,
+instead of the value of $\vc{E}_\text{else}$ at the center of the box, as the field that
 polarizes the atom. For atoms packed as close together as they are
 in most crystals, the first assumption is not very realistic, and the
 question involved in the second assumption is irrelevant. We can't
 expect Eq. 72 to be obeyed exactly by a real crystal.
 
-If the atoms of a substance are very far apart, so that 4vrNa/3 < l,
-
+If the atoms of a substance are very far apart, so that $4\pi N\alpha/3\ll 1$,
 we can neglect that term in the denominator in Eq. 72, which leaves
 us with
-
 \begin{equation}
+  \chi_e = N\alpha
 \end{equation}
-X9 = Na (73)
-
 That is the result we would have obtained if we had forgotten about
 the influence of the dipoles on one another. It applies quite well to
 gases at normal density, for which the neglected term is of the order
-of 10-3. In that limit the geometrical arrangement of the atoms
-doesn't matter, only the. number per cubic centimeter. Thus by
+of $10^{-3}$. In that limit the geometrical arrangement of the atoms
+doesn't matter, only the number per cubic centimeter. Thus by
 measuring accurately the dielectric constant of a low-pressure gas,
 the atomic polarizability can be determined without any complications
 from mutual influence of the dipoles. Measurements on a
-
-denser form of the same substance'r can then be used to test a theoretical
-formula such as Eq. 72.
-
-Tlt can be shown that the relation given in Eq. 72 should hold not only for a crystal
+denser form of the same substance\footnote{
+It can be shown that the relation given in Eq. 72 should hold not only for a crystal
 with cubic symmetry but also for a gas in which the atoms occupy random positions in
 space. The best experimental confirmation of this comes from measurements of the
+dielectric constants of gases at relatively high density and pressure 
+(see Prob. 9.28).} can then be used to test a theoretical formula such as Eq. 72.
 
-,.I:,.l,......: A A A . a . a _ 4 7‘ at . . A . . _ . _..I-.:....I_. L.‘._L ..I..-.:... .._..l _ ...... _. 1...... n--I_ nnox
+% p. 338 
 
-% p. 338
- 
- 
-
- 
-
- 
-
-The term  --- 477Na/ 3 in the denominator of Eq. 72 reflects the interaction
+The term  $-4\pi N\alpha/3$ in the denominator of Eq. 72 reflects the interaction
 of the polarized atoms in the crystal. Evidently the interaction
-is in the nature of a reinforcement, leading to a larger polarization
+is in the nature of a \emph{reinforcement}, leading to a larger polarization
 than would exist without it. If we take the mathematical formula
-seriously, it suggests a surprising possibility. What if Na should be
-so large that 47rNa/3 would equal or exceed one? It appears that
-Xe would go to infinity. That might mean a polarization in zero
+seriously, it suggests a surprising possibility. What if $N\alpha$ should be
+so large that $4\pi N\alpha/3$ would equal or exceed one? It appears that
+$\chi_e$ would go to infinity. That might mean a polarization in zero
 applied field! It sounds like nonsense but it isn't entirely. Some
-crystals are known which do show a spontaneous electric polariza-
-tion. However, something more than induced polarization is involved
+crystals are known which do show a spontaneous electric 
+polarization. However, something more than induced polarization is involved
 in that case, so our theory isn't applicable. In fact, to make
-47rNa/3 approach one, the atoms have to be so close together that
+$4\pi N\alpha/3$ approach one, the atoms have to be so close together that
 our approximations are no good at all (see Prob. 9.30).
+
+\iffalse
 
 \section{Energy changes in polarization}
 
