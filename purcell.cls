@@ -13,7 +13,11 @@
 
 % The following is set up so vectors are in upright bold.
 \newcommand{\vc}[1]{\ensuremath{\mathbf{#1}}}
-\newcommand{\der}{\textup{d}} % differentials upright rather than italicized as in Purcell
+\newcommand{\der}{\mathop{d\!}}
+%   ... differentials upright rather than italicized as in Purcell
+%       the \! is a negative thin space to keep the d close to the variable that comes after it
+%       http://tex.stackexchange.com/questions/14821/whats-the-proper-way-to-typeset-a-differential-operator
+%   old: \newcommand{\der}{\textup{d}}
 \newcommand{\zu}[1]{\textup{#1}}
 
 \renewcommand{\theequation}{\arabic{equation}}
