@@ -297,7 +297,7 @@ We learned in Sec. 6.2 that the magnetic field has zero divergence:
 $\div\vc{B}$ = 0. It follows then from Gauss's theorem that if $S$ is any
 \emph{closed} surface (``balloon''), and $V$ is the volume inside it:
 \begin{equation}
-  \int_S \vc{B}\cdot\der\vc{a} = \int_V \div\vc{B}\:\der v = 0
+  \int_S \vc{B}\cdot\der\vc{a} = \int_V \div\vc{B}\der v = 0
 \end{equation}
 Apply this to the closed surface, rather like a kettle drum, formed by
 joining our $S_1$ and $S_2$, as in Fig. 7.7c. On $S_2$ the outward normal is
@@ -330,11 +330,11 @@ Returning now to the moving rectangular loop, let us find the \emph{rate
 of change} of flux through the loop. In time $\der t$ the loop moves a distance
 $v\;\der t$. This changes in two ways the total flux through the loop,
 which is $\int\vc{B}\cdot\der\vc{a}$ over a surface spanning the loop. As you can see
-in Fig. 7.9, flux is gained at the right, in amount $B_2 wv\:\der t$, while an
-amount of flux $B_1 wv\:\der t$ is lost at the left. Hence $\der\Phi$, the change in
+in Fig. 7.9, flux is gained at the right, in amount $B_2 wv\der t$, while an
+amount of flux $B_1 wv\der t$ is lost at the left. Hence $\der\Phi$, the change in
 flux through the loop in time $\der t$, is
 \begin{equation}
-  \der\Phi = -(B_1-B_2)wv\:\der t
+  \der\Phi = -(B_1-B_2)wv\der t
 \end{equation}
 % p. 235
 Comparing Eq. 11 with Eq. 6, we see that, in this case at least, the
@@ -365,7 +365,7 @@ $\der S$, $\int_{\der S}\vc{B}\cdot\der\vc{a}$. On the rim, an element of surfac
 expressed as $(\vc{v} \der t) \times \der\vc{s}$, so the integral over the surface $\der S$ can be
 written as an integral around the path $C$, in this way:
 \begin{equation}
-  \der\Phi = \int_{\der S}\vc{B}\cdot\der\vc{a} = \int_C \vc{B}\cdot[(\vc{v}\:\der t)\times\der\vc{s}]
+  \der\Phi = \int_{\der S}\vc{B}\cdot\der\vc{a} = \int_C \vc{B}\cdot[(\vc{v}\der t)\times\der\vc{s}]
 \end{equation}
 Since $\der t$ is a constant for the integration, we can factor it out and
 have:
@@ -1023,12 +1023,12 @@ has no resistance; the resistor $R$ has no inductance. It is
 this idealized circuit that we shall now analyze.
 
 If the current $I$ in the circuit is changing at the rate $\der I/\der t$, an electromotive
-force $L\: \der I/\der t$ will be induced, in a direction to oppose the
+force $L\der I/\der t$ will be induced, in a direction to oppose the
 change. Also, there is the constant electromotive force $\emf_0$ of the
 % p. 253
 battery. If we define the positive current direction as the one in
 which the battery tends to drive current around the circuit, then the
-net electromotive force at any instant is $\emf_0 - L\: \der I/\der t$. This drives
+net electromotive force at any instant is $\emf_0 - L\der I/\der t$. This drives
 the current $I$ through the resistor $R$. That is,
 \begin{equation}
   \emf_0 - L\frac{\der I}{\der t} = RI
@@ -1036,11 +1036,11 @@ the current $I$ through the resistor $R$. That is,
 
 We can also describe the situation in this way: The potential difference
 between points $A$ and $B$, which we'll call the \emph{voltage across
-the inductor}, is $L\: \der I/\der t$, with the upper end of the inductor positive
+the inductor}, is $L\der I/\der t$, with the upper end of the inductor positive
 if $I$ in the direction shown is \emph{increasing}. The potential difference
 between $B$ and $C$, the voltage across the resistor, is $RI$, with the upper
 end of the resistor positive. Hence the sum of the voltage across the
-inductor and the voltage across the resistor is $L\: \der I/\der t+RI$. This is
+inductor and the voltage across the resistor is $L\der I/\der t+RI$. This is
 the same as the potential difference between the battery terminals,
 which is $\emf_0$ (our idealized battery has no internal resistance). Thus
 we have
@@ -1085,7 +1085,7 @@ $\zu{ohms} \sim \zu{volts}/\zu{A}$.
 
 What happens if we open the switch after the current $I_0$ has been
 established, thus forcing the current to drop abruptly to zero? That
-would make the term $L\: \der I/\der t$ negatively infinite! The catastrophe
+would make the term $L\der I/\der t$ negatively infinite! The catastrophe
 can be more than mathematical. People have been killed opening
 switches in highly inductive circuits. What happens generally is that
 a very high induced voltage causes a spark or are across the open
@@ -1111,13 +1111,13 @@ energy is dissipated in the resistor $R$. Since the energy $\der U$ dissipated
 in any short interval $\der t$ is $RI^2 \der t$, the total energy dissipated after
 the closing of the switch at time $t_1$ must be:
 \begin{equation}
-  U = \int_{t_1}^\infty RI^2\:\der t
-    = \int_{t_1}^\infty RI_0^2e^{-(2R/L)(t-t_1)}\:\der t
+  U = \int_{t_1}^\infty RI^2\der t
+    = \int_{t_1}^\infty RI_0^2e^{-(2R/L)(t-t_1)}\der t
 \end{equation}
 % p. 255
 With the substitution $x = 2R(t - t_1)/L$ this is easily evaluated:
 \begin{equation}
-  U = RI_0^2\left(\frac{L}{2R}\right)\int_0^\infty e^{-x}\:\der x = \frac{1}{2}LI_0^2
+  U = RI_0^2\left(\frac{L}{2R}\right)\int_0^\infty e^{-x}\der x = \frac{1}{2}LI_0^2
 \end{equation}
 
 The source of this energy was the inductor with its magnetic field.
@@ -1127,11 +1127,11 @@ dissipated in the resistor between $t = 0$ and $t = t_1$, which was also
 provided by the battery. To see that this is a general relation, note
 that if we have an increasing current in an inductor, work must be
 done to drive the current $I$ against the induced electromotive force
-$L\:\der I/\der t$. So in time dt the work done is
+$L\der I/\der t$. So in time dt the work done is
 \begin{equation}
   \der W = LI\frac{\der I}{\der t} \der t
-         = LI\:\der I
-         = \frac{1}{2}L\:\der(I^2)
+         = LI\der I
+         = \frac{1}{2}L\der(I^2)
 \end{equation}
 Therefore, we may assign a total energy
 \begin{equation}
@@ -1145,10 +1145,10 @@ of the inductor, just as we have described the energy of a charged
 capacitor as stored in its electric field. The energy of a capacitor
 charged to potential difference $V$ is $\frac{1}{2}CV^2$, and is accounted for by
 assigning to an element of volume $\der v$, where the electric field strength
-is $E$, an amount of energy $(1/8\pi)E^2\: \der v$. It is pleasant, but hardly
+is $E$, an amount of energy $(1/8\pi)E^2\der v$. It is pleasant, but hardly
 surprising, to find that an exactly similar relation holds for the energy
 stored in an inductor. That is, we can ascribe to the magnetic field
-an energy density $(1/8\pi)B^2\: \der v$, and summing the energy of the whole
+an energy density $(1/8\pi)B^2\der v$, and summing the energy of the whole
 field will give the energy $\frac{1}{2}LI^2$.
 
 To show how this works out in one case, we can go back to the
@@ -1164,16 +1164,16 @@ The magnetic field strength $B$, with current $I$ flowing, was
 % p. 256
 To calculate the volume integral of $B^2/8\pi$ we can use a volume element
 consisting of the cylindrical shell sketched in Fig. 7.26, with
-volume $2\pi rh\:\der r$. As this shell expands from $r = a$ to $r = b$, it sweeps
+volume $2\pi rh\der r$. As this shell expands from $r = a$ to $r = b$, it sweeps
 through all the space that contains magnetic field. (The field $B$ is
 zero everywhere outside the torus, remember.)
 \begin{equation}
-  \frac{1}{8\pi}\int B^2\:\der v = \frac{1}{8\pi}\int_a^b\left(\frac{2NI}{cr}\right)^2 \: 2\pi rh\:\der r
+  \frac{1}{8\pi}\int B^2\der v = \frac{1}{8\pi}\int_a^b\left(\frac{2NI}{cr}\right)^2 \: 2\pi rh\der r
         = \frac{N^2hI^2}{c^2} \ln\left(\frac{b}{a}\right)
 \end{equation}
 Comparing this result with Eq. 71, we see that, indeed,
 \begin{equation}
-  \frac{1}{8\pi}\int B^2\:\der v = \frac{1}{2}LI^2
+  \frac{1}{8\pi}\int B^2\der v = \frac{1}{2}LI^2
 \end{equation}
 
 The more general statement, the counterpart of our statement for
@@ -1181,7 +1181,7 @@ the electric field in Eq. 1.36, is that the energy $U$ to be associated with
 any magnetic field $B(x,y,z)$ is given by:
 \begin{equation}
 \boxed{
-  U = \frac{1}{8\pi}\int_{\begin{matrix}\text{Entire}\\ \text{field}\end{matrix}} B^2\:\der v
+  U = \frac{1}{8\pi}\int_{\begin{matrix}\text{Entire}\\ \text{field}\end{matrix}} B^2\der v
 }
 \end{equation}
 With $B$ in gauss and $v$ in cubic centimeters, $U$ in Eq. 75 will be given

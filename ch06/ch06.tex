@@ -676,10 +676,10 @@ potential $\vc{A}$ at the point $(x_1,y_1,z_1)$ is given according to Eq. 30 by 
 integral over the loop. For current confined to a thin wire we may
 take as the volume element $\der v_2$ a short section of the wire of length $\der\bell$.
 The current density $J$ is $I/a$, where $a$ is the cross-section area, and
-$\der v_2 = a \der\bell$. Hence $\vc{J}\: \der v_2 = I\: \der\bell$, and if 
+$\der v_2 = a \der\bell$. Hence $\vc{J}\der v_2 = I\der\bell$, and if 
 we make the vector $\der\bell$ point
-in the direction of positive current, we can simply replace $\vc{J}\: \der v_2$ by
-$I\: \der\bell$. Thus for a thin wire or filament, we can write Eq. 30 as a line
+in the direction of positive current, we can simply replace $\vc{J}\der v_2$ by
+$I\der\bell$. Thus for a thin wire or filament, we can write Eq. 30 as a line
 integral over the circuit:
 \begin{equation}
   \vc{A} = \frac{1}{c} \int \frac{\der\bell}{r_{12}}
@@ -704,7 +704,7 @@ part of $\vc{B}$ by $\der\vc{B}$ we have
 \begin{split}
   \der\vc{B} = \curl(\der\vc{A}) = \zhat\left(-\frac{\partial A_x}{\partial y}\right)
         &= \zhat\frac{(I/c)\der\ell\cdot y}{(x^2+y^2)^{3/2}} \\
-        &= \zhat\frac{(I/c)\:\der\ell\:\sin\pot}{r^2} 
+        &= \zhat\frac{(I/c)\der\ell\:\sin\pot}{r^2} 
 \end{split}
 \end{align}
 
@@ -718,21 +718,21 @@ $I \der\ell \sin \pot/r^2c$, where $\pot$ is the angle between $\der\bell$ and $
 written compactly using the cross-product, and is illustrated in
 Fig. 6.14.
 \begin{equation}
-  \der\vc{B} = \frac{I\:\der\bell\times \rhat}{cr^2}
+  \der\vc{B} = \frac{I\der\bell\times \rhat}{cr^2}
 \end{equation}
 % p. 201
 If you are familiar with the rules of the vector calculus, you can take
 a short cut from Eq. 35 to Eq. 38. Writing $\der\vc{B} = \grad \times \der\vc{A}$, with
-$\der\vc{A} = I\: \der\bell/cr$, we treat $\grad$ as a vector, reversing the order of the 
+$\der\vc{A} = I\der\bell/cr$, we treat $\grad$ as a vector, reversing the order of the 
 cross-product and changing the sign. Here $\der\bell$ is a constant, so that $\grad$
 operates only on $1/r$, otherwise we couldn't get away with this! We
 recall that $\grad( 1 /r) = -\rhat/r^2$ (as in going from the Coulomb potential
 to the Coulomb field). Thus:
 \begin{align}
 \begin{split}
-  \der\vc{B} &= \grad\times \frac{I\:\der\bell}{cr} = -\frac{I}{c}\der\bell\times\grad\left(\frac{1}{r}\right) \\
+  \der\vc{B} &= \grad\times \frac{I\der\bell}{cr} = -\frac{I}{c}\der\bell\times\grad\left(\frac{1}{r}\right) \\
              &= -\frac{I}{c} \der\bell\times\left(-\frac{\rhat}{r^2}\right)
-                   = \frac{I\:\der\bell\times\rhat}{cr^2}
+                   = \frac{I\der\bell\times\rhat}{cr^2}
 \end{split}
 \end{align}
 
@@ -776,9 +776,9 @@ of the ring of length $\der\ell$ contributes a $\der\vc{B}$ perpendicular to $\v
 need only include the $z$ component of $\der\vc{B}$, for we know the total field
 on the axis must point in the $z$ direction,
 \begin{equation}
-  \der B_z = \frac{I\:\der\ell}{cr^2} \cos\theta = \frac{I\:\der\ell}{cr^2} \frac{b}{r}
+  \der B_z = \frac{I\der\ell}{cr^2} \cos\theta = \frac{I\der\ell}{cr^2} \frac{b}{r}
 \end{equation}
-Integrating over the whole ring, we have simply $\int\:\der\ell = 2\pi b$, so the
+Integrating over the whole ring, we have simply $\int\der\ell = 2\pi b$, so the
 field on the axis at any point $z$ is
 \begin{equation}
   B_z = \frac{2\pi b^2I}{cr^3} = \frac{2\pi b^2I}{c(b^2+z^2)^{3/2}}
@@ -805,12 +805,12 @@ solenoid, shaded in Fig. 6.16b, is $r\der\theta/\sin\theta$, and it is therefore
 to a ring carrying a current $Inr \der\theta/ \sin \theta$. Since $r = b/ \sin\theta$, we
 have, for the contribution of this ring to the axial field:
 \begin{equation}
-  \der B_z = \frac{2\pi b^2}{cr^3}\frac{Inr\:\der\theta}{\sin\theta}
-            = \frac{2\pi I n}{c} \sin\theta\:\der\theta
+  \der B_z = \frac{2\pi b^2}{cr^3}\frac{Inr\der\theta}{\sin\theta}
+            = \frac{2\pi I n}{c} \sin\theta\der\theta
 \end{equation}
 Carrying out the integration between the limits $\theta_1$ and $\theta_2$ gives
 \begin{equation}
-  B_z = \frac{2\pi I n}{c} \int_{\theta_1}^{\theta_2} \sin\theta\:\der\theta
+  B_z = \frac{2\pi I n}{c} \int_{\theta_1}^{\theta_2} \sin\theta\der\theta
       = \frac{2\pi I n}{c}\:(\cos\theta_1 - \cos\theta_2)
 \end{equation}
 

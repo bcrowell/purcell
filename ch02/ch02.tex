@@ -29,18 +29,18 @@ and since the vector $\vc{E}$ is here
 \end{equation}
 the scalar product $\vc{E}\cdot\der\vc{s}$ for any element of the path is
 \begin{equation}
-  \vc{E}\cdot\der\vc{s} = K(y\:\der x + x\: \der y)
+  \vc{E}\cdot\der\vc{s} = K(y\der x + x\der y)
 \end{equation}
 Along the portion of the path from $A$ to $B$, $y = 2x$ and $\der y = 2 dx$.
 Therefore:
 \begin{equation}
-  \int_A^B \vc{E}\cdot\der\vc{s} = K\int_A^B  (y\:\der x+x\:\der y)
-         = K\int_0^1(2x\:\der x+2x\:\der x)
-         = 4K\int_0^1 x \:\der x = 2K
+  \int_A^B \vc{E}\cdot\der\vc{s} = K\int_A^B  (y\der x+x\der y)
+         = K\int_0^1(2x\der x+2x\der x)
+         = 4K\int_0^1 x \der x = 2K
 \end{equation}
 Along the path from $B$ to $C$, $y = 2$ and $\der y = 0$.
 \begin{equation}
-  \int_B^C \vc{E}\cdot\der\vc{s} = K \int_B^C(y\:\der x+x\:\der y) = K\int_1^22\:\der x = 2K
+  \int_B^C \vc{E}\cdot\der\vc{s} = K \int_B^C(y\der x+x\der y) = K\int_1^22\der x = 2K
 \end{equation}
 The line integral over the path $ABC$ is, therefore, $2K + 2K$, or $4K$.
 % p. 37
@@ -122,7 +122,7 @@ from this reference point to a general point $(x,y)$ it is easiest to use
 a path like the dotted path in Fig. 2.2c:
 \begin{equation}
   \pot(x,y) = -\int_{(0,0)}^{(x,y)}\vc{E}\cdot\der\vc{s}
-            = -\int_{(0,0)}^{(x,0)} E_x \: \der x - \int_{(x,0)}^{(x,y)} E_y \: \der y
+            = -\int_{(0,0)}^{(x,0)} E_x \der x - \int_{(x,0)}^{(x,y)} E_y \der y
 \end{equation}
 The first integral is zero, as we noted earlier, because in this field $E_x$
 is zero along the $x$ axis. The second integration is carried out at constant
@@ -275,9 +275,9 @@ region, it is always possible, and usually the simplest choice, to put
 zero potential at infinite distance. If we adopt this rule, the potential
 of any charge distribution can be specified by the integral:
 \begin{equation}
-  \pot(x,y,z) = \int_{\text{All sources}} \frac{\rho(x',y',z')\:\der x'\:\der y'\:\der z'}{r}
+  \pot(x,y,z) = \int_{\text{All sources}} \frac{\rho(x',y',z')\der x'\der y'\der z'}{r}
 \end{equation}
-where $r$ is the distance from the volume element $\der x'\:\der y'\:\der z'$ to the
+where $r$ is the distance from the volume element $\der x'\der y'\der z'$ to the
 point $(x,y,z)$, at which the potential is being evaluated (Fig. 2.5).
 That is, $r = [(x - x')^2 + (y - y')^2 + (z - z')^2]^{1/2}$. Notice the
 difference between this and the integral giving the electric field of a
@@ -378,12 +378,12 @@ thin ring-shaped segment of the disk lie at the same distance from $P_1$.
 If $s$ denotes the radius of such an annular segment and $\der s$ is its width,
 its area is $2\pi s\der s$. The amount of charge it contains, $\der q$, is therefore 
 % p. 44
-$\der q = \sigma\cdot 2\pi s \:\der s$. All parts of this ring are the same distance away
+$\der q = \sigma\cdot 2\pi s \der s$. All parts of this ring are the same distance away
 from $P_1$, namely $r = \sqrt{y^2+s^2}$, so the contribution of the ring to the
-potential at $P_1$ is $\der q/r$, or $2\pi\sigma s\:\der s/\sqrt{y^2+s^2}$. To get the potential
+potential at $P_1$ is $\der q/r$, or $2\pi\sigma s\der s/\sqrt{y^2+s^2}$. To get the potential
 due to the whole disk, we have to integrate over all such rings:
 \begin{equation}
-  \pot(0,y,0) = \int \frac{\der q}{r} = \int \frac{2\pi\sigma s\:\der s}{\sqrt{y^2+s^2}}
+  \pot(0,y,0) = \int \frac{\der q}{r} = \int \frac{2\pi\sigma s\der s}{\sqrt{y^2+s^2}}
        =2\pi\sigma\left[\sqrt{y^2+s^2}\right]_{s=0}^{s=a}
 \end{equation}
 The integral happened to be an elementary one; on substituting
@@ -756,7 +756,7 @@ a set of point charges, we merely replace the sum in Eq. 42 by the
 integral:
 \begin{equation}
 \boxed{
-  U = \frac{1}{2}\int \rho \pot \:\der v  
+  U = \frac{1}{2}\int \rho \pot \der v  
 }
 \end{equation}
 Here the qualification that $\pot$ is due to \emph{all other} charges is no longer
@@ -872,7 +872,7 @@ In the limit $N \rightarrow \infty$, $V_i\rightarrow0$, the term in brackets bec
 of $\vc{F}$ and the sum goes into a volume integral:
 \begin{equation}
 \boxed{
-  \int_S\vc{F}\cdot\der\vc{a} = \int_V \div\vc{F}\:\der v
+  \int_S\vc{F}\cdot\der\vc{a} = \int_V \div\vc{F}\der v
 }
 \end{equation}
 Equation 51 is called Gauss's theorem, or the Divergence Theorem.
@@ -888,7 +888,7 @@ Gauss's law which assures us that
 If the divergence theorem holds for any vector field it certainly holds
 for $\vc{E}$:
 \begin{equation}
-  \int_S\vc{E}\cdot\der\vc{a} = \int_V \div\vc{E}\:\der v
+  \int_S\vc{E}\cdot\der\vc{a} = \int_V \div\vc{E}\der v
 \end{equation}
 Both Eq. 52 and Eq. 53 hold for \emph{any} volume we care to choose---of
 any shape, size, or location. Comparing them, we see that this can
