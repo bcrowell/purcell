@@ -206,7 +206,7 @@ after collecting together terms of the same power in $r'/r$:
   [r^2 + r'^2 - 2rr'\cos\theta]^{-1/2}
    = \frac{1}{r}\left[1+\frac{r'}{r}\cos\theta
                        +\left(\frac{r'}{r}\right)^2\frac{(3\cos^2\theta-1)}{2}
-                       +\left(\begin{array}{cc}\text{terms of}\\\text{higher power}\end{array}\right)\right]
+                       +\left(\begin{array}{c}\text{terms of}\\\text{higher power}\end{array}\right)\right]
 \end{equation}
 Now $r$ is a constant in the integration, so we can take it outside and
 write the prescription for the potential at $A$ as follows:
@@ -1912,96 +1912,91 @@ solids, shifts of electric charge can occur which are not describable
 as rotations of permanent molecular dipole moments. We shall return
 to this question presently.
 
-\iffalse
-
 \section{The bound-charge current}
 
 Wherever the polarization in matter changes with time there is
 an electric current, a genuine motion of charge. Suppose there are
-N dipoles in a cubic centimeter of dielectric, and that in the time
-interval dt each changes from p to p + dp. Then the macroscopic
-polarization density P changes from P = Np to P + dP : N (p t dp).
-Suppose the change dp was effected by moving a charge q through a
-distance ds, in each atom: q ds = dp. Then during the time dt there
-was actually a charge cloud of density P = Nq, moving with velocity
-v = ds/dt. That is a conduction current of a certain density J in
-(esu/sec)/cm2:
-
-d d dP
-
+$N$ dipoles in a cubic centimeter of dielectric, and that in the time
+interval $\der t$ each changes from $\vc{p}$ to $\vc{p} + \der\vc{p}$. Then the macroscopic
+polarization density $\vc{P}$ changes from $\vc{P} = N\vc{p}$ to 
+$\vc{P} + \der \vc{P}= N (\vc{p} + \der\vc{p})$.
+Suppose the change $\der\vc{p}$ was effected by moving a charge $q$ through a
+distance $\der\vc{s}$, in each atom:  $q \der\vc{s} = \der\vc{p}$.
+Then during the time $\der t$ there
+was actually a charge cloud of density $P = Nq$, moving with velocity
+$\vc{v} = \der\vc{s}$/dt. That is a conduction current of a certain density $\vc{J}$ in
+$(\zu{esu}/\sunit)/\cmunit^2$:
+\begin{equation}
+  \vc{J} = \rho\vc{v} = Nq\frac{\der\vc{s}}{\der t} = N\frac{\der\vc{p}}{\der t} = \frac{\der\vc{P}}{\der t}
+\end{equation}
 The connection between rate of change of polarization and current
-density, J = dP/dt, is independent of the details of the model. A
-
+density, $\vc{J} = \der\vc{P}/dt$, is independent of the details of the model. A
 % p. 343
-changing polarization is a conduction current, not essentially different
+changing polarization \emph{is} a conduction current, not essentially different
 from any other.
 
 Naturally, such a current is a source of magnetic field. If there
 are no other currents around, we should write Maxwell's second
-equation, curl B = (1/0) (EE/at + 4-zrJ) as
-
+equation, $\curl\vc{B} = (1/c) (\partial\vc{E}/\partial t + 4\pi\vc{J})$ as
 \begin{equation}
+  \curl\vc{B} = \frac{1}{c} \left(\frac{\partial\vc{E}}{\partial t} + 4\pi\frac{\partial\vc{P}}{\partial t}\right)
 \end{equation}
-1
-
-curl B = _C_  + 477  (78)
 
 The only difference between an ``ordinary'' conduction current
-density and the current density BP/at is that one involves free charge
-in motion, the other bound charge in motion. There is one rather
-obvious practical distinction ---  --- you can't have a steady bound charge
+density and the current density $\partial\vc{P}/\partial t$ is that one involves \emph{free} charge
+in motion, the other \emph{bound} charge in motion. There is one rather
+obvious practical distinction --- you can't have a \emph{steady} bound charge
 current, one that goes on forever unchanged. Usually we prefer to
 keep account separately of the bound charge current and the free
-charge current, retaining J as the symbol for the free charge current
-
+charge current, retaining $\vc{J}$ as the symbol for the free charge current
 density only. Then to include all the currents in Maxwell's equation
 we have to write it this way:
-
+\newcommand{\mycruftystrut}{\rule[-0.8\baselineskip]{0pt}{1.6\baselineskip}}
 \begin{equation}
+  \curl\vc{B} = \frac{1}{c} \left(
+    \frac{\partial\vc{E}}{\partial t}\right.
+    + \underbrace{4\pi\frac{\partial\vc{P}}{\partial t}}_{
+        \begin{array}{c}\text{Bound charge}\\\text{current density}\end{array}
+      }
+    + \underbrace{\left.4\pi\vc{J}\mycruftystrut\right)}_{
+        \begin{array}{c}\text{Free charge}\\\text{current density}\end{array}
+      }
 \end{equation}
-curlB =  + 477% + 4wJ) (79)
-T T
-Bound charge Free charge
-current density current density
 
-In a dielectric medium, E + 47rP = (E, allowing a shorter version
+In a dielectric medium, $\vc{E} + 4\pi\vc{P} = \epsilon\vc{E}$, allowing a shorter version
 of Eq. 79:
-
 \begin{equation}
+  \curl\vc{B} = \frac{1}{c} \left(\epsilon\frac{\partial\vc{E}}{\partial t} + 4\pi\vc{J}\right)
 \end{equation}
-curl B = l (efl + 477.1) (80)
-c at
 
 More generally, Eq. 79 can also be abbreviated by introducing the
-vector D, previously defined as E + 47rP:
-
+vector $\vc{D}$, previously \emph{defined} as $\vc{E} + 4\pi\vc{P}$:
 \begin{equation}
+  \curl\vc{B} = \frac{1}{c} \left(\frac{\partial\vc{D}}{\partial t} + 4\pi\vc{J}\right)
 \end{equation}
-cur1B = {E + 4vrJ) (81)
-. c at
-
-The term BD/at is usually referred to as the displacement current.
-Actually, that part of it which involves BP/at represents, as we have
+The term $\partial\vc{D}/\partial t$ is usually referred to as 
+the displacement current.\index{displacement current}
+Actually, that part of it which involves $\partial\vc{P}/\partial t$ represents, as we have
 seen, an honest conduction current, real charges in motion. The
 only part of the total current density that is not simply charge in
-motion is the BE/at part, the true vacuum displacement current
+motion is the $\partial\vc{E}/\partial t$ part, the true vacuum displacement current
 which we discussed at the end of Chap. 7. Incidentally, if we want
-to express all components of the full current density in units corre-
-
+to express all components of the full current density in units corresponding
 % p. 344
-sponding to those of J, we should note that no 4-71 appears in the first
+to those of $\vc{J}$, we should note that no $4\pi$ appears in the first
 term, and fix that up by writing Eq. 79 as follows:
-
 \begin{equation}
+  \curl\vc{B} = \frac{4\pi}{c} 
+      \underbrace{\left(\frac{1}{4\pi}\frac{\partial\vc{E}}{\partial t}\right.}_{
+        \begin{array}{c}\text{Vacuum}\\\text{displacement}\\\text{current}\\\text{density}\end{array}
+      }
+    + \underbrace{\frac{\partial\vc{P}}{\partial t}}_{
+        \begin{array}{c}\text{Bound}\\\text{charge}\\\text{current}\\\text{density}\end{array}
+      }
+    + \underbrace{\left.\vc{J}\mycruftystrut\right)}_{
+        \begin{array}{c}\text{Free}\\\text{charge}\\\text{current}\\\text{density}\end{array}
+      }
 \end{equation}
-477 1 8E 6P
-curl B =  --- _ _ _ __ 82
-C [477 at + at + J] ( )
-T T T
-vacuum ‘ Bound Free
-displacement charge charge
-current current current
-density density density
 
 Involved in the distinction between bound charge and free charge
 is a question we haven't squarely faced: can one always identify
@@ -2013,25 +2008,25 @@ Fig. 1.7. Figure 9.37 is a cross section through the crystal, which
 extends on out to the right and the left. If we choose to, we may
 consider an adjacent pair of ions as a neutral molecule with a dipole
 moment. Grouping them as in Fig. 9.37a, we describe the medium
-as having a uniform macroscopic polarization density P, a vector
+as having a uniform macroscopic polarization density $\vc{P}$, a vector
 directed downward. At the same time, we observe that there is a
 layer of positive charge over the top of the crystal, and negative
-charge over the bottom which, not having been included in our mole-
-cules, must be accounted free charge.
+charge over the bottom which, not having been included in our 
+molecules, must be accounted \emph{free charge}.
 
 Now we might just as well have chosen to group the ions as in
-Fig. 9.37b. According to that description, P is a vector upward, but
+Fig. 9.37b. According to that description, $\vc{P}$ is a vector \emph{upward}, but
 we have a negative free charge layer on top of the crystal and a positive
-free charge layer beneath. Either description is correct. You will
-have no trouble finding another one, also correct, in which P is zero
-and there is no free charge. Each description predicts E = O. The
-macroscopic field E is an observable physical quantity. It can depend
-only on the charge distribution, not on how we choose to describe
+free charge layer beneath. \emph{Either description is correct}. You will
+have no trouble finding another one, also correct, in which $\vc{P}$ is zero
+and there is no free charge. Each description predicts $\vc{E} = 0$. The
+macroscopic field $\vc{E}$ is an observable physical quantity. It can depend
+only on the charge distribution, not on how we choose to \emph{describe}
 the charge distribution.
 
 This example teaches us that in the real atomic world the distinction
 between ``bound charge'' and ``free charge'' is more or less
-arbitrary, and so, therefore, is the concept of polarization density P.
+arbitrary, and so, therefore, is the concept of polarization density $\vc{P}$.
 The molecular dipole is a well-defined notion only where molecules
 as such are identifiable --- where there is some physical reason for
 saying, ``This atom belongs to this molecule and not to that.'' In
@@ -2039,66 +2034,56 @@ many crystals such an assignment is meaningless. An atom or ion
 may interact about equally strongly with all its neighbors; one can
 only speak of the whole crystal as a single molecule.
 
-% p. 345
-I :O.O CO0
-00 OOO1PO<
-O 0
-
-Fig. 9.38 The lattice of polarized molecular 3
-changed to the lattice of oppositely polarized ‘
-
 % p. 346
+
 Any arbitrariness in the distinction between free and bound charge
 persists, naturally, in the distinction between free charge current
-density J, and 8P/at. Consider the polarization of a crystal such as
+density $\vc{J}$, and $\partial\vc{P}/\partial t$.
+Consider the polarization of a crystal such as
 ice. The lattice is three-dimensional, but we have drawn in Fig. 9.38
 a two-dimensional array with somewhat similar features. Let's call
-it ice. In Fig. 9.38a we readily identify, the H20 molecules, for we
+it ice. In Fig. 9.38a we readily identify, the $\zu{H}_2\zu{O}$ molecules, for we
 notice that each oxygen atom has just two H atoms close to it. The
-crystal as shown is polarized. P points downward because, as mentioned
+crystal as shown is polarized. $\vc{P}$ points downward because, as mentioned
 earlier in this chapter, the oxygen end of the water molecule
 has an excess of negative charge. We can think of the black hydrogen
 parts in the diagram as positive charge. Suppose now that something
 happens to change the internal condition of this crystal to that
-shown in Fig. 9.38d, a microscopic View of the same neighborhood.
+shown in Fig. 9.38d, a microscopic view of the same neighborhood.
 Now the dipoles are reversed, and we describe the crystal as having
-a polarization upward.
+a polarization \emph{upward}.
 
-The change could have been brought about in two essentially different
-ways, illustrated in Fig. 9.381) and c. In Fig. 9.3819 an upward-
-directed electric field E has been applied, pushing upward the positive
+The change \emph{could} have been brought about in two essentially different
+ways, illustrated in Fig. 9.38b and c. In Fig. 9.38b an 
+upward-directed electric field $\vc{E}$ has been applied, pushing upward the positive
 ends of the molecules, in effect turning each molecule over.
-There is a net upward motion of positive charge; the current that it
-represents will be accounted for in the term 8P/at as we have just
+There is a net \emph{upward} motion of positive charge; the current that it
+represents will be accounted for in the term $\partial\vc{P}/\partial t$ as we have just
 learned.
 
-Figure 9.380 depicts a quite different process, in which the application
+Figure 9.38c depicts a quite different process, in which the application
 of a downward electric field encourages the hydrogens to switch
-partners. Each is migrating to the nearest 0 atom below it. (This
+partners. Each is migrating to the nearest O atom below it. (This
 is all the easier, in the real crystal, because the H that lies between
-two 0 atoms is to some degree shared by both, providing the ``hydro --- 
-gen bond'' that holds the crystal together.) The final configuration
+two O atoms is to some degree shared by both, providing 
+the ``hydrogen bond'' that holds the crystal together.) The final configuration
 looks exactly the same. The dipoles are all reVersed --- but what occurred
-was a downward flow of positive charge. If we are reckoning
+was a \emph{downward} flow of positive charge. If we are reckoning
 up the current in this process, for entry on the right side of Eq. 79,
-we have to put in the same term as before, BP/at, which corresponds
+we have to put in the same term as before, $\partial\vc{P}/\partial t$, which corresponds
 to an upward current, but we must add a larger downward conduction
-current J, corresponding to the motion of each charge downward
-by one whole lattice space d. The difference will be the true net cur-
-
-rent arising from the actual downward displacement of the positive
-charge through a distance 3.
+current $\vc{J}$, corresponding to the motion of each charge downward
+by \emph{one whole lattice space} $d$. The difference will be the true net 
+current arising from the actual downward displacement of the positive
+charge through a distance $s$.
 
 Notice that in each case the total current flows in the direction of
 the applied electric field. From macroscopic measurements alone
 we could not tell which microscopic process is taking place. Indeed,
 people are still arguing about the mechanism of polarization in ice.
-
 % p. 347
 To settle the argument, one needs to know enough about the microscopic
 structure to be sure which is the easier, turning a molecule
 upside down, or transferring protons. For us, the lesson to be drawn
-is simply this: The actual microscopic motion of all the charges determines
-the total conduction current, free and bound.
-
-\fi
+is simply this: The actual microscopic motion of \emph{all} the charges determines
+the total conduction current, free \emph{and} bound.
