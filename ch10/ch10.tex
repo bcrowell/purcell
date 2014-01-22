@@ -1,26 +1,24 @@
 \chapter{Magnetic fields in matter}
 
-\iffalse
-
 \section{How various substances respond to a magnetic field}
 
 Imagine doing some experiments with a very intense magnetic
 field. To be definite, suppose we have built a solenoid of 10-cm inside
 diameter, 40 cm long, like the one shown in Fig. 10.1 Its outer
-diameter is 40 cm, most of the space being filled with copper wind-
-ings. This coil will provide a steady field of 30,000 gauss at its center
+diameter is 40 cm, most of the space being filled with copper 
+windings. This coil will provide a steady field of 30,000 gauss at its center
 if supplied with 400 kilowatts of electrical power --- and something
 like 30 gallons of water per minute, to carry off the heat. We mention
-these practical details to show that our device, though nothing extra-
-ordinary, is a pretty respectable laboratory magnet. The field
+these practical details to show that our device, though nothing 
+extraordinary, is a pretty respectable laboratory magnet. The field
 strength at the center is nearly 105 times the earth's field, and probably
 5 or 10 times stronger than the field near any iron bar magnet
 or horseshoe magnet you may have experimented with. The field
 will be fairly uniform near the center of the solenoid, falling, on the
 axis at either end, to roughly half its central value. It will be rather
 less uniform than the field of the solenoid in Fig. 6.18. since our coil
-is equivalent to a ``nested'' superposition of solenoids with length-
-diameter ratio varying from 4/1 to 1/1. In fact, if we analyze our
+is equivalent to a ``nested'' superposition of solenoids with 
+length-diameter ratio varying from 4/1 to 1/1. In fact, if we analyze our
 coil in that way and use the formula (Eq. 6.44) which we derived for
 the field on the axis of a solenoid with a single-layer winding, it is
 not hard to calculate the axial field exactly. A graph of the field
@@ -33,39 +31,14 @@ Let's put various substances into this field and see if a force acts
 on them. Generally, we do detect a force. It vanishes when the
 current in the coil is switched off. We soon discover that the force
 is strongest not when our sample of substance is at the center of the
-coil where the magnetic field B2 is strongest, but when it is located
-near the end of the coil where the gradient, dBZ/dz, is large. From
+coil where the magnetic field $B_z$ is strongest, but when it is located
+near the end of the coil where the gradient, $\der B_z/\der z$, is large. From
 now on let us support each sample just inside the upper end of the
 coil. Figure 10.2 shows one such sample, contained in a test tube
 suspended by a spring which can be calibrated to indicate the extra
 force caused by the magnetic field. Naturally we have to make a
-
 ``blank'' experiment with the test tube and suspension alone, to allow
 for the magnetic force on everything other than the sample.
-
-_‘'2.-'{ 9
-
-% p. 353
-.1 L‘
-D‘ 1‘
-II I'
-II :1
-VI .1
-- 7.
-
-llilll
-liilil
-Slllll
-IEEIII
-l!!!II
-ill!!!
-
-TA-_-C‘-I‘
-IZUJZTKXICQI
-'-Ii"Z§ki-I-I
-IIII --- 711II-IIZI
-\-l ---  I. l‘ -I I.  --- l :1
-kCLV1‘i§Z7£VL
 
 We find in such an experiment that the force on a particular
 substance --- meta1lic aluminum, for instance --- is proportional to the
@@ -73,12 +46,11 @@ mass of the sample and independent of its shape, as long as the
 sample is not too large. (Experiments with a small sample in this
 coil show that the force remains practically constant over a region a
 few centimeters in extent, inside the end of the coil; if we use samples
-no more than 1 to 2 cm3 in volume they can be kept well within this
-
+no more than 1 to $2\ \cmunit^3$ in volume they can be kept well within this
 % p. 354
-region.) We can express our quantitative results, for a given sub-
-stance, as so many dynes force per gram of sample, under the conditions
-Bz = 18,000 gauss, dBz/dz = 1700 gauss/cm.
+region.) We can express our quantitative results, for a given 
+substance, as so many dynes force per gram of sample, under the conditions
+$B_z = 18,000\ \zu{gauss}$, $\der B_z/\der z = 1700\ \zu{gauss}/\cmunit$.
 
 But first the qualitative results, which are a bit bewildering: For
 a large number of quite ordinary pure substances the force observed,
@@ -86,51 +58,47 @@ although easily measurable, seems after all our effort to provide an
 intense magnetic field, ridiculously small. It is ten or twenty dynes
 per gram, typically, not more than a few percent of the weight of the
 sample. It is upward for some samples, downward for others. This
-has nothing to do with the direction of the magnetic field, as we can
+has nothing to do with the \emph{direction} of the magnetic field, as we can
 verify by reversing the current in the coil. Instead, it appears that
-some substances are always pulled in the direction of increasing field
-intensity, others in the direction of decreasing field intensity, irrespective
+some substances are always pulled in the direction of \emph{increasing} field
+intensity, others in the direction of \emph{decreasing} field intensity, irrespective
 of the field direction.
 
-1-gm sample in magnetic field, with
+\begin{table} % makes it floating
+\caption{Force on 1 g sample in magnetic field, with $B_z=18,000\ \zu{gauss}$, $\der B_z/\der z = 1700\ \zu{gauss}/\cmunit$}\label{table:magnetic-forces}
+\begin{tabular}{lllr@{}l} % final col is to align on decimal point; see http://tex.stackexchange.com/a/44769/6853
+\hline
+\quad & \emph{Substance} & \emph{Formula} & \emph{Force (dyne)\footnote{Direction of force:
+downward $+$, upward $-$. All measurements made at temperature of $20\degunit$ except for
+liquid nitrogen, $78\ \zu{K}$, and liquid oxygen, $90\ \zu{K}$.
+}} \\
+\hline
+\multicolumn{2}{l}{\emph{Diamagnetic}} \\
+  & Water          & $\zu{H}_2\zu{O}$      & $-22$ \\
+  & Copper         & Cu                    & $-2$&$.6$ \\ % align on decimal point
+  & Lead           & Pb                    & $-37$ \\
+  & Sodium chloride & NaCl                 & $-15$ \\
+  & Quartz         & $\zu{SiO}_2$          & $-16$ \\
+  & Sulfur         & S                     & $-16$ \\
+  & Diamond        & C                     & $-16$ \\
+  & Graphite       & C                     & $-110$ \\
+  & Liquid nitrogen & $\zu{N}_2$           & $-10$ \\
+\multicolumn{2}{l}{\emph{Paramagnetic}} \\
+  & Sodium         & Na                    & $+20$ \\
+  & Aluminum       & Al                    & $+17$ \\
+  & Copper chloride & $\zu{CuCl}_2$        & $+280$ \\
+  & Nickel sulfate & $\zu{NiSO}_4$         & $+830$ \\
+  & Liquid oxygen  & $\zu{O}_2$            & $+7,500$ \\
+\multicolumn{2}{l}{\emph{Ferromagnetic}} \\
+  & Iron           & Fe                    & $+400,000$ \\
+  & Magnetite      & $\zu{Fe}_3\zu{O}_4$   & $+120,000$
+\end{tabular}
+\end{table}
 
->00 gauss, dB;,/dz = 1 700 gauss/cm
-ice Formula F orce1'
-etic
 
-H20  ---  22 dynes
-
-Cu  ---  2.6
-
-Pb  ---  37
-1 chloride N aCl  ---  15
-
-SiO2  ---  16
-
-S  ---  16
-nd C  ---  ---  16
-te C  ---  110
-nitrogen N2  ---  10 (78 ° K)
-ietic
-1 Na + 20 dynes
-mm Al + 17
-r chloride CuCl2 + 280
-sulfate N iSO4 + 830
-oxygen 02 + 7,500 (90° K)
-;netic
-
-Fe + 400,000 dynes
-tite Fe3O4 + 120,000
-
-ion
-
-of force: downward +, upward  --- . All measure-
-
-le at temperature of 20°C except as noted.
 
 % p. 355
 We do find some substances that are attracted into the coil with
-
 considerably greater force. For instance, copper chloride crystals
 are pulled downward with a force of 280 dynes per gram of sample.
 Liquid oxygen behaves spectacularly in this experiment; it is pulled
@@ -147,16 +115,15 @@ the wide range of magnetic behavior we find in ordinary materials.
 
 As you know, a few substances, of which the most familiar is
 metallic iron, seem far more ``magnetic'' than any others. In the
-table we give the force that would act on a 1-gm piece of iron put in
+table we give the force that would act on a 1 g piece of iron put in
 the same position in the field as the other samples. The force is
 nearly a pound! (We would not have been so naive as to approach
 our magnet with several grams of iron suspended in a test tube from
 a delicate spring --- a different suspension would have to be used.)
-Note that there is a factor of more than 105 between the force that
+Note that there is a factor of more than $10^5$ between the force that
 acts on a gram of iron and the force on a gram of copper, elements
 not otherwise radically different. Incidentally, this suggests that
 reliable magnetic measurements on a substance like copper may
-
 not be easy. A few parts per million contamination by metallic iron
 particles would utterly falsify the result.
 
@@ -165,35 +132,35 @@ iron and the magnetite and that of the other substances in the table.
 Suppose we make the obvious test, by varying the field strength of
 the magnet, to ascertain whether the force on a sample is proportional
 to the field. For instance, we might reduce the solenoid current
-by half, thereby halving both the field intensity B2 and its gradient
-dB,/dz. We would find, in the case of every substance above
-iron in the table, that the force is reduced to one --- fourth its former
-value, whereas the force on the iron sample, and that on the mag-
-netite, would be reduced only to one-half or perhaps a bit less.
+by half, thereby halving both the field intensity $B_z$ and its gradient
+$\der B/\der z$. We would find, in the case of every substance above
+iron in the table, that the force is reduced to \emph{one-fourth} its former
+value, whereas the force on the iron sample, and that on the 
+magnetite, would be reduced only to one-half or perhaps a bit less.
 Evidently the force, under these conditions at least, is proportional
 to the square of the field strength for all the other substances listed,
-but nearly proportional to the field strength itself for Fe and Fe3O4.
-
- 
+but nearly proportional to the field strength itself for Fe and $\zu{Fe}_3\zu{O}_4$.
 
 % p. 356
+
 It appears that we may be dealing with several different phenomena
 here, and complicated ones at that. As a small step toward
 understanding, we can introduce some classification.
 
 First, those substances which are feebly repelled by our magnet,
-water, sodium chloride, quartz, etc., are called diamagnetic. The
+water, sodium chloride, quartz, etc., are called \emph{diamagnetic}.\index{diamagnetism}\index{magnetic properties of materials!diamagnetism} The
 majority of inorganic compounds and practically all organic compounds
 are diamagnetic. It turns out, in fact, that diamagnetism
-is a property of every atom and molecule. When the opposite behavior
+is a property of \emph{every} atom and molecule. When the opposite behavior
 is observed, it is because the diamagnetism is outweighed by
 a different and stronger effect, one that leads to attraction.
 
 Substances which are attracted toward the region of stronger field
-are called paramagnetic. In some cases, notably the metals such as
+are called \emph{paramagnetic}.\index{paramagnetism}\index{magnetic properties of materials!paramagnetism}
+In some cases, notably the metals such as
 Al, Na, and many others, the paramagnetism is not much stronger
 than the common diamagnetism. In other materials such as the
-NiSO4 and the CuCl2 on our list, the paramagnetic effect is much
+$\zu{NiSO}_4$ and the $\zu{CuCl}_2$ on our list, the paramagnetic effect is much
 stronger. In these substances also, it increases as the temperature
 is lowered, leading to quite large effects at temperatures near absolute
 zero. The increase of paramagnetism with lowering temperature
@@ -203,33 +170,33 @@ that copper is diamagnetic while copper chloride is paramagnetic.
 but sodium is paramagnetic while sodium chloride is diamagnetic.
 
 Finally, substances that behave like iron and magnetite are called
-ferromagnetic. In addition to the common metals of this class, iron,
+\emph{ferromagnetic}.\index{ferromagnetism}\index{magnetic properties of materials!ferromagnetism}
+In addition to the common metals of this class, iron,
 cobalt, and nickel, quite a number of ferromagnetic alloys and
-crystalline compounds are known. Indeed current research in ferro-
-magnetism is steadily lengthening the list.
+crystalline compounds are known. Indeed current research in 
+ferromagnetism is steadily lengthening the list.
 
 In this chapter we have two tasks. One is to develop a treatment
 of the large-scale phenomena involving magnetized matter, in which
 the material itself is characterized by a few parameters and the
 experimentally determined relations among them. It is like a treatment
 of dielectrics based on some observed relation between electric
-field and bulk polarization. We sometimes call such a theory phe-
-nomenological. Our second task is to try to understand, at least in
+field and bulk polarization. We sometimes call such a theory 
+\emph{phenomenological}. Our second task is to try to understand, at least in
 a general way, the atomic origin of the various magnetic effects.
 Even more than dielectric phenomena the magnetic effects, once
 understood, reveal some basic features of atomic structure.
 
 One general fact stands out in the table. Very little energy, on the
-scale of molecular energies, is involved in diamagnetism and para-
-magnetism. Take the extreme example of liquid oxygen. To pull
-
+scale of molecular energies, is involved in diamagnetism and 
+paramagnetism. Take the extreme example of liquid oxygen. To pull
 % p. 357
-1 gm of liquid oxygen away from our magnet would require an
+1 g of liquid oxygen away from our magnet would require an
 amount of work of the order of magnitude of 7,500 dynes times a
 distance of a few centimeters (since the field strength falls off substantially
 in a few centimeters' distance). Let us say, roughly,
 50,000 ergs. Now it takes about 300 times that much energy (0.4
-calories, or 1.6 joules) to raise the temperature of 1 gram of liquid 02
+calories, or 1.6 joules) to raise the temperature of 1 gram of liquid $\zu{O}_2$
 by one degree, and it takes more than 30,000 times as much energy
 to vaporize the liquid, that is, to separate the molecules one from
 another. Whatever may be happening in liquid oxygen at the molecular
@@ -239,34 +206,35 @@ afl``air in terms of energy.
 We know that even strong magnetic fields have practically no
 influence on chemical processes, and that goes for biochemistry too.
 You can put your hand and forearm (not the one with the wrist
-watch!) into our 30-kilogauss solenoid, without any significant
+watch!) into our 30 kilogauss solenoid, without any significant
 sensation or consequence. It is hard to predict whether your arm
 will be paramagnetic or diamagnetic, but the force on it will be no
 more than a fraction of an ounce, in any case. Generations of mice
 have been bred and raised in strong magnetic fields without significant
 changes. Nor, as of this writing, have other biological experiments
 turned up anything remarkable in the way of magnetic effects
-on chemical processes.'l' This is not surprising. In its interaction
-with matter, the magnetic field plays a role utterly different from that
-of the electric field. Because atoms and molecules are made of
-
-slowly moving electric charges, electric forces overwhelmingly
-dominate the molecular scene.
-
-TThis is not to say that small effects are always inconsequential. After all, an argument
+on chemical processes.\footnote{
+This is not to say that small effects are always inconsequential. After all, an argument
 like the one we just used would show that gravity is energetically unimportant
 on a molecular scale, yet trees on a hillside grow vertically. This presumably involves
 the gross force on a biologicalunit larger than molecular size. Indeed, a somewhat
 similar ``tropism" has been experimentally demonstrated in the case of seedlings growing
 in a strongly inhomogeneous magnetic field. We are not suggesting, either, that
 the magnetic properties of molecules are uninteresting to the biochemist. On the
-contrary. the intermediates in chemical reactions are sometimes detectable, even identi-
-fiable, by their magnetic behavior. But this is quite a different thing from the influence
-of an external field on a chemical process. By the way, if you put your head in a
+contrary. the intermediates in chemical reactions are sometimes detectable, even 
+identifiable, by their magnetic behavior. But this is quite a different thing from the influence
+of an external field \emph{on} a chemical process. By the way, if you put your head in a
 strong magnetic field and shake it, you will ``taste'' electrolytic currents in your mouth
- --- simply evidence of the induced electromotive force.
+--- simply evidence of the induced electromotive force.} This is not surprising. In its interaction
+with matter, the magnetic field plays a role utterly different from that
+of the electric field. Because atoms and molecules are made of
+slowly moving electric charges, electric forces overwhelmingly
+dominate the molecular scene.
 
 % p. 358
+
+\iffalse
+
 \section{The absence of magnetic ``charge''}
 
 The magnetic field outside a magnetized rod such as a compass
@@ -382,16 +350,16 @@ would not affect the main conclusion: Ordinary matter is made up
 of electric charges, and not magnetic charges.
 
 TFor an account of the search for magnetic monopoles, see the article by Kenneth
-Ford, ``Magnetic Monopoles,'' Sci. American 209, 30 (December, 1963). The ``asym-
-metry'' evident in the absence of magnetic charge is quite different from the electrical
+Ford, ``Magnetic Monopoles,'' Sci. American 209, 30 (December, 1963). The 
+``asymmetry'' evident in the absence of magnetic charge is quite different from the electrical
 asymmetry we are familiar with, the difference in character between negative and
 positive particles. Electrons are the stable negative particles; positive charge is found
 in the form of the proton, a much heavier particle. But we know this need not be
 universal, for the antiparticles are known to exist. All the evidence points to the possibility
 of matter made up of positive electrons and negative protons; this ``antimatter''
 would be the twin of the matter we find in our part of the universe. We have seen the
-ingredients of an antimatter world in the laboratory --- but the ingredients of a ``mag-
-netic twin'' have not been seen. There is serious doubt that they exist at all; and
+ingredients of an antimatter world in the laboratory --- but the ingredients of a 
+``magnetic twin'' have not been seen. There is serious doubt that they exist at all; and
 there is a strong argument that if they do exist they must be quite different, in certain
 other respects, from electrically charged particles.
 
@@ -517,7 +485,7 @@ of the Vector a, the directed area of the patch surrounded by the loop
 I
 =  ---  9
 In C a ( )
-As for sign, we‘ agree that the direction of m and the sense ofpositive
+As for sign, we‘ agree that the direction of m and the sense of positive
 current flow in the loop are to be related by a right-hand-screw rule,
 illustrated in Fig. 10.5. (The dipole moment of the loop in Fig. 10.4a
 points downward, according to this rule.) The vector potential for
@@ -607,8 +575,8 @@ charges, as the comparison in Fig. 10.8 shows. Notice that between
 the charges the electric field points down, while inside the current
 
 ring the magnetic field points up, although the far fields are alike.
-This reflects the fact that our magnetic field satisfies V - B = 0 every-
-where, even inside the source. The magnetic field lines don't end.
+This reflects the fact that our magnetic field satisfies V - B = 0 
+everywhere, even inside the source. The magnetic field lines don't end.
 By near and far we mean, of course, relative to the size of the current
 loop or the separation of the charges. If we imagine the current ring
 shrinking in size, the current meanwhile increasing so that the dipole
@@ -687,8 +655,8 @@ expressed very simply in terms of the dipole moment:
 
 F = m (18)
 We haven't proved it, but you will not be surprised to hear that for
-small loops of any other shape the force depends only on the current-
-area product, that is, on the dipole moment. The shape doesn't
+small loops of any other shape the force depends only on the 
+current-area product, that is, on the dipole moment. The shape doesn't
 matter. Of course, we are discussing only loops small enough so
 that only the first-order variation of the external field, over the span
 of the loop, is significant.
@@ -740,8 +708,8 @@ The force would depend on the gradient of the axial field strength,
 and would be zero at the midpoint of the solenoid. Also, if the total
 strength of dipole moments in the sample were proportional to the
 field strength B, then in a given position the force would be proportional
-to B times BB/az, and hence to the square of the solenoid cur-
-rent. That is the observed behavior in the case of the diamagnetic
+to B times BB/az, and hence to the square of the solenoid 
+current. That is the observed behavior in the case of the diamagnetic
 and the paramagnetic substances. It looks as if the ferromagnetic
 samples must have possessed a magnetic moment nearly independent
 of field strength, but we must set them aside for a special discussion
@@ -779,8 +747,8 @@ We begin with one electron moving at constant speed on a circular
 path. Since we are not attempting here to explain atomic structure,
 we shall not inquire into the reasons why the electron has this particular
 orbit. We ask only, if it does move in such an orbit, what
-magnetic effects are to be expected? In Fig. 10.1] we see the elec-
-tron, visualized as a particle carrying a concentrated electric charge
+magnetic effects are to be expected? In Fig. 10.1] we see the 
+electron, visualized as a particle carrying a concentrated electric charge
  ---  e, moving with speed 12 on a circular path of radius r. In the middle
 is a positive nuclear charge, making the system electrically neutral,
 but the nucleus, because of its relatively great mass, moves so slowly
@@ -795,7 +763,7 @@ of a current ring. For, as concerns the time average, it can't make
 any diflerence whether we have all the negative charge gathered into
 one lump, going around the track, or distributed in bits, as in
 Fig. l0.11b, to make a uniform endless procession. The current is
-the amount of charge that passes a given point on the ring,_per
+the amount of charge that passes a given point on the ring, per
 second. Since the electron makes v/2771 revolutions per second, the
 current, in esu/sec if e is in esu, is
 
@@ -855,14 +823,14 @@ structure of the material to single out not merely an axis, but a sense
 of rotation around that axis!
 
 TWe shall be dealing with speeds 0 much less than c, so me stands for the rest mass,
-9.0 x 10'''' gm. Our choice of the symbol m for magnetic moment makes it neces-
-sary, in this chapter, to use a different symbol for the electron mass. For angular
+9.0 x 10'''' g. Our choice of the symbol m for magnetic moment makes it 
+necessary, in this chapter, to use a different symbol for the electron mass. For angular
 momentum we choose the symbol L, rather than J as used in Vol. 1, Chap. 6, because
 L is traditionally used in atomic physics for orbital angular momentum, which is what
 we here consider, and because we have been using J for current density.
 
-:{:Many people use the term gyromagnetic ratio for this quantity. We prefer mag-
-netomechanical ratio, as used in Vol. 1, Chap. 8.
+:{:Many people use the term gyromagnetic ratio for this quantity. We prefer 
+magnetomechanical ratio, as used in Vol. 1, Chap. 8.
 
 % p. 372
 E
@@ -945,8 +913,8 @@ whether the change is made slowly or quickly.
 
 The increased speed of the charge in the final state means an increase
 in the upward-directed magnetic moment m. A negatively
-charged body would have been decelerated under similar circum-
-stances, which would have decreased its downward moment. In
+charged body would have been decelerated under similar 
+circumstances, which would have decreased its downward moment. In
 either case, then, the application of the field B1 has brought about
 a change in magnetic moment opposite to the field. The magnitude
 of the change in magnetic moment Am, is
@@ -1120,8 +1088,8 @@ than an atom --- it may be built of hundreds or thousands of atoms-
 does not generally increase the effective mean-square orbit radius.
 The reason is that in a molecule any given electron is pretty well
 localized on an atom. There are some interesting exceptions and
-we included one in the table --- graphite. The anomalous diamag-
-netism of graphite is due to an unusual structure which permits some
+we included one in the table --- graphite. The anomalous 
+diamagnetism of graphite is due to an unusual structure which permits some
 
 electrons to circulate rather freely within a planar group of atoms
 in the crystal lattice.
@@ -1142,8 +1110,8 @@ moment points in the direction you would expect if you visualize
 the electron as a ball of negative charge spinning around its axis.
 That is, the magnetic moment vector points antiparallel to the spin
 angular momentum vector, as indicated in Fig. 10.14. The magnetic
-moment, however, is twice as large, relative to the angular momen-
-tum, as is the case in orbital motion.
+moment, however, is twice as large, relative to the angular 
+momentum, as is the case in orbital motion.
 
 There is no point in trying to devise a classical model of this object;
 its properties are essentially quantum mechanical. We need not
@@ -1224,8 +1192,8 @@ Why isn't everything paramagnetic? The reason is that in most
 atoms and molecules, the electrons are grouped in pairs, with the
 spins in each pair constrained to point in opposite directions regardless
 of the applied field. As a result, the magnetic moments of an
-electron pair exactly cancel each other. All that is left is the diamag-
-netism we had already explored. A few molecules contain an odd
+electron pair exactly cancel each other. All that is left is the 
+diamagnetism we had already explored. A few molecules contain an odd
 number of electrons, and in them total cancellation in pairs is obviously
 impossible. Nitric oxide, NO, with 15 electrons in the molecule
 is an instance: it is paramagnetic. The oxygen molecule 02
@@ -1259,12 +1227,12 @@ We have seen that both diamagnetic and paramagnetic substances
 develop a magnetic moment proportional to the applied field. At
 least, that is true under most conditions. At very low temperatures,
 in fairly strong fields, the induced paramagnetic moment can be
-observed to approach a limiting value as the field strength is in-
-creased. Setting this ``saturation'' effect aside, the relation between
+observed to approach a limiting value as the field strength is 
+increased. Setting this ``saturation'' effect aside, the relation between
 moment and applied field is quite linear, so that we can characterize
 the magnetic properties of a substance by the ratio of induced
-moment to applied field. The ratio is called the magnetic suscepti-
-bility. Depending on whether we choose the moment of 1 gm of
+moment to applied field. The ratio is called the magnetic 
+susceptibility. Depending on whether we choose the moment of 1 g of
 material, of 1 cm3 of material, or of 1 mole, we define the specific
 susceptibility, the volume susceptibility, or the molar susceptibility.
 Our discussion in Sec. 10.5 suggests that for diamagnetic substances
@@ -1292,8 +1260,8 @@ dimensions If we now define the volume
 
 M = X,,,B (warning: see remarks below) (39)
 
-the susceptibility will be a dimensionless number, negative for dia-
-magnetic substances, positive for paramagnetic. This is exactly
+the susceptibility will be a dimensionless number, negative for 
+diamagnetic substances, positive for paramagnetic. This is exactly
 analogous to the procedure, expressed in Eq. 9.38, by which we
 defined the electric susceptibility Xe as the ratio of electric polarization
 P to electric field E. We shall presently see that the analogy goes
@@ -1328,8 +1296,8 @@ atomic dipole to orient them is the same as the field that would exist
 there in the absence of the sample. However, we shall be interested
 in other systems in which the field of the magnetic moments is not
 small. Therefore we must study, just as we did in the case of electric
-polarization, the magnetic fields that magnetized matter itself pro-
-duces, both inside and outside the material.
+polarization, the magnetic fields that magnetized matter itself 
+produces, both inside and outside the material.
 
 \section{The magnetic field caused by magnetized matter}
 
@@ -1381,8 +1349,8 @@ does not vary appreciably from one tile to the next. Within that
 limitation, we can state that the field at any external point, even close
 to the slab, is the same as that of the current ribbon.
 
-It remains only to reconstruct a whole block from such lamina-
-tions, or slabs, as in Fig. 10.l7a. The entire block is then equivalent
+It remains only to reconstruct a whole block from such 
+laminations, or slabs, as in Fig. 10.l7a. The entire block is then equivalent
 to the wide ribbon in Fig. 10. 1712 around which flows a current Mc dz,
 
 in esu/ sec, in every strip dz, or, stated more simply, a surface current
@@ -1442,7 +1410,7 @@ the current sheath of Fig. 10.1%.
 It is instructive to compare the arguments we have just developed
 with our analysis of the corresponding questions in Chap. 9. Figure
 10.19 displays these developments side by side. You will see that
-they run logically parallel, but that at each stage there is a dilference
+they run logically parallel, but that at each stage there is a difference
 which reflects the essential asymmetry epitomized in the observation
 that electric charges are the source of electric fields, while moving
 electric charges are the source of magnetic fields. For example, in
@@ -1584,8 +1552,8 @@ compare it carefully with the electric field E of a uniformly polarized
 rod of the same shape.
 
 Figure 10.21 shows each of these solid cylinders in cross section.
-The polarization, in each case, is parallel to the axis, and it is uni-
-form. That is, the polarization P and the magnetization M have the
+The polarization, in each case, is parallel to the axis, and it is 
+uniform. That is, the polarization P and the magnetization M have the
 same magnitude and direction everywhere within their respective
 cylinders. In the magnetic case this implies that every cubic millimeter
 of the permanent magnet has the same number of lined-up
@@ -1684,9 +1652,8 @@ _  --- rc_ _ rc _ (1.0)
 
 B = 280 gauss (47)
 
-The approximation consists in treating the 0.3-cm-wide band of cur-
-
-rent as if it were concentrated in a simple ring. (In the corresponding
+The approximation consists in treating the 0.3-cm-wide band of 
+current as if it were concentrated in a simple ring. (In the corresponding
 approximation in the electrical example we treated the equivalent
 charge sheets as large compared to their separation.) As for
 the field at a distant point, it would be easy to compute it for the
@@ -1809,8 +1776,8 @@ magnetic field was historically preempted by H. This seems clumsy
 and pedantic. If you go into the laboratory and ask a physicist what
 causes the pion trajectories in his bubble chamber to curve, he'll
 probably answer ``magnetic field,'' not ``magnetic induction.'' You
-will seldom hear a geophysicist refer to the earth's magnetic induc-
-tion, or an astronomer talk about the magnetic induction in the
+will seldom hear a geophysicist refer to the earth's magnetic 
+induction, or an astronomer talk about the magnetic induction in the
 Galaxy. We propose to keep on calling B the magnetic field. As
 for H, although other names have been invented for it, we shall call
 it ``the field H,'' or even, ``the magnetic field H.''
@@ -1852,8 +1819,8 @@ macroscopic magnetic field inside the material would be H, not B,
 and the similarity of magnetic polarization to electric polarization
 would be complete.
 
-In the permanent magnet there are no free currents at all. Con-
-sequently, the line integral of H, according to Eq. 54, must be zero
+In the permanent magnet there are no free currents at all. 
+Consequently, the line integral of H, according to Eq. 54, must be zero
 around any closed path. You can see that it will be if the H lines
 really look like the E lines in Fig. l0.2la, for we know the line integral
 of that electrostatic field is zero around any closed path. In this
@@ -1890,8 +1857,8 @@ understanding of ferromagnetism has been achieved.
 
 We have already described some properties of ferromagnets. In
 a very strong magnetic field the force on a ferromagnetic substance
-is in such a direction as to pull it into a stronger field, as for para-
-magnetic materials, but instead of being proportional to the product
+is in such a direction as to pull it into a stronger field, as for 
+paramagnetic materials, but instead of being proportional to the product
 of the field B and its gradient, the force is proportional to the gradient
 itself. As we remarked at the end of Sec. 10.4, this suggests
 that if the field is strong enough, the magnetic moment acquired by
@@ -1922,15 +1889,15 @@ magnetization. We can deduce the saturation magnetization of iron
 from the data in the table (Sec. 10.11. In a field with a gradient of
 
 % p. 395
-1700 gauss/cm, the force on 1 gm of iron was 4 x 105 dynes. From
+1700 gauss/cm, the force on 1 g of iron was 4 x 105 dynes. From
 Eq. 18, which relates the force on a dipole to the field gradient, we find
 
 m _ F _ 4 x 105 dynes
 _ (dB/dz) _ 1700 gauss/cm
-= 235 ergs/gauss (for 1 gm) (58)
+= 235 ergs/gauss (for 1 g) (58)
 
 To get the moment per cubic centimeter we multiply m by the
-density of iron, 7.8 gm/cm3. The magnetization M is thus
+density of iron, 7.8 g/cm3. The magnetization M is thus
 
 M = 235 )< 7.8 = 1830 ergs/gauss-cm3 (59)
 
@@ -1984,7 +1951,7 @@ neat arrangement. Thermal energy is the enemy of order, so
 to speak. A crystal, an orderly arrangement of atoms, changes to a
 liquid, a much less orderly arrangement, at a sharply defined tem-
 perature, the melting point. The melting point, like the Curie point,
-is dilferent for different substances. The analogy goes deeper, but it
+is different for different substances. The analogy goes deeper, but it
 involves ideas that are better left for your study of heat and statistical
 physics in the latter part of the course. Let us concentrate here on
 the ordered state itself. Two or three questions are obvious:
@@ -2016,8 +1983,8 @@ atom A (Fig. 10.26) wants to have its spin in the same direction as
 that of its neighbors, atoms B, C, D, and E, and each of them prefers
 to have its spin in the same direction as the spins of its neighbors,
 including atom A, you can readily imagine that if a local majority
-ever develops there will be a strong tendency to ``make it unani-
-mous,'' and then the fad will spread.
+ever develops there will be a strong tendency to ``make it 
+unanimous,'' and then the fad will spread.
 
 % p. 397
 Answer 2: Accident somehow determines which of the various
@@ -2038,7 +2005,7 @@ hindrance that makes permanent magnets possible.
 
 Answer 3: An apparently unmagnetized piece of iron is actually
 composed of many domains, in each of which the spins are all lined
-up one way, but in a direction dilferent from that of the spins in
+up one way, but in a direction different from that of the spins in
 neighboring domains. On the average over the whole piece of
 ``unmagnetized'' iron, all directions are equally represented, so no
 large-scale magnetic field results. Even in a single crystal the magnetic
@@ -2053,10 +2020,9 @@ in one direction. The latter arrangement would be a permanent
 magnet with a strong field extending out into the space around it.
 The energy stored in this exterior field is larger than the energy
 needed to turn some small fraction of the spins in the crystal, namely
-those at a domain boundary, out of line with their immediate neigh-
-
-bors. The domain structure is thus the outcome of an energy-
-minimization contest.
+those at a domain boundary, out of line with their immediate 
+neighbors. The domain structure is thus the outcome of an 
+energy-minimization contest.
 
 If we wind a coil of wire around an iron rod, we can apply a magnetic
 field to the material by passing a current through the wire. In
@@ -2069,8 +2035,8 @@ This favors some domains over others; those that happen to have a
 
 favorably oriented moment direction"? will tend to grow at the expense
 of the others, if that is possible. A domain grows like a club,
-that is, by expanding its membership. This happens at the bound-
-aries. Spins belonging to an unfavored domain but located next to
+that is, by expanding its membership. This happens at the 
+boundaries. Spins belonging to an unfavored domain but located next to
 the boundary with a favored domain, simply switch allegiance by
 adopting the favored direction. That merely shifts the domain
 boundary, which is nothing more than the dividing surface between
@@ -2125,8 +2091,8 @@ The lower part of the B-H curve is governed by the motion of
 domain boundaries, that is by the growth of ``right-pointing'' domains
 at the expense of ``wrong-pointing'' domains. In the flattening
 part of the curve, the atomic moments are being pulled by ``brute
-force'' into line with the field. The iron here is an ordinary poly-
-crystalline metal, so only a small fraction of the microcrystals will
+force'' into line with the field. The iron here is an ordinary 
+polycrystalline metal, so only a small fraction of the microcrystals will
 be fortunate enough to have an ``easy'' direction lined up with the
 field direction.
 
@@ -2139,8 +2105,8 @@ we have said, but are well understood by physicists who work
 on ferromagnetism. The irreversibility is a nuisance, and a cause
 of energy loss in many technical applications of ferromagnetic
 materials --- for instance, in alternating-current transformers. But it
-is indispensable for permanent magnetization, and for such applica-
-tions, one wants to enhance the irreversibility. Figure 10.31 shows
+is indispensable for permanent magnetization, and for such 
+applications, one wants to enhance the irreversibility. Figure 10.31 shows
 the corresponding portion of the B-H curve for a good permanent
 magnet alloy. Notice that H has to become 600 oersteds in the
 reverse direction before B is reduced to zero. If the coil is simply
