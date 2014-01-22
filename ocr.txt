@@ -4735,7 +4735,7 @@ the symbol for electric potential, and ((1)1 - (pg) or 9012 for the difference
 of potential. In this section we shall use the symbol V, which
 is more common in the elementary physics of electric circuits, and
 comes, of course, from ``volts'' or ``voltage.'' (We had avoided V
-merely because it suggests so many different things: Volume, velocity,
+merely because it suggests so many different things: volume, velocity,
 voltage.)
 
 For a given piece of wire maintained at the same temperature, the
@@ -13606,7 +13606,7 @@ If the capacitor is filled with dielectric of dielectric constant c and
 charged to the same potential difference V, the work done will be
 greater by the factor £, because C is that much greater. However,
 E is the same. Therefore the energy to be associated with unit
-Volume in the dielectric is not E2/877, but (E2/8w. This can be generalized
+volume in the dielectric is not E2/877, but (E2/8w. This can be generalized
 to any electrostatic system. In place of Eq. 2.36 we have now:
 
 Energy = T177 5E2 do (74)

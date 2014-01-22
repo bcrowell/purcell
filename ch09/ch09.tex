@@ -1747,8 +1747,6 @@ in that case, so our theory isn't applicable. In fact, to make
 $4\pi N\alpha/3$ approach one, the atoms have to be so close together that
 our approximations are no good at all (see Prob. 9.30).
 
-\iffalse
-
 \section{Energy changes in polarization}
 
 To charge a capacitor to a potential difference $V$, work amounting
@@ -1759,39 +1757,35 @@ in Chap. 2 that in any electrostatic system the stored energy can be
 calculated by assigning $E^2/8\pi$ $\zu{erg}/\cmunit^3$ to the electric field. By way
 of review, the field strength $E$ in the parallel-plate vacuum capacitor,
 of plate area $A$ and separation $t$, is $V/ t$, so that 
-$(E^2/8\pi) \times \text{volume} = V^2A/8\pi t = $\frac{1}{2}CV^2$.
+$(E^2/8\pi) \times \text{volume} = V^2A/8\pi t = \frac{1}{2}CV^2$.
 
 If the capacitor is filled with dielectric of dielectric constant c and
-charged to the same potential difference V, the work done will be
-greater by the factor £, because C is that much greater. However,
-E is the same. Therefore the energy to be associated with unit
-Volume in the dielectric is not E2/877, but (E2/8w. This can be generalized
+charged to the same potential difference $V$, the work done will be
+greater by the factor $\epsilon$, because $C$ is that much greater. However,
+$E$ is the same. Therefore the energy to be associated with unit
+volume in the dielectric is not $E^2/8\pi$, but $\epsilon E^2/8\pi$. This can be generalized
 to any electrostatic system. In place of Eq. 2.36 we have now:
-
 \begin{equation}
+  \text{Energy} = \frac{1}{8\pi}\int\epsilon E^2\der v
 \end{equation}
-Energy = T177 5E2 do (74)
-
-How is the ``extra'' energy stored? Consider an isolated polar-
-izable molecule, to which an electric field can be applied. In Fig. 9.34
+How is the ``extra'' energy stored? Consider an isolated 
+polarizable molecule, to which an electric field can be applied. In Fig. 9.34
 the molecule is represented by two charges fastened to the ends of
-an elastic spring. Its dipole moment p is a vector of magnitude qs.
-The field E arises from some external source, such as the plates and
-battery shown in the figure. Suppose that while the field E is present,
-
+an elastic spring. Its dipole moment $\vc{p}$ is a vector of magnitude $qs$.
+The field $\vc{E}$ arises from some external source, such as the plates and
+battery shown in the figure. Suppose that while the field $\vc{E}$ is present,
 % p. 339
-the charges move apart by an increment ds. The dipole moment
-thereby changes from qs to q(s + ds). And there has been a motion
-of charge in the direction of E, equivalent to charge +q moving distance
-ds. (It doesn't matter whether one end moves, or both.)
-Hence work in amount Eq ds has been done on the molecule. The
+the charges move apart by an increment $\der s$. The dipole moment
+thereby changes from $qs$ to $q(s + \der s)$. And there has been a motion
+of charge in the direction of $\vc{E}$, equivalent to charge $+q$ moving distance
+$\der s$. (It doesn't matter whether one end moves, or both.)
+Hence work in amount $Eq\der s$ has been done on the molecule. The
 ultimate supplier of this work is the source of the field --- in Fig. 9.34
 the battery that maintains constant potential difference between the
-plates. If dW stands for the work done on the molecule, then
-
+plates. If $\der W$ stands for the work done on the molecule, then
 \begin{equation}
+  \der W = Eq\der s = \vc{E}\cdot\der\vc{p}
 \end{equation}
-dW=Eqds:E-dp (75)
 
 The stored energy that corresponds to this can be found in two
 places, in the elastic spring which has been stretched to a greater
@@ -1802,23 +1796,24 @@ It is all energy belonging to the molecular structure, and if we were
 to look into that dynamic structure we should find the energy as
 electrostatic potential energy and kinetic energy of electron motion.
 The point is simply this: The work that has been done on the molecule
-to change its polarization, E - dp, has increased by just that much
+to change its polarization, $\vc{E}\cdot\der\vc{p}$, has increased by just that much
 the energy tied up in the molecule itself.
 
 Let us see how much of the energy stored in the dielectric can be
-accounted for in this way. With N molecules per unit volume,
-P = Np. When P changes by dP, then E - dP is the increase in internal
-energy of the molecules in 1 cm3. But since P = (c  ---  l)E/47r,
-
+accounted for in this way. With $N$ molecules per unit volume,
+$\vc{P} = N\vc{p}$. When $\vc{P}$ changes by $\der\vc{P}$, then $\vc{E}\cdot\der\vc{p}$
+is the increase in internal
+energy of the molecules in $1\ \cmunit^3$. But since $\vc{P}=(\epsilon-1)\vc{E}/4\pi$,
 \begin{equation}
+  \vc{E}\cdot\der\vc{p} = \frac{1}{4\pi}(\epsilon-1)\vc{E}\cdot\der\vc{E}
+                        = \frac{1}{8\pi}(\epsilon-1)\der(E^2)
 \end{equation}
-E-dP : La _ 1)E-dE = Lg _ 1)d(E2) (76)
-477 877'
-
-Therefore, of the (E2/877 ergs which appear to be stored in the dielec-
-tric, (c  ---  1)E2/877 can be accounted for as increased internal energy
-of the polarized molecules. The remainder, E2/877, is just the energy
+Therefore, of the $\epsilon E^2/8\pi$ ergs which appear to be stored in the 
+dielectric, $(\epsilon-1)E^2/8\pi$ can be accounted for as increased internal energy
+of the polarized molecules. The remainder, $E^2/8\pi$, is just the energy
 stored in the vacuum field.
+
+\iffalse
 
 \section{Dielectrics made of polar molecules}
 
