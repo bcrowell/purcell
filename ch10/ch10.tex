@@ -334,221 +334,186 @@ Ampere, his idea that magnetism in matter is to be accounted for by
 a multitude of tiny rings of electric current distributed through the
 substance.
 
-\iffalse
-
 \section{The field of a current loop}
 
-A closed conducting loop lies in the xy plane encircling the origin,
-as in Fig. l0.4a. A steady current I, measured in esu/sec, flows
+A closed conducting loop lies in the $xy$ plane encircling the origin,
+as in Fig. l0.4a. A steady current $I$, measured in esu/sec, flows
 around the loop. We are interested in the magnetic field this current
-creates --- not near the loop, but at distant points like P1 in the figure.
-We shall assume that r1, the distance to P1, is much larger than any
-dimension of the loop. To simplify the diagram we have located P1
-in the gz plane; it will turn out that this is no restriction. This is a
+creates --- not near the loop, but at distant points like $P_1$ in the figure.
+We shall assume that $r_1$, the distance to $P_1$, is much larger than any
+dimension of the loop. To simplify the diagram we have located $P_1$
+in the $yz$ plane; it will turn out that this is no restriction. This is a
 good place to use the vector potential. We shall compute first the
-vector potential A at the location P1, that is, A(0,y1,z1). From this
+vector potential $\vc{A}$ at the location $P_1$, that is, $\vc{A}(0,y_1,z_1)$. From this
 it will be obvious what the vector potential is at any other point
-
-(x,y,z) far from the loop. Then by taking the curl of A we shall get
-the magnetic field B.
+$(x,y,z)$ far from the loop. Then by taking the curl of $\vc{A}$ we shall get
+the magnetic field $\vc{B}$.
 
 For a current confined to a wire, we had, as Eq. 6.35:
-/
-1 fl
-
-A(0'y1'z1) = F Loop T12
-
-(2)
-
+\begin{equation}
+  \vc{A}(0,y_1,z_1) = \frac{I}{c}\int_\text{Loop} \frac{\der\bell_2}{r_{12}}
+\end{equation}
 At that time we were concerned only with the contribution of a small
 segment of the circuit; now we have to integrate around the entire
-loop. Consider the variation in the denominator r12 as we go around
-the loop. If P1 is far away, the first-order variation in r12 depends
-only on the coordinate yg of the segment dlg, and not on x2. This
+loop. Consider the variation in the denominator $r_{12}$ as we go around
+the loop. If $P_1$ is far away, the first-order variation in $r_{12}$ depends
+only on the coordinate $y_2$ of the segment $\der\bell_2$, and not on $x_2$. This
 should be clear from the side view sketched in Fig. 10.4b. Thus,
-neglecting quantities proportional to (x2/r12)2, we may treat rm
-and r{2, which lie on top of one another in the side view, as equal.
-And in general, to first order in the ratio (loop dimension/distance
-to P1) we have
+neglecting quantities proportional to $(x_2/r_{12})^2$, we may treat $r_{12}$
+and $r'_{12}$, which lie on top of one another in the side view, as equal.
+And in general, to first order in the ratio 
+$(\text{loop dimension}/\text{distance to $P_1$})$ we have
+\begin{equation}
+  r_{12} \approx r_1 - y_2\sin\theta
+\end{equation}
 
-T12Z1‘1  ---  yg SlI10 
-
-Look now at the two elements of the path dlg and dlé, shown in
-Fig. 10.4a. For these the dy2's are equal and opposite, and as we
-have already pointed out, the r12's are equal to first order. To this
-
-% p. 362
-V\\\\\\\\\§
-V\\\\\\\\\\\\\\\\\\\\\\\\\.
-
-66
-VV
-SS
-00
-pp
-xzh
-d
-
+Look now at the two elements of the path $\der\bell_2$ and $\der\bell_2'$, shown in
+Fig. 10.4a. For these the $\der y_2$'s are equal and opposite, and as we
+have already pointed out, the $r_{12}$'s are equal to first order. To this
 % p. 363
 order then, their contributions to the line integral will cancel, and
-this will be true for the whole loop. Hence A at P1 will not have a
-y component. Obviously it will not have a z component, for the
-current path itself has nowhere a z component. The x component
-
-of the vector potential comes from the dx part of the path integral.
+this will be true for the whole loop. Hence $\vc{A}$ at $P_1$ will not have a
+$y$ component. Obviously it will not have a $z$ component, for the
+current path itself has nowhere a $z$ component. The $x$ component
+of the vector potential comes from the $\der x$ part of the path integral.
 Thus
-
-Am%m=#-@- m
-C T12
-
+\begin{equation}
+  \vc{A}(0,y_1,z_1) = \xhat\frac{I}{c}\int\frac{\der x_2}{r_{12}}
+\end{equation}
 Without spoiling our first-order approximation, we can turn Eq. 3
 into
-
-;:;O+mm% m
-712 7'1 T1
-
+\begin{equation}
+  \frac{1}{r_{12}} \approx \frac{1}{r_1}\left(1+\frac{y_2\sin\theta}{r_1}\right)
+\end{equation}
 and using this for the integrand we have
-
-Amymo=2l --- (L+W````%dm (o
-
-crl r1
-
-In the integration r1 and 0 are constants. Obviouslyfdxg around
-the loop vanishes. Now I yg dxg around the loop is just the area
+\begin{equation}
+  \vc{A}(0,y_1,z_1) = \xhat\frac{I}{cr_1}\int \left(1+\frac{y_2\sin\theta}{r_1}\right)\der x_2
+\end{equation}
+In the integration $r_1$ and $\theta$ are constants. Obviously $\int\der x_2$ around
+the loop vanishes. Now $\int y_2\der x_2$ around the loop is just the area
 of the loop, regardless of its shape (see Fig. l0.4c). So we get finally
+\begin{equation}
+  \vc{A}(0,y_1,z_1) = \xhat\frac{I\sin\theta}{cr_1^2}\times(\text{area of loop})
+\end{equation}
 
-A(0,y1,z1) = ,2 1:312'' x (area ofloop) (7)
-
-Here is a simple but crucial point: Since the shape of the loop
-hasn't mattered, our restriction of P1 to the yz plane can't make any
+Here is a simple but crucial point: Since the \emph{shape} of the loop
+hasn't mattered, our restriction of $P_1$ to the $yz$ plane can't make any
 essential difference. Therefore we must have in Eq. 7 the general
-result we seek, if only we state it generally: The vector potential of
-a current loop of any shape, at a distance r from the loop which is
+result we seek, if only we \emph{state} it generally: The vector potential of
+a current loop of any shape, at a distance $r$ from the loop which is
 much greater than the size of the loop, is a vector perpendicular to
-
-the plane containing r and the normal to the plane of the loop, of
+the plane containing $\vc{r}$ and the normal to the plane of the loop, of
 magnitude
-
-or?
-
-where a stands for the area of the loop.
+\begin{equation}
+  A = \frac{Ia\sin\theta}{cr^2}
+\end{equation}
+where $a$ stands for the area of the loop.
 
 This vector potential is symmetrical around the axis of the loop,
-which implies that the field B will be symmetrical also. The explanation
+which implies that the field $\vc{B}$ will be symmetrical also. The explanation
 is that we are considering regions so far from the loop that the
 details of the shape of the loop have negligible influence. All loops
-
 % p. 364
- 
-
-with the same current x area product produce the same far field.
-We call the product Ia/c the magnetic dipole moment of the current
-loop, and denote it by m. The magnetic dipole moment is evidently
+with the same $\text{\emph{current}} \times \text{\emph{area}}$ product produce the same far field.
+We call the product $Ia/c$ the \intro{magnetic dipole moment} of the current
+loop, and denote it by $\vc{m}$. The magnetic dipole moment is evidently
 a vector, its direction being that of the normal to the loop, or that
-of the Vector a, the directed area of the patch surrounded by the loop
-
-I
-=  ---  9
-In C a ( )
-As for sign, we‘ agree that the direction of m and the sense of positive
+of the vector $\vc{a}$, the directed area of the patch surrounded by the loop
+\begin{equation}
+  \vc{m} = \frac{I}{c}\vc{a}
+\end{equation}
+As for sign, we agree that the direction of $\vc{m}$ and the sense of positive
 current flow in the loop are to be related by a right-hand-screw rule,
 illustrated in Fig. 10.5. (The dipole moment of the loop in Fig. 10.4a
 points downward, according to this rule.) The vector potential for
-
-the field of a magnetic dipole in can now be written neatly with
+the field of a magnetic dipole $\vc{m}$ can now be written neatly with
 vectors:
-
-(10)
-
-where fr is a unit vector in the direction from the loop to the point for
-which A is being computed. You can check that this agrees with
-our convention about sign. Note that the direction of A must always
-be that of the current in the nearest part of the loop.
+\begin{equation}
+  \vc{A} = \frac{\vc{m}\times\rhat}{r^2}
+\end{equation}
+where $\rhat$ is a unit vector in the direction \emph{from} the loop \emph{to} the point for
+which $\vc{A}$ is being computed. You can check that this agrees with
+our convention about sign. Note that the direction of $\vc{A}$ must always
+be that of the current in the \emph{nearest} part of the loop.
 
 Figure 10.6 shows a magnetic dipole located at the origin, with the
-dipole moment vector m pointed in the positive z direction. To express
-the vector potential at any point (x,y,z), we observe that
-r2 : x2 + y? + 2:2, and sin 0 = \/2fij --- 1 --- g;7/r. The magnitude A of
+dipole moment vector $\vc{m}$ pointed in the positive $z$ direction. To express
+the vector potential at any point $(x,y,z)$, we observe that
+$r^2 = x^2 + y^2 + z^2$, and $\sin\theta=\sqrt{x^2 + y^2}/r$. The magnitude $A$ of
 the vector potential at that point is
-
-A: msin0 = my/x:3+ y2 (11)
-
-T2
-
+\begin{equation}
+  A = \frac{m\sin\theta}{r^2} = \frac{m\sqrt{x^2 + y^2}}{r^3}
+\end{equation}
 % p. 365
-Since A is tangent to a horizontal circle around the z axis, its components
+Since $\vc{A}$ is tangent to a horizontal circle around the $z$ axis, its components
 are:
+\begin{align}
+\begin{split}
+  A_x &= A \left(\frac{-y}{\sqrt{x^2+y^2}}\right) = \frac{-my}{r^3} \\
+  A_y &= A \left(\frac{x}{\sqrt{x^2+y^2}}\right) = \frac{mx}{r^3} \\
+  A_z &= 0
+\end{split}
+\end{align}
 
-A,=A(j_``?/ )=__``m?/
-\/x2 + g2 13
-Av = A  W'
-
-Az=0
-
-Let's evaluate B for a point in the xz plane, by finding the components
-of curl A and then (not before!) setting y = O.
-
-B _(VXA) _6Az_8A,,__i mx _3mxz
-I _ I  --- _ By az _ az (x2 + g2 + z2)3/2 _ r5
-EA, BA; 8 - --- my 3myz
-B = V A :  ---  =  ---  ---  --- jj ---  ---  2
-‘U ( x )9 az fix Bz (x2 + g2 + z2)3/2 15
-Bz=(VxA) =BA,,_aA,
-2 Bx Ely
-:m[ --- 2x2+y2+z2 + x2 ---  --- 2y2+z2]
-(x2 + y2 + z2)5/2 (x2 + y2 + z2)5/2
-
-m(3z2  ---  r2)
-
-,5 (13)
-
-In the xz plane, y = 0, sin 0 = x/r, and cos 0 = z/r. The field components
+Let's evaluate $\vc{B}$ for a point in the $xz$ plane, by finding the components
+of $\curl\vc{A}$ and then (not before!) setting $y = 0$.
+\begin{align}
+\begin{split}
+  B_x &= (\grad\times\vc{A})_x 
+       = \frac{\partial A_z}{\partial y} - \frac{\partial A_y}{\partial z} 
+       = -\frac{\partial}{\partial z} \frac{mx}{(x^2+y^2+z^2)^{3/2}}
+       = \frac{3mxz}{r^5} \\
+  B_y &= (\grad\times\vc{A})_y
+       = \frac{\partial A_x}{\partial z} - \frac{\partial A_z}{\partial x} 
+       = \frac{\partial}{\partial z} \frac{-mx}{(x^2+y^2+z^2)^{3/2}}
+       = \frac{3myz}{r^5} \\
+  B_z &= (\grad\times\vc{A})_z
+       = \frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y} \\
+       &= m\left[
+                 \frac{-2x^2+y^2+z^2}{(x^2+y^2+z^2)^{5/2}}
+                +\frac{x^2-2y^2+z^2}{(x^2+y^2+z^2)^{5/2}}
+          \right]\\
+       &= \frac{m(3z^2-r^2)}{r^5}
+\end{split}
+\end{align}
+In the $xz$ plane, $y = 0$, $\sin \theta = x/r$, and $\cos \theta = z/r$. The field components
 at any point in that plane are thus given by:
-
-_ 3m sin 0 cos 0
-
-B,_ 13
-By = 0 (14)
-Bz = m(3 cos? 0  ---  1)
-13
+\begin{align}
+\begin{split}
+  B_x &= \frac{3m\sin\theta\cos\theta}{r^3} \\
+  B_y &= 0 \\
+  B_z &= \frac{m(3\cos^2\theta-1)}{r^3} 
+\end{split}
+\end{align}
 
 Now turn back to Sec. 9.3, where in Eq. 9.14 we had expressed
-the components in the xz plane of the field E of an electric dipole p,
-which was situated exactly like our magnetic dipole m. The expressions
+the components in the $xz$ plane of the field $\vc{E}$ of an electric dipole $\vc{p}$,
+which was situated exactly like our magnetic dipole $\vc{m}$. The expressions
 are identical. We have thus found that the magnetic field of a
 small current loop has at remote points the same form as the electric
 field of two separated charges. We already know what that field,
 the electric dipole field, looks like. Figure 10.7 is an attempt to
-suggest the three-dimensional form of the magnetic field B arising
-from our current loop with dipole moment In.
+suggest the three-dimensional form of the magnetic field $\vc{B}$ arising
+from our current loop with dipole moment $\vc{m}$.
 
 % p. 366
- 
 
-Tlle  ficldilef a  dof Gill, lllghdllllgppositi
-ay it becomes the field of an electric dipole.
-
-ic field of a current ring. Far away it becomes the
-
-;ic dipole.
-.4 9 S VT‘, 5 , . _ . 4'
-
-% p. 367
-The magnetic field close to a current loop is entirely different from
+The magnetic field \emph{close} to a current loop is entirely different from
 the electric field close to a pair of separated positive and negative
 charges, as the comparison in Fig. 10.8 shows. Notice that between
 the charges the electric field points down, while inside the current
 
 ring the magnetic field points up, although the far fields are alike.
-This reflects the fact that our magnetic field satisfies V - B = 0 
-everywhere, even inside the source. The magnetic field lines don't end.
+This reflects the fact that our magnetic field satisfies $\grad\cdot\vc{B}$
+everywhere, even \emph{inside the source}. The magnetic field lines don't end.
 By near and far we mean, of course, relative to the size of the current
 loop or the separation of the charges. If we imagine the current ring
 shrinking in size, the current meanwhile increasing so that the dipole
-moment m = Ia/c remains constant, we approach the infinitesimal
-
+moment $m = Ia/c$ remains constant, we approach the infinitesimal
 magnetic dipole, the counterpart of the infinitesimal electric dipole
 described in Chap. 9.
+
+\iffalse
 
 \section{The force on a dipole in an external field}
 
@@ -586,13 +551,17 @@ Now B, can be directly related to the gradient of Bz. Since
 div B = O at all points, the net flux of magnetic field out of any
 volume is zero. Consider the little cylinder of radius r and height Az
 (Fig. 10.10). The outward flux from the side is 27rr(Az)B, and the
-net outward flux from the end surfaces is .
+net outward flux from the end surfaces is 
+\begin{equation}
+\end{equation}
 
 7rr2[ --- Bz(z) + B,(z + Az)]
 
 which to the first order in the small distance Az is 7rr2(2)Bz/az) A2.
 Setting the total flux equal to zero: 0 = 7rr2(aBz/az) Az + 2vrrB, Az,
 which gives us the relation,
+\begin{equation}
+\end{equation}
 
 BT=_LBBz
 
@@ -606,6 +575,8 @@ be correct.
 The force on the dipole can now be expressed in terms of the
 gradient of the component B; of the external field:
 
+\begin{equation}
+\end{equation}
 F_27rrI_18Bz_ 7rr2I.8Bz
  ---  c 2 Bz _ c 8;'
 
@@ -614,6 +585,8 @@ F_27rrI_18Bz_ 7rr2I.8Bz
 In the factor 7rr2I/c we recognize the magnitude m of the magnetic
 dipole moment of our current ring. So the force on the ring can be
 expressed very simply in terms of the dipole moment:
+\begin{equation}
+\end{equation}
 
 8B,,
 62:
@@ -648,6 +621,8 @@ that is experienced in the general case. It would be exactly like the
 general formula we gave, as Eq. 9.22, for the force on an electric
 dipole in a nonuniform electric field. That is, the x component of
 force on any magnetic dipole m is given by
+\begin{equation}
+\end{equation}
 
 F, = m-grad B, (19)
 
@@ -659,6 +634,8 @@ Eq. 9, m = Ia/c where I is in esu/ sec, a in square centimeters, and c
 in cm/ sec. There are several equivalent ways to express the units
 of m. We shall adopt ``ergs/gauss.'' As you can see from Eq. 18,
 
+\begin{equation}
+\end{equation}
 dynes _ dyne --- cm __ ergs
 
 m : (gauss/cm) _ gauss _ gauss
@@ -689,15 +666,6 @@ the physics of diamagnetism and paramagnetism.
 
 % p. 370
  
-
- 
-
-  
-
- 
-
- 
-
 \section{Electric currents in atoms}
 
 We know that an atom consists of a positive nucleus surrounded
@@ -731,6 +699,8 @@ Fig. l0.11b, to make a uniform endless procession. The current is
 the amount of charge that passes a given point on the ring, per
 second. Since the electron makes v/2771 revolutions per second, the
 current, in esu/sec if e is in esu, is
+\begin{equation}
+\end{equation}
 
 I = L'' 20
 
@@ -739,6 +709,8 @@ The orbiting electron is equivalent to a ring current of this magnitude
 with the direction of positive flow opposite to v, as shown in
 Fig. l0.llc. Its far field is therefore that of a magnetic dipole. of
 strength
+\begin{equation}
+\end{equation}
 
 7rr2I evr
 
@@ -754,6 +726,8 @@ downward if the electron is revolving in the sense shown in
 
 Fig. 10.1la. Notice that the product or occurs in both m and L.
 With due regard to direction, we can write:
+\begin{equation}
+\end{equation}
 
 in: ‘E L (22)
 Zrnec
@@ -768,6 +742,8 @@ of the motion. It follows then, from the general relation expressed
 by Eq. 22 (derived by us only for a special case), that where-
 ever angular momentum is conserved, the magnetic moment also
 remains constant in magnitude and direction. The factor
+\begin{equation}
+\end{equation}
 
  ---  e
 Zmec
@@ -798,15 +774,6 @@ we here consider, and because we have been using J for current density.
 magnetomechanical ratio, as used in Vol. 1, Chap. 8.
 
 % p. 372
-E
-l
-E
-E
-z,
-E
-3
-i
-i
 
 We may picture a piece of matter, in the absence of any external
 magnetic field, as containing revolving electrons with their various
@@ -823,6 +790,8 @@ electric charge q, tethered to a fixed point by a cord of fixed length r.
 This cord provides the centripetal force that holds the object in its
 circular orbit. The magnitude of that force F0 is given, as we
 know, by
+\begin{equation}
+\end{equation}
 
 M002
 1'
@@ -836,6 +805,8 @@ at any given time. While this field is growing at the rate dB/dt, there
 will be an induced electric field E all around the path, as indicated in
 Fig. 10.1219. To find the magnitude of this field E we note that the
 rate of change of flux through the circular path is
+\begin{equation}
+\end{equation}
 
 (24)
 
@@ -843,10 +814,14 @@ This determines the line integral of the electric field, which is really all
 
 that matters (we only assume for symmetry and simplicity that it
 is the same all around the path).
+\begin{equation}
+\end{equation}
 
 fE-dl=''Tfl‘fT1:=2wrE (25)
 
 Thus we find that
+\begin{equation}
+\end{equation}
 
 E rdB
 
@@ -862,6 +837,8 @@ determined by the force qE:
 
 so that we have a relation between the change in v and the change
 in B:
+\begin{equation}
+\end{equation}
 
 _ ‘V
 dv _. 2M0 dB (28)
@@ -869,6 +846,8 @@ dv _. 2M0 dB (28)
 The radius r being fixed by the length of the cord, the factor (qr/2Mc)
 is a constant. Let Av denote the net change in v in the whole process
 of bringing the field up to the final value B1. Then:
+\begin{equation}
+\end{equation}
 
 _ u0+Av _ qr B1 _ qrB1 29
 A0 -1.10 do _ 2Mcjt> dB_ 2Mc ( )
@@ -883,6 +862,8 @@ circumstances, which would have decreased its downward moment. In
 either case, then, the application of the field B1 has brought about
 a change in magnetic moment opposite to the field. The magnitude
 of the change in magnetic moment Am, is
+\begin{equation}
+\end{equation}
 
 _ _ qr _ q2,.2
 Am _ ?c --- Av _  ---  ---  --- 4MC2
@@ -898,6 +879,8 @@ to the change in applied magnetic field. Figure 10.13 shows this for
 
 a positive charge. It appears that the following relation holds for
 either sign of charge and either direction of revolution:
+\begin{equation}
+\end{equation}
 
 22
 q1'
@@ -910,6 +893,8 @@ In this example we forced r to be constant by using a cord of fixed
 length. Let us see how the tension in the cord has changed. We
 shall assume that B1 is small enough so that Av < 00. In the final
 state we require a centripetal force of magnitude:
+\begin{equation}
+\end{equation}
 
 _ M(u0 + Av)? M1302 + 2Mv0 Av
 
@@ -939,6 +924,8 @@ by the Coulomb attraction of a nucleus for an electron. Or it could
 be the effective force that acts on one electron in an atom containing
 many electrons, which has a still diflerent dependence on radius.
 
+\begin{equation}
+\end{equation}
 q(vo + Av) _ 2Mc Av
 
 % p. 375
@@ -953,6 +940,8 @@ be visualized in this way: Every electron continues to revolve at the
 same radius, but its angular velocity, which had been :00/r, depending
 on its sense of revolution, has added to it a small increment
 Aw = Av/r. According to Eq. 29 the value of this increment is
+\begin{equation}
+\end{equation}
 
 Av eB
 A : T :-
@@ -991,6 +980,8 @@ the number of electrons per gram, n, is about the same as in a sub-
 
 % p. 376
 stance of atomic weight 2 and atomic number 1, namely:
+\begin{equation}
+\end{equation}
 
 n z  ---  --- 6 X21023 = 3 x 1023 (34)
 For r we shall put in 0.5 x l0‘8 cm, a distance you will become very
@@ -1000,6 +991,8 @@ For M we substitute the electron mass me. The magnetic field
 strength at the location of the sample was 18,000 gauss. Then the
 total magnetic moment induced in one gram of almost anything
 should be, roughly:
+\begin{equation}
+\end{equation}
 
 ne2r2B
 4mec2
@@ -1024,6 +1017,8 @@ We had better make sure that our assumption Av < 00 is fulfilled
 in this situation. Putting the same numbers into Eq. 29, we can
 estimate Av:
 
+\begin{equation}
+\end{equation}
 Av _ erB _ (4.8 x 10-10)(0.5 x 10‘8)(18,O00)
 ‘ Zmec ‘ 2(9 x 10-28) (3 x 1010)
 
@@ -1091,12 +1086,7 @@ field with which we are already familiar.
 Since the magnitude of the spin magnetic moment is always the
 same, the only thing an external field can influence is its direction.
 A magnetic dipole in an external field experiences a torque. If you
-
 % p. 378
- 
-
- 
-
 worked through Prob. 6.22, you proved that the torque N on a current
 loop of any shape, with dipole moment m, in a field B, is given by
 
@@ -1109,6 +1099,8 @@ wires. Each of these forces has the magnitude F = IbB/c, and its
 moment arm is"the distance (a/ 2) sin 0. We see that the magnitude
 
 of the torque on the loop is
+\begin{equation}
+\end{equation}
 
 N: 2'''7B-%sino = (%)13sino = mBsin0 (38)
 
@@ -1138,7 +1130,6 @@ over ten pounds!
 Obviously this is much greater than the force recorded for any of
 the paramagnetic samples. The explanation is that the alignment
 of the electron moments is very far from perfect. Thermal agitation
-
 % p. 379
 tends always to create a chaotic, or random, distribution of spin-axis
 directions. The degree of alignment that actually prevails represents
@@ -1213,6 +1204,8 @@ magnetization M and magnetic field B have similar dimensions.T
 To verify that, recall that the field B of a magnetic dipole is given by
 magnetic dipole moment
 
+\begin{equation}
+\end{equation}
 (distance)3
 magnetic dipole moment
 
@@ -1283,17 +1276,14 @@ The slab can be divided into little tiles. One such tile, which has a
 top surface of area da, contains a total dipole moment amounting to
 M da dz, since M is the dipole moment per unit volume (Fig. 10.1619).
 The magnetic field this tile produces at all distant points --- distant
-
 % p. 382
- 
-
- 
-
 compared to the size of the tile --- is just that of any dipole with the
 same magnetic moment. We could construct a dipole of that
 strength by bending a conducting ribbon of width dz into the shape
 of the tile, and sending around this loop a current I = M0 dz (Fig.
 10.160). That will give the loop a dipole moment:
+\begin{equation}
+\end{equation}
 
 m=Lxarea= Mcdz
 c a
@@ -1320,6 +1310,8 @@ to the wide ribbon in Fig. 10. 1712 around which flows a current Mc dz,
 
 in esu/ sec, in every strip dz, or, stated more simply, a surface current
 of density <9, in (esu/sec)/cm, given by
+\begin{equation}
+\end{equation}
 
 é] = M0 (41)
 
@@ -1337,7 +1329,6 @@ in both magnitude and direction between points only a few angstroms
 apart. This microscopic field B is simply a magnetic field in vacuum,
 for from the microscopic viewpoint, as we emphasized in Chap. 9,
 matter is a collection of particles and electric charge in otherwise
-
 % p. 383
 empty space. The only large-scale field that can be uniquely defined
 inside matter is the spatial average of the microscopic field.
@@ -1386,6 +1377,8 @@ the assumption that div B = 0 for the microscopic magnetic field.
 
 % p. 384
 is equivalent to:
+\begin{equation}
+\end{equation}
 
      
 
@@ -1451,6 +1444,8 @@ If the magnetization M within a volume of material is not uniform
 
 but instead varies with position as M(x,y,z), the equivalent current
 distribution is given simply by
+\begin{equation}
+\end{equation}
 
 J = c curl M (42)
 
@@ -1475,6 +1470,8 @@ x direction of magnitude AI (Fig. 10.20c). To get the current per
 
 unit area flowing in the x direction we have to multiply by the number
 of blocks per unit area, which is l/(Ag Az). Thus
+\begin{equation}
+\end{equation}
 
 AI: cAzAMz: cAz
 
@@ -1483,15 +1480,23 @@ Ag (43)
 1 8M
 J = A1( ) 2 6 44
 3'' Ag Az 0 0y ( )
+
+\begin{equation}
+\end{equation}
+
 Another way of getting an x-directed current is to have a y component
 of magnetization that varies in the z direction. If you trace
 through that case, using a vertical column of blocks, you will find
 that the net x-directed current density is given by
+\begin{equation}
+\end{equation}
 
 8M,
 4, 2  ---  45
 J c az ( )
 in general then, by superposition of these two situations,
+\begin{equation}
+\end{equation}
 J,, = c  _ 33:'') = c(curl M), (46)
 
 which is enough to establish Eq. 42.
@@ -1555,7 +1560,6 @@ is that of two disks of charge, one at each end of the cylinder.
 
 Observe that the interior fields E and B are essentially different
 in form: B points to the right, is continuous at the ends of the
-
 % p. 388
 cylinder, and suffers a sharp change in direction at the cylindrical
 surface. E points to the left, passes through the cylindrical surface
@@ -1611,6 +1615,8 @@ rather more current than you draw by short-circuiting an automobile
 battery! The field B at any point in space, including points inside
 the disk, is simply the field of this band of current. For instance,
 near the center of the disk, B is approximately:
+\begin{equation}
+\end{equation}
 
 _ 27rI _ 277(0.3cM) _ 277(O.3)(l50)
 _  --- rc_ _ rc _ (1.0)
@@ -1640,6 +1646,8 @@ and stopped with a switch and measured with an ammeter.
 
 The current density J in Eq. 42 is the macroscopic average of the
 bound currents, so let us henceforth label it Jbound:
+\begin{equation}
+\end{equation}
 
 Jbound : c curl M (48)
 
@@ -1656,21 +1664,31 @@ currents. If we bring these into the picture, the field they produce
 
 simply adds on to the field caused by the magnetized matter and
 we have
+\begin{equation}
+\end{equation}
 
 Curl B = i(:‘7T_(Jbound ‘l' Jfree) ,: 4777 Jtotal 
 
 Let us express Jbound in terms of M, through Eq. 48. Then Eq. 49
 becomes
+\begin{equation}
+\end{equation}
 
 curl B = 47''(c curl M) + 4T''J,,,, (50)
 which can be rearranged as
+\begin{equation}
+\end{equation}
 curl (B  ---  477M) = 4T''J,,,, (51)
 
 If we now define a vector function H(x,y,z) at every point in space
 by the relation
+\begin{equation}
+\end{equation}
 
 H = B  ---  47rM (52)
 Eq. 51 can be written
+\begin{equation}
+\end{equation}
 curl H = 4T7TJ;,ee (53)
 
 In other words, the vector H, defined by Eq. 52, is related to the
@@ -1699,6 +1717,8 @@ rule, over magnetization, and hence over B. So the auxiliary vector
 H is useful, even if D is not.
 
 The integral relation equivalent to Eq. 53 is
+\begin{equation}
+\end{equation}
 . _ .41 . _ fl
 fCH d1. 0 SJfree da ---  0 Ifree (54)
 
@@ -1769,6 +1789,8 @@ We should note here too that the accepted definition of the volume
 
 magnetic susceptibility X", is not the logically preferable one given
 in Eq. 39, but rather:
+\begin{equation}
+\end{equation}
 
 M = X,,,H (55)
 
@@ -1796,12 +1818,16 @@ come about will be explained in the next section.
 
 For any material in which M is proportional to H, so that Eq. 55
 applies as well as the basic relation, Eq. 52, we have:
+\begin{equation}
+\end{equation}
 
 B = H + 477M = (1 + 47rx,,,)H (56)
 
 B is then proportional to H. The factor of proportionality,
 (1 + 47rX,,,). is called the magnetic permeability and denoted usually
 by it:
+\begin{equation}
+\end{equation}
 
 B = pH (57)
 
@@ -1856,6 +1882,8 @@ from the data in the table (Sec. 10.11. In a field with a gradient of
 % p. 395
 1700 gauss/cm, the force on 1 g of iron was 4 x 105 dynes. From
 Eq. 18, which relates the force on a dipole to the field gradient, we find
+\begin{equation}
+\end{equation}
 
 m _ F _ 4 x 105 dynes
 _ (dB/dz) _ 1700 gauss/cm
@@ -1863,6 +1891,8 @@ _ (dB/dz) _ 1700 gauss/cm
 
 To get the moment per cubic centimeter we multiply m by the
 density of iron, 7.8 g/cm3. The magnetization M is thus
+\begin{equation}
+\end{equation}
 
 M = 235 )< 7.8 = 1830 ergs/gauss-cm3 (59)
 
