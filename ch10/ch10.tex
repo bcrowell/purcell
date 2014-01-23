@@ -513,85 +513,67 @@ moment $m = Ia/c$ remains constant, we approach the infinitesimal
 magnetic dipole, the counterpart of the infinitesimal electric dipole
 described in Chap. 9.
 
-\iffalse
-
 \section{The force on a dipole in an external field}
 
-Consider a small circular current loop of radius r, placed in the
+Consider a small circular current loop of radius $r$, placed in the
 magnetic field of some other current system, such as a solenoid. In
-Fig. 10.9, a field B is drawn that is generally in the z direction. It is
+Fig. 10.9, a field $\vc{B}$ is drawn that is generally in the $z$ direction. It is
 not a uniform field. Instead, it gets weaker as we proceed in the
-z direction; that is evident from the fanning out of the field lines.
+$z$ direction; that is evident from the fanning out of the field lines.
 Let us assume, for simplicity, that the field is symmetric about the
-z axis. Then it resembles the field near the upper end of the solenoid
-in Fig. 10.1. The field represented in Fig. 10.9 does not include the
+$z$ axis. Then it resembles the field near the upper end of the solenoid
+in Fig. 10.1. The field represented in Fig. 10.9 does \emph{not} include the
 magnetic field of the current ring itself. We want to find the force
-
 on the current ring caused by the other field, which we shall call, for
 want of a better name, the external field. The net force on the current
-ring due to its own field is certainly zero, so we are free to ignore
+ring due to its \emph{own} field is certainly zero, so we are free to ignore
 its own field in this discussion.
 
 If you study the situation in Fig. 10.9 you will soon conclude that
 there is a net force on the current ring. It arises because the external
-field B has an outward component B, everywhere around the ring.
+field $\vc{B}$ has an \emph{outward} component $B_r$, everywhere around the ring.
 Therefore if the current flows in the direction indicated, each element
-of the loop, dl, must be experiencing a downward force of magnitude
-IB, dl/c. If B, has the same magnitude at all points on the
+of the loop, $\der\bell$, must be experiencing a downward force of magnitude
+$I B_r\der\ell/c$. If $B_r$ has the same magnitude at all points on the
 ring, as it must in the symmetrically spreading field assumed, the
-total downward force will have the magnitude,
-
-_ 27rrIB,
- ---  c
-
-F (15)
+total downward force will have the magnitude
+\begin{equation}
+  F = \frac{2\pi r I B_r}{c}
+\end{equation}
 
 % p. 368
-Now B, can be directly related to the gradient of Bz. Since
-div B = O at all points, the net flux of magnetic field out of any
-volume is zero. Consider the little cylinder of radius r and height Az
-(Fig. 10.10). The outward flux from the side is 27rr(Az)B, and the
+
+Now $B_r$ can be directly related to the gradient of $B_z$. Since
+$\div\vc{B} = O$ at all points, the net flux of magnetic field out of any
+volume is zero. Consider the little cylinder of radius $r$ and height $\Delta z$
+(Fig. 10.10). The outward flux from the side is $2\pi r(\Delta z)B_r$, and the
 net outward flux from the end surfaces is 
 \begin{equation}
+  \pi r^2[-B_z(z)+B_z(z+\Delta z)]
 \end{equation}
-
-7rr2[ --- Bz(z) + B,(z + Az)]
-
-which to the first order in the small distance Az is 7rr2(2)Bz/az) A2.
-Setting the total flux equal to zero: 0 = 7rr2(aBz/az) Az + 2vrrB, Az,
-which gives us the relation,
+which to the first order in the small distance $\Delta z$ is $\pi r^2(\partial B_z/\partial z)\Delta z$.
+Setting the total flux equal to zero:
+$0 = \pi r^2(\partial B_z/\partial z)\Delta z+2\pi r B_r \Delta z$,
+which gives us the relation
 \begin{equation}
+  B_r = -\frac{r}{2} \frac{\partial B_z}{\partial z}
 \end{equation}
-
-BT=_LBBz
-
-16
-Zaz ()
-
-As a check on the sign, notice that according to Eq. 16, B, is positive
-when B2 is decreasing upward; a glance at the figure shows that to
+As a check on the sign, notice that according to Eq. 16, $B_r$ is positive
+when $B_z$ is decreasing upward; a glance at the figure shows that to
 be correct.
 
 The force on the dipole can now be expressed in terms of the
-gradient of the component B; of the external field:
-
+gradient of the component $B_z$ of the external field:
 \begin{equation}
+  F = \frac{2\pi rI}{c}\cdot\frac{r}{2} \frac{\partial B_z}{\partial z}
+    = \frac{\pi r^2 I}{c}\cdot \frac{\partial B_z}{\partial z}
 \end{equation}
-F_27rrI_18Bz_ 7rr2I.8Bz
- ---  c 2 Bz _ c 8;'
-
-(17)
-
-In the factor 7rr2I/c we recognize the magnitude m of the magnetic
+In the factor $\pi r^2 I/c$ we recognize the magnitude $m$ of the magnetic
 dipole moment of our current ring. So the force on the ring can be
 expressed very simply in terms of the dipole moment:
 \begin{equation}
+  F = m \frac{\partial B_z}{\partial z}
 \end{equation}
-
-8B,,
-62:
-
-F = m (18)
 We haven't proved it, but you will not be surprised to hear that for
 small loops of any other shape the force depends only on the 
 current-area product, that is, on the dipole moment. The shape doesn't
@@ -599,58 +581,58 @@ matter. Of course, we are discussing only loops small enough so
 that only the first-order variation of the external field, over the span
 of the loop, is significant.
 
-Our ring in Fig. 10.9 has a magnetic dipole moment m pointing
+Our ring in Fig. 10.9 has a magnetic dipole moment $\vc{m}$ pointing
 upward and the force on it is downward. Obviously, if we could
-reverse the current in the ring, thereby reversing m, the force would
+reverse the current in the ring, thereby reversing $\vc{m}$, the force would
 reverse its direction. The situation can be summarized this way:
 
-Dipole moment parallel to external field: Force acts in direction
-of increasing field strength.
+\begin{itemize}
+\item Dipole moment \emph{parallel} to the external field: The force acts in the direction
+of \emph{increasing} field strength.
 
-Dipole moment antiparallel to external field: Force acts in
-direction of decreasing field strength.
+\item Dipole moment \emph{antiparallel} to the external field: The force acts in the
+direction of \emph{decreasing} field strength.
 
-Uniform external field: Zero force.
+\item \emph{Uniform} external field: \emph{Zero} force.
+\end{itemize}
 
 % p. 369
-Quite obviously, this is not the most general situation. The
-moment in could be pointing at some odd angle with respect to the
-field B, and the different components of B could be varying, spatially,
-in different ways. It is not hard to develop a formula for the force F
+
+This is not the most general situation. The
+moment $\vc{m}$ could be pointing at some odd angle with respect to the
+field $\vc{B}$, and the different components of $\vc{B}$ could be varying, spatially,
+in different ways. It is not hard to develop a formula for the force $\vc{F}$
 that is experienced in the general case. It would be exactly like the
 general formula we gave, as Eq. 9.22, for the force on an electric
-dipole in a nonuniform electric field. That is, the x component of
-force on any magnetic dipole m is given by
+dipole in a nonuniform electric field. That is, the $x$ component of
+force on any magnetic dipole $\vc{m}$ is given by
 \begin{equation}
+  F_x = \vc{m}\cdot\operatorname{grad} B_x
 \end{equation}
-
-F, = m-grad B, (19)
-
-with corresponding formulas for F,, and F2.
+with corresponding formulas for $F_y$ and $F_z$.
 
 In Eqs. 18 and 19 the force is in dynes, with the magnetic field
-gradient in gauss/cm and the magnetic dipole moment m given by
-Eq. 9, m = Ia/c where I is in esu/ sec, a in square centimeters, and c
-in cm/ sec. There are several equivalent ways to express the units
-of m. We shall adopt ``ergs/gauss.'' As you can see from Eq. 18,
-
+gradient in gauss/cm and the magnetic dipole moment $m$ given by
+Eq. 9, $m = Ia/c$ where $I$ is in esu/s, $a$ in square centimeters, and $c$
+in cm/s. There are several equivalent ways to express the units
+of $m$. We shall adopt ``erg/gauss.'' As you can see from Eq. 18,
 \begin{equation}
+  m = \frac{\text{dyne}}{(\text{gauss}/\cmunit)}
+    = \frac{\text{dyne}\unitdot\cmunit}{\text{gauss}}
+    = \frac{\text{erg}}{\text{gauss}}
 \end{equation}
-dynes _ dyne --- cm __ ergs
-
-m : (gauss/cm) _ gauss _ gauss
 
 Now we can begin to see what must be happening in the experiments
 described at the beginning of this chapter. A substance
 located at the position of the sample in Fig. 10.2 would be attracted
-into the solenoid if it contained magnetic dipoles parallel to the field
-B of the coil. It would be pushed out of the solenoid if it contained
+\emph{into} the solenoid if it contained magnetic dipoles \emph{parallel} to the field
+$\vc{B}$ of the coil. It would be pushed \emph{out} of the solenoid if it contained
 dipoles pointing in the opposite direction, antiparallel to the field.
 The force would depend on the gradient of the axial field strength,
 and would be zero at the midpoint of the solenoid. Also, if the total
 strength of dipole moments in the sample were proportional to the
-field strength B, then in a given position the force would be proportional
-to B times BB/az, and hence to the square of the solenoid 
+field strength $\vc{B}$, then in a given position the force would be proportional
+to $\vc{B}$ times $\partial B/\partial z$, and hence to the square of the solenoid 
 current. That is the observed behavior in the case of the diamagnetic
 and the paramagnetic substances. It looks as if the ferromagnetic
 samples must have possessed a magnetic moment nearly independent
@@ -666,6 +648,8 @@ the physics of diamagnetism and paramagnetism.
 
 % p. 370
  
+\iffalse
+
 \section{Electric currents in atoms}
 
 We know that an atom consists of a positive nucleus surrounded
