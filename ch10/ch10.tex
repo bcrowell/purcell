@@ -954,24 +954,21 @@ The reason is that in a molecule any given electron is pretty well
 localized on an atom. There are some interesting exceptions and
 we included one in the table --- graphite. The anomalous 
 diamagnetism of graphite is due to an unusual structure which permits some
-
 electrons to circulate rather freely within a planar group of atoms
 in the crystal lattice.
-
-\iffalse
 
 \section{Electron spin and magnetic moment}
 
 The electron possesses angular momentum that has nothing to
 do with its orbital motion. It behaves in many ways as if it were
 continually rotating around an axis of its own. This property is
-called spin. When the magnitude of the spin angular momentum
-is measured, the same result is always obtained: h/47-r, where h is
+called \intro{spin}. When the magnitude of the spin angular momentum
+is measured, the same result is always obtained: $h/4\pi$, where $h$ is
 Planck's constant. Electron spin is a quantum phenomenon. You
 will hear more about its discovery and its implications in Vol. IV of
 this course. Its significance for us now lies in the fact that there is
 associated with this intrinsic, or ``built-in,'' angular momentum a
-nuzgnetic moment, likewise of invariable magnitude. This magnetic
+\emph{magnetic moment}, likewise of invariable magnitude. This magnetic
 moment points in the direction you would expect if you visualize
 the electron as a ball of negative charge spinning around its axis.
 That is, the magnetic moment vector points antiparallel to the spin
@@ -981,56 +978,56 @@ momentum, as is the case in orbital motion.
 
 There is no point in trying to devise a classical model of this object;
 its properties are essentially quantum mechanical. We need not
-even go so far as to say it is a current loop. What matters is only that
+even go so far as to say it \emph{is} a current loop. What matters is only that
 it behaves like one in the following respects: (i) it produces a magnetic
 field which, at a distance, is that of a magnetic dipole; (ii) in an
-external field B it experiences a torque equal to that which would
+external field $\vc{B}$ it experiences a torque equal to that which would
 act on a current loop of equivalent dipole moment; (iii) within the
-source, div B = O everywhere, as in the ordinary sources of magnetic
+source, $\div\vc{B} = 0$ everywhere, as in the ordinary sources of magnetic
 field with which we are already familiar.
 
 Since the magnitude of the spin magnetic moment is always the
 same, the only thing an external field can influence is its direction.
 A magnetic dipole in an external field experiences a torque. If you
 % p. 378
-worked through Prob. 6.22, you proved that the torque N on a current
-loop of any shape, with dipole moment m, in a field B, is given by
-
+worked through Prob. 6.22, you proved that the torque $\btorque$ on a current
+loop of any shape, with dipole moment $\vc{m}$, in a field $\vc{B}$, is given by
+\begin{equation}
+  \btorque = \vc{m}\times\vc{B}
+\end{equation}
 For those who have not been through that demonstration, let's take
 time out to calculate the torque in a simple special case. In Fig. 10.15
-we see a rectangular loop of wife carrying current I. The loop has
-a magnetic moment in, of magnitude m = Iab/c. The torque on
-the loop arises from the forces F1 and F2 that act on the horizontal
-wires. Each of these forces has the magnitude F = IbB/c, and its
-moment arm is"the distance (a/ 2) sin 0. We see that the magnitude
-
+we see a rectangular loop of wife carrying current $I$. The loop has
+a magnetic moment $\vc{m}$, of magnitude $m = Iab/c$. The torque on
+the loop arises from the forces $\vc{F}_1$ and $\vc{F}_1$ that act on the horizontal
+wires. Each of these forces has the magnitude $F = IbB/c$, and its
+moment arm is"the distance $(a/ 2) \sin \theta$. We see that the magnitude
 of the torque on the loop is
 \begin{equation}
+  \torque = 2\frac{IbB}{c} \cdot \frac{a}{2}\sin\theta
+    = \left(\frac{Iab}{c}\right)B\sin\theta = mB\sin\theta
 \end{equation}
-
-N: 2'''7B-%sino = (%)13sino = mBsin0 (38)
-
-The torque acts in a direction to bring in parallel to B; it is represented
-by a vector N in the positive x direction, in the situation
+The torque acts in a direction to bring $\vc{m}$ parallel to $\vc{B}$; it is represented
+by a vector $\btorque$ in the positive $x$ direction, in the situation
 shown. All this is consistent with the general formula, Eq. 37.
 Notice that Eq. 37 corresponds exactly to the formula we derived
-in Chap. 9 for the torque on an electric dipole p in an external field E,
-namely, N = p x E. The orientation with m in the direction of B,
-like that of the electric dipole parallel to E, is the position of lowest
-energy. Similarly, the work required to rotate a dipole in from parallel
-to antiparallel is 2mB. (See Eq. 9.18; we can simply take over
+in Chap. 9 for the torque on an electric dipole $\vc{p}$ in an external field $\vc{E}$,
+namely, $\btorque = \vc{p} \times \vc{E}$. The orientation with $\vc{m}$ in the direction of $\vc{B}$,
+like that of the electric dipole parallel to $\vc{E}$, is the position of lowest
+energy. Similarly, the work required to rotate a dipole $\vc{m}$ from parallel
+to antiparallel is $2mB$. (See Eq. 9.18; we can simply take over
 this result for the magnetic case.)
 
 If the electron spin moments in a substance are free to orient them-
 selves, we expect them to prefer the orientation in the direction of
-any applied field B, the orientation of lowest energy. Suppose every
+any applied field $\vc{B}$, the orientation of lowest energy. Suppose every
 electron in a gram of material takes up this orientation. We had
-already calculated that there are roughly 3 X 1023 electrons in a gram
-of anything. The spin magnetic moment of an electron, ms, is given
-in Fig. 10.14 as 0.93 X 1O‘2° erg/gauss. The total magnetic moment
-of our lined-up spins will be (3 )< 1023) X (0.9 )( 10-20) or 2700
-ergs/gauss. The force on such a sample, in our coil where the field
-gradient was 1700 gauss/cm, would be 4.6 x 106 dynes, or a little
+already calculated that there are roughly $3 \times 10^{23}$ electrons in a gram
+of anything. The spin magnetic moment of an electron, $m_s$, is given
+in Fig. 10.14 as $0.93\times10^{-20}\ \zu{erg}/\zu{gauss}$. The total magnetic moment
+of our lined-up spins will be $(3 \times 10^{23}) \times (0.9 \times 10^{-20})$ or 2700
+erg/gauss. The force on such a sample, in our coil where the field
+gradient was 1700 gauss/cm, would be $4.6 \times 10^{6}\ \zu{dyne}$, or a little
 over ten pounds!
 
 Obviously this is much greater than the force recorded for any of
@@ -1042,12 +1039,12 @@ directions. The degree of alignment that actually prevails represents
 a compromise between the preference for the direction of lowest
 energy and the disorienting influence of thermal motion. It turns
 out that the total magnetic moment is generally proportional to the
-applied field B, and inversely proportional to the absolute temperature
-T. How that works out we must leave for Vol. V of this course,
+applied field $\vc{B}$, and inversely proportional to the absolute temperature
+$T$. How that works out we must leave for Vol. V of this course,
 the theme of which might be described as the competition involving
 energy and disorder. The paramagnetism of electron spins will
 provide, at that time, an instructive example. The quantum physics
-you will learn between now and then will make the problem simpler
+you will learn between now and then will make the problem \emph{simpler}
 than it appears from our present viewpoint.
 
 Why isn't everything paramagnetic? The reason is that in most
@@ -1058,7 +1055,7 @@ electron pair exactly cancel each other. All that is left is the
 diamagnetism we had already explored. A few molecules contain an odd
 number of electrons, and in them total cancellation in pairs is obviously
 impossible. Nitric oxide, NO, with 15 electrons in the molecule
-is an instance: it is paramagnetic. The oxygen molecule 02
+is an instance: it is paramagnetic. The oxygen molecule $\zu{O}_2$
 contains an even number of electrons, but its electronic structure
 happens to favor noncancellation of two of the electron spins. In
 certain groups of the elements, notably the elements around gadolinium
@@ -1072,17 +1069,18 @@ basically quantum physics.
 
 Even diamagnetism, fundamentally, involves quantum mechanics.
 Consider two electrons circling in opposite directions in an atom.
-We explained that diamagnetism arises because an applied field B
+We explained that diamagnetism arises because an applied field $\vc{B}$
 causes one electron to speed up slightly and the other to slow down.
 But why don't both orbits eventually shift around so their orbital
 magnetic moments are pointing in the same direction, parallel to
 the field? The answer is that the two electrons, in most cases, are
-required by quantum mechanical laws to maintain opposite direc-
-
-tions of orbital revolution, much as the electron spins are paired ofi``
+required by quantum mechanical laws to maintain opposite 
+directions of orbital revolution, much as the electron spins are paired off
 two by two.
 
 % p. 380
+\iffalse
+
 \section{Magnetic susceptibility}
 
 We have seen that both diamagnetic and paramagnetic substances
