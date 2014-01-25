@@ -648,8 +648,6 @@ the physics of diamagnetism and paramagnetism.
 
 % p. 370
  
-\iffalse
-
 \section{Electric currents in atoms}
 
 We know that an atom consists of a positive nucleus surrounded
@@ -666,7 +664,7 @@ we shall not inquire into the reasons why the electron has this particular
 orbit. We ask only, if it does move in such an orbit, what
 magnetic effects are to be expected? In Fig. 10.1] we see the 
 electron, visualized as a particle carrying a concentrated electric charge
- ---  e, moving with speed 12 on a circular path of radius r. In the middle
+$-e$, moving with speed $v$ on a circular path of radius $r$. In the middle
 is a positive nuclear charge, making the system electrically neutral,
 but the nucleus, because of its relatively great mass, moves so slowly
 that its magnetic effects can be neglected.
@@ -674,48 +672,45 @@ that its magnetic effects can be neglected.
 At any instant, the electron and the positive charge would appear
 as an electric dipole, but on the time average the electric dipole
 moment is zero, producing no steady electric field at.a distance. We
-discussed this point in Sec. 9.5. The magnetic field of the system,
-far away, is not zero on the time average. Instead, it is just the field
+discussed this point in Sec. 9.5. The \emph{magnetic} field of the system,
+far away, is \emph{not} zero on the time average. Instead, it is just the field
 of a current ring. For, as concerns the time average, it can't make
 any diflerence whether we have all the negative charge gathered into
 one lump, going around the track, or distributed in bits, as in
 Fig. l0.11b, to make a uniform endless procession. The current is
 the amount of charge that passes a given point on the ring, per
-second. Since the electron makes v/2771 revolutions per second, the
-current, in esu/sec if e is in esu, is
+second. Since the electron makes $v/2\pi r$ revolutions per second, the
+current, in esu/s if $e$ is in esu, is
 \begin{equation}
+  I = \frac{ev}{2\pi r}
 \end{equation}
-
-I = L'' 20
-
-2M ( )
 The orbiting electron is equivalent to a ring current of this magnitude
-with the direction of positive flow opposite to v, as shown in
+with the direction of positive flow opposite to $v$, as shown in
 Fig. l0.llc. Its far field is therefore that of a magnetic dipole. of
 strength
 \begin{equation}
+  m = \frac{\pi r^2 I}{c} = \frac{evr}{2c}
 \end{equation}
-
-7rr2I evr
-
-m: C :20 (21)
 
 Let us note in passing a simple relation between the magnetic
-moment m associated with the electron orbit, and the orbital angular
-
+moment $\vc{m}$ associated with the electron orbit, and the orbital angular
 % p. 371
-momentum L. The angular momentum is a vector of magnitude
-L = mevr, where rne denotes the mass of the electron,T and it points
+momentum $\vc{L}$. The angular momentum is a vector of magnitude
+$L = m_evr$, where $m_e$ denotes the mass of the 
+electron,\footnote{We shall be dealing with
+speeds $v$ much less than c, so $m_e$ stands for the rest mass,
+$9.0\times10^{-28}\ \zu{g}$. Our choice of the symbol $\vc{m}$ for magnetic moment makes it 
+necessary, in this chapter, to use a different symbol for the electron mass. For angular
+momentum we choose the symbol $\vc{L}$, rather than $\vc{J}$ as used in Vol. 1, Chap. 6, because
+$\vc{L}$ is traditionally used in atomic physics for orbital angular momentum, which is what
+we here consider, and because we have been using $\vc{J}$ for 
+current density.} and it points
 downward if the electron is revolving in the sense shown in
-
-Fig. 10.1la. Notice that the product or occurs in both m and L.
+Fig. 10.1la. Notice that the product $vr$ occurs in both $m$ and $L$.
 With due regard to direction, we can write:
 \begin{equation}
+  \vc{m} = \frac{-e}{2m_ec}\vc{L}
 \end{equation}
-
-in: ‘E L (22)
-Zrnec
-
 This relation involves nothing but fundamental constants, which
 should make you suspect that it holds quite generally. Indeed that
 is the case, although we shall not prove it here. It holds for elliptical
@@ -727,12 +722,11 @@ by Eq. 22 (derived by us only for a special case), that where-
 ever angular momentum is conserved, the magnetic moment also
 remains constant in magnitude and direction. The factor
 \begin{equation}
+  \frac{-e}{2m_ec}
 \end{equation}
-
- ---  e
-Zmec
-
-is called the orbital magnetornechanical ratio for the electron.1 The
+is called the \intro{orbital magnetomechanical ratio}\index{magnetomechanical ratio}\index{gyromagnetic ratio|see{orbital magnetomechanical ratio}}
+for the electron.\footnote{Many people use the term gyromagnetic ratio for this quantity. We prefer 
+magnetomechanical ratio, as used in Vol. 1, Chap. 8.} The
 intimate connection between magnetic moment and angular momentum
 is central to any account of atomic magnetism.
 
@@ -743,19 +737,8 @@ must be as many electrons going around one way as the other. This
 is to be expected, for there is nothing to make one sense of rotation
 intrinsically easier than another, or otherwise to distinguish any
 unique axial direction. There would have to be something in the
-
-structure of the material to single out not merely an axis, but a sense
-of rotation around that axis!
-
-TWe shall be dealing with speeds 0 much less than c, so me stands for the rest mass,
-9.0 x 10'''' g. Our choice of the symbol m for magnetic moment makes it 
-necessary, in this chapter, to use a different symbol for the electron mass. For angular
-momentum we choose the symbol L, rather than J as used in Vol. 1, Chap. 6, because
-L is traditionally used in atomic physics for orbital angular momentum, which is what
-we here consider, and because we have been using J for current density.
-
-:{:Many people use the term gyromagnetic ratio for this quantity. We prefer 
-magnetomechanical ratio, as used in Vol. 1, Chap. 8.
+structure of the material to single out not merely an axis, but a \emph{sense
+of rotation around that axis!}
 
 % p. 372
 
@@ -764,195 +747,143 @@ magnetic field, as containing revolving electrons with their various
 orbital angular momentum vectors and associated orbital magnetic
 moments distributed evenly over all directions in space. Consider
 those orbits which happen to have their planes approximately parallel
-to the xy plane, of which there will be about equal numbers with
-m up and in down. Let's find out what happens to one of these orbits
-when we switch on an external magnetic field in the z direction.
+to the $xy$ plane, of which there will be about equal numbers with
+$\vc{m}$ up and $\vc{m}$ down. Let's find out what happens to one of these orbits
+when we switch on an external magnetic field in the $z$ direction.
 
 We'll analyze first an electromechanical system that doesn't look
-much like an atom. In Fig. 10.12 there is an object of mass M and
-electric charge q, tethered to a fixed point by a cord of fixed length r.
+much like an atom. In Fig. 10.12 there is an object of mass $M$ and
+electric charge $q$, tethered to a fixed point by a cord of fixed length $r$.
 This cord provides the centripetal force that holds the object in its
-circular orbit. The magnitude of that force F0 is given, as we
-know, by
+circular orbit. The magnitude of that force $F_0$ is given by
 \begin{equation}
+  F_0 = \frac{M v_0^2}{r}
 \end{equation}
-
-M002
-1'
-
-F0 = (23)
-
 In the initial state, Fig. 10.l2a, there is no external magnetic field.
 Now, by means of some suitable large solenoid, we begin creating
-a field B in the negative z direction, uniform over the whole region
-at any given time. While this field is growing at the rate dB/dt, there
-will be an induced electric field E all around the path, as indicated in
-Fig. 10.1219. To find the magnitude of this field E we note that the
+a field $\vc{B}$ in the negative $z$ direction, uniform over the whole region
+at any given time. While this field is growing at the rate $\der B/\der t$, there
+will be an induced electric field $\vc{E}$ all around the path, as indicated in
+Fig. 10.12b. To find the magnitude of this field $\vc{E}$ we note that the
 rate of change of flux through the circular path is
 \begin{equation}
+  \frac{\der\Phi}{\der t} = \pi r^2\frac{\der B}{\der t}
 \end{equation}
-
-(24)
-
 This determines the line integral of the electric field, which is really all
-
 that matters (we only assume for symmetry and simplicity that it
 is the same all around the path).
 \begin{equation}
+  \int \vc{E}\cdot\der\bell = \frac{\pi r^2}{c} \frac{\der B}{\der t} = 2\pi r E
 \end{equation}
-
-fE-dl=''Tfl‘fT1:=2wrE (25)
-
 Thus we find that
 \begin{equation}
+  E = \frac{r}{2c}\frac{\der B}{\der t}
 \end{equation}
-
-E rdB
-
-= 5? (26)
-
 % p. 373
 We have ignored signs so far, but if you apply to Fig. 10.12 your
 favorite rule for finding the direction of an induced electromotive
-force, you will see that E must be in a direction to accelerate the body,
-
-if q is a positive charge. The acceleration along the path, do/dt, is
-determined by the force qE:
-
-so that we have a relation between the change in v and the change
-in B:
+force, you will see that $\vc{E}$ must be in a direction to accelerate the body,
+if $q$ is a positive charge. The acceleration along the path, $\der v/\der t$, is
+determined by the force $qE$:
 \begin{equation}
+  M \frac{\der v}{\der t} = qE = \frac{qr}{2c} \frac{\der B}{\der t}
 \end{equation}
-
-_ ‘V
-dv _. 2M0 dB (28)
-
-The radius r being fixed by the length of the cord, the factor (qr/2Mc)
-is a constant. Let Av denote the net change in v in the whole process
-of bringing the field up to the final value B1. Then:
+so that we have a relation between the change in $v$ and the change
+in $B$:
 \begin{equation}
+  \der v = \frac{qr}{2Mc} \der B
 \end{equation}
-
-_ u0+Av _ qr B1 _ qrB1 29
-A0 -1.10 do _ 2Mcjt> dB_ 2Mc ( )
-
+The radius $r$ being fixed by the length of the cord, the factor $(qr/2Mc)$
+is a constant. Let $\Delta v$ denote the net change in $v$ in the whole process
+of bringing the field up to the final value $B_1$. Then:
+\begin{equation}
+  \Delta v = \int_{v_0}^{v_0+\Delta v}\der v = \frac{qr}{2Mc} \int_0^{B_1} = \frac{qrB_1}{2Mc}
+\end{equation}
 Notice that the time has dropped out --- the final velocity is the same
 whether the change is made slowly or quickly.
 
 The increased speed of the charge in the final state means an increase
-in the upward-directed magnetic moment m. A negatively
-charged body would have been decelerated under similar 
-circumstances, which would have decreased its downward moment. In
-either case, then, the application of the field B1 has brought about
+in the upward-directed magnetic moment $\vc{m}$. A \emph{negatively}
+charged body would have been \emph{de}celerated under similar 
+circumstances, which would have \emph{decreased} its \emph{downward} moment. In
+either case, then, the application of the field $\vc{B}_1$ has brought about
 a change in magnetic moment opposite to the field. The magnitude
-of the change in magnetic moment Am, is
+of the change in magnetic moment $\Delta m$, is
 \begin{equation}
+  \Delta m = \frac{qr}{2c} \Delta v = \frac{q^2r^2}{4Mc^2} B_1
 \end{equation}
-
-_ _ qr _ q2,.2
-Am _ ?c --- Av _  ---  ---  --- 4MC2
-
-B1 (30)
 
 Likewise for charges, either positive or negative, revolving in the
 other direction, the induced change in magnetic moment is opposite
 to the change in applied magnetic field. Figure 10.13 shows this for
-
 % p. 374
- 
-
 a positive charge. It appears that the following relation holds for
 either sign of charge and either direction of revolution:
 \begin{equation}
+  \Delta\vc{m} = -\frac{q^2r^2}{4Mc^2} \vc{B}_1
 \end{equation}
 
-22
-q1'
-
-Am :  ---  4Mc2
-
-B1 (31)
-
-In this example we forced r to be constant by using a cord of fixed
+In this example we forced $r$ to be constant by using a cord of fixed
 length. Let us see how the tension in the cord has changed. We
-shall assume that B1 is small enough so that Av < 00. In the final
+shall assume that $B_1$ is small enough so that $\Delta v \ll v_0$. In the final
 state we require a centripetal force of magnitude:
 \begin{equation}
+  F_1 = \frac{M(v_0+\Delta v)^2}{r} \approx \frac{Mv_0^2}{r} + \frac{2Mv_0\Delta v}{r}  
 \end{equation}
-
-_ M(u0 + Av)? M1302 + 2Mv0 Av
-
-rsa
-»-\.«
-
-1' 1' 1‘
-
-F1
-
-(32)
-
-neglecting the term proportional to (Av)? But now the magnetic
+neglecting the term proportional to $(\Delta v)^2$. But now the magnetic
 field itself provides an inward force on the moving charge, given by
-q(vo + Av)B1/c. Using Eq. 29 to express B1 in terms of Au, we find
-that this extra inward force has the magnitude 0 T
-which, to first order in Av/vo, is 2Mvo Av/r. That is just what is
+$q(v_0 + \Delta v)B_1/c$. Using Eq. 29 to express $B_1$ in terms of $\Delta v$, we find
+that this extra inward force has the magnitude
+$\frac{q(v_0+\Delta v)}{c}\cdot\frac{2Mc\Delta v}{qr}$
+which, to first order in $\Delta v/v_0$, is $2Mv_0 \Delta v/r$. That is just what is
 needed, according to Eq. 32, to avoid any extra demand on our cord!
-Hence the tension in the cord remains unchanged, at the value F0.
+Hence the tension in the cord \emph{remains unchanged, at the value $F_0$}.
 
 This points to a surprising conclusion: our result, Eq. 31 must be
-valid for any kind of tethering force that varies with radius. Our
+valid for \emph{any} kind of tethering force that varies with radius. Our
 cord could be replaced by an elastic spring without affecting the
 outcome --- the radius would still be unchanged in the final state.
 Or to go at once to a system we are interested in, it could be replaced
 by the Coulomb attraction of a nucleus for an electron. Or it could
 be the effective force that acts on one electron in an atom containing
 many electrons, which has a still diflerent dependence on radius.
-
-\begin{equation}
-\end{equation}
-q(vo + Av) _ 2Mc Av
-
 % p. 375
-From a relation as general as Eq. 31 has turned out to be, we can hope
+From a relation as \emph{general} as Eq. 31 has turned out to be, we can hope
 for some meaningful results even without a good theory of atomic
-structure. The only feature of the atom that appears explicitly is r2.
-Of course, we must observe the restriction Av/vo < 1, in effect a
-restriction on B1, which allowed this general application.
+structure. The only feature of the atom that appears explicitly is $r^2$.
+Of course, we must observe the restriction $\Delta v/v_0 \ll 1$, in effect a
+restriction on $B_1$, which allowed this general application.
 
-The effect on electron orbits of switching on a magnetic field B can
+The effect on electron orbits of switching on a magnetic field $\vc{B}$ can
 be visualized in this way: Every electron continues to revolve at the
-same radius, but its angular velocity, which had been :00/r, depending
+same radius, but its angular velocity, which had been $\pm v_0/r$, depending
 on its sense of revolution, has added to it a small increment
-Aw = Av/r. According to Eq. 29 the value of this increment is
+$\Delta\omega=\Delta v/r$. According to Eq. 29 the value of this increment is
 \begin{equation}
+  \Delta\omega = \frac{\Delta v}{r} = \frac{eB}{2m_ec}
 \end{equation}
-
-Av eB
-A : T :-
-w r Zmec (33 )
-
 an angular velocity depending only on the strength of the applied
 field and the charge-mass ratio of the electron. All revolutions one
 way are speeded up by the same amount, expressed in radians per
 second, those in the other direction slowed down by the same
 amount. The new system looks just like the old system Viewed from
-a rotating frame of reference. The angular velocity eB/Zmec in Eq. 33
-is called the ``Larmor angular velocity,'' or ``Larmor frequency.''
+a \emph{rotating frame of reference}. The angular velocity $eB/2m_ec$ in Eq. 33
+is called the ``Larmor angular velocity,'' or ``Larmor frequency.''\index{Larmor frequency}
 Sir Joseph Larmor, the British mathematical physicist, proved this
 general theorem in 1895, before anyone really knew how an atom
 is constructed.
 
-We have considered only orbits perpendicular to B. Our conclusion
+We have considered only orbits perpendicular to $\vc{B}$. Our conclusion
 should apply, roughly speaking, to a third of the electron
 orbits in a substance, there being three mutually perpendicular
-directions. What happens to orbits lying parallel to the xz planes
-and yz planes is interesting, and you can find out by working
+directions. What happens to orbits lying parallel to the $xz$ planes
+and $yz$ planes is interesting, and you can find out by working
 Prob. 10.22. They also contribute an induced moment opposite to
 the field and proportional to the square of the orbit radius. The
 effect of all the orbits can be summarized in an equation like Eq. 31,
-with 72 replaced by (r2), the average of the squares of the orbit radii,
+with $r^2$ replaced by $\langle r^2 \rangle$, the average of the squares of the orbit radii,
 and with some numerical factor to take care of averaging over orbit
-orientation. H
+orientation.
 
 Without going into this refinement, 1et's use Eq. 31 as it stands
 for all the electrons, putting in some reasonable estimate for an orbit
@@ -960,71 +891,58 @@ radius, and see if we can approximately account for some of the data
 in the table. The number of electrons per gram is about the same
 in most substances, because there is one proton in the nucleus for
 every electron in the atom, and roughly one neutron per proton. So
-the number of electrons per gram, n, is about the same as in a sub-
-
+the number of electrons per gram, $n$, is about the same as in a substance
 % p. 376
-stance of atomic weight 2 and atomic number 1, namely:
+of atomic weight 2 and atomic number 1, namely:
 \begin{equation}
+  n \approx \frac{6\times10^{23}}{2} = 3\times10^{23}
 \end{equation}
-
-n z  ---  --- 6 X21023 = 3 x 1023 (34)
-For r we shall put in 0.5 x l0‘8 cm, a distance you will become very
+For $r$ we shall put in $0.5 \times 10^{-8}\ \cmunit$, a distance you will become very
 familiar with later as a typical atomic ``radius.'' In many-electron
 atoms, naturally, some electrons have large orbits and some small.
-For M we substitute the electron mass me. The magnetic field
+For $M$ we substitute the electron mass $m_e$. The magnetic field
 strength at the location of the sample was 18,000 gauss. Then the
 total magnetic moment induced in one gram of almost anything
 should be, roughly:
-\begin{equation}
-\end{equation}
-
-ne2r2B
-4mec2
-
-_ (3 x 1023)(4.8 x 10-10)2(o.5 x 10 --- 8)2(1.8 x 104)
-‘ 49 x 10-28)(3 x 10w)2
-
-= 0.95 X 10‘? (35)
-
-nAm=
-
-The gradient of the field BB3/Bz was 1700 gauss/cm. Using Eq. 18
+\begin{align}
+\begin{split}
+  n\Delta m &= \frac{ne^2r^2B}{4m_ec^2} \\
+      &= \frac{(3\times10^{23})(4.8\times10^{-10})^2(0.5\times10^{-8})^2(1.8\times10^4)}
+              {4(9\times10^{-28})(3\times10^{10})^2} \\
+      &= 0.95\times10^{-2}
+\end{split}
+\end{align}
+The gradient of the field $\partial B_z/\partial z$ was 1700 gauss/cm. Using Eq. 18
 to calculate the force, we would predict a force of magnitude
-1700 X 0.95 X l0‘2, or about 16 dynes. This is close to the figure
+$1700 \times 0.95 \times 10^{-2}$, or about 16 dynes. This is close to the figure
 given for a number of substances in the table. Indeed, it is closer
-
 than we had any right to expect, so the agreement is to that extent
-accidentalj
+accidental.\footnote{The exact formula, obtained by averaging over orbits isotropically oriented, replaces
+the factor $\frac{1}{4}$ in Eq. 31 by $\frac{1}{6}$, while replacing $r^2$ by $\langle r^2 \rangle$.
+A rigorous quantum
+mechanical theory leads to exactly the same result, and the agreement with 
+experiment is excellent. Indeed, for many diamagnetic atoms the magnetic measurements
+provide the most accurate way to determine $\langle r^2 \rangle$.
+}
 
-We had better make sure that our assumption Av < 00 is fulfilled
-
+We had better make sure that our assumption $\Delta v\ll v_0$ is fulfilled
 in this situation. Putting the same numbers into Eq. 29, we can
-estimate Av:
-
-\begin{equation}
-\end{equation}
-Av _ erB _ (4.8 x 10-10)(0.5 x 10‘8)(18,O00)
-‘ Zmec ‘ 2(9 x 10-28) (3 x 1010)
-
-: 103 cm/sec (36)
-
+estimate $\Delta v$:
+\begin{align}
+\begin{split}
+  \Delta v &= \frac{erB}{2m_ec}
+\end{split}
+\end{align}
 You don't need to know much atomic physics to realize that
-103 cm/sec is small compared to the speed of an electron in an atom.
-A man can run that fast! A typical Velocity for an atomic electron
-is more like 103 cm/ sec, or higher. This shows that even our rather
+$10^3\ \cmunit/\sunit$ is small compared to the speed of an electron in an atom.
+A person can run that fast! A typical velocity for an atomic electron
+is more like $10^3\ \cmunit/\sunit$, or higher. This shows that even our rather
 powerful magnet applies a field that is very weak, from the point of
-
 view of an atomic electron, causing only a slight change in the speeds
 of revolution.
 
-'rThe exact formula, obtained by averaging over orbits isotropically oriented, replaces
-the factor } in Eq. 31 by §, while replacing r2 by (12). A rigorous quantum
-mechanical theory leads to exactly the same result, and the agreement with experi-
-
-ment is excellent. Indeed, for many diamagnetic atoms the magnetic measurements
-provide the most accurate way to determine (r2).
-
 % p. 377
+
 We can see now why diamagnetism is a universal phenomenon,
 and a rather inconspicuous one. It is about the same in molecules
 as in atoms. The fact that a molecule can be a much larger structure
@@ -1037,6 +955,8 @@ diamagnetism of graphite is due to an unusual structure which permits some
 
 electrons to circulate rather freely within a planar group of atoms
 in the crystal lattice.
+
+\iffalse
 
 \section{Electron spin and magnetic moment}
 
