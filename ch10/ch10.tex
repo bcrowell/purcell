@@ -1269,7 +1269,7 @@ If the magnetization $\vc{M}$ within a volume of material is not uniform
 but instead varies with position as $\vc{M}(x,y,z)$, the equivalent current
 distribution is given simply by
 \begin{equation}
-  \vc{J} = c\curl \vc{M}
+  \vc{J} = c\:\curl \vc{M}
 \end{equation}
 Let's see how this comes about in one situation. Suppose there is a
 magnetization in the $z$ direction, which gets stronger as we proceed
@@ -1433,210 +1433,194 @@ proceed as we did in the electrical example. That is we could find
 the total magnetic moment of the object, and find the distant field
 of a single dipole of that strength.
 
-\iffalse
-
 \section{Free currents, and the field $H$}
 
-It is often useful to distinguish between bound currents and free
-currents. Bound currents are currents associated with molecular
+It is often useful to distinguish between \emph{bound} currents and \emph{free}
+currents.\index{current!bound}\index{current!free}
+\emph{Bound} currents are currents associated with molecular
 or atomic magnetic moments, including the intrinsic magnetic
 moment of particles with spin. These are the molecular current
-loops envisioned by Ampere, the source of the magnetization we
-have just been considering. Free currents are ordinary conduction
+loops envisioned by Amp\`ere, the source of the magnetization we
+have just been considering. \emph{Free} currents are ordinary conduction
 currents flowing on macroscopic paths --- currents that can be started
 and stopped with a switch and measured with an ammeter.
 
-The current density J in Eq. 42 is the macroscopic average of the
-bound currents, so let us henceforth label it Jbound:
+The current density $\vc{J}$ in Eq. 42 is the macroscopic average of the
+bound currents, so let us henceforth label it $\vc{J}_\text{bound}$:
 \begin{equation}
+  \vc{J}_\text{bound} = c\:\curl\vc{M}
 \end{equation}
-
-Jbound : c curl M (48)
-
-At a surface where M is discontinuous, such as the side of the magnetized
-block in Fig. 10.17, we have a surface current density :7 which
+At a surface where $\vc{M}$ is discontinuous, such as the side of the magnetized
+block in Fig. 10.17, we have a surface current density $\scrj$ which
 also represents bound current.
 
-We found that B, both outside matter and, as a space average,
-inside matter, is related to Jbmmd just as it is to any current density.
-
+We found that $\vc{B}$, both outside matter and, as a space average,
+inside matter, is related to $\vc{J}_\text{bound}$ just as it is to any current density.
 % p. 390
-That is, curl B = (471/c)Jb0.md. But that was in the absence of free
+That is, $\curl\vc{B} = (4\pi/c)\vc{J}_\text{bound}$. But that was in the absence of free
 currents. If we bring these into the picture, the field they produce
-
 simply adds on to the field caused by the magnetized matter and
 we have
 \begin{equation}
+  \curl\vc{B} = \frac{4\pi}{c}(\vc{J}_\text{bound}+\vc{J}_\text{free}) = \frac{4\pi}{c}\vc{J}_\text{total}
 \end{equation}
 
-Curl B = i(:‘7T_(Jbound ‘l' Jfree) ,: 4777 Jtotal 
-
-Let us express Jbound in terms of M, through Eq. 48. Then Eq. 49
+Let us express $\vc{J}_\text{bound}$ in terms of $\vc{M}$, through Eq. 48. Then Eq. 49
 becomes
 \begin{equation}
+  \curl\vc{B} = \frac{4\pi}{c}(c\:\curl\vc{M}) + \frac{4\pi}{c}\vc{J}_\text{free}
 \end{equation}
-
-curl B = 47''(c curl M) + 4T''J,,,, (50)
 which can be rearranged as
 \begin{equation}
+  \curl(\vc{B}-4\pi\vc{M}) = \frac{4\pi}{c}\vc{J}_\text{free}
 \end{equation}
-curl (B  ---  477M) = 4T''J,,,, (51)
-
-If we now define a vector function H(x,y,z) at every point in space
+If we now \emph{define} a vector function $\vc{H}(x,y,z)$ at every point in space
 by the relation
 \begin{equation}
+  \vc{H} = \vc{B}-4\pi\vc{M}
 \end{equation}
-
-H = B  ---  47rM (52)
 Eq. 51 can be written
 \begin{equation}
+  \curl\vc{H} = \frac{4\pi}{c}\vc{J}_\text{free}
 \end{equation}
-curl H = 4T7TJ;,ee (53)
 
-In other words, the vector H, defined by Eq. 52, is related to the
-free current in the way B is related to the total current, bound plus
-free. The parallel is not complete however, for we always have
-div B = 0, whereas our vector function H does not necessarily have
+In other words, the vector $\vc{H}$, defined by Eq. 52, is related to the
+\emph{free} current in the way $\vc{B}$ is related to the total current, \emph{bound} plus
+\emph{free}. The parallel is not complete however, for we always have
+$\div\vc{B} = 0$, whereas our vector function $\vc{H}$ does not necessarily have
 zero divergence.
 
-This surely has reminded you of the vector D which we introduced,
-a bit grudgingly, in the last chapter. D, remember, was related to
-the free charge as E is related to the total charge. Although we rather
-disparaged D, the vector H is really useful, for a practical reason that
+This surely has reminded you of the vector $\vc{D}$ which we introduced,
+a bit grudgingly, in the last chapter. $\vc{D}$, remember, was related to
+the free charge as $\vc{E}$ is related to the total charge. Although we rather
+disparaged $\vc{D}$, the vector $\vc{H}$ is really useful, for a practical reason that
 is worth understanding. In electrical systems, what we can easily
 control and measure are the potential differences of bodies, and not
 the amounts of free charge on them. Thus we control the electric
-field E directly. D is out of our direct control, and since it is not a
+field $\vc{E}$ directly. $\vc{D}$ is out of our direct control, and since it is not a
 fundamental quantity in any sense, what happens to it is not of much
 concern. In magnetic systems, however, it is precisely the free currents
 that we can most readily control. We lead them through wires,
 measure them with ammeters, channel them in well-defined paths
-
 % p. 391
 with insulation, and so on. We have much less direct control, as a
-
-rule, over magnetization, and hence over B. So the auxiliary vector
-H is useful, even if D is not.
+rule, over magnetization, and hence over $\vc{B}$. So the auxiliary vector
+$\vc{H}$ \emph{is} useful, even if $\vc{D}$ is not.
 
 The integral relation equivalent to Eq. 53 is
 \begin{equation}
+  \int_C\vc{H}\cdot\der\bell = \frac{4\pi}{c}\int_S\vc{J}_\text{free}\cdot\der\vc{a}
+            = \frac{4\pi}{c}I_\text{free}
 \end{equation}
-. _ .41 . _ fl
-fCH d1. 0 SJfree da ---  0 Ifree (54)
-
-where Ifm is the total current enclosed by the path C. Suppose we
+where $I_\text{free}$ is the total current enclosed by the path $C$. Suppose we
 wind a coil around a piece of iron and send through this coil a certain
-current I which we can measure by connecting an ammeter in
+current $I$ which we can measure by connecting an ammeter in
 series with the coil. This is the free current, and it is the only free
 current in the system. Therefore one thing we know for sure is the
-line integral of H around any closed path, whether that path goes
+line integral of $\vc{H}$ around any closed path, whether that path goes
 through the iron or not. The integral depends only on the number
 of turns of our coil that are linked by the path, and not on the magnetization
-in the iron. The determination of M and B in this system
+in the iron. The determination of $\vc{M}$ and $\vc{B}$ in this system
 may be rather complicated. It helps to have singled out one quantity
 that we can determine quite directly.
 
-Figure 10.23 illustrates this property of H by an example, and is
-a reminder of the units we may use in a practical case. H has the
-
+Figure 10.23 illustrates this property of $\vc{H}$ by an example, and is
+a reminder of the units we may use in a practical case. $H$ has the
 % p. 392
-same dimensions as B; in the Gaussian CGS system they are related
-in exactly the same way to current in esu/sec. As you know, the
-unit of magnetic field strength B in this system is named the gauss.
-There was no compelling need for a different name for the unit of H.
+same dimensions as $B$; in the Gaussian CGS system they are related
+in exactly the same way to current in esu/s. As you know, the
+unit of magnetic field strength $B$ in this system is named the gauss.
+There was no compelling need for a different name for the unit of $H$.
 Nevertheless, people who like to name things have given the unit
-of H a name all its own, the oerstedj‘ Because you will find this
+of $H$ a name all its own, 
+the oersted.\footnote{Measuring $B$ in gauss and $H$ in oersteds is
+like expressing the radius of a circle in
+centimeters, but reserving a special name, such as ``arc centimeter,'' for the unit of distance
+measured around the circumference!}\index{oersted (unit)} Because you will find this
 name used elsewhere, we have introduced it in Fig. 10.23.
 
-We consider B the fundamental magnetic field vector because the
+We consider $\vc{B}$ the fundamental magnetic field vector because the
 absence of magnetic charge, which we discussed in Sec. 10.2, implies
-div B = 0 everywhere, even inside atoms and molecules. From
-div B = 0 it follows, as we showed in Sec. 10.8, that the average
-macroscopic field inside matter is B, not H. The implications of
-this have not always been understood or heeded in the past. Further-
-more, H has the practical advantage we have already explained. In
-some older books you will find H introduced as the primary magnetic
-field. B is then defined as H + 477M, and given the name magnetic
-induction. Even some modern writers who treat B as the primary
+$\div\vc{B}$ = 0 everywhere, even inside atoms and molecules. From
+$\div\vc{B} = 0$ it follows, as we showed in Sec. 10.8, that the average
+macroscopic field inside matter is $\vc{B}$, not $\vc{H}$. The implications of
+this have not always been understood or heeded in the past. 
+Furthermore, $\vc{H}$ has the practical advantage we have already explained. In
+some older books you will find $\vc{H}$ introduced as the primary magnetic
+field. $\vc{B}$ is then defined as $\vc{H}+ 4\pi\vc{M}$, and given the name 
+\intro{magnetic induction}. Even some modern writers who treat $\vc{B}$ as the primary
 field feel obliged to call it the magnetic induction because the name
-magnetic field was historically preempted by H. This seems clumsy
+magnetic field was historically preempted by $\vc{H}$. This seems clumsy
 and pedantic. If you go into the laboratory and ask a physicist what
 causes the pion trajectories in his bubble chamber to curve, he'll
 probably answer ``magnetic field,'' not ``magnetic induction.'' You
 will seldom hear a geophysicist refer to the earth's magnetic 
 induction, or an astronomer talk about the magnetic induction in the
-Galaxy. We propose to keep on calling B the magnetic field. As
-for H, although other names have been invented for it, we shall call
-it ``the field H,'' or even, ``the magnetic field H.''
+Galaxy. We propose to keep on calling $\vc{B}$ the magnetic field. As
+for $\vc{H}$, although other names have been invented for it, we shall call
+it ``the field $\vc{H}$,'' or even, ``the magnetic field $\vc{H}$.''
 
 It is only the names that give trouble, not the symbols. Everyone
-agrees that in the Gaussian CGS system the relation connecting B,
-M, and H is that stated in Eq. 52. In vacuum there is no essential
-distinction between B and H, for M must be zero where there is no
+agrees that in the Gaussian CGS system the relation connecting $\vc{B}$,
+$\vc{M}$, and $\vc{H}$ is that stated in Eq. 52. In vacuum there is no essential
+distinction between $\vc{B}$ and $\vc{H}$, for $\vc{M}$ must be zero where there is no
 matter. You will often see Maxwell's equations for the vacuum fields
-written with E and H, rather than E and B.
+written with $\vc{E}$ and $\vc{H}$, rather than $\vc{E}$ and $\vc{B}$.
 
 These remarks about names and units are not relevant to the MKS
 electrical unit system. In that system quantities corresponding to
-our B and H, and denoted by the same symbols, are treated as
+our $\vc{B}$ and $\vc{H}$, and denoted by the same symbols, are treated as
 dimensionally different and their numerical values differ even in
 vacuum. (See Appendix.)
 
-TMeasuring B in gauss and H in oersteds is like expressing the radius of a circle in
-centimeters, but reserving a special name, such as ``are centimeter,'' for the unit of distance
-measured around the circumference!
-
 % p. 393
-We should note here too that the accepted definition of the volume
 
-magnetic susceptibility X", is not the logically preferable one given
-in Eq. 39, but rather:
+We should note here too that the accepted definition of the volume
+magnetic susceptibility $\chi_m$, is not the logically preferable one given
+in Eq. 39, but rather:\index{magnetic susceptibility}
 \begin{equation}
+  \vc{M} = \chi_m\vc{H}
 \end{equation}
 
-M = X,,,H (55)
-
 The permanent magnet in Fig. 10.2119 is an instructive example
-of the relation of H to B and M. To obtain H at some point inside
+of the relation of $\vc{H}$ to $\vc{B}$ and $\vc{M}$. To obtain $\vc{H}$ at some point inside
 the magnetized material, we have to add vectorially to the magnetic
-field B at that point the vector  --- 47rM. Figure 10.24 depicts this
-for a particular point P. It turns out that the lines of H inside the
-magnet look just like the lines of E inside the polarized cylinder of
+field $\vc{B}$ at that point the vector $-4\pi\vc{M}$. Figure 10.24 depicts this
+for a particular point $P$. It turns out that the lines of $\vc{H}$ inside the
+magnet look just like the lines of $\vc{E}$ inside the polarized cylinder of
 Fig. 10.21a. That is as it should be, for if magnetic poles really were
 the source of the magnetization, rather than electric currents, the
-macroscopic magnetic field inside the material would be H, not B,
+macroscopic magnetic field inside the material would be $\vc{H}$, not $\vc{B}$,
 and the similarity of magnetic polarization to electric polarization
 would be complete.
 
 In the permanent magnet there are no free currents at all. 
-Consequently, the line integral of H, according to Eq. 54, must be zero
-around any closed path. You can see that it will be if the H lines
-really look like the E lines in Fig. l0.2la, for we know the line integral
+Consequently, the line integral of $\vc{H}$, according to Eq. 54, must be zero
+around any closed path. You can see that it will be if the $\vc{H}$ lines
+really look like the $\vc{E}$ lines in Fig. l0.2la, for we know the line integral
 of that electrostatic field is zero around any closed path. In this
 example of the permanent magnet, Eq. 55 does not apply. The
-magnetization vector M is not proportional to H but is determined,
+magnetization vector $\vc{M}$ is not proportional to $\vc{H}$ but is determined,
 instead. by the previous treatment of the material. How this can
 come about will be explained in the next section.
 
-For any material in which M is proportional to H, so that Eq. 55
+For any material in which $\vc{M}$ is proportional to $\vc{H}$, so that Eq. 55
 applies as well as the basic relation, Eq. 52, we have:
 \begin{equation}
+  \vc{B} = \vc{H}+4\pi\vc{M} = (1+4\pi\chi_m)\vc{H}
 \end{equation}
-
-B = H + 477M = (1 + 47rx,,,)H (56)
-
-B is then proportional to H. The factor of proportionality,
-(1 + 47rX,,,). is called the magnetic permeability and denoted usually
-by it:
+$\vc{B}$ is then proportional to $\vc{H}$. The factor of proportionality,
+$(1+4\pi\chi_m)$, is called the \intro{magnetic permeability} and denoted usually
+by $\mu$:
 \begin{equation}
+  \vc{B} = \mu\vc{H}
 \end{equation}
-
-B = pH (57)
-
-The permeability ,u, rather than the susceptibility X, is customarily
+The permeability $\mu$, rather than the susceptibility $\chi$, is customarily
 used in describing ferromagnetism.
 
 % p. 394
+\iffalse
+
 \section{Ferromagnetism}
 
 Ferromagnetism has served and puzzled man for a long time.
