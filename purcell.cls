@@ -11,6 +11,8 @@
 %    used in section 4.8
 % mathrsfs is for script letters
 
+\renewcommand{\descriptionlabel}[1]{\hspace{\labelsep}\emph{#1}} % http://stackoverflow.com/a/7629070/1142217
+
 % The following is set up so vectors are in upright bold.
 \newcommand{\vc}[1]{\ensuremath{\mathbf{#1}}}
 \newcommand{\der}{\operatorname{d\!}}

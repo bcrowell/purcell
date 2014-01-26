@@ -1619,12 +1619,11 @@ The permeability $\mu$, rather than the susceptibility $\chi$, is customarily
 used in describing ferromagnetism.
 
 % p. 394
-\iffalse
 
 \section{Ferromagnetism}
 
-Ferromagnetism has served and puzzled man for a long time.
-The lodestone (magnetite) was known in antiquity, and the influence
+Ferromagnetism has served and puzzled humanity for a long time.
+The \intro{lodestone} (magnetite) was known in antiquity, and the influence
 on history of iron in the shape of compass needles was perhaps second
 only to that of iron in the shape of swords. For nearly a century
 our electrical technology has depended heavily on the circumstance
@@ -1636,7 +1635,7 @@ We have already described some properties of ferromagnets. In
 a very strong magnetic field the force on a ferromagnetic substance
 is in such a direction as to pull it into a stronger field, as for 
 paramagnetic materials, but instead of being proportional to the product
-of the field B and its gradient, the force is proportional to the gradient
+of the field $\vc{B}$ and its gradient, the force is proportional to the gradient
 itself. As we remarked at the end of Sec. 10.4, this suggests
 that if the field is strong enough, the magnetic moment acquired by
 the ferromagnet reaches some limiting magnitude. The direction
@@ -1651,8 +1650,8 @@ are not too strong. The field of the permanent magnet itself is always
 present of course, and you may wonder whether it could not keep
 its own sources lined up. However, if you look again at Fig. 10.2112
 or Fig. 10.24, accepting the assurance that this does represent a real
-magnet, you will notice that M is generally not parallel to either B
-or H. This suggests that the magnetic dipoles must be clamped in
+magnet, you will notice that $\vc{M}$ is generally not parallel to either $\vc{B}$
+or $\vc{H}$. This suggests that the magnetic dipoles must be clamped in
 direction by something other than purely magnetic forces.
 
 The magnetization observed in ferromagnetic materials is much
@@ -1660,40 +1659,36 @@ larger than we are used to in paramagnetic substances. Permanent
 magnets quite commonly have fields in the range of a few thousand
 gauss. A more characteristic quantity is the limiting value of the
 magnetization, the magnetic moment per unit volume, which the
-material acquires in a very strong field. This is called the saturation
-
-magnetization. We can deduce the saturation magnetization of iron
+material acquires in a very strong field. This is called the \intro{saturation
+magnetization}. We can deduce the saturation magnetization of iron
 from the data in the table (Sec. 10.11. In a field with a gradient of
-
 % p. 395
-1700 gauss/cm, the force on 1 g of iron was 4 x 105 dynes. From
+1700 gauss/cm, the force on 1 g of iron was $4 \times 10^5\ \zu{dynes}$. From
 Eq. 18, which relates the force on a dipole to the field gradient, we find
+\begin{align}
+\begin{split}
+  m &= \frac{F}{(\der B/\der z)} = \frac{4\times10^5\ \zu{dynes}}{1700\ \zu{gauss}/\cmunit} \\
+    &= 235\ \zu{erg}/\zu{gauss}\ (\text{for 1 gram})
+\end{split}
+\end{align}
+To get the moment per cubic centimeter we multiply $m$ by the
+density of iron, $7.8\ \zu{g}/\cmunit^3$. The magnetization $M$ is thus
 \begin{equation}
+  M = 235\times 7.8 = 1830\ \zu{erg}/\zu{gauss}\unitdot\cmunit^3
 \end{equation}
-
-m _ F _ 4 x 105 dynes
-_ (dB/dz) _ 1700 gauss/cm
-= 235 ergs/gauss (for 1 g) (58)
-
-To get the moment per cubic centimeter we multiply m by the
-density of iron, 7.8 g/cm3. The magnetization M is thus
-\begin{equation}
-\end{equation}
-
-M = 235 )< 7.8 = 1830 ergs/gauss-cm3 (59)
-
-It is 4¢rM, not M, that we should compare with field strengths in gauss.
+It is $4\pi M$, not $M$, that we should compare with field strengths in gauss.
 For instance, if we had a very long rod of iron which had this amount
-of magnetization as a permanent magnet, the field H inside would
+of magnetization as a permanent magnet, the field $H$ inside would
 be quite small (imagine the situation in Fig. 10.2119 stretched out
-axially) so the field B in the iron would be approximately equal to
-47rM, or some 23,000 gauss.
+axially) so the field $B$ in the iron would be approximately equal to
+$4\pi M$, or some 23,000 gauss.
 
 It is more interesting to see how many electron spin moments this
-magnetization corresponds to. Dividing M by the electron moment
-given in Fig. 10.14, 0.93 X l0‘20 erg/gauss, we get about 2 X 1023
-spin moments per cubic centimeter. Now 1 cm3 of iron contains
-about 1023 atoms. The limiting magnetization seems to correspond
+magnetization corresponds to. Dividing $M$ by the electron moment
+given in Fig. 10.14, $0.93 \times 10^{-20}\ \zu{erg}/\zu{gauss}$, we get about 
+$2 \times 10^{23}$
+spin moments per cubic centimeter. Now $1\ \cmunit^3$ of iron contains
+about $10^{23}$ atoms. The limiting magnetization seems to correspond
 to about two lined-up spins per atom. As most of the electrons in
 the atom are paired off and have no magnetic effect at all, this indicates
 that we are dealing with substantially complete alignment
@@ -1703,29 +1698,26 @@ to point in the same direction.
 A very suggestive fact about ferromagnets is this: A given ferromagnetic
 substance, pure iron for example, loses its ferromagnetic
 properties quite abruptly if heated to a certain temperature. Above
-770°C. pure iron acts like a paramagnetic substance. Cooled below
-770°C, it immediately recovers its ferromagnetic properties. This
+$770\degcunit$, pure iron acts like a paramagnetic substance. Cooled below
+$770\degcunit$, it immediately recovers its ferromagnetic properties. This
 transition temperature, called the Curie point after Pierre Curie who
 was one of its early investigators. is different for different substances.
-For pure nickel it is 358°C.
+For pure nickel it is $358\degcunit$.\index{Curie point}\index{Curie, Pierre}
 
 What is this ``ferromagnetic behavior'' which so sharply distinguishes
-iron below 770°C from iron above 770°C, and from copper
-at any temperature? It is the spontaneous lining up in one direction
+iron below $770\degcunit$ from iron above $770\degcunit$, and from copper
+at any temperature? It is the \emph{spontaneous} lining up in one direction
 of the atomic magnetic moments, which implies the alignment of
-the spin axes of certain electrons in each iron atom. By spontaneous,
+the spin axes of certain electrons in each iron atom. By \emph{spontaneous},
 we mean that no external magnetic field need be involved. Over a
 region in the iron large enough to contain millions of atoms, the spins
 and magnetic moments of nearly all the atoms are pointing in the
-
 % p. 396
- 
-
 same direction. Well below the Curie point --- at room temperature,
 for instance, in the case of iron --- the alignment is nearly perfect.
 If you could magically look into the interior of a crystal of metallic
-iron and "see the elementary magnetic moments as vectors with
-arrowheads on them, you might see sometlnflg like Fig. 10.25.
+iron and see the elementary magnetic moments as vectors with
+arrowheads on them, you might see something like Fig. 10.25.
 
 It is hardly surprising that a high temperature should destroy this
 neat arrangement. Thermal energy is the enemy of order, so
@@ -1737,38 +1729,41 @@ involves ideas that are better left for your study of heat and statistical
 physics in the latter part of the course. Let us concentrate here on
 the ordered state itself. Two or three questions are obvious:
 
-Question 1: What makes the spins line up and keeps them lined
+\begin{description}
+\item[Question 1:] What makes the spins line up and keeps them lined
 up?
 
-Question 2: How, if there is no external field present, can the
+\item[Question 2:] How, if there is no external field present, can the
 spins choose one direction rather than another? Why didn't all the
 moments in Fig. 10.25 point down, or to the right, or to the left?
 
-Question 3: If the atomic moments are all lined up, why isn't every
+\item[Question 3:] If the atomic moments \emph{are} all lined up, why isn't every
 piece of iron at room temperature a strong magnet?
+\end{description}
 
 The answers to these three questions will help us to understand,
 in a general way at least, the behavior of ferromagnetic materials
 when an external field, neither very strong nor very weak, is applied.
-
 That includes a very rich variety of phenomena which we haven't
 even described yet.
 
-Answer 1: For some reason connected with the quantum mechanics
+\emph{Answer 1}: For some reason connected with the quantum mechanics
 of the structure of the iron atom, it is energetically favorable
-for the spins of adjacent iron atoms to be parallel. This is not due
+for the spins of adjacent iron atoms to be parallel. This is \emph{not} due
 to their magnetic interaction. It is a stronger effect than that, and
-moreover, it favors parallel spins whether like this M‘ or like this  --- > --- >
+moreover, it favors parallel spins whether 
+like this $\uparrow\uparrow$ or like this  $\rightarrow\rightarrow$
 (dipole interactions don't work that way --- see Prob. 9.26). Now if
 atom A (Fig. 10.26) wants to have its spin in the same direction as
-that of its neighbors, atoms B, C, D, and E, and each of them prefers
-to have its spin in the same direction as the spins of its neighbors,
+that of its neighbors, atoms B, C, D, and E, and each of \emph{them} prefers
+to have its spin in the same direction as the spins of \emph{its} neighbors,
 including atom A, you can readily imagine that if a local majority
 ever develops there will be a strong tendency to ``make it 
 unanimous,'' and then the fad will spread.
 
 % p. 397
-Answer 2: Accident somehow determines which of the various
+
+\emph{Answer 2}: Accident somehow determines which of the various
 equivalent directions in the crystal is chosen, if we commence from
 a disordered state --- as, for example, if the iron is cooled through its
 Curie point without an';' external field applied. Pure iron consists of
@@ -1777,15 +1772,15 @@ bors. The symmetry .11‘ the environment imposes itself on every
 physical aspect of the atom, including the coupling between spins.
 In iron the cubic axes happen to be the axes of easiest magnetization.
 That is, the spins like to point in the same direction, but they like
-it even better if that direction is one of the six directions, :52, :9,
-:2 (Fig. 10.27). This is important because it means that the spins
-cannot easily swivel around en masse from one of the easy directions
+it even better if that direction is one of the six directions, $\pm\xhat$, $\pm\yhat$,
+$\pm\zhat$ (Fig. 10.27). This is important because it means that the spins
+cannot easily swivel around \emph{en masse} from one of the easy directions
 to an equivalent one at right angles. To do so, they would have to
-swing through less favorable orientations on the way. It is just this
+swing through \emph{less} favorable orientations on the way. It is just this
 hindrance that makes permanent magnets possible.
 
-Answer 3: An apparently unmagnetized piece of iron is actually
-composed of many domains, in each of which the spins are all lined
+\emph{Answer 3}: An apparently unmagnetized piece of iron is actually
+composed of many \emph{domains},\index{domain, magnetic} in each of which the spins are all lined
 up one way, but in a direction different from that of the spins in
 neighboring domains. On the average over the whole piece of
 ``unmagnetized'' iron, all directions are equally represented, so no
@@ -1809,12 +1804,15 @@ If we wind a coil of wire around an iron rod, we can apply a magnetic
 field to the material by passing a current through the wire. In
 this field, moments pointing parallel to the field will have a lower
 energy than those pointing antiparallel, or in some other direction.
-This favors some domains over others; those that happen to have a
-
+This favors some domains over others; those that happen to have a moment in a
 % p. 398
- 
-
-favorably oriented moment direction"? will tend to grow at the expense
+favorably oriented
+direction\footnote{We tend to use \emph{spins} and \emph{moments}
+almost interchangeably in this discussion. The
+moment is an intrinsic aspect of the spin and if one is lined up so is the other. To be
+meticulous, we should remind the reader that in the case of the electron the magnetic
+moment and angular momentum vectors point in opposite directions (Fig. 10.14).}
+will tend to grow at the expense
 of the others, if that is possible. A domain grows like a club,
 that is, by expanding its membership. This happens at the 
 boundaries. Spins belonging to an unfavored domain but located next to
@@ -1841,34 +1839,29 @@ fields. A convenient experimental arrangement is an iron torus,
 around which are wound two coils (Fig. 10.29). This afl"ords a
 practically uniform field within the iron, with no end effects to complicate
 matters. By measuring the voltage induced in one of the
-coils we can determine changes in flux (I), and hence in B inside the
-iron. If we keep track of the changes in B, starting from B = O, we
-always know what B is. A current through the other coil establishes
-H, which we take as the independent variable. If we know B and H,
-we can always compute M. It is more usual to plot B rather than M,
-as a function of H. A typical B --- H curve for iron is shown in
+coils we can determine changes in flux $\Phi$, and hence in $\vc{B}$ inside the
+iron. If we keep track of the \emph{changes} in $\vc{B}$, starting from $\vc{B} = 0$, we
+always know what $\vc{B}$ is. A current through the other coil establishes
+$\vc{H}$, which we take as the independent variable. If we know $\vc{B}$ and $\vc{H}$,
+we can always compute $\vc{M}$. It is more usual to plot $\vc{B}$ rather than $\vc{M}$,
+as a function of $\vc{H}$. A typical $B$-$H$ curve for iron is shown in
 Fig. 10.30. Notice that the scales on abscissa and ordinate are vastly
 different. If there were no iron in the coil, 1 oersted would be worth
-exactly 1 gauss. Instead, when the field H is only a few oersteds.
-B has risen to thousands of gauss. Of course B and H here refer to
-
+exactly 1 gauss. Instead, when the field $H$ is only a few oersteds.
+$B$ has risen to thousands of gauss. Of course $B$ and $H$ here refer to
 an average throughout the whole iron ring; the fine domain structure
 as such never exhibits itself.
 
-TWe tend to use spins and moments almost interchangeably in this discussion. The
-moment is an intrinsic aspect of the spin and if one is lined up so is the other. To be
-meticulous, we should remind the reader that in the case of the electron the magnetic
-moment and angular momentum vectors point in opposite directions (Fig. 10.14).
-
 % p. 399
-Starting with ``unmagnetized'' iron, B = 0 and H = 0, increasing
-H causes B to rise in a conspicuously nonlinear way, slowly at
-first, then more rapidly, then very slowly, finally flattening off. What
-actually becomes constant in the limit is not B but M. In this graph
-however, since M = (B  ---  H) /477, and H < B, the difference between
-B and 47rM is not appreciable.
 
-The lower part of the B-H curve is governed by the motion of
+Starting with ``unmagnetized'' iron, $B = 0$ and $H = 0$, increasing
+$H$ causes $B$ to rise in a conspicuously nonlinear way, slowly at
+first, then more rapidly, then very slowly, finally flattening off. What
+actually becomes constant in the limit is not $B$ but $M$. In this graph
+however, since $M=(B-H)/4\pi$, and $H \ll B$, the difference between
+$B$ and $4\pi M$ is not appreciable.
+
+The lower part of the $B$-$H$ curve is governed by the motion of
 domain boundaries, that is by the growth of ``right-pointing'' domains
 at the expense of ``wrong-pointing'' domains. In the flattening
 part of the curve, the atomic moments are being pulled by ``brute
@@ -1877,10 +1870,10 @@ polycrystalline metal, so only a small fraction of the microcrystals will
 be fortunate enough to have an ``easy'' direction lined up with the
 field direction.
 
-If we now slowly decrease the current in the coil, thus lowering H,
-the curve does not retrace itself. Instead, we find the behavior given
+If we now slowly decrease the current in the coil, thus lowering $H$,
+the curve \emph{does not retrace itself}. Instead, we find the behavior given
 by the dashed curve in Fig. 10.31. This irreversibility is called
-hysteresis. It is largely due to the domain boundary movements'
+hysteresis.\index{hysteresis} It is largely due to the domain boundary movements'
 being partially irreversible. The reasons are not obvious from anything
 we have said, but are well understood by physicists who work
 on ferromagnetism. The irreversibility is a nuisance, and a cause
@@ -1888,17 +1881,14 @@ of energy loss in many technical applications of ferromagnetic
 materials --- for instance, in alternating-current transformers. But it
 is indispensable for permanent magnetization, and for such 
 applications, one wants to enhance the irreversibility. Figure 10.31 shows
-the corresponding portion of the B-H curve for a good permanent
-magnet alloy. Notice that H has to become 600 oersteds in the
-reverse direction before B is reduced to zero. If the coil is simply
-switched OH and removed, we are left with B at 13,000 gauss, called
-the remanence. Since H is zero, this is essentially the same as the
-magnetization M, except for the factor 472-. The alloy has acquired
+the corresponding portion of the $B$-$H$ curve for a good permanent
+magnet alloy. Notice that $H$ has to become 600 oersteds in the
+\emph{reverse} direction before $B$ is reduced to zero. If the coil is simply
+switched off and removed, we are left with $B$ at 13,000 gauss, called
+the \intro{remanence}. Since $H$ is zero, this is essentially the same as the
+magnetization $M$, except for the factor $4\pi$. The alloy has acquired
 a permanent magnetization, that is, one that will persist indefinitely
-if it is exposed only to. weak magnetic fields. All the information
-that is stored on magnetic tapes, from music to computer programs,
-owes its permanence to this physical phenomenon. Magnetic 
-computer elements, magnetic core memories, and the like, involve the
-same physics.
-
-\fi
+if it is exposed only to weak magnetic fields. All the information
+that is stored on magnetic media, from a movie on a videotape to 
+computer data on a hard disk,
+owes its permanence to this physical phenomenon.
