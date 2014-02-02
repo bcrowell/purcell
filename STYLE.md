@@ -31,3 +31,10 @@ Use \boxed{...} for single-line equations with boxes around them,
 \begin{framed}...\end{framed} for equations that are more than one
 line. When a multiline equation has a single number, do
 \begin{align}    \begin{split}  ... \end{split} \end{align}.
+
+Figures
+=======
+Three-color figures have gray background with a gray level of 118/255 (hex 767676).
+When retouching text in figures, use Linux Libertine 10.8 bold, 11.3 bold italic.
+Gray figures in the margin with a full bleed have a standard width of 78.5 mm.
+Bitmaps are 300 dpi.
