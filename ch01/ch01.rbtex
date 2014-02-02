@@ -1,4 +1,14 @@
-\chapter{Electrostatics: charges and fields}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '01',
+    %q{Electrostatics: charges and fields},
+    'ch:fields'
+  )
+%>
 
 \section{Electric charge}\index{charge}
 

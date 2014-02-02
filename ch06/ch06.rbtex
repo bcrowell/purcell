@@ -1,4 +1,14 @@
-\chapter{The magnetic field}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '06',
+    %q{The magnetic field},
+    'ch:b-field'
+  )
+%>
 
 \section{Definition of the magnetic field}
 

@@ -1,4 +1,14 @@
-\chapter{Magnetic fields in matter}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '10',
+    %q{Magnetic fields in matter},
+    'ch:b-in-matter'
+  )
+%>
 
 \section{How various substances respond to a magnetic field}
 

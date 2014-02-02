@@ -1,4 +1,14 @@
-\chapter{The fields of moving charges}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '05',
+    %q{The fields of moving charges},
+    'ch:fields-of-moving-charges'
+  )
+%>
 
 \section{From Oersted to Einstein}
 

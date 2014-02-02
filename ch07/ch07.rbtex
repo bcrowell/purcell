@@ -1,5 +1,16 @@
-\chapter[Electromagnetic induction and Maxwell's equations]
-      [Electromagnetic induction]{Electromagnetic induction and Maxwell's equations}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '07',
+    %q{Electromagnetic induction and Maxwell's equations},
+    'ch:maxwell',
+    '',
+    {'short_title'=>%q{Electromagnetic induction}}
+  )
+%>
 
 \section{Faraday's discovery}
 

@@ -74,16 +74,17 @@ released under the Creative Commons CC0 license, \url{http://creativecommons.org
 \addtocounter{page}{5}
 \sloppy
 
-\include{ch01/ch01}
-\include{ch02/ch02}
-\include{ch03/ch03}
-\include{ch04/ch04}
-\include{ch05/ch05}
-\include{ch06/ch06}
-\include{ch07/ch07}
-\include{ch08/ch08}
-\include{ch09/ch09}
-\include{ch10/ch10}
+	\renewcommand{\chapdir}{ch01}\include{ch01/ch01temp}
+	\renewcommand{\chapdir}{ch02}\include{ch02/ch02temp}
+	\renewcommand{\chapdir}{ch03}\include{ch03/ch03temp}
+	\renewcommand{\chapdir}{ch04}\include{ch04/ch04temp}
+	\renewcommand{\chapdir}{ch05}\include{ch05/ch05temp}
+	\renewcommand{\chapdir}{ch06}\include{ch06/ch06temp}
+	\renewcommand{\chapdir}{ch07}\include{ch07/ch07temp}
+	\renewcommand{\chapdir}{ch08}\include{ch08/ch08temp}
+	\renewcommand{\chapdir}{ch09}\include{ch09/ch09temp}
+	\formatchtoc{\large}{\quad\contentspage}{4mm} % This has to go before the last chapter.
+	\renewcommand{\chapdir}{ch10}\include{ch10/ch10temp}
 
 \printindex
 

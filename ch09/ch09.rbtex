@@ -1,4 +1,14 @@
-\chapter{Electric fields in matter}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '09',
+    %q{Electric fields in matter},
+    'ch:e-in-matter'
+  )
+%>
 
 \section{Dielectrics}
 

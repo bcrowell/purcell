@@ -1,4 +1,14 @@
-\chapter{Alternating-current circuits}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '08',
+    %q{Alternating-current circuits},
+    'ch:ac'
+  )
+%>
 
 \section{A resonant circuit}
 

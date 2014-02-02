@@ -1,4 +1,14 @@
-\chapter{The electric potential}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '02',
+    %q{The electric potential},
+    'ch:potential'
+  )
+%>
 
 \section{Line integral of the electric field}\index{electric field!line integral of}
 Suppose that $\vc{E}$ is the field of some stationary distribution of electric

@@ -1,4 +1,14 @@
-\chapter{Electric fields around conductors}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '03',
+    %q{Electric fields around conductors},
+    'ch:e-around-conductors'
+  )
+%>
 
 \section{Conductors and insulators}
 

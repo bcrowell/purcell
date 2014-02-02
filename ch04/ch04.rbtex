@@ -1,4 +1,14 @@
-\chapter{Electric currents}
+<%
+  require "./scripts/eruby_util.rb"
+%>
+
+<%
+  chapter(
+    '04',
+    %q{Electric currents},
+    'ch:currents'
+  )
+%>
 
 \section{Charge transport and current density}
 
