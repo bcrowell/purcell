@@ -14,6 +14,7 @@
 %====================== packages =====================================================
 \usepackage{url,framed}
 \RequirePackage{amsmath,amssymb,graphicx,enumerate,mathrsfs,learn-cmd-syntax}
+\def\maketag@@@#1{\hbox{\m@th#1}} % workaround for bug in amsmath; see http://tex.stackexchange.com/a/155719/6853
 % enumerate is for lc roman numerals; see http://tex.stackexchange.com/questions/54055/using-lower-case-roman-numerals-in-enumerate-lists ;
 %    used in section 4.8
 % mathrsfs is for script letters

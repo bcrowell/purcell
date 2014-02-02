@@ -320,7 +320,26 @@ been predicted by logical arguments from symmetry like the one we
 used above to show that the force between two points charges
 \emph{had} to be along the line joining them. \emph{The force with
 which two charges interact is not changes by the presence of a third
-charge.} No matter how many charges we have in our system, Coulomb's
+charge.} 
+<% marg(0) %>
+<%
+  fig(
+    'no-three-body-effects',
+    %q{The force on $q_1$ in (c) is the sum of the forces on $q_1$ in (a) and (b).}
+  )
+%>
+\spacebetweenfigs
+<%
+  fig(
+    'vector-addition-of-electrical-forces',
+    %q{The force on a charge which arises from two other charges, expressed in 
+       Eq.~\eqref{eqn:vector-addition-of-electrical-forces}.}
+  )
+%>
+<% end_marg %>
+
+
+No matter how many charges we have in our system, Coulomb's
 law (Eq. 1) can be used to calculate the interaction of every pair.
 This is the basis of a principle of \intro{superposition}, which we
 shall invoke again and again in our study of electromagnetism.
@@ -341,11 +360,11 @@ explicit statement of Eq. 1 and assert that with the three charges in
 Fig 1.2 occupying any positions whatever, the force on any one of
 them, such as $q_3$, is correctly given by this equation: 
 
-\begin{equation}
+\begin{equation}\label{eqn:vector-addition-of-electrical-forces}
 \vc{F}_3= \frac{q_3q_1\hat{\vc{r}}_{31}}{r_{31}^2}+\frac{q_3q_2\hat{\vc{r}}_{32}}{r_{32}^2}
 \end{equation}
 
-\noindent Equation 2 applies for
+\noindent Equation \eqref{eqn:vector-addition-of-electrical-forces} applies for
 instance to the situation shown in Fig.~1.3. As for the
 inverse-square law, its experimental verification, over a certain
 range of distances, leaves little to be desired. In 1785 Coulomb
