@@ -113,6 +113,14 @@ the box, is zero. An event that \emph{would} violate the law we have just
 stated would be the creation of a positively charged particle \emph{without}
 the simultaneous creation of a negatively charged particle. Such an occurrence
 has never been observed. 
+<% marg(0) %>
+<%
+  fig(
+    'pair-production',
+    %q{Charged particles are created in pairs with equal and opposite charge.}
+  )
+%>
+<% end_marg %>
 
 Of course, if the electric charges of electron and positron
 were not precisely equal in magnitude, pair creation would still violate the

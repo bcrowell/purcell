@@ -171,7 +171,8 @@
 \newcommand{\docaptionnorefstep}[2][l]{%
 	\break%
         \ifthenelse{\equal{#1}{r}}{\hspace*{\fill}}{}
-        \formatlikecaption{\figurelabel#2}%
+        \begin{ifrightifleft}{}{\null\hspace{\margincaptionoffset}}\end{ifrightifleft}%
+        \parbox{\margincaptionwidth}{\formatlikecaption{\figurelabel#2}}%
         \hfill%
 }
 \newcommand{\docaption}[1]{%

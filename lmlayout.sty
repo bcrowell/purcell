@@ -14,9 +14,14 @@
 
 %-------------------- page layout dimensions -------------------
 % standard stuff, see LaTeX companion, p. 85:
-  \setlength{\hoffset}{0mm}
-  \setlength{\textwidth}{113mm}
-  \setlength{\marginparsep}{6mm}
+  \setlength{\hoffset}{-6mm}
+          % for purcell; is normally 0
+          % see http://connect.lulu.com/t5/Suggest/A-gutter-size-calculator/idi-p/34487
+          % getting more aggressive with it means more stress on the bindings when you open the book
+  \setlength{\textwidth}{106mm} % for purcell; is normally 113m; purcell 1e has 106mm
+  \setlength{\marginparsep}{9mm} 
+          % for purcell; is normally 6 mm; is several mm greater than the
+          % parsep actually produced; purcell 1e has actual separation of 3.5mm
   \setlength{\columnsep}{6mm}
   \setlength{\voffset}{-4mm}
   \setlength{\textheight}{230mm}
@@ -27,7 +32,12 @@
 % my stuff:
   \setlength{\oddsidemargin}{7mm}
   \newlength{\marginfigwidth}
-  \setlength{\marginfigwidth}{52mm}
+  \setlength{\marginfigwidth}{78.5mm} % for purcell
+  \newlength{\margincaptionwidth}
+  \setlength{\margincaptionwidth}{61mm} % for purcell; is normally the same as marginfigwidth
+  \newlength{\margincaptionoffset} % is 0 except for purcell
+  \setlength{\margincaptionoffset}{\marginfigwidth}
+  \addtolength{\margincaptionoffset}{-\margincaptionwidth}
   \newlength{\overhang}
   \setlength{\overhang}{\marginfigwidth}
   \addtolength{\overhang}{\columnsep}

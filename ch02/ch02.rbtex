@@ -497,6 +497,14 @@ giving
 \end{equation}
 (To be sure, it is not hard to compute $E_y$ directly from the charge 
 distribution, for points on the axis.)
+<% marg(0) %>
+<%
+  fig(
+    'gauss-charged-disk',
+    %q{Applying Gauss's law to the charged disk.}
+  )
+%>
+<% end_marg %>
 
 As $y$ approaches zero from the positive side, $E_y$ approaches $2\pi\sigma$.
 On the negative $y$ side of the disk, which we shall call the back, $\vc{E}$

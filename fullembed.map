@@ -1,0 +1,38 @@
+cmbsy10 CMBSY10 <<cmbsy10.pfb
+cmbx10 CMBX10 <<cmbx10.pfb
+cmbx12 CMBX12 <<cmbx12.pfb
+cmbx9 CMBX9 <<cmbx9.pfb
+cmbxti10 CMBXTI10 <<cmbxti10.pfb
+cmbxti12 CMBXTI10 <<cmbxti10.pfb
+cmbxti7 CMBXTI10 <<cmbxti10.pfb
+cmex10 CMEX10 <<cmex10.pfb
+cmex9 CMEX9 <<cmex9.pfb
+cmmi10 CMMI10 <<cmmi10.pfb
+cmmi12 CMMI12 <<cmmi12.pfb
+cmmi5 CMMI5 <<cmmi5.pfb
+cmmi6 CMMI6 <<cmmi6.pfb
+cmmi8 CMMI8 <<cmmi8.pfb
+lcmmi8 <<lcmmi8.pfb
+cmmi9 CMMI9 <<cmmi9.pfb
+cmmib10 CMMIB10 <<cmmib10.pfb
+cmr10 CMR10 <<cmr10.pfb
+cmr5 CMR5 <<cmr5.pfb
+cmr6 CMR6 <<cmr6.pfb
+cmr8 CMR8 <<cmr8.pfb
+cmr9 CMR9 <<cmr9.pfb
+cmsy10 CMSY10 <<cmsy10.pfb
+cmsy6 CMSY6 <<cmsy6.pfb
+cmsy8 CMSY8 <<cmsy8.pfb
+lcmsy8 <<lcmsy8.pfb
+cmsy9 CMSY9 <<cmsy9.pfb
+cmti10 CMTI10 <<cmti10.pfb
+cmti9 CMTI9 <<cmti9.pfb
+msam10 MSAM10 <<msam10.pfb
+rsfs10 rsfs10 <<rsfs10.pfb
+rrsfso10 rsfs10  <<rsfs10.pfb
+phvb8r NimbusSanL-Bold  <8r.enc <<uhvb8a.pfb
+rtxphvb NimbusSanL-Bold  <8r.enc <<uhvb8a.pfb
+rtxphvbo NimbusSanL-Bold  <8r.enc <<uhvb8a.pfb
+phvr8r NimbusSanL-Regu  <8r.enc <<uhvr8a.pfb
+rtxphvr NimbusSanL-Regu  <8r.enc <<uhvr8a.pfb
+rtxphvro NimbusSanL-Regu  <8r.enc <<uhvr8a.pfb
