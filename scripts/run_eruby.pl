@@ -58,7 +58,7 @@ my $banner_html = <<BANNER;
   </div>
 BANNER
 
-my $html_dir = $ENV{HOME} . '/Generated/html_books/sr';
+my $html_dir = $ENV{HOME} . '/Generated/html_books/purcell';
 
 #---------
 #   Note:
@@ -67,7 +67,7 @@ my $html_dir = $ENV{HOME} . '/Generated/html_books/sr';
 #     even when we're generating xhtml output. This is because mod_rewrite is intended to
 #     redirect users to the .xhtml only if they can handle it.
 #---------
-my $index = $ENV{HOME} . '/Generated/html_books/sr/index.html';
+my $index = $ENV{HOME} . '/Generated/html_books/purcell/index.html';
 if ($web==1 && !$no_write && !$wiki) {
   open(FILE,">$index") or die "error opening $index";
   print FILE "<html><head><title>html version of book</title>    <link rel=\"stylesheet\" type=\"text/css\" href=\"http://www.lightandmatter.com/banner.css\" media=\"all\"></head><body>\n";
@@ -86,7 +86,7 @@ foreach (<ch*/*.rbtex>) {
   my $postm4 = "$outfile_base.postm4";
   my $d = "ch$ch";
   my $web_flag = ($web==1 ? 1 : 0);
-  my $cmd = "m4 -P -D __web='$web_flag' sr.m4 $file >$postm4";
+  my $cmd = "m4 -P -D __web='$web_flag' purcell.m4 $file >$postm4";
   do_system($cmd,$file,'m4');
   my $cmd = "BOOK_OUTPUT_FORMAT='print' DIR='$d' $eruby $postm4 >$outfile_base.tex"; # is always executed by sh, not bash or whatever
   do_system($cmd,$file,'eruby (print)');

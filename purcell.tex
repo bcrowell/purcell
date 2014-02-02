@@ -1,8 +1,14 @@
 \documentclass{purcell}
-
-%% BEGIN TITLE
+\let\ifpdf\relax % http://tex.stackexchange.com/questions/11414/package-ifpdf-error
 
 \makeindex
+\pdfmapfile{=fullembed.map} % created by the script create_fullembed_file
+
+\begin{document}
+
+\pagenumbering{arabic} 
+
+%% BEGIN TITLE
 
 \makeatletter
 \def\maketitle{%
@@ -25,17 +31,9 @@
 \author{Edward M.~Purcell}
 \title{Electricity and Magnetism}
 
-\begin{document}
-
 \let\cleardoublepage\clearpage
 
-
 \maketitle
-
-
-
-
-
 
 \frontmatter
 
@@ -70,8 +68,13 @@ released under the Creative Commons CC0 license, \url{http://creativecommons.org
 
 \tableofcontents
 
+%========================= main matter =========================
 \mainmatter
-\addtocounter{page}{5}
+%-- I want the whole book numbered sequentially, arabic:
+  \pagenumbering{arabic} 
+  \addtocounter{page}{6}
+\parafmt
+\myeqnspacing % Do this early and often, since it gets reset by \normalsize
 \sloppy
 
 	\renewcommand{\chapdir}{ch01}\include{ch01/ch01temp}
