@@ -34,7 +34,7 @@ line. When a multiline equation has a single number, do
 
 Figures
 =======
-Three-color figures have gray background with a gray level of 118/255 (hex 767676).
+Three-color figures have gray background with a gray level of 185/255 (hex b9b9b9).
 When retouching text in figures, use Linux Libertine 10.8 bold, 11.3 bold italic.
 Gray figures in the margin with a full bleed have a standard width of 78.5 mm.
 Bitmaps are 300 dpi.

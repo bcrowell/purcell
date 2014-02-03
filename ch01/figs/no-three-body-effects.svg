@@ -51,7 +51,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
 </rdf:RDF>
 </metadata>
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect3610"
      width="39.237606"
      height="284.7515"
@@ -59,7 +59,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      y="-2.1570921e-05" />
   <g
      transform="translate(0.000000,284.640000) scale(0.024000,-0.024000)"
-     fill="#767676"
+     fill="#b9b9b9"
      stroke="none"
      id="g6">
     <path
@@ -379,7 +379,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      d="m 32.52928,115.85598 c 0.768,1.56 0.72,4.224 -0.144,5.952 -0.36,0.72 -0.6,1.368 -0.528,1.44 0.192,0.168 1.296,-1.224 1.296,-1.632 0,-0.168 0.096,-0.48 0.216,-0.72 0.72,-1.416 0.792,-1.728 0.624,-2.904 -0.096,-0.672 -0.264,-1.272 -0.384,-1.344 -0.12,-0.072 -0.384,-0.504 -0.6,-0.96 -0.216,-0.456 -0.528,-0.84 -0.696,-0.84 -0.216,0 -0.144,0.312 0.216,1.008 z"
      inkscape:connector-curvature="0" />
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect4559-8"
      width="19.772877"
      height="13.593852"
@@ -691,7 +691,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      d="m 42.92128,270.58398 c -0.408,0.144 -0.408,0.192 -0.072,0.48 0.528,0.432 0.552,3.264 0.024,3.48 -0.744,0.288 -0.312,0.552 0.792,0.504 1.464,-0.072 1.44,-0.072 0.888,-0.504 -0.384,-0.288 -0.504,-0.72 -0.6,-2.184 -0.12,-1.872 -0.264,-2.088 -1.032,-1.776 z"
      inkscape:connector-curvature="0" />
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect3715"
      width="20.09672"
      height="8.0386877"
@@ -699,7 +699,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      y="105.70752"
      transform="matrix(0.8,0,0,0.8,0,-7.3242188e-6)" />
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect3717"
      width="25.902437"
      height="32.154751"
@@ -707,7 +707,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      y="201.72517"
      transform="matrix(0.8,0,0,0.8,0,-7.3242188e-6)" />
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect3719"
      width="19.650126"
      height="9.3784685"
@@ -715,7 +715,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      y="262.46191"
      transform="matrix(0.8,0,0,0.8,0,-7.3242188e-6)" />
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect3721"
      width="55.020348"
      height="25.723801"
@@ -759,7 +759,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      y="59.78281"
      transform="matrix(0.8,0,0,0.8,0,-7.3242188e-6)" />
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect4545"
      width="5.273797"
      height="5.0348549"
@@ -767,7 +767,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      y="8.6169186"
      transform="matrix(0.8,0,0,0.8,0,-7.3242188e-6)" />
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect4559"
      width="24.716097"
      height="16.992315"
@@ -797,7 +797,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
        x="21.626585"
        y="120.89587">(b)</tspan></text>
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect4559-3"
      width="19.772877"
      height="13.593852"
@@ -994,7 +994,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
        height="14.907322"
        width="17.03694"
        id="rect4732-3"
-       style="fill:#767676;fill-opacity:1;stroke:none" />
+       style="fill:#b9b9b9;fill-opacity:1;stroke:none" />
     <text
        sodipodi:linespacing="125%"
        id="text4679-9-3"
@@ -1021,7 +1021,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
        height="14.907322"
        width="17.03694"
        id="rect4732"
-       style="fill:#767676;fill-opacity:1;stroke:none" />
+       style="fill:#b9b9b9;fill-opacity:1;stroke:none" />
     <text
        sodipodi:linespacing="125%"
        id="text4679-9"
@@ -1048,7 +1048,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
        height="14.907322"
        width="17.03694"
        id="rect4732-7"
-       style="fill:#767676;fill-opacity:1;stroke:none" />
+       style="fill:#b9b9b9;fill-opacity:1;stroke:none" />
     <text
        sodipodi:linespacing="125%"
        id="text4679-9-36"
@@ -1075,7 +1075,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
        height="14.907322"
        width="17.03694"
        id="rect4732-1"
-       style="fill:#767676;fill-opacity:1;stroke:none" />
+       style="fill:#b9b9b9;fill-opacity:1;stroke:none" />
     <text
        sodipodi:linespacing="125%"
        id="text4679-9-6"
@@ -1093,7 +1093,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
            style="font-size:7.19999981px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;baseline-shift:sub;font-family:Linux Libertine O;-inkscape-font-specification:Linux Libertine O Bold">2</tspan></tspan></text>
   </g>
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect4732-1-6"
      width="13.629552"
      height="11.925858"
@@ -1131,7 +1131,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
        id="g4734-49-8-0"
        transform="translate(-31.00723,112.61417)">
       <rect
-         style="fill:#767676;fill-opacity:1;stroke:none"
+         style="fill:#b9b9b9;fill-opacity:1;stroke:none"
          id="rect4732-1-6-2"
          width="17.03694"
          height="14.907322"
@@ -1166,7 +1166,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
      d="m 117.38961,236.18923 c -0.43199,0.12 -0.86399,1.176 -0.71999,1.8 0.048,0.24 0.288,0.432 0.55199,0.432 0.48,0 0.624,-0.36 0.216,-0.6 -0.12,-0.072 -0.24,-0.36 -0.24,-0.624 0,-0.6 0.888,-0.552 1.296,0.072 0.192,0.312 0.12,0.528 -0.288,0.984 -0.288,0.312 -0.528,0.672 -0.528,0.792 0,0.144 -0.264,0.504 -0.6,0.816 -0.312,0.288 -0.52799,0.648 -0.45599,0.744 0.072,0.12 0.71999,0.216 1.43999,0.216 1.368,0 1.752,-0.288 1.44,-1.128 -0.144,-0.336 -0.216,-0.336 -0.36,-0.096 -0.12,0.168 -0.504,0.264 -0.888,0.216 l -0.696,-0.072 0.912,-0.984 c 1.536,-1.704 0.96,-3.12 -1.08,-2.568 z"
      inkscape:connector-curvature="0" />
   <rect
-     style="fill:#767676;fill-opacity:1;stroke:none"
+     style="fill:#b9b9b9;fill-opacity:1;stroke:none"
      id="rect4732-1-6-2-2"
      width="13.629552"
      height="11.925858"

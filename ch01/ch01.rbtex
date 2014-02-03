@@ -442,6 +442,16 @@ integral of the product: force times
 displacement-in-direction-of-force. The force that has to be applied
 to move one charge toward the other is equal and opposite to the
 coulomb force.
+<% marg(100) %>
+<%
+  fig(
+    'assembling-three-charges',
+    %q{Three charges are brought near
+       one another. First $q_2$ is brought in; the
+       with $q_1$ and $q_2$ fixed, $q_3$ is brought in.}
+  )
+%>
+<% end_marg %>
 
 \begin{equation}
   W = \int \text{force}\times\text{distance} 
@@ -507,6 +517,17 @@ charges already in existence but infinitely far apart from one another.
 The potential energy belongs to the configuration as a whole. There
 is no meaningful way of assigning a certain fraction of it to one of the
 charges.
+<% marg(200) %>
+<%
+  fig(
+    'path-independence',
+    %q{Because the force is central, the
+       sections of different paths between $r + \der r$
+       and $r$ require the same amount of work.
+      }
+  )
+%>
+<% end_marg %>
 
 It is obvious how this very simple result can be generalized to
 apply to any number of charges. If we have $N$ different charges, in
