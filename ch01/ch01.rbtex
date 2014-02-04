@@ -403,14 +403,18 @@ Cavendish experiments. The reason is that cutoff, at large distances,
 of the inverse-square force would imply a small but finite rest mass
 for the light quantum, or photon, and consequently a slight variation
 with wavelength in the speed of electromagnetic waves in vacuum. It
-is known form direct observation\footnote{The best evidence so far
-is a recent observation of the practically simultaneous (within a few
-minutes, at most) arrival at the earth of radio emissions and light
-emissions from the eruptions of a ``flare star'' 20 light-years away
-from us [B.~Lovell, F.L.~Whipple, and L.H.~Solomon, \emph{Nature}
-202, 377 (1964)].}  that short radio waves travel through vacuum with
-the same speed as visible light, to an experimental accuracy at least
-as good as one part in $10^{6}$. From this it is possible to argue
+is known form direct observation\footnote{Presently the best experimental tests of the invariance of
+the speed of light with respect to wavelength come from astronomical observations
+of gamma-ray bursts, which are sudden
+outpourings of high-energy photons, believed to originate from a supernova
+explosion in another galaxy. One such observation,
+in 2009, \url{http://arxiv.org/abs/0908.1832},
+collected photons from such a burst, with a duration of 2 seconds, indicating that the propagation
+time of all the photons differed by no more than 2 seconds out of a total time in flight on the order
+of ten billion years!}  that electromagnetic waves 
+with wavelengths differing by a factor of $10^6$ travel in vacuum with
+the same speed, to an experimental accuracy at least
+as good as one part in $10^{17}$. From this it is possible to argue
 theoretically that Coulomb's law ought to be good up to distances of
 several kilometers at least. Probably even stronger indirect
 arguments of this sort could be made.      To summarize, we have
@@ -683,6 +687,15 @@ in the way we have learned here.
 
 % p. 16
 \section{The electric field}\index{electric field}\index{field!electric|see{electric field}}
+<% marg(0) %>
+<%
+  fig(
+    'vector-addition-of-electric-fields',
+    %q{The field at a point is the vector sum of the fields of each of the charges in the
+       system.}
+  )
+%>
+<% end_marg %>
 
 Suppose we have some arrangement of charges, $q_1$, $q_2$, \ldots , $q_N$,
 fixed in space, and we are interested not in the forces they exert on
@@ -697,7 +710,7 @@ where $\vc{r}_{0j}$ is the vector from the $j$th charge in the system to the poi
 $(x,y,z)$. The force is proportional to $q_0$, so if we divide out $q_0$ we
 obtain a vector quantity which depends only on the structure of our
 original system of charges, $q_1$, \ldots , $q_N$ and on the position of the point
-(x,y,z). We call this vector function of $x$, $y$, $z$ the electric field arising
+$(x,y,z)$. We call this vector function of $x$, $y$, $z$ the electric field arising
 from the $q_1$, \ldots , $q_N$, and use the symbol $\vc{E}$ for it. The charges
 $q_1$, \ldots , $q_N$ we call sources of the field. We may take as the definition
 of the electric field $\vc{E}$ of a charge distribution, at the point $(x,y,z)$
@@ -718,9 +731,9 @@ really immovable, the introduction of some finite charge $q_0$ may
 cause the source charges to shift their positions, so that the field itself,
 as defined by Eq. 14, is difierent. That is why we assumed fixed
 charges to begin our discussion. People sometimes define the field
-by requiring $q_0$ to be an "infinitesimal" test charge, letting E be the
-limit of $F/q_0$ as $q_0\rightarrow0$. Any flavor of rigor this may impart is illu-
-sory. Remember that in the real world we have never observed a
+by requiring $q_0$ to be an ``infinitesimal'' test charge, letting E be the
+limit of $F/q_0$ as $q_0\rightarrow0$. Any flavor of rigor this may impart is 
+illusory. Remember that in the real world we have never observed a
 charge smaller than $e$! Actually, if we take Eq. 14 as our definition
 of E, without reference to a test charge, no problem arises and the
 sources need not be fixed. If the introduction of a new charge
@@ -756,6 +769,16 @@ To visualize an electric field, you need to associate a vector, that is,
 a magnitude and direction, with every point in space. We shall use
 various schemes, none of them wholly satisfactory, to depict vector
 fields in this book.
+<%
+  fig(
+    'fields-of-point-charges',
+    %q{ (a) Field of a charge $q_1+3$. (b) Field of a charge $q_2=-1$.
+            Both representations are roughly quantitative.},
+    {
+      'width'=>'fullpage'
+    }
+  )
+%>
 
 It is hard to draw in two dimensions a picture of a vector function
 in three-dimensional space. We can indicate the magnitude and
@@ -787,7 +810,20 @@ very much difference for points far away, and a point charge of $+2$
 units is just what we would have left if we superimposed our two
 sources at one spot.
 
-Another way to depict a Vector field is to draw field lines. These
+
+<%
+  fig(
+    'superposed-fields-of-unequal-opposite-charges',
+    %q{The field in the vicinity of two charges, $q_1=+3$, $q_2=-1$, is the superposition
+       of the fields in figures \ref{fig:fields-of-point-charges}a and \ref{fig:fields-of-point-charges}b.},
+    {
+      'width'=>'fullpage'
+    }
+  )
+%>
+
+
+Another way to depict a vector field is to draw \intro{field lines}. These
 are simply curves whose tangent, at any point, lies in the direction of
 the field at that point. Such curves will be smooth and continuous
 except at singularities such as point charges, or points like the one
