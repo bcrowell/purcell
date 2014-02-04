@@ -538,8 +538,8 @@ potential energy, as in that case, corresponds to all charges far apart.
 
 As an example, let us calculate the potential energy of an arrangement
 of eight negative charges on the corners of a cube of side $b$,
-with a positive charge in the center of the cube, as in Fig. 1.6a. Sup-
-pose each negative charge is an electron with charge $-e$, while the
+with a positive charge in the center of the cube, as in Fig. 1.6a. 
+Suppose each negative charge is an electron with charge $-e$, while the
 central particle carries a double positive charge, $2e$. Summing over
 all pairs, we have:
 \begin{equation}
@@ -557,13 +557,22 @@ This would be true whether they came apart simultaneously and
 symmetrically, or were released one at a time in any order. Here
 we see the power of this simple notion of the total potential energy
 of the system. Think what the problem would be like if we had to
-compute the resultant Vector force on every particle, at every stage
+compute the resultant vector force on every particle, at every stage
 of assembly of the configuration! In this example, to be sure, the
 geometrical symmetry would simplify that task; even so it would be
 more complicated than the simple calculation above.
+<% marg(0) %>
+<%
+  fig(
+    'crystal-pe',
+    %q{(a) The potential energy of this arrangement of nine point charges is given
+        by Eq. \eqref{eqn:crystal-pe-sum-over-pairs}. (b) Four types of pairs are involved in the sum.}
+  )
+%>
+<% end_marg %>
 
 One way of writing the instruction for the sum over pairs is this:
-\begin{equation}
+\begin{equation}\label{eqn:crystal-pe-sum-over-pairs}
   U = \frac{1}{2} \sum_{j=1}^N \sum_{k\ne j} \frac{q_jq_k}{r_{jk}}
 \end{equation}
 The double-sum notation, $\sum_{j=1}^N \sum_{k\ne j}$, says: Take $j=1$ and sum over
@@ -607,6 +616,15 @@ amount of energy. (You might estimate how much!) The situation
 is saved by the fact that the crystal structure is an alternation of equal
 and opposite charges, so that any macroscopic bit of crystal is very
 nearly neutral.
+<% marg(0) %>
+<%
+  fig(
+    'nacl',
+    %q{A portion of a sodium chloride crystal, with the ions $\zu{Na}^+$ and $\zu{Cl}^-$ shown in about the
+       right relative proportions (a), and replaced by equivalent point charges (b).}
+  )
+%>
+<% end_marg %>
 
 To evaluate the potential energy we first observe that every positive
 ion is in a position equivalent to that of every other positive ion.

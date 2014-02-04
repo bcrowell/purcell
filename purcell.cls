@@ -18,6 +18,7 @@
 % enumerate is for lc roman numerals; see http://tex.stackexchange.com/questions/54055/using-lower-case-roman-numerals-in-enumerate-lists ;
 %    used in section 4.8
 % mathrsfs is for script letters
+\renewcommand{\eqref}[1]{\textup{\ref{#1}}}% no parens around eq refs
 \StartSaveCommands % for learn-cmd-syntax
 %====================== pull in sub-packages =====================================================
 \RequirePackage{lmlanguage,lmlayout,lmcommon,lmfigs,lmenvironments}
