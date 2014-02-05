@@ -828,7 +828,6 @@ are simply curves whose tangent, at any point, lies in the direction of
 the field at that point. Such curves will be smooth and continuous
 except at singularities such as point charges, or points like the one
 in the example of Fig. 1.10 where the field is zero. A field line plot
-
 % p. 19
 does not directly give the magnitude of the field, although we shall
 see that, in a general way, the field lines converge as we approach a
@@ -836,14 +835,23 @@ region of strong field and spread apart as we approach a region of
 weak field. In Fig. 1.11 are drawn some field lines for the same arrangement
 of charges as in Fig. 1.10, a positive charge of 3 units and
 a negative charge of one unit. Again, we are restricted by the nature
-
 of paper and ink to a two-dimensional section through a three-dimensional bundle of curves.
+
+<%
+  fig(
+    'field-lines',
+    %q{Some field lines in the electric field around two charges, $q_1=+3$, $q_2=-1$.},
+    {
+      'width'=>'fullpage'
+    }
+  )
+%>
 
 % p. 20
 \section{Charge distributions}\index{charge!continuous distribution}
 
 This is as good a place as any to generalize from point charges to
-continuous charge distributions. A volume distribution of charge is
+\emph{continuous charge distributions}.\index{charge distribution!continuous} A volume distribution of charge is
 described by a scalar charge-density function $\rho$, which is a function
 of position, with the dimensions charge/volume. That is, $\rho$ times a
 volume element gives the amount of charge contained in that volume
@@ -853,6 +861,17 @@ but in this book we shall always give charge per unit volume first
 call on the symbol $\rho$. If we write $\rho$ as a function of the coordinates
 $x$, $y$, $z$, then $\rho(x,y,z)\der x \der y \der z$ is the charge contained in the little box,
 of volume $\der x \der y \der z$, located at the point $(x,y,z)$.
+<% marg(0) %>
+<%
+  fig(
+    'field-of-charge-distribution',
+    %q{Each element of the charge distribution
+       $\rho(x',y',z')$ makes a contribution to the electric field $\vc{E}$ at the point $(x,y,z)$. The
+       total field at this point is the sum of all such contributions (equation
+       \eqref{eqn:field-of-charge-distribution}).}
+  )
+%>
+<% end_marg %>
 
 On an atomic scale, of course, the charge density varies enormously
 from point to point; even so it proves to be a useful concept
@@ -868,7 +887,7 @@ rather than point charges, we have only to replace the sum
 in Eq. 13 with the appropriate integral. The integral gives the electric
 field at $(x,y,z)$, which is produced by charges at other points
 $(x',y',z')$.
-\begin{equation}
+\begin{equation}\label{eqn:field-of-charge-distribution}
   \vc{E}(x,y,z) = \int \frac{\rho(x',y',z')\hat{\vc{r}}\der x' \der y' \der z'}{r^2}
 \end{equation}
 This is a volume integral. Holding $(x,y,z)$ fixed we let the variables
@@ -903,6 +922,15 @@ distribution.
 The relation between the electric field and its sources can be
 expressed in a remarkable simple way, one that we shall find very
 useful. For this we need to define a quantity called \intro{flux}.
+<% marg(200) %>
+<%
+  fig(
+    'flux',
+    %q{Fig. 1.13 (a) A closed surface in a vector field is divided (b) into small elements of
+       area. (c) Each element of area is represented by an outward vector.}
+  )
+%>
+<% end_marg %>
 
 Consider some electric field in space and in this space some
 arbitrary closed surface, like a balloon of any shape. Figure 1.13
@@ -943,6 +971,16 @@ is the \emph{rate of flow} of water through the fame in cubic feet
 per second (Fig.~1.14). We must emphasize that our definition of
 flux is applicable to any vector function, whatever physical variable
 it may represent.
+<%
+  fig(
+    'flux-dot-product',
+    %q{The flux through the frame of area $\vc{a}$ is $\vc{v}\cdot\vc{a}$ where $\vc{v}$ is the velocity of the fluid.
+       The flux is the volume of fluid passing through the frame, per unit time.},
+    {
+      'width'=>'fullpage'
+    }
+  )
+%>
 
 Now let us add up all the flux through all the patches to get the
 flux through the entire surface, a scalar quantity which we shall
@@ -978,6 +1016,22 @@ So we have:
   \Phi =  {\vc{E}}\times \text{total area} = \frac{q}{r^2} \times 4\pi r^2 =  4\pi q 
 \end{equation}
 The flux is independent of the size of the sphere.
+<% marg(200) %>
+<%
+  fig(
+    'flux-through-different-surfaces-is-equal',
+    %q{Showing that the flux through \emph{any} closed surface around $q$ is the same :as
+       the flux through the sphere.}
+  )
+%>
+\spacebetweenfigs
+<%
+  fig(
+    'pinched-neck',
+    %q{To show that in (a) the flux through S is zero, you can make use of (b).}
+  )
+%>
+<% end_marg %>
 
 % p. 24
 
