@@ -1167,6 +1167,21 @@ Second, the mathematical relation here demonstrated is a powerful
 analytic tool; it can make complicated problems easy, as we shall see.
 
 \section{Field of a spherical charge distribution}
+<% marg(0) %>
+<%
+  fig(
+    'spherically-symmetric-charge',
+    %q{A charge distribution with spherical symmetry.}
+  )
+%>
+\spacebetweenfigs
+<%
+  fig(
+    'field-of-spherical-charge-distribution',
+    %q{The electric field of a spherical charge distribution.}
+  )
+%>
+<% end_marg %>
 
 We can use Gauss's law to find the electric field of a spherically
 symmetrical distribution of charge, that is, a distribution in which
@@ -1200,6 +1215,14 @@ drawn inside the charge distribution. The field at any point on $S_2$
 is the same as if all charge within $S_2$ were at the center, and all charge
 outside $S_2$ absent. Evidently the field inside a "hollow" spherical
 charge distribution is zero (Fig. 1.20).
+<% marg(0) %>
+<%
+  fig(
+    'zero-field-inside-spherical-shell',
+    %q{The field is zero inside a spherical shell of charge.}
+  )
+%>
+<% end_marg %>
 
 The same argument applied to the gravitational field would tell us
 that the earth, assuming it is spherically symmetrical in its mass dis-
@@ -1236,7 +1259,9 @@ $\lambda$, measured in esu per centimeter, denote this linear charge density.
 What is the electric field of such a line charge, assumed infinitely
 long and with constant linear charge density $\lambda$? We'll do the problem
 in two ways; first by an integration starting from Coulomb's law.
+
 % p. 28
+
 To evaluate the field at the point $P$, shown in Fig. 1.21, we must
 add up the contributions from all segments of the line charge, one of
 which is indicated as a segment of length $\der x$. The charge $\der q$ on this
@@ -1266,6 +1291,22 @@ We see that the field of an infinitely long unitormly dense line charge
 is proportional to the reciprocal of the distance from the line. Its
 direction is of course radially outward if the line carries a positive
 charge, inward if negative.
+<% marg(0) %>
+<%
+  fig(
+    'line-charge-by-integration',
+    %q{(a) The field at P is the vector sum of contributions from each element of the line charge.
+       (b) Detail of (a).}
+  )
+%>
+\spacebetweenfigs
+<%
+  fig(
+    'line-charge-by-gauss',
+    %q{Using Gauss's law to find the field of a line charge.}
+  )
+%>
+<% end_marg %>
 
 Gauss's law leads directly to the same result. Surround a segment
 of the line charge with a closed circular cylinder of length $L$ and
