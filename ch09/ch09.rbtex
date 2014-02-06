@@ -2097,3 +2097,7 @@ structure to be sure which is the easier, turning a molecule
 upside down, or transferring protons. For us, the lesson to be drawn
 is simply this: The actual microscopic motion of \emph{all} the charges determines
 the total conduction current, free \emph{and} bound.
+
+
+%-----------------------------------------------------------------
+<% end_chapter %>

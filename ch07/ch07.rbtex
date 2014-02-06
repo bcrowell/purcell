@@ -1644,3 +1644,7 @@ because $\vc{E}$ is perpendicular to $\vc{B}$, the other invariant $\vc{E}\cdot\
 follows that in any other frame the transformed fields $\vc{E}'$ and $\vc{B}'$ must
 be equal to each other in magnitude and perpendicular in direction.
 A light wave looks like a light wave in any frame of reference.
+
+
+%-----------------------------------------------------------------
+<% end_chapter %>

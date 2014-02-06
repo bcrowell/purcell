@@ -840,3 +840,7 @@ assurance is worth. Actually, whether the resistor will get too hot
 depends not only on the average power dissipated in it but also on how
 easily it can get rid of the heat. The power rating of the resistor is
 only a rough guide.
+
+
+%-----------------------------------------------------------------
+<% end_chapter %>

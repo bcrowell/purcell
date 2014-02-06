@@ -1320,3 +1320,6 @@ $q/r^2$, or $\lambda/r$. In the case of the sheet, the amount of charge that is
 ``effective,'' in this sense, increases proportionally to $r^2$ as we go out
 from the sheet, which just offsets the $1/r^2$ decrease in the field from
 any given element of charge.
+
+%-----------------------------------------------------------------
+<% end_chapter %>
