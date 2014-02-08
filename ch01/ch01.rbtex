@@ -608,8 +608,8 @@ doubly infinite, for any macroscopic crystal contains $10^{20}$ atoms at
 least. Will the sum converge? Now what we hope to find is the
 potential energy per unit volume or mass of crystal. We confidently
 expect this to be independent of the size of the crystal, on the general
-argument that one end of a macroscopic crystal can have little in-
-ffuence on the other. Two grams of sodium chloride ought to have
+argument that one end of a macroscopic crystal can have little 
+influence on the other. Two grams of sodium chloride ought to have
 twice the potential energy of one gram, and the shape should not be
 important so long as the surface atoms are a small fraction of the total
 number of atoms. We would be wrong in this expectation if the crystal
@@ -1346,6 +1346,14 @@ We see that the field strength is independent of $r$, the distance from
 the sheet. Equation 28 could have been derived more laboriously
 by calculating the vector sum of the contributions to the field at $P$
 from all the little elements of charge in the sheet.
+<% marg(200) %>
+<%
+  fig(
+    'gauss-sheet-of-charge',
+    %q{Using Gauss's law to find the field of an infinite flat sheet of charge.}
+  )
+%>
+<% end_marg %>
 
 The field of an infinitely long line charge, we found, varies inversely
 as the distance from the line, while the field of an infinite sheet has
