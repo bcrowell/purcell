@@ -46,7 +46,7 @@ and since the vector $\vc{E}$ is here
   \vc{E} = K(\hat{\vc{x}} y + \hat{\vc{y}} x)
 \end{equation}
 the scalar product $\vc{E}\cdot\der\vc{s}$ for any element of the path is
-\begin{equation}
+\begin{equation}\label{eqn:element-of-line-integral}
   \vc{E}\cdot\der\vc{s} = K(y\der x + x\der y)
 \end{equation}
 Along the portion of the path from $A$ to $B$, $y = 2x$ and $\der y = 2 dx$.
@@ -57,7 +57,7 @@ Therefore:
          = 4K\int_0^1 x \der x = 2K
 \end{equation}
 Along the path from $B$ to $C$, $y = 2$ and $\der y = 0$.
-\begin{equation}
+\begin{equation}\label{eqn:example-of-path-indepdendence}
   \int_B^C \vc{E}\cdot\der\vc{s} = K \int_B^C(y\der x+x\der y) = K\int_1^22\der x = 2K
 \end{equation}
 The line integral over the path $ABC$ is, therefore, $2K + 2K$, or $4K$.
@@ -80,6 +80,17 @@ of $\vc{E}$, the total $\vc{E}$ due to all the sources, must be path-independent
        $P_1$ and $P_2$, in an electrostatic field}
 }
 \end{equation}
+<% marg(0) %>
+<%
+  fig(
+    'path-independence',
+    %q{(a) A particular path, ABC, in the electric field $E_x=Ky$, $E_y=Kx$. Some field lines are shown.
+       (b) Calculation of the line integral $\int\vc{E}\cdot\der\vc{s}$ over this path.
+           See equations \eqref{eqn:element-of-line-integral} through \eqref{eqn:example-of-path-indepdendence}.
+       (c) A different path between the same points.}
+  )
+%>
+<% end_marg %>
 
 As an illustration, consider the line integral from $A$ to $C$ in Fig. 2.2c,
 over the path via the point $(2,0)$, the field $\vc{E}$ being the same as before.
@@ -167,6 +178,15 @@ unit charge required to bring a unit positive test charge in from infinity
 to the point $(x,y,z)$ in the field of that structure of eight charges.
 
 \section{Gradient of a scalar function}
+<% marg(0) %>
+<%
+  fig(
+    'gradient',
+    %q{The scalar function $f(x,y)$ is represented by the surface in (a).
+       The arrows in (b) represent the vector function $\grad f$.}
+  )
+%>
+<% end_marg %>
 
 Given the electric field, we can find the electric potential function.
 But we can also proceed in the other direction; from the potential we
@@ -234,6 +254,15 @@ radially (as from $A$ to $B$) rather than from $A$ to $C$, in Fig. 2.4. The
 ``slope'' off is thus greatest in the radial direction, so $\grad f$ at any point
 is a radially pointing vector. In fact $\grad f = \hat{\vc{r}} (\der f/\der r)$ in this case,
 $\rhat$ denoting, for any point, a unit vector in the radial direction.
+<% marg(0) %>
+<%
+  fig(
+    'gradient-of-r',
+    %q{The shortest step for a given change in $f$ is the radial step AB, if $f$ is a
+       function of $r$ only.}
+  )
+%>
+<% end_marg %>
 
 \section{Derivation of the field from the potential}\index{electric field!derived from potential}
 
