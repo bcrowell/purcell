@@ -23,7 +23,6 @@ my $missing_page = 292; # this page is missing from the scans
 if ($aa-$k>$missing_page) {$aa--}
 
 my $ppm = "b-000.ppm";
-my $pgm = "x.pgm";
 
 spud("pdfimages -f $aa -l $aa purcell.pdf b && gimp b-000.ppm",1);
 #   ... let user crop out fig
@@ -32,11 +31,11 @@ my @files_to_delete = ();
 
 my $opt = '';
 ############ if ($type eq 'g') { $opt = "-gamma 2.22"}
-spud("convert $ppm -depth 8 $opt -compress none $pgm",1); 
+spud("convert $ppm -depth 8 $opt -compress none x0.pgm",1); 
        # the gamma correction is needed in order to *prevent* darkening
 # push @files_to_delete,$ppm;
 
-my $img = read_pgm($pgm);
+my $img = read_pgm("x0.pgm");
 
 my $w = $img->[0];
 my $h = $img->[1];
@@ -53,11 +52,11 @@ my $mid_gray = 173;
 # At the very end we'll lighten it to this:
 my $final_gray_hex = "b9b9b9";
 
-write_pgm($img,"before_filter_flyspecks.pgm");
+write_pgm($img,"x1.pgm");
 $img = filter_flyspecks($img);
-write_pgm($img,"after_filter_flyspecks.pgm");
-
-$img = darken_black($img);
+write_pgm($img,"x2.pgm");
+# $img = darken_black($img); # see comments above sub for why not used
+write_pgm($img,"x3.pgm");
 
 my $recognized_type = 0;
 if ($type eq 'p') {
@@ -93,13 +92,15 @@ sub process_poster_colors {
   my $extreme_hi_gray = int(255.0-0.372*(255.0-$mid_gray)+0.5); # for mid_gray=118, gives 204
 
   $img = filter_gray_window($img,1,43,$mid_gray,$extreme_hi_gray,80,220); # gray regions
+  write_pgm($img,"x4.pgm");
   $img = filter_gray_window($img,1,173,255,255,-1,256); # white regions
 
-  write_pgm($img,"y.pgm");
+  write_pgm($img,"x5.pgm");
   my $po_opts = "--resolution $resolution";
   # -f 4 option on mkbitmap misbehaves, e.g., on p. 13, fig. 1.6
-  spud("convert y.pgm -function polynomial 3,-.4 - | mkbitmap -x -t 0.45 "
-       ." | potrace $po_opts --svg --turdsize 20 >black.svg",1);
+  spud("convert x5.pgm -function polynomial 3,-.4 x6.pgm",1);
+  spud("mkbitmap -x -t 0.45 <x6.pgm >x7.pgm",1);
+  spud("potrace $po_opts --svg --turdsize 20 <x7.pgm >black.svg",1);
 
   my $gray = gray_layer($img,1,$mid_gray,250);
   write_pgm($gray,"gray.pgm"); # all white or gray
@@ -168,6 +169,7 @@ sub write_pgm {
   close F;
 }
 
+# don't use, causes flyspecks to be made into black dots in svg in p. 36, fig 2.1
 sub darken_black {
   my $img = shift;
   my $w = $img->[0];
@@ -288,7 +290,7 @@ sub filter_flyspecks {
       }
       $avg = $avg/$n;
       if (abs($pixels->[$y]->[$x]-$avg)>60) {
-        $filtered->[$y]->[$x] = int($avg+0.5); # could theoretically affect the next window
+        $filtered->[$y]->[$x] = int($avg+0.5);
         $count++;
       }
     }
