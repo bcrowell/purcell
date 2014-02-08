@@ -22,6 +22,14 @@ of the path-segment vector with the field $\vc{E}$ at that place; add these
 products up for the whole path. The integral as usual is to be 
 regarded as the limit of this sum as the segments are made shorter and
 more numerous without limit.
+<% marg(0) %>
+<%
+  fig(
+    'line-integral',
+    %q{The division of the path into path elements $\der\vc{s}$.}
+  )
+%>
+<% end_marg %>
 
 Let's work out a concrete example. Suppose we have an electric
 field $\vc{E}$ such that $E_x = Ky$ and $E_y = Kx$, where K is a constant. This
