@@ -76,7 +76,7 @@ if ($type eq 'g') {
   write_pgm($no_black,"no_black.pgm");
   my $filtered = blur_light_window($no_black,$img,3,240,0.25,250,43,0.25);
   write_pgm($filtered,"shaded.pgm");
-  spud("convert shaded.pgm -quality 70 shaded.jpg",1);
+  spud("convert shaded.pgm -quality 70 -density 300 shaded.jpg",1);
   process_poster_colors($img,$mid_gray,$resolution,$final_gray_hex,$threshold);
   print STDERR "Use this command line:\n  inkscape gray.svg black.svg shaded.jpg\n";
 }

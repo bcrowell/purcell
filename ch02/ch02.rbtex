@@ -262,6 +262,15 @@ $\rhat$ denoting, for any point, a unit vector in the radial direction.
        function of $r$ only.}
   )
 %>
+\spacebetweenfigs
+<%
+  fig(
+    'potential-of-a-charge-distribution',
+    %q{Each element of the charge distribution $\rho(x',y',z')$ contributes to the potential
+       $\pot$ at the point $(x,y,z)$. The potential at this point is the sum of all such
+       contributions (equation \eqref{eqn:potential-of-a-charge-distribution}).}
+  )
+%>
 <% end_marg %>
 
 \section{Derivation of the field from the potential}\index{electric field!derived from potential}
@@ -321,7 +330,7 @@ potential in each case. If all the sources are contained in some finite
 region, it is always possible, and usually the simplest choice, to put
 zero potential at infinite distance. If we adopt this rule, the potential
 of any charge distribution can be specified by the integral:
-\begin{equation}
+\begin{equation}\label{eqn:potential-of-a-charge-distribution}
   \pot(x,y,z) = \int_{\text{All sources}} \frac{\rho(x',y',z')\der x'\der y'\der z'}{r}
 \end{equation}
 where $r$ is the distance from the volume element $\der x'\der y'\der z'$ to the
