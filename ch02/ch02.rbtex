@@ -685,6 +685,17 @@ it experiences from all the other elements of charge on the
 sphere. We know the electric field strength just outside the sphere:
 $E_{out}=Q/r_0^2=4\pi\sigma$, whereas $E_{in}=0$. Which value should we use
 to calculate the force on the charge?
+<% marg(0) %>
+<%
+  fig(
+    'spherical-shell',
+    %q{The electric potential and electric field of a spherical surface charge.
+       (a) Cut-away view of a sphere.
+       (b) $\pot$ as a function of $r$.
+       (c) $E$ as a function of $r$.}
+  )
+%>
+<% end_marg %>
 
 The correct answer is $\frac{1}{2}(E_{out}+E_{in})$. One way to see this is to
 imagine the surface charge, not as a layer of zero thickness, but as a
@@ -706,6 +717,15 @@ unit area constant. Nothing spectacular happens; the field change
 merely occurs in a shorter distance, and only the volume charge
 density grows infinite.
 % p. 50
+
+<% marg(0) %>
+<%
+  fig(
+    'change-in-field-only-depends-on-sigma',
+    %q{The net change in field at a charge layer depends only on the total charge per unit area.}
+  )
+%>
+<% end_marg %>
 
 Note that even if the charge density is not uniform through the slab,
 as in Fig. 2. 13d, it makes no difference in the net change in $\vc{E}$ from one
@@ -760,6 +780,14 @@ $Q=4\pi r_0^2\sigma$:
   \der W = \frac{Q^2\der r}{2 r_0^2}
 \end{equation}
 
+<% marg(100) %>
+<%
+  fig(
+    'charged-balloon',
+    %q{Shrinking a spherical shell or charged balloon.}
+  )
+%>
+<% end_marg %>
 
 \section{Energy associated with an electric field}\index{electric field!energy of}
 
@@ -914,6 +942,20 @@ to the second, the ``outward'' direction in one case being the ``inward''
 direction in the other. In other words, any flux \emph{out} of $V_1$, through
 this surface $D$, is flux \emph{into} $V_2$. The rest of the surface involved is
 identical to that of the original entire volume.
+<% marg(0) %>
+<%
+  fig(
+    'divergence',
+    %q{(a) A volume V enclosed by a surface
+S is divided (b) into two pieces enclosed
+by $\zu{S}_1$ and by $\zu{S}_2$. No matter how far this is
+carried, as in (c) and (d), the sum of the surface
+integrals over all the pieces equals the
+original surface integral over S, for any
+vector function $\vc{F}$.}
+  )
+%>
+<% end_marg %>
 
 We can keep on subdividing until our internal partitions have
 divided $V$ into a large number of parts, $V_1$, \ldots, $V_i$, \ldots , $V_N$, with surfaces
@@ -1027,6 +1069,16 @@ the point $(x,y,z)$ and sides $\Delta x$, $\Delta y$, and $\Delta z$, as in Fig.
 some other shape will yield the same limit is a question we must face
 later.
 
+<% marg(0) %>
+<%
+  fig(
+    'divergence-cartesian',
+    %q{Calculation of flux from the box of volume $\Delta x\Delta y\Delta z$.
+.}
+  )
+%>
+<% end_marg %>
+
 Consider two opposite faces of the box, the top and bottom for
 instance, which would be represented by the vectors $\zhat \Delta x\Delta y$ and
 $-\zhat \Delta x\Delta y$. The flux through these faces involves only the $z$ component
@@ -1099,6 +1151,22 @@ as the limit when we let the box shrink. [Had we retained terms proportional to
 $(\Delta x)^2$, $(\Delta x\Delta y)$, etc.,
 in the calculation of the flux, they would of course vanish on going to
 the limit.]
+
+<% marg(0) %>
+<%
+  fig(
+    'divergence-independent-of-limit',
+    %q{The limit of the ratio of flux to volume is independent of the shape of the box.}
+  )
+%>
+\spacebetweenfigs
+<%
+  fig(
+    'divergence-tetrahedron',
+    %q{You can prove that \\\\ $\vc{a}_1+\vc{a}_2+\vc{a}_3+\vc{a}_4=0$.}
+  )
+%>
+<% end_marg %>
 
 % p. 58
 Now we can begin to see why this limit is going to be independent

@@ -13,6 +13,16 @@ use strict;
 
 # solving problems
 #   if black lines look furry, reduce $threshold
+my $darken_before_potrace = -0.4;
+   # normally -.4
+   # for art with very thin lines, make it -1
+my $threshold = 0.05;
+   # final threshold for mkbitmap, prepping for potrace
+   # normally 0.05
+   # if this is too high, lines look furry and gray background gets filled with paisley
+   # for art with very thin lines, make it lower
+   # for fig 2.15, p. 54, needed this high, about 0.45
+   # for fig 2.3, p. 40, needed this low, about .05
 
 if ($ARGV[1]+0<1) {die "provide 2 args"}
 
@@ -54,9 +64,6 @@ print STDERR "dimensions will be ",
 my $mid_gray = 173;
 # At the very end we'll lighten it to this:
 my $final_gray_hex = "b9b9b9";
-my $threshold = 0.05;
-   # final threshold for mkbitmap, prepping for potrace
-   # if this is too high; lines look furry
 
 write_pgm($img,"x1.pgm");
 $img = filter_flyspecks($img);
@@ -67,7 +74,7 @@ write_pgm($img,"x3.pgm");
 my $recognized_type = 0;
 if ($type eq 'p') {
   $recognized_type = 1;
-  process_poster_colors($img,$mid_gray,$resolution,$final_gray_hex,$threshold);
+  process_poster_colors($img,$mid_gray,$resolution,$final_gray_hex,$threshold,$darken_before_potrace);
   print STDERR "Use this command line:\n  inkscape gray.svg black.svg\n";
 }
 if ($type eq 'g') {
@@ -77,7 +84,7 @@ if ($type eq 'g') {
   my $filtered = blur_light_window($no_black,$img,3,240,0.25,250,43,0.25);
   write_pgm($filtered,"shaded.pgm");
   spud("convert shaded.pgm -quality 70 -density 300 shaded.jpg",1);
-  process_poster_colors($img,$mid_gray,$resolution,$final_gray_hex,$threshold);
+  process_poster_colors($img,$mid_gray,$resolution,$final_gray_hex,$threshold,$darken_before_potrace);
   print STDERR "Use this command line:\n  inkscape gray.svg black.svg shaded.jpg\n";
 }
 
@@ -96,6 +103,7 @@ sub process_poster_colors {
   my $resolution = shift;
   my $final_gray_hex = shift;
   my $threshold = shift;
+  my $darken_before_potrace = shift;
   my $extreme_hi_gray = int(255.0-0.372*(255.0-$mid_gray)+0.5); # for mid_gray=118, gives 204
 
   $img = filter_gray_window($img,1,43,$mid_gray,$extreme_hi_gray,80,220); # gray regions
@@ -105,7 +113,7 @@ sub process_poster_colors {
   write_pgm($img,"x5.pgm");
   my $po_opts = "--resolution $resolution";
   # -f 4 option on mkbitmap misbehaves, e.g., on p. 13, fig. 1.6
-  spud("convert x5.pgm -function polynomial 3,-.4 x6.pgm",1);
+  spud("convert x5.pgm -function polynomial 3,$darken_before_potrace x6.pgm",1);
   spud("mkbitmap -x -t $threshold <x6.pgm >x7.pgm",1);
   spud("potrace $po_opts --svg --turdsize 20 <x7.pgm >black.svg",1);
 
