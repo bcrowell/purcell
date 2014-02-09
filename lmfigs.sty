@@ -175,9 +175,19 @@
         \parbox{\margincaptionwidth}{\formatlikecaption{\figurelabel#2}}%
         \hfill%
 }
+\newcommand{\docaptionnorefstepwide}[2][l]{%
+	\break%
+        \ifthenelse{\equal{#1}{r}}{\hspace*{\fill}}{}
+        \parbox{\margincaptionwidth}{\formatlikecaption{\figurelabel#2}}%
+        \hfill%
+}
 \newcommand{\docaption}[1]{%
         \refstepcounter{figctr}%
         \docaptionnorefstep{#1}%
+}
+\newcommand{\docaptionwide}[1]{%
+        \refstepcounter{figctr}%
+        \docaptionnorefstepwide{#1}%
 }
 % In the following, the optional first argument is appended to the end of
 % the label. This is necessary sometimes if I'm including the same figure
@@ -205,11 +215,11 @@
   }%
 }
 \newcommand{\fullpagewidthfigx}[5]{ %
-  \begin{figure}[h]
+  \begin{figure}[!htbp]
     \hspace{#3}%
     \begin{minipage}{\pagewidth}
       \includegraphics[width=\pagewidth]{#5/#1}
-      \ifthenelse{\equal{#2}{}}{}{\linebreak[4]\docaption{#2}}
+      \ifthenelse{\equal{#2}{}}{}{\linebreak[4]\docaptionwide{#2}}
       \label{#4:#1} %
     \end{minipage}%
   \end{figure}
@@ -309,7 +319,7 @@
 	\includegraphics[width=\textwidth]{#6/#2} %
         \recordpos{fig:#2#4}{endgraphic}
         \ifthenelse{\equal{#5}{labeled}}{%
-          \docaption{#3}%
+          \docaptionwide{#3}%
           \recordpos{fig:#2#4}{endcaption}
         }{%
           \formatlikecaption{#3}%
@@ -387,7 +397,7 @@
         % causes strange errors (later figures get same caption as earlier ones).
         \begin{lrbox}{\sidecaptionbox}\begin{minipage}{\marginfigwidth}%
           \ifthenelse{\equal{#4}{labeled}}{%
-            \docaptionnorefstep{#3}%
+            \docaptionnorefstepwide{#3}%
           }{%
             \formatlikecaption{#3}
           }
@@ -401,7 +411,7 @@
           \ifthenelse{\lengthtest{\kludge < \marginfigwidth}}{
 	    \begin{lrbox}{\sidecaptionbox}\begin{minipage}{\marginfigwidth}%
               \ifthenelse{\equal{#4}{labeled}}{%
-                \docaptionnorefstep[r]{#3}%
+                \docaptionnorefstepwide[r]{#3}%
               }{%
                 \formatlikecaption{#3}
               }
@@ -456,7 +466,7 @@
                   % #2 = name of graphic
                   % #3 = caption
                   % #4 = directory
-        \vspace{2mm}\narrowfigwidecaptionanon[#1]{#2}{\docaptionnorefstep{#3}}{#4}
+        \vspace{2mm}\narrowfigwidecaptionanon[#1]{#2}{\docaptionnorefstepwide{#3}}{#4}
 }
 %
 \newcommand{\narrowfigwidecaptionanon}[4][t]{%

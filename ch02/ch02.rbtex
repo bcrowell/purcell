@@ -344,6 +344,16 @@ function $\pot(x,y,z)$ we can always find the electric field by taking
 the negative gradient of $\pot$, according to Eq. 15.
 
 \subsection{Potential of two point charges}
+<% marg(0) %>
+<%
+  fig(
+    'potential-of-two-charges',
+    %q{The electric potential $\pot$ at various points in a system of two point charges.
+       $\pot$ goes to zero at infinite distance. $\pot$ is
+       given in units of statvolts, or ergs per unit charge.}
+  )
+%>
+<% end_marg %>
 
  Consider a very simple example,
 the potential of the two point charges shown in Fig. 2.6. A positive
@@ -427,6 +437,14 @@ toward the rim of the disk. What we have is an insulating disk, like
 a sheet of plastic, upon which charge has been ``sprayed'' so that every
 square centimeter of the disk has received, and holds fixed, the same
 amount of charge.
+<% marg(0) %>
+<%
+  fig(
+    'charged-disk-potential-on-axis',
+    %q{Finding the potential at a point P, on the axis of a uniformly charged disk.}
+  )
+%>
+<% end_marg %>
 
 As a start, let's find the potential at some point $P_1$ on the axis of
 symmetry, which we have made the $y$ axis. All charge elements in a
@@ -492,6 +510,18 @@ have drawn, as a dotted curve, the function $\pi a^2\sigma/y$. You can see that
 the axial potential function approaches its asymptotic form pretty
 quickly.
 
+<%
+  fig(
+    'charged-disk-potential-on-axis-graph',
+    %q{A graph of the potential on the axis. The dashed curve is the potential of a point charge
+       $q=\pi a^2\sigma$.},
+    {
+      'width'=>'wide',
+      'sidecaption'=>true
+    }
+  )
+%>
+
 It is not quite so easy to derive the potential for general points
 away from the axis of symmetry, because the definite integral isn't so
 simple. It proves to be something called an \emph{elliptic integral}. These
@@ -519,6 +549,14 @@ whole disk. Thus:
 \end{split}
 \end{align}
 (You can do $\int \theta \sin \theta \der\theta$ by parts---or look it up.)
+<% marg(0) %>
+<%
+  fig(
+    'charged-disk-potential-at-rim',
+    %q{Finding the potential at the point $P_2$ on the rim of the uniformly charged disk.}
+  )
+%>
+<% end_marg %>
 
 Comparing this with $2\pi\sigma a$, the potential at the center of the disk,
 we see that, as we should expect, the potential, falls off from the center
@@ -591,6 +629,18 @@ or
   E_{y^+}-E_{y^-} = 4\pi\sigma A
 \end{equation}
 
+<%
+  fig(
+    'charged-disk-field-and-equipotentials',
+    %q{The electric field of the uniformly charged disk. Solid curves are field lines. Dashed curves
+       show where surfaces of constant potential intersect the plane of the page.},
+    {
+      'width'=>'fullpage',
+      'floatpos'=>'h'
+    }
+  )
+%>
+
 In Eq. 31 we have a general result that holds for \emph{any} surface charge
 distribution, uniform or not: If $\sigma$ is the local density of any surface
 charge layer, there is at that place an abrupt change, or discontinuity,
@@ -617,10 +667,6 @@ through that point, it would require work to move a test charge
 along a constant potential surface.
 
 % p. 48
-
-% full-page figure
-
-% p. 49
 
 \section{The force on a surface charge}\index{charge!surface|see{surface charge}}\index{surface charge!force on}
 
