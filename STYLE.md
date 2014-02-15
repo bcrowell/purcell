@@ -23,7 +23,8 @@ Use \div and \curl where Purcell writes "div" and "curl." For gradients,
 use \grad, which comes out as a bold-faced del symbol (triangle).
 Where the symbol occurs as a scalar, e.g., in Poisson's equation,
 use \nabla. For the Greek letter phi, where it occurs as the electric
-potential, use \pot; for a phase angle, use \phi.
+potential, use \pot; for a phase angle, use \phi. Names of geometrical
+objects like point P and surface S are not italicized.
 
 Equations
 =========

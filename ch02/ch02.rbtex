@@ -1199,6 +1199,21 @@ such that $\div \vc{G} = 0$ could be superimposed. Thus one or two of the
 three partial derivatives could be negative and we might still have
 $\div\vc{F} > 0$. The divergence is a quantity that expresses only one
 aspect of the spatial variation of a vector field.
+<% marg(0) %>
+<%
+  fig(
+    'nonzero-divergence',
+    %q{A field which, in the neighborhood of the point P, has nonzero divergence.}
+  )
+%>
+\spacebetweenfigs
+<%
+  fig(
+    'charged-cylinder',
+    %q{The field inside and outside a uniform cylindrical distribution of charge.}
+  )
+%>
+<% end_marg %>
 
 Let's apply this to an electric field that is rather easy to visualize.
 An infinitely long circular cylinder of radius a is filled with a distribution
@@ -1323,9 +1338,18 @@ and far.\footnote{In fact, it can be shown that Eq. 70 is the \emph{mathematical
 means. if you apply the Laplacian operator to the integral in Eq. 17, you will come
 out with $-4\pi\rho$. We shall not stop to show how this is done; you'll have to take our
 word for it or figure out how to do it.}
+<% marg(-50) %>
+<%
+  fig(
+    'laplace-sphere',
+    %q{The work required to bring in $q'$ and distribute it over the sphere is $q'$ times
+       the \emph{average}, over the sphere, of the potential $\pot$ due to $q$.}
+  )
+%>
+<% end_marg %>
 
 
-\section{Laplace 's equation}
+\section{Laplace's equation}
 
 Wherever $\rho = 0$, that is, in all parts of space containing no electric
 charge, the electric potential $\pot$ has to satisfy the equation
@@ -1416,6 +1440,14 @@ volume empty of sources could still have a net flux through it owing
 to the effect of a source outside the volume, if the field has finite range.
 As suggested in Fig. 2.22, more flux would enter the side near the
 source than would leave the volume.
+<% marg(100) %>
+<%
+  fig(
+    'non-inverse-square',
+    %q{In a non-inverse-square field, the flux through a closed surface is not zero.}
+  )
+%>
+<% end_marg %>
 
 Thus we may say that Eqs. 52 and 54 express the same physical
 law, the inverse-square law that Coulomb established by direct
@@ -1462,6 +1494,15 @@ locally tangent to $C$ (Fig. 2.23a). There are two senses in which $C$
 could be traversed; we have to pick one to make the direction of ds
 unambiguous. Incidentally the curve $C$ need not lie in a plane---it
 can be as crooked as you like.
+<% marg(100) %>
+<%
+  fig(
+    'as-crooked-as-you-like',
+    %q{For the subdivided loop, the sum of all the circulations $\Gamma_i$
+       around the sections is equal to the circulation $\Gamma$ around the original curve C.}
+  )
+%>
+<% end_marg %>
 
 Now bridge $C$ with a new path $B$, thus making two loops, $C_1$ and
 $C_2$, each of which includes $B$ as part of itself (Fig. 2.23b). Take the
@@ -1522,6 +1563,22 @@ direction, of the vector $\curl\vc{F}$. To state this in an equation,
          = \lim \frac{\int_{C_i} \vc{F}\cdot\der\vc{s}}{a_i}
 }
 \end{equation}
+<% marg(100) %>
+<%
+  fig(
+    'curl-right-hand',
+    %q{Right-hand-screw relation between the surface normal and the direction
+       in which the circulation line integral is taken.}
+  )
+%>
+\spacebetweenfigs
+<%
+  fig(
+    'curl-as-limit',
+    %q{The patch shrinks around P, keeping its normal pointing in the x direction.}
+  )
+%>
+<% end_marg %>
 
 For instance, the $x$ component of $\curl\vc{F}$ is obtained by choosing
 $\nhat=\xhat$, as in Fig. 2.25. As the loop shrinks down around the point $P$,
