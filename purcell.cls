@@ -6,6 +6,7 @@
 % Note that 11 pt does work with pdflatex, even though 11 pt is not one of the sizes
 % of CM. I don't know whether it scales up 10 pt or scales down 12 pt, but anyway, it
 % works.
+\newcommand{\formatfigref}[1]{#1}
 %====================== counters =====================================================
 \newcounter{dqctr}[subsection]
 \newcounter{egctr}[chapter]

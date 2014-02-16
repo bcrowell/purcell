@@ -1658,6 +1658,22 @@ agreement with our rule about sign, the direction of integration
 around the rim must be clockwise as seen by someone looking up
 in the direction of $\nhat$. In Fig. 2.27 we look down onto the rectangle
 from above.
+<% marg(0) %>
+<%
+  fig(
+    'circulation-with-normal-vector',
+    %q{Circulation around a rectangular patch with $\hat{\vc{n}}=\zhat$.}
+  )
+%>
+\spacebetweenfigs
+<%
+  fig(
+    'circulation-top-view',
+    %q{Looking down on the patch in figure \figref{circulation-with-normal-vector}.}
+  )
+%>
+<% end_marg %>
+
 
 The line integral of $\vc{A}$ around such a path depends on the variation
 of $A_x$ with $y$ and the variation of $A_y$ with $x$. For if $A_x$ had the same
@@ -1711,6 +1727,20 @@ around the whole rectangle is
                 (\Delta y)\left(\frac{\partial A_y}{\partial x}\right)\Delta x
     = \Delta x \Delta y\left(\frac{\partial A_y}{\partial x}-\frac{\partial A_x}{\partial y}\right)
 \end{equation}
+<% marg(0) %>
+<%
+  fig(
+    'curl-three-orientations',
+    %q{For each orientation, the limit of
+the ratio \emph{circulation}/\emph{area} determines a component
+of $\curl\vc{A}$ at that point. To determine
+all components of the vector $\curl\vc{A}$ at any
+point, the patches should all cluster around
+that point; here they are separated for
+clarity.}
+  )
+%>
+<% end_marg %>
 
 Now $\Delta x \Delta y$ is the magnitude of the area of the enclosed rectangle
 which we have represented by a vector in the $z$ direction. Evidently
@@ -1742,6 +1772,19 @@ theorem. For instance, it is clear that we can freely join different
 rectangles to form other figures, because the line integrals
 along the merging sections of boundary cancel one another exactly
 (Fig. 2.29).
+
+<%
+  fig(
+    'circulations-add',
+    %q{The circulation in the loop at the right is the sum of the circulations in the rectangles,
+       and the area on the right is the sum of the rectangular areas. The diagram shows why the
+       \emph{circulation}/\emph{area} ratio is independent of shape.},
+    {
+      'width'=>'wide',
+      'sidecaption'=>true
+    }
+  )
+%>
 
 We conclude that for any of these orientations, the limit of the
 ratio of circulation to area is independent of the shape of the patch
@@ -1800,6 +1843,14 @@ acquires a circulation. Its curl is not zero over most of the surface.
 Something floating on the surface rotates as it moves along (see
 Probs. 2.16 and 2.26). In the physics of fluid flow, hydrodynamics
 and aerodynamics, this concept is of central importance.
+<% marg(0) %>
+<%
+  fig(
+    'curl-meter',
+    %q{The ``curl-meter.''}
+  )
+%>
+<% end_marg %>
 
 To make a ``curl-meter'' for an electric fie1d---at least in 
 imagination---we could fasten positive charges to a hub by insulating spokes,
@@ -1856,6 +1907,15 @@ this particular field $\vc{E}$ happens to have zero divergence, also:
   \frac{\partial E_x}{\partial x}+\frac{\partial E_y}{\partial y}+\frac{\partial E_z}{\partial z} = 0
 \end{equation}
 It therefore represents an electrostatic field in a \emph{charge-free} region.
+<% marg(0) %>
+<%
+  fig(
+    'path-independence-implies-zero-on-closed-loop',
+    %q{If the line integral between $\zu{P}_1$ and $\zu{P}_2$ is independent of path, the line
+       integral around a closed loop must be zero.}
+  )
+%>
+<% end_marg %>
 
 On the other hand, the equally simple vector function defined by
 $F_x = Ky$; $F_y = -Kx$; $F_z=0$, does not have zero curl. Instead,
@@ -1879,6 +1939,18 @@ loop would or would not be zero, in each picture. That is the essence
 of \emph{curl}. (After you have studied the pictures, think about these questions
 before you compare your reasoning and your conclusions with
 the explanation given in Fig. 2.34 on a later page.)
+
+<%
+  fig(
+    'which-have-zero-div-or-curl',
+    %q{Four of these vector fields have zero divergence. Three have zero curl.
+       Can you spot them?},
+    {
+      'width'=>'wide',
+      'sidecaption'=>true
+    }
+  )
+%>
 
 The curl of a vector field will prove to be a valuable tool later on
 when we deal with electric and magnetic fields whose curl is \emph{not} zero.
