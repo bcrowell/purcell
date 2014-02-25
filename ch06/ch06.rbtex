@@ -28,7 +28,7 @@ motion. To state this precisely, suppose that, at some position and
 time in a particular frame of reference, experiments show that the
 force on a test charge $q$ moving with uniform velocity $\vc{v}$ is given by
 \begin{equation}
-  \vc{F} = q\vc{E}+\vc{v}\times\vc{B}
+  \vc{F} = q\vc{E}+\frac{q}{c}\vc{v}\times\vc{B}
 \end{equation}
 where $\vc{E}$ and $\vc{B}$ are vectors that do not depend on v. If that holds,
 we define $\vc{E}$ as the electric field at that place and we \emph{define} $\vc{B}$ as the

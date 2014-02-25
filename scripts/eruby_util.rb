@@ -1045,6 +1045,7 @@ def remove_titlecase(title)
            # If I had a word like "amplification" in a title, I'd need to special-case that below and change it back.
   }
   foo.gsub!(/or Machines/,"or machines") # LM 4.4 (Ernst Mach)
+  foo.gsub!(/motion Machine/,"motion machine") # LM 10 (Ernst Mach)
   foo.gsub!(/simple Machines/,"simple machines") # LM 8.3 (Ernst Mach)
   foo.gsub!(/e=mc/,"E=mc") # LM 25
   foo.gsub!(/ke=/,"KE=") # Mechanics 12.4
