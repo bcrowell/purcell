@@ -11,15 +11,6 @@ with many improvements. The third edition, by Purcell and Morin, is in print as 
 My initial purpose in this project is to produce a verbatim edition, in LaTeX format,
 of the free 1965 version, which will be free for everyone to use.
 
-For more legal details, see the COPYRIGHT file and the copyright page of the book itself.
-
-I request that users of this book not be jerks. In particular, the commercial edition
-has a solutions manual covering the ``exercises,'' i.e., the subset of the problems that don't have
-solutions in the back of the book. It would be an antisocial act to distribute solutions
-to these indiscriminately.
-
-The book's web page is here: http://www.lightandmatter.com/purcell/
-
 Current status
 ==============
 
