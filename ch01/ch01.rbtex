@@ -814,8 +814,10 @@ sources at one spot.
 <%
   fig(
     'superposed-fields-of-unequal-opposite-charges',
-    %q{The field in the vicinity of two charges, $q_1=+3$, $q_2=-1$, is the superposition
-       of the fields in figures \ref{fig:fields-of-point-charges}a and \ref{fig:fields-of-point-charges}b.},
+    %Q{The field in the vicinity of two charges, $q_1=+3$, $q_2=-1$, is the superposition
+       of the fields in figures 
+       #{ref_workaround('fig:fields-of-point-charges')}a
+       and #{ref_workaround('fig:fields-of-point-charges')}b.},
     {
       'width'=>'fullpage'
     }
