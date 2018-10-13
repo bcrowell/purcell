@@ -264,7 +264,7 @@ space itself has some built-in directional property, for with two
 point charges alone in empty and isotropic space, no other direction
 could be singled out.
 
-If the "point charge'' itself had some internal structure, with an
+If the ``point charge'' itself had some internal structure, with an
 axis defining a direction, then it would have to be described by more
 than the mere scalar quantity q. We suppose, in writing Eq. 1, that
 both charges are we localized, occupying regions small compared to
@@ -344,7 +344,7 @@ law (Eq. 1) can be used to calculate the interaction of every pair.
 This is the basis of a principle of \intro{superposition}, which we
 shall invoke again and again in our study of electromagnetism.
 Superposition means combining two sets of sources into one system by
-adding the second system "on top of'' the first without altering the
+adding the second system ``on top of'' the first without altering the
 configuration of either one. Our principle assures us that the force
 on a charge places at any point in the combined system will be the
 vector sum of the forces that each set of sources, acting alone,
@@ -659,7 +659,7 @@ lutely; if we were so foolish as to try to sum all the positive terms
 first, that sum would diverge. To evaluate such a sum, we should
 arrange it so that as we proceed outward, including ever more distant
 ions, we include them in groups which represent nearly neutral shells
-of material. Then if the sum is broken oil", the more remote ions
+of material. Then if the sum is broken off, the more remote ions
 which have been neglected will be such an even mixture of positive
 and negative charges that we can be confident their contribution
 would have been small. This is a crude way to describe what is
@@ -671,13 +671,13 @@ electronic computer. The answer in this example happens to be:
 \end{equation}
 Here $N$, the number of ions, is twice the number of NaCl molecules.
 
-The negative sign reffects the dominance of the nearest neighbors,
+The negative sign reflects the dominance of the nearest neighbors,
 and shows that work would have to be done to take the crystal apart
 into ions. In other words, the electric energy helps to explain the
 cohesion of the crystal. If this were the whole story, however, the
 crystal would collapse, for the potential energy of the charge distribution
 is obviously louiered by an overall reduction in the spacing
-a. We meet here again the familiar dilemma of classica1--that
+a. We meet here again the familiar dilemma of classical--that
 is, nonquantum--physics. No system can be in stable equilibrium,
 according to classical laws, under the action of electric forces alone.
 Does this make our analysis useless? Not at all. Remarkably, and
@@ -1215,7 +1215,7 @@ field at all points on $S_1$ is the same as if all the charge within $S_1$ were
 concentrated at the center. The same statement applies to a sphere
 drawn inside the charge distribution. The field at any point on $S_2$
 is the same as if all charge within $S_2$ were at the center, and all charge
-outside $S_2$ absent. Evidently the field inside a "hollow" spherical
+outside $S_2$ absent. Evidently the field inside a ``hollow'' spherical
 charge distribution is zero (Fig. 1.20).
 <% marg(0) %>
 <%
@@ -1314,7 +1314,7 @@ Gauss's law leads directly to the same result. Surround a segment
 of the line charge with a closed circular cylinder of length $L$ and
 radius $r$, as in Fig. 1.22, and consider the flux through this surface.
 As we have already noted, symmetry guarantees that the field is
-radial, so the flux through the ends of the "tin can" is zero. The flux
+radial, so the flux through the ends of the ``tin can'' is zero. The flux
 through the cylindrical surface is simply the area, $2\pi r L$, times $E_r$, the
 field at the surface. On the other hand, the charge enclosed by the
 surface is just $\lambda L$, so Gauss's law gives us $2\pi r E_r=4\pi\lambda L$ or
